@@ -37,14 +37,14 @@ jobs:
   - script: powershell $ProgressPreference='silentlyContinue';Invoke-WebRequest "https://api.nest.saker.build/bundle/download/saker.build-v$((Invoke-WebRequest "https://mirror.nest.saker.build/badges/saker.build/latest.txt" -UseBasicParsing).Content)" -OutFile saker.build.jar
     displayName: 'Download saker.build'
     condition: eq( variables['Agent.OS'], 'Windows_NT' )
-  - script: java -jar s/saker.build.jar -bd build -trace pwd://build/build_export.trace export
+  - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_export.trace export
     displayName: 'Install saker.windows'
-    workingDirectory: s/saker.windows
-  - script: java -jar s/saker.build.jar -bd build -trace pwd://build/build_export.trace export
+    workingDirectory: saker.windows
+  - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_export.trace export
     displayName: 'Install saker.android'
-    workingDirectory: s/saker.android
-  - script: java -jar s/saker.build.jar -bd build -trace pwd://build/build_export.trace export
+    workingDirectory: saker.android
+  - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_export.trace export
     displayName: 'Install saker.apple'
-    workingDirectory: s/saker.apple
+    workingDirectory: saker.apple
     condition: eq( variables['Agent.OS'], 'Darwin' )
     
