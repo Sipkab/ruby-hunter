@@ -140,7 +140,7 @@ resources(
 	$audio = sipka.rh.audio.choose($audioapi, PlatformName: $platformname)
 }
 compile_win32(
-	in resources = resources(platformname: win32, debug: $debug),
+	in resources = resources(platformname: win32),
 	in steamavailable = false
 	
 	out steamavailable,
