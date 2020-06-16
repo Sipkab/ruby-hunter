@@ -17,9 +17,9 @@ resources:
     endpoint: Sipkab
     
 jobs:
-- job: myjob
+- job:
   pool:
-    vmImage: 'ubuntu-latest'
+    vmImage: 'windows-latest'
   steps:
   - checkout: self
     path: s/ruby-hunter
@@ -37,14 +37,22 @@ jobs:
   - script: powershell $ProgressPreference='silentlyContinue';Invoke-WebRequest "https://api.nest.saker.build/bundle/download/saker.build-v$((Invoke-WebRequest "https://mirror.nest.saker.build/badges/saker.build/latest.txt" -UseBasicParsing).Content)" -OutFile saker.build.jar
     displayName: 'Download saker.build'
     condition: eq( variables['Agent.OS'], 'Windows_NT' )
-  - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_export.trace export
+  - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_install.trace install
     displayName: 'Install saker.windows'
     workingDirectory: saker.windows
-  - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_export.trace export
+  - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_install.trace install
     displayName: 'Install saker.android'
     workingDirectory: saker.android
-  - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_export.trace export
+  - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_install.trace install
     displayName: 'Install saker.apple'
     workingDirectory: saker.apple
     condition: eq( variables['Agent.OS'], 'Darwin' )
+  
+  - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_install.trace install
+    displayName: 'Install sipka.rubyhunter'
+    workingDirectory: ruby-hunter
     
+  - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_compile_win32.trace install
+    displayName: 'Compile win32 sipka.rubyhunter'
+    workingDirectory: ruby-hunter
+    condition: eq( variables['Agent.OS'], 'Windows_NT' )

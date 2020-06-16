@@ -1,0 +1,249 @@
+static(SapphireDiffuseToAmbientFactors) = [
+		[".*sapphire\\.mtl"						, 0.45],
+	 	[".*?led.*sapphire\\.mtl"				, 1.0],
+	 	["laser.*sapphire\\.mtl"				, 0.9],
+	 	["converter_ring\\.sapphire\\.mtl"		, 1.0],
+	 	["converter_lightning\\.sapphire\\.mtl"	, 0.8]
+	]
+static(NAME) = "Ruby Hunter"
+resources(
+	in platformname,
+	in debug = true,
+	in appname = static(NAME),
+	
+	out projectconfig,
+	out types,
+	out log,
+	out platform,
+	out xmlcompile,
+	out assetcompile
+	out renderer,
+	out rescompile,
+	out shadercompile,
+	out audio,	
+	out glregistry,
+	out assetgen,
+	out debug,
+	
+	out appname,
+	
+	out sourcedirs = [
+		$types[SourceDirectory],
+		$projectconfig[SourceDirectory],
+		$log[SourceDirectory],
+		$platform[SourceDirectory],
+		$xmlcompile[SourceDirectory],
+		$assetcompile[SourceDirectory],
+		$renderer[SourceDirectory],
+		$rescompile[SourceDirectory],
+		$shadercompile[SourceDirectory],
+		$audio[SourceDirectory],
+	] + ($glregistry == null ? [] : [ $glregistry[SourceDirectory] ]),
+) {
+	if $platformname == android {
+		$renderapi = [opengles20]
+		$audioapi = opensles10_android
+		$glregistry = sipka.gl.registry.parse(Feature: GL_ES_VERSION_2_0, Directory: opengles20, PlatformName: $platformname)
+	} else if $platformname == win32 {
+		$renderapi = [opengl30, directx11]
+		$audioapi = xaudio2
+		$glregistry = sipka.gl.registry.parse(Feature: GL_VERSION_3_0, Directory: opengl30, PlatformName: $platformname)
+	} else if $platformname == winstore {
+		$renderapi = [directx11]
+		$audioapi = xaudio2
+		$glregistry = null;
+	} else if $platformname == macosx {
+		$renderapi = [opengl30]
+		$audioapi = openal
+		$glregistry = sipka.gl.registry.parse(Feature: GL_VERSION_3_0, Directory: opengl30, PlatformName: $platformname)
+	} else if $platformname == ios {
+		$renderapi = [opengles20]
+		$audioapi = openal
+		$glregistry = sipka.gl.registry.parse(Feature: GL_ES_VERSION_2_0, Directory: opengles20, PlatformName: $platformname)
+	} else if $platformname == linux {
+		$renderapi = [opengl30]
+		$audioapi = openal
+		$glregistry = sipka.gl.registry.parse(Feature: GL_ES_VERSION_2_0, Directory: opengles20, PlatformName: $platformname)
+	} else {
+		abort("Unknown platform: {$platformname}")
+	}
+	
+	$levelconvert = sipka.rh.level.convert(Levels: gameres/game_sapphire/levels/**/*.sylev)
+	$fontconvert = sipka.rh.font.convert(
+		Input: gameres/**/*.ttf, 
+		MinCodePoint: 0, 
+		MaxCodePoint: 255,
+		Debug: $debug,
+	)
+	$shadercompile = sipka.unishader.compile(RenderAPI: $renderapi, Input: gameres/shaders/**/*.usl)
+	$mat = sipka.rh.mat3d.translate(
+		Input: gameres/**/*.mtl, 
+		DiffuseToAmbientFactors: static(SapphireDiffuseToAmbientFactors)
+	)
+	$objtranslate = sipka.rh.obj3d.translate(
+		Input: gameres/**/*.obj,
+		Materials: $mat,
+	)
+	
+	$textureconvert = sipka.rh.texture.convert(gameres/**/*.sapp.png)
+	
+	$assetallocate = sipka.rh.assets.allocate(
+		Input: [
+			gameres/**/*.png,
+			gameres/**/*.ogg,
+			gameres/**/*.wav,
+			gameres/**/*.txt,
+		],
+		ExternalAssets: [
+			$objtranslate[Assets],
+			$levelconvert[Assets],
+			$xmlparse[Assets],
+			$fontconvert[Assets],
+			$textureconvert[Assets],
+			$shadercompile[Assets],
+		]
+	)
+	$assetcompile = sipka.rh.assets.compile($assetallocate)
+	
+	$rescompile = sipka.rh.resources.compile(gameres/**/*.xml, Assets: $assetcompile)
+	
+	$types = sipka.rh.types.parse(
+		Input: configres/**/*.xml,
+		ExternalTypes: [
+			$assetcompile[TypeDeclarations],
+			$rescompile[TypeDeclarations],
+			$renderer[TypeDeclarations],
+			$shadercompile[TypeDeclarations],
+			$audio[TypeDeclarations],
+		]
+	)
+	
+	$xmlparse = sipka.rh.xml.parse(
+		Configurations: [configres/**/*.xml], 
+		Input: [gameres/**/*.xml] + $textureconvert[Xmls] + $fontconvert[Xmls]
+	)
+	$xmlcompile = sipka.rh.xml.compile($xmlparse, Types: $types)
+	
+	$obj3dlink = sipka.rh.obj3d.link(Translated: $objtranslate, Assets: $assetallocate)
+	$assetgen = sipka.rh.assets.generate($assetcompile, With: [$obj3dlink, $xmlcompile])
+	
+	$log = sipka.rh.log.sources(Debug: $debug, Types: $types, PlatformName: $platformname)
+	
+	$renderer = sipka.rh.renderer.choose(RenderAPI: $renderapi, PlatformName: $platformname)
+	
+	$projectconfig = sipka.rh.project.configure(Debug: $debug, ApplicationName: {
+		Default: $appname
+	})
+	
+	$platform = sipka.rh.platform.choose($platformname)
+	
+	$audio = sipka.rh.audio.choose($audioapi, PlatformName: $platformname)
+}
+compile_win32(
+	in resources = resources(platformname: win32, debug: $debug),
+	in steamavailable = false
+	
+	out steamavailable,
+	out resources,
+	out link,
+){
+
+	$compileroptions = [
+		saker.msvc.coptions.preset(win32),
+		{
+			SimpleCompilerParameters: [
+				"/Z7",
+				# no rtti
+				"/GR-",
+			],
+			MacroDefinitions: {
+				_CRT_SECURE_NO_WARNINGS: "",
+				_HAS_EXCEPTIONS: "0",
+			}
+		},
+		{
+			Identifier: steam,
+			MacroDefinitions: {
+				SAPPHIRE_STEAM_API_AVAILABLE: 1
+			},
+		}
+	]
+	$linkeroptions = [
+		saker.msvc.coptions.preset(win32),
+		{
+			SimpleLinkerParameters: [
+				/DEBUG,
+				"/ENTRY:mainCRTStartup",
+			]
+		},
+		{
+			Identifier: steam,
+			Architecture: x86,
+			LibraryPath: 3rdparty/steam_lib/,
+			SimpleLinkerParameters: [
+				"steam_api.lib"
+			]
+		},
+		{
+			Identifier: steam,
+			Architecture: x64,
+			LibraryPath: 3rdparty/steam_lib/,
+			SimpleLinkerParameters: [
+				"steam_api64.lib"
+			]
+		}
+	]
+	
+	$thirdpartycompile = saker.msvc.ccompile(
+		{
+			Files: [3rdparty/**/*.cpp, 3rdparty/**/*.c],
+			IncludeDirectories: 3rdparty/
+		},
+		CompilerOptions: $compileroptions,
+		Identifier: "3rdparty-win32{ $steamavailable ? "-steam" : "" }"
+	)
+	$includedirs = [
+		3rdparty/,
+		src/userapp/,
+		src/rhfw/,
+	] + $resources[sourcedirs]
+	
+	$maincompile = saker.msvc.ccompile(
+		[
+			{
+				Files: [
+					src/userapp/**/*.cpp,
+					src/rhfw/framework/**/*.cpp,
+					src/rhfw/win32platform/**/*.cpp,
+					src/rhfw/winsock/**/*.cpp,
+					src/rhfw/xinput/**/*.cpp,
+					src/rhfw/xaudio2/**/*.cpp,
+					src/rhfw/directx11/**/*.cpp,
+					src/rhfw/opengl30/**/*.cpp,
+					src/rhfw/directinput/**/*.cpp,
+				] + foreach $dir in $resources[sourcedirs] : ["{$dir}/**/*.cpp"],
+				IncludeDirectories: $includedirs,
+				MacroDefinitions: {
+					_WIN32_WINNT: "0x0601",
+				}
+			},
+		],
+		CompilerOptions: $compileroptions,
+		Identifier: "main-win32{ $steamavailable ? "-steam" : "" }"
+	)
+	
+	$link = saker.msvc.clink(
+		Input:[
+			$thirdpartycompile,
+			$maincompile,
+			icons/win32/resources.res,
+		],
+		Identifier: "main-win32{ $steamavailable ? "-steam" : "" }",
+		LinkerOptions: $linkeroptions,
+		BinaryName: $resources[appname],
+	)
+}
+
+compile_win32_steam() {
+	compilewin32(steamavailable: true)
+}
