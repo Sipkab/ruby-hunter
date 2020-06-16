@@ -1,0 +1,36 @@
+n Treasure
+ldeutsch n Sch�tze
+D 2
+C 5
+E 0
+M 0 Money for Nothing
+i What is the easiest way
+i to make a Scott angry?
+i Just give him more than
+i he can carry.
+ldeutsch i Wie kann man einen Schotten
+ldeutsch i am besten �rgern?
+ldeutsch i Indem man ihm mehr schenkt,
+ldeutsch i als er tragen kann.
+a Reinhard
+m 16 10
+################
+#              #
+#      0       #
+#     ***      #
+#    *$*$$     #
+#   *$$***$    #
+#  $$**$$$**   #
+# ******$$*$* 1#
+#*$$***$**$*$$E#
+################
+R 25668
+0 0
+1 Demo 1
+2 ...ttt.llllllllllll..brrr.r..lllbrrrr...
+2 r...rrr.l.rrr..bb.llllllllllll.rrrrrrrrr
+2 rr.llllll.r.trrrrrrr.b..........
+
+uuid c45ebf1383c2adacee7a357035024ad7
+
+leaderboard steps time

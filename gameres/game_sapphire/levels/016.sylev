@@ -1,0 +1,91 @@
+n Bio recycling
+ldeutsch n Bio-Recyling
+D 3
+C 4
+e 70
+s 0
+i The yam yams are a valuable resource.
+ldeutsch i Die YamYams sind ein
+ldeutsch i wertvoller Rohstoff.
+a Emerald Mine
+m 64 32
+################################################################
+#.............................1 ...............................#
+#.............................................................0#
+#...........0......0.......0.............0.....................#
+#......................................................0.......#
+#......0.......................................00..............#
+#........................................ .....................#
+#........ .....0..........0.....0........ .....0............0..#
+#........ ...........0..................0 .....................#
+#...0....^...............................^  ...................#
+#........ ..0.....................0.....................0......#
+#................... .....0....................................#
+#..............0....^..0.........0...........................0.#
+#.......0........... ..................0........0...0.... .....#
+#... ..................... ..............................^.....#
+#... ........0............^.............................. .....#
+#...^..................... 0...........^........ ........ .....#
+#... ...........0......... .......0.... ...0.... ..............#
+#...   ......................0................^    .0..........#
+#..0............................................ ..............#
+#.0........0.................................0..^..............#
+#..............................................................#
+#............... ^  ........................................Q..#
+#............................................................E.#
+#cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc#
+#                                                              #
+#                                                              #
+#                                                              #
+#                                                              #
+#                                                              #
+#                                                              #
+################################################################
+y 000000000
+y 000000000
+y 000000000
+y 000000000
+R 28192
+0 8
+1 Demo 1
+2 ...brrrrrrrrrrb..brrb...................
+2 ................LRrrrttrrrrrrrrrrrrrrrrb
+2 bbbbbbb..llltl.tllb.r..r.b.R.b......RLll
+2 llll..lbb........L.b.....L.ttt..bbb.lrrr
+2 bbbbbrrrrrr..rr....b..b.llllb..trrrr....
+2 ...................trrb..l...........t.l
+2 lbb.ttrrb.l.rrr..lll..l..tt.llb.bbllttr.
+2 tttt..bbbrttttl.............r...bb..br.t
+2 ttll....rr..ttrrbll...bbbb.ll.lllbbbbllt
+2 tttl.bbbbll..l.l..lltt.r.brr..ltt.l.....
+2 .........r.brrr.bl.ttlllllttttttllllllb.
+2 ....RLllll.rrrr.tttt.bbbbrrrbbrbbbbbblll
+2 lttttlll...rrr.bbbbrttttrrrbbbbllttttrrt
+2 tll..r.lbbrrttttrrrbll.rrrrrrrrrtttlttt.
+2 .lllbblttttt.rttll.trrrbbbll..rrrrrrlrrr
+2 rllllllllllbbbbbllllllbb.ttttll......ttr
+2 rttrrrbll.bl.l.rbbbbbbbbbbb.l.r..lbr.l.b
+2 bblllllllllltttttttttttlllllb....Rll..r.
+2 .t..lttttl.tllb.trrbll.bL.b..LRrr.tttttt
+2 .rbbbbbbbbrrrrrrbbbbbbbbbbbllltttlt..bbb
+2 b.tttttr......b..ttr..lllllttrr.llt..rrb
+2 b..lllb.rrrr.llllllllb..bb..ltttlbbb....
+2 .........Rll.........lttrrrrrrrrbbb..bbt
+2 tttttttlll...........rrrr..ttrrl..rb.lll
+2 l.blllbbbbbbbbllllll...lttttttt.rtttl.tl
+2 lb....tlll.ttllbb..br...ll......Rr.r....
+2 .......Rlll....t.trrr.lllbbbbbbbbbbbbrrr
+2 ttttrr.rtttttttttttlltttrr.trrrb.l.tllb.
+2 rr.b..RLlll.....rrrrr..bbbbbrb..bbbbbbbb
+2 lbbbbllltttlll.bbbrrttll.bblttlllbrrttrt
+2 t.ltttrrbrrt.bbbbbbllllrrrrrttttttttrr.b
+2 lrrt....rr.rrrrrrrrrrrrttrrrrrrrrtrrrrrr
+2 rrrrrrrrrrrrrrrrrrrbbbbbbbbbbbbbbbbb.rrr
+2 bbb.....llllllllllllllllllllllllllllllll
+2 llllllllllllllllllllllllllllrrrrrrrrrrrr
+2 rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+2 rrrrrtttttttrrrr.......
+
+uuid 8a823377dd5261d2fa14da58b39be857
+
+leaderboard steps time gems

@@ -1,0 +1,264 @@
+language unified_shading_lang {
+	
+	regex shader_types "(float[1-4]?(x[1-4])?)|(vertex_position)|(fragment_color)|(mat[2-4])|(texture[2-3]D)|(depth)";
+	regex identifier_name "[a-zA-Z_][a-zA-Z_0-9]*";
+	regex operators "-|\+|/|\*|==|!=|<=|>=|<|>|&&|\|\||=";
+	regex WHITESPACE "([\s]+)|(/\*(.|[\s])*?\*/)|(//[^\n]*)";
+
+	inorder expression;
+
+	inorder attribute_decl {
+		value attribute 1{
+			skip "@" 1;
+			value key 1{
+				matches as attribute_key identifier_name 1;
+			}
+			inorder ?{
+				skip WHITESPACE *;
+				skip "=" 1;
+				skip WHITESPACE *;
+				value value 1{
+					matches as attribute_value identifier_name 1;
+				}
+			}
+		}
+		inorder *{
+			skip WHITESPACE *;
+			skip as attribute_separator "," 1;
+			skip WHITESPACE *;
+			include attribute 1;
+		}
+	}
+
+	inorder general_var_decl(occurrence init_occur){
+		value attributes ?{
+			include attribute_decl 1;		
+			skip WHITESPACE +;
+		}
+		value var_type 1{
+			matches shader_types 1;
+		}
+		skip WHITESPACE +;
+		value var_name 1{
+			matches identifier_name 1;
+		}
+		value initial_value init_occur{
+			skip WHITESPACE *;
+			skip "=" 1;
+			skip WHITESPACE *;
+			include expression 1;
+		}
+		skip WHITESPACE *;
+		skip ";" 1;
+	}
+	
+	inorder var_decl {
+		include general_var_decl(0) 1;
+	}
+	
+	inorder initable_var_decl {
+		include general_var_decl(?) 1;
+	}
+	
+	inorder uniform_struct_decl {
+		skip as uniform_keyword "uniform"  1;
+		skip WHITESPACE +;
+		value uniform_name 1{
+			matches as uniform_name identifier_name 1;
+		}
+		skip WHITESPACE *;
+		skip as uniform_open_bracket "\{" 1;
+		
+		anyorder ?{
+			skip WHITESPACE *;
+			
+			value variable * {
+				include var_decl 1;
+			}
+		}
+		
+		skip as uniform_close_bracket "\}" 1;
+	}
+
+	value function_call {
+		value function_name 1{
+			matches as func_name identifier_name 1;
+		}
+		skip WHITESPACE *;
+		skip as func_args_paren "\(" 1;
+		skip WHITESPACE *;
+		inorder ?{
+			value function_arg 1 {
+				include expression 1;
+			}
+			inorder * {
+				skip as func_arg_separator "," 1;
+				include function_arg 1;
+			}
+		}
+		skip WHITESPACE *;
+		skip as func_args_paren "\)" 1;
+		value scope *{
+			skip "\." 1;
+			matches identifier_name 1;
+		}
+	}
+	
+	firstorder literal {
+		value float_literal 1 {
+			firstorder 1{
+				inorder 1{
+					matches "[0-9]+\.[0-9]+" 1;
+					skip "f" ?;
+				}
+				inorder 1{
+					matches "[0-9]+" 1;
+					skip "f" 1;
+				}
+			}
+		}
+		value int_literal 1 {
+			matches "[0-9]+" 1;
+		}
+		value bool_literal 1{
+			matches "true|false" 1;
+		}
+	}
+
+	inorder expression {
+		skip WHITESPACE *;
+		firstorder 1 {
+			include function_call 1;
+			value parentheses 1{
+				skip as expression_paren "\(" 1;
+				include expression 1;
+				skip as expression_paren "\)" 1;
+			}
+			include literal 1;
+			value variable 1{
+				matches identifier_name 1;
+				value scope *{
+					skip "\." 1;
+					matches as scope_var_member identifier_name 1;
+				}
+			}
+		}
+		inorder ? {
+			skip WHITESPACE *;
+			value operator 1 {
+				matches as expression_operator operators 1;
+			}
+			include expression 1;
+		}
+		skip WHITESPACE *;
+	}
+
+	anyorder statement_block {
+		skip WHITESPACE *;
+		skip ";" *;
+		value variable_decl * {
+			include initable_var_decl 1;
+		}
+		value statement * {
+			include expression 1;
+			skip WHITESPACE *;
+			skip ";" 1;
+		}
+		value if_statement * {
+			skip "if" 1;
+			skip WHITESPACE *;
+			skip "\(" 1;
+			value if_condition 1{
+				include expression 1;
+			}
+			skip "\)" 1;
+			skip WHITESPACE *;
+			value if_body 1 {
+				skip "\{" 1;
+				include statement_block 1;
+				skip "\}" 1;
+			}
+			value else_body ? {
+				skip WHITESPACE *;
+				skip "else" 1;
+				skip WHITESPACE *;
+				skip "\{" 1;
+				include statement_block 1;
+				skip "\}" 1;
+			}
+		}
+		value while_statement * {
+			skip "while" 1;
+			skip WHITESPACE *;
+			skip "\(" 1;
+			value while_condition 1{
+				include expression 1;
+			}
+			skip "\)" 1;
+			skip WHITESPACE *;
+			value while_body 1 {
+				skip "\{" 1;
+				include statement_block 1;
+				skip "\}" 1;
+			}
+		}
+	}
+	
+	value shader_decl(regex shader_name){
+		skip shader_name 1;
+		skip WHITESPACE *;
+		skip "\{" 1;
+		
+		anyorder ? {
+			skip WHITESPACE *;
+			
+			value input_var * {
+				value attributes ?{
+					include attribute_decl 1;		
+					skip WHITESPACE +;
+				}
+				skip "in" 1;
+				skip WHITESPACE +;
+				include var_decl 1;
+			}
+			value output_var * {
+				value attributes ?{
+					include attribute_decl 1;		
+					skip WHITESPACE +;
+				}
+				skip "out" 1;
+				skip WHITESPACE +;
+				include initable_var_decl 1;
+			}
+			value uniform_var * {
+				include uniform_struct_decl 1;
+			}
+			include statement_block *;
+		}
+		
+		skip "\}" 1;
+	}
+	
+	value shader_node {
+		skip "shader" 1;
+		skip WHITESPACE +;
+		matches identifier_name 1;
+		skip WHITESPACE *;
+		
+		skip "\{" 1;
+		
+		anyorder ?{
+			skip WHITESPACE *;
+			include shader_decl as vertex_shader("vertex") ?;
+			include shader_decl as fragment_shader("fragment") ?;
+		}
+		
+		skip "\}" 1;
+	}
+
+	anyorder *{
+		skip WHITESPACE *;
+		
+		include shader_node *;
+	}
+}

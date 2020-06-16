@@ -1,0 +1,47 @@
+n Sandwich
+D 6
+e 6
+s 0
+p 0
+M 0 Move on
+i Getting hungry?
+a Alexander
+f Alexander
+m 10 9
+~ 1 >    E
+~ .0..0.  
+~.0yyyy.0 
+.!QQQQQQ!.
+~%******% 
+.!QQQQQQ!.
+~0.yyyy0. 
+~ .0.... ^
+~         
+y %**!QQ0.y
+R 67223
+0 0
+1 Demo 1
+2 llbb...tr..............lbbRtttrrllbbb.ut
+2 r...trr...llbltrrrrrrrrbrbbLbbLbb...l...
+2 .............blllltll.lrbrrrrrrrllllllll
+2 lllllrrt....llb...ultt.......bbbRrltttbb
+2 tbbutt........bbbrtrrrBllllttbbrrrrbrrrl
+2 tLbrrtrtttttmtt........bbrbbbbblbblllltl
+2 llltttTbbrbrrr.....lllltttttttbbbbrrRllt
+2 ttrrrrrrrrrt........
+R 71257
+0 0
+1 Demo 2
+2 llbbbRbbRttttbttbrr...trrbrtrrbrrbbLbttt
+2 llltllbllrrrr....trrbltllllllllbbbtbRttt
+2 rrrrrbtrrrbbrbbbLtttlttlllbrrbllllttlllb
+2 rbr.r.r.r.r.r.................rrbbb.....
+2 .....tttllllllllrrrrrrrrbtllllllrrrrrrbb
+2 bbttttcbb.........ttbbb......tttcbl.....
+2 ...tlLrttt.....lllbbbbblBttt.srrrr...llb
+2 srttt......bllBltllbbrrbRttttrrsr.......
+2 ...
+
+uuid 6663e5386c3d85d4a846edd44995141d
+
+leaderboard steps time gems

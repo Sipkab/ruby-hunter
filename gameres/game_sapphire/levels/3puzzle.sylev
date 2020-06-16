@@ -1,0 +1,66 @@
+n Puzzle in a puzzle
+ldeutsch n Puzzle im Puzzle
+D 6
+C 2
+e 47
+s 3
+p 0
+d 4
+o 1
+w 8
+M 0 Stars
+i Peel the onion skin by skin.
+ldeutsch i Schäle die Zwiebel
+ldeutsch i Schale um Schale.
+a Ronald
+m 26 23
++++++d d+++++++++++++++   
++   + d d++000 +.S... +   
++8+ B    B0.b. Y..... +   
++   +a a +$$$$++....c +   
+++B+++a+a++++++++++*_ +   
++   +     7      7+%_ +   
++.0.+  ########## +___+   
++0@.+6     5    # + _ +   
++@0.+  8+++++++6# +u u+   
++0@.+   + Y Y + # +   +   
++@0.+   + _ #E+ # +___++++
++0@.+   G #o##+ # +   Yy1+
++*0.+   +*###*+ #8++++++++
++.@.+  8+*****+ # G .*+   
++...+   +++w+++6# + .*+   
++.r.+6    7     # + .++   
++...+  ########## + .*+   
+++R++    5      5 + .*+   
++# .+++++++++++++++ .*+   
++u0.                .++   
++ | .................*+   
++g ++**+****+***+**+**+   
++++++++++++++++++++++++   
+y ~   ^    
+y ~        
+y ~        
+y ~        
+y ~        
+y ~        
+y ~        
+y ~        
+y ~        
+y ~        
+y ~        
+y ~        
+R 56213
+0 1
+1 Demo 1
+ldeutsch 1 Demo 1
+2 .lllltbr.t...................trtttttttll
+2 lllrrrrbbrlRRtlltlllbllLtRll...ll..lt...
+2 blt..llbb...rbrbbbbbbbbbbBl.RRtRtltTbrRl
+2 bbbrbrbrbrbrtrrbrrrtlLt........lllllllll
+2 bBtrrrrrrrrrrrbrbrr..........trrbrtrrbrt
+2 lttrttlttrtlllbb.bbllllllllll.lltttttttr
+2 rbrbbrrrrTllblltttrltrrb......bl
+
+uuid 69efbf1b14ec3ecbd13810b62ba1cbdd
+
+leaderboard steps time

@@ -1,0 +1,86 @@
+n Eight Red Coins
+D 5
+C 2
+e 40
+s 0
+p 0
+a Shark
+m 42 42
+########################E#################
+#QQQQQQ#*.0 Q# B R G6Y         R i(i +Q[ #
+#000QQQ#. B..# # #Q# #      iii  i0i +0+ #
+#QEQQQ+#Q++  Q #6#0# # _   i    i0QQi+0+ #
+#000Q++("###+[R#######    i  iiiQ0i0i+Q+ #
+#QQQQQ+### #c|       #    i i   |0Qi +0+ #
+#########    # ###S# #{{{{i   i  |0i +0+ #
+#0# Y G # #  # #  .k #.....iiii   .i +Q+ #
+#Q#R### # # ####B#s### (  Q #i iiii i+0+ #
+#(  #   . #   1#   #........#iiiiiiii+0+ #
+#+##   .%##  ### ###        ####### #+Q+ #
+#b# ># ##>  ##   #       S  #    #Q Q#0+ #
+### # . ###.%# ##        S  #   #Q#7#Q#+ #
+##   .%.  #c## #         S  #    #Q Q# c #
+#> # ######    #     _   S  #     #i# # ##
+#B####      ###          S  #     i   i  #
+#    7 ####c  #          S  #      i   0 #
+#######(+"# Q(#             #     iii  i #
+#"""""!##"#Q###             #    ii   ii #
+#"""""""""###""#         S  #    i   iii #
+#""""""""""""""#         S  #  ii ii i   #
+#"""""""""""####         S  # i      iiii#
+#"""""!"!::::            S  #i  iii ii...#
+#""""#####               S  #      i...Q.#
+#"### #[[#               S  #iiiiYii.0QQ.#
+##    #|c#               S  #0000 ...0QQ.#
+#     #  #             # S###QQ0Q0Q0Q0QQ.#
+#     #c|#             # S#Q0QQ0Q0Q0Q0Q..#
+#     #  #             # [(00QQ0Q0Q0QQ####
+#     #|c#             # ##00QQ0#######  #
+#     #  #             # # ######        #
+#     #c|#             # #               #
+#     #  #             # #               #
+#     #|c#             # #               #
+#     #  #             # #               #
+#     #c|#             # #               #
+#     #  #             # #               #
+#     #  #             #+#               #
+#     #  #             #+#               #
+#     #  #             #+#               #
+#     # Q+             #+#               #
+##########################################
+y ....r.ccc
+y ....y.+++
+y ....g.+++
+R 67057
+0 0
+1 Demo 1
+2 .lbblblbBttrrrbbbbbbbbbbbbb..lllbbb.Rt.L
+2 ...tttttllbb.b.llBRrrr..t.tl.l.bblblltr.
+2 lllblb..l..b...brrtrrbrrlblllllrbrtbbbbr
+2 rlllllrrtblllllllllllrrrrtbbbbbbbbbbbbbb
+2 ....l..lllllttrttrrrtttllbllrrrr..lllbbt
+2 trrtrrrbbblllblbblblbrrrrrrt.....blllllt
+2 rtrrrTrTllllblbt.bt.b.t...r..l...b.r.rrr
+2 rt.r.rrrrrt.rrrtttrrttt..r....Rlb......l
+2 lllll.t..rrrrttlll.llltl..l.t..l..ltrr..
+2 ...bb.l......tllrrrrrlblb.lblb...lr.brrb
+2 rrbl....tt.lltllrrrbrbbbbbb.ttttttllbbbl
+2 lllblblbblblbrrrrrtrrrrrbbrrllb...tttlll
+2 llbllllltrtrttrttbrrtrrrrtrttttttrrrrrtt
+2 ......rr....rrrrrrrrrrr...bll.lbllllblbb
+2 rrtrrbbrrrll...l.........tt.rrtt..rl.rt.
+2 .bl.lbbb.llbrrrrbbbbbbbbrrbrrl...l.blllr
+2 tr.ll..bblllllllbrbbblllllbbrrbrrr.T.lll
+2 t...rllr.b.t...brrrrblbl.bl.l..l.llt.l.l
+2 .l.l.bl.l..l........rr..ll.l...bbbbbbttt
+2 ttrr.lll.rrr..llll.........rr..rr.lllll.
+2 rrrrrllll.......rrrr..bbbb....tttttttttt
+2 tttttll..tttttrb..llbbb.bbbbblbrrrr..rtr
+2 ttttttttrbbbbbbbbbllllllllllrrtttlllbbbl
+2 llllbbbbbbbbbbbbbbbbbbbtbbttbbttbllbbbll
+2 .rrrtttttttttttttttttttrrrrrtttttrrrrrrt
+2 ttttttttrrrr..llttttttt.....
+
+uuid d49591fff45dbad957e41f5f45b29490
+
+leaderboard steps time

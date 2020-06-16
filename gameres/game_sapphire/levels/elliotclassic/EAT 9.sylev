@@ -1,0 +1,47 @@
+n EAT 9
+D 8
+C 3
+e 50
+p 2
+A graphite
+S voice
+M 0 FF7CHOCT
+N EAT 10
+i Race the explosion, dodge the
+i lasers, snatch the rubies, and then
+i leave.
+a Elliot
+m 22 15
+######################
+#####:::::############
+#####:   :############
+#::::: : :::::::######
+#      :      E*######
+# :::::::::   ::######
+#.......%%%%%%::######
+#.......VVVVVV(:++++$#
+#.......%%%%%%::####:#
+#: :::::::::::::#dd#+#
+#           01R R00R+E
+#:::::::::::::::####+#
+######$::++++::*####+#
+######$::++++:::++++$#
+######################
+y (((VVV%%%
+R 43118
+0 0
+1 Demo Fast
+2 lllllllllllllllllllttlttttrrrrrttrrbbrrr
+2 bB.rrbltlBrr..BlbltrrB....BlBtrr........
+2 ...............
+R 43118
+0 0
+1 Demo Normal
+2 lllllllllllllllllllttlttttrrrrrttrrbbrrr
+2 bBBBBBBBBBBrrBBBBBBBBBBBBBBBBBBBBBBBBBBB
+2 BBBBBBBBBBBBBBBBBBtr....................
+2 ...........
+
+uuid 12fc2a578e45a1ff64441107a98c3c9e
+
+leaderboard steps time gems

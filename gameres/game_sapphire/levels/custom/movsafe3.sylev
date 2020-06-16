@@ -1,0 +1,36 @@
+n Move the safe III
+ldeutsch n Schieb den Safe III
+N Move the safe IV
+D 7
+C 3
+E 0
+p 0
+M 0 Money for Nothing
+i For the third time:
+i You can move the safe,
+i you may drop things on the safe,
+i and you can blast the safe!
+a Juergen, Alex
+m 10 12
+~         
+##########
+#  0    E#
+#  # 1  !#
+#        #
+#  [     #
+#        #
+#        #
+#        #
+#    @   #
+###a##a###
+~         
+R 11633
+0 0
+1 Demo 1
+2 ....rrr......bbbbbblll...tttllt.ltr.....
+2 ....mtt...rllbbbbbbrrr......rbr.....rrrt
+2 tttttt........
+
+uuid 28c7c092e9366ce663b76465d0968a51
+
+leaderboard steps time

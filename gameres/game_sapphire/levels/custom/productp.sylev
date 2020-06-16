@@ -1,0 +1,43 @@
+n Product Placement
+D 6
+C 5
+E 0
+p 0
+M 0 Oxygene4
+i A two-part level. Decide how you
+i want to arrange the items on the
+i top, then work with them after
+i they've fallen.
+a Alex
+m 19 13
+Q"Q""Q"Q"QQ#       
+"##SS#S##########S#
+Q# .. .  Q       .#
+"#       .        #
+"# 0      1   0   #
+Q#+++++++_+++++++.#
+Q################Q#
+"Q"Q"Q"Q"Q"Q"Q"Q"Q#
+###################
+##++++++++++++++++#
+~#  @   $   &     #
+~# $@* ***Q @ Q[Q+E
+~##########&#######
+R 40545
+0 0
+1 Demo 1
+2 ....rrr...r.r.trrbb..ttlllblllllllltllll
+2 brrrrrrrrrrr.....trr.lllllll.b.rrr..llll
+2 lttlbb.rrr...lllll................r...tt
+2 .bbl.rr.................rlllttlbb.r..r..
+2 ................................rtrrrrrr
+2 rrrrrrtllllbb.....r..llllll......bbbbbb.
+2 r.r.rbrtr...........lllltlll............
+2 ...b.........rr...llltllbrrrr...bR.ttrrr
+2 b.lbltl.....l..tlllbbttrrrb.lbl..lrrtrrb
+2 rr....tr.lbr.trrrr.lb..tlllbr...ttrrrrrb
+2 .lblr......llllB.trrrrrrbr........
+
+uuid 09293fefa8a6e6b4d1c69cd02b9d6506
+
+leaderboard steps time

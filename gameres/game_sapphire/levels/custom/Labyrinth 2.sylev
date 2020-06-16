@@ -1,0 +1,37 @@
+n Labyrinth II
+D 6
+C 5
+e 43
+s 0
+p 0
+M 0 Live and let Die
+i Second labyrinth-like level...
+a Shark
+m 15 12
+#######...#E###
+#1Q+ +! 0  Q *#
+# Q ?+  .0 l|*#
+####[##.|&#  *#
+#   B  ##Q#* ##
+# 0 +j  #$##  #
+# ##:#B##$B0 0#
+# #   0 #$#*.*#
+# G   * #$#0.0#
+# #  { 0#$ B +#
+#Q# $(::(Q# b #
+###@.##########
+R 99781
+0 0
+1 Demo 1
+2 ...b..rl...rl....trrrrrrt.rrllbrlb..b.t.
+2 r...t....srr.........b..b...b.rt.r..ttll
+2 r..r.l.lllbb.trrbbrbb....bbbbbl....rtt.b
+2 lltttt..br...l.....bbbbl.rttttttttlllllb
+2 ................................b.l..l.r
+2 ...ll..bbbb.t.r...rrr....trrbl..ttlllllb
+2 bbrrr.b.r.b.t...l..tt.........r..rbbll..
+2 ..bbl.rttttrtrt.lltttrrrrrrrt.....
+
+uuid cf33697d9ea86d8e3f0a22027c38f438
+
+leaderboard steps time

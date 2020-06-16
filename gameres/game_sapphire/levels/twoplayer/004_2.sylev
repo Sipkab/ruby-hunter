@@ -1,0 +1,123 @@
+n Heavy rain (2)
+a Emerald Mine
+D 3
+s 25
+i You have to walk through the rain again and again
+i until you have the keys.
+i
+i I had to make a little change to the original
+i Emerald Mine level.
+m 64 32
+################################################################
+# R2#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%# #
+#y# #                %        %       %        %    %        # #
+#y# #                         %                %             # #
+#$# #                                          %             # #
+#B# #                                                        # #
+# # #                                                        # #
+#g# #                                                        # #
+#g# #                                                        # #
+# # #                                                        # #
+#$# #                                                        # #
+#$#1#                                                        # #
+#$#                                                            #
+#E#                                                            #
+##|aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa| #
+##++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+#   #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%# #
+#r  #    %  %    %   %     %   %      % %        %     %     # #
+#r# #            %   %     %   %      % %        %     %     # #
+#Y# #                %         %        %        %           # #
+# # #                          %                             # #
+#b# #                                                        # #
+#b# #                                                        # #
+#$# #                                                        # #
+#$# #                                                        # #
+#G# #                                                        # #
+# # #                                                        # #
+#$#                                                            #
+#$#                                                            #
+#$|aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|#
+#$+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 77213
+0 8
+1 Demo 1
+2 .........b.bbbbbbbrbrbrbrbrb.b.b.rrrrrrr
+2 rrrr.r.r.rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+2 rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+2 rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrbrbrbbbb
+2 bbbbbbbbbbbbbbbbbbbbbbbbbb..........l.ll
+2 llllllll.trt.l.l.lllllllllllllllllllllll
+2 lllll.l.lllllllllllllll.l.l......llllll.
+2 ...llllllllllllllt.l.l.....ltllll.l.l...
+2 ...lllllllllllllllllblbllllllllblblbllll
+2 lttttttttttttttttttt.l.l.t.rtrtrtrlrlrlr
+2 bbbb.btbtbrbrbbbb.b.b.b.b.b.bbbbbbbbb...
+2 .....rrrrrrrbrbrrrrrrrrrrrrrrrrrrtrtrtrr
+2 rr.r.r.rrrrrrrrrrrrrrrtrr.rrrrrrrrrrrrrr
+2 rrrrrrrrrr.r.r.rrrrrrrrrrrrlblbrr.r.rrrr
+2 rrrrrrrrrrrrrrrrrrrbrbrrrrrttttttttttttt
+2 ttttttttttttttttt..................l.l.l
+2 .lllllllllllllllllllllllllllllllllllllll
+2 lllllllllllllllllllllllllll.llllllllllll
+2 lllllllll.l.l.ll.l.lllllllll......l.l.ll
+2 llllllllllltlt.t.t.t.t.t.t.t.t.t.t.t.l.l
+2 ...b.t...r...b.b.b.b.b.b.b.b.b.b.b.rr...
+2 ..l.l.t.t.tlttttttttttttttttttl.....b.b.
+2 ..b...t.t.t.rbrbbbbbbbbbbbbbbbbbb.b.b.b.
+2 .......rrrrrrrrrbrbrrrrrrr.r.r.rrrrrrlrl
+2 rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+2 rr.r.r.r.r.r.r.lrrrrrrrrrlrlrrrrr.rrrrrr
+2 rrrrrrrrrrrrrrrrrrrrrrrrrrrbrbrbrbbbbbbb
+2 bbbbbbbbbbbbbbbbbbb.b.b......lllllllllll
+2 llllbllllllllll.l.l.l.llllllllllllllllll
+2 llllllllllllllll.........lllllllllllllll
+2 llllllllllllllllllllllllllllllllllllllll
+2 llltltltlttttttttttttt.t.ltbtbtltbt.t.tb
+2 t..b...t.t.t.t....br..l.lrlbbbbbbbb.b.bb
+2 bb..t.t.t.t.t.r.r.r.t.t.r.r.bbbbbbbbbbbb
+2 b.b.b.b.b......rrrrrrrrrbrbt.t.r.r.r.rrr
+2 rrrrrrrrrrrrrrrrrrrrrr.r.r.r.rrrrrrrrrrr
+2 rrrrrrrrr.r.r.r.r.rrrrrrrr.trtrtrt.t.r.r
+2 .brbrbrrrrrrrrrrrrrrrrrrrr.....rrrrrrrrb
+2 rl.t.....rrrrrrbrbrbrr.rtttttttttttttttt
+2 ttttttttttttttt........lllllllllllllllll
+2 llllllllllllllllllllllllllllllllllllllll
+2 llllllllllllllllllllllllllllllllllllllll
+2 llllllllllllllllllllltttttttttttttttttbt
+2 btblblbbbbbb.b.b.....trt.t.tltlrtrtbtb.b
+2 bbbbbb.b.bbb.b.b.r....l.t.t.tltttttttttt
+2 ttttttttl.l.l.b.b.b.b.bbbbbbbbbbbbb.bttt
+2 ttt.t.t.t.t.t.t.t.t.r.r.bbbbbbbbbbbbb.b.
+2 bbb.b.b..................r.rrrrrrrrrbrbr
+2 rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr.r.
+2 r.r.rrrr.r.r.rrrrrrrrrrrrrrrrrrrrrrrrrrr
+2 rrrrrrrr.r.r.rrrrrr.r.........rrrrr.r.r.
+2 rrrrrrrrrbrbrbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2 b.b.....lllll.l.b.bllllllllll.lt.t.l.lll
+2 lllllllllllllllbllllllllllllllllllllllll
+2 llllllllllllll.l.l.l...................l
+2 llllllllllllllllllllllllllllllllllllllll
+2 l.l.lttttttt.tbttttttttttttltltbtblb.b.b
+2 lblb.b.b.b.b.b.b.brtrtrtbtbtbtbtbtbtbtbt
+2 brbrbbbbbbrbrbrb.b.....b.b.b..l......rrr
+2 rrrrrrrrrrrrrrrrrrrrrrrrrrrrr.r.r.r.rrrr
+2 rr.r.r......rrrrrr.r.rr........trtrrrrrr
+2 rrrrrrrrrrrrrrrrr.r.r.r.rr.r.rrrrrr.r.r.
+2 r.r.r.rrrrrrrrrrrrrrrrtrtrtrtr.r.rtr.b.b
+2 .r.r.ttttttttttttttttttttttttttt..b.b...
+2 .....ll......lllllllllblblllllll.lllllll
+2 lllllllllllllllll.l............lllllllll
+2 ltlt.l.lllllllllllllllllltltll.l.l.l.l.l
+2 .llllllllllllllllllllllllblblblllllllllt
+2 ltltlttttttttttttttttltbtbtbtblblbbbbbbb
+2 bbbbbbbbbbbbbbb.b.b.............
+
+uuid 2479293bca423c57946abac3ced31200
+
+leaderboard steps time

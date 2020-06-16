@@ -1,0 +1,65 @@
+n Population Explosion
+D 10
+C 4
+s 0
+p 0
+Y
+M 0 Jump
+i Overcrowding can be a serious
+i problem, or a great solution.
+a Shark
+m 18 19
+##################
+#     """""   #E##
+#     """"" 1 #+##
+#             ####
+########(######"##
+#   #   : #   #Q##
+# # #  + +# # #Q##
+#   #  +>+#   #Q##
+# # #  +++# # #Q##
+# # #     # # #Q##
+# # #### ## # #Q##
+# # #     # # #Q##
+# # # ## ## # #Q##
+# # #     # # #Q##
+# # # ### # # #Q##
+# #       # # #Q##
+# ######### #Q#Q##
+#           #QQQ##
+##################
+y >>>>>>>>>
+R 32061
+0 0
+1 Demo 1
+2 ..lltllllbbrrT...mtrrbrr...lllmll......r
+2 rrrsr.......llllml..........rrsr........
+2 .llml............rrsr.............llml..
+2 .....rrrrsr..........llml.........rrsr..
+2 ........llml.........rrsr.........llml..
+2 .......rrsr.........llml..........rrsr..
+2 .......llml..........rrsr.........llml..
+2 ......rrrsr....bb..lllml.......rrrrsr...
+2 .........llmll.....rrrrrsr.......llllml.
+2 ......rrrrsr........lllml..bb...rrrrsr..
+2 ......lllml........rrrsr.........llml...
+2 ......rrsr...........llmll.r....rrrrsr..
+2 ....lllllml.........rrsr.........llml...
+2 ......rrsr..........llml..t.b.rr.rrrrs.r
+2 ttllllbbml........rrrsr........lllml....
+2 ....rrrsr..........mlml.........rrsr....
+2 .....llml.......rrrrsr........lllml.....
+2 .....rrsr.........llml.......rrrrsr.....
+2 ....llml..b..tbrrrrsr....bbbbbbbbbllml..
+2 l..r..rrrsrr.l..rl..llml......rrrrrsrr.l
+2 ..brlrlllml..........rrsr.........llml..
+2 ....rrrrrsrr........lllml.......rrrr..Br
+2 .lburrrr..rrsuu.........................
+2 .............................
+R 689722851
+0 0
+1 Self ignition
+2 ..llllbmtltrrrRlbbbb.srrr.....llllmlllllltrbrrrrrrsrrrr....l...tlblllmll.......rrrsrrr..........llllmll......rrrrsrrr.....llllmll......rrrrsrrr......llllmll..........................................................rrrsrr.....................................................lllmll...trtrrrrrrbbllll............................rr....................................................................................................................................................................................................................................................................................................llBrrrrt.brrrttt.....
+uuid 0ddba3c33eaea2600b16a72b602435e5
+
+leaderboard steps time

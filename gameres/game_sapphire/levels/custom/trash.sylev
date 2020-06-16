@@ -1,0 +1,42 @@
+A Default
+S Default
+M 0 Downunder
+d 5
+T 
+D 3
+n trash
+e *
+p 4
+E 
+w 30
+o 3
+s 30
+a ignas
+f paulius
+N 
+i push the rock
+m 13 13
+#############
+#   d      Q#
+#         ..#
+#           #
+####        #
+#*++      ( #
+####  .   ###
+#   a 1     #
+#           #
+#           #
+#  !        #
+#E     @@   #
+#############
+
+R 66170
+0 8
+1 Demo 1 paulius
+2 ..bbblllrrtttttl.sttll.rrrr..bb.....rbbb
+2 bb...rrbrr.rtttttttr.rttll...bbbr.llllll
+2 llllrrrrbbbbbbllll.......
+
+uuid 788ab967bd783fd60e6ab22efe74ef2d
+
+leaderboard steps time

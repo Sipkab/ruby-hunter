@@ -1,0 +1,44 @@
+n No pushing!
+ldeutsch n Schieben verboten!
+D 3
+C 5
+E 0
+T 1000
+p 1
+M 0 Action
+i And grabbing should be
+i reconsidered twice. But
+i digging is allowed...
+ldeutsch i Und vorschnelles Nehmen sollte
+ldeutsch i man sich zweimal �berlegen. Aber
+ldeutsch i graben darf man...
+a Juergen
+m 17 13
+#################
+#..0._........0.#
+#.......*..._...#
+#.._..........*.#
+#......_@.._....#
+#._.*....@..._..#
+#........_......#
+#...._..E......1#
+#.*.........*...#
+#............._.#
+#..._..*.._.....#
+#.....@....@....#
+#################
+R 59310
+0 9
+1 Prepared well
+ldeutsch 1 Gut vorbereitet
+2 .............t.lll...ttr.tt.bblbb..b.lbb
+2 b.t.lttttt....bb...t...............bbbb.
+2 .....lll........l.B.rtttrt...l.........b
+2 bbb..ltttltt.lt..tll...r..r.......b.b.r.
+2 b.Lb.r.rbbbb.L.b.llllltttrrrr.ttr..rtttt
+2 trrrrrb.RtrrbbllblbbbbbbL..bllllttttt...
+2 ...
+
+uuid 34cc1d8d6a1b00972227682e4fecb8d7
+
+leaderboard steps time

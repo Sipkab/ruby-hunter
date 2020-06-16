@@ -1,0 +1,49 @@
+n Shortcut
+ldeutsch n Abkürzung
+D 8
+C 7
+E 0
+p 0
+M 0 Rooms
+i Here you have to build
+i something like a
+i remote control for
+i the bombs.
+i And there is also
+i a trick, of course.
+ldeutsch i Hier musst du sowas wie
+ldeutsch i eine Fernsteuerung für
+ldeutsch i die Bomben bauen.
+ldeutsch i Und natürlich ist auch
+ldeutsch i ein Trick dabei, versteht
+ldeutsch i sich.
+a Reinhard
+m 20 14
+####################
+#QQQQQQQ....0....#E#
+#Q#####Q*....$..*# #
+#QQQQQ#.0...0....#R#
+#####Q#..........*.#
+#QQQ#Q#..*0...0....#
+#Q#Q#Q#.......$....#
+#Q#Q#Q#............#
+#Q#Q#Q#.....$...**.#
+#Q#Q#Q#.############
+#Q#Q#Q#.1.*.....*..#
+#Q#Q#Q############.#
+#r+QQQ.*....*......#
+####################
+R 24655
+0 0
+1 Demo 1
+2 ..ltttrr..t...brrrrbrrrttttlllbllllrr...
+2 r.trrb..lllllrrrr.ttt.lllllb..B.ttrr..br
+2 .lbl.ttrrrrb.....r.l....lbl.l.l..tl.rrrr
+2 lllltlrrrrrbbbbbbbll..l.................
+2 .lllbbrrrrrrrrrrrbbllllllllllllllllLrrrr
+2 rrrrrrrrrrrrttllllllllllltttrr.Brrrrrttt
+2 ttrrbbrbbbrr.b.L.tttt.tt...............
+
+uuid 8a91e488ae965a12ea3954866a225247
+
+leaderboard steps time

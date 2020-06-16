@@ -1,0 +1,48 @@
+n Trapped! II!
+ldeutsch n Gefangen! II!
+D 8
+C 5
+E 0
+T 393
+p 0
+M 0 Jump
+i Think again - twice -
+i three times!
+a Alex, Juergen
+m 20 12
+####################
+#Q...00..*.0# 0   E#
+#..Q..#..0.*# #.Q  #
+#.Q.Q.#.Q...#Y###&##
+#0*0. #.|...#..y..*#
+#####G#*#####...0..#
+#!.00 #.*..Q#.| Q*.#
+#0.Q0 #..0.*b@#B####
+#0..QQ#..Q..#*Q G B#
+#*Q##0#.0..+#BQY R*#
+#1*0.Q+#r..[R G B .#
+######+g############
+R 10142
+0 0
+1 Demo 1
+2 ...........Rttr..ttlbbrrr..r.....bbrbRtl
+2 tttttttltllbrbrl.tllbrBr.tttrrrrb...Brtr
+2 rb...lblr..rr....Tll.llbbbbbrtlttttrrbl.
+2 .lbbrr..br.bbblL.r.tt..t.T.brtRllllb.rrr
+2 rrr..r..bbrrrrt.bl.t.l..tttllbB.rrt.r..r
+2 ..sbb..........tt..lllllttrr..rrbbbrblll
+2 ...rrbr..t.lttttllbr..rb..bll..bbbbblltt
+2 trr..B.l..rtttttrrrrrr..........
+R 99171
+0 0
+1 Minimum?
+2 ...........RttrrrllttLrrrbbbbrbRtltttttt
+2 tltllbrbrltllbrBrttrrrrbBrtrrblblrrrTll.
+2 llbbbbbrtlttttrrbl.lbbrbrrbbblLrtttTbrtR
+2 llllb..rr.r.r.bbrrrrTltlttllBrrtrsbBllll
+2 tttrr.rrbbbrblllrrBttttllbr.rbbll.....bb
+2 bbblltttrrBl.rtttttrrrrr
+
+uuid fc51eea962ddae5d07ee881b8b020760
+
+leaderboard steps time

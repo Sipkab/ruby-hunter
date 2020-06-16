@@ -1,0 +1,37 @@
+n Handle with care
+ldeutsch n Mit Vorsicht behandeln
+D 2
+C 5
+E 0
+M 0 Take Five
+i It is always a
+i difficult task to
+i manipulate bombs
+i without getting hurt.
+ldeutsch i Es ist immer schwierig,
+ldeutsch i mit Bomben zu hantieren
+ldeutsch i ohne sich dabei zu
+ldeutsch i verletzen.
+a Reinhard
+m 13 10
+#############
+#           #
+# Q     1   #
+###         #
+#E..........#
+#........._.#
+#.......++++#
+#.....++**$$#
+#.....+*$$$*#
+#############
+R 21682
+0 0
+1 Demo 1
+2 ..bbb.rllllll.btr.rrrrrtrrbllllllll.tlbb
+2 ttttllb.r..rr.bbrrbblbbttttlllb.rrrrrrr.
+2 ......rr.bbbrrtrrrbllllllllll.tttt......
+2 ..
+
+uuid 5417f2e61f2b305482b5778d69126f0f
+
+leaderboard steps time

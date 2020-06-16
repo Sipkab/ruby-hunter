@@ -1,0 +1,68 @@
+n Stoneage
+ldeutsch n Steinzeit
+D 8
+C 2
+T 1500
+p 20
+S voice
+M 0 Nightshift
+i You are an ordinary worker.
+i But one day you wake up and
+i you notice that all looks so
+i primitive and old.
+i You cannot believe it, but
+i you are in the *stone_age*.
+ldeutsch i Du bist ein ganz gew�hnlicher
+ldeutsch i Arbeiter. Aber eines Tages
+ldeutsch i wachst du auf und merkst, dass
+ldeutsch i alles so alt und primitiv
+ldeutsch i aussieht.
+ldeutsch i Es ist unglaublich, aber du
+ldeutsch i bist in der *Steinzeit*.
+a Ronald
+f Ronald
+m 27 20
++++++++++++++++++++++++++++
++1   00+       +000...0   +
++  + .0        +0.000++|  +
++++++++++++++. +0.0.00+ | +
++***********  |+*......   +
++........... |  +.0 . +   +
++               ++++.+    +
++++ +++++++++++   +**+    +
++  0*         +++ +++.    +
++000....................  +
+++++++++++++++++... ++   |+
++....*.....*..*.+@@++   | +
++..*............++++   |  +
++....0$0$0..*..++++   |   +
++.*..$...$.....+0+   |    +
++....0.E.0.*.+++.   | *   +
++*...$...$.+..**   | ***  +
++..*.0$0$0.+++*+  | **$** +
++....*.....*..@+ **$$$$$$$+
++++++++++++++++++++++++++++
+R 31368
+0 1
+1 Demo 1
+2 .rrr.brrrrrrrrrrrr..bblbbrr...lllllllll.
+2 .lrrrrrrrttllllllllllbbrrrrrrrrrrrrrrbrr
+2 bb...b.tllllllllll.tllllllrrrrr.brrrrrrr
+2 rrrr.............b.t......rr.b.....tllbr
+2 rr.lb.ttrrr......r.trrttt..tll..bl...bbl
+2 rtt.............l.tt...r...............b
+2 rr.......r.rbbbb..lll....b..lll....lbbtt
+2 rrrrtt...bbbbbllbbllbbllllb.trrrrttrrttr
+2 rttttttrttllltttr......rrrlllbbbrrrbbbbb
+2 lbbllbbllb.lbl......L.bll...............
+2 rrrtt.rrttrttrtttrttttlllllllrrrrtrr.ltt
+2 rrrrrbbbbbbbblllbbbllbbllbblll...rr.bbrr
+2 rrrrrrlllllllrrrrlllllttlllllt.l.rttttrr
+2 .llllllb..B..llB.tlllbbb..L.r.R.lllbbrr.
+2 B.r.R...lttttrrr.rrrrrbb.l.Lr..l..ttllll
+2 llbbbl..bbbrrr...t....brr.tt.r..l.....l.
+2 ...rrrbbrrrrllllttlll.t
+
+uuid 6277c2489cafab012d7ce0b082420194
+
+leaderboard steps time

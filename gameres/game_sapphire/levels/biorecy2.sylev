@@ -1,0 +1,88 @@
+n Bio Recycling II
+ldeutsch n Bio-Recycling II
+D 5
+C 7
+e 90
+p 0
+N Bio Recycling III
+i This is an Emerald Mine
+i level sequel.
+i No free gems.
+ldeutsch i Das ist eine Fortsetzung
+ldeutsch i eines alten Emerald Mine Levels.
+ldeutsch i Keine überflüssigen Edelsteine.
+a Alexander
+m 64 32
+################################################################
+#.............................1 ...............................#
+#.............................................................Q#
+#...........Q......Q.......Q.............Q.....................#
+#......................................................Q.......#
+#......Q.......................................QQ..............#
+#........................................ .....................#
+#........ .....Q..........Q.....Q........ .....Q............Q..#
+#........ ...........Q..................Q .....................#
+#...Q....^...............................^  ...................#
+#........ ..Q.....................Q.....................Q......#
+#................... .....Q....................................#
+#..............Q....^..Q.........Q...........................Q.#
+#.......Q........... ..................Q........Q...Q.... .....#
+#... ..................... ..............................^.....#
+#... ........Q............^.............................. .....#
+#...^..................... Q...........^........ ........ .....#
+#... ...........Q......... .......Q.... ...Q.... ..............#
+#...   ......................Q................^    .Q..........#
+#..Q............................................ ..............#
+#.Q........Q.................................Q..^..............#
+#..............................................................#
+#............... ^  ...........................................#
+#............................................................E.#
+#cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc#
+#                                                              #
+#                                                              #
+#                                                              #
+#                                                              #
+#                                                              #
+#                                                              #
+################################################################
+y 000000000
+R 15665
+0 0
+1 DEmo 1
+ldeutsch 1 Demo 1
+2 bbbbbbbbbbbbbbbbbbbbllttttt...lrr......l
+2 bbbbbbbblttttlllbrbbbrtttrr..lllllllllll
+2 lBtt........l........rbbblrrrttttttrrbbb
+2 bbbbbltttttttlbbbbbbbrrrttttttttrbbbbbbb
+2 btttttttlllllllltttttttrrrrrrttbbttTbbBt
+2 trrb........lr..bbbbbbbbbbbbb........lll
+2 llllllltttllllttrttttllblLrtrrbllltllBTr
+2 rb....................lrrbbbbbbllbbbbltt
+2 ttr......tttlllrrrrrllbblblbbbtbBttttrrr
+2 blblrrbbb....lttlrrtttttttttrrrttttltttt
+2 rrbrtTllrrbBtlllbr....rl....bbbbbbbbbbrT
+2 bbbbbbbbrttttttllllbbbrrbbbltttrrrtttttt
+2 tttrbbbbbbbr.lttbbbtrtttttttttttttttttll
+2 lllrrrrrrrrrrrrrrrrrrrrrrrlllbbbbrbbbbbb
+2 bbbbbbbbrrrrrrrrrttttttrrrBlllbbbbbbrrrr
+2 bllbbrrtltttLR....rt..tttttttltttrlbbbrr
+2 bbbbbbbbbbbbrttttttttttttlttttrrbbbbbbbr
+2 rrrbrt......llll.lllbbbb..ttrrrbRrRltllb
+2 rr............rll..bbrrt..rrrllbbbbbrrrr
+2 RtLR....rttlllbbltrrrrttttttttttrrrrrtrt
+2 rrbbBttlrTllb................rrlbbbbbbbb
+2 rbbbbbrtttttrrbbbbblttttlttttttttttttttt
+2 ttlllllllllllllllllrrbblB......bbbbbbbbb
+2 bbrrrllllllllbbbbbBrrtttttlltTrrbbbbbttl
+2 lltllbrr...llbbbbbrTbrrR..rrtttrrbbbbbbl
+2 lbllllllllllllllllllllllllllllllllllllbb
+2 brrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+2 rrrrrrrrrrrrrrrrrrrrrrrlllllllllllllllll
+2 lllllllllllllllllllllllll...llllllllllll
+2 lllllLrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+2 rrrrrrrrrrrrrrrrrrrllllllllllltttttttrrr
+2 rrrrttttrrrrrrrrrbbbb
+
+uuid 9ac0db4fbee81d4804bd5af61ff61e2a
+
+leaderboard steps time

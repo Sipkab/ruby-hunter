@@ -1,0 +1,38 @@
+n Disintergrator Ray
+D 4
+e 9
+s 0
+M 0 4-32
+i 1. Be fast.
+i 2. Put the bomb in the right spot.
+i 3. Choose the right path.
+a Alexander
+m 63 17
+$::::::::::::::::::::::::::::"   #             Q               
+: V > % >  % >   % >    % $::    #             + :::::::::: :::
+::%::(::::(:::::(::::::(: :::!!!!!!!!!  !!!!!!!!!:!!!!!!!!(::$:
+::::::::::::::::::::::::: :::::::::::!  !:::::: :::::::::::: E:
+~                          R R R R  :!  !:R R R R R R: : R R  :
+~       (*                 ::::::::R:!  !: ::::Q::::::(:R::::::
+~       ::            # #         : :!!!!:R:!!!!!!!!!!!: :     
+~                     # #         :R:::::: :::::::::::::R:     
+1                     #[#         : R R R R R R R R R R  :     
+~  $          !       #[#         :::::: R :::::::::::::::     
+~  :          :       #[#              :   :                   
+~                   r #[#              :::::                   
+~                     #[#                                      
+::                    #[#                                      
+$:                    :$#                                      
+::                    ###                                      
+:::::::::::::::::::::::::                                      
+y ~  %^( ( 
+R 6163
+0 8
+1 Go Fast
+2 ..rrr.b.rrrrttttrRrrrrrrbbbBtrrrrrrbbbBt
+2 tttttrrrrr.tt.cb......rrrrrrbbrrrrrrrrrr
+2 rttr.rrt....
+
+uuid a58ff5f374e9fa81768a3ddc2e821069
+
+leaderboard steps time

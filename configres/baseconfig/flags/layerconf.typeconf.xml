@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config xmlns="bence.sipka.types.config" >
+
+    <declare-flag name="LayerOptions" >
+
+        <flag
+            name="MODAL"
+            value="0x01" />
+    </declare-flag>
+
+</Config>

@@ -1,0 +1,63 @@
+n Plinko (Alex)
+D 6
+C 1
+E 0
+p 0
+i This level is somewhat unsettling,
+i in that the items don't settle very
+i well at the bottom. You will need
+i to convince some of them to change
+i course.
+a Alex
+m 13 30
+#############
+#@ @ @#0 0 0#
+#|@|@|#|0|0|#
+#.@ @.#.0 0.#
+# |@|   |0| #
+#  .1    .  #
+#           #
+#  |     |  #
+# | |   | | #
+#           #
+#           #
+#|   | |   |#
+#           #
+#     |     #
+#           #
+# | |   | | #
+#    | |    #
+#           #
+#           #
+#|         |#
+# |       | #
+#  |     |  #
+#     E     #
+#    | |    #
+#   |   |   #
+#           #
+#  |     |  #
+#           #
+#|         |#
+#############
+R 89211
+0 0
+1 Demo 1
+2 ....rttbbbbbbbl.........lbbbbbbbbbrrbb..
+2 ........ttt...llltttlttttrtttlttttt.....
+2 tr........lbbbbbbbrbbbbl.....rrbbbbbrbbr
+2 ..........ttttllttttttttllttttttrrlllbbb
+2 bbbrbbbbbrbbbbrrbbb...bll..rttttttlttttt
+2 tlltttttrrlb.blbbbrrrbbbblbbbbrrbbb.....
+2 ..rrttttrrtttttttrrtttttl.......rttbbbbb
+2 bblbbbrbbbbblllbbbbbrrbb..........l.r...
+2 .......................l.....rl.l..r.bb.
+2 .lll.....rbr.............r.t.ltll......t
+2 llb.rrb.ltllbrr.........tttrrrtttlttttrt
+2 tttttttltltttt.....ttr..lbbbbbbblllllbbb
+2 blbbbbrrrbbbbblllbbbb...........rbr.rrtt
+2 trrrtttlttt.......
+
+uuid a7a9f8dbd53ba185442e043892f4b0cc
+
+leaderboard steps time

@@ -1,0 +1,52 @@
+n Sisyphus
+ldeutsch n Sisyphus
+D 5
+C 7
+T 1500
+s 1
+M 0 Nightshift
+i This stone is a real
+i plague, isn't it?
+ldeutsch i Dieser Stein ist eine
+ldeutsch i echte Plage, nicht wahr?
+a Reinhard
+m 17 19
+###0#0###########
+#$..1.          #
+#+++++++++++++ *#
+#             **#
+#  +++++++++++++#
+#               #
+#++++++++++++++ #
+#.0*..$*.*.$    #
+#$*.0**.$0..   |#
+#.$0*.$0*.$*  |%#
+#0.0.+++++++ |**#
+#0*.*+       ...#
+#.$.$+  ++++++++#
+#*.*0+*         #
+#.0$.+++++++++  #
+#$.0*..0+      *#
+#.0..*0.+* +++++#
+#*.*$.0$+**    E#
+##############a##
+R 40565
+0 9
+1 Demo 1
+2 .......R.rr..rrrrrrrrrrrrrrbb..L..llllll
+2 llllllllllllllbbrrrrrrrrrrrrrrrrrbbblllb
+2 b..bbr..lllllllllbbrrrrrrr.rr.........rr
+2 rrbblllllllllbb..R.rrrrrr.lllttrrrrttlll
+2 llllttrrrrrttttrrttrttlllllllllllllttrrr
+2 rrrrrrrrrttlllllllllllllrrrrrrrrrrrrrrrr
+2 rrrrbbllllllllllllllllllbbrrrrrrrrrrrrrr
+2 rrrrr.bblllbb....bbr..ll..rttttlllllllll
+2 ..B.r.llllb.r....bbbbbl....bbbbr.....rr.
+2 ...r.t.t..rb.r.Bllt.l...t..L.L..bbr.....
+2 l.tttttttt.rrb.trr.b.rrrr.bbb...r.r.t.r.
+2 ..blllllllllllbbrrrrrrrrrrbbllllllllllbb
+2 rrrrrrr........
+
+uuid 97f236395b8d5b99e468b0cbfba7125f
+
+leaderboard steps time

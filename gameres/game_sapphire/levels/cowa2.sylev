@@ -1,0 +1,71 @@
+n Cowa-Bunga II
+ldeutsch n Cowa-Bunga II
+D 4
+C 1
+E 0
+T 656
+M 0 Jump
+i Another Turtles-inspired game.
+i Blast everything and collect
+i the rest.
+ldeutsch i Noch ein Spiel auf Turtle-Art.
+ldeutsch i Spreng alles in die Luft und
+ldeutsch i sammel den Rest ein.
+a Ronald
+m 29 21
+#############################
+#..QQQ...0..................#
+#...*Q..000....00..00.......#
+#...+...0$......00Q0*....*..#
+#.......Q..Q..00Q...0..Q....#
+#..Q..0...*...........Q.....#
+#....00.....0.@..Q00...0....#
+#......000..0...Q....000....#
+#.E..0...Q.000..1..@..*00...#
+#...0.0....0000.....QQQ..0..#
+#000....0.Q..Q0.0.Q.......0.#
+#*.Q....Q.....00.0..0...00..#
+#...Q..000000..0....0...QQ..#
+#.....QQQ....Q..0$0.0*000...#
+#....*000.......00..0000..00#
+#.00000.0...000...000..0....#
+#.....0.0.000$....0.Q...0...#
+#Q.$....00...0..00....00.$QQ#
+#..QQQ..0..@.0...Q00...00.++#
+#.......0...0......0.....Q+$#
+#############################
+R 26964
+0 1
+1 Demo 1
+2 .lltltrr..........lllllTll.rttt.bbllt..t
+2 ..blllltt.Rllbbbbbrrrrrbrbbbllbbblllltt.
+2 .....TbbbbrrBrr..trrrrr.t.rr..Rll..r....
+2 rrbb....rr..l.bbbr..ttlllL...blltrrrr..t
+2 tt.r..B..t....l....rrrtttttllttt.bbbrr..
+2 ll.B.rrrr.Tll.rrbbB.ttrr.R.lll....rrr.tt
+2 tttLrrrrbbbbrrbbbbbblLr....lllbbb.rrllBr
+2 rtltrb..bbbbbbBtttttlllltllB.rrtttlllttr
+2 rtrtlllltllblllllllllllllblbbl..........
+R 1900
+0 9
+1 Evelyns Solution
+2 ..rr.t.r..r..b......r...Rlll..r..r.bbb.t
+2 tllrrrrbbb....Btttlll.b..l.bbb.tttttlll.
+2 ..r.t.ll.......t...r...r..t..lll........
+2 ....lll..tt..rr.tt.llllbbblllltt...Rlllt
+2 ...b.rrrrrrrrbbrrrbbrrrrrrrrrttt...Lrrrr
+2 rrrbbbbbbbbbbbtttttttttllltlllb..rrrrrrr
+2 r.bbbbbbbbbbbb..bbbbbll.bbbtttttt.rrrr..
+2 .......bbbbbbb.t....t..t.llllll..bbbb...
+2 rr.l..t..ll.b..tttrrr...................
+2 bb.ttllll..rrr.....t.llllllll.bb...t...l
+2 ....L.r..t...t.llllll..rrr...bbb...L....
+2 b...Lttttrrrrtt..r.ttt.ll.tttlllttllllll
+2 llllllbbb..rr....rrr...............brr..
+2 ...............................bl.......
+2 ......bll........bbb........Blllll....tt
+2 .........bbbrr.bbbttttttttl.tt......
+
+uuid 350639d561824888282308745fafd73f
+
+leaderboard steps time

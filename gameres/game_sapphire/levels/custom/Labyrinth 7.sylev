@@ -1,0 +1,152 @@
+n Labyrinth VII
+D 8
+C 2
+e 148
+s 0
+p 0
+v 3
+M 0 Live and let Die
+i Seventh labyrinth-like level...
+a Shark
+m 15 52
+###############
+# Em          #
+#B## #        #
+#    #@       #
+m    ##@      #
+# c  ###@     #
+#    ####     #
+#  #          l
+#  #{ # # # # #
+#0 ##         #
+#.     !!     #
+#             #
+#             #
+# .$$$$$$# ##{#
+# .$$$$$$## .0#
+# .$$$$$$#  .*#
+# .$$$$$$#  .0#
+# .$$$$$$#  .0#
+# .$$$$$$#  ###
+# ########  #*#
+#           #*#
+#           #*#
+#           #*#
+#       Q   #*#
+#       .   .*#
+# #+#### ### *#
+#  5 +0# B   l#
+# 8"6+*#!#a# ##
+#  7 +*# ##   #
+#+########    #
+m             #
+#          !  #
+# QQQ0  QQ%Q |#
+# ###*QQQQQ#{6 
+# ##Q########c#
+#   .      #0 #
+#           . #
+#       _   * #
+#          +s #
+#{ QQQQQQQ  s #
+############# #
+#             #
+#     !! b    l
+#   *         #
+#  *@*@*@*Q. {#
+#  #####s##+###
+#          B  #
+#           0 #
+#      .   .0*#
+#     .0+? 00!#
+#@{ 0*00>+0001#
+##*#########.@#
+y Q  Q@ ##a
+R 27624
+0 0
+1 Demo 1
+2 tutl.llllllb.lb.lbltltttlttttl......rr..
+2 ..tlrbbblbbbbbbB...........rttll.bBrtttt
+2 tttrrrrrrrbBllBllBttllllbrb.rbrtrbrtrbrt
+2 rBrtrrbb..mmtrrtlllb.rrrbbbbbllbLttlllbr
+2 ttrrrrtttlllbrrl......rrtttrrtttttLb.ltl
+2 llbllllbltlttRbrrrrrbr.rtrrblllllllllltt
+2 lttttrrrrrrrrrRllllmlllrr.....rrrrrllllb
+2 Brrtrrr....r.t..t.t..rtttT...bbbblbt.b.t
+2 .b.....Rbllllllllllbbbbbbrrrrrrrrrrrrbbb
+2 bbbbllbbbbbllllllbllttttlttl.........rrr
+2 rrrrrr.rbbbblbrlBrrbbRtttltttttttrrttttt
+2 lllllllllllblttttttrrrrrrrrrrrtttttlllBr
+2 rrtrtllltttttttrtrTbllbbbbblllbrbst....t
+2 rrbbllllllll.lltlbbtt..brrbbbrrBtrbbllll
+2 .lbbr...................................
+2 .l..t..trrtttttltltttttttttttt..........
+2 .......rrrrrrRlllllblb..................
+2 ..r.r.r.r.r.r.r...rrrrllBttt............
+2 mlllcbbbbbbbblTllTrrrrrTlllllTrrrrrTlllT
+2 RlLttttttttrtttrrrrttltltlttllbbllltr...
+2 ..
+R 89752
+0 0
+1 Demo 2
+2 tutll.llll.b.tblb.lbltl.....lbBtrtlltttt
+2 tttrrbt..lrbbblbbbbb..b..........rtt...l
+2 lbBttttttrrrrrtrbrrBllBrrtllllbBllllttrb
+2 bbbbbrbrtrbrtrbrtrBrtrrbbmmtrrtlllb..rrb
+2 bbbbllbLtltlllbbllttttlltt..........rrrr
+2 r.trrbrtllblb.trrrbrtllllbrrrtrrbbbbblll
+2 llbrtttrrrr.ttttrrttbbbb..llbbbb.ttttttt
+2 rrtttttLb.l.tllllrbllllbltlttRbrrrrrbrrr
+2 trrblllllllllllttlttttr..b.............r
+2 rrrrrrrrrll..r..r.....t..b...rl..lt..rl.
+2 ....b....r.....b..tltrbrl.....l.tllbllls
+2 rrrttr......t....rlbbbllllllbBt.rrrrrrr.
+2 .ttttttTbbbbbbbltt.b.........tttrttlrtRb
+2 bbrbbbbbltlrtllllltllllllllbbbbbbrrrrrrr
+2 rrrrrbbbbbbbllbbbbbttttttllbrrrbbbbllbr.
+2 Br.rbbRtlttttttttrrttttttlllllllllllbltt
+2 ttttrrrrrrrrrrrtttttllrrtbtrtllltttttttt
+2 rtrlbbbbbbbbbrbblllBrrrttlttttttttrblbbb
+2 bbblltllbrbst....trrbbllllllll...ltlbbt.
+2 ...bbbrrrrBtrbbllllllbbr................
+2 .............ltbr......l..ttttrrtttttttt
+2 lltttttttttt....................rtttbbbb
+2 b.lb....................r.r.r.r.r.r.r...
+2 rr......BrrttllllLtrrr.......l.mlllcb...
+2 .....ltttl..trrrrrtttt..bbbbbbb.llbbrbll
+2 lllbrrrrrblllllbrrrrrblllllbrrrrrttttttt
+2 ttrttttltltlttll.bbllltr.....
+R 38448
+0 0
+1 Demo 3
+2 tutl..lllllb.lb.lbltl.tttltttrtt........
+2 ...lrbbblbbbbbb..............B.r.tt..llb
+2 BttttttrrtrrrrrrbllllBrrBrrBllllllllttr.
+2 .b..brbrtrbrtrbrtrtrr.llbrlBrtrrbbmmtrrl
+2 tllb.rrrbbbbbllbLttlllbr.......rrrrrrbll
+2 ..tlllllbllttttlltt..........rrrrrtrrbrr
+2 tllllbrrr..trrbbbb.lllbbbrr..ttrtttttrrt
+2 ttttttLb.l.tlllbllllbltlttRbrrrrrtrrbrrb
+2 llllllllllttlttttr..................rrrr
+2 rrrr.Rllllsrrrrttrlbb..r.....l.....tt.br
+2 .....l.....tbr......l.......t.r.......l.
+2 .........br....lt.........r.............
+2 ....lr..........lr.ltbr.......l.........
+2 .t.rlbbbllllllbBtrrrrrrrrttttttTtbbbbbbb
+2 blttb.........ttrttbbblllllllllllbbbbbbr
+2 rrrrbrrrrrrrrbbbbbbblltllbr.rbbbbblbrlBr
+2 rbbRtttltttttttrrtttttlllllllllllblttttt
+2 trrrrrrrrrrrttttttRrtlltttl..bb.rblttlrr
+2 bbrbblllBrrrttltttttttttrTb.lbRbbbllllbb
+2 brbst....trrbbllllllll.lltlbbt....rrbbbb
+2 rRtrrbllllllbbbbbbbttttttttttttbbbbbbbr.
+2 ..........lttttttrrttttttttlllttttttttr.
+2 ....tt.......l.r......tttt..............
+2 .......rlbbbbtttt.bbbbbrbllttttttrrbbttb
+2 rbblllbblttt....rbbbbrrrrrrrbllllllbrrrr
+2 rrbllllllbrrrrrrbllllltttttttrrrtrrrtttt
+2 tltltlttllbllblllus.....
+
+uuid 9b4473383caa892a6f6aabea31e179fc
+
+leaderboard steps time

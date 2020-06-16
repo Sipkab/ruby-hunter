@@ -1,0 +1,180 @@
+n Supercell
+D 4
+C 3
+s 3
+O alt-set1
+S standard
+M 0 Action
+N Hard Mining
+a The Rainman
+f July 16, 2001
+m 126 126
+1   # %  %  %  %  %  %  %  %  %  %  % #%   %%     %%     %%  %    %      %       %%%%  %   % #%  %%%% %  %%%  % %%%  %%    %  
+~   #                                 #                                                      #                                
+~   #                                 #                                                      #                                
+~   #                                 #                                                      #                                
+~   #                                 #                                                      #                                
+~   #                                 #                                                      #                                
+~   #                                 #                                                      #                                
+~   #                                 #                                                      #                                
+~   #                                 #                                                      #                                
+~                                     #                                                      #                                
+#####aaaaaaaaaaaaaaaaaaaaaaaaaaaa     #      aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa      #                                
+~    % % %  % %   %%  %  %  %  %      #       %% %% % % % % %%    %# %  %% %%  %%%   %       #                                
+~                                     #                            #                         #         aaaaaaaaaaaaaaaaaaaaaa 
+~                                     #                            #                         #           % %%  %  %   %%  %%# 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~      aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#aaaaaaaaaaaaaaaaaaaaa       #        aaaaaaaaaaaaaaaaa#                              # 
+~       % %  %  %  %  %  %  %  %  %  %#%   %%% %%% %% %%  %        #         % %   %  %% %  %#                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #aaaaaaaaaaaaaaaaaaaaaaaaa     # 
+~                                     #                            #                         #% %%% % %% % %%  %%%%%%       # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa      #                            #                         #                              # 
+~%  %  %  %  %  %  %  %  %  % %       #      aaaaaaaaaaaaaaaaaaaaaa#                         #                              # 
+~                                     #       % %%%%  %  %   %   % #                         #      aaaaaaaaaaaaaaaaaaaaaaaa# 
+~                                     #                            #                         #       %  %%%%%% %%%%%  %%  %%# 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#                            #                         #                              # 
+~      % %  %  %  %  %  %  %  %  %  % #                            #aaaaaaaaaaaaaaaaa        #                              # 
+~                                     #                            #%%  %%  %% % %%%         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     aaaaaaaaaaaaaaaaaaaaaa       #                         #                              # 
+~                                     #%    %%  %%   %%   %        #                         #                              # 
+~                                     #                            #                         #                              # 
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa      #                            #                         #aaaaaaaaaaaaaaaaaaaaaaaa      # 
+~%  %  %  %  %  %  %  %  %  % %       #                            #                         #%% %%  %  % %   %% %%%%       # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #       aaaaaaaaaaaaaaaaaa#                              # 
+~                                     #                            #        %%  %% %%  %  % %#                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#                            #                         #                              # 
+~      % %  %  %  %  %  %  %  %  %  % #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #      aaaaaaaaaaaaaaaaaaaaaa#                         #                              # 
+~                                     #       %  %%%  %  %   %% % %#                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #       aaaaaaaaaaaaaaaaaaaaaaa# 
+~                                     #                            #                         #         %%%%%%% %%%%  %  %  %# 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa      #                            #                         #                              # 
+%%% %%%%%   %%   %%  %%   %   %       #                            #aaaaaaaaaaaaaaaaa        #                              # 
+~                                     #                            #%  %%  %  %  % %         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #aaaaaaaaaaaaaaaaaaaaa       #                         #                              # 
+~                                     #%% % %%% % %%%  %  %        #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #aaaaaaaaaaaaaaaaaaaaaaa       # 
+~                                     #                            #                         #% %% %% %%%%%   %  % %        # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~      aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#                            #                         #                              # 
+~       %%%%%% %  %%%%%     %% %%  %  #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #      aaaaaaaaaaaaaaaaaaaaaa#                         #                              # 
+~                                     #       %  %  %%%  %%   %%  %#                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #                         #                              # 
+~                                     #                            #       aaaaaaaaaaaaaaaaaa#                              # 
+~                                     #                            #        % %  %% %% %%%% %                               # 
+~                                     #                            #                                                        # 
+~                                                                  #                                                        # 
+~                                                                  #                                                        # 
+~                                                                  #                                                        # 
+~                                                                  #                                                        # 
+~                                                                  #                                                        # 
+~                                                                  #                                                        # 
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa# 
+~                                                                                                                           # 
+~                                                                                                                           # 
+~                                                                                                                           # 
+~                                                                                                                           # 
+~                                                                                                                           #E
+R 45006
+0 0
+1 Demo
+2 .bbbbbbbbbrrrr.l.r....br.rrrrrrrrrrrrrrr
+2 rrrrrrrr........rrrrrrrrbbbbbbbblbbttlll
+2 llbbtlllllllllllllllllltlllllllbbbbbbbbb
+2 bbbbrrrrrrrrrrrrbbrrrrrrrrrrrb.rrrrbbbbb
+2 bbbbbbbbbllllllltllllll.llllllllllllllll
+2 llbbbbbbblbbbbbbbrrrrrrrbbb..r..rrrrrrrr
+2 rrrrrrrrrrrrrbbbbbbbllllllbttlllllllllll
+2 llllllllllllbbbbbbbbbbbbbbbbbbbbb..rrrrr
+2 rr...rrrrrrr...rrrrrrrrrrrrrrbbrrbbbbbbb
+2 bbbbbbllbbbllllllllllll.lllllllllllllllb
+2 bbbbbbbbbbrrr...rrrr..rrrrr....rrrrrrrrr
+2 rrbbbrrrr.rrrr.brrrrrrrtttttttttttrrtrrr
+2 rrrttrrrrtrrrrrrrtrtrtrttlttttt.lllltllt
+2 tttl.llllllll.lllllttttttttllttltrrrtrtt
+2 rrtrrrrrrrrrttrrtrrtrtrrrtttttttttllllll
+2 lllltllllllttttlllllttttttttlltttttltttr
+2 rtrrrrr........rrrrrrrrrrrrrr.rrtttttttt
+2 ttttllllllllllll...llllllllllttllttttrtt
+2 ttttrrrtrrrrrrrrrrrrrrrrrrrrrbrrrrrtrtrb
+2 rrrrrr.....rr..rrrrrrbbbbbbblbb.llllllll
+2 llllllbbbbbbbbbbbbbbbbbbbbbbbbbbbbbrrrrb
+2 rrrrrrrbbbbbbbbbbb.ll.llllb..ll...llllbb
+2 ...lbbbbbbbbbbbbbbbbbrrrrr..rrrrrrbbbbb.
+2 rrbbbbbbbbbbbbbbbbbbbbbblbllllllllllllbb
+2 bbbbbbbrrrrrrrrrrrrrrrrrrrrr..rrrrr..rtt
+2 ttlttttrrrrlttrrrrrrrrrrrrtrrrrttttrtrrt
+2 rrrtttllttltlllttll.lll.ltlllllllllltttt
+2 trttttttttrrrrrrrrrrrrrtttttrrrrrrrtrtlt
+2 ltttttrrrtttttttttttlllllttttlllllllllll
+2 l.llllllltttttttttttttrr.r.rrrrrrrrrrrrr
+2 .rrrrrrtrrtttrrtttlttttttlllllllllllllll
+2 lltlltttttttttttttr.rrrrrrrr.rrrrrr.rrrr
+2 rrrrrrrbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2 bbbbb...................................
+2 ..................
+uuid 2b95cb8fa419166a49a405b46ce2b75d
+
+leaderboard steps time

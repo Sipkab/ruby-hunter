@@ -1,0 +1,54 @@
+n Curse of the Pharao
+ldeutsch n Der Fluch des Pharao
+D 5
+C 2
+E 0
+M 50 Indy
+i Be like Indiana Jones:
+i Get in.
+i Get it.
+i Get out.
+ldeutsch i Sei wie Indiana Jones:
+ldeutsch i Geh' rein.
+ldeutsch i Steck's ein.
+ldeutsch i Geh' raus.
+a Reinhard
+m 37 20
+#####################################
+#                                   #
+#                +                  #
+#               +y+                 #
+#              +.00+                #
+#             +..+0++               #
+#            +.......+              #
+#           +..+++++..+             #
+#          +...G   +..0+            #
+#         +.0Y0+ $ ++..0+           #
+#        +..| b+ . +0+..0+          #
+#       +++.++++++++0+...0+         #
+#      +.....+g R.....+...0+        #
+# 0   +.0++++++++++++......++    1 E#
+#....+.............+...00.B r+.0....#
+#.0.+++++++++++++.+++++++++++++.....#
+#...0.........0...........6.....0...#
+#.00...0..0.......0..0...........7..#
+#.0............0...... .......5.....#
+#####################################
+R 14070
+0 0
+1 Demo 1
+2 .....b...bll.blll..bbllll.ttlllllll...B.
+2 tt.Rlllllllll...L.r.ll.tl.rt.rrr...R.tt.
+2 .....L.T.bbl..rrtttr.t..r..rt.lrt..rr...
+2 tl.rb....rrr...R.......r.bb.ttlllll.....
+2 .ll..rr..rrr.lt..bllttbbrrttlllt.br.llbl
+2 blbl.bb.r.l.t.r.ttrtrtrrbbrrbrbbr.bbr..b
+2 b..rr.brrll.tll..l.bll.r.tt....llllll.rr
+2 rrrrrr.brrtttlttltltllttllblblbbrr...b.t
+2 llll...b.lbbblllbbbrrrrrrrrr.b..rbl.rrrr
+2 rrrrbbrrr.r.......Rttt.rrb.rlltrr.ttrrtr
+2 r..........
+
+uuid 3334b85880976617a5811e1af590f7ae
+
+leaderboard steps time

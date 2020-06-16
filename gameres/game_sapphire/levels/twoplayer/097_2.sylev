@@ -1,0 +1,107 @@
+n Yam yam labyrinth (2)
+a Emerald Mine
+D 5
+s 0
+i Yam yams, some time bombs and
+i you alone in the labyrinth.
+i A bad feeling.
+m 64 32
+################################################################
+## r### #y### # # ### # ## #### #   #     ##      #   ^ #   # E#
+## ## # # #   #      ^   #      # ### ######## ## # ## ## ### ##
+## ##   # ## ###### #### ## ###    *#      Y #^######         E#
+# *   ###  # ##  ^  #  # ##  ### #### # ####   #      ## #### ##
+## ## # # ##    ##### ##  ##  y# #  # # *# # # ### ##^##  ### ##
+##### #^#  # ####     ###  ##### ## # #### # # # # #   #### ^  #
+# # # # ##  ^## ## ## # ##^           Y #  # # # # ###    # ####
+#     # ####       #  #    # ###^## ### ##  ^#   #   #### #   ##
+### # # # ## # ###### # ######   ## # # ## ### # ###### # # #  #
+# # ###    R #  #    ^   # # ### #  #        # #^    ^  # # ####
+#       #### #### #####R##     R ## ### # ## ### # # ####     ##
+#####^###  #      # # # #  # ###  #   #^###      ### #   ^###*##
+## ## # ## #### ###   # ## ### # ## # #  ### # # # # # ## # ####
+#     #  # # #  # # # #        # #  #*##  # ^# #*# # #### # ## #
+# # ####       ##   # # #### # # ######## ## ##### # # #       #
+### #    ## ##  # #*###^   # #*#     # r#  #  ## # # # # ###*#^#
+###G############# ### #### # ##### ### ## ###      # # #  #### #
+#!!!               #       #^    # #    # # ###### #b# ## # #  #
+##!# # # # ####### ## ###### ## #### # ##       ^  ### #  # # ##
+##!#^# ### #   # # G  #       #    ### #### #*## ### # ## # ####
+##!# # #   #g# # # # ### ### ## ## #   #  # #### # # # #     # #
+##!### ### ###   # # # # # # #  #### #   ##    # B   ^ # # # # #
+#!!#   #^      ### #   # #   #### #### ####^## # #### #### #   #
+##!### ####### # # ##### ###^            #   #*#  *#  # ## # # #
+##!!!#    # g# # #  G    ##  # ###*# ##### ########## #  # # #*#
+##!#!#*##*# ## # ## ## ###  ##*# ### #  ## # #      ^ # ##^# ###
+#!!#!###### ## #  #  # # ####### # # ## #    # ######## ## #   #
+##!!!!!#       # ## ##   ^         # ## ## # #   ^         #^###
+##!#!###### ####  # G  # ## ### ####    *# # ###### # ######   #
+##1#2#         ##   #### *#   #    ####### # b#     #*#      ###
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 91716
+0 8
+1 Demo 1
+2 .......................t.ttrtrtlllrltrtt
+2 tttttlll.lb.lt..r.........t.t.t.ttttlt..
+2 ......r........t........................
+2 .............t............r.r.r.rtbrbrbr
+2 brbbbbbbbbtbrbr.rtbttt.tltl.l........t.r
+2 trtrtrtbtbtbtbrbrrrrrrbrbtbtbtblrlrbr.rt
+2 brbbbbbbbblrlblbtbt.t.r.ltllbbbl.lbl.lrt
+2 r.r.t.t.t.t.t.....ltltl.l.t.tt.t.rtrtrtr
+2 lrlrlrltltlrlttrtrtbrttltl.b.b.b.r.brbtr
+2 trtblbl.t.tltlrbr.tbt.t.ttltlrlrbttttttt
+2 t.r.l.b.b.b.r.r.r.b.b.b.b.l.l.l.b...r.bb
+2 bbbb.ltltb.b.bbbbbrrrrrrrrtrrrrrrtrttttb
+2 tblblltllblbtbtrtrtbtb.rblbtbtbrbrrrbrrr
+2 .r.r.rrrblbl.ltlrlrlrlrlrlrltltbrlrlr.bb
+2 blbtbrrtbtbtrtbtbrbrbrbrbt.trtrt.t.rlrrr
+2 rlblbllblbl.rtrtrrtrtr.rlblbrbrbbrbrbblb
+2 ltrtrrtrtrtrlbltlrtrtbtbtbtbtb.r........
+2 ......b........rrr.rllllllllltltltbtbtlr
+2 lrbtbtltltbtltltlrlrllllbrlt.r.lrbtbrbtb
+2 tbrbrbrbrbrl.lllllllrlrlrl.ltlrt.t......
+2 ........................................
+2 .............t.....t.t.t.r.r.r.b.r.t.l.l
+2 .l.t.t.t.t.r.............m.l.l..t.t...c.
+2 b.b....r.r.r.r.b.b.......t.t.l.l.ltlttlt
+2 ltlrtrtrlrlrl.rtrt.t.t.t.t.t.tltlr...t..
+2 l.b.l.l.b.b.bbbrlrllblbtb.b.l.b.b.b.b.b.
+2 b.bbblbb.btbtbtltltltltl.rbr.l...r.r.r.r
+2 .r.l.t.t.t.....t.ltttltltlrltbtbtr.b.rrr
+2 rrtltltlrt.tllb.b.b....................t
+2 tttrtrlrlrtltlt.r.rrt.t.t.trbblllt.lb.b.
+2 brlblr.b.b.bbbbrbrrrrrbrbrbl.t.t.t.t.r.r
+2 lblbbrblbt.t.r.r.r.r.b.r.r.b.b.b.....b.r
+2 .rtbtb.b.b.lblb.b......r.rtbtbtttt.tbt.r
+2 trrrrr.rtrt.tl.l.bbbbbtbtbrbrbtbrbr.rt.t
+2 .t.t.t.t.t.trlrl.lbl.btbtltlrlrlrlrtrtr.
+2 trtbtb.b.brrrbrrrr.rbr.rtb.bblblblbl.ltb
+2 ...tblrbrbblbbb.rbrrrbrrrrrrrblbl.ltlttl
+2 tltlr.r.r.r.r.r.b.btb.b.b.r.r.r.l.l.l.t.
+2 t.t.t.t.t.t.t.t.r.r.r.b...........b.bbbt
+2 btrtrrbrbr.rtrtblblbtbtbtrtrtrrlrl.t....
+2 .......................t.r.l.l.....r.r.r
+2 .tr.r.b.b.bbrrbbbbrbbbbl.l.l.l.rtrrrrlrl
+2 blb.brbrbrblrrbtrrrtrtrlrlb.brlrlblbllll
+2 lllllrbrbrrrbtbtblb.t.r.r.r......r.b.b.l
+2 llll.lllblbllbbbbbbrlb.r.r.r.r.rrrrbrbbb
+2 b.b.r.l.l.t.t.t...l.l.l.................
+2 .......t.t.r.r.r.r.rrtttttttrttttttrtrtb
+2 bb.b.r..ttrrr.r.r.r.b.b.b.b.............
+2 ..............t.r.r...r.r.r.t.t.t.t.b.b.
+2 b.b.l.lrlmr.rl..ltl.lblblb.b.b.r.r....r.
+2 ..r.r.r.b.b.b.l.t.ll.l.t...r.b.r.r.r....
+2 .........l...l.t.t.t.r.rrtbrbrlblbltltll
+2 llltbtblrlrlrtrtrtrtrlrtrtrrrrrrrrtbtttl
+2 tt.ltbtl.l.tttlttttrtrtrlrtbt.ttrltltttt
+2 tttttttrtrttltltlrlrl.l.t.l.t.t.t.r.r.r.
+2 r.r.r.r.r.t.t.r.................
+
+uuid d3e0e67766996d27034047c2644da674
+
+leaderboard steps time

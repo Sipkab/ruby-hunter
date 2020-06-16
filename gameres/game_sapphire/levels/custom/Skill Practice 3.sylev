@@ -1,0 +1,131 @@
+n Tricky Level Skill Practice 1
+D 12
+e 149
+s 8
+p 0
+d 20
+o 1
+w 40
+i This is a skill practice for the Normal, Tricky,
+i and Tough levels. The doors:
+i 
+i Green: Normal
+i Yellow: Tricky
+i Red: Tough
+i Blue: Exit
+i 
+i Only normal levels will be in this level.
+m 50 50
+1 @   G Q     #000#*...#         a    #    !      
+~### g# .    ##@@@#|0.0#     a  a%a   #        5  
+~  0  #      #.........#    a%a  $    G #& &#& &# 
+~ ### #& & #+#.   ..0..#     *   .    #   [%+     
+~     #& & #oG    .....#     .     a  #  & &      
+#######& & #+#.   .....#          a%a #           
+......#      #.   .....#           *  ###########G
+......#      #.QQQ.....#           .  # 7#....... 
+.00.0.#   !  #####a#G#######          #  #..Q*Q*..
+.0@000#+w+   G ....G   G G #   a      #  #..Q*Q*..
+.00000########....0# * #Q# #  a%a   a #  #..Q*Q*..
+.000000@00.#.......#####0# #   *   a%a#5 #........
+.00@0000@@.#.......# G #0# #   .    * ###########&
+.@00000@00.#....u..#.# #Q# #        . # !       # 
+.00000000@.#.......#.# #o# #          #    *    # 
+.@000@@@0@.#########.# # # #          ###G#######G
+.....................# & & #   a      #$   0<000# 
+.............0...00..# & & #  a%a     #.# 000000  
+.............000000..# & & #   *   a  #.......... 
+.............00@000..# & & #   .      ###########G
+....5....5...00.000..# & & #          #           
+.............00@0@@..# & & #       a  #        #00
+.....................# # # #      a%a #   " (  :++
+.....................# # #*#aa     *  #     i  #  
+####################G#G#######     .  #        #  
+*....Q..Q...#      #*# #     #a       #        #  
+.......Q....#  0   #.  #     #        #####G#### |
+QQ..*Q...Q..# (.@( ##G##     # aaaaaaa#***# #**#Q 
+.....Q.Q..Q.#.cccc.   #      #G########0000 000#++
+.*......Q...# ....    # 0    G ***....#.... ...#  
+Q...Q.Q.*.Q.###G######### ## #....0...#ssss sss#  
+.Q.Q..Q.QQ...#  #         %  #........#        #  
+....Q##..Q.Q.#* G           @#.....^..#        #|c
+.Q.Q#E#Q.... G. #           ##........#        ## 
+.Q..# #Q....Q####   0        #################G##c
+#####B#########0#########    #%#%#%#%#%#%#%#%# G  
+~        7  #0#*#            #                 ###
+6*########b #$#.#aaaaaaaaaaaa#                    
+~#00000000# #.# ##############                    
+~##########8# # #0#0## @#Q##                    0 
+~    5      # # #*#* G &#* G   # # # # # # # #####
+####G######## # #.#.##  #!## @                    
+~     0   0 # # # # ##  #  #a#aaaaaaaaaaaaaaaaaaaa
+~     .   . # # # # ##  G  #########d#############
+~           G # # # ##c #  ##.....................
+~         0 # # . # #  G  ! G .[.*.............*..
+~ 0   0   . # # #G# # |##  ##.......5.....[.......
+~ + | + |   # # # # #####*##......................
+~ +   +     # # # # #   ###.*..[...............*..
+a@+@aa+@aaaa# . # . # 5  5.........sss............
+y .*$|c|...
+y ^^^^^^^^^
+R 10536
+0 0
+1 Demo 1
+2 bb....ttrr...llbbrrr......lllttrrr...rrb
+2 b....l...l.rttllllbbrrrrlllbr...brrrrlr.
+2 tlllttrrrrttrbb.rr.rbbbbbblltttt........
+2 ...bbrrrr.bbbr..r.lltttmllllrbbBttttttt.
+2 ..............................rr...lbbbb
+2 bbbbrr..b..lllltrbbrrrrttttrrrrbbrrrrrtt
+2 lttLtlTrbbrbbblllttttrrblbbblllllrrttttr
+2 r...rbrbbt..lbbllllltttrtrrrR.rbb.bbllll
+2 ttttllllbbbBrRltrrrrbbbrrbtttlllllltlbbb
+2 bbrrrrbbbrbblLrtttll...r..brbblltttttrrr
+2 rBrrrrbbbbbbbbbbbb...bBtLLLLLLLLLLt..llb
+2 bbttlbblbbbblltbrrtt....ttttttttttttlbbb
+2 bbbbbbbllllllllltttttrrrrrrrrrbbbbblllbl
+2 ll..Rllttt..rrrbl..Rtttllttbtlllllllllll
+2 lbbrrrrrrrrrrrttltLbLt.LbbbbBrrttlLb...b
+2 b..Lrtttt.......llttllttlbBttllttlllBtll
+2 bbbbbbRbbrbbrrrrttrrbbrrrtttttttlllllllb
+2 brrrrrrrrbbbbbb....rrrr..ttrrrrrbbbbbbLr
+2 bbrbllltlttlllbbRlbbrrrr.llbblbllbll....
+2 ...rrrtttlttttltlLrrt......llbbbbbLtttt.
+2 .lbb.r....llbbttttlllbll....ttllrrbbbbLr
+2 rrrrrrbbbb....rrrrrtrrrbbrrrrr..........
+2 ..........rtttrtttllb..............rrrrr
+2 rrb.b.bBttrbbrrbrRltllrrlltt..bbbb......
+2 .............ttrrtr.Tlb.b...rrrrttllrrll
+2 bRbllblTrtrrtt.................lr.....bb
+2 l..RllbRRltttR..bbrrBrrtttllllttrrrrrttt
+2 llllttttTrrrttttt....rrtTllllltTrrrttttt
+2 rTllltttttRbRbbllllttRbRllrrrrrrrrtrrrtr
+2 ttrrrrllrrrrll.....rrrbb...cbblllltt....
+2 ...bbrrrrrl..tllbltllbLrrrtrrrrrbbbbbbtt
+2 tlltllbrrrllltllbltrrllbbbbttttrrrbllrrr
+2 rrrrbbtlltllbrrBlltllBrrbBttrrbbblbrrrbb
+2 bbbb...llllllllllttrrttLrrbll.brrrrrrbrr
+2 bbllllllbbbbb...tttcbb.b.....t....RbbbrR
+2 ltrrrBllblLrt.llBtlLrbblLrrrbbbrrrbbrRlb
+2 bbrrrblll.........ll....................
+2 .....................bbrllltttrrbbbllttt
+2 rrb..............r..lr..l.....r...lr....
+2 ..l..ll........................ll......r
+2 ..lll...ll...ll........ll...............
+2 ..............llbb.Ltllllbbbbbsr.....llb
+2 Btllrtrttllttcbrrrbbll........rttllBrrbb
+2 lllBrrrrrrrtrrbbrTbbrrRllttttrrllbrbbblt
+2 ttrRlltlllbrrrrrbbRllllbbrtllltrrrrrrbrr
+2 rrltrrrrrrttlbrblllllrrrrrrrrrBtttllllll
+2 llllll....lbbbbrrrrttttbl..Lrbbbllllrrlt
+2 rrr..lbl.Lrtrrbl..........Ltlllllbrrrrll
+2 lllttlltllllrttllltttllbbbbbbbbblltttttt
+2 ttbbbbblltttttttttbbbbbbbbbbbbbllttttttt
+2 tttttbbbbbbbltLbb...llb..b..tllbbBTttttt
+2 Lbbb...llbblr..llBttl.lb.bBttttttrrr.tll
+2 ..lltttrtrrrrrrrr..rbrbbbllllllll..llltt
+2 .ttrrrrrtt....
+
+uuid 6e21d2fa5442e708e46b91145cd1219a
+
+leaderboard steps time

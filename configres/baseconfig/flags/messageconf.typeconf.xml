@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config xmlns="bence.sipka.types.config">
+
+    <declare-flag name="MessageOptions" >
+
+        <flag
+            name="NO_DELETE"
+            value="0x01" />
+
+        <flag
+            name="NO_REMOVE_FROM_QUEUE"
+            value="0x02" />
+
+        <flag
+            name="NO_COMPLETE_ACTION"
+            value="0x03" />
+    </declare-flag>
+
+</Config>

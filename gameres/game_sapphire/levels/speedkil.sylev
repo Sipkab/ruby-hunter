@@ -1,0 +1,39 @@
+n Speed Kills
+ldeutsch n T�dliche Geschwindigkeit
+D 6
+C 3
+e 9
+E 0
+T 2000
+M 0 Drive
+i Don't be too fast.
+i Don't be too slow.
+i Don't run.
+i Just go.
+ldeutsch i Nicht zu schnell
+ldeutsch i und nicht zu z�h.
+ldeutsch i Lauf nicht.
+ldeutsch i Geh!
+a Juergen
+m 19 11
+###################
+#    5   # 5 #   5#
+# ###### # # $  # #
+# #5 # $ # #### # #
+# # ## ###  5   # #
+# # #  # # ####   #
+#     ##   # 5 ## #
+# ## ##  #$# # E# #
+# # 5   #### # ##5#
+#1  #$#      #    #
+###################
+R 16219
+0 1
+1 Demo 1
+2 ttt...rr.rbbrBltt..lllbb...ttrrr........
+2 ...b.brrrtrrtrrBtttttrrbrrrbbbrrbtttttbb
+2 ....bbbbbblllttrr
+
+uuid 2505e03042feafea8812ef34430d600a
+
+leaderboard steps time gems

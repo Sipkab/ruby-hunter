@@ -1,0 +1,56 @@
+n So Many Boulders
+D 4
+C 1
+p 0
+A GRAPHITE
+O Illusion
+S SOFT
+M 0 Nightshift
+i Unbelievably, this seemingly boring
+i level has a second solution that's
+i extremely easy...once you find it.
+a Shark
+m 22 22
+######################
+#0..0......0...0..0#6#
+##0........0.0.0.....#
+#g0...00..01.0.0..#..#
+#00...00.....0.......#
+#Q000000000000G000#X##
+#............. ...#!Q#
+#000..........0...#!!#
+#...00........0...####
+#.....0.0000..0..0000#
+#......Y..00.........#
+#000... 00r0...00...y#
+#0..0.....000...000..#
+#b0.00.......###X#####
+#0..0...0000.###X#####
+#000...00.0.0#0#X#####
+#....0.......#00  00##
+#...0....R...#E.....Q#
+#.00. 0.0.0.0##s####0#
+#.0. 0.0...0..###....#
+#0. 00.0...00.B R.?Q.#
+######################
+R 43491
+0 0
+1 Demo 1
+2 .....bllttllllll.rrrrllllbbrttllbLrrrBtr
+2 rtrrbblBrrtrrbBttrrbbbbrbrrblbbrrrrBbblt
+2 .rttllllblllttllllllbbbrRltrrRlllbbbb..b
+2 brblb.Bl.r.ttblLtllllTrTrtltltTbrrrbrTbb
+2 rrbrrrBlB.trrbrrbrrrrrtttllllll.....
+R 20870
+0 0
+1 Alt. Solution
+2 ...rttrrBl.rrrrbRbbrrttRbblltttllllllbll
+2 lllllbl.T....brr.tttrrrrrrrrrrrbrbbll...
+2 ............rr.rrRlltt........rlbLb...rr
+2 bbbRtttlltttlllllllllllllllbbLrrrtrrrrrr
+2 rtrrrbblbbllbbbbbrrbrml.........rrrbull.
+2 .trr...bbbutt.b......bbbbbll.....
+
+uuid 7c79671bf5abc6840a172e93dda558be
+
+leaderboard steps time

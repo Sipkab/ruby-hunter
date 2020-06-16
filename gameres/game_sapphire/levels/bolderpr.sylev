@@ -1,0 +1,53 @@
+n Boulder problem
+ldeutsch n Felsproblem
+D 5
+C 5
+e 12
+p 0
+M 0 Dancing on the Ceiling
+i It seems to be a problem
+i to get all the boulders to
+i fall through the converter.
+i Just work with one boulder
+i at a time.
+ldeutsch i Es ist gar nicht so einfach,
+ldeutsch i alle Felsen durch den Konverter
+ldeutsch i zu schmeiﬂen.
+ldeutsch i Versuch es schrittweise
+ldeutsch i immer mit einem Felsen auf einmal.
+a Ronald
+m 16 12
+~ ############  
+~##$*(*((S$(*#  
+##$*$$**S.S$S#  
+# (($(*S...S.#  
+#SSS($S......#  
+#...SS..1....#  
+#............#  
+## c  .      ## 
+~#     _  _   # 
+~#   _        # 
+~E            # 
+~############## 
+R 1
+0 9
+1 Demo 1
+2 ....rrrrbbbblllllllblttbrrrrtllbltbllltt
+2 tr.Tl.rrr...r.lllllbbbbrrrtrrrrrt...rtll
+2 lbblllllltttrrrrt...................br.l
+2 ll..rr..llllbbrrrrrt.blllllttrrrrtr..t..
+2 ..r...blblll.llbbrrrrrtblllllttrrrrtrrtt
+2 ....br.bll.b.lll..llbbrrrrrtrrrrrttllltt
+2 tbbbr.lllb.llllllbbrrrrrtrrrrrttllttbbr.
+2 llll.blll.rrrtrrrrtbr.lllrrrbbllllbltrrr
+2 rrttlllll..blllrrrbrb...blltrrrr..rbrtt.
+2 lllllttrrr..lllbbrrrrrtbllllltttrrrrr...
+2 Tllll.rrrrbbbb.rblllllblttt.brrrrrtttlll
+2 ll.b.lll..rr..r.brbbblllltllbrt.........
+2 .rr....llltt...tlrbbbrrrrrrtlllll..bltrr
+2 rrrttlllllt.bl..rrrrrb..bl..l..trtllltlr
+2 r...lbrrbbbbll....lllll...........l
+
+uuid 0645f77fc20424065cb88ca6c3cd32ea
+
+leaderboard steps time

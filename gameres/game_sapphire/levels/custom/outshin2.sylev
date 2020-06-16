@@ -1,0 +1,33 @@
+n Outshined II
+D 6
+C 3
+E 0
+p 0
+N Outshined III
+i The original Outshined did not
+i have enough elements in it.
+i This one requires more work.
+a Alex
+m 10 10
+##########
+# Q|  0* #
+# . 1 .. #
+#  &     #
+#     Q0 #
+#  | b||.#
+# &      #
+#  @{    #
+#|EQ Q&||#
+##########
+R 38733
+0 0
+1 Demo 1
+2 ............bbr...trrt.bl.....llbbbrrrrt
+2 .bll......rrbll......tll................
+2 ......tttrrrttl.bbrb.....ll.............
+2 .........ttll..l....rrrbbb....lb......tl
+2 l.b..rr...........bbrrtllll..b........
+
+uuid 0e53d3c7e51557c86d044bc45f3f40de
+
+leaderboard steps time

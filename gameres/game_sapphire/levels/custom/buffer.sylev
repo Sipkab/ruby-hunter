@@ -1,0 +1,33 @@
+n The Buffer
+D 2
+C 6
+e 32
+E 0
+p 0
+i The emeralds will not fall
+i directly into the acid.
+i Use this knowledge to
+i safely capture them.
+a Alex
+m 8 12
+########
+#0*0000#
+#0000*0#
+#000000#
+#00*00|#
+#|000|+#
+#+|c|++#
+#  .   #
+#  E 1 #
+#      #
+#aaaaaa#
+########
+R 28479
+0 8
+1 Demo 1
+2 ...tl..LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+2 LLLLLLLLLLLLLLLLLLLLLLLLLL....lb........
+
+uuid 176c451f318236d21b70d4bff0b65809
+
+leaderboard steps time

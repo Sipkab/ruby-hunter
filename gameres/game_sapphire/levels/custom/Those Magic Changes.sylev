@@ -1,0 +1,45 @@
+n Those Magic Changes
+D 6
+C 6
+e 29
+p 0
+v 2
+M 0 Stars
+i Build your own destructive laser
+i device! NOTE: Laser not included.
+a Shark
+m 15 13
+## 0###########
+#EQ|###########
+*+m (       * #
+#   .   @   : #
+#       .     #
+*             #
+::$   @       #
+: :1  # @     #
+: :     #c.c.c#
+: : _  0#.....#
+: :    l#..|..#
+**:{***##...Q.#
+##########aa###
+R 80727
+0 0
+1 Demo 1
+2 .....bbbrttttlLrrtttLbblltlbrrrrrrrrrrbb
+2 bbLBttlllttlTlllbrrrbblllttttt..........
+2 ..rrrrrrbbbbbbLtttlllbrtrrbbbLbbrRlttLtt
+2 tttttrRllllllbbbbbbbbbRllttttttllLtttLt.
+2 ....
+R 94614
+0 0
+1 Demo 2
+2 bbbrttttllrrrtttLbblltlbr.rrrrrrrrrbbbbb
+2 tLtttllllttlllbbrrrr....llll...ttttb....
+2 ..rrrrrrr.l..bb.rrbbl...rbbbb.lltttblr..
+2 lrtttlllrlbr..rrbllblbbrrrrttltttttlttr.
+2 .llllllllllllrbbblrrrrb.bbbbbr.Rlttttttt
+2 ttLrllllt.....
+
+uuid 1c5b3a090d728647c5e7614875152343
+
+leaderboard steps time

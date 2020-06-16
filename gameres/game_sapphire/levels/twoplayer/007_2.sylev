@@ -1,0 +1,87 @@
+n Lorries 'n doors (2)
+a Emerald Mine
+D 3
+e 36
+s 0
+i Together they let you through.
+m 64 32
+################################################################
+#   +|E0000000000000000000000E|+  #*6*6*6*6*6*.#        #      #
+#    +|$$$$$$$$$$$$$$$$$$$$$$|+   #6...........#        #      #
+#     +|$$$$$$$$$$$$$$$$$$$$|+    #*...........#        +      #
+#      +|$$$$$$$$$$$$$$$$$$|+     #6...........#        %      #
+#       +|$$$$$$$$$$$$$$$$|+      #*...1..2....#        +      #
+#        +|$$$$$$$$$$$$$$|+       #6...........+        #      #
+#         +|$$$$$$$$$$$$|+        #*...........%        #      #
+#          +|$$$$$$$$$$|+         #6...........+        #      #
+#           +|$$$$$$$$|+          #*6*6*6......#        #      #
+#            +|$$$$$$|+           ########################+%+###
+#             +|$$$$|+            #     #        #   #         #
+#              +|00|+             #     #        +   +         #
+#                ..               +     #        %   %         #
+#                cc               %     #        +   +         #
+#                                 +     #        #   #         #
+#                                 #     #  ##+%+######         #
+#                                 #     #  #         #         #
+#                                 #     #  #         #         #
+#                                 ##+%+#####         ###########
+#                                 #        #         +         #
+#                                 #        #         %         #
+#                                 #        #         +         #
+#                                 #        ###########         #
+#        ssssssssssssssssss       #        #         #         #
+#                                 ###+%+####         #         #
+#       #|aaaaaaaaaaaaaaaa|#      #        #         +         #
+#        ++++++++++++++++++       #        +         %         #
+#                                 #        %         +         #
+#                                 #        +         #         #
+#                                 #        #         #         #
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 71493
+0 8
+1 Demo 1
+2 .............................rrrrr.r...b
+2 .b.b...t.t.t.b.blblb.l.l.l.t.t.t.t.r.r.r
+2 .t.t.t.....t.....................L.b.b.b
+2 .b.l.l.l.t...r.t.t.t.............L.b.b.b
+2 .l.l.t.t.t...............L.b.b.b.b.l.l.l
+2 .t.t.t.t.......................L.brbrbr.
+2 r.bbb.blbl.l.....r.t.t.t.t.............L
+2 .b.b.b.......t.t.t.l....................
+2 .....lr.r.r.t.r.r...........b.r.r.r.r...
+2 ..r.rLrrtrtbtbt.rlr.blb.b.b....L.r.rrbrb
+2 lll..l...............L.r.r...b.....b.l..
+2 ...l...........L.r.r.r..rlblbllll.l.l...
+2 .................b..........rBrtrt.r.rtr
+2 ...blll...rbr.r...t.tB.tlt.r.r...bt.t.tb
+2 t.l.l.b.b.b.bBltltltl.l.l.l.l..r........
+2 ..r.r...l.l...t.l.l.b...l.l.l....r.r....
+2 lrlrlr.r.b...r.rlrtr.r.r.r..............
+2 ...t.....r.r.rr.rrrrr.rtrtrrr.r.........
+2 ....r.r.rbrbrbrbrbr.r.t.tbtbrbrbbbb.b.b.
+2 rl.l.l..b..r.r.........lbll.l.lll.l.....
+2 .lbl....l.ll.l....l.llllll.l..lblblb.b.b
+2 brbrb.b.lrt.l.lblbrrrrbrb.rrbrbr..rrr.rr
+2 rr...brbrbrbbbbbbbr.r.r.b.b.b.blrlrl....
+2 b.b.b.lll.ll..l.lllllll.l.lllll.lllllll.
+2 l.l.lbllll....bl.ll.l.lllllll....llll.lr
+2 ltltt.t.rrtttttt...tttt.t..t.t.t....l.t.
+2 ttttttt.llllllllllllllllllllllllllllllll
+2 lll.l.l....l.l....................l.t.t.
+2 l.t.ttltl.l.l.l.l.l.t.t.t.t.t.tltltl.l.b
+2 bbbbbbbbbbbb.b.b.......lt.ttttttr.r.r.b.
+2 r.r............................l........
+2 blb.b.b.b.b.r.r.r.r.............r.r.r...
+2 ..b.b.blbb.b.bb.r.r..b..b...lr.r.r.r.r.r
+2 .r.r.rtr.r.r.r.....l.lllll.lblblblllllll
+2 .l.lt.t.t.tttttttrtrrrrtttrtrtrttttttrtr
+2 trttttttttttttttltltlrlrlrlrlrlrlrltltlt
+2 .r.r.r.r.r..............
+
+uuid eed6c0572134bdabccbd301e171db064
+
+leaderboard steps time gems

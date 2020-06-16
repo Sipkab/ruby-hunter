@@ -1,0 +1,44 @@
+n Thin Ice
+D 6
+C 5
+E 0
+p 0
+i If the bombs aren't scary
+i enough, consider that you
+i only have two stones. Use
+i them sparingly.
+a Alex
+m 11 13
+~ #######  
+~ #.@Q@.#  
+###.Q.Q.###
+#.Q.....Q.#
+#0..@Q0..@#
+#Q..QEQ..Q#
+#.........#
+#.Q..Q..Q.#
+#...Q@Q...#
+#.........#
+#.........#
+#..Q.Q.Q.1#
+###########
+R 82672
+0 0
+1 Demo 1
+2 ........l.ttttr.........lbbllll..b.tt.br
+2 rrr.....tt...t............bltt...r..t..l
+2 ......tt..t..T.bbr..ll.........rrbbbbb..
+2 .b......................................
+2 ......llll..tttl...r........bb..rl.....t
+2 t..rrrtttt........bbbb..ll..............
+2 lbbbbrltttt..l......rb...bblltt..bbrrrt.
+2 ...........tt.ll............ttt..bbbbr..
+2 ...bbb.............ll.ttt..r.....ttttttt
+2 ..bbbbbbbr....l.......r..bbrrr..t.rb..lb
+2 l..tlbl..tlbl.......l.....rrrrrtrrrbllll
+2 ll..tl...ttttttr..........l..bb..bbbbbbr
+2 rr....ttttrtlt...........
+
+uuid 79eccf2a96436b42625291f43af002ba
+
+leaderboard steps time

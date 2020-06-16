@@ -1,0 +1,27 @@
+n Bomb Ceiling
+D 6
+C 3
+e 24
+s 2
+d 1
+O alt-set1
+S standard
+M 0 Perplexities
+i Be careful!
+a Nic01
+m 20 6
+#dddddd#############
+#++++++#############
+#QQQQQQ+++++++++++>%
+E$$$$$$1++++++++++>%
+#******+++++++++++>%
+####################
+y >%Q>%(>%Q
+R 11447
+0 8
+1 Demo 1
+2 .lB.l.Bl...B..l.B....lB.....lBl.......
+
+uuid cb0ad366a9894b02ff1b4e24e06cf810
+
+leaderboard steps time

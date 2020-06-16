@@ -1,0 +1,57 @@
+n First come first eat (2)
+a Emerald Mine
+D 3
+e 75
+s 0
+i Yam yams also like sapphires
+m 64 32
+################################################################
+#^^^^^           ..             $                            21#
+#^^^^^               .          .              .               #
+#^^^^^        .         . $         $         .                #
+#^^^^^       .            .       . .        $.                #
+#^^^^^                               .       .     $.          #
+#                     $.........$     .      .    .. .         #
+#         $  $.. .. ...        ....        ..    .             #
+#     .. ... .    .         $          . $.     $    .         #
+#     .            .       ..           ..      .        .     #
+#                  ..        .         .       .     . $       #
+#    .       $      .$    .         $ ..              . . .    #
+#   .     .. ...$    .        .$   ..         .        .  .    #
+#  $.    .      ..    ...      ...     .       $  $  .    .$   #
+#  .   $.           $  $. $ $  ..  E           .. . ..     .   #
+#      ..           ....... .          .$            .     .   #
+#.                    .          .$     .                  .   #
+#      .       . $        E       .      .          .      $   #
+#.     $   $. .  .  $             .                $       .   #
+#.     .   .       ..                              .       .   #
+#.     .                           .$             $            #
+#$     .           .   .            .             .        .   #
+#..     .$       $      .  $     $ ....   $      .         .   #
+#  .$            .         .     .    . ..   $  .          $   #
+#  .... .... . .             .$ .         . ...            .   #
+# .        .$                 ...            .            .    #
+#           .              $ ..               .        $  .    #
+# .         ..              ..                 ..$    ...      #
+# .  $   $..   .           .     .$              ... .         #
+#  . .....       $     $ .       ..  $                         #
+#                .. .  .          .....                        #
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 73762
+0 8
+1 Demo 1
+2 ........l.l.l.b.bb.blblblblblblbbbbbbbbb
+2 blblb.lrbbbblblbllltltbtlblblbtbtbtbtbtb
+2 rbtbtbrbrlrltltllllllllllllllbllllllblbt
+2 btbtltltllllllbbbbbb.tt.tltltltltltbtb.b
+2 bbbbllllllltbtbtbtbtbtblllllblbbrbrbtblr
+2 brbrlrltltltltlrtrttttttttttrtrtrlbtbtbt
+2 b.b.b.b.b.l.l.b.................
+
+uuid 1823e6dc11cbb564fde520397af22c0f
+
+leaderboard steps time gems

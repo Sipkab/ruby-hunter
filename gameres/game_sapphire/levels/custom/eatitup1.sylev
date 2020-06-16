@@ -1,0 +1,37 @@
+n Eat It Up
+D 6
+C 4
+e 9
+p 0
+Y
+M 0 Imperial March
+N Eat It Up II
+i The sapphires are destroyed
+i immediately after being created.
+i But there's a way to prevent it...
+a Alex
+m 15 12
+#######E#######
+#.............#
+#.............#
+#......1".....#
+#.............#
+#.............#
+#.............#
+#........<....#
+#.............#
+#.............#
+#.............#
+###############
+y ....$<...
+R 84192
+0 0
+1 Demo 1
+2 ..rbbb.mlbbbrrr....Tl.RRll..llllt..ttttt
+2 tr.rrrrrrbbbBtttr..........sbbll.......T
+2 l.bbbbbRlt....rttttt.T.t.b.rtrr.....cbl.
+2 ........Tl.Rlluuuu..........
+
+uuid 5adb849965696b8c29182d0ad56214df
+
+leaderboard steps time gems

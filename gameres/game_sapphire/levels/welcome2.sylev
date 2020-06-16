@@ -1,0 +1,33 @@
+n Welcome to the game II
+ldeutsch n Willkommen im Spiel II
+D 4
+C 5
+E 0
+T 9999
+M 0 Nobody does it Better
+N Welcome to the game III
+i The stakes are
+i getting higher.
+ldeutsch i Der Einsatz wird
+ldeutsch i höher.
+a Juergen
+m 13 9
+#############
+#.......E...#
+#...........#
+#....$Q$Q$..#
+#....Q$Q$Q..#
+#.1..$Q$Q$..#
+#...........#
+#...........#
+#############
+R 17302
+0 1
+1 Demo 1
+2 ...ttrrrtrrblllll.rrrrtrrbllllllrrb.trrb
+2 .trr.b.r.tlllbrrrrl.b..bblltt...blltlllt
+2 tttrrrrrr..........
+
+uuid c8250041f353db42d3c39d546c88048d
+
+leaderboard steps time

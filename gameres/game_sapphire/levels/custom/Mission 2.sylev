@@ -1,0 +1,55 @@
+n Mission II
+D 5
+e 3
+s 0
+p 0
+d 15
+M 0 Mission Impossible
+i A continuation of Mission.
+a Alexander
+m 50 28
+##################################################
+#                                                #
+# 0                                              #
+# 1                                              #
+#                                             b  #
+#                                         wwwwwws#
+# ?!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!       #
+#                                                #
+#                                               @#
+#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaBa##
+#     d               Q                  !       #
+#      dd             .                 ##########
+#                                      #.$$>$$#  #
+#        dd                            # ###+##  #
+#          d                           #      %  #
+#                                      #####++#  #
+#                                                #
+#            dd                                  #
+#                                                #
+#              dd                              0 #
+#                            ...@###a###########a#
+#                            .....#aaa#Q       ###
+#  ###      |    +ss#   #####.....#aaa#oQ5 QQQQ!!#
+#     ssssss#ssss   #   #####.....#aaa#!!Q5Q!!!!/#
+#           [       #cwd#####.....#####!c!Q!!!w! #
+#sB aaaaaaaaaaaaaaaa###################!!!!_!!!!!#
+#  E                 !Q!Q!Q!Q!Q!Q!QQQ!Q!Q!!!Q!!!Q#
+#@ #                !Q!QQQ!Q!Q!Q!Q!Q!Q!!!!!!!!!!!#
+y 0      0 
+R 39270
+0 0
+1 Accomplished
+2 .....lbrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+2 rrrrrrrrrrrtrrBllbrrrlllllbbbbbrrrr.R.rR
+2 lblllllllbmbbbbbbbrrrrrrrrrrbll..rr.ll..
+2 ........l.l.l.l.l.l.l.l.l....llll.tlllbb
+2 Lb.L.r...R...rr.ll.r.l.T.lllll.lt.lllttt
+2 ttttttrrrbbbbbbbbbb..llll.lll...........
+2 ...lllllllllllll.ltllbbbbr....rrrrrrrr..
+2 ...rrrrrr..trrb.lllllll...........llllll
+2 lltlltttrrbl.l.bbrbl.....blbtrr.........
+
+uuid 44bd5862f26143e44447c1463c3a012f
+
+leaderboard steps time

@@ -1,0 +1,67 @@
+n Avalanche
+D 5
+C 3
+p 0
+M 0 Jump
+i Feel the wave...
+i And then, the other wave...
+a Shark
+m 12 48
+#####0#     
+#   00#     
+#  000#     
+# 0000#     
+#00000#     
+#00000#     
+#00000#     
+#0000 #     
+#000  #     
+#00   #     
+#0    #     
+#+++++#     
+#!!!!!!#    
+#!++++#     
+#!    #     
+#?    #     
+#     #     
+#     #     
+#     #     
+#     #     
+#     #     
+#     ######
+#     ##000#
+#     ##000#
+#     ##|00#
+#     ###E0#
+#     ###0Q#
+#    0# +QQ#
+#   00G +QQ#
+#  000####.#
+# 0000#    #
+#00000# Y  #
+#00000.G.###
+#00000#   y#
+#0000 # ####
+#000  #    #
+#00   #### #
+#0    G    #
+#     ######
+#    .B*   #
+#     #. # #
+#     #### #
+#    1#    #
+#     #   g#
+#     #    #
+#     #### #
+#    bB    #
+############
+R 98152
+0 0
+1 Demo 1
+2 ..ttTbbbbbbrrrrtttttttlllltttttttRbbbbbr
+2 ..rrrttlll..ttrrrllttrrtbllblltttt.r....
+2 ....trrtt.....
+
+uuid 1e3dd21f11a859b43761ef2ec688a22a
+
+leaderboard steps time

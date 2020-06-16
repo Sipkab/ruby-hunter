@@ -1,0 +1,38 @@
+n EAT 26M
+D 5
+C 3
+T 80
+A graphite
+S standard
+N EAT 29M
+i Your buddy decided to stick around.
+i You must now escape the building
+i with your buddy before the time run
+i out.
+a Elliot
+m 20 15
+~                   
+~ #############     
+~ #  R B R B E#     
+~ #  G Y G Y E#     
+###RY##########     
+# R  Y #            
+#B####G#            
+# B  G #            
+###BG###############
+~ #  B g  Y R Y R  #
+~ #  G b  R Y R Y  #
+~ ###############RY#
+~   ## 1y R Y R Y  #
+~   #  2r Y R Y R  #
+~   ################
+R 45509
+0 0
+1 Demo 1
+2 rrrtbrr.t.rrbbrrttrrbbrrttttttllbbllttll
+2 bbllttlllbllltbllltlttrlttlrttrtrrrrrrrr
+2 rrrr..................
+
+uuid 38ceb5f61a1a6543ceba7b84d996de40
+
+leaderboard steps time

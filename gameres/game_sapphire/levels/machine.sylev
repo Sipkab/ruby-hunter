@@ -1,0 +1,74 @@
+n Machine
+ldeutsch n Automat
+D 2
+C 5
+E 0
+M 0 Money for Nothing
+i This one is a slot machine.
+i Feed it with stones, and you
+i will shortly be rich.
+ldeutsch i Das ist ein Spielautomat.
+ldeutsch i Füttere ihn mit Steinen,
+ldeutsch i und schon bald wirst du
+ldeutsch i reich sein.
+a Reinhard
+m 18 43
+##################
+#................#
+#...0.....0....0.#
+#......0....0....#
+#...0....0.....0.#
+#.....0......0...#
+#................#
+#.+++ +++........#
+#.+5  5 +........#
+#.+ 7  7+........#
+#++++ +++++      #
+#      *  +  1E  #
+#   |Q+|| +      #
+#  *+++ + +      #
+# ||+Q|   +      #
+# + +++*  +      #
+#   |Q+|| +      #
+#  *+++ + +      #
+# ||+Q|   +      #
+# + +++*  +      #
+#   |Q+|| +      #
+#  *+++ + +      #
+# ||+Q|   +      #
+# + +++*  +      #
+#   |Q+|| +      #
+#  *+++ + +      #
+# ||+Q|   +      #
+# + +++*  +      #
+#   |Q+|| +      #
+#  *+++ + +      #
+# ||+Q|   +      #
+#   +++   +      #
+#|       |+      #
+#+|     |+       #
+# +|   |+        #
+# ++| |++        #
+# +5  5 +        #
+# + 7  7+        #
+# +++ +++        #
+#                #
+#                #
+#                #
+##################
+R 19783
+0 0
+1 Demo 1
+2 ..tt.rr.t.rttttttlltlllllllllllbbbb...tt
+2 ttll.brrlbbbbrrlltt......rr..r.tt..rrrrt
+2 rrblllllrrrrrrrrtrrbllllllllllllllll.b.t
+2 rr.bll.rrrrrtrr.blllllllllrrrbl.bllrr.tr
+2 rbllllllrrrrrrrrtrrblllllllllllllllll...
+2 r.b........llrrrrrrtrrblllllllll...rrrrr
+2 .bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbblll
+2 lllll..rr.tbrrrrrrrttttttttttttttttttttt
+2 tttttrr.tttt..........
+
+uuid 0f16a50a5383d1b4d00431792afce18f
+
+leaderboard steps time

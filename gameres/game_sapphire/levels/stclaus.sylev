@@ -1,0 +1,51 @@
+n House of Santa Claus
+ldeutsch n Haus vom Nikolaus
+D 3
+C 1
+E 0
+M 0 Pink Panther
+i Who can draw the house
+i of Santa Claus without
+i lifting the pen.
+ldeutsch i Wer schafft es, das Haus
+ldeutsch i vom Nikolaus in einem
+ldeutsch i Zug zu zeichnen?
+a Reinhard
+m 21 24
+#####################
+#1!.................#
+#.........S.........#
+#........S*S........#
+#.......S***S.......#
+#......S**+**S......#
+#.....S**+.+**S.....#
+#....#**+...+**#....#
+#...#**+.....+**#...#
+#..E**++SSSSS++**E..#
+#..#*************#..#
+#..#***S+++++S***#..#
+#..#*+**S...S**+*#..#
+#..#**+**S.S**+**#..#
+#..#S*++**+**++*S#..#
+#..#**+.+***+.+**#..#
+#..#*S+..+*+..+S*#..#
+#..#**+.S***S.+**#..#
+#..#+*+S**+**S+*+#..#
+#..#**+**+.+**+**#..#
+#..#*+**+...+**+*#..#
+#..#***+SSSSS+***#..#
+#..E*************E..#
+#####################
+R 68025
+0 9
+1 Demo 1
+2 ...r...bbbbbbbbbbbbbbbbbbbbb....ut......
+2 ....bbrrtttrttlttrttltt..t...R.T..r.ttrt
+2 rtr.trtr..t.br.br.br.br.br.b..R.b...llll
+2 llllll.br.br.br.br.br..bbr.br.br.br..br.
+2 ..r.tt.lttrttlttrtttllbl..Rbblbl..bl.bl.
+2 bbl..bl.bl.bl.bllbrrrrrrrrrrrrr........
+
+uuid b9c17b8d655eae361d8881560d565439
+
+leaderboard steps time

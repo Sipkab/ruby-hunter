@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package
+	IgnorableNamespaces="uap mp build"
+	xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+	xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+	xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+	xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+	<Identity
+		Name="35679BenceSipka.SapphireYours"
+		Publisher="CN=70D4ED09-B539-4467-B1D2-451A06449F1B"
+		Version="4.0.3.0" />
+	<Properties>
+		<DisplayName>Ruby Hunter</DisplayName>
+		<PublisherDisplayName>Bence Sipka</PublisherDisplayName>
+		<Logo>logo\Store.png</Logo>
+	</Properties>
+	<Capabilities>
+		<Capability Name="internetClient" />
+	</Capabilities>
+	<Dependencies>
+		<TargetDeviceFamily
+			Name="Windows.Universal"
+			MinVersion="10.0.10240.0"
+			MaxVersionTested="10.0.14393.0" />
+		<PackageDependency
+			Name="Microsoft.VCLibs.140.00"
+			MinVersion="14.0.23816.0"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+	</Dependencies>
+	<Resources>
+		<Resource Language="EN-US" />
+		<Resource uap:Scale="100" />
+	</Resources>
+	<Applications>
+		<Application
+			Id="App"
+			Executable="Ruby Hunter.exe"
+			EntryPoint="Ruby_Hunter.App">
+			<uap:VisualElements
+				BackgroundColor="#202020"
+				Description="Ruby Hunter"
+				DisplayName="Ruby Hunter"
+				Square150x150Logo="logo\Medium.png"
+				Square44x44Logo="logo\AppList.png">
+				<uap:DefaultTile
+					Wide310x150Logo="logo\Wide.png"
+					Square71x71Logo="logo\Small.png"
+					Square310x310Logo="logo\Large.png">
+					<uap:ShowNameOnTiles>
+						<uap:ShowOn Tile="square150x150Logo" />
+						<uap:ShowOn Tile="wide310x150Logo" />
+						<uap:ShowOn Tile="square310x310Logo" />
+					</uap:ShowNameOnTiles>
+				</uap:DefaultTile>
+				<uap:SplashScreen Image="logo\SplashScreen.png" />
+				<uap:InitialRotationPreference>
+					<uap:Rotation Preference="landscape" />
+					<uap:Rotation Preference="landscapeFlipped" />
+				</uap:InitialRotationPreference>
+			</uap:VisualElements>
+		</Application>
+	</Applications>
+</Package>

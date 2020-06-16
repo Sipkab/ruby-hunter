@@ -1,0 +1,27 @@
+n Mound
+D 5
+C 3
+E 0
+p 0
+o 1
+i Who knows who the robot will chase?
+a Shark
+m 15 10
+#######E#######
+#      o      #
+#      *      #
+#     ***     #
+#    *****    #
+#   *******   #
+#  *1*****2*  #
+# *********** #
+#*************#
+###############
+R 945964302
+0 0
+1 Demo
+2 r.rlrl.b.b.r.r.r.r.r.l.l.l.t.l.t.l.b.b.R.l.t.lL.L..b.l.t.b.l.l.l.l.l.t.r.b.r.t.r.b.r.t.l.b.r.r.r.t.r.b.l.l.t.t.l.t.t.t.t.r.r.rr..l.lllbbbb.btbtbtttt.t.t.b.b.t.tltrrbrbttttrtttttttt............
+
+uuid 42ae5308b699635727bab2a341c08435
+
+leaderboard steps time

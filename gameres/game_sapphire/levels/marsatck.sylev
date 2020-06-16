@@ -1,0 +1,139 @@
+n Mars Attacks
+D 5
+C 4
+e 200
+s 100
+Y
+M 0 Race
+i Some hints:
+i - The exit door is just straight
+i   below the YamYam-beast.
+i - You can turn the rubys into machine
+i   gun lasers by rapidly dropping time
+i   bombs while walking by.
+i - It's not as difficult as it may seem.
+i Have much fun!
+ldeutsch i Ein paar Tips:
+ldeutsch i - Der Ausgang ist genau unterhalb
+ldeutsch i   vom YamYam-Biest.
+ldeutsch i - Du kannst die Rubine als Maschinengewehr-
+ldeutsch i   Laser benutzen, wenn du beim Vorbeigehen
+ldeutsch i   ganz rasch Zeitbomben legst.
+ldeutsch i - Es ist nicht so schwer, wie es aussieht.
+ldeutsch i Viel Spa�!
+a Erik & Heidi
+m 80 60
+################################################################################
+#jjjjj############jj#######jjjjj#########j######jjjjjjj##########jj#####jjjjjjj#
+#####jjjjjjjjj#####jj#jj#####j##jjj######j#####jj##############jjj###jjjj#######
+#jjjj######jjjjjj###jj#jjjjj#jj###j  ####j#### j#####jjjjjj###jj####jj##########
+####jjjjjjj#####jjj##jj####  #j   ##  ### ###  ###  jj#######jj#jj#jj###jjjjjjj#
+#jjjjjj###jjjjj###jjj#jjj### ####  ##              ########jjjjjj#jj##########j#
+######jjjjjj##jjjj##jjj#   #  #### ### ## ## ##  # #####jjjj#jj##jj###########j#
+###########jjj###jjjj#   #     ###      # ## ## ##       ###jj###j############j#
+#j##j########jjjjj######   ### ### ###  # #          ###  jjj####jjjjjjjjj###jj#
+#j##j############jjj  ####  ##       # #    ## # ### ###  ####jjjjj######jjjjj##
+#j##j#jjjjjjjj#######  ####  ##           # ## #      ###    jj##j##############
+#j##j#j######jj##j####    ## ##  ## ## ## #      # ##     #######j##############
+#j##j#########jjjj######  ##  #  ##         #  ###     ## ### jjjjjjjjjjjjjjjj##
+#j##jj#####j###jj     ###   # ## #  #   # # #       ##    ##  ###j###########j##
+#j###jjjj##jj##jj#### ####    ##     # ## #   ## ## ## ## #  ####jjjjjj#########
+#j##jjj#jj##j##j   #    #  ##  # ####   # # # ## ##           #jjj#####jjj######
+#j##j####j##jjjj##  ###   ###     #         #       ## # # #   j#j#######j##jj##
+#j#jj####j###   ###  #  # ### # ##        #   #  ## ## # # ######j######jjjjj###
+#j#j#####jj##jj  ###   ##  ## # ##          # ## ## ## # # ######j#jjjjjjj####j#
+#j####j###j##j##  ###    #    ##     #1#                          jj#####j####j#
+#j####j###j#jj ##  ### #   ##       #"""#     ### #### ##  ###### #######j####j#
+#jj###j###j#j#  ##   # ### ###      """""      ##  ##  ## #####   #######jj###j#
+##j###jj##jjj##  ###   ###     #    """""       ##               #############j#
+##jj###jj##jj###  ######## #        """""(            ### ######    jjjj###j##j#
+###jj###jj#jjj##         # ##      ( """ :    #### #  ### #############jj##j##j#
+####jj###jjj#jj##### ###   # #     :     (         # #### ####   #######j#jj##j#
+#####jjj##jj##     #  ###          ( #+# :     ###           ###   #####jjj###j#
+#######jj##j######        ###      : #V# (         # ###  ##       #jjj#jj####j#
+########jjjjj######### ##          ( +#+ :    # # #       ######## jj#jjjjj###j#
+##jj#######jj       ## ### ####    :     (            ### ##########jj####j###j#
+###jjjj####j#######      #         (     :   ### ## ##### ###########j####j##jj#
+######jjjjjjj   ########   # ##    : ( (                          ###j####jj#j##
+###########j###           ## ###     : :       ##  ###### #######   jj#####j#j##
+###jjjjjjjjj#######  ## #                   #   #   #####    #######jjj####j#j##
+#j#j######j          # ### ### #             ##   #    ## ##   #####j#jj###jjj##
+#j#j#######j########        ## #                 #####    #### j####j##jj###j###
+#j#j######j      ########## #    #        ## #  ####   #   ####jj###j###j###j###
+#j#j#####jj# ###              ##        #        ### ####    ###j###j###jj##j###
+#j#j#####j##  #################  ## # # # # ## #   # #### ##  ######j####j#jj###
+#j#jj####jjj# ############### #       #     #   ##   #### ###  #####j####j#j####
+#j##j########  ########         ## #    ###   #   ##       ###  ###jj####j#j##j#
+#j##jj########          ########## ## #   ###  ##  ### #   #### ###j#####j#j##j#
+#j###jjj#####j   #############   #  # # #  #  ####   ###     ##  ##jj###jj#j##j#
+#jj#######jjjj##   ####               # ## ##     ##  #  ###   # #######j##j##j#
+##jj#####jj#######j ##  #####  ## # # #    ####  ####   ######   j######j##j#jj#
+###jjjjjjj####jjjj j   #####  ##    # # #                ########jjjj##jj##j#j##
+#############j #j ##  #####  ##  # ## # ##  #####  #####   ######j##jjjj###j#j##
+############j #j ##jj####   ##  ## ## #  ##  #####  #####   j####jj####jjjjj#j##
+###########j #j ######    ###  ### ## ##  ##  #####  ######jjjjjjj#########jjj##
+##########j #j ####j   # ###  #### ## ###  ##   ####  ###########jjj########j###
+#######jjj #j ###jjj###  ##  ####  ## ####  ###  ####    ##########jjjj#####j###
+##jjjjjj###j ###jjj#### ### ##### ###   ###  ###  ####    jjjj#####jjjjjjj##jj##
+#jj#j##j##j ###jj#jj###j### ##### ### #  ### ####  #####  ###jjj####j####jj##j##
+#j##j##j##j####j###j###j### ##### ###  #  ##  ####  #####j ####jjj##jj#######j##
+#j##j#jj##j###jj###jj##j###j#####k#E+   #  j# #####  #####jjj####j###jjj####jj##
+#j##j#j###j###j#####j##j###j####kk### #####jjj######j ######jjj########jjjj#j###
+#j####jj##j###jj#######j###j######### #######jjjjj###j #######jjj#########j#####
+#j########j####jjj#####jj##jjjjj##### ################j ########jjjjjjjj########
+#jj##############jjjjj##j######j#######################j###############jjjjjjjj#
+################################################################################
+y ~V  %    
+R 20195
+0 12
+1 Demo 2
+2 ...BL.blrrblrlllrrrrbllllbrrrrbllllb.t..
+2 ....................................cbbb
+2 bbbblllttttttttbbbbbbbbrrrtt.ssssuuuuuuu
+2 mlllb..ccccccssssuuuuuuumlllb...ccccccss
+2 ssuuuuuuumlllb.ccccsccsrr.uuuuuuuutt....
+2 .....bbbbllllt.ccccccssssuuuuuuutllllbb.
+2 ccccccssssuuuuuuuml.........bbbbtttll.cc
+2 ccccssssuuuuuuumlbbllcccccssssuuuuuuumll
+2 lbccccccssssuuuuuuumllbblccccssssuuuuuut
+2 ttl...t.bbb.r........bbbbbbbbbbbbrr....R
+2 RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+2 RRRRRRRllllllll......LLLLLLLLLLLLLLLLLLL
+2 LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+2 LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+2 LLLLLLL.........bbl....LLLLLL...L.L...L.
+2 .......L.L...rrrrr....l..LLLLLLLLLLLLL..
+2 .RRRRRRRRRRRRR...L......bbbr..RRRRRRRRRR
+2 ..R.....L..L.L.L...........L.L.......R.R
+2 .............R.R....ll......r.bbbbbbbbbb
+2 bbbblll.......
+R 56282
+0 8
+1 Demo 3
+2 ...blrrb.rllllbrrrrr.....lb..llllbrrr.ll
+2 lbbbb..cb........rtt....................
+2 ............cb...................ltttttt
+2 .....BBBbcccccsssssuuuuuuuumlllbb.cccccc
+2 ssssuuuuuuumlllbb..t.bcccccssrtt.......b
+2 .....b.......mll..tttttttttbbbbbbbr.....
+2 ..............................bcsssuuuuu
+2 uumlllbccccccssssuuuuuuullllbb.rrbbttrr.
+2 .bbbbbbbbbbbllllll......t..r.......L.L.L
+2 .L...............bbll..R.R.RR.RRRRRRRRRR
+2 RRRRRRRRRRRRRRRRRRRR..RRRRRRRRRRRRRRRRRR
+2 RRRRRR....RRRRRRRRRR...RRRRRRRRRRRRRR...
+2 RRRRRRRRRRRRRRRRRRRR..R...RRRRRR..R....R
+2 ......R.R....l..bl.......b...R..........
+2 rr........r......R..R..R.R.........R..R.
+2 R..R..R..........R.R.R..................
+2 R......rrr.....t..t....rr....bbr...L.L..
+2 L.L.L.L.L.L.L.LL.L.L....L.L.L..L.L..L...
+2 .....L...L....L..L..L.......l.....bll...
+2 ..l...........R.......r.....bbbbbbbbbbbb
+2 bbrr.......L............................
+2 ................................ll...srr
+2 ........lllll.......
+
+uuid 85df42ca550a3d84c0a71a14b1d2ef22
+
+leaderboard steps time gems

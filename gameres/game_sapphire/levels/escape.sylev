@@ -1,0 +1,35 @@
+n Escape
+ldeutsch n Flucht
+D 6
+C 1
+E 0
+M 0 Just do it
+i To get all those gems looks
+i easy enough.
+i The really hard thing is
+i to get back out again.
+ldeutsch i All die Edelsteine zu
+ldeutsch i kriegen ist nicht schwer.
+ldeutsch i Wirklich problematisch
+ldeutsch i ist das Rauskommen.
+a Reinhard
+m 10 10
+##########
+#...0.1!E#
+#...$0...#
+#0..0*.*0#
+#00....0.#
+#000....0#
+#0000....#
+#0000....#
+#**......#
+##########
+R 10833
+0 0
+1 Demo 1
+2 ....r.bb.ll.rtllrrbbbbbl.t.r.tlllb...srb
+2 bllllLr.trrrttttttrrr.............
+
+uuid 27b3011b699675fd7d1ec320c583bbce
+
+leaderboard steps time

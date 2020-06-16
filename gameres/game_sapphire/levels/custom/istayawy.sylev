@@ -1,0 +1,55 @@
+n I Stay Away
+D 7
+C 4
+E 0
+p 0
+d 11
+i Approaching the lorries head-on is
+i clearly a bad idea, but you will
+i have to meet them at some point.
+i Fortunately, there are a couple
+i methods for dealing with them.
+a Alex
+m 22 9
+~ ##d##   ############
+~ #! !#   .*.$.$*..*.0
+~5     5  ...*....**..
+8+6   8+6 .$.........$
+~7  E  7  ..*...*.$*..
+~ #   #   Q...*..*..*.
+~ #| |#   .*.........*
+~ #   # 1 ...*..$..*..
+@ ##a&#   ############
+R 95693
+0 0
+1 Demo 1
+2 ....rrrr.tltt..l..r.ttr.T.br........r..r
+2 rr.r..r..r..T..brt.tl....bbllllllll..rrr
+2 .tttr...bbb.rrrtrrb.llllllll.l..r..rbrrr
+2 rrrrbblllll..tttllll............lblr....
+2 .bbrrlllllttttt............llltllrr.....
+2 brr.....................................
+2 ....b.llbbbbbttttt......................
+2 ........................................
+2 ..........................llr..r....llrr
+2 r.....rb..........b....................t
+2 lt.llr......t........llllrrrt.....mblllb
+2 bbbbbttttttrrr..sttt..........bbbb......
+R 1398
+0 0
+1 Alex
+2 ...rrrr.....trtttltLr.......bb...t.rrrrr
+2 rrT.brt.t.lbbllTlllllllTltrrrrrtrt..lbbb
+2 rtrrrrrblllllllll.brrrrrrrrrbblllllllltl
+2 bltrttt.l.r.b.lblr......lll.tt..........
+2 .lttlb.lltlLrbrr..llbbbbbBtttt..........
+2 ........................................
+2 ..bbl...........................rt..t..l
+2 r...........llrr.....llrr.......lrb.....
+2 rrb........................tlt.l........
+2 ......tl.t..clmlllbbb.bbBtttttrrrrbb....
+2 ....
+
+uuid 32c81a54210069300f9e5b26d148e5e3
+
+leaderboard steps time

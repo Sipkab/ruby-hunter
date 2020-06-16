@@ -1,0 +1,125 @@
+n Sinking isle of treasure II
+ldeutsch n Sinkende Schatzinsel II
+D 8
+C 2
+e 172
+p 0
+M 0 Ringing
+i A long way my friend.
+i This demo has been created at
+i 3 o'clock in the morning.
+ldeutsch i Ein langer Weg mein Freund.
+ldeutsch i Dieses Demo ist um 3 Uhr
+ldeutsch i morgens eingespielt worden.
+a Ronald
+m 37 51
+#####################################
+#1#00000000000000000000#..........!E#
+#r#00000000000000000000#....0..*....#
+# #********************#..0.0...0...#
+# #********************#.0..0.Q.0..*#
+# #********************#.0.0Q.0..*..#
+# #********************#. Q00.0Q.0..#
+# #++++++++++++++++++++#.....$..Q0*.#
+# QQQQQQQQQQQQQQQQQQQQQ###...0 Q0...#
+# ++++++++++++++++++++++!#..00Q0*.*.#
+# #                    ###.*..0...Q.#
+# #                    #....0.0.$...#
+# #                    #$..Q0.*0Q*Q.#
+# #                    #...Q0..*0..Q#
+# #                    #.$0.Q.$..00.#
+# #                    #...Q.0Q..*0.#
+# #++++++++++++++++++++#....Q00.Q...#
+# QQQQQQQQQQQQQQQQQQQQQ###..$**$00..#
+# ++++++++++++++++++++++b#*...Q.Q..0#
+# #                    ###..0.0....0#
+# #                    #....Q$.0.0*0#
+# #                    #.*0.0.0.0Q.*#
+# #                    #...0*.0.0Q..#
+# #                    #.$0..0.*0.. #
+# #                    #.0000...0$..#
+# +++++++++++++++++++++#...... .....#
+# QQQQQQQQQQQQQQQQQQQQQ#######G######
+# ++++++++++++++++++++++y#....!.....#
+# #                    ###..0.00000.#
+# #                    #...00000000.#
+# #                    #..0000.0000.#
+# #                    #...000..0...#
+# #                    #............#
+# #                    #.....c......#
+# +++++++++++++++++++++#........... #
+# QQQQQQQQQQQQQQQQQQQQQ###........#Y#
+# ++++++++++++++++++++++g#........#!#
+# #                    ############.#
+# #                    #..*.Q.*.Q.*.#
+# #                    #.Q.Q*.Q*..Q.#
+# #                    #*.*..*..Q*..#
+# #                    #..Q...*Q.*###
+# #                    #.Q*.*...Q.. #
+# +++++++++++++++++++++#.*..Q..####B#
+# QQQQQQQQQQQQQQQQQQQQQ#Q.Q.*..#....#
+# #++++++++++++++++++++#########.0.0#
+# #                    #   0   #0.0.#
+# #                    # $0.0  #.0.0#
+# #                    #.0|.|0 #.0..#
+#                      R !+!.......0#
+#####################################
+R 8284
+0 1
+1 Demo 1
+2 .bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2 bbbbbbbbbrrrrrrrrrrrrrrrrrrrrrrrlt...ttr
+2 rbr..bbsrr..........tllllllB.rrrrrrbrrrr
+2 t........Rtr.t.lb.lblblltllllllbllllllll
+2 lllllllllllllltttttttttttttttttttttttttt
+2 tttttttttttttttttttt.bbbbbcb..........t.
+2 ...r....rrrrrrrrrrrrrrrrrrrrrrllllllllll
+2 lllllllllllllbbbbbbbbcb..........tt.r...
+2 ..rrrrrrrrrrrrrrrrrrrrbrRlllllllllllllll
+2 lllllllbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbrr
+2 rrrrrrrrrrrrrrrrrrrrtrrrrrrbrrtrtrtrttt.
+2 llttttR.b...l...lblBlttR............bbbb
+2 bblltt..rrtttltllbB.tllbbttrrrrrbbbblllb
+2 llttttrtrrrblrrrrrr.trrttbbblll....bbbbb
+2 rrbbblblblllblltllllllblllllllllllllllll
+2 llllltttttttttttttttttttttttttbb..cbb...
+2 ..tttttr...rrrrrrrrrrrrrrrrrrrrrrrrrrRll
+2 llllllllllllllllllllbbbbbbbbbbbbbbbbbbbb
+2 bbrrrrrrrrrrrrrrrrrrrrrr.rtrrrrrrbrrtrtr
+2 trtttlltttrrtttt.llllllllllLrbrrrrrrrbll
+2 llllLtrrrrrrtrrttlllllL...............lL
+2 .r....ltt.lltll.r.lbr......llbbbbrrrrrrr
+2 bbllllrrrRttllllltttrrr...br....llL.ttrt
+2 .rrtt.R.b....rtrrblll..l.bb.....ll..bbbb
+2 brrblrrrrrttrrttlllll..llbbrrrrrrrttllll
+2 l..llbbrrrrrrrttlllll..llbbrrrrrrrttllll
+2 l..lttttrrbl.llbbbb.bbbrr.llLttrrrrrrrtt
+2 lllll..llbbrrrrrrrttlllll..llbbrrrrrrrtt
+2 lllll.llbbrrrrrrrttlllll....lttrtrrbll.r
+2 rttrrrbll.rrbbblllllrrr.Tr..llllrrrr.Trl
+2 lllll..llbbbrrbbllLrrrrrttrrbbbbbllbbrrb
+2 bblblblblltllllllbllllllllllllllllllllll
+2 tttttttttttttt.cbb.....tttttrrll.r..rrrr
+2 rrrrrrrrrrrrrrrrrrRlllllllllllllllllllll
+2 lbbbbbbbbbbbbbrrrrrrrrrrrrrrrrrrrrrrtrrr
+2 rrrbrr.r.trtrtrtttllttrrtttttttttttlllll
+2 tt.lllllltrttt.b.R.t..bbrrr.t.rttl...llt
+2 tttlttttL.t.rt..rtt.r.t..R...blbbl......
+2 ....t..tt...rrtttttrrrrrrT..rbbbl.L.rbb.
+2 Lbb..B.llbr.l.b.B.L.tt.Lrr............ll
+2 lllbbbb.R.B......tttttlllbbblllbbbbrbbbb
+2 bbrbb...rrrr.l...bbrrr..t.rrt...........
+2 ..b..Lttt.ltttttl......T.rbbl..bbrr....t
+2 tlltllllllbbbbrrr..bbbbbbbbbrrrrrbbbbbbb
+2 bllbbrrbbblb..lblblltllllllbllllllllllll
+2 llllllllllttttt..cbb....................
+2 bb...r........rrrrrrrrrrrrrrrrrrr..r....
+2 .Tllllllllllllllllllll..r.Tr...Tr...Tr..
+2 .Tr...Tr...Tr...Tr..Tr...Tr...Tr..Tr..Tr
+2 ...Tr..Tr..Tr..Tr..Tr...Tr..Tr..Tr..trrr
+2 rrrbrrtrtrtrtttlttlttrrtttttttttttlllllt
+2 ttttrrtttrtttt..l..tlltttttrrrrttttttttr
+
+uuid e2ec959575298ae6a5e92abeeed32822
+
+leaderboard steps time

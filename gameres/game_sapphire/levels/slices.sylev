@@ -1,0 +1,67 @@
+n Slices
+ldeutsch n Scheibchenweise
+D 5
+C 1
+e 0
+p 0
+o 2
+w 50
+M 0 Live and let Die
+i Be careful and avoid
+i contact...
+ldeutsch i Sei vorsichtig und
+ldeutsch i vermeide Kontakt...
+a Alexander
+m 30 30
+##############################
+# 7  7  7  7  ##             #
+#             .R  u#######   #
+#6     1      ##       #     #
+#            8##       # k   #
+#             ##    u####### #
+#6           8##      #      #
+#             ##      # k    #
+#             ## u########   #
+#6           8##y    h   #   #
+#             ##         #   #
+#             ## u#    ##### #
+#            8##  ###### h   #
+#             ##             #
+#  5  5  5  5 ##             #
+#######r############### ######
+#######################Y######
+E B B B B B B ##             #
+#######d##### ##.w####w###w#.#
+#  <   .  < #B##             #
+######  |#   V##             #
+#  ##   #     ##  o       o  #
+# #V   |#   # ##o  o      o  #
+# # #|     <# ##           o #
+# #  #s  ## # ##    o        #
+# #     |#  ####             #
+# # # |    ^  G0   o o    o  #
+#           # #|g       o    #
+#b     > #### ##           o #
+################a#############
+y ^^^^^^^^^
+y "5 8^6 7 
+y %%%%E%%%%
+y $S_a%8u^E
+y @@@@?@@@@
+y ~5 886 7 
+y y"r"?"b"g
+y ooooioooo
+R 26207
+0 8
+1 Demo 1
+2 ..bbbbbbbbb........bt...................
+2 ...bbBttttttttttt...............t...rrrr
+2 rrrrbbbbbb.ttt...bbbBtttttttrrrrrrrrrrrr
+2 ....bbbbbbbbbbbbb..lllll.bbllllllb.l..bb
+2 bbbbbbbbrttlbl...................lllll.l
+2 lr.b.blllt.bll..llrrrrttt.rrttrr.ttrrrrt
+2 ttlllllll........
+
+uuid 2b14e01cebfac8bebe6a2cdbf9bf80a2
+
+leaderboard steps time

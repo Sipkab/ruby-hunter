@@ -1,0 +1,38 @@
+n Move the safe II
+ldeutsch n Schieb den Safe II
+D 6
+C 3
+E 0
+M 0 Money for Nothing
+i Again:
+i You can move the safe,
+i you may drop things on the safe,
+i and you can blast the safe!
+ldeutsch i Nochmal:
+ldeutsch i Du kannst den Safe schieben.
+ldeutsch i Du kannst Sachen auf den
+ldeutsch i Safe fallen lassen.
+ldeutsch i Und du kannst den Safe sprengen!
+a Juergen
+m 10 10
+##########
+#  0    E#
+#  # 1  !#
+#        #
+#  [     #
+#        #
+#        #
+#        #
+#    @   #
+##########
+R 18555
+0 1
+1 Demo 1
+2 ............................bb.......l..
+2 tlllbrr.r..bbrrrbblll.l....l.l..rrrrrttt
+2 tttllllb...l................mtt...r.llbb
+2 bbbbbbr...rrrrrrttttttt..........
+
+uuid ede8ec83a2bb657cee2f06bdcd0733b3
+
+leaderboard steps time

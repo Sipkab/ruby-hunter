@@ -1,0 +1,101 @@
+n Reconfigure
+ldeutsch n Rekonfiguration
+D 4
+C 3
+T 2000
+s 100
+d 12
+Y
+M 0 Calm
+i This level is changing its mind
+i about how it should look like -
+i so maybe you have to change
+i yours about how to solve it...
+ldeutsch i Dieser Level �berlegt sich sein
+ldeutsch i Aussehen nochmal anders - vielleicht
+ldeutsch i solltest du dir auch die L�sung
+ldeutsch i nochmal �berlegen...
+a Juergen
+m 17 14
+#################
+# %  %  %  %  % #
+# ^  ^  ^  ^  ^ #
+#               #
+# %  %  %  %  % #
+# ^  ^  ^  ^  ^ #
+#               #
+# %  %  %  %  % #
+# ^  ^  ^  ^  ^ #
+#               #
+# %  %  %  %  % #
+# ^  ^  ^  ^  ^ #
+1               E
+#################
+y 0Q...[.*+
+y 0^...@$Q|
+y &.|.0..6*
+y ..!c.Q$.&
+y .0[+*.@.^
+y $0.&*.6.@
+y .!0Q...+*
+y .*..|[$.Q
+y .@$*.&0d.
+y .Q.0.6|.$
+y +*.Qd[..c
+y &.Q0@6|.+
+y ..c$.0.Q.
+y ^...Q.!.*
+y 0&.|*..c0
+y **.0%!^@0
+y .$+Q.0.*.
+y .Q....d@*
+y [6.+.Q0$[
+y *.$!0.%@Q
+R 23368
+0 1
+1 Demo 1
+2 .......rr.Tlll......rr....ttttr..t......
+2 ..rtlll.BBB.bbr....tr.trrb.r...B.r..B.l.
+2 .r....ll....tllbb..Rlll.......rrrb.trr.b
+2 .ll....l...rrr..tttl.Tbblll..rrrb.rr.LLL
+2 .l..t..ll.b.rrr.ll.....ut.rr.......b...l
+2 bb...lbb.ttttrrr....rr...lll........rrrr
+2 b.r....l.tlllllb.r.b.uttttrr............
+2 ..................scbblllbbbblbb.lb.ttrr
+2 rrrrbbr..l.ttrr..bbllttttt.b.rt..tllltt.
+2 .r..cbbbbbrrrrr....l......l..llbb.Rttrr.
+2 .rr.......l..llbb.Rttr.lbb.......R....R.
+2 ..........R..........R............R.....
+2 ......R..........R...........R.tttttt.r.
+2 t.l.ttr..r.lll.....b.....lllttt.bbbrr.tt
+2 ............l.lllrbbbbrrbbbbbb.r..l..R..
+2 .R...R..ttttlllllb.lbbrrllttr...srrrb...
+2 rbb.R..R.ttbb.R.ttttttttt..lllll.rrr....
+2 .....bb.lltlllrrrrbrrr..l.ttt......llll.
+2 ...bbbb.........rrr..........t..bbbbbbbr
+2 rr.l..R........R.........R...........R..
+2 .........R...........R....t..b...R.t.trr
+2 rr.....mlll.......brrbrrrtt.rr.B..blll.r
+2 rr...RLlllbllltttt....ll..........b...t.
+2 ........bb..rbrrbrrtrrrrbrr.........
+R 66410
+0 0
+1 Alex
+2 .......rrt.blll......r....tttrt.........
+2 .rtll.bbbbbb...rr..ttrlttrr.l...bb..B.rr
+2 r...rBllll...lll.................rrrbb.B
+2 .ttrrrbb.rrbR.tt.R.bb.R....R.tt.rr.RB..l
+2 l.t.rttt...b..ll..rrbb..t..t.......t.l..
+2 .tlt..l........mltttllllrrb.trrbblrrr..r
+2 rtt..bbllttrl..rrl..bllllllB.rrbll.rr...
+2 .srrrr.r..blmll.bblbbbbbll.rb...tt..ttt.
+2 rtrrrbbbbb..rtRbb.R...R.tllB.rrtt.t.....
+2 tttttrr......Tbbb....ll..............rrt
+2 ttttrrBrr..blll..ll..cbbbbbbblbb.R..R...
+2 ...R......Rttrrr.....mllbbR..ttt...rrrr.
+2 ..brb..Rtlllt..bbb.R...trrrr...crr......
+2 ............
+
+uuid c51742a7f00b8f5f7c090e5d635da9a2
+
+leaderboard steps time gems

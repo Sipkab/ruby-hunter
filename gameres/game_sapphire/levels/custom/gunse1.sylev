@@ -1,0 +1,46 @@
+n Gun'se Is Enough
+D 3
+C 3
+e 5
+s 0
+p 0
+M 0 Just do it
+i Use the laser to open the safes,
+i but be careful not to blast their
+i contents as well!
+i Hint: You can use the bomb on the
+i top left to destroy the laser when
+i you no longer need it.
+a Alex
+m 17 17
+## ###########d##
+# % #Q          #
+# ^ #.   [      #
+# ( #           #
+# :"#   [ [     #
+#   "#   _      #
+#  "#  [   [  a #
+# *::         # #
+##+##.....1.....#
+#####...........#
+~   #...........#
+~   #...........#
+~   #...........#
+~   #...........#
+~   #...........#
+~   #...........#
+~   ######E######
+y ~%  ^    
+R 34336
+0 8
+1 Demo 1
+2 .......ttt..r..blbbR......llll.tttrbtttr
+2 bbbtttrrbbbtlt.ltttrbbbbb.ttttlllLrr....
+2 ....llbbbrrrrrrbrt..lt..bbbllllllbbbbb..
+2 .rtttl.rbbrttl.rbrtl.rR.ttttrr..r..trl.l
+2 lllllbbbbbbbb......................rr..T
+2 r.rtt.L......TrrttLbbbbbbllbb........
+
+uuid 4e642c172adb57465f6ec83a47cb3ea1
+
+leaderboard steps time

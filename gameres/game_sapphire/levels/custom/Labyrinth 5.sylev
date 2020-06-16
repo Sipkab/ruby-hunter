@@ -1,0 +1,85 @@
+n Labyrinth V
+D 8
+C 2
+e 236
+s 0
+p 0
+M 0 Jump
+i Fifth labyrinth-like level...
+a Shark
+m 50 31
+#####0############################################
+#0..#&#.0....!.# Q   # B 0               #0000*0*#
+#..............# &   # # .@ @ @ @ @ @ @  #***0***#
+#..............#     # #&&&############  #***0*0*#
+#............0.#  !  # #   Q&  0&  0&   .#***0***#
+#..........0...#     #B#  0.& Q.& Q.& Q. #**00***#
+#..............#     # ######+###+########*000*0*#
+#..............#     # #     B# R  ##0# B *0*0*0*#
+#..............#     # # 0    # #00##$# #****0*0*#
+#..............#     # ##.@   # .$$.#$# #***0**0*#
+#............00#     # ###.@  # .$$.#$# #0**0**0*#
+#........1......     #B#!##.@r# .$$.#$# #0**0**0*#
+#..............#   #@# # ########R#R#$# #***0**0*#
+#...!..........#   #.# #G#    #00 # #$# #******0*#
+#...............####># # # $  #.. # #$# #*0000*0*#
+#R###########Q#  B#>#B #G#$*$$#@@@# #$# #*0**0*0*#
+# #   #00 # B#>#B#>#B  # #.*$*###.# #$# #*0**000*#
+#R# g #.. #  B#>+>#B   #G# *$***#.# #$# #*0000000#
+# #   #@@ G   B#>#B    # #Yccccc# R #$# #*******0#
+#R### #@@.#    B+B     G   .....#.# #$# #ssssssss#
+# R R #@@.#            #        #.# #$#          #
+#############################G### G  $G aaaaaaaaa#
+#                         &    0### #$############
+#                              .  # #$#           
+#                   5          .  #####           
+##B##s###@###########G####:########               
+#       ### #              #                      
+#           #           ** #                      
+#   # #######  $        E#:#                      
+#   #Q(     :  :       : :*#                      
+############################                      
+y ......$..
+y ......*..
+y . .. .. .
+y b.....B..
+y .........
+y .........
+y ~*    ...
+y .........
+R 73617
+0 0
+1 Demo 1
+2 rrrrrRl.rrlltllbrrrrlltttttTllbbbbbrrrrl
+2 tllllbrrrrrllllttttttttttrRllbllbbbbbbbb
+2 bl.rrrrrrrrllllllltttttttlltllbbRbrtlttt
+2 rmbbblBlBlBrrrr.....llbrtrTrb.l.l.lblbbb
+2 brrrRtllltttttlttTbbrbblTbbbb.r.r.rrrrrr
+2 rrrrrrrlllllltllllllbbBtrrrrrrrrrrbbbutt
+2 rrrrrlttttttttmltt...rrrllbbbbbbbbbbr...
+2 rrbbBttllllllbbbrbrbbbrrrrrrtttttttttttt
+2 ttttrrbrtrbrtrbrtrbrtrbrtrbrtrbr..rrbbL.
+2 lblr.t...llllblrrRltl.lllblrrl.tl.lllblr
+2 R..tlTblLrrrrbbllltllbrbr.brBltrrrbBtlll
+2 brbr.RtttrttrrrrbblbbbbrrtTrTb..lltrrrbb
+2 bbbbbltTbrttttttllbblLrtttttttttllllllll
+2 ltttlbbbbbbbbbbbbbllblblblltttltllllllll
+2 llllllbbbrrtttLbbblltttrrrrrrrrrrrrrrbrb
+2 bbblllllttltlLrblLrblLrblLrttrrrrbrrrrrr
+2 rrrttttTbbbbrsbrr...l...tltt...rTrttrBll
+2 lbbbbrrrrRblrrRlbbrrr.............llllll
+2 llllllllllllllllb.lBlll.llllbbrrrbbRtttl
+2 lltrrrrrrrrrrrrrrrrrrrrrrrrrrttrtllllltl
+2 ttttttttttttttttrrbbbbrrrrrrrrbbbbbbbbbl
+2 LrtttrrbbbbbbbbblttTbbrrrBttttttttttttTb
+2 bbbbbbbbbbbrttttttttttttttrrbbbbbblbbbbb
+2 rrrrrrrttttttttttttlllbbbbbrbbbbbbblllTl
+2 L..rrrrrRtrt.lTbblltTblltlblttrrbbrrrrTr
+2 Rlllllltttttttttttlbbbbbbbbbbbbbbllltttl
+2 tttttttttttttlllllllltttllbbbbbbbbbbbbbb
+2 bbrrrrrrbbbbllllllllbbblllllLrrrrrrrtrRb
+2 .....
+
+uuid 9b12e3e72b6a70119abdb2c07c076d36
+
+leaderboard steps time

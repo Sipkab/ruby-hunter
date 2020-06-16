@@ -1,0 +1,103 @@
+n Grid
+ldeutsch n Gitter
+D 8
+C 7
+E 0
+p 0
+M 0 Nightshift
+i This looks like a crystalline
+i structure.
+i As you will soon notice,
+i working from top to bottom
+i does not lead to a success here.
+i Try something different...
+ldeutsch i Das schaut wie eine Kristallstruktur aus.
+ldeutsch i Wie ihr bald merken werdet, ist es wenig
+ldeutsch i erfolgversprechend, es von oben nach
+ldeutsch i unten anzugehen. Probiert was anderes...
+a Ronald
+m 35 27
+###################################
+#.............1..E..2.............#
+#.................................#
+#.....0*0*0*0*0*0*0*0*0*0*0*0.....#
+#.....*0*0*0*0*0*0*0*0*0*0*0*.....#
+#.....0*0*0*0*0*0*0*0*0*0*0*0.....#
+#.....*0*0*0*0*0*0*0*0*0*0*0*.....#
+#.....0*0*0*0*0*0*0*0*0*0*0*0.....#
+#.....*0*0*0*0*0*0*0*0*0*0*0*.....#
+#.....0*0*0*0*0*0*0*0*0*0*0*0.....#
+#.....*0*0*0*0*0*0*0*0*0*0*0*.....#
+#.....0*0*0*0*0*0*0*0*0*0*0*0.....#
+#.....*0*0*0*0*0*0*0*0*0*0*0*.....#
+#.....0*0*0*0*0*0E0*0*0*0*0*0.....#
+#.....*0*0*0*0*0*0*0*0*0*0*0*.....#
+#.....0*0*0*0*0*0*0*0*0*0*0*0.....#
+#.....*0*0*0*0*0*0*0*0*0*0*0*.....#
+#.....0*0*0*0*0*0*0*0*0*0*0*0.....#
+#.....*0*0*0*0*0*0*0*0*0*0*0*.....#
+#.....0*0*0*0*0*0*0*0*0*0*0*0.....#
+#.....*0*0*0*0*0*0*0*0*0*0*0*.....#
+#.....0*0*0*0*0*0*0*0*0*0*0*0.....#
+#.....*0*0*0*0*0*0*0*0*0*0*0*.....#
+#.....0*0*0*0*0*0*0*0*0*0*0*0.....#
+#.................................#
+#.................................#
+#a###############################a#
+R 8012
+0 1
+1 Demo 1
+2 .................lr......b.b...t.l.l.b.t
+2 .l.l.b.t.llllbltlllllbltlllllbltblblbBbl
+2 blblbbbbbbbbbb.b.b.bbbbbbbbbbbbbbbbbbbbb
+2 bbbb...........................tbt.t.tt.
+2 ............btrtrt......................
+2 ...t.ttt...b.b.b.b.b.b...............b.b
+2 .b.br.......r........b..................
+2 .......tBt......................r.r...B.
+2 ....r.r.....B...r.r.....B...r.r.....B...
+2 r.r.....B...r.r.....B......t.t.t.t.t.t.t
+2 .t.t.t.t.t.t.t.t.t.t.t.t.t.t.t.t...r.r.r
+2 .r.r.r.r.r.r.r.r.r.r.r.b.r.r.r.r.r.r.r.r
+2 .r.r.r.r.r.r.r.r.r.r.r.r.r.r.r.b.b.b.b.b
+2 .b.b.b.b.b.b.b.b.b.b.b.b.b.b.brbrb.b...t
+2 .tB...r.r.....B...r.r.....B...r.r.....B.
+2 ....r.r.r.r....ttttttttttttttttttttttttt
+2 tttttttttttttltltlllll......l.l.l.llllll
+2 lllllllllLl..t.lllllllll.l.l.l.l.l.l.b.l
+2 .l.l.l.l.l.llllrlrlrlrlrlrlrlrl.b.blblbl
+2 blblblblblb.b.b.b.......t......r.r.r.r.r
+2 .r...r.r................................
+2 ................t...r.r.r.r.r.r.r.r.r.r.
+2 ....r...r...............................
+2 .......r...r.r.....r..r.............r...
+2 ..r.......r...r.r.....r.................
+2 r.r...........r.r.r.r.r..............l.l
+2 .b......................................
+2 ........................................
+2 .........l.l.......l.l.l.l.l.l.l.l.l.l.l
+2 .l.l.l.l.l.l...r.r.r.r.r.r.r.r.r.r.r.r.r
+2 .r.rtrtttrtrtr.r.r.r.r.r.r.r.r.r.r.b.b.b
+2 .........l.l.l.l.l.lllllllllllllllllllll
+2 lllllllllllllllllllllllllll.lrlr.rb.bb.b
+2 .b.b.b.b.b.b.b.b.b.b.brbrbr.......r.r.r.
+2 r.r.r.rbr.rbrbrb....r.r.r.r.r.r.r.r.r.r.
+2 r.r.r.r.t.t.t.t.t.t.t.t.t.t.l.l.l.l.l.l.
+2 l.l.l.l.l.l.l.l.l.l.b.l.l.l.l.l.l.l.l.l.
+2 l.l.l.l.b.b.b.l.b.b.b.b.b.b.b.b.r.rrrrrr
+2 .r.rr.r.rrrrrrrrrrrr.......r...r..b.r...
+2 ...r...r..r......r..r....r..r....r..r...
+2 .r..r....r..rr......r....r..r....r..r...
+2 .r..r....r..r.r.r.r.rr.r......r.blbbbbb.
+2 b.b.b.b...t.t...l..l.l.lllllllllllllllll
+2 lllllllllllrlllllllllllllllllllllll.l.l.
+2 l.brbbbbbbrb...r.r.r.r.rrrrrrrrrrrrrrrrr
+2 rrrrrrrrrrrrrrrrrrrrrrrrrrrrr.r.r.r.rtrt
+2 .tbtltlt.t.trlrltltltltltltttltltl.....l
+2 tltltltltltltltltlt.t.l.l.l.l.l.l.l.l.l.
+2 l.l.l.l.l.l.t.t.t.l.l.t.r.r.............
+2 ..
+
+uuid 7a10de703fee4e436b5aff7fe59ddb8e
+
+leaderboard steps time

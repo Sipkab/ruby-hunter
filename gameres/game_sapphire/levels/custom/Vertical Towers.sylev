@@ -1,0 +1,32 @@
+n Vertical Towers
+D 7
+C 5
+e 96
+E 3
+p 0
+M 0 Tico Tico
+i You can only give up one gem...
+a Shark
+m 15 12
+########E######
+#Q.Q$..$..$..$#
+#0.0$.0Q..$Q0$#
+#$.Q$.Q0.Q$0Q$#
+#$.0$..$.0$..$#
+#Q..$..$.1$.Q$#
+#0..$Q.$..$..$#
+#$.Q$0.$.Q$..$#
+#$.0$..Q.0$Q.$#
+#0..Q..0..00.Q#
+#Q..0..Q0.Q..0#
+###############
+R 5912
+0 0
+1 Demo 1
+2 RRRRRrrTblllt..TbBtttt.lllTbll..tlT.rrrR
+2 bbbbrrtt.llllbllBrrttlrrrrrrrrtttrrrTbbb
+2 bbBlllBtttttlltt.....
+
+uuid 60ab2705626d6884911ab4f5227a0c33
+
+leaderboard steps time gems

@@ -1,0 +1,55 @@
+n Enemy Chase
+D 10
+e 0
+s 0
+w 200
+M 0 Don't you forget about me
+i Like Rooms and More
+i Rooms combined with
+i Escapade.
+a Alexander
+f Bruce
+m 29 10
+~          1r#    7    g    #
+R#########+++# B B B R R B B#
+~..#  # 7#  %#B############ #
+#..   7>    i#+           #G#
+##           #!!!!!!!!!!!j# #
+#            #k     !   ! #E#
+##           ###### ! Q ! ###
+#           (#    # !!!!! ###
+#>         (?(   BB  h    ###
+#############################
+y 000   uuu
+y owow^w!wo
+y ~   b    
+R 47378
+0 8
+1 Demo
+2 ....lrlrlrrlllllllllllllbb....r........b
+2 ......tt...b................rbbbb.tt....
+2 b.trrrbrrrrbrbrrr...lllll....r...rrrrtt.
+2 .......bllll.rt....brrrtt......blllll.ll
+2 llrrrrrt.....t....blll..................
+2 rrr...lll...rrrlllttt..rrb.l...b.....t.r
+2 r.bbrrtt...........................bll..
+2 .......rr..tt.bbllll.rrrrtt......blltttt
+2 tlt.bbbbrrrrr...............lll.........
+2 ..ll.t.r...l.....tttt.cbbbb.....r.tttttb
+2 bbbbbrrrrr..........rrttt............lll
+2 llll.tt....rrrr..mllll..rrtl.....srrrbbb
+2 brrrblllttt......b...tb....tttlllllltttr
+2 rrrrrrrrrrrrbbbbb...
+R 18050
+0 8
+1 Alexander's Way
+2 .Rlllllllllllbrrrllbrb....rrrbllbb.b..rr
+2 rrrrrrbrrrrt............................
+2 .................bll.lttttt.cbbbr..r.lr.
+2 .ltttttbbbbbrrrrrrrt.t.rb.Rllbl.........
+2 .......rrrrttrrrblb.LRtttllllllllllt.t..
+2 .....t.r...rrrtrrbrtrbbbb...
+
+uuid 3e8c8ffe59499aecdc8bf8720d5c1851
+
+leaderboard steps time gems

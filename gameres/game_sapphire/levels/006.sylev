@@ -1,0 +1,132 @@
+n Bugs 'n cheese
+ldeutsch n K�fer und K�se
+D 3
+C 4
+e 99
+s 0
+i Together they make you rich.
+ldeutsch i Gemeinsam machen sie dich reich.
+a Emerald Mine
+m 64 32
+################################################################
+#..............................................................#
+#..............................................................#
+#......................%........%............%.................#
+#...##.##......%.........................................%.....#
+#...#  u#......................................................#
+#...#   #......................................................#
+#...#   #....%..........##.##..................................#
+#...#####...............#  u#....%..............%.....##########
+#.......#...............#   #.........................#........#
+#.......#...............#j  #.........##.##...........#........#
+#.......#...............#####.........#  u#...........#........#
+#.......#...............#...#.........#   #...........#........#
+#.......#...........%...#...#.........#   #...........#....##.##
+#.......#...........E...#...#.........#####...........#....#  u#
+#.......#...............#...#.........#...............#....#   #
+#....%..#####.###########...#.........#........%......#....#   #
+#..........#  u#............#. 1    ..#...............#....#####
+#..........#   #.........E..#.. .. ...#...............#........#
+#..........#   #.........%..#.........#...............#........#
+#..........#####............#######.###############...#..%.....#
+#...........................#....#  u#............#...#........#
+#...................##.######....#   #............#...#........#
+#...............%...#  u#........#   #............#...#........#
+#......%............#   #........#####............##.##........#
+#...................#   #.........................#  u#........#
+#...................#####...%.............%.......#   #........#
+##.##.............................................#   #........#
+#  u#............%................................#####........#
+#   #................................%%........................#
+#   #..........................................................#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 34987
+0 8
+1 Demo 1
+2 ........rrr.tttttttttt.bbbbbbbbbbbbb..r.
+2 ............B.ttttttll..tttt.llll.tttt..
+2 .............tt..t..rrr..r..b...b....b..
+2 ll....b..lll.......rrrrrrrrrrrrrrrrr..tt
+2 t....bb..lllllllllllllllll...llll..l..tt
+2 t..........r....l.bb..rr.r..............
+2 ..........B.ttttttlllllllllll..bb..ll...
+2 ....bb..rrrr............................
+2 .....................................lll
+2 ll.....lll......................t.....t.
+2 ...l...l....l...........................
+2 B.t.llllllll..rrrrr.............ll..rrrr
+2 rr.rrrrrr......rrr...bb..llllll.l..b.rrr
+2 rr..b.lll.tttt.rrrrrrrr..l..ttrrrr..r.bb
+2 bbb.rrrrrrr.t.t.r.l..bbbbb.rr.l...l.bbbb
+2 .r..bbbbb..rr...b..ll..r.b..b..ll.b.rrr.
+2 b...lll.rr..l.ttttttttttttttttt.rrrrr..r
+2 .....r...tt..rr.t..r..r..b...l..l..b.rr.
+2 .b..ll..rr..lllll.l....b......b...rrrrrr
+2 .r..........lllllll......b..........B.tt
+2 t.lllll.........rrrr......rrrrrrrrrrrrrr
+2 rrrrr.lllll.bbbbb..b..bbb........ll..ttt
+2 ttttt..llllll..b.rrr.r..b.llll..t.t....l
+2 llll..bbbtttt.llll.bbbbb..tttt..lllttlll
+2 lll..ttttllllllllllll..bbbbb...llllllltt
+2 ttlllllllllbbbbbbbbbbbbbbbbb.bbb.b......
+2 ..b....rrrrrr....t.r..l..bb..t..llll.bb.
+2 ......B.Ttt.llltttttt..bbbb.....bb...rrr
+2 .tt...b...b.t.rrrr..b.llll.b.rrrr...tttt
+2 t..tttt.ll..tttttt.bbbbbb.rrrbbbbbbbbbbb
+2 bb.rrrr....r.ttt.rr.tt.rr..r.tt..t..t...
+2 ...bbb..b..lll..bbbb...........ll..rr..l
+2 .tt.r..t..t.rrr..tttt...r..r..........r.
+2 .....B.t.llllll.bb.l..bbbbbbbb...lllllll
+2 ..r........rr.r..t.tt...b.rrrr..b...ll..
+2 ....b.r..tttttttt...rr..b..l......l.bbbb
+2 bbbbrrrrrrrrrrrrrrrrrr.tttrrrrrrttrrrrrr
+2 r.bbbbbrrrrrrrrrrrtttttttt...t..l.ttt.tt
+2 tt..t.t...rrrr...r....B.llllllbbbb.r.bbb
+2 b..b.r.bbbbbrrrrr................ll..t..
+2 lll.bbbbbbtttttttttt..lll.b........R.rrr
+2 ...lltttttttttt..bbbbbbbbbbbbbbbbbbbllll
+2 lllllllttttttllllll.bbb...b.llllll...t.l
+2 lll.t...bbb.lllllllll.b.lllltttt.lllllll
+2 lt..ll..rrrllllllllltttttttttttttttttttt
+2 ttttrrrrrrrrrrr..rr.bbbbbbb...bbb..bb..b
+2 ..b.....l....B.llllltttttttttt.rrrlllll.
+2 ..rrrr.......bbb..rrr..ll..bbbbbbbb..rrr
+2 rrr.tt.......
+R 62205
+0 8
+1 Demo 2
+2 ....rr....llll..rrrr.....rr.....bb......
+2 ............bt.rrttttttttttt.lllltllb..l
+2 lll.............tt...ll..rr...ttt.rr...l
+2 llllll..rrrrr.bb..bl..l..l..............
+2 .....B..tt..t.ll....t.llb...............
+2 ..ll...........rr.......rrrrrrrrr.tr.bll
+2 b.rr.lllbbbb.t.tlllbbbblrr.lttttttlllrrr
+2 rrrrrrbbbb.rt.rrbllb.rr..ttttttrrrrrrrrr
+2 rllll..bbbbbbb.tttttttlllll....rrr.rrrr.
+2 .rt.rrb.llbrr.lllrrrrrrrrrrrrr..llllllll
+2 llllllllllllllllllllllllllllllltll..b..t
+2 ..bllllltlllb.t.lll...bb.t..trrrrrrrrrrr
+2 r..rb.lllbrr......rrrllbbbbbbb..........
+2 tttttlll.......bl.bbbbbbbb.tttttttt.rt.r
+2 r.........lll.....bblrr.lbbbbbbbbb.lbrr.
+2 lttttttttttttttttllllllllllbbbbbbbbbbbb.
+2 .rrrbbbbbbbb....bllll.bbb.ttt.rrrrt.rrrr
+2 ........lllll.brrbll.rrrrrrrrrr...rtr.t.
+2 tt...rrrr..r.....bt.lllll.bbblb.lll.....
+2 ......rrr.ttt..rrr.bl.b.lrrllb.tttrtt.rr
+2 rrrrbrrrrtttttttllbbbrbbblllllllbbbbbbbb
+2 .lrrrrrrrrrr..trrrrrrrrrbrrrrrtrrrrrrrbr
+2 r.brrrrrrtttttttttttttttt......bbbbbb.b.
+2 rrtr.tttttttr..r..r.....r........btt..ll
+2 ll.bbbbbbbb.ll.bbbbbrrr............lll.b
+2 bbbb.ttttttttt...r.t.r.tr.b.bl..llbbbbbb
+2 bbbllllllttlllllllbllllltlllllllllblllll
+2 lllltttttttrrrrrrrtttl........
+
+uuid f9cafb40c9b4529759be2596e2c340e7
+leaderboard steps time

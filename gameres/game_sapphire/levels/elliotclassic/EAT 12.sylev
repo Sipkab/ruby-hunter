@@ -1,0 +1,46 @@
+n EAT 12
+D 8
+C 5
+e 6
+T 300
+t 200
+p 0
+Y
+S standard
+M 0 BOND
+N EAT 13
+i The alarm has been triggered.
+i Time to bail.
+i This mission requires precice
+i timing and efficiency skills. Are
+i you up for the job?
+a Elliot
+m 21 18
+$::::!V!(::::::!V!!($
+:###################:
+(###################!
+!###################V
+V#?>($#Q############!
+:####(# 0###########V
+:#   :# + ##########(
+:#   (#{( ##########:
+:####:#1# ##########:
+(#*:(Q#   ##########:
+V#:####  | #########:
+!:$#   .@l #########:
+####c## ############:
+#### .. ....++E####Q:
+####:############$:+ 
+####:############(#_ 
+####:############!##(
+####$(!!:(!!!!!!:(!:$
+y kkkkkkkkk
+R 24762
+0 8
+1 Demo 1
+2 b.tttttttttRbbbb..b.brrrRllllLrt..bbllLr
+2 rrrrrrrrr.......
+
+uuid 970759f5aa3e51ab746949d08d198975
+
+leaderboard steps time

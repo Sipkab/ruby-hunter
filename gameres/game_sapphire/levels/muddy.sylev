@@ -1,0 +1,41 @@
+n It looks rather muddy...
+ldeutsch n Schaut nach K�se aus
+D 3
+C 3
+E 0
+T 875
+s 20
+M 0 Axel F
+i This one is quite easy,
+i but be aware of the falling drops.
+i And don't be too slow, either.
+ldeutsch i Dieser ist recht leicht,
+ldeutsch i aber gib auf die Tropfen acht
+ldeutsch i und sei nicht zu langsam.
+a Ronald
+m 40 15
+#################################       
+#1#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#       
+# #                             #       
+# #                             #       
+# #                             #       
+# #    *                        #       
+# #    .             *     *    ########
+# R                  .     .          E#
+# #                             ########
+# #           *                 #       
+# #           .                 #       
+# #     *                 *     #       
+# #     .        *        .     #       
+#r#              .              #       
+#################################       
+R 7804
+0 1
+1 Demo 1
+2 ........bbbbbbbbbbbb.ttttttrrrrrttrrbbbb
+2 bblrrrrrrttrrbbbrrrrtttttt..rrrrrrrbbbbb
+2 lltrrrrtttrrrrrrrrr..........
+
+uuid 5d179ebe4ad2d39336e31b87e1efbfd1
+
+leaderboard steps time

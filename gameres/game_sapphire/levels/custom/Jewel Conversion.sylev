@@ -1,0 +1,40 @@
+n Jewel Conversion
+D 3
+e 107
+Y
+i 
+m 29 25
+#########################    
+#E0..0.0....0.0....0.00.#    
+#.........0.............#    
+#..0..0.0...0.0.0.0.0.0.#    
+#0..0........0.00.....0.#    
+#.0..00.......000.0....0#    
+#...0..........0....0...#    
+#ccccccccccccccccccccccc#####
+#.......................# ! #
+#.......................B  !#
+#.......................# ! #
+#..........1............#####
+#.......................#.0.#
+#...........................#
+#.......................#...#
+#.......................#...#
+#ccccccccccccccccccccccc#. .#
+#                       #. .#
+#                       #. .#
+#                       #.^.#
+#                       #...#
+#.......................#####
+#.......................#    
+#E......................#    
+#########################    
+y b(       
+R 3831618865
+0 0
+1 Demo
+2 .rrrrrrrrrrrrbbrrbrBTltllbl.rtrrbbbbbbRttttttllbblllllllllllllllllllllltttttttrbbbbbbrttttttrrrrrrrcrr.tlrrrrrrrrrrrrbrrTRBlllllllllllllllt.cllllllbbbbbrttttrrrbllbrblbrrtttttrrrrbrrrrrrrrrrrbblbblttlbblttlbblttlllllbrrrrr.bllllltttttltttrrrrrrrrrrrRtlllltrrrttRllBllllbbLttLbbb.ttlltLrbbb.r..llltrttlltllbrrrrllbblbbllllllltrrRtltTrr.Tl.rrbrrt.bBttllrrrrbbbbbbbbbbbbbsr........lbblbbbbrrrrrrrrrrrrbRlllllllllllllllTllTllTlTlbbbb.....
+
+uuid e2f9ab9514918c0f3b6448d1eec5085c
+
+leaderboard steps time gems

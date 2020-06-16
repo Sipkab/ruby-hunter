@@ -1,0 +1,151 @@
+n Bomb Droppings
+D 8
+C 3
+e 107
+E 0
+T 170
+t 999
+s 1
+M 0 Imperial March
+i Another "dropping bombs" level
+i Just get all the resources
+a Nic01
+f Nic01
+m 15 126
+~            : 
+~            : 
+/            : 
+/            : 
+/            : 
+~            : 
+~            : 
+/            : 
+/            : 
+/            : 
+~            : 
+~            : 
+~            : 
+~            : 
+~            : 
+~            : 
+~            : 
+~            : 
+~            : 
+~            : 
+~            : 
+~          *(: 
+~         $((: 
+~         $$$: 
+~          $*: 
+~            : 
+~            : 
+~            : 
+~            : 
+~           Q: 
+~          (Q: 
+~         (Q : 
+~        (Q  : 
+~        Q   : 
+~       Q    : 
+~       Q    : 
+~       0    : 
+~     (Q/    : 
+~    (QQQ    : 
+~    QQQ     : 
+~    QQ      : 
+~    Q       : 
+~            : 
+~            : 
+~            : 
+~          Q : 
+~          ( : 
+~            : 
+~            : 
+~            : 
+~        Q * : 
+~        (   : 
+~            : 
+~            : 
+~            : 
+~      Q *   : 
+~      (     : 
+~            : 
+~            : 
+~            : 
+~    Q *     : 
+~    (       : 
+~            : 
+~            : 
+~            : 
+~  Q *       : 
+~  (         : 
+~            : 
+~            : 
+~            : 
+~  *         : 
+~            : 
+~            : 
+~            : 
+~            : 
+0 0          : 
+0 0          : 
+$ $          : 
+~            : 
+~            : 
+~            : 
+~            : 
+~     0 0    : 
+~     $ $    : 
+~            : 
+~            : 
+~            : 
+~            :Q
+~            :Q
+~            :Q
+~            :Q
+~            :Q
+~            :Q
+~            :Q
+~            :Q
+~            :Q
+~            :Q
+~            :Q
+~            :Q
+~            :Q
+~            :Q
+~            :Q
+~     Q      :Q
+~     Q      :Q
+~     *      :Q
+~     *      :Q
+~   Q        :Q
+~   Q        :Q
+~   Q        :Q
+~   *        :Q
+~   *        :Q
+~            :Q
+~ Q          :Q
+~ Q          :Q
+~ *          :Q
+~ *          :Q
+Q            :Q
+*            :Q
+*            :Q
+~            :Q
+~            :Q
+~            :Q
+~            :Q
+~   ""1      :Q
+.###########E:Q
+Q(Q(Q(Q(Q((QQQQ
+R 7406
+0 8
+1 Demo 1
+2 lllll.L.LR.rr.R.rr.R.rrttttt...mlllllutt
+2 trrstLrstLrstLrstLrstLtt.t..llllbttlbblb
+2 bbbbbbbbbbbbbblllllLrrrrrrR.rrtrtrtrTbbl
+2 bLrb.......
+
+uuid a89e5662f4bdc85cf355db20c014bba7
+
+leaderboard steps time

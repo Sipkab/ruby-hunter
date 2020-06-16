@@ -1,0 +1,27 @@
+n Candles
+D 6
+C 5
+p 0
+M 0 Your Wildest Dreams
+i The stones are supposed to somehow
+i look like candles. Use the power
+i of falling things to move the stone
+i to an impossible length...
+a Shark
+m 9 7
+#########
+#   0 0 #
+#   . .1#
+#   ... #
+#     Q #
+#+#######
+#E#######
+R 45281
+0 0
+1 Demo 1
+2 ..bb.llllttR.r.l.bbrrrrttt.lbl..lll.....
+2 ll..bbbbb.....
+
+uuid 9f6048b88d1ba496d54d32fef81064a1
+
+leaderboard steps time

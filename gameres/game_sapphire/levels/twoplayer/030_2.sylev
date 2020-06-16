@@ -1,0 +1,51 @@
+n Robot's revenche (2)
+a Emerald Mine
+D 4
+s 0
+i And again: smash the bugs!
+i But this time robots take care of the bugs.
+m 64 32
+################################################################
+#   SSSSSSSS             .                                   . #
+#...............         .                         SSSSSSSSSSS #
+#...............   1 2   .        o                ........... #
+#.....    h.....         .                         ........... #
+#.....     .....  SSSSSSSS                         ..     h .. #
+#...............  ........          SSSSSSSSSS     ..       .. #
+#............... .........          ..........     ..       .. #
+#..................     ...................................... #
+#    .           ..    u..      ..................  .          #
+#   ..           ..     ..      ..              ..  .          #
+#   .            .........      ..              ..  .SSSSS     #
+#   .            .........      ..              ..   .....     #
+#   .SSSSSSSSSSS..       .      ... k           ..   .....     #
+#   ............         .      ..................   .   .     #
+# o .............        .  SSSSSS                   .   .     #
+#   ...        ..  o     .  ......                   .   .     #
+#   ...j       ..        ...........                 .  u.     #
+#   ...        ..         ..........          o      .   .  o  #
+#   .............         ..j    ...                 .....     #
+#          SSSSSSSS       ..      .. SSSSSS            .       #
+#.......   ........       ..      ................     .       #
+#      .....................      .. .........    SSSSSSSSS    #
+#      ...............    ..      .. .........    .........    #
+#      .            ..    ..      .. .   h  ..    .........    #
+#      .            ..    ..      .. .      .. o  .........    #
+#      .            ..    ..      .. .      ..    .       .    #
+#      .            ..    ..      .. ..     ..    .       .    #
+#      ..  k        .. o  .......... .........    .       .    #
+#      ...............    ..........              .  k   ..    #
+#                         .                       ......... E E#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 1935016456
+0 8
+1 Demo
+2 l.t..ll.l.llllllll.blblbBrlrlr.Bl.b.r.r.r.t.r.rrrrb.l.b.l.L.b.L.bbbbllbbbbl..r.l.lb.b.rlrtrlrtrrrbrbrrbb.rb.b.l.l.l..r............b.r..r.t.l.l.b.b.r.r.rr.r.b.b..b.b.b.b.bl..rlrlrrrrrbBttrrbbrr.l.ll.l.l.L.rbtbrbrbrbrbrbrbbbrbr.rlr.rlr.rlr.rtr.rrrrrbrr.l.lb.b.b.r.b.r.r.r.B.t.r.r..r.r.r.r.r.r.r.r..r.b.b.b.r..b.b.b.l.t.t.rr..t.r.t.t.t.t.l.rr.bb.bb..bb..r.r.b.l.lttttl.l.lrlrrrrrrrttttt.rrttrrrlttrltttt.tt.rlrlttrlttrlttrlrlt..ltlllll.t.l.l.t.t.t.rr.....rrbrbrbtttlrrtrtb.b.l.b.r.b.R.l.l.l.b.b.b.L.r.t.t.t.r.t..r.r.b.b.rt.t.t.t.l.l.l.t.t.t.tltbtbtltl.b.b.rt..rttrrrl.l.b.lB.r.r.b.b.r..l.r.rlrlrlr.rbr.t.rlrt..rlrr.b.b.rrbb.b.r.rrrrrbbrlbbbbbbrbbbbbbrbrbrbrbtbrbrrbrlrlrlrlbbbblblrbblr.rb.r.b.b..r.t.t.t.rlrb.bb.blrlrb.t.ll......l.llllbbbbb..bll.bttrllrlrbbbbr.r.rrrrrrrrrrrrt.t.t.l.lrltlrlrlbl.l.l.t.t.b.l.l.l.l.l.l.l.l.l.l.l.l.l.l.ltllllllllllltt.ttttttttttttl.l.l.l.l.l.l.l.l.l.b.r.b.b.b.l.B.t.r..r....b.b.b.b.b.b.l.b.b.b.b.l.b.L.r.r.T.b.b.r.r.r.r.r.r.rbrbrbrbrbrbrbrrrrrrtrrrrrrrr.r.r.r.r.r.r.r.r.r.r.r.r.r.r.l.t.t.t.r.r.r.r.r.r.r.r.r.r.b.b.b.b.b.b.........
+
+uuid 360f63d78c48fcbd97c98054d75f3f80
+
+leaderboard steps time

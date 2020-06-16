@@ -1,0 +1,104 @@
+n Robot's revenche
+a Emerald Mine
+D 4
+s 0
+i And again: smash the bugs!
+i But this time robots take care of the bugs.
+m 64 32
+################################################################
+#   SSSSSSSS             .                                   . #
+#...............         .                         SSSSSSSSSSS #
+#...............   1     .        o                ........... #
+#.....    h.....         .                         ........... #
+#.....     .....  SSSSSSSS                         ..     h .. #
+#...............  ........          SSSSSSSSSS     ..       .. #
+#............... .........          ..........     ..       .. #
+#..................     ...................................... #
+#    .           ..    u..      ..................  .          #
+#   ..           ..     ..      ..              ..  .          #
+#   .            .........      ..              ..  .SSSSS     #
+#   .            .........      ..              ..   .....     #
+#   .SSSSSSSSSSS..       .      ... k           ..   .....     #
+#   ............         .      ..................   .   .     #
+# o .............        .  SSSSSS                   .   .     #
+#   ...        ..  o     .  ......                   .   .     #
+#   ...j       ..        ...........                 .  u.     #
+#   ...        ..         ..........          o      .   .  o  #
+#   .............         ..j    ...                 .....     #
+#          SSSSSSSS       ..      .. SSSSSS            .       #
+#.......   ........       ..      ................     .       #
+#      .....................      .. .........    SSSSSSSSS    #
+#      ...............    ..      .. .........    .........    #
+#      .            ..    ..      .. .   h  ..    .........    #
+#      .            ..    ..      .. .      .. o  .........    #
+#      .            ..    ..      .. .      ..    .       .    #
+#      .            ..    ..      .. ..     ..    .       .    #
+#      ..  k        .. o  .......... .........    .       .    #
+#      ...............    ..........              .  k   ..    #
+#                         .                       ......... E E#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 33479
+0 8
+1 Demo 1
+2 ...lbb.lb..brrrrrrr......bllllll..rrr..r
+2 bbrr.bllb.rr.llttttll.tlll..t..tt.t.llll
+2 ..........l......bbbb..blllllll.........
+2 l..tttttt........rrrrrr....bllllll..trrr
+2 rr.bbbr.blrrrb.lll..rr.....bbbbbb.......
+2 ...ttttttttttrrrrrrbbb..brrrr.bbb.rrrrrr
+2 bbbbbbbb........rrrrr...lllll.t.rrrrr...
+2 ......bbllll.r..........bbbbbbb..brr.bll
+2 .b.rr...bb.rrrrr..tttttttt..........rrrr
+2 r...r...rrrr..bbbbbbbbllll..rrrrr.......
+2 ..........llllllllllltttttttt..r........
+2 ...lbbb..bbbbrrrrrrrrrrrr..llllllllllll.
+2 bblllll..tt.b.r.l.t....bbb......rr.l....
+2 .....ttll..tttlllrrrrrrbbbbbrrrtttttttt.
+2 .....rrr.ll..t...rrrrr................bb
+2 llll......rr....bbbbbb.lrr...rbbllllrrrr
+2 tt....rrrrrr..r..tttt..rrrrrrr..r.......
+2 ...lllllllllllllll......bbbbll.blllltttt
+2 tt...t..b.........t.............rr..rrrr
+2 rrrrrrrr.b.....rrrrrrrr.................
+2 ......bbllllllll.......trrrbbbbrrrb.lb.l
+2 lbrrttttttlllll....llll..lllllllllbbbbbb
+2 llltll.tttttttttttttlllltttttt..rrrr..t.
+2 .........bbbbbllllbbbbb.rrrr.r.....brrbb
+2 bbbbbbbbrrrrrrrttttttrrrrrrrrrrrrrrrrrrr
+2 ......lllllllllll.ttt......bbb..........
+2 ......bbbbbb.......rrr.....t.l.......ttt
+2 t.l.....ltttttttt.rr....r.ttttt....rrrr.
+2 .........blll....rr.bbbb..b.b.rb..b...tr
+2 .br.rbbbbbbbbb.ttttttllllllllll.tttttttr
+2 rtttttttt.l....ttttt..t....rrrrrrrrrr...
+2 .......bllllllllll..trrrrrrrbbbbbbblrrbb
+2 bbbbbbbbblrrrbbbbbbllb...rbbbt.rrb.ttllb
+2 blllllltlllllllltttltttttttttrrrrrrrrr..
+2 .rtttt..........................llrr..l.
+2 ....lll..ltttt..t....lllllllllllll..l...
+2 .......rrrrrrrrllllll.l..rrrrrrrrr..llll
+2 llllll..trrrrrrrrrr..bb..llllllllllllll.
+2 ...rrrrr..llllbbbbbllllllbbbbrrrrrbbb...
+2 rrrrrr......lbb.l.bbbbbbbbrrr.tttttttttr
+2 rrrttlllllltttllltttttttttlllllllll..tll
+2 ll.....lllll..ttttlllllllllll.....l.....
+2 .rrrrrrbbbbbbllll..l......LRrrrrr.ttllll
+2 ll..rrrbbbbb..lll...bb................b.
+2 rrrrrrrrrr.......blllllllllll....bbb..bb
+2 .rrrrr..t..r.b.rr..t.....b..b..ll.....l.
+2 .t.rr..r......ll..l...b...t.b..b.....r..
+2 r..............r........rrrrrrr..r......
+2 ....lllllll..t..rrrrr..r................
+2 .............bblllllllll..rrrrrbbbbb.rr.
+2 bl..l.b.rr.t.rll...rrttttttttlll....lllt
+2 tttttttllllllttrrrrrrrrrrrrr...t.rrrrrrr
+2 rrrrrrrrrrrrrbbbrrrrrrrrrrrrrrrrrrrrrbbb
+2 bbbrbbbbbbrbbbbb.......
+
+uuid 6a7ba354206f181e6ace15f7c0472c1c
+
+leaderboard steps time

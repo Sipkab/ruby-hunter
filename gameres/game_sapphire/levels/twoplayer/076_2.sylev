@@ -1,0 +1,98 @@
+n The invisible house (2)
+a Emerald Mine
+D 5
+s 0
+i Only the doors of the house are visible.
+i The problem is how to get in.
+m 64 32
+################################################################
+#E                                                             #
+#   iiiiiiii        iiiiiiii iiiiiiiiii        iiiiii          #
+#   i      iiiiii   i      i i        i        i    iiiiiiiii  #
+#   i      i    i   i      i i        i        i    +       i  #
+#   i      i6   i   i6     i i       iiiiiiiiiii6           i  #
+#   i6     i+  +iiiii      i i       i         i            i  #
+#   i      i        i      i i6      i         i$   +      $i  #
+#   i$     i        i      i i       i         iiiiii+  +iiii  #
+# iiii+  +ii        i     $i i$      i6        i         i     #
+# i        i        ii+  +iiiiii+  +ii         i         i     #
+# i        +        +        i       i         +         i     #
+# i                          i       i                   i     #
+# i6                         i       i                   i     #
+# i        +        +        +       i         +         i     #
+# i$       i6       i                i$        i         i     #
+# iiii+  +iiiiiiiiiii                iiiiiiiiiiiiiii+  +iiiii  #
+#    i         i    i        +       +6           i         i  #
+#    i         i    i        i                    i6        i  #
+#    i6        i6   i        i6                   i         i  #
+#    i         i    i$       i       +           $i        $i  #
+#    i        $i+  +iiiiiiiiiii+  +iiiiiiiiiiiiiiiii+  +iiiii  #
+#    iiiiiiiiiii          i            i      +          i     #
+#      i       i          +            i                 i     #
+#      i6      i                       i6                i     #
+#      i   !   i                       i      +          i     #
+#      i       i          +            i      iiiiiiiiiiii     #
+#      i$      i          iiiiiiiiiiiiii$     i                #
+#      iiiiiiiii         $i    12!     iiiiiiii                #
+#              iiiiiiiiiiii                                    #
+#                                                              #
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 55811
+0 8
+1 Demo 1
+2 ...................................b....
+2 .rr................t........l.l...lbl.ll
+2 lblbllllll.lbl.l...l.l.l....l.l...b.....
+2 l.l.l.....r.....t.t...l.................
+2 .................................l.l.l.l
+2 .lrlrlrlrl....l...t.t.............t.t...
+2 ....b.b.b.l.l.l.llllllltltltl.lrl.l.lll.
+2 l.l.l.l.l.l.l.l.l.l.l.l.................
+2 ...........................s.r.r........
+2 .....l.l.l.lbtbtrtrtrlrlrlrbrb.....r....
+2 ....l.l.lrlrlbl.lblblrtrtrtr.rrrrrrrrrrr
+2 rrrrb.b.blbrrrrrrrrrrrrrrlrlr.rrrrrrrrrr
+2 rrrrrrrrrrrrrrrrrtrtrlrtrtrlrtrtrtr.r.t.
+2 t.t...........b.b.r.r.r.r.r.r.rm.l.l....
+2 ...........r.rlrltl.l...........l.ltlt.l
+2 tltltl.lrlrlrlrlrlrl.ltltbtb.brlrlrlrltt
+2 tt.t.r.r.r.r.r.rrrrr.t.t.....r.r.r.b.b..
+2 ......b.b...........r.....r.....r.r.r.r.
+2 r...l.l.l.l.l.l.ttttt..r.t.t.t.tbt.trtrt
+2 rlrltltltltltbtbt.tlt.tltl.b....l..b.br.
+2 .lll.l.l.r.r.t.t.t......................
+2 .lblblblbrbtbt.trtrtrlrlrlrl.lll.lrl.lbl
+2 b.bb.rtr.rl.l.llllll.l.l.l.l.b.btbtbtbtb
+2 tbtbtr.r.r.r.r.r.l.l...........l.l.l.b.b
+2 blblblblblblltltltlrlr.rbrbr.rlrlrlrbrbb
+2 .btb.btb.b.brbrb.btbtbtbtrtbtb...t.t.r.r
+2 .t.t.t.lrl.l.l.l.l.t.t.t.l.l.l.l.l.bt.tt
+2 trtrtrtrtttt.t.t.tbtblblblblbr.r.rbr.r.r
+2 trtltltltblblblblblblbbrbr.rt.tlrlrlrblt
+2 ltltlr.r.rrrrrrrrrrrrrrr.r.r.r.r.r.b....
+2 ........r.r.rtrtbrbt.trtrrlrlrlrlrtltlbb
+2 bbbbbbbbbrbr.r.r.blrlr.r.r.r.r..........
+2 ...............r.rlrlrll.l.lbtbt.t.t.t.t
+2 .l.l.ltltl.r.rlr.rrbrb.llblblblblblblblb
+2 .b.rl.llltlt.trtrt...brb.b.bbbb.ltltltlt
+2 brb...rrr.r.t.tbtb.r.r.r.r.r.r.r........
+2 ......r......r.rrrrrrrrrrbrrrrrbrlrlrlrl
+2 rlbl.l.l.l.ltt.l.l.lllllblbbbbbbb.b..br.
+2 r..b.b.br.rb.r.rbblb.r.r.b.bl.l..tb.b.bb
+2 bbb.ltltl.l.l.l.l.llllltltl.lblbl.l.l...
+2 ......b.b.b.l.l.lblbbbbbbrbrrrrrrrrrrrrr
+2 rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrttttt
+2 ttttrtrttttttttttttttttttttttttttttttttt
+2 tttttttttttttttltlllllllllllllllllllllll
+2 lllllllllllll.l.l.l.l.l.llllllllllllllll
+2 lllllllllll.l.l.l.l.l.llll.lllllllllll.l
+2 .lllllllllllllllllllllllllllllllllllllll
+2 lllllll.l.l.............
+
+uuid 3fdb9a70503b72d7b48c2983ae04dabe
+
+leaderboard steps time

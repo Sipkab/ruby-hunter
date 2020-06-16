@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config xmlns="bence.sipka.types.config" >
+
+    <declare-flag name="GamePadButtons" backing-type="uint32">
+        <!-- Intentionally same as XInput -->
+        <flag name="NONE"			value="0x0000"/>
+        <flag name="DPAD_UP"		value="0x0001"/>
+        <flag name="DPAD_DOWN"		value="0x0002"/>
+        <flag name="DPAD_LEFT"		value="0x0004"/>
+        <flag name="DPAD_RIGHT"		value="0x0008"/>
+        <flag name="START"			value="0x0010"/>
+        <flag name="BACK"			value="0x0020"/>
+        <flag name="LEFT_THUMB"		value="0x0040"/>
+        <flag name="RIGHT_THUMB"	value="0x0080"/>
+        <flag name="LEFT_SHOULDER"	value="0x0100"/>
+        <flag name="RIGHT_SHOULDER"	value="0x0200"/>
+        <flag name="A"				value="0x1000"/>
+        <flag name="B"				value="0x2000"/>
+        <flag name="X"				value="0x4000"/>
+        <flag name="Y"				value="0x8000"/>
+    </declare-flag>
+    
+</Config>

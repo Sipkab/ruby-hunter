@@ -1,0 +1,98 @@
+n Stone Strain
+D 8
+C 7
+e 234
+s 0
+p 0
+M 0 Dancing on the Ceiling
+i The tilte represents a skill practice
+i for an element. No need tell you what
+i it's about.
+a Shark
+m 50 33
+#####0############################################
+#0..#&#.0....!.# Q   # B 0               #0000*0*#
+#..............# &   # # .@ @ @ @ @ @ @  #***0***#
+#..............#     # #&&&############  #***0*0*#
+#............0.#  !  # #   Q&  0&  0&   .#***0***#
+#..........0...#     #B#  0.& Q.& Q.& Q. #**00***#
+#..............#     # ######+###+########*000*0*#
+#..............#     # #     B# R  ##0# B *0*0*0y#
+#..............#     # # 0    # #00##$# #****0*0*#
+#..............#     # ##.@   # .$$.#$# #***0**0*#
+#............00#     # ###.@  # .$$.#$# #0**0**0*#
+#........1......     #B#!##.@r# .$$.#$# #0**0**0*#
+#..............#   #@# # ########R#R#$# #***0**0*#
+#...!..........#   #.# #G#    #00 # #$# #******0*#
+#...............####># # # $  #.. # #$# #*0000*0*#
+#R###########Q#  B#>#B #G#$*$$#@@@# #$# #*0**0*0*#
+# #   #00 # B#>#B#>#B  # #.*$*###.# #$# #*0**000*#
+#R# g #.. #  B#>+>#B   #G# *$***#.# #$# #*0000000#
+# #   #@@ G   B#>#B    # #Yccccc# R #$# #*******0#
+#R### #@@.#    B+B     G   .....#.# #$# #ssssssss#
+# R R #@@.#            #        #.# #$#          #
+#############################G### G  $G aaaaaaaaa#
+#                         &    0### #$############
+#                              .  # #$#          #
+#                   5          .  #####          #
+##B##s###@###########Y####:########        000   #
+#       ### #             :                000   #
+#           #           **:     000 $$$    000   #
+#   # ###   #  $        E:::    000 $$$          #
+#   #Q(Q::::::::::::::::::*:    000 $$$      $$$ #
+#   #####   #            :::                 $$$ #
+#           #                                $$$ #
+##################################################
+y ......$..
+y ......*..
+y . .. .. .
+y b.....B..
+y .........
+y .........
+y ~*    ...
+y .........
+R 54246
+0 0
+1 Demo 1
+2 rrrrrRlrrrltlllbrrrrlttttttttttllbbbrbbb
+2 bblltttlbbbbbtrrrbrrllltllbrrrrrrlllttrt
+2 tttttttlllllbllrrbrbbbbbblbRbrrrrrrrrlll
+2 lllllllllllrrrrrrrrrrrtttttttrttllbbbltt
+2 ttlllbllbblTbbRllltrrrttrtcblbb.......l.
+2 .....rrtrrb.l.l.lbbbbltttrttlltttrbbbbbl
+2 Tbbbb.r.rrrrrrrrrrrrrlrrttttttrrtllbbbbb
+2 bbllllllllllltlllbrrrrrrrrrrrrrrrrrlllll
+2 llllllllllbbbrrrrrrrrrrsbr.........llrbb
+2 bbllbLtrrtttltltttrrrrttttttttmltt...rrr
+2 llbbbbbbbbbb..rrrrbbBtttttttttbbbbbbblll
+2 llllbbbrrbrbbbrrtrtrtrtrttttttttttttrrbr
+2 trbrtrbrtrbrtrbrtrbrtrbr..rrbbL..lblr...
+2 t.lb..lltlblr..t..llbbBtltlblrt...llllbt
+2 lblr..tlltllbbrrrrrbbllltllbrbr.brBltrrr
+2 bBtlllbrbr.RtttrttrrrrbblbbbbRtrrBTrTb..
+2 l.lrbblLrttrrttllLrrbbbbbbbbltTbrbbblttb
+2 btttttttttttlltttttllllllltttlllbbbbbbbb
+2 bbbbbbbbblllllllllllttlttrbbbbrrrrttttlt
+2 lllllllllllllllbbbbrrrtttlbrbblltttrrrrr
+2 rrrrrrrrrbrbbblllltlltlLrblLrblLrblLrttr
+2 rrrbrrrrrrrrrtttttbbbbrbrmbrrrr.....lltt
+2 tbbRtttTrrBrBtrblllbbbbrtrrrRlbLrRtllllt
+2 bbrrr..brbrr............................
+2 ........................................
+2 ..llllllllllllllllllllllb.lBlllrlllllbbr
+2 rrbbRtttllltrrrrrrrrrrrrrrrrrrrbttrrrrbr
+2 rtrrtltlllllttttttttttttttttrrrbbbbrrrrr
+2 rrbbbbrrrbbbbbbbbbbbltttr.ltttlLrbbbrbbb
+2 rrBtttttttttttttbbbbbbbbbbbbbrtttttttttt
+2 ttttrrbbbbbblbbbbbrLLrrrrrr.............
+2 ..............lllllll.....rrrrrrr....lll
+2 llll.........rrrrrrr.....lllllll........
+2 ..rrrrrrr........lllllll.....rrrrrrr...t
+2 lblllllLtttttttttttrrrrrrttlllllbbblltll
+2 bbbbbbbbbbbbbbllttltttltttttttttttttllll
+2 llllltttlbbbbbbbbbbbbbbbbrrrrrrbbbblllll
+2 lllbbbrlllllllrrrrrrrrtrrlb.....
+
+uuid fafbae7e65c18db738fd49eb720fbf57
+
+leaderboard steps time

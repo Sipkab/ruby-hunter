@@ -1,0 +1,80 @@
+n Two problems
+a Emerald Mine
+D 6
+s 1
+i One problem on the left,
+i one problem on the right.
+m 64 32
+################################################################
+#iiiiiiii.....i..i...ii*......#EE........*...........*.........#
+#...i*....i.i.ii.i.ii.iiiii.i.#1 .|0|.|0|.|0|.|0|.|0|.|0|.|00|.#
+#.i.iiiii.iii.i.....i...i.iii.#  .0%|.|%0.0%|.|%|.|%|.|%0.0%%|.#
+#.i.......i*....iiiii.iii.i...#  .|0|.|0|.|0|.|0|.|0|.|0|.|00|.#
+#.iii.iii.ii.ii..*.....i....ii#  ..............................#
+#..*i...i..i.i..ii.ii.ii.ii....  .|0|.|0|.|0|.|0|.|0|.|0|.|00|.#
+#iiii.i.iiii.i.iii.i.....iiiii###.|%0.0%|.|%0.0%|.|%|.|%0.0%%|.#
+#i....i......i.i.i.iiiii......###.|0|.|0|.|0|.|0|.|0|.|0|.|00|.#
+#i.ii.iii.i.ii...i.....i.i.iii###........*.......*.............#
+#*..iii...i.iiii.i.iii.i*i....###.|0|.|0|.|0|.|0|.|0|.|0|.|00|.#
+#i.ii.i.i.i...ii.iii.i.iii.ii.###.0%0.0%0.0%|.|%0.0%|.|%0.0%%|.#
+#i.i....i.iii.i*.....i...i.ii*###.|0|.|0|.|0|.|0|.|0|.|0|.|00|.#
+#i.iii.ii.*i..iiii.i.i.i.iii..###.............................*#
+#i.i...iiiii.i.i.i.i.iii.....i###.|0|.|0|.|0|.|0|.|0|.|0|.|00|.#
+#i.i.i.i.....i.....i.....iii.i###.0%|.|%|.|%0.0%0.0%0.0%|.|%%0.#
+#i.i.iiiii.i.iii.i.iii.i.i.i.i###.|0|.|0|.|0|.|0|.|0|.|0|.|00|.#
+#i.i*.i*i..i...i.i...i.iii....###....*.......*.................#
+#i.ii...ii.ii.ii.iii.i.i.ii.ii###.|0|.|0|.|0|.|0|.|0|.|0|.|00|.#
+#i....i....i...i..*i*i*i....ii###.|%0.0%|.|%0.0%0.0%|.|%0.0%%0.#
+#ii.iiiiii.iii.iiiii.iiii.i..*###.|0|.|0|.|0|.|0|.|0|.|0|.|00|.#
+#...i....iii*.............ii.i###....................*.........#
+#i.iiiii.i.ii.i.iii.iiiii..i.i###.|0|.|0|.|0|.|0|.|0|.|0|.|00|.#
+#*.i.......ii.i.ii...ii.iiii.i###.0%|.|%0.0%0.0%0.0%0.0%0.0%%0.#
+#i.iiii.ii....i.ii.i*i.......i###.|0|.|0|.|0|.|0|.|0|.|0|.|00|.#
+#i.i....iiiiiii.ii.iiiii.iii.i###....*...................*.....#
+#i.ii.i*....i.i.i......i.i.iii###.|0|.|0|.|0|.|0|.|0|.|0|.|00|.#
+#.....iii.i.i.i.iiii.i.i......###.0%0.0%|.|%0.0%0.0%0.0%0.0%%0.#
+#.i.i.iii.i.i.i....iii.iii.ii.###.0%0.0%|.|%0.0%0.0%0.0%0.0%%0.#
+#. iiii...iii.iiii...*.....i..###.|0|.|0|.|0|.|0|.|0|.|0|.|00|.#
+#$i.....iii*.......iiiiiiiiii*###............*................$#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 11601
+0 8
+1 Demo 1
+2 .....bbbbllbbl........rrrrr....lllll..l.
+2 ....b..l..r..r.b..t.ll.t.trrtttllllllrrr
+2 rrrbbbbl..b.l.b..lllbbbbb..ttt.......lll
+2 tttttt.bbbllllrrb.ll..l..lt.llllrr.tttll
+2 llbllllrrrrbblllllttlttllbbbbrrllttttrrr
+2 rr.rbrr.brr..bb.bb.lllbb..lr.....tttt.rr
+2 tt.lttrrtt..rrbbrrbbbbbr.ltttttrr.....rt
+2 ttrrr.rl.lt.l..rrr.bb.rbb..lbbbrrbbblrr.
+2 brb..bb..llbbbbrrl.tltttrrr.t.rrbbrrbbb.
+2 .brrrr...r.tt..rrbrr.lbbbb.....llllbbbrr
+2 rrrbbb.tttlllbbllllllllblllllll...rrrrrr
+2 rrr.ttlllttttttrr.trrrbrr..lbbrbt.l.tlll
+2 .t.lll..l....lllrbbb..ll.tl.tllbblbbb.t.
+2 llbbllllbbb.tttrttttlr.ttrt.trrtt.lr.brr
+2 tbbrrr.tttt..llllrrr..rttrttllttttt.tl..
+2 ll.tt.l.t..bbb.ttrrrttlltttrrrr...bbrrrr
+2 ltttrr..brr.l.bbrr.t.r.trrtrrr..rrrrbbbb
+2 brrbbbrrrb..bl.bbb.rrrrb.rr.bbrrr.rbbbrr
+2 bbbbb..ttttrrtrrrrtrtttlllttl.ttl..tt...
+2 rrrtrrrrrb.rrrr......r.ttttrttrrrrrrrrrr
+2 rr..rrrrrrrrr...........rrrrrrrrbbbbbbbb
+2 bbbb...ttttttt........tttttlllllllllllll
+2 bbbbbbbbb...t...............rrrr.......b
+2 bbb.........rrrr.............bbbb....lll
+2 l..bbbb.............................llll
+2 llll..lllllll..lbbbb.............rrrrrrr
+2 rrrrrrrrrrrrr.......................rrrr
+2 r...bbbbbllllllllllllllllllllllllllllltt
+2 tttttttttttrrrrtt.brrbrrrrrrrrrttltttttt
+2 ttllllllllllllttttttlttt.......
+
+uuid 98a56157c07741a6a7538bc3b53cca8f
+
+leaderboard steps time

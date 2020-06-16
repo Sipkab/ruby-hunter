@@ -1,0 +1,36 @@
+n Switcheroo
+D 6
+C 5
+E 0
+p 0
+M 0 Only Solutions
+i You need to transport
+i the bombs -- but how?
+a Alex
+m 20 11
+####################
+#0 Q Q Q           #
+#@.. . .           #
+#1            0  0 #
+#_______+ ++ ++ ++ #
+#_______  &  &  &  E
+#                  #
+#                  #
+#        {  {  {   #
+#aaaaaaaaa|aa|aa|aa#
+####################
+R 79427
+0 8
+1 Demo 1
+2 ....rttlbbrrrrrrr.ltr.b...r.trr.bltllllb
+2 r.r....rrl....rtrrrrrblltlllb...rrrlr.tr
+2 rrrrb..l..ltlllbrtrrrrbbbbbbll..tlllllll
+2 ttttrr.........rllltllbr.........rlllltl
+2 b.rrr.trrrrbltlllb...rrr.l.ttlr.rr.rrbb.
+2 ltlllbrtrrrbbbbbb.l..ttllllttttllbr.....
+2 ....rtllllllllbrrrrrr..trrrrb.ltlllbrtrr
+2 rbbbl..rrrrrrrrr........
+
+uuid bffdad43df4f70cc5835747e6edfc0d1
+
+leaderboard steps time

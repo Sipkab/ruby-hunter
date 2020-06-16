@@ -1,0 +1,68 @@
+n One Exit
+ldeutsch n Ein Ausgang
+D 5
+C 3
+e 19
+s 0
+p 0
+M 0 Race
+i Normally, that isn't a problem.
+i 
+i But two exits in a two player
+i level with one of them unreachable,
+i _that_ is a problem.
+i 
+i So race against the YamYam-beast!
+ldeutsch i Das ist normalerweise kein Problem.
+ldeutsch i 
+ldeutsch i Aber zwei Ausg�nge in einem
+ldeutsch i Zweispielerlevel, von denen
+ldeutsch i einer nicht erreichbar ist,
+ldeutsch i das _ist_ ein Problem.
+ldeutsch i 
+ldeutsch i Deshalb m�sst ihr mit dem
+ldeutsch i YamYam-Biest um die Wette arbeiten.
+a Alexander
+m 32 22
+################################
+#.....0........#*.##*....#.....#
+#............1.##2..#.#..##..y.#
+#........0.....##*#...#...##.&.#
+#.@.0...################.*.#Q..#
+#.......################....#..#
+#.......################....#R##
+#.......###     $    ###....# ##
+#.......### ........ ###*#..# ##
+#..@.@..#$     $   . #####..#R##
+#.......###V. .... .$####.#.*..#
+#..######## . .%   .$####!#R#..#
+#..G G *### .0.    .$###. R.#..#
+#..######## .$......$###*#....*#
+#.@.0...### .$  $   $ $##*#.##.#
+#.......#####s#### ######.#.##*#
+#.......##########$######...##.#
+#.....@.################...##..#
+#..@...........#...#..r#..##..##
+#..............E. Y*.##..#.##*##
+#..............#..#.....#.*.#.##
+################################
+y *0S@E>$$g
+R 35826
+0 0
+1 Top Speed
+2 ltlLlblBlrlrbbbrbrltltbLlrbrbrBblblrbbrb
+2 tllbtbtBTrrrrrrbbbBbtrtrtrtblblbbbrb.brb
+2 rllbbBbtbrltltltltblBlrltbrbrbrlrlbtlTbb
+2 lbtbllbbll.bLlblblblbtlrbtbrrRrllblbtrtr
+2 trtttrltbtbrrrbt.r.t.t.t.tblrTblbBBrtrtt
+2 ltltbtrtbtbcbbrbrbrbRrtrrtttt.t.L.btbrbL
+2 lLltlttttltbrbrbbbbbbbbbRbtbrlrlbbbbrbrl
+2 rlrbrbrlrbrl.b.l.l.l.l.t.l.l.l..........
+2 ........................................
+2 ........................................
+2 ........................................
+2 ........................................
+
+uuid 844b2cbc9d48e780b6c0447d1e1b1f99
+
+leaderboard steps time

@@ -1,0 +1,35 @@
+n Ocean of Confusion
+D 6
+C 5
+E 0
+p 0
+i The water is sparkling;
+i the stones are deadly.
+a Alex
+m 11 11
+###########
+#$$0$$$0$$#
+#$$$$0$$$$#
+#$$$$$$$$$#
+#$$0$1$0$$#
+#$$$$0$$$$#
+#0$$$$$$$0#
+#$$$$$$$$$#
+#$$$000$$$#
+#$$$$$$$$$#
+#####E#####
+R 32571
+0 0
+1 Demo 1
+2 ....t...bl...t......lt...br..t..r....r.r
+2 .bl...trrrtlbbrtllllbltllltrbbl......rtr
+2 rbll..blB.rtrrrrtrrb.t.llbrr.brB.l..tllb
+2 rrtllllbll.rr.....bb.br......t.R.R..R.L.
+2 ...r.....tl..bl.....l.B.l.....B..Tb.bblt
+2 ttr.......r......bb.B.tt..rr..rB..r..B..
+2 r..B..Tb.bbrttt..llb...bb.l..lL...b.....
+2 ...
+
+uuid 54e8afe86a4675eadffd32621bc68dab
+
+leaderboard steps time

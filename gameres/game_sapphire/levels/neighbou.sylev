@@ -1,0 +1,47 @@
+n Neighbours
+ldeutsch n Nachbarn
+D 3
+C 1
+e 3
+i Visit your neighbours
+i two times each.
+ldeutsch i Besuche jeden deiner
+ldeutsch i Nachbarn zweimal.
+a Ronald
+m 17 17
+#################
+#   1   #   k   #
+# ++Y++ # ++G++ #
+#j++ ++ # ++ ++ #
+# E+g+r R ++*++ #
+# +++++ # +++++ #
+# +++++ # +++++ #
+#       #       #
+####B#######R####
+#       #       #
+# +++++ # +++++ #
+# +++++ # +++++ #
+#jG *++ B ++* Y8#
+# +++++ # +++++ #
+# ++y++ # ++b++ #
+#       #       #
+#################
+R 16785
+0 8
+1 Demo 1
+ldeutsch 1 Demo 1
+2 ......bb.r.lllbblbbbbbbrrrrrrtttlrrttttr
+2 rrbb.brrr....bbbbbblllbrrrbbbbbbllltblll
+2 .tttltttllllllbbbbbbrrrtbrrrtttr.tttrrrr
+2 rrbbbllrrbbbllllllttttttrrrtlllttttl.ttr
+2 rrrrrbbbbbblllllltttttrrtrrr.rrrbbbbbbll
+2 lllltttltttllllllbbbbbbrrrrrrttttttlllbb
+2 .........tt.rrrbbbb.ttttllllllbbbbbbrrrb
+2 .lllbbbrrllbbbrrrrrrtttrrtttrrrtt.lllttt
+2 tttrrrbbtttrrrbbbbblllbllllllttttttrrrrr
+2 rbbbbbllbllllllttt....ltt.tllll...llbbbr
+2 ........
+
+uuid b3b4b0c1b1e82ae9905be402dc784f5f
+
+leaderboard steps time

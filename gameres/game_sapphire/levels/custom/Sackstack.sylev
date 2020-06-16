@@ -1,0 +1,60 @@
+n Sackstack
+D 4
+C 5
+p 0
+M 850 Money for Nothing
+i This level can sort of resemble a
+i sack of stacks. I guess that's how
+i it got its name.
+a Shark
+m 15 12
+###############
+#@............#
+#*.......1..@.#
+#....#......@.#
+#.@....#.*....#
+#..@.#........#
+#......#......#
+#....#.....@..#
+#......#......#
+#.....*....+.Q#
+#.....{....+.>#
+###############
+y 0 .E*....
+R 18369
+0 0
+1 Demo 1
+2 .....r.....rllllB..trrrrrrblllll...bbr..
+2 lbL.rrrr.trb.lllll.bbL.rrtrrbllllrrrrbb.
+2 Bttt...lll..tttt..lll...bbbbbbb.ttttttt.
+2 .t.lb...llltrr.lllb.rrr..bbR.ltllbr..rr.
+2 ..bb.Rll.rr...ltttttrrrbbbbbb.ttttt.rrr.
+2 bbbbbbb.R.l.Lt.rrrrb..lll..l.tt.........
+2 ...tt...bbbblrttttttttllbl..llbbb..brb..
+2 ..rtlltllbrrr...tttttrr.llbbbbbr..l.....
+2 bbbrRlttttt..tttrr...rbb.lttll..r.b.r.ll
+2 bbr.rttrrb...l...tlllbbrr..l...rt..tt..l
+2 ..r..rrbbbbbblrtt.ttl..tlllbbrr..l..rttt
+2 .r......lrrbbbbllltlltt...r....r.trrrbbl
+2 rrrrrbbbbbbbl.....
+R 18614
+0 0
+1 Demo 2
+2 ...lll.bbbbbbbtttttttt.b.rrrrrtr..rb..tl
+2 llllllb.bbbRbbRt.LttLTtt.Lr..Brrtrrrrbll
+2 lll...bb.......R.brrrrtrb.lllll.bbrrtrrb
+2 llll..tR.tttrrb..rtrrbbbbblb.Btttt.....b
+2 b..lblbll..rllrtrrrrblll..rrrbtttttttttl
+2 lllllllllBrbrtlllbrr..r........b..bltllb
+2 r.r.r.bblll.Tr.Tr..r..ltttttrrrrr....rbb
+2 bbbbbbllrttttttttllbl....lbbb.b.rltllbrr
+2 .....tttttrrllbbbbbr.r.....lbb.r.R.l.ttt
+2 t......ttt.rr...rbbrbb....ttttlll.r.rrbb
+2 bb.....tttllllbbr.rttrrb...l..tlllbbr.R.
+2 .rtt......lr..lr..rrbbb.l.rtt...l..rbblL
+2 rbb....tttttll..blblltttr.rrrrbbb..bbb.l
+2 rttttl..rbblLrrrrbbbbbb.....
+
+uuid 895b72f4b919887393fb4d60c693a910
+
+leaderboard steps time

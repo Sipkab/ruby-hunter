@@ -1,0 +1,44 @@
+n Bugs in a Box
+ldeutsch n Käfer in der Schachtel
+D 4
+C 4
+E 0
+T 1000
+M 0 We don't need Another Hero
+i Eeech!
+i As you open the
+i old box you find two
+i gigantic bugs crawling
+i around inside.
+ldeutsch i Pfui!
+ldeutsch i Beim Öffnen der Schachtel
+ldeutsch i findest du zwei riesige
+ldeutsch i Käfer drinnen rumkrabbeln.
+a Reinhard
+m 15 10
+###############
+#...0......0..#
+#.............#
+#.............#
+#...........1!#
+#...+++++++...#
+#...+     +...#
+#...+j E u+...#
+#...+     +...#
+###############
+R 21412
+0 0
+1 Demo 1
+2 ...rl...........l.....llll....srrr....tt
+2 ........ll.......tll...........bb.l.bll.
+2 .......tt...............................
+2 ................lll......brr.brblrrbbrbl
+2 ttttrrrrrrrrrr..........bb..bbr.........
+2 .....l........................rr.tt.....
+2 .........Tbblltttttrr.bbbbb.lltt.tttrr.b
+2 bbbblltttttrrbll........bbbllllbrtrrbrrt
+2 lllllll.........
+
+uuid 9f4a1841da1b8d5fa8c763175ec4d193
+
+leaderboard steps time

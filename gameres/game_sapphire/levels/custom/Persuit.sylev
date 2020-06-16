@@ -1,0 +1,183 @@
+n Persuit
+D 10
+e 0
+p 0
+M 0 Staying Alive
+i It's hard enough, to stay
+i alive.
+a Alexander
+m 126 126
+Q.Q....Q.....QQQ.Q.Q...Q..Q                                                                             0                     
+..Q..Q.Q.Q..Q..Q.QQ....Q.Q.                                                                             V                     
+Q....QQ..Q.Q.QQQ.QQ.Q.Q....                                                                                                   
+...QQQ......Q...Q.Q........                                                                                                   
+Q.Q.Q....Q.....Q.Q..Q.Q.Q..                                                                    .0.                            
+Q......QQ..QQ.....QQ.......                                                                    . .   QQQQQQQ                  
+QQ..Q.......Q.....QQQ...Q..                                                                    .V.   Q?????Q                  
+.Q...QQ.QQQ....Q.Q....Q....                                                                    ...   Q?   ?Q                  
+.Q...QQ.Q.Q.Q........Q..QQ.                                                                          Q? 1 ?Q                  
+....Q..Q..QQ..Q..QQQ.Q.Q.Q.                                                                          Q?   ?Q                  
+..Q......Q.QQQ..QQ...Q.....                                                                          Q?????Q                  
+QQ.QQQ.QQ..Q.Q...Q.QQQ.Q.Q.                                  Q.Q....Q.....QQQ.Q.Q...Q..Q             QQQQQQQ                  
+QQ.QQ..Q...Q.Q..Q.....Q.QQ.                                  ..Q..Q.Q.Q..Q..Q.QQ....Q.Q.                                      
+..Q.Q.Q...Q..Q....Q.....QQQ                                  Q....QQ..Q.Q.QQQ.QQ.Q.Q....                                      
+..Q.Q..Q....QQ......Q..QQQ.                                  ...QQQ......Q...Q.Q........                                      
+Q.Q..Q...Q..QQ.Q.Q..Q...Q..                                  Q.Q.Q....Q.....Q.Q..Q.Q.Q..                                      
+....QQQQQ..............QQ..                                  Q......QQ..QQ.....QQ.......                                      
+...........................            ...                   QQ..Q.......Q.....QQQ...Q..                                      
+~                                      .0.                   .Q...QQ.QQQ....Q.Q....Q....                                      
+~         .........................    . .                   .Q...QQ.Q.Q.Q........Q..QQ.                                      
+~         .QQQQQQQQQQQQQQQQQQQQQQQ.    . .                   ....Q..Q..QQ..Q..QQQ.Q.Q.Q.                                      
+~         .QQQQQQQQQQQQQQQQQQQQQQQ.    .^.                   ..Q......Q.QQQ..QQ...Q.....                                      
+~         .QQQQQQQQQQQQQQQQQQQQQQQ.    ...                   QQ.QQQ.QQ..Q.Q...Q.QQQ.Q.Q.                                      
+~         .QQQQQQQQQQQQQQQQQQQQQQQ.                          QQ.QQ..Q...Q.Q..Q.....Q.QQ.                                      
+~         .QQQQQQQQQQQQQQQQQQQQQQQ.                          ..Q.Q.Q...Q..Q....Q.....QQQ                                      
+~         .QQQQQQQQQQQQQQQQQQQQQQQ.                          ..Q.Q..Q....QQ......Q..QQQ.                                      
+~         .QQQQQQQQQQQQQQQQQQQQQQQ.                          Q.Q..Q...Q..QQ.Q.Q..Q...Q..                                      
+~         .QQQQQQQQQQQQQQQQQQQQQQQ.                          ....QQQQQ..............QQ..                                      
+~         .QQQQQQQQQQQQQQQQQQQQQQQ.                          ...........................                                      
+~         .QQQQQQQQQQQQQQQQQQQQQQQ.                                                                                           
+~         .QQQQQQQQQQQQQQQQQQQQQQQ.                                                                                           
+~         .QQQQQQQQQQQQQQQQQQQQQQQ.                                                                                           
+~         .QQQQQQQQQQQQQQQQQQQQQQQ.                                                                                           
+~         .QQQQQQQQQQQQQQQQQQQQQQQ.                                                                                           
+~         .QQQQQQQQQQQQQQQQQQQQQQQ.                                                                                           
+~         .QQQQQQQQQQQQQQQQQQQQQQQ.                                                                                           
+~         .QQQQQQQQQQQQQQQQQQQQQQQ.                                          Q.Q....Q.....QQQ.Q.Q...Q..Q                      
+~         .........................                                          ..Q..Q.Q.Q..Q..Q.QQ....Q.Q.                      
+~                                          ..                                Q....QQ..Q.Q.QQQ.QQ.Q.Q....                      
+~                                         .0.                                ...QQQ......Q...Q.Q........                      
+~                                         S .                                Q.Q.Q....Q.....Q.Q..Q.Q.Q..                      
+~                                        . ^.                                Q......QQ..QQ.....QQ.......                      
+~                                        ....                                QQ..Q.......Q.....QQQ...Q..                      
+7777777                                                                      .Q...QQ.QQQ....Q.Q....Q....                      
+7777777                                                                      .Q...QQ.Q.Q.Q........Q..QQ.                      
+7777777                                                                      ....Q..Q..QQ..Q..QQQ.Q.Q.Q.                      
+7777777                                                                      ..Q......Q.QQQ..QQ...Q.....                      
+7777777                                                                      QQ.QQQ.QQ..Q.Q...Q.Q.Q....Q.....QQQ.Q.Q...Q..Q   
+7777777                                                                      QQ.QQ..Q...Q.Q..Q....Q..Q.Q.Q..Q..Q.QQ....Q.Q.   
+7777777                                                                      ..Q.Q.Q...Q..Q....QQ....QQ..Q.Q.QQQ.QQ.Q.Q....   
+7777777                                                                      ..Q.Q..Q....QQ........QQQ......Q...Q.Q........   
+7777777                  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE                Q.Q..Q...Q..QQ.Q.Q.Q.Q.Q....Q.....Q.Q..Q.Q.Q..   
+7777777                  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE                ....QQQQQ..........Q......QQ..QQ.....QQ.......   
+7777777                  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE                ...................QQ..Q.......Q.....QQQ...Q..   
+7777777                  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE                                   .Q...QQ.QQQ....Q.Q....Q....   
+7777777                  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE                                   .Q...QQ.Q.Q.Q........Q..QQ.   
+7777777                  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE                                   ....Q..Q..QQ..Q..QQQ.Q.Q.Q.   
+7777777                  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE                                   ..Q......Q.QQQ..QQ...Q.....   
+7777777                  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE                                   QQ.QQQ.QQ..Q.Q...Q.QQQ.Q.Q.   
+7777777                  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE                                   QQ.QQ..Q...Q.Q..Q.....Q.QQ.   
+7777777                  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE                                   ..Q.Q.Q...Q..Q....Q.....QQQ   
+7777777                  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE                                   ..Q.Q..Q....QQ......Q..QQQ.   
+7777777                  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE                                   Q.Q..Q...Q..QQ.Q.Q..Q...Q..   
+7777777                  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE                                   ....QQQQQ..............QQ..   
+7777777                  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE                                   ...........................   
+~                        EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE                                                                 
+~                        EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE                                                                 
+~                        EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE                                                                 
+~                        EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE                                                                 
+~                        EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE                                                                 
+~                        EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE                                                                 
+~                        EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE                                                                 
+~                        EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE                                                                 
+~                        EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE                                                                 
+~                        EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE                                                                 
+~                        EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE                                                                 
+~                        EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE                                                                 
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                                                                             
+~                                                                              Q.Q....Q.....QQQ.Q.Q...Q..Q                    
+~          Q.Q....Q.....QQQ.Q.Q...Q..Q                                         ..Q..Q.Q.Q..Q..Q.QQ....Q.Q.                    
+~          ..Q..Q.Q.Q..Q..Q.QQ....Q.Q.                                         Q....QQ..Q.Q.QQQ.QQ.Q.Q....                    
+~          Q....QQ..Q.Q.QQQ.QQ.Q.Q....                                         ...QQQ......Q...Q.Q........                    
+~          ...QQQ......Q...Q.Q........                                         Q.Q.Q....Q.....Q.Q..Q.Q.Q..                    
+~          Q.Q.Q....Q.....Q.Q..Q.Q.Q..                                         Q......QQ..QQ.....QQ.......                    
+~          Q......QQ..QQ.....QQ.......                                         QQ..Q.......Q.....QQQ...Q..                    
+~          QQ..Q.......Q.....QQQ...Q..                                         .Q...QQ.QQQ....Q.Q....Q....                    
+~          .Q...QQ.QQQ....Q.Q....Q....                 Q.Q....Q.....QQQ.Q.Q...Q..Q..QQ.Q.Q.Q........Q..QQ.                    
+~          .Q...QQ.Q.Q.Q........Q..QQ.                 ..Q..Q.Q.Q..Q..Q.QQ....Q.Q..Q..Q..QQ..Q..QQQ.Q.Q.Q.                    
+~          ....Q..Q..QQ..Q..QQQ.Q.Q.Q.                 Q....QQ..Q.Q.QQQ.QQ.Q.Q..........Q.QQQ..QQ...Q.....                    
+~          ..Q......Q.QQQ..QQ...Q.....                 ...QQQ......Q...Q.Q........QQQ.QQ..Q.Q...Q.QQQ.Q.Q.                    
+~          QQ.QQQ.QQ..Q.Q...Q.QQQ.Q.Q.                 Q.Q.Q....Q.....Q.Q..Q.Q.Q..QQ..Q...Q.Q..Q.....Q.QQ.                    
+~          QQ.QQ..Q...Q.Q..Q.....Q.QQ.                 Q......QQ..QQ.....QQ........Q.Q...Q..Q....Q.....QQQ                    
+~          ..Q.Q.Q...Q..Q....Q.....QQQ                 QQ..Q.......Q.....QQQ...Q...Q..Q....QQ......Q..QQQ.                    
+~          ..Q.Q..Q....QQ......Q..QQQ.                 .Q...QQ.QQQ....Q.Q....Q......Q...Q..QQ.Q.Q..Q...Q..                    
+~          Q.Q..Q...Q..QQ.Q.Q..Q...Q..                 .Q...QQ.Q.Q.Q........Q..QQ..QQQQQ..............QQ..                    
+~          ....QQQQQ..............QQ..                 ....Q..Q..QQ..Q..QQQ.Q.Q.Q.........................                    
+~          ...........................                 ..Q......Q.QQQ..QQ...Q.....                                            
+~                                                      QQ.QQQ.QQ..Q.Q...Q.QQQ.Q.Q.                                            
+~                                                      QQ.QQ..Q...Q.Q..Q.....Q.QQ.                                            
+~                                                      ..Q.Q.Q...Q..Q....Q.....QQQ                                            
+~                                                      ..Q.Q..Q....QQ......Q..QQQ.                                            
+~                                                      Q.Q..Q...Q..QQ.Q.Q..Q...Q..                                            
+~                                                      ....QQQQQ..............QQ..                                            
+~                                                      ...........................                                            
+~               Q.Q....Q.....QQQ.Q.Q...Q..Q                                                                                   
+~               ..Q..Q.Q.Q..Q..Q.QQ....Q.Q.                                                                                   
+~               Q....QQ..Q.Q.QQQ.QQ.Q.Q....                                                                                   
+~               ...QQQ......Q...Q.Q........                                                                                   
+~               Q.Q.Q....Q.....Q.Q..Q.Q.Q..                                                                                   
+~               Q......QQ..QQ.....QQ.......                                                                                   
+~               QQ..Q.......Q.....QQQ...Q..                                                                                   
+~               .Q...QQ.QQQ....Q.Q....Q....                                                                                   
+~               .Q...QQ.Q.Q.Q........Q..QQ.                                                                                   
+~               ....Q..Q..QQ..Q..QQQ.Q.Q.Q.                                                                                   
+~               ..Q......Q.QQQ..QQ...Q.....                                                                                   
+~               QQ.QQQ.QQ..Q.Q...Q.QQQ.Q.Q.                                                                                   
+~               QQ.QQ..Q...Q.Q..Q.....Q.QQ.                                                                                   
+~               ..Q.Q.Q...Q..Q....Q.....QQQ                                                                                   
+~               ..Q.Q..Q....QQ......Q..QQQ.                                                                                   
+~               Q.Q..Q...Q..QQ.Q.Q..Q...Q..                                                                                   
+~               ....QQQQQ..............QQ..                                                                                   
+~               ...........................                                                                                   
+~                                                                                                                             
+y ?Q? $  $<
+y ^^^^^^^^^
+y ^^^^^^^^^
+y ^^^^^^^^^
+y ^o^ooo^o^
+y ^^^^w^^^^
+y ^k^kkk^k^
+y uuuuuuuuu
+y ^6^6o8^8^
+y ^5>8Q6<7V
+y .QQQ....Q
+y """"^""""
+y """"o""""
+y %%%%Q%%%%
+y .QQ%.QQQ%
+y %Q^.Q..%>
+R 95595
+0 0
+1 Demo 1
+2 ...........bbbbbbbbbblllllllllllllllllll
+2 ltttttrttttllllllllllllrrrrbbBttllllllll
+2 llllllllllllllllllllllllllllllllllllllbb
+2 bbbbrrbrbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2 bbbb.........
+R 67816
+0 0
+1 The Chaos of the Yam
+2 ............blllllllllllllllllllbbbbblll
+2 llttrttttllllllllllllbbbtllbbrrrrlltllbr
+2 rrlllttlllblr.trrbllb.tlrrrrrrbllBLlblBr
+2 rtttllbbbbbbb..bbrrt......Lbbbbbbbbrrrtt
+2 rbbblllT.........blLtbbllttRmblltttRllll
+2 ttttrllllllllllltulllll.....bbbbbbbrrrbb
+2 bbbbbbbbbbblTlblbbllllllllltttttRbbbllt.
+2 ..trtllllllbblllblllllllllllllllllrrrrbb
+2 bbbbbbbrrrrrrrbbbrrrbbbrrrrrutt..tulllll
+2 llrr..b...bbbbrrrrrrbt....trmllll......r
+2 rbbrrtrrmllll....rrrrttlttrrrbblbblrrrbb
+2 rrllrbbbrrrmlltt......ttbbbrbrbr.rrbcc..
+2 ........................................
+2 ........................................
+2 ........................................
+2 ........................................
+2 ...
+
+uuid 0426abbdefd3b6b1e709de9bbffd43c8
+
+leaderboard steps time gems

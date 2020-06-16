@@ -1,0 +1,74 @@
+n Two are busy
+ldeutsch n Zwei sind flei�ig
+D 2
+C 7
+e 24
+M 0 Calm
+i The hourglass will
+i not turn around.
+ldeutsch i Diese Sanduhr wird
+ldeutsch i nicht herumgedreht.
+a Erik
+m 15 31
++++++++++++++++
++.............+
++++++++++++++++
++...0..E..0...+
++0.....0....0.+
++..0.0........+
++0.......0.0.0+
++....0....0...+
++..0...0......+
++.0..0...0..0.+
+~|..0........| 
+~ |...0.....|  
+~  |...1.0.|   
+~   |0.0..|    
+~    |...|     
+~     |c|      
+~    |...|     
+~   |.....|    
+~  |...2...|   
+~ |.........|  
+~|...........| 
++.............+
++.............+
++.............+
++.............+
++.............+
++.............+
++......E......+
++++++++++++++++
++.............+
++++++++++++++++
+R 63800
+0 8
+1 Demo 1
+2 .........r.................r.....b.bT...
+2 ............r...........b.......b..l.l.l
+2 l.ltl..r.r.r...l.l.t.t.ttr.r.b.b.b.btl..
+2 .tltll.t.t.......b.b.brbr.rrrr.r..tr..r.
+2 r...b...l.l............lt.t..l..rlrl...t
+2 .t.tr....t..................l.......b...
+2 t.t...................blb.l.ll.b..lb....
+2 b.b...b.r...t.........r.r...l.l.t.t.t.t.
+2 .lr.r.r.t.t...r.r.t.....l.lblblrlrlr.r..
+2 ..r.r.....bl.lrlrlr.r.....r.rr.rtrtr....
+2 l.l....l.lblbl.l..r.rt.tltl.............
+2 .............................b.b.b.r.r.r
+2 .....................t.t.t.t............
+2 ........................................
+2 ....trtrt.t.t..l.llblblb.b.brb....r.r...
+2 ....r...b...r.r.......b...l.l.l.l.l.l...
+2 t...rtrt.r.llllt....b.b.b.b.b.b.....l.l.
+2 l.lrlr.btb.brlrlrtrr.rlr.r.r.bl.l.l.ll.l
+2 rlrl.l....t..rlrlrlr.r..r.r.r.r.r...t...
+2 l.l.llllllllt...r.r.rrrrr...t...l.l.l.l.
+2 llll.lt.t.r.r.r.r.r.....l.......t...l.l.
+2 llll..r.r.r.r.r.r.......................
+2 .................r.r.r.r.r.r.l.l...b.btb
+2 tb.b.b..............
+
+uuid f8fc3094b08d83dcf3cc847ce394c3dd
+
+leaderboard steps time

@@ -1,0 +1,63 @@
+n Waterfall
+D 5
+p 0
+d 4
+f Alexander
+M 0 Calm
+i Don't worry about collecting.
+i 
+i Worry about the constant "water."
+a Alexander
+m 30 36
+##ddd######ddd##d###ddd#######
+##   ######   ## ###   #######
+##ccc######ccc##c###ccc#######
+##   ######   ## ###   #######
+##ccc######ccc##c###ccc#######
+##000######000##0###000#######
+000000000000000000000000000000
+000000000000000000000000000010
+000000000000000000000000000000
+E00000000000000000000000000000
+000000000000000000000000000000
+00000000000000000000000000000"
+000000000000000000000000000000
+000000000000000000000000000000
+000000000000000000000000000000
+000000000000000000000000000000
+000000000000000000000000000000
+000000000000000000000000000000
+000000000000000000000000000000
+000000000000000000000000000000
+000000000000000000000000000000
+000000000000000000000000000000
+000000000000000000000000000000
+000000000000000000000000000000
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+SaaaaaaaaaSaaaaaaaaaSaaaaaaaSa
+aaaaaaSaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaSaaaaaaaaaaaaaa
+aaaaaaaSaaaSaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaSaaaaaaaSaaaaaaSaaaaaaSaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaSaa
+aaaaaaaaaaaaaaSaaaaSSaaaaaaaaa
+aaaaaaaaaaaaSaaaaSaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+R 45939
+0 8
+1 Reproduction
+2 ........r.lbbbbRbbbbllll.l....ls.bb...ll
+2 lllllll.....ls.bb.l...lllllllttttl......
+2 ..l.cbb..llllttttttt.bbbbuuuuuut
+R 46024
+0 8
+1 Reconsider
+2 ...l...lrrrbb.lbbrmllll.l.....llbcbb..ll
+2 llll.l....llcbb..llllll.l....llcb..llltt
+2 tttttuuuu
+
+uuid 34ba716639be5472a400167eb9fac617
+
+leaderboard steps time

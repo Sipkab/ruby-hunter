@@ -1,0 +1,84 @@
+n Breaking through (2)
+a Emerald Mine
+D 4
+s 0
+i Doors are missing.
+i If you don't believe it, there is a way through.
+i But no single sapphire may get lost.
+m 64 32
+################################################################
+#  SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS#
+#s           s s   s s s s   s         s  s s  s        s sss  #
+#  s sssss  s s sss    s     s  s s    s      s ss  ss     .   #
+# s  s ss  ssss  s s  s     ss ss ss  s ssss  ss  s ss s ss    #
+#  ssssss    s   ss  s sss s.  ssssss s s     s         s .  s #
+#       .s  ss sss s s  s  s ss ss ss s  ss   .  s s  s .    . #
+#     s  s    sss  ss  s ss     .  s   s          s  s      s  #
+#s  s   s   sss   s.   . . s     s s  ss    s ss  . s s     .  #
+#   .  s  s ss        s  s  s   ss    .    s s     ss   s s    #
+#     ss  ss .s  s ss       s ss . sss s  s   ssss s  sss s    #
+# s    . s  s s   s   s     s sss  s   .  .     .  .  .   s    #
+#  s  ss      .   s   sss  ss   s  s    sss s  ssss s s  ss   s#
+#    ss   s    s    ss  ss s  s  s  ss  .    s .    .    s    s#
+#   s    s      s    s ss s s ss ss s. ss  s . s   ss   s  s  .#
+#  s s  s   s   s    .  .  ss s ss. .  ss   s   s s s   ss     #
+#   s  ssssss   sss s  sss sssss   s ss  s  .  s       s .   s #
+#   s      s.  ss.  . s    . s s   ss      ss s s s  s .    s  #
+#  s     ss    s s    . sss   ss   ss s s  s    s    .s     s  #
+#  ssss  s s  s.      ss s.    . s s s     . ss  s    s s      #
+#   s .s . . s. ss    s s    ss   s. ss    s     .     s  s    #
+#  s   .s s      s  s   s s  .   ss s .ss s    s s     ss    s #
+#  s      s  s  s s s s s      s s. ss sss     ss  s   ss    s #
+# ssss    s s  s  s  ss ss  ss   s   ss sss    s ss  s  sss    #
+#  . .  ss   s  s .  ssss  s s   .       .ss     s    ss  ss   #
+# ss  s s s    s s   ss       s  s s  ss        s   s    s s   #
+# s sss   .  s  s             .   s ss  s     s            s   #
+#  s  sss s     .    s      ss     s                     s s 21#
+#  ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss#
+#                                                              #
+#EE$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 73816
+0 8
+1 Demo 1
+2 ..........ltttttttttllltlttttttt.t.t.t..
+2 .................r.t.....rltlt.ttl.ll.tt
+2 t.t..t.t.trtt.t.tttlt.rtt.tltltlt...l.l.
+2 l..l.t...t...tblblblllllblblbbbbbl.l.l.l
+2 .l.llbllllb.l.l.lrlt.rbrbrrrbrbrbrbb.b..
+2 ttttrttttrtrtrtr.r.r.rbbrbrrtrtbtbtbtbtl
+2 tlrbrbtbtbtltllblllllllllllrlrbrbbbb.blb
+2 lblrl.l...r.r.r.r.r.l.l.lblblllllblb.bbl
+2 blblblbt.t.l.l.l.t.trb.b.b.l.l.l.l......
+2 ...t...............l.l.l.l.l............
+2 .l..........t.t.t.t.r.r.r.r.r.r.r.b.b...
+2 t.t.t.t.r.r.r.r.r.r.r.....blblblr.r.rlrt
+2 b.btblblrlblblb.brl.b.b.bbbbbb.bblblrlbl
+2 bl.ltlttt.t.l.l.l.t.t.t.....b.b.b.b.b.b.
+2 ..t.t.t.r.t.t.t.t.t.t.r.t.t.t.t.t.l.l.b.
+2 b.b.l.l.b.b.b.b.l.l.b.b...l.l.l.......r.
+2 b.b.b.b.b.r.b.b.b.l.l.b.l.l.b.l.l.t.l.l.
+2 l.b.l.l.l.b.l.l.l.l.r.r.r.r.t.....t.l.t.
+2 ..l.l.l.l.l.l.l.l.l.l...t.ttl.l.ltl...b.
+2 b.b.b.l.l.l.l.l.l.lt.t..t.t......tttt.t.
+2 t.t.t....t.t.tttttt.t.tl.l....t..t.tllll
+2 .ltl.l......t.lllll.l.l.ll.l.brbbl.lr..b
+2 bbbbbbb.b.b...l.b.btbtltb.brbrb....t....
+2 ...t.r.t.t.t.ttrtt.t.rtt.ttt.t.t.t.l.l.l
+2 .lrl.l.ltltbtb.lrltbtbtbtbtrtbrbrbtlrbtb
+2 tbtb.b.bbbbbbblblblblblblblb.bbbbbbrlrlb
+2 brbrbrbr.rrrrrtrrrlrlrlrtrtrtrtrrrtrtr.r
+2 rrtrtrtr.rrrtrtrrrtrtrtrtrtrtrlrlrlrlrlr
+2 lrlrlrbrlrlrbrbrbrbrrrbrbrbrlrbrbrbrbrbr
+2 blblblblblblblblblblblblblblblblbl.l.l.l
+2 .l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.l
+2 .l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.l
+2 .l..............
+
+uuid 022efca3ad5cc8eb0afbbf22c8759f88
+
+leaderboard steps time

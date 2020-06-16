@@ -1,0 +1,62 @@
+n Pea Soup
+ldeutsch n Erbsensuppe
+D 7
+C 1
+e 96
+p 0
+M 0 Pink Panther
+i ... with carrots.
+i 
+i Try to get 96 peas out of
+i the soup, wasting not more
+i than two.
+ldeutsch i ...mit Karotten.
+ldeutsch i 
+ldeutsch i Versuche 96 Erbsen aus der
+ldeutsch i Suppe zu holen, also nicht
+ldeutsch i mehr als zwei zu verschwenden.
+a Ronald
+m 28 19
+############################
+#             +++E         #
+#    1        ++++         #
+#           +++++          #
+#           +++            #
+#                          #
+# ## #               # ##  #
+#  ###******Q********###   #
+#    #*Q*********Q***#     #
+#    #**************Q#     #
+#    #*******Q*******#     #
+#    #***********Q***#     #
+#    #**Q************#     #
+#    #***************#     #
+#    #################     #
+#                          #
+#                          #
+#                          #
+############################
+R 20774
+0 1
+1 Demo 1
+2 .rbbbbbrrrrrtrrblllllllrbb.R.R..R.l.L.rr
+2 rrtrrtrrrrrrrblltllbrrrrlb..L..b.r.B....
+2 RTll..tl.tllllbrr.ll.bllllllrrrrrrtrrrrb
+2 llllllllllrrrbbr..L.T.R.R...Rll.tll.Blbb
+2 rrrrr..ttrrrrrtrrBllbrrrrlllbrrrrblllllt
+2 lllbrrttttttttrrrrttttl
+R 85858
+0 8
+1 Alex
+2 .....r..bbbbb...rrrrrtrrbrrrrrrrbllt.ll.
+2 ..b.ll..ttllllbbll..rr...r..bl....rrrtrb
+2 r....ttrrrrbb...t..tlllbb...bl....rrrt.r
+2 .b..bl...rr..lltllbrrr..lll.tl...lrb.ttl
+2 lllll.t.l..tllb.trr..b.......bbr....lllt
+2 ........rrrrbrr..l.b...lllll...rrrrr...r
+2 ...bl....rrrt.brrrrrr..blllllllllltl.tll
+2 lbr..l.brrrrrrrrrttttttttrrrttttl.......
+
+uuid fc2daf15e22ef3916d801d1ce3dbc9ef
+
+leaderboard steps time gems

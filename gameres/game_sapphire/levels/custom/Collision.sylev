@@ -1,0 +1,58 @@
+n Collision
+D 6
+p 0
+M 0 Indy
+i Try to avoid the lorry 13
+i times...
+i 
+i 10 times- Dropping rocks
+i Going up
+i Going down
+i Going out
+a Alexander
+f Alexander
+m 27 28
+................ # ........
+................ # ......b.
+....0........... # .0......
+.........0....0. # ........
+................ # ........
+...............0 # .....0..
+.....0.......... # .0......
+..........0..... # ........
+................ # ....0...
+................ # ........
+aaaaaaaaaaaaaaaa   aaaaaaaa
+~              #   #       
+~              #   #       
+~              #   #       
+~              #   #       
+~              # E #       
+~              # 7 #       
+~              #   #       
+~          #####   #       
+~          #   #   #       
+~          #   0           
+~          ##### # ### B###
+~              # # #   Q   
+~              # # #  +++  
+~              # # #  +$+  
+~              # ###  +++  
+~              # #         
+~              ###1        
+R 24334
+0 0
+1 LorriVoid
+2 rrrtttttrttllllttttttttttttttttttttrrrrr
+2 rrrblllllllBrrbllrrrrrrrbblllblllLrrrtrr
+2 blllll......lbtrrbl......lrrbblLrrtrrbll
+2 lll.lbbllttttttttttbbllllllllllltllbrrrr
+2 rrrrrrrrBllbrrbtllllltllbrrrrrrbb.rlbRll
+2 lllllltllbrrrrrrrrrrrblllltllbrrrrrr.rbb
+2 bbb.......b.bbbbbbbrrrrrrbblbbbbrrrrtttt
+2 lltllllllllltllbrrrrrrrrr....rr.bbbBtttl
+2 lllllttttt.
+
+uuid aa02c2d351942f694a4f10e317b6bd24
+
+leaderboard steps time

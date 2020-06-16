@@ -1,0 +1,45 @@
+n Lase Against Time
+D 6
+C 3
+e 0
+s 2
+p 0
+Y
+L
+i An unorthodox race level.
+i Set up the device before
+i the automatic laser
+i destroys the exit.
+a Alex
+m 22 16
+$               $i/i  
+$(    *        ((i^i  
+::   *$*      $$"iii  
+~   *$**############# 
+~***$***:*.*..$....Q#E
+$Q$(($$$:...(...$...#[
+$**$$*$*:.$...$.....#[
+**$**$**:...$...$...#[
+*$***$**:........$..#[
+****$*$*:...........#[
+*$**$***:...........#[
+$***$$$*:...........#[
+*$**$***:.........1.#[
+**$*$*$$:0..........#[
+$***$$*(:.###########[
+*$****$*:[[[[[[[[[[[[&
+y ~/ (^iiii
+R 73623
+0 0
+1 Demo 1
+2 ..tttttttt..lllbll.bbbBr....bBttl..rbr.b
+2 ..bBttttrl.l..rbbbbrb..Btttl..rbbbrb.Btt
+2 tl..rrb.bbB.ttttlllllttll...rrrrb.....ll
+2 ...t..ll...bll.btttbbbbbbbr...bt..t.br..
+2 btttttlbbbblt.r....ttttttTbbrrbbbbbbrrrr
+2 r.LtrrBtttttt...tlllllll...Ltrrrbrr..ttr
+2 tltttrtrrrrbbbbb.......
+
+uuid 2f1ee1f14864d43e9f5ce0bc973c98bd
+
+leaderboard steps time

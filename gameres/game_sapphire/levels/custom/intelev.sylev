@@ -1,0 +1,64 @@
+n jb puzzle 5
+lDEUTSCH n Intervall-Aufzug
+D 10
+e 5
+s 0
+p 0
+d 25
+v 25
+Y
+L
+A graphite
+O graphiteplus
+S Soft
+lDEUTSCH i Mal etwas schneller agieren,
+lDEUTSCH i mal einfach nur abwarten, nicht
+lDEUTSCH i getroffen werden und natürlich
+lDEUTSCH i den richtigen Plan haben...
+a Jürgen B.
+m 15 12
+~          TTT 
+~%##||||||T   T
+#^(:       : $A
+# #  Td*   A :A
+# # Tr .   O  A
+# # [      Od A
+#E#1R      O  A
+%  0|      O  T
+#  {7|     A  A
+#R####sC+D{A| A
+#       ! R   #
+#aC+++DaC+++D# 
+y ~%     V 
+R 78612
+0 0
+1 Demo 1
+ldeutsch 1 Demo 1
+2 .tttrtrrrrbbblllTbl.......rtlrrrrtt.tlll
+2 lblbb...................................
+2 ........................................
+2 ........................................
+2 ........................................
+2 ........................................
+2 ........................................
+2 ...........................rrrtR........
+2 ........................................
+2 ........................................
+2 ........................................
+2 ...........rrrttrtrrbbb..rbbbbbblllLrr..
+2 .............rttttttlt.ttllbllllllblbbut
+2 .........brrrr..........................
+2 .................lr.....................
+2 ..llrrrrrt.ttrrbbb.....rbbbbbbllllllllll
+2 rrrr.l.r.l.r.l.r.l..r.l..r.l...r.l..r.l.
+2 r.l..r.rrrrrrttttttltttllbbbblbll.......
+2 .........lltllBrrblrrrrrrtttttr.r.......
+2 ...bRbbrbbbbbbllllllllll.lttt...rbbb....
+2 ....llllllBrrrrb....bblllltt.ttrrbbbrbbb
+2 bl....tttllbbllllllllll.lttrbmb.........
+2 ...rrrrr.rrrrr......llLlrb...r.trrrtttll
+2 .tt..............................
+
+uuid 142333be9c4941b70c8cc9bf3b0685aa
+
+leaderboard steps time

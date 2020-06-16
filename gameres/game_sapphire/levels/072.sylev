@@ -1,0 +1,101 @@
+n House of madness
+a Emerald Mine
+D 6
+e 48
+s 200
+i Walk around and get mad.
+m 64 32
+################################################################
+#                             #                               g#
+#                             # +5 +    +  +     +j+    +k  +  #
+#                             #  ++   ++5   ++  + + +    +  +  #
+#                             #         +   +6       +   +  +  #
+#                             #.        +                +  +6 #
+#                             #. +j++             +          + #
+#                             #.  +         +    ++6  +      + #
+#                             #.  +       + ++  +  +  +  k+  + #
+#!!!!!!!!!!!!                 #.      +    ++      +   + +     #
+#!!!!!!!!!!!!!                #.     ++    k+           +      #
+#!!!!!!!!!!!!!!               #.      u++  +   +            +  #
+#!!!!!!!!!!!!!!!             /#.           +    +    +     + + #
+#!!!!!!!!!!!!!!!!           / #.  ++            +j+  7++  +    #
+#!!!!!!!!!!!!!!! !          %bB.    ++         + +   +    +j+  #
+################R##############  0# +6+++     +  +   +     +   #
+#         ...0.0.0.0..........# 1.#                           E#
+#         ....0.0.0...........###G##############################
+#  .....  ...0.0.0.0..........#.# #............................#
+#  .      ....0.0.0...........#.S #.0.0.0.0.0.0.0.0.0.0.0.0.0..#
+#  .      ...0.0.0.0..........#.. #............................#
+#  ...........................#.s#.............................#
+#  ..             7         . Y..#.............................#
+#  ..                       ..## #.............................#
+#  ..               5         #. #..............@..............#
+#  7  8+++++++++  ++++++++   8#. #.............@@@.............#
+#      +++++++++++++++++++    #. #............@@@@@............#
+#      +++++++++++++++++++    #. #...........@@@@@@@...........#
+#      +++++++++++++++++++    #. #..........@@@@@@@@@..........#
+#      +++++++++++++++++++    #. #.........@@@@@@@@@@@.........#
+#      ++++++++ r ++++++++6   #. .........@@@@@@y@@@@@@........#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 48990
+0 8
+1 Demo 1
+2 ...t.lt.rrrrbbrrrrrrrrrr.ll......rrrrrr.
+2 .rr.rrrrrrrrrrrtrtttttttttttttt.........
+2 bb.tttlllbbbbbrbbbrrrbbb.t........t..bb.
+2 bb.b.lb..ll....ll.....l..llllllllllllll.
+2 r...........ll..t..tl..ll.tll..tllllbbbb
+2 ..r.bb..........b.....llrrr..llbb.r.bbbb
+2 bbbbb.l.tttttt..rbbbbbbrrr........rrrrrr
+2 trtr.trtr.tr.tr.trrbr.brb.rbrb.rbrb..t..
+2 b.l.tltll.tlltl.tl.tl.t.l..tttt....r...l
+2 ...bbbbbl.rr....l....r..t..l.b...l.blb.l
+2 b.lb.bl.b.lb.trtrtrtrt..r.tr....r.....tt
+2 ttttrrbl..l..llbbbbbb...tttttl.tllbrr..r
+2 bb.rbbbbrbrbrbrrb.b.tltlttl.lltlllblblbl
+2 blb.trtrttrtr.r.tttttttlllllbrrrrr.rrrrt
+2 rrbllll.lbbbbbbl.blblblblblblblbltrtrtr.
+2 .t.r.rrbrbrbrb.t.ltltlttt.l..ttttttrrrrr
+2 rbllllllllll.llllllttlllbrrrrrrr.rbbbbbb
+2 ...bbrrbrbrr..ltl..rbb.t...ltlltlllbllbl
+2 ..rrlb.t.r.........ttrt.rtttttttttllllll
+2 lllbrrrrrrrrrrrrrrrrtrrrblllllllllllllll
+2 .lbbbbbblbbblblb.ttrrtrr..blrbrb.tl.tl.t
+2 tttttttttrrrrrrrrrrbllllllllllllllllllll
+2 ltllllllbrrrrrrrrrrrr.rb.bbbbbbbbbb.l...
+2 ...rt.rrb.tl..tttttttttttrrrrrrrrrrrrbll
+2 lllllllllllllbbbbbbb..rrbbbbll.tllllllll
+2 bblllllllltttttttt.ll.........ttttttllbb
+2 bbllttttllbbb..b.ll.ttttt.bbbb..........
+2 ......................rr.t.ttt.bbbb.ll..
+2 ................b.ttt.bb.rrttttrrbbbb.rr
+2 ttttrrbbbbbbbb.blltlllllllll.......l....
+2 lllllllllllbbbbb..ttt...bb..............
+2 ............tt..tttt.rrrrrr.rrrrr.......
+2 t..l.......r..t.l.r........b...........l
+2 ..b.......r....b..bbbll..ttt...rr..l...r
+2 .l.......bbbb.....r.rrtrtrrrrrrrr.llllll
+2 llllllllll.r.ll..........rrrrrrr..bb....
+2 ...t.tlllll......rrrrr....t..........tt.
+2 ......tt..........................t.bbr.
+2 ........bb.tt............b..bbblllllllll
+2 ..llbb...b.ll............trr..bbbbb.....
+2 .ttttttrrrrrr........................rrr
+2 rttt....bbb................b.........ttt
+2 ll.........rrttt........................
+2 .........................lr.t..bbbbb....
+2 .......tt.l..r.........bbbbbbbbb....tttt
+2 t...ltltl..ltttt....bbbrrrrttttttt..llll
+2 llllllllllltrrrrrrrrrrrrrrrrbrrrrrtttrtr
+2 rtrrrrb....uttt.....tt.bbbbbbbb.uttt....
+2 bbbbbbb.uttttt...bbbbbbbrb........r.....
+2 ..rrrrbrrbrrrrrrrr...............rrrrrrr
+2 rrrrrrrr..ll........rrrrrrr.......
+
+uuid b5577fdd73ce5389fe4e653400b0ce54
+
+leaderboard steps time

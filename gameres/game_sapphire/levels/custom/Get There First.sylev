@@ -1,0 +1,38 @@
+n Get There First
+D 3
+C 4
+e 8
+p 0
+Y
+M 0 Live and let Die
+i This is a simple race. The first
+i Yam Yam will be filled with
+i emeralds...the second just has
+i stones.
+a Shark
+m 10 14
+##########
+#0  ##+0+#
+#.  #?+|+#
+#   ##+  #
+#  1E#|  #
+#*  ## | #
+#+* ##   l
+#++ #0  l#
+#   #[ ++#
+#  Q##Q  #
+# +Q##+  #
+# +>##>+ #
+# ++##++ #
+##########
+y *********
+y 000000000
+R 16103
+0 0
+1 Demo 1
+2 ...llttrr.l..bb..l..brb....rbbbbbllbrrtt
+2 ttttttr.....
+
+uuid 43781e15baa292b3429cd3e31972b160
+
+leaderboard steps time

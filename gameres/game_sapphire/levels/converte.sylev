@@ -1,0 +1,39 @@
+n Converter
+ldeutsch n Konverter
+D 3
+C 5
+e 54
+T 9999
+M 0 Stars
+i As the gems you have
+i are not sufficient to
+i solve the game,
+i you have to increase
+i their value.
+ldeutsch i Der Wert der vorhandenen
+ldeutsch i Edelsteine reicht nicht
+ldeutsch i aus, also musst du ihn
+ldeutsch i vergrößern.
+a Ronald
+m 16 11
+################
+#E    0$$      #
+#   10000$     #
+#   00*****    #
+#  *******00   #
+#  .........   #
+#              #
+#  ccccccccc   #
+#              #
+#              #
+################
+R 12010
+0 1
+1 Demo 1
+2 ....llbbbrrrrrrrrrr.llllbtllllllbbbrrrrr
+2 rrrrblllltllblllrrrrllllttttttttl.......
+2 ...
+
+uuid a44e2ad45663325b60003371d125e612
+
+leaderboard steps time

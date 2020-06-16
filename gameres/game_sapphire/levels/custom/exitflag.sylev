@@ -1,0 +1,52 @@
+n Exit Flagger
+D 6
+C 5
+s 0
+p 0
+d 1
+Y
+L
+i Collecting the gems is a simple
+i enough task that all you really
+i need to do is exit the level.
+i And with two exits, how
+i could that be difficult?
+a Alex
+m 16 15
+############### 
+###########../# 
+###########>    
+#############.# 
+####0.*...*.. # 
+####..*...... + 
+#../....*..$* + 
+#>  .*....... + 
+#...$....*... + 
+####...!1!.$  + 
+####.*....*.  + 
+####$..*....  + 
+####...$..*.  + 
+####*....*..  # 
+############aa# 
+y E#/#^ +++
+R 92129
+0 0
+1 Demo 1
+2 .......L....b.rrrtrr.tttlllttll.bb....ll
+2 ll..B...r.t.t...b.L...bbrt...brrrrrrtlll
+2 lllllbrrrrrrr..llllll...lbrrrrrrrbllllbl
+2 llbbbrrrttrrrbblttttttttrrrrt...mlbbb...
+2 ......rl...lllllllcb....rrrr............
+2 ....ttt.rrrrrr........
+R 98797
+0 0
+1 Demo 2
+2 ..lb.rrrrtrrttltlbltttlbbbltl...lllBrt..
+2 t..bL..bbrTr.tlllbBrrrrrBrr.llbbtttrrrrt
+2 tmlbbb..........rllllllllcbbrblbbrrrttrr
+2 rbbltttttttrrrrrr.......................
+2 ..
+
+uuid dfe86c974bae610c0cded6a6ce040a3e
+
+leaderboard steps time

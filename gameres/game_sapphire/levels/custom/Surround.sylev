@@ -1,0 +1,62 @@
+n Surround
+D 4
+e 1
+s 0
+p 0
+d 4
+Y
+M 0 Winner
+i You can get past if
+i you try. Watch out
+i for the robots also.
+a Alexander
+f Alexander
+m 25 25
+~                 Q Q  Q 
+~ r               _      
+~                _!      
+::              Q!       
+E:   :::      +++        
+~:   :$:  [[  +o+  +++   
+*:   :::      +++  +o+   
+.:                 +++   
+~:                       
+Y:     [                 
+~               ?        
+~              +++       
+~        [     +1+  +++  
+~              +++  +o+  
+~ [                 ++++ 
+~         +d+            
+~         +o+   :::::    
+~         +++   R y :    
+~    :::   !!   :::g:  ::
+~    :$:     !    :::  :*
+~    :::               ::
+~                        
+~                        
+#::::::::::::::::::::::::
+%< > % >  % >   % >    %*
+y :::%<(:::
+R 61481
+0 0
+1 Demo 1
+2 ..........tlllllllrblltttlbtt.lllllbbbtt
+2 tttttttTrrrrrrrrrrrrrrrrllllbrrrrrrrrrll
+2 lllllllllllllllllbbbbbbbbbbbbbbbbbbbrr..
+2 ...r.......rtt..ttttttttrrrrrrbbbbbrrrrB
+2 llltttrrrrttttttrrrl...llllllllllbbbblll
+2 lt....llllllltttTbbbbbbbrrttttltrrr....t
+2 brrrrrrrrlllllttttt...
+R 42151
+0 0
+1 Demo 2
+2 ..........tllllllllttlt...lllllbbttttttt
+2 tTrrrrrrrrrrrrrrrbbrrrrrrr..........llr.
+2 ........bbbbbbbbbbbllllllllbbrrrBlll....
+2 tttlllltttllllbbbrbbbb.bbblllllllttttttt
+2 rrrrlllllttttttttt.....
+
+uuid 6ffece28aaf958b50dcc16856e63930f
+
+leaderboard steps time

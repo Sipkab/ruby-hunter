@@ -1,0 +1,42 @@
+n Move the gem
+D 6
+C 6
+e 5
+s 0
+p 0
+v 2
+Y
+M 0 A View to a Kill
+i You have several options for how to
+i dispense of the Yam-Yam, but only
+i one of them gets you out of here by
+i five.
+a Alex
+m 12 12
++#"#+E######
+##:#%##m...#
+#....1.....#
+#..........#
+#$.......(.%
+#..........#
+#..........#
+#.%... ....#
+#..... ...%#
+#.....V...&#
+#.Q........#
+########{###
+y |c.......
+R 86376
+0 0
+1 Demo 1
+2 .......................bbbb.lllrrrRttt..
+2 ..........blllrrr...b..b....ttttlllB..rr
+2 rbbr..r.r..............trr.tt..l.L.rbb..
+2 .B.llblllllltt..rrr...bbbb.rbbbrrtttt..b
+2 bbbbllllltllbrrrrr.....trrttttttt.......
+2 ...bbbbbbbllbr.ttttllll...Ll............
+2 ....rrrrrrrttt..llllltttr........
+
+uuid f4fa0d0e006d8057ec4ae8d987afa7ff
+
+leaderboard steps time

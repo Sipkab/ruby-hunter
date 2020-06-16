@@ -1,0 +1,43 @@
+n The Gaps
+D 4
+p 0
+M 0 Tico Tico
+i Fill 'em up.
+a Alexander
+f Alexander
+m 20 20
+1 2                 
+~                   
+~Q                  
+QQQQ# # # # # # # | 
+Q###              # 
+Q#                # 
+Q#                # 
+Q#                # 
+Q#                #a
+Q#                #+
+Q#                # 
+Q#                # 
+Q#                # 
+Q#                # 
+Q#                # 
+Q#                # 
+Q#                # 
+Q#                # 
+Q#               !# 
+QQQQQQQQQQQQQQQQQQQE
+R 1548
+0 0
+1 Filling
+2 .r.r.r.b.b.b.b.b.b.b.b.b.b.b.b.b.b.b.b.b
+2 .b.r.r.r.r.r.r.r.r.r.r.r.R.l.l.l.l.l.l.l
+2 .l.l.l.l.t.t.t.t.t.t.t.t.t.t.t.t.t.t.tb.
+2 b.r.r.r.r.rb.r.r.tr.rb.r.r.tr.rb.r.r.tr.
+2 rb.r.r.tr.rb.r.r.tr.rb.r.r.t.t.r.r.b.b.b
+2 .b.b.u.t.t.t.t.l.l.br.r.ttrrrrbbbbbbbb..
+2 ..........bbbbbbbbbbbbbbbbbbbbbbbbbb..b.
+2 ..
+
+uuid ce83687a19bcd9713fa8679733e97dca
+
+leaderboard steps time

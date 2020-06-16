@@ -1,0 +1,71 @@
+n Shelves
+D 5
+C 2
+e 51
+s 0
+p 0
+Y
+M 0 Penny Lane
+i So many long, boring shelves...
+i Be careful in this level, I've set
+i a lot of easy-to-fall-for traps!
+a Shark
+m 25 19
+++++++"Q+++++++++++++++++
++1m   0l Q              %
++++++#+++++++++++++++*|++
++        0  7      ++*+$%
++ +++++++++++++++* ++&+++
++@        *QQ*  +!@+    +
++s+++++++++++%+++Q%++++++
++               +++ Q   +
++Q++++++++####$++++++++ +
++QQQ*    7    $    7  $&+
++++++++++++++++++++++++++
++  Q                  l*+
+++ ++++++++++++++%+++++$+
+>+++              (   Q*+
++++++++++++++++++++&&&+++
+0[QQ>QQ>QQ>QQ>QQ>Q!   Q&E
+|++++++++++++++++++++c+++
++.               (    ( +
++++++++++++++++++++++**++
+y +++   +++
+R 96227
+0 0
+1 Demo 1
+2 .........rrrtrrrrbrrrrrrrrrrrrrbBtl..rr.
+2 ...bbRlbBtttlllllllllllllbbrrrrrrrrrr.r.
+2 Blllllllllllttrrbbllllllrrrrrrrrrrrrrrrb
+2 BtrbBl...blllLrrbbllbBtlll.........l....
+2 ..l.........rrrrttrrrbbllbbrrrrrrrRlllll
+2 lllllllllllLrrrrrrrrrttrrrrrrrrl......rr
+2 bBtlllllllllllttllllllllllLrrrrrrrrbblll
+2 lllbbbllbrrrrrrrrrrrrrrrrrrlllllllllllll
+2 lllt..brrrrrrrrrrrrrrrrrrrbbllr.....lllL
+2 bbRlsr.........llllllllllllllllllbbL..Lr
+2 rrrrrrrrrrrrrutrrb..bLrrrbrt.trbl.rtttr.
+2 ....
+R 42197
+0 0
+1 Demo 2
+2 ...rrrrrrrrrtrrrrbrrrrrrrrrrrrrb.Btllllr
+2 rrrbbbb.BrtRttlllllllllllllllbbllll.rllr
+2 rrrrrrrrrrrrrrr..r.....Blllllllllltttr.b
+2 bbrrrrrrrrrb..B...trbB...lblllLrrbb.ll.b
+2 Btlllll.....l.r................rrttlllll
+2 lrrrrrrrrrr....lbbb...tllll.rrrrrrllbbrr
+2 rrrrrRllllllllllllllll.Lrrrrrrrrrttrrrrr
+2 rrrl......rbbRttlllllllllllllrrttlllllll
+2 llLrrrrrrrrbbllllllllbbbbrrrrrrrrrrrrr..
+2 rrrrrllllllllllllllll...tbbbrrrrrrrrrrrr
+2 rrrrrrrrbbllrr....t........bblll.ll..r.b
+2 b..R.....Lttlllllllllllll.rrrrrrrrrrrrrb
+2 b.l....srrt...b.ll.lllllllllllll....llll
+2 lbb.L...Lrrrrrrrrrrrrr..r...............
+2 ......................utrrrb..brRl......
+2 rr.llllBrrrrbrrtttr.....
+
+uuid 9e2770cb7b9d60751ba7e8f6f22acfe7
+
+leaderboard steps time

@@ -1,0 +1,30 @@
+n Mission Possible XI
+ldeutsch n Mission Possible XI
+D 7
+C 5
+E 0
+p 0
+M 0 Mission Impossible
+N Mission Possible XII
+i You have to find the
+i right moment for your
+i bombing actions.
+ldeutsch i Du musst den richtigen
+ldeutsch i Zeitpunkt für das
+ldeutsch i Bombenlegen finden.
+a Ronald
+m 7 5
+#######
+#0 !1 E
+#*. # #
+#..  @#
+#######
+R 6585
+0 1
+1 Demo 1
+2 ..lbb..m....TmttrrrrrbbllbbrRlttrrr.....
+2 .....
+
+uuid 7e99af0367dc477e15bb1acfac9d0223
+
+leaderboard steps time

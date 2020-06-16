@@ -1,0 +1,35 @@
+n The Thorn Within
+D 9
+C 5
+E 0
+p 0
+i The bomb under the bag will give
+i you the most trouble. There is,
+i fortunately, a wacky solution.
+i [This level closely resembles a
+i puzzle I encountered while
+i solving "Bombodrome."]
+a Alex, Juergen, Reinhard
+m 7 13
+#######
+#*+1!!#
+#Q0Q !#
+#E@.  #
+#+Q0  #
+#.0.  #
+#*Q   #
+#$.   #
+#Q    #
+#+    #
+#     #
+#     #
+#######
+R 99661
+0 0
+1 Demo 1
+2 ....r..rbbbbbbbll..mt....ltrstrt.ml.....
+2 ...bbbl......rb.....tttttl........
+
+uuid 1a39c0f54069495a278b62bbb4b2d531
+
+leaderboard steps time

@@ -1,0 +1,137 @@
+n Get out of the way, lorries! (2)
+a Emerald Mine
+D 5
+s 0
+i I must admit that this level is a little
+i bit boring, because it is so long.
+m 64 32
+################################################################
+#.....################################......################S#S#
+#8###.####....###......###############.####.################1#2#
+# ###.####.##.### ####...   7 .#####...### 5#####..........#!#!#
+# ###.####.##.### ############.#####.##### #####..########.#!#!#
+# ###  6  .##.###  7##########.#####...### ####..#########.#!#!#
+# ..#########.#####.#######....$######6### .###.##########.#!#!#
+###.#########.#####....#### ########## ####.###.##########.#!#!#
+###.#########.########.#### ########## ###..###.  ########.#!#!#
+###.#######...#####....####  8######## ###.###### ########.#!#!#
+#...######..####### #########...######..##.##..6# ###. 5   #!#!#
+# ########.########6###########....####..#.##.#   ###.######!#!#
+# #   .###  7  .### ##############.#####.#8##.#######.######!#!#
+#8  ##.########.### ##############6#####.#  #...###...#...##!#!#
+######.########.### ......########  ##...## ###.##..###.#.##!#!#
+######.########..########..######## ##.####   #.##.####.#.##!#!#
+#####..#7  #####.#########..######. ##...####...## 5###.#.##!#!#
+#####.## # #####.....######.######.##### ##########    .#.##!#!#
+#####....# ..#######..#####.######....## ################.##!#!#
+############.########.#####.#########.## #####....#######.##!#!#
+#####........###. 6   #####.######### ##  6###.##..######.##!#!#
+#####5##########.##########.######### #### ....###.######.##!#!#
+##### ##########.##########.     ####7############.6   ##..#!#!#
+#.    ######.....###############6#### ##....########## ###.#g#y#
+#.##########.#################.  #### ##.##  5  .#####.###..G#Y#
+#.##########.#################.###....##.#######.#####...##.   #
+#...#.7 ####.########.......##.###.#####...###...#######..######
+###.#.# ##...#....###8##### ##.###.####### ###.##   #####.######
+###...# ##.###.##.### ##### # .###.....###7###..# # #####.7    #
+####### ##.###.##.### #####7  ########.### ####.. #8########## #
+#E......##5   .##.... ################.... ########........    #
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 88164
+0 8
+1 Demo 1
+2 .......................b.bbbbbbbbbbbbbbb
+2 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb.l.lltll
+2 ttl.l.t.tlltll.l.ttttttttltttt.t.tttt.t.
+2 l.l...b.b.b.............................
+2 ........................................
+2 b.b.l...R.r.r.....u.t.t.t...............
+2 btbtbtbtlllllllbtblblb.l.l.l.lttttt.rlrt
+2 t.r.r...ttt.............................
+2 t.r.r.m.l.l.b.l..................r.t.t.r
+2 .r.t.t.t.t.t.t.t.t.t.t.t................
+2 ......................................t.
+2 t.r.r.r.r.r.t.t.t.t.t.t.t.l.l.l.l.l.l.l.
+2 l.l.b.b.l.b.b.l...b.b...........b.....r.
+2 r.b.b...T.t.u.t.l.l....................t
+2 .t.r.r.r.........t.r.rrtrtbtbtbtbtltlltl
+2 .l.l.l.l.l.l.l.b.l.b.l.b.l.b.b.r.r.b.b.b
+2 .b.l.l....l.l.l.b.b.b.r.r.b.b.b.l.......
+2 ....................l.l.t.....c.b.r.r.r.
+2 ..................l.ll.lttllllll.b.b.r.r
+2 .b.r.r.b.b.b.l.l.t.l.l.ltltllttttltltttt
+2 .tr......t.t......t...........t.l.lbsbrb
+2 bbbbb..t.t.t.t.t.t.t.ttrtrltlttltlttrtrt
+2 trtrltltltllllblbllllbbbbl.lr..b...t.r.r
+2 ............................r...l.m.l.l.
+2 ..tttttt........bbbbrlrlbbbbbrbrbbbbrbbb
+2 brrbbrbrbblrlbbbbb.lrl.l........r.b.b.ub
+2 t.t.ltltl.t........bbbbbrbrbbrbrbbbbrbrb
+2 brrrrbrrrrrrtrtrrt.trrrr.rbbr...b.......
+2 ....................................b...
+2 ....u.t.l.l..............r.rrrbrbbbrrrrb
+2 rbrbbrbrbrrrrbbbbbrr.rbr................
+2 ....................................b...
+2 ....u.t...l.l.l.l...........r.r.bbbrbrrb
+2 rbrrrrrrrrbrbrlblblbllllllllllll....l...
+2 ................l...............s.r.r.rr
+2 ............l.l.lllllltltltlltltbtbt.lll
+2 lb.btlll.ttlt.....rr....r.t.............
+2 .............................b..t.....c.
+2 b.b.l.l.l.........r.rtrltttttrlrltltllll
+2 tltlllltllblblbl.lrb.b.....b...t.t......
+2 .................t.r.r.r.r......r.l.l...
+2 urtrtrtr.rr.........l.blblblrbrbbbbrbrbb
+2 lblblblltltlllltltlltltltlr.r......t....
+2 .b...r.r.rrrrrm.l.l.l.b............ltlrl
+2 rlrttttttrtrtrtttttt.tltltltt......b.b.b
+2 ...........t............................
+2 ............t...........c.b.b...r.r.....
+2 ....ltltlltltlrttttrlttttlttltlllltt.l.l
+2 ............l.........l..r.rs.rrrrbrbr..
+2 .........l.ltlltllttlllttltltlrtrtrtrtrr
+2 .r...r...t.t............................
+2 .........t.....c.b.b...............t.t.t
+2 .t.l.l.llltltltlltltllltlllll.l.l.t....l
+2 .l.l.......s.r.r.r.............llllllllb
+2 lblbbrbbbrbrrbrbrrbrbr.brbrlr...........
+2 ..........b....l.l.....s.r.r.r..........
+2 ...lllllllblbblblblblbbrbrbrbrbrrrrbrrrb
+2 rrrbbbrbr.b.rbr.r............b.b.b......
+2 ...............u.t.t...............bbbbb
+2 bbbrbrbrrrrrrbrbrbblblbll.lb.b..........
+2 ...........b.b.............u.t.t.t......
+2 ......bbbbbbbbblbbllllbtltltlltltltll.t.
+2 ......llll.....r.rrrrrrrbrbbbbrbrrtrrttr
+2 trttttttrtrttrrsrrrtttltlllllll..rrrrrrb
+2 rbrlblbblblbbbblbbblllbtltlltltttltlllll
+2 lllllblbbbbbblblblllllltltlttltltllb....
+2 ...............b.b...u.t.t.r.r........ll
+2 lllblbbbblblllllltltlttrtrttrtrttttrtrtr
+2 t....trr.t.t.................t.....c.b.b
+2 .b...........t.trtrtrttrtrtrrrrrrtrtrltt
+2 tllltlllltlllllt.lttt....t..............
+2 .....t...c.b.b...............tltlttttltl
+2 llllllltltlrtttrrrttrtrttttttttttltltl.b
+2 l.l......brbr..u.t.t..............lblblb
+2 bbblblllllllltltlttttltlt...ll........r.
+2 b.b..........................l...s.r.r..
+2 .............ltltllllblblbbbbbbrbrbbrbrb
+2 bbb.blbl....t.t.t....s.r.r.....t.t.....b
+2 bbblblbllblbbbbrbrrtrrrrtrrbrbrbbbblbbbb
+2 lrb......r...........r.....m.l.l.l.l....
+2 ........r.rrbrrrrtrtrrtrtbtbrrrrbbbbrlrl
+2 rlblbll.l.ll...................l........
+2 ...s.r.r..r.r.........l.lllllllblbbbblbl
+2 lllllblbbbbrbrrbrbrrbr.tt.t.............
+2 .....t.......c.b.b.l.l..........b.brbr.t
+2 rtrtrrtrrrrbtbrbrbrlblblblblbl.l.ll.l.l.
+2 l.........l.l.l.............
+
+uuid 57a7f64d3eaa63f797a613ee8cea8230
+
+leaderboard steps time

@@ -1,0 +1,48 @@
+n Swampdenfreude
+D 4
+C 1
+s 0
+p 0
+M 0 Action
+i Carve out a safe path
+i for the cart to follow.
+a Alex
+m 22 22
+######################
+#801....%....%...%...#
+#+S.+.....%.........%#
+#...+..........%.....#
+#.+++.%......%.......#
+#......%.............#
+#...........%.....%..#
+#..%.......%..%......#
+#...%................#
+#........%........%..#
+#...%.%..........%...#
+#.......%.....%......#
+#..%.%.........%.....#
+#........%........%..#
+#....................#
+#..........%...%.....#
+#%..%....%...........#
+#....%.............%.#
+#..............%.....#
+#%............%......#
+#...%..%....%...%...%#
+##################%&E#
+R 45453
+0 0
+1 Demo 1
+2 ....rrr.b.r.brr..bbbb.llll.tt.llllbbbbbb
+2 bbb..rrrrrr.....bbbbrrrrrr..tttttt.ll.tt
+2 t.rrrrr.ttttt.rrrr.bbbbbbbbbbb.lllbbbrbb
+2 .......ttltttrrrtttttttttttllllbbbbbllll
+2 lbbbrrbbbbbbllllllttttllllllttttttttt...
+2 .ttR.bb...bbbbbbbbbrrrrrrbbbbrrrrrrttttt
+2 tlltttrrrrrtttttrrrrbbbbbbbbbbblllbbbr.b
+2 b...............ltll....................
+2 .......rrrbrbrr........
+
+uuid 4fce8567cfc5ada7cc79ad95d6e911aa
+
+leaderboard steps time

@@ -1,0 +1,44 @@
+n Moving Level Madness
+D 8
+C 6
+e 14
+s 0
+p 0
+d 200
+v 3
+o 1
+w 9999
+M 0 Rock Lobster
+i This one's guaranteed to drive you
+i nuts.
+i 
+i Hint: The wheels spin forever.
+a Shark
+m 18 12
+################ d
+#          +%+##  
+#          + +## Q
+#             ## +
+## m$         %:(Q
+#   k         E##+
+#   #B#B#B#B  ##  
+#             ##  
+#b1 B B B B  |##  
+#+w          low  
+#++ + + + + ++##  
+###{#{#{#{#{####  
+R 23069
+0 0
+1 Demo 1
+2 ..blrrrrr.....r.r........brr............
+2 .rllttltllllblltl....tbrrrrrrlbbll.llbrr
+2 ttrrrrbb....rrbrr....rllttltttlllllbbll.
+2 .tbrrrrrrlbblll.blrrrtrrrrrrbbrr........
+2 rlltlllll.rr.....tttlll.........ttt.lrrb
+2 .rrbrrbb................................
+2 ..........r..rt..ttbbb.LrrbblbBlbBltlBtr
+2 rrrr.....
+
+uuid ce8dfa8090ac36c45d663ee1ff7ed33e
+
+leaderboard steps time

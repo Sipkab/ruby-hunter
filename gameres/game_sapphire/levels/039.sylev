@@ -1,0 +1,65 @@
+n Bomb racing
+ldeutsch n Bombenrennen
+D 4
+C 3
+e 23
+s 0
+i This time you have to be faster than the bombs.
+ldeutsch i Du musst diesmal schneller sein
+ldeutsch i als die Bomben.
+a Emerald Mine
+m 64 32
+################################################################
+#QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ?   ..............#
+#Q...........................................# 0...0 ..........#
+#QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ#1....... .....0..#
+#...........................................Q#....0..... ......#
+#QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ#...0@.*.0...0.0..#
+#Q...........................................#....0 ... .......#
+#QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ#.0..@...0.@0.....#
+#...........................................Q#.........0.00....#
+#QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ#....*. 0..@@..*..#
+#Q...........................................#........... ..@..#
+#QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ#.@..00.@.0.......#
+#...........................................Q#.@....@...@**....#
+#...........................................Q#......@@0.....@..#
+#...........................................Q#.@.....0... .....#
+#...........................................Q#............. ...#
+#...........................................Q#...0.*..@@.......#
+#QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ#. ..@.0*.0@..@. .#
+#Q...........................................#....@......0.....#
+#QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ#....... .........#
+#...........................................Q#....*.......0....#
+#QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ#.@.. .....0......#
+#Q...........................................#.*....0.*........#
+#Q...........................................#...0.....@... ...#
+#Q...........................................#.................#
+#Q...........................................#...0... ... @....#
+#Q...........................................#.................#
+#QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ#.. ..............#
+#...........................................Q#.................#
+#EQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ#.... ............#
+#E...........................................#........ ........#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 90212
+0 8
+1 Demo 1
+2 ...rrr..rrrbb........l.trr...lbb.....L.b
+2 b..lll.b..t.R.b..R.ll.b..tttr.bbb..Lb..L
+2 b.L.b.L.rr.tt..l..l.bbb.rrr.b..L.b.L.b.L
+2 .bbblll.t.ltttttrrrbbrbbbbbllttllbb.tttt
+2 ttttrrrbbrrbbrb..ttr....ttl.....rr.b..ll
+2 b.r.t.rttt.l.bbb.t.rrb.llb..r...t.ttt..r
+2 ttr..b..bb..l.bb..Lb.L..tttttrrtttrrrrbb
+2 bbbbbbbbbblllbllllltllllltlltttttttttttt
+2 ttlltttttlbbllbbbbbbbbbbbbbbb....lllllll
+2 llllllllllllllllllbbllllllllllllllrrrbbb
+2 bbb.....llllllbbbbbb.......
+
+uuid b459fe241bbff6c4b622cc55b0a44fbd
+
+leaderboard steps time gems

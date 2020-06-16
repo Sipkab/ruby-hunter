@@ -1,0 +1,31 @@
+n Think Fast II
+D 6
+M 0 Bomb
+i This time, it's not so
+i easy.
+a Alexander
+f Alexander
+m 15 15
+###############
+#:$:        Q #
+#:(:  R Rr1!QQ#
+# ?  R    QQQQQ
+#. .     ######
+#. . R   #    #
+#.       :"   #
+#. . R   #    #
+#. .     #    #
+#. .     #   E#
+#. .     ######
+#.c.          #
+#. .          #
+#. .          #
+###############
+R 16485
+0 0
+1 8
+2 Rlllbbblllsrtttllbb.rrrrrrrrrrrbb.
+
+uuid da0b1e9dbf327626cd7c3b9350204d9e
+
+leaderboard steps time

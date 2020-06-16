@@ -1,0 +1,39 @@
+n Bomb ahoy!
+ldeutsch n Ahoy, Bombe!
+D 2
+C 1
+e 2
+i Your mission is simply
+i to get he key.
+i The doors will help
+i you to get away
+i from the explosion.
+ldeutsch i Die Aufgabe ist einfach
+ldeutsch i den Schlüssel zu kriegen.
+ldeutsch i Dabei hilft dir die Tür
+ldeutsch i der Explosion zu entkommen.
+a Kent
+m 6 13
+###   
+#Q#   
+#*#   
+#r#   
+# #   
+# #   
+# #   
+# #   
+# ####
+#1R  E
+#!####
+#^#   
+###   
+R 67864
+0 8
+1 Demo 1
+ldeutsch 1 Demo 1
+2 ...ttttttt..bbbbbbbrr........lllbbttrrrr
+2 ........
+
+uuid d7bb20b6d530dc275e571e5fecc6c2e0
+
+leaderboard steps time gems

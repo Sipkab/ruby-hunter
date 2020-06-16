@@ -1,0 +1,51 @@
+n EAT 24
+D 7
+C 4
+e 2
+o 1
+S standard
+M 0 Tico Tico
+N EAT 25
+i See if you can outsmart the robot.
+a Elliot
+m 17 22
+#################
+#o 1............#
+###############.#
+#u#.....#u#.....#
+###.###..#..#####
+# R.yE##...##...#
+#.#.#########.#.#
+#.#....###....#.#
+#.####.....####.#
+#..#########....#
+##.#.........####
+##.#.##########j#
+##.#....####...##
+##.####......#.##
+##....########.##
+#####......r.*.##
+#   ###YYYYYYY###
+#      >       .#
+#    >          #
+#         >   > #
+#* >    >   k  .#
+#################
+R 58535
+0 0
+1 Demo 1
+2 rrrrrrrrrrrrbbllllblblltltllllbbbbrrrbrr
+2 rrtrrrttrrbbbblllbllllllllbbrrrbrrrrrtrr
+2 bbbllllllllltllltttttlttttrrlbbrrrbrrrrt
+2 rrrttrrbbbblllbllllllllbbrrrbrrrrrtr..r.
+2 .b.......bb....ttt.....ll.blllllltlllttr
+2 rrrrrrrtrrrttttllbblllblllltlllttllbbbbr
+2 brrbbbbrrrbrrrr..........b.rrb...lr.llr.
+2 lllbl.rlbttlllbbllrrrrrrrtttttlll..rrrrr
+2 rrrrrtttllblllll.tlllttrrrrrrrrtrrrrtttt
+2 ..bbb.tttbbbblllbllllllllbbrrrbrrrrrtrrb
+2 bbllllllllltllltttttllttttrrrr..........
+
+uuid 52dd2f55937631701d33b740f77145e8
+
+leaderboard steps time

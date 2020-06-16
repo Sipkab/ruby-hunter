@@ -1,0 +1,135 @@
+n Double Helix
+ldeutsch n Doppelhelix
+D 4
+C 3
+s 0
+M 0 A View to a Kill
+i Find your ways through
+i this twisted tunnel
+i (using some involuntary
+i help from the inhabitants).
+ldeutsch i Findet den richtigen Weg
+ldeutsch i durch diesen gekrümmten Tunnel.
+ldeutsch i (mit ein bisschen unfreiwilliger
+ldeutsch i Hilfe der Einwohner)
+a Erik
+m 64 47
+################################################################
+#.........................................#....................#
+#............    ...    .....   .   .......#.....     .........#
+#..  5  .. ..  5 ...     ....   .    ..   .#....... 5 ..    ...#
+#.. ... .   .  .....  5  ..... 5. 5  ..   ..#.   .... .     ...#
+#.. . . .   .....  ....  .####........    ..#.     .. .     ...#
+#.  . ....  .....     ....#E R.. .....     .#.     ....5  .....#
+#.  . . ...5.....      ...####.  .   ... 5 .#..  ..............#
+#.  .     .......    5.........  . 5   ......#. 5..   .........#
+#.  ..   5  ............      .  .......    .#....    ..    ...#
+#.  .. .................  5   .  ......     .#.... 5  ..  5 ...#
+#.  .  ......#########...... ..   ..... 5   .#.................#
+#.  . ....###         ###...... 5  ..........#..     ..      ..#
+#.  ....##  % #######    ##...........    ...#..   ....      ..#
+#. ...##   ###       ###   #..     ...      .#.. 5 ...       ..#
+#....#   ##    #####    ##  #.. 5 .....     .#........  5    ..#
+#...#  ##   ###     ###   #  #.....  ..  5  .#.................#
+#..#  #   ##    ###    ##  #  #.     ........#..     ....   ...#
+#..# #  ##   ###   ###   #  # #.. 5  .    ...#..      ..    ...#
+#.#  #%##  ##  % #    ##  # #  #.......    .#... 5    ..    ...#
+#.# #  #  #   #######  ## #  # #.......    .#...........   5...#
+##  # # %#  ##       #  #  # # #...   . 5 ..#................ .#
+## #  # #  #   #####  #  # # #  #.    ......#..     ..        .#
+## # #  # #  ##  %  #  # # #  # #.    ......#..     ..        .#
+#  # # #  #%##  ##*  # # #  # # #. 5    ....#..   ....   5    .#
+# #  # # #  #  #**## # #  # # # #........ .#...5  ........  ...#
+# # #  # # #  #****. #%## # # # #.    ..  .#..............  ...#
+# # # #  # # #*****# # *# # # # #.    .. ..#.    .    ....  ...#
+# # # # ## # #**###  # #  # # # #. 5  ..5.#..    .  ...........#
+# # # # ## # #*#    ## # #  # # #.........#.     .  .####......#
+# # # #  # # #*# ####  # # #  # #........#..... 5.  .G E#......#
+# # #  # # #  ##%###  #  # # #  #........#.  .....  .####..   .#
+# #  # #%#  # ##     #  #  #%# #........#..  .   . 5.......   .#
+#  # # #  # #  ###### %## #  # #.......#..   .   ......   .   .#
+## # #  # #  #    #   ## %# #  #.....2#...  ..   ...  .   .   .#
+## #  # #  #  ###   ##   #  # #...g..#1...  .. . ...  .  5.   .#
+##  # #  # ##    ###   ##  #  #.  ..#..... 5..5  ...  .....   .#
+#.# #  # #   ###     ##   #  #.   .#................    ... 5 .#
+#.#  # #  ##    #####   ##  #.   .#..r.....###......    .......#
+#..# #  #   ###       ##   #    .#.  ....##...#..  ..5 ........#
+#..#  #  ##    #######   ##    .#.   ..##......#.  ... ...    .#
+#...#  #   ###     %   ##     ##    .##........#.   .. ..     .#
+#....#  ##   ##########     ##     .#..........#..  .. .      .#
+#.....#   ##          %   ##       #............#.5 ....     ..#
+#......##   ##############       ##.............#........  5...#
+#........##              %  #####...............#..............#
+################################################################
+R 2047
+0 8
+1 Demo 1
+2 ...........................l...b....blbl
+2 blltbtbtbrrrrrtrtrrrrtrr......tt.t...b.b
+2 .lll.l.......lt..l....r...l.l.t.tbtb.b.l
+2 .l.l.t.t.r.r.r........b..br.r.rr.r.rtttt
+2 rrrr.t.ttrtttt.rltltlt.............t.t.t
+2 ..rbrb..tt..rbrbrlr......t..tl...t.t.t.r
+2 trtr.t.tbtltlblb.l.l.l......tttt.......t
+2 .t.t.r.r.r.t...b.l.l.l.l...tb.b.btb...rr
+2 rr.....r.t.t.t...b.bblb...t.tlt.tlt..t.t
+2 ...b.b.b.b.........b..b.b.b....t.tbtbtbt
+2 blbl.l.lb........t.........lbl...r.r.rlr
+2 lrlr..r.r.r..rr..b..r..b.lblb...t.t.l.l.
+2 t.t.t.tl.l.l.....l.l.l.l..............bl
+2 b.brbr.rrrrrbrbrbrbrrrrr..........rlrl.l
+2 lllllll.t.t.t.t.l.t.t.t.t...............
+2 ...........r.r.r...l...r......r...l.l.t.
+2 t.t.t.t.t.tr.r.....r...r.....r.b.b.b.b.b
+2 .bbbbbbb.b.b.b.b.b.b.b.l.b.b.b.l...b.b.l
+2 ...b.b.l.l.b.b...l.....lb.bbb.bl...l...b
+2 .b.b.l.....l...l.................b.b.brl
+2 rlrl.l.brb.l.l.ll.l.bbbllllll.b.blllllll
+2 llllblbl.lllltll.lbtbl.l.tllllltll.tbtb.
+2 b.lll.l...btbtl.lllt.t.tlt.tb...........
+2 ................l.l.l.l.llllllllltltltlt
+2 ltltlrlrlttrltltltttlrlrlrttltlrlrltltlr
+2 lrttttlrlrtttrlrlttrtrtrlttrtrtrlrtrtrtb
+2 lrlrtrtbtrtrtbtrtbtrtbrbtrtbtbrbtrtbrbtb
+2 tbtbrbtbtlrltbtbrbtlt.r.rbtbr.rlr.tbtlr.
+2 rbr.rltlr.rbr.rlrlrbrlrlrlblr.r.blrlrtb.
+2 rlrlrlb.rtr.b.rlrlb.rtrtrl.......t.tblbt
+2 .trtrtbl..b.btrtrtbrb.btbtbt...rb.bt.t.r
+2 b.b.ltl..r.......tb.brbrltbrbrbrl.ltb.lr
+2 lrbbbblrbrbrlrlbl.b.lrl.l.bbl.lrl.lbl.lr
+2 lblbtblrlrl.tblblbllt.lblblbl.tlt.t.lbl.
+2 llt.tbl.llt.t.tbl.lltltltbt.tlrlrttltlt.
+2 rtr.tlttrlrl.ttt.lrtrt.ttt..r..t..trr.rt
+2 rrt.rtrrr.r..t.rtrr.r.rrr.bbb.rrrrrbbbb.
+2 r.rl.lbl.l.lrl..brbr.rrbrl.lblblbbrrrlbb
+2 bbb.btbtlt.r.r.rbrbtbrlrbrbbbb.bllblbbll
+2 lt.rbr.tlrlr.rbr.r......l.l.l.l.t.l.l.ll
+2 tbll.l.l.btb.b.r.rlrlrtttrltlttrtttttttr
+2 tltlrbtbt.r.t.t.......r.r.t.r.r.r.r.....
+2 r.r.......b.....r.r...b...rtrtbrbrb.b.b.
+2 blbt.ttttt.lbtblllltblllllbllllllblltltb
+2 tlrbrbrltbrbrbtbtbtblbtrtblblrtblrlblrbr
+2 lrlbbrlrlrbrltlrbrbtbrbrbtrrbtbtrrbtbtrt
+2 rrrtbtrtrtttrlrtrtttrlrtttrlrttlrlrttltl
+2 tlrttltltltllbtllllllblltltltblblltblllb
+2 tllblbtllblblblltblblbbblblrlbbblblrlbbb
+2 lrlbbblrlbbrbrlbbrbrbrbblrbrbrbrbrrrbrbr
+2 btrrbrbtrrbrbtrrbtbrrtrrbrbtrtrrrtrtbtrr
+2 rtrtrtrtrtrtttrtrtrlttrtrtrlttrtrlttrlrt
+2 tltttlrttlttttrltltltttltltltllltltltllb
+2 tltltllbtltllbtltllblllbtllblblltllblbll
+2 lblblbllbblblblbbblblbbblblrbblblbbrlblb
+2 brbblblrbbbrbblrlrbbbrbrbblrlrbbbrbrbrbr
+2 brbrrrrrbrbrbrrrbrbrbrrtbrbrrrbrbrrrbtbt
+2 rtrrrrbrrtrtbrrrr.rtrtrrrrrrrtrtrrrrrtrt
+2 trr.rrtrrrrrt.rrt.tt.rrr....rtt..rrtrrtr
+2 .r.rt.t.r.r.........r...t.t.t...r.r.r...
+2 t.t.t.t.....r...t.t.t.t.....l...t.t.t.t.
+2 t.t.t...................t.t...l.l.....r.
+2 ..t.t.t.t.t...l.l.l.l.l.l.l.l.l.l.l.l.l.
+2 l.t.t.t.....b.b.....................r.r.
+2 r.r.r...t.....t...l.l.l...............
+
+uuid 66eb37239aad9b0a92c8875b52819a4a
+
+leaderboard steps time

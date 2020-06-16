@@ -1,0 +1,39 @@
+n London Bridge
+ldeutsch n Die Br�cke von London
+D 3
+C 7
+e 1
+E 0
+M 0 Oxygene4
+i This is quite a simple one
+i to improve your handling
+i of the safes.
+ldeutsch i Das ist ein recht Einfacher
+ldeutsch i um deinen Umgang mit Safes
+ldeutsch i zu trainiern.
+a Reinhard
+m 20 11
+####################
+#                  #
+#                  #
+#                  #
+#                  #
+#  @            0 1#
+#++++++[    [++++++#
+#..++          ++..#
+#..E            +..#
+#..+            +..#
+####aaaaaaaaaaaa####
+R 8794
+0 1
+1 Demo 1
+2 ...llll...l..tllllll.bbbl.brrrrr.br.ttt.
+2 ltttrrr.b.l.l.l..l.l.b.bb.rb.lll.bl.tt.r
+2 r.tt.l..bbbr.bllb.t.l.l.b.lttt.rrrtt.ll.
+2 .b.b.r.bll.b.l.t.rrtt.l..bb.rb.lll.t.ltt
+2 tlllllbrrrrr.trrrb.ll.......rbbllllb.trr
+2 rlllbll..........
+
+uuid 050cde3c0f8f8f328681a5855b6f7071
+
+leaderboard steps time

@@ -1,0 +1,136 @@
+n Reconfigure C
+ldeutsch n Rekonfiguration C
+D 5
+C 1
+e 80
+T 2000
+s 100
+p 0
+d 12
+Y
+M 0 Jump
+N Reconfigure D
+i Again!
+a Juergen, Alex
+m 17 14
+#################
+# %  %  %  %  % #
+# ^  ^  ^  ^  ^ #
+#               #
+# %  %  %  %  % #
+# ^  ^  ^  ^  ^ #
+#               #
+# %  %  %  %  % #
+# ^  ^  ^  ^  ^ #
+#               #
+# %  %  %  %  % #
+# ^  ^  ^  ^  ^ #
+1               E
+#################
+y ..!c.Q$.&
+y .0[+*.@.^
+y $0.&*.6.@
+y .!0Q...+*
+y .*..|[$.>
+y .@$*.&0|.
+y .Q.0.6|.$
+y +*.Qd[..c
+y &.Q0@6|.+
+y ..c$.0.Q.
+y ^...Q.!.*
+y 0&.|*..c0
+y **.0%!^@0
+y .$+Q.0.*.
+y .Q....d@*
+y [6.+.Q0$[
+y 0Q...[.*+
+y *.$!0.%@Q
+y 0^...@$Q|
+y &.|.0..6*
+R 51987
+0 0
+1 Demo 1
+2 ......rrtt.LRbbL..Lttl...ttRtTrr.t.bl...
+2 .........tr.b.t.bbbbbbB.........lbbbL.R.
+2 trr.R....trt.....RbllltttttLr...ltT.lb..
+2 ...brr.t.....br....bblbbbrrttr.ttl.lt..l
+2 .....rbrrttrtR...rrBrRtlttllbrbbr..bl..l
+2 lbrr......lr.lrtrrrbl....t.b...rttr...r.
+2 bl.llllllb....blllbb..bblBrtttltttt.....
+2 .............R.........bbbrrrbbbbR.Blttt
+2 trrttrr..ll...bbb.......................
+2 .....lb.llll...r.ttr.bbb..br....rbrr....
+2 rtrtlL.....................r.rrbrrb..L.t
+2 t..rllb.......r.B...tttrt......l........
+2 .......cbbrR.lll.........tblllltlttttrrb
+2 b.ttllbbbr.ltttrrbb.urtrrb.....lrbbb.b.l
+2 lB.rrrrrr.Blll..ttttt...rb.rr.tTblbbbbrb
+2 B.tlllllll....ttttttt.rr...Tr.rtTbbbbll.
+2 .rrr.........bbbblblllllBtttttltttL.....
+2 bbbttt..lllr.rrbbb..ttrtrT.ttllr.lbbrbb.
+2 blbllltttlltrbbbbbb..t.r...ttttltrrrrrbr
+2 rtll.....bbb......tttllrbbbrrrrrbblllllt
+2 tt..............trrtt..bb...l...trttllb.
+2 ..b..rbb...l...r....ttlbrblb.blltlttt.rl
+2 bbbbrrrttt..cbbr............lbbbbllB..tt
+2 ttt..lttrtTlb...bbbbbbbb.rt.rrrrrrrrtr..
+2 .ttttrmbbbb...............rrbblLr.s.....
+2 ...
+R 52679
+0 0
+1 Demo 2
+2 ...rrrrttLRbbL.LttlttRtTrrtblt.bblbbrrtt
+2 ttll..r...bbbbLrtrrl..r.t.t...Rbbllltttt
+2 ttL....t.T........bbbbbbrrr.trr......B..
+2 ...ltr................b.....lbbb.lttllbb
+2 rtrtt....tll..rrbB.tt.......lllttt.rbltr
+2 rtrtblbl..........rrtt.r.....rtrr.......
+2 ...br....Bltllbrll.blbbRt.rlr....l....r.
+2 t.brrrbr.........lllltllbbbbbbbrrbLR...t
+2 tr...................b.r.....Blltttt....
+2 .....ltltt.rr..b............tllbbbbrrbbb
+2 rrrrb..rllllllrrrrrrtTbrr.tt.rlbb.l.....
+2 ..rttrr.ttlt...........l................
+2 ....sbbbr...lllr....l...B...bll...B.....
+2 rtttt......ttt.br............bbbbbb.ll..
+2 .................srrtt........llblllt...
+2 ...............brrrtttt.lrr....bbl......
+2 Lttlll......r.lbttllltllbbbrrbrrbrr.....
+2 ..........lmlttl..tlttrrbrrrbbb...r.l.bb
+2 rlllbBrtrrrrbBrr.bl..r..Rtt....ttttrrtt.
+2 bblbbbb.Rl.ttttt.lll..........trbbb...lr
+2 .b...ltttt...Lr........bbbbbbl.BL..L.rrr
+2 rb......Rttttttlllltttt...cbbrcrrtttllll
+2 bbbbbbbrbbb..lrrr....rrbr........
+R 17235
+0 8
+1 Barely
+2 ....rrrtt.LRbbL.LttlttRtTrrT.llbbbrbbL..
+2 ..ttltttt.............Tbrr....ll........
+2 b...Btrrttlr....llttrbbbrttl.rrtrtblbl..
+2 .l.....rr...trr.t.rtrrbll.rrr...........
+2 ..bblBllll.t.bBl....l.l..........rrr....
+2 ....bRtrtrrbl..tltlbbl..llllt..........b
+2 rrbbrb...l........lbbbrRtlt.....ttttrrrr
+2 rrrr........llllrrrr.bbbbr.t.rb.r..bb...
+2 ...Rtl........rrrbllttttr....rt..Tbllbbb
+2 .brRlbbL..t.L....t..l.........lll..Br.ll
+2 .LB..........rrrllllt...Lbrrrrrrtttt....
+2 ...l.........bb.llt..........Lrrrrblllbb
+2 l..ltl..l.s..brrr...ttt...lltr....bllbbr
+2 tltrrrr..lttt.....bbbll..l..b.l.........
+2 .......brrbltttlt..rT.lb...........t..b.
+2 .........L.......bbbbbr.RlllttlllbBtrrbl
+2 rrb.l...Lttttttlttrttt..Lbbbll...t.....r
+2 rr......r......rrrtrbbbblbr....brtlt..rr
+2 rtrbttttlbbbl.b.rr...lllbbrrrt.blttltrrl
+2 b......r.t..cbbbbRll............rr.Rlbll
+2 tlllllbbllltttttttttttrr..............br
+2 rrrrrrr..mllll......ll...cbcbbbrrrrrrrbb
+2 bltlllbr.Blllbltrrrrtrrb.trrrBlllllltttt
+2 ......rt........rr.......rr.b.b.........
+2 .bbbrbblrr........
+
+uuid 865658db4c1bc9ebb3700344299ae507
+
+leaderboard steps time gems

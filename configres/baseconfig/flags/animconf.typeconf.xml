@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config xmlns="bence.sipka.types.config" >
+
+    <declare-flag name="AnimationOptions" >
+
+        <flag
+            name="NO_DELETE"
+            value="0x01" />
+
+        <flag
+            name="AUTO_RESTART"
+            value="0x03" />
+    </declare-flag>
+
+</Config>

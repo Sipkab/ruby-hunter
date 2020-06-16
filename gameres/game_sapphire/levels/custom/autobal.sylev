@@ -1,0 +1,80 @@
+n Auto-Balance
+D 5
+C 6
+p 0
+M 0 Action
+N The Balance III
+i The rocks in this level seem to
+i have become sentient, as they're
+i moving themselves into position.
+i But there's a flaw you'll need to
+i correct manually...
+a Alex
+m 22 57
+######################
+#                    #
+#       0            #
+#       +            #
+#      ? 0           #
+#        +           #
+#       ? 0          #
+#         +          #
+#        ? 0         #
+#          +         #
+#         ? 0        #
+#           +        #
+#          ? 0       #
+#            +       #
+#           ? 0      #
+#             +      #
+#            ? 0     #
+#              +     #
+#             ? 0    #
+#               +    #
+#              ? 0   #
+#                +   #
+#               ? 0  #
+#                 +  #
+#                ? 0 #
+#                  + #
+#                  +?#
+#             1!  ?+ #
+#      #           +##
+#      #         ? 0# 
+#      #          +{# 
+#      #        ? 0## 
+#      #         +{#  
+#      #       ? 0##  
+#      #        +{#   
+#      #      ? 0##   
+#      #       +{#    
+#      #     ? 0##    
+#      #      +{#     
+#      #    ? 0##     
+#      #     +{#      
+#      #   ? 0##      
+#      #    +{#       
+#      #  ? 0##       
+#      #   +{#        
+#      # ? 0##        
+#      #  +{#         
+#      #? 0##         
+#      # +{#          
+#      ? 0##          
+#      #+{#           
+#      #0##           
+#      #{#            
+#@     ###            
+#.     #              
+#      #              
+#E######              
+R 71405
+0 8
+1 Demo 1
+2 ...rlllllllllllll.......................
+2 .....cbbbbbbbbbbbbbbbbbbbbbbbbb......lbb
+2 b........
+
+uuid 6a20591c88c25462a62040b1af547b43
+
+leaderboard steps time

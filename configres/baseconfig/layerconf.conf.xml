@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config xmlns="bence.sipka.xml.compiler.config" >
+
+    <declare-element
+        name="Layer"
+        abstract="true" >
+
+        <declare-attribute
+            name="flags"
+            type="LayerOptions" />
+    </declare-element>
+
+    <declare-element
+        name="LayerGroup"
+        defaultStaticType="Layer" >
+
+        <inherit base="Layer" />
+    </declare-element>
+
+</Config>

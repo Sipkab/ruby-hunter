@@ -1,0 +1,38 @@
+n Crunch
+ldeutsch n Knirsch
+D 3
+C 4
+e 0
+p 10
+w 10
+M 0 Live and let Die
+i Crush 'em!
+ldeutsch i Zermalme sie!
+a Alexander
+m 15 15
+###############
+#10     7     #
+# # ######### #
+# # #0   b#0# #
+# # #0#####.# #
+# # #.# B # # #
+# # # # # R # #
+# # # #E# # #8#
+# # # ###o# # #
+# # #     # # #
+# # #s##.##r# #
+# #        h# #
+# ########### #
+#      5      #
+###############
+R 99558
+0 8
+1 Demo 1
+2 ..........rrr.b..bbbbbbbbbbb..rrrrrrrr..
+2 t...tttt.....bbbbb..lll..T......rrrttttt
+2 ttbbll....bbblllltttt.bbbbr.....lttttttr
+2 rrr.llllbbbbbbrrrrttttllbb........
+
+uuid 305aa2fced263b26f271ea9307c0d537
+
+leaderboard gems steps time

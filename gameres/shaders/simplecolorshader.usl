@@ -1,0 +1,19 @@
+shader SimpleColorShader {
+	vertex {
+		uniform MVP{
+			@fp_precision=high
+			mat4 u_mvp;
+		}
+		@fp_precision=high
+		in float4 a_position;
+		
+		out vertex_position o_position = a_position * u_mvp;
+	}
+	fragment{
+		uniform ColorUniform {
+			@fp_precision=low
+			float4 u_color;
+		}
+		out fragment_color res_color = u_color;
+	}
+}

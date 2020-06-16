@@ -1,0 +1,61 @@
+n Polymorphing
+ldeutsch n Umwandeln
+D 8
+C 5
+e 23
+M 0 Tico Tico
+i You need more than you can see.
+i But why and how?
+ldeutsch i Du brauchst mehr als du siehst.
+ldeutsch i Aber wie und warum?
+a Ronald
+m 17 23
+~      ######    
+~     ##!   #####
+#######   # #   #
+#   ++# # 7 ! # #
+# @ +    7###  7#
+####+#1#### #####
+~  #c# ###       
+~###.# #Q#       
+~#   :  &###     
+~# #   #c+ #     
+~# #c### # #     
+~#     Q## #     
+####|(++.. #     
+#&  *Q...  #     
+#| .0|.0.. #     
+#. .*|.Q.. #     
+#. ..#.... #     
+#. .|#...  #     
+#. |.#.... #     
+#.c....#####     
+#....###         
+###E##           
+~ ###            
+R 97492
+0 1
+1 Demo 1
+2 .trrrtrr.r..r..ll.tt.lllblbbllsbb.......
+2 tttllltllbrrrrrr...rbbbbblltls...Tbr....
+2 ..ltllbbbrrrrllltttrrbrrtrrbBrrbbbbbbbbb
+2 llllbllbllltttttrrt.....l.bbbblbbrrrtrrt
+2 ttttTbbr....rrbbll......ltttttlllblbbrRb
+2 lblbbRRRRRRRRtttrrtrttrrbl.llllbbbbbrrb.
+2 ....llblbbbbl.bblbbbbbrrrrrtrtr.......
+R 108
+0 1
+1 Reinhard despairs
+2 ............t..rrr.trrr.rb.r.rtt.l..l..b
+2 ll..ttlllblbbllb.....sbb.........ttllltl
+2 lbrrr.rrrbbbb.blltl..s...Tbr.......lt..b
+2 rrtrrbbtrrbbbbb.....bbbbbllllbllbllltttt
+2 trrtlblbbbbbrrrtrrtrrrrtttttttttlltllbll
+2 tllbbbrrrllltttrrbrrtrrbrrbbbb.....bt...
+2 llllbBbb.r...rttr....lllltlllbbbbbbtrtll
+2 bbbbRRRRRtttttrrbrlttrrrblrbbbbllblLLLb.
+2 .....
+
+uuid 581a74419cfd3828a17d24e254b00c91
+
+leaderboard steps time

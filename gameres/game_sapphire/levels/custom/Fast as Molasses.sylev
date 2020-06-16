@@ -1,0 +1,36 @@
+n Fast as Molasses
+D 2
+C 3
+E 0
+p 0
+o 400
+M 0 Nightshift
+i The robots are no real threat, if
+i they move that slow...now that
+i we're in the 21st century, these
+i robots made on December 31, 1999
+i seem obsolete...
+a Shark
+m 14 14
+##############
+#oooooooooooo#
+#o          o#
+#o          o#
+#o  .....1  o#
+#o  .****.  o#
+#o  .****.  o#
+#o  .****.  o#
+#o  .****.  o#
+#o  E.....  o#
+#o          o#
+#o          o#
+#oooooooooooo#
+##############
+R 17846
+0 0
+1 Demo 1
+2 .lblllbrrrbbltlblT.bl.....
+
+uuid 273d3b2422658b0b4b3fea0c086d86d6
+
+leaderboard steps time

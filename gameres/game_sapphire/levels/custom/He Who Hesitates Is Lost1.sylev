@@ -1,0 +1,51 @@
+n He Who Hesitates Is Lost
+D 8
+C 3
+E 4
+T 350
+p 0
+M 0 Staying Alive
+i The traffic is seemingly crazy...
+i Will you make it?
+a Nic01
+f Nic01
+m 15 12
+###############
+#           01#
+#     5     #E#
+# !aaaaaaa#   #
+#         #$  #
+# 0.6 !a$$##! #
+# ##.$ #$$#   #
+# #$## ####   #
+# #$ #@   #6 &#
+# ## ###!   &&#
+~          &&&#
+a@aaaaaaaaaaaaa
+R 99222
+0 8
+1 Demo 1
+2 .................llllllllllb.l......bblb
+2 bb.bbbBrrrrrrrtrr.rtttrttlttlllllllllbbr
+2 Bllbrrrlllbbbbbrrrrrrrrrurtttrttlttlllll
+2 llllbb..t...........brrrrBlbbltlllbbbbbr
+2 rrttlTrbbrrr..rttlLrrbbrrButttrttlttllll
+2 ..l.llllb....brr..rrrrbRbRttll..lllllbbb
+2 .bbbbr.t.r..........rrr.rrrrrrrcl...l...
+2 ...r...rrttmlbb......r....rtttttttttt...
+2 ...
+R 99507
+0 8
+1 Top Speed
+2 .................llllllllllb.l.....B.bbl
+2 bbbbbbBrrrrrrrtrrburtttrttlttlllllllllbb
+2 rBllbrrrlllbbbbbrrrttLbbrrrrrrrButttrttl
+2 ttlllllllllb........brrrrBlbbltllllbbbbb
+2 rrrttLbbrrr....rttlLrrbbbrrrtutttttlttll
+2 lllll.l...l..bbrr.rrrrbRbRttll.ll.lllbbb
+2 .bbbrrrrrrrrbrrrrttcbl............rttttt
+2 ttttt......
+
+uuid 7335fae034bd3064d1df4c4e55f0deec
+
+leaderboard steps time

@@ -1,0 +1,95 @@
+n Poisonous snakes (2)
+a Emerald Mine
+D 5
+s 0
+i Stay concentrated.
+m 64 32
+################################################################
+#                                           5                  #
+# .*.*.*.  .*.*.*.*.  #*    #*   .*.*.*.*.*.*.*.*.*.*.*.*.*.*  #
+# #######  #########6 #.    #.   ###########################.  #
+#    7                #*    #*                             #*  #
+#                     #.    #.                             #.  #
+# #*  .*..*.      .*.*#*    #*     .*..*.  #*  #*  #*  #*  #*  #
+#8#.  ######  #.  #####.    #.     ######  #.  #.  #.  #.  #.6 #
+# #*  #*6     #*  #*6       #*5    #.7     #*  #*  #*  #*  #*  #
+# #.  #.      #. 8#.      *.#.*.*  #*      #.  #.  #.  #.6 #.  #
+# #*  #**.*.  #*  #*     #######.  #.      #*  #*  #*6 #*  #*  #
+# #.  ######  #.  #.     #*7   #*          #.6 #.6 #.  #.  #.  #
+#             #*  #*     #.    #.                          #*  #
+#            5#.  #.     #*    #*  #*                      #.  #
+#      .*.*.*.#*  #*.*.  #.    #.  #.            5         #*  #
+#  #*  ########.  #####  #*    #*  #*  .*.*.*.*.*.*.*.*.*.*#.  #
+#  #.                    #.    #.  #.  #####################*  #
+#  #*                              #*                      #.  #
+#  #.*.*.*.*  .*.  #.              #.                      #*  #
+#  ########.  ###  #*  #.   #.  .*.#*  #*  #*  #*  #*  #*  #.  #
+#         #*  #*   #.  #*   #*  ####.  #.  #.  #.  #.  #.  #*  #
+#        8#.  #.  8#*  #.   #.  #.7    #*  #*  #*  #*  #*6 #.  #
+#  .*.*.*.#*  #*   #.  #*   #*  #*     #.  #.  #.  #.6 #.  #*  #
+#  ########.  #.   #*  #.   #.  #.     #*  #*  #*6 #*  #*  #.6 #
+#  #.         #*   #.  #*   #*  #*     #.6 #.6 #.  #.  #.  #*  #
+#  #*        8#.   #*  #.   #.  #.                         #.  #
+#  #.  .*.*.*.#*   #.  #*   #*  #*.*                       #*  #
+#      ########.   #*  #. 5 #.  ###.             5         #.  #
+#      #*      7   #.  #*.*.#*    #*.*.    .*.*.*.*.*.*.*.*#*  #
+#1     #.              ######.    #####    #################.  #
+#E2                       7                                    #
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 79399
+0 8
+1 Demo 1
+2 .....r.r.r.r.rrrrt.t.r.rrrtrtrtrtrttrtrt
+2 rtrtrtrtrtt.t.t.t.t.t.l.l.l.lrlrltlttltl
+2 tltllblbbbbbbbbbbbbbrlrlrlrlrlrlrlbbbblb
+2 lblrlrlrlrlrlrbrbrbr........b.......brbr
+2 br.r...r...t.t.t.trtrt.tttt......t.trttt
+2 t.t.r.r.rtrtrtr.rr.r..t.t.t.t.trt..tltll
+2 tltlrlrtrtrtrtrt.ttrtrtrtrt.t.tttttt.t.t
+2 tt.t.tllllbbbbb.btbtbrbrbrl.llllllllll.b
+2 .lll.ltltl.lrlrlrlr.r....lrl.ltltlllll..
+2 ..lll.l.tlt...r.r.r.r.rbtb.b.b.b.b.b.bt.
+2 l.lblbl.lr.r.t.t.t....l......tlt.t.t.tlr
+2 lr.rtr.r..b..r.r.rtrlrlrl.brbrb.b.blb.br
+2 brbrb.b.brbrbrbbbb.l.l.l...............l
+2 bbbbbbbbbbbbbbbbrbb.bbrrrrrrrrrr.r.rr.r.
+2 rbrrrrrtrtrtrtrtrtrrrr.r.r.r.b.brbrbrbrb
+2 rrrrrtrtrtrtrtrtrtrtrlrlrlrtrtttttltltlt
+2 lttltllblbtbtbtbtbtbrbr.rlt.t.t.trt.t.t.
+2 .........l.l.l.btbtbl.l.bbbbbbbbbbbbblll
+2 lblbbbbbbbbbbbbbbb.b.bt.tbtrtrtrtrtrrrrr
+2 ltltbtbtbtbtbtbtbtbtbtbtblrlrbrbrbrbrbrb
+2 rbrb.brbrlrlrlrlrtrtrtrtrtrtrtrtrtrtrlrl
+2 rbrbrbtbtb............r.t.tbtbtbtblblbtb
+2 trtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtrtttttt
+2 rrrtbtbtbtbtbtb.b.b.btbtbrbrbbbbbbbbb.bb
+2 bbbrbrltltb.b.b...ttt.t.tttttttrtrtrtbtb
+2 tbtbt.t.tbtbtrtrttttt.t.t.l.ltltltltlrlr
+2 lrlblblblblblblrlrltl.l.ltltl.l.l.l.ltlt
+2 ltbrbrrbrbbbb.b.b.b.bbbbrbrrtrttttrtr.r.
+2 rt.t.tltlt.rrrrr.........brbtbtblblblblb
+2 lblbtbtlrlrlrlrlrlrlrlrlblblllblblblblbl
+2 blblrlrltltltttt.t.ttt.t.rttttrtrtbtbtbt
+2 .t.r.r.r.rbrbrbrbrrrrbtbtltl.l.l.ltl.t.t
+2 tttttr.rrrr.bb.rbrbrbrbbbbbbrrrrtrtr.rtr
+2 trtl.l.ltl.l.lrlrl.l.lblbtbtbtbrbrrr.r.r
+2 rrtrtrtr.r..t.ttttttltlt.t.t.l.lb.b.bbbb
+2 bbbbbbbbrbrrrrrrbbbblbl.lr.r.l.lllllllll
+2 llll.l.l......l.lllllllllllllllll.l.lt.t
+2 rt.lll.l.lrlttt..b.....r.rtb.b.blblblbll
+2 blblbbblblbtbtlllllb.b.b.btbtl.l.l.t.tlt
+2 ltblll.b.blbbbbbbbb.b.bbbb.b.lblblb.lblb
+2 lltltltltbtbtltltltltlllllllblblblblblbl
+2 rlrl..b.b.b...l.b...........b.l.l...b.l.
+2 l.l.l.r.r.l.l.l.l.l.l.l.r.r.r.r.r.t.t.t.
+2 t.t.t.t.t.t.t.t.......r.t.r.r.t.t.l.l.l.
+2 l.l.b.b.b.b.b.b.b.b.l.l.l.l.l.l.l.l.b.b.
+2 b.b.l.l.l.l.l...............
+
+uuid c4c900225dc27df1cfcff785eaff36e9
+
+leaderboard steps time

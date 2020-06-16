@@ -1,0 +1,55 @@
+n Hour Glass
+ldeutsch n Stundenglas
+D 6
+C 1
+E 0
+T 1000
+M 0 Pink Panther
+i This level has been inspired by
+i an original Amiga-Emerald-Mine
+i level, but unlike filtering
+i the gems through a converter you
+i just have to collect them as
+i they are.
+ldeutsch i Dieser Level ist von einem
+ldeutsch i original Amiga-Emerald-Mine
+ldeutsch i Level inspieriert, aber statt
+ldeutsch i die Edelsteine durch einen
+ldeutsch i Konverter zu filtern, musst du
+ldeutsch i sie einsammeln wie sie sind.
+a Reinhard
+m 29 19
+#############################
+#    .++00*********00++.    #
+#    ..+|00*******00|+..    #
+#   1.. +|00*****00|+ .. E  #
+#    ..  +|00***00|+  ..    #
+#    ..   +|00*00|+   ..    #
+#    ..    +|000|+    ..    #
+#    ..     +|0|+     ..    #
+#    ..      +0+      ..    #
+#    ..      ...      ..    #
+#    ..      + +      ..    #
+#    ..     +   +     ..    #
+#    ..    +     +    ..    #
+#    ..   +       +   ..    #
+#    ..  +         +  ..    #
+#    .. +           + ..    #
+#    ..+             +..    #
+#    .+               +.    #
+#############################
+R 12809
+0 0
+1 Demo 1
+2 .bbbbbbrrrrrrrrrrbbbbbbbbrrrt...........
+2 .lll....................................
+2 ....................................l...
+2 .l....l....l....B...r..r....B.r....t....
+2 ....r...........t....r...........bbr....
+2 ........t.......bbr....t..r.............
+2 B.rr..B.tlllllttttttrrrrrrrrrrr.tttttt..
+2 ........
+
+uuid 35fc641dc9a8d24ff4be469bc180314b
+
+leaderboard steps time

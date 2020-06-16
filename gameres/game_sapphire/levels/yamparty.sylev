@@ -1,0 +1,37 @@
+n YamYam Party
+ldeutsch n YamYam Party
+D 4
+C 3
+e 30
+p 0
+M 0 Jump
+i Get to the cake before there is
+i none left.
+ldeutsch i Schau, dass du noch was
+ldeutsch i von der Torte kriegst,
+ldeutsch i bevor alles weg ist.
+a Alexander
+m 20 13
+####################
+#  .   .     .   >.#
+# ..  .   $$   . . #
+# >     .$$$$.  ^ .#
+E    .  $$$$$$    .#
+E . ^   ######..   #
+E1..  .  .       . #
+E      .   ..      #
+E  .^     .   . ^  #
+#  ..   .   ^     .#
+# .        ^   . . #
+#   . .  .. .   .  #
+####################
+y w..$> . .
+R 27555
+0 0
+1 Demo 1
+2 r..rrrrttrrrrrrRtlllbRl.lllllllbbbl.....
+2 .
+
+uuid 4a1f1982eaed168a9b1d89e120316444
+
+leaderboard steps time gems

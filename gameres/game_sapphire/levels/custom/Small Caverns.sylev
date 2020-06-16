@@ -1,0 +1,54 @@
+n Small Caverns
+D 3
+e 75
+s 50
+p 2
+Time
+i This my first level. I'm
+i just trying things out.
+a Bruce
+m 36 23
+~       +......%%%%%       :+!!++++#
+~ 1     +......       (    :+   + +#
+~       +......  @    (    :  +   +#
+~       +...... 0@0 ##.    :++[++++#
+~ !!    +...... ccc        :++ ++ +#
++++++++++......          Q  +   <**#
+...............         ... +   ***#
+...............             +  ****#
+~       ........    +++++  ###*****#
+~    _   .     ..   +++++  # #######
+~     ...      __   ++r++  #        
+~          _        +++++  #       E
+~   # #             +++++  #    ##++
+~   #B#                    #   ##   
+##### #   _              __######   
+~   #B##         _         #        
+~   B ##             _     #        
+#B######                   #        
+~      #      __           ########B
+~&&&&  #                   R R R R b
+~&" &  #            .......######## 
+~&&&&  #   (((      ...(...#        
+~  !   #   000  ____.......#        
+R 22530
+0 8
+1 Demo
+2 ..bbbrrrrrr.mlll...rrrrrrrrrrrrrrbbbbrrr
+2 rttttrrrrtrrr................t.......tll
+2 llll.b.ut.rr....bblrrrbbbrrrrrrrlll.rrrb
+2 l.bb........trr.......t.b..tll...rrbrrtt
+2 rrrrrblllbrrrbllllttttttttt..l.ttrllbbr.
+2 ..bbbbllllllllllblllllbrrrrbbcbblllt.trr
+2 rrr.t..mlll...rrrrrrrrlllllbbblllllllrrr
+2 rrrrrrrrrrbbbbbbrrrrrrrrllllllbbllllllll
+2 lllllllbtrrrrrrrrlllblttlllllltttttttttl
+2 llbbblllblbbbbrrr.mlll........rrrrlltt.s
+2 brrbb..........llllllrrrtttutrrrr.bbbbb.
+2 ..llllllttrrtlttrrrtttrrrbrrrrrrrrrrrbrr
+2 r...bbbbl.cc.csrrrbrrrrsrtutuutmll......
+2 ...brruttt
+
+uuid 4fcbf9db75ed598dc30242bb915d4b6d
+
+leaderboard steps time gems

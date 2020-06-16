@@ -1,0 +1,40 @@
+n Chaos City
+ldeutsch n Chaos-Stadt
+D 5
+C 6
+E 0
+T 500
+w 160
+M 0 Ringing
+i A Robot can also
+i be a good friend.
+ldeutsch i Ein Roboter kann auch
+ldeutsch i ein guter Freund sein.
+a Ronald
+m 13 14
+~  ###       
+~###0##  ### 
+~#0#0#E###Q##
+##.#.#    . #
+#    B1b  _##
+#  Q .   # ##
+#### ##  ##  
+~ ## ## [##  
+~ ## ## ###  
+~ ##w## .o#  
+~  #### #### 
+~    ## &_ # 
+~    ##&&  # 
+~     ###### 
+R 56809
+0 9
+1 Demo 1
+2 ...rbbbbb..Rtttttll..............bbbbbtt
+2 ttt.bll..r..rb.Rtllb...rrrrrr....b..bbbb
+2 bbrtbrrtllblttttttttltrrtrrr.lll.r.b..ll
+2 .tlbbllllltt.bbl.rrrrrrrr..bb..Rttttl..t
+2 ........
+
+uuid d1479abb5106c86519e64ab0592b4ad9
+
+leaderboard steps time

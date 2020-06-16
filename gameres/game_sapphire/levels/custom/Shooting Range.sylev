@@ -1,0 +1,37 @@
+n Shooting Range
+D 5
+C 4
+p 0
+M 0 Live and let Die
+i When your explosives are unable
+i to reach your target, transfer
+i their power in another way.
+a Shark
+m 19 15
+###################
+# B1$!!!!# 5    #E#
+#B#....(.: +&++ B #
+# #.*.*.*:  +++ #B#
+#B#.....$: && + # #
+# #...*..: +    #B#
+#B#.(..*.: +&8+ # #
+# #..$...: +&++ #B#
+#B#.....$:  8&+ # #
+# #.$....: &+++ #B#
+#B#*....b#  7   # #
+# ###############B#
+#B#sSSSSSSSSSSSs# #
+# B.............B #
+###################
+R 16708
+0 0
+1 Demo 1
+2 rrrrrbbBll...................ut........r
+2 rbbbbbbblttTbbl....utTlBrr....lltllbbR..
+2 ...uttrT..rrbbbbbRbrRlllLTRtttttttlttlbb
+2 bbbbu..........bbrrrrrrrrrrrrrrrtttttt.l
+2 bbbbbbllbblTllttttttrrrbrrtttrt.....
+
+uuid 099cebbdb9704588114d4d70b3f6fba1
+
+leaderboard steps time

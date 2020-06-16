@@ -1,0 +1,38 @@
+n Yam Yam Chutes
+D 4
+C 4
+e 44
+s 0
+p 0
+i You have to drop the stones in the
+i right order.
+a Shark
+m 14 13
+######&#&#&#&#
+#%%%#00000000#
+#%%%#........#
+#   .........E
+#%%%#....1...#
+#%%%#ssssssss#
+#%%%#s s s s #
+#####s>s>s>s>#
+~   #s+s+s+s+#
+~   # . . . .#
+~   #>.>.>.>.#
+~   #++++++++#
+~   ##########
+y #o##(##{#
+y #o##(##{#
+y #o##(##{#
+y #o##(##{#
+y #?##(#+7+
+R 15656
+0 0
+1 Demo 1
+2 ..lllltLrrrrrrrbllrttblltblltbllt...r...
+2 ........rrrrr.R.llllll.b.........tt.rbbb
+2 bbbb.L.rrT.rrT.rrtttttr.....
+
+uuid 0451e0973330840bf84f8dac0b84a274
+
+leaderboard steps time

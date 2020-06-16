@@ -1,0 +1,44 @@
+n Side Openings
+D 5
+C 1
+p 0
+M 0 FF7choct
+i A tricky two-man level involving
+i falling stones, identical keys, and
+i similar yet intricate side openings
+i into which rocks must be dropped to
+i trigger bombs that release the
+i emeralds necessary for completion.
+i 
+i Now THAT'S a level description.
+a Shark
+m 10 19
+##########
+# 00gg   #
+# 1+!!+0 #
+# ++!!++ #
+#  +!!+1 #
+#   0    #
+# ### ## #
+#  ##.#  #
+#@ ## # @#
+#+s## #s+#
+#Q ## # Q#
+#+Q## #Q+#
+# +## #+ #
+#@ ## # @#
+##  G G ##
+#  E# #  #
+#  ## #  #
+# #    # #
+##########
+R 50470
+0 0
+1 Demo 1
+2 lbllTbbrrcb...rTrrrllttttllrbbscbrtrrtlb
+2 ltttltrrlbbbrrbbltllllbbbbbbRbbrbbBlttll
+2 brtr.....
+
+uuid 89726839968aa4ce1dc5c159d5a408b0
+
+leaderboard steps time

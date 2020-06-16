@@ -1,0 +1,59 @@
+n Drop and Hit
+ldeutsch n Werfen und Treffen
+D 4
+C 4
+e 49
+s 0
+p 0
+M 0 Pink Panther
+i A straight forward
+i solution requires
+i straight aiming.
+ldeutsch i Eine geradlinige Lösung
+ldeutsch i erfordert ein gerades Zielen. 
+a Alexander
+m 25 22
+#########################
+#.......................#
+#.......................#
+#..................*....#
+#.......*....$..........#
+#..*....................#
+#.......................#
+#.......................#
+#.......................#
+#.......................#
+#.........*.............#
+#.......................#
+#.^............u..u.....#
+#......................%#
+#.......................#
+#.......................#
+#.......................#
+#.u.....................#
+#.........u.............#
+#.......................#
+#..................1....#
+#########################
+y .*.*E....
+R 17474
+0 8
+1 Demo 1
+2 ....rrrttttttttll........Lrrbbbl......l.
+2 ..tttttt.l...ll....llb........Btttrrrr..
+2 ....btttt.........................llllll
+2 lbbbbbbbbbl.....l...bbbtttt...bbbb......
+2 ..Btttttll....rrbbbbbbbtttttttttttttt.rr
+2 rr....llbbb...t.bbb.....l..b.lblltttttt.
+2 ...............................lll...bbb
+2 bbbbbbb..ttt..btttt.rrr.bbr.ttllllbbbbbb
+2 bbl..........Lrrrttttttrrrbbbbbbbttttlll
+2 tlbttttt.........b.tttttttllllbbbbb..r.t
+2 .b.....bb...b..Btttttll......rrbblbbbbbb
+2 b.rrrrrbblltrrrrrrrrrrttttttttrrrbrrbbbb
+2 rblrrrlbllrrbbbbbllllllllllllllllllllttt
+2 ttttttttr.......
+
+uuid e68b7309f14fc51cedf0d38e6a10a2b6
+
+leaderboard steps time

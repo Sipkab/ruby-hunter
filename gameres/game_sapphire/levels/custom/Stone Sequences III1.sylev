@@ -1,0 +1,56 @@
+n Stone Sequences III
+D 8
+C 3
+e 58
+p 0
+M 0 FF7choct
+i Not much different than the first
+i one...
+i Except for the little expansion...
+a Nic01
+f Nic01
+m 19 27
+###################
+00.!!! #$+...00.###
+00.### ###.Q....###
+00.#  1  #.Q* ..###
+00.# 0 ..####.. ###
+00.#0.0  #  E.  ###
+00.#0+Q+|# ##0. ###
+000#|++ ##0#000 ###
+#*.##| @##.0##. ###
+###0$##.0#0! #$ ###
+#  ..  .0#.0 ##  +E
+# #cc###0#.########
+#  ..!!!.#     >###
+###++### #      ###
+#        #      ###
+#   |#  ## >    ###
+#  @#   ##.########
+# @#   #$#  .000###
+#c#   #$$#  .000###
+# #  #$$$#  .000###
+#.+  #$$$   .000###
+#Q###########0.0###
+#++#0.0..0....Q.###
+#$*#..0@....#..0###
+#**#.0.0.@0.#.0.###
+#$*....0*..@#...###
+###################
+y ~        
+R 24942
+0 8
+1 Demo 1
+2 ttllLrrbbllbrbrrtlbbbbbbbbrbblllTlllbbrr
+2 rrrrrbblmllsrbbbllblbsttr..b.lllllbbllTs
+2 rrtttrrtttllttrrrrt.blllsrrttllllbbbbbbr
+2 rbbllbblbblllbbbbrTbLrrrrtlt.rtrrbrrrBtl
+2 llbr.l.bbrrRl.Ltrrttrrbbbrrtltrtlt......
+2 rtlltlllblltllbrTrTrrtttt.trltttttrtltr.
+2 lltttrmbb.....tttttrrrrtttlltllb.rlB..tr
+2 rrblblrttlllllLrrrrrrbbbbbbbbbrmtLt....b
+2 bbbbrrrr......
+
+uuid 3a04fcc76892250e991819f9831fee5f
+
+leaderboard steps time gems

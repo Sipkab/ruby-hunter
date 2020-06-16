@@ -1,0 +1,32 @@
+n Adventure in a Bag
+ldeutsch n Abenteuer in Säcken
+D 3
+C 5
+M 0 Penny Lane
+i Try to open the bags by
+i dropping the stone on them.
+ldeutsch i Versuch die Säcke zu öffnen
+ldeutsch i indem du den Stein draufschmeißt.
+a Reinhard
+m 15 10
+###############
+#E1......0....#
+#.............#
+#......@......#
+#...@....@....#
+#.............#
+#....@@.......#
+#.............#
+#.............#
+###############
+R 4389
+0 1
+1 Demo 1
+2 ......r..bbbbbbb...rtttl..r.bbr.l.ttrr.t
+2 .r.bllt.rrr.t.rr.b.l....t.l.tt.bbrr.tt.l
+2 .ll.......lbbbl.blblblb.tttttttlll......
+2 ....
+
+uuid 894aa9f464fad9c0bf87f38ffdaf5970
+
+leaderboard steps time

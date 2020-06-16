@@ -1,0 +1,35 @@
+n The Fixer
+D 5
+C 5
+e 10
+E 0
+p 0
+i Some stones will need
+i to be recycled.
+a Alex
+m 15 12
+###############
+#Q0....1....++#
+#*|..@......++#
+#c+...0...00Q0#
+#*..|###...b*0#
+##########.+++#
+~       #.....#
+~       #[....#
+~       #[Q...#
+~       #&..  #
+~       ##. @ #
+~       ###QE##
+R 55560
+0 0
+1 Demo 1
+2 ....lll....blrrtrrb.lll.tL.rb.......b..l
+2 L.rt.llb.trrrrbtllbr..tlllbr.lblL..L.rtt
+2 rrrrrr....bbb......rr.R.l..........tll..
+2 rr..tllllbrr...ltlllbrrrr.............tr
+2 rbrbbbl..LB.....trb...l.bbb......brrrbbl
+2 ......r..tllll.T.rbr.....rb............
+
+uuid b140294018c763d044c665c53d414a83
+
+leaderboard steps time

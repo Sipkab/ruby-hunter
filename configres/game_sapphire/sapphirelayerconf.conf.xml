@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config xmlns="bence.sipka.xml.compiler.config" >
+
+    <declare-element name="FrameAnimation" >
+    </declare-element>
+
+    <declare-element name="FrameAnimationElement" >
+
+        <declare-attribute
+            name="texture"
+            type="resourcereference" />
+
+        <declare-attribute
+            name="x"
+            type="float" />
+
+        <declare-attribute
+            name="y"
+            type="float" />
+
+        <declare-attribute
+            name="w"
+            type="float" />
+
+        <declare-attribute
+            name="h"
+            type="float" />
+    </declare-element>
+
+    <declare-element
+        name="SapphireScene"
+        defaultStaticType="Scene" >
+
+        <inherit base="Scene" />
+    </declare-element>
+
+    <declare-element
+        name="SapphireBackgroundLayer"
+        defaultStaticType="Layer" >
+
+        <inherit base="Layer" />
+    </declare-element>
+
+    <declare-element
+        name="SapphireMenu"
+        defaultStaticType="Layer" >
+
+        <inherit base="Layer" />
+
+        <declare-attribute
+            name="font"
+            type="resourcereference" />
+    </declare-element>
+
+    <declare-element name="SapphireMenuElement" >
+
+        <declare-attribute
+            name="text"
+            type="string" />
+
+        <declare-attribute
+            name="icon"
+            type="resourcereference" />
+    </declare-element>
+
+    <declare-element
+        name="SapphireSplashScreen"
+        defaultStaticType="Layer" >
+
+        <inherit base="Layer" />
+    </declare-element>
+
+</Config>

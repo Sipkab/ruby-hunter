@@ -1,0 +1,103 @@
+n Torpedos
+ldeutsch n Torpedos
+D 6
+C 6
+s 0
+M 0 Only Solutions
+i Select your launching points carefully.
+i You must get all sapphires.
+i You may not waste a yam yam.
+ldeutsch i Wähl deine Abschuss-
+ldeutsch i stellen mit Bedacht.
+ldeutsch i Du musst alle Saphire
+ldeutsch i kriegen und darfst kein
+ldeutsch i YamYam verschwenden.
+a Erik
+m 50 40
+##################################################
+#......++...+.....++...+..+...+++...............E#
+#+++++++....+..0.++..+++........++++....+++......#
+#..++.+++.++.....++++..+++++....+++++...+...0....#
+#.+++..+++...++++++.+++++.....+....+.+++++...++..#
+#+++++++++++..++.......++++++++..0+++++$$++.+....#
+#++++.++++++.....+++++.+..++++..+.+.++$$+++++..+.#
+#.+++.++$$$++++.+++$$+.+..+++..+.++++++++.++.+++.#
+#.++..+++$$++++++++$$..+++++++++.++......+....+++#
+#.....++++$$+....++++..++++++++++...++...+.......#
+#+..+...+++++.+...+++.++.+++$$$++..+.+.++++.+...0#
+#+++...++.++..+...+.+++++++$$$$$+...+++++++++++..#
+#+++.++.+.....++.+.++++++++++$+++.++++$$$$++$++++#
+#......+++...+++.++++++$$+++++++...++++$$+++++++.#
+#+++++++++++++++.+.++++$$$+++.++.++++++++++++$$+.#
+#+++++++++++0+++.++++++$$++.++++..+$$++..+++$$+++#
+#+++$+++++++++.+.+++++$$++..++++..++$$+++++++$+++#
+#++$$$+++++.+.++....+++$+.0++.+..++$$++++0+++$$+.#
+#++++$$++++++.....0++++++...+.0+.+++++++++++$$++.#
+#++++++++++.++++..+.++++++.++.++..+++...+.+++++..#
+#+.+++++.........+..+++$$+.....++..+++.++..++++..#
+#..++.....0+++++++++++$$+++...+...+..........+...#
+#...+.....++.+++++++++++++++.............+.......#
+#........++..++$$$++++.++..+..0......+......0....#
+#........+.+++++$+++++++..+++.+...+.+...+........#
+#....+0...+...++++++++...+..++......+............#
+#..++..+...++.+++++++..++...........+....0.....0.#
+#......+.....+...+.+................+............#
+#......+..0..................0.......+...........#
+#....+........0..+..............0........++......#
+#.................+....0..++....................+#
+#..............0............+....+....+.....0....#
+#..0.........................0......0............#
+#.........0..............................0.......#
+#................................................#
+#................................................#
+#. . . ...........0........................ . . .#
+#.V.V.V.....................0..............V.V.V.#
+#. . . ................1................... . . .#
+##################################################
+y ~V  %    
+R 56564
+0 8
+1 Demo 1
+2 ...ll.ttttllllllltt...lbbb.tllllrrrrrrbb
+2 ..r..l....lbblll......lrrrr..rrt........
+2 .......ll...b........rrrrrrrrrttttrrrrrr
+2 rrrrrrtrrtttrrrrtttttttttttt.bbblllllttt
+2 lttttt.bbbbrbrbbbbbbbbbbbrbbblbb.rrrttrb
+2 bllllll.bl.r..rbbrrrrrrrlllllllllt....rr
+2 rr...................bllllllllllllllllll
+2 llllllttttttttttttttrrtrrrlbtllltttttttt
+2 tttttlltllttllrbrbrrrrtttrrtrrrrrrbbblll
+2 trbrrtttllllllbllllbbbbbbbbbbbbbbbbbbbbb
+2 lllltttttttbbbbbbbbbbbbbb..tllllllrrrrrr
+2 rrrrrrrbbbb.ttttttttrrbbbbbbbbbll.t.t..t
+2 ll...lb.r..l.l.bb.lrrrt.........lll...bb
+2 .........rrrrrrrrrrrrrrrtttttttttttrr..l
+2 bllllllltttttttttttr..ttbbbbbbbbbbbbbrrr
+2 rrrtt..bbbbbbbbb...........rrbrrrrrrbbrb
+2 lllllll..tllbllllllllllllllll.lrrrrrrrrr
+2 rrrrrrrrtttttttrrt.rtrrblb.llrrr........
+2 ..ttttt.....bbbbbbbrrrrrrrrrrrbrttttrrtr
+2 ttttttttlllltttttrrttlrbrltllllttttlllll
+2 lrrrlb.trrrrttttt.bbbbbbbr..bbbbbbbbrrbb
+2 lbbbbbrbbbbbbb..........llllttlllbbbbblr
+2 rrrrrrrrrrrr....tttrrtttttt.bbbbbrrrrrr.
+2 lllll...b.l..l..l..l..rrrbbbrrr......rll
+2 llllll..tt....rrr..rrrtt.bbbbll..llll.ll
+2 l...lllllllllllttttttttttttltttttrrtrlbl
+2 ltttttrrtttrrbrllblllrlbbtllbttttttttttt
+2 t.bbbbbbbbbbbbbbbbbbbbbbbbbrrrbbbbrrrrrr
+2 rrrrrrrrrrrrtllllltttttttttttttttttttttr
+2 rrr.lblltllttttttrrtr.lblllbbbbbbrrrr...
+2 ...b..ll.tllbbbbbbbbbbbbbbbbbbbbbbrrrrll
+2 llttttttttttttt.rrrrrt.bbbbbbbbrbbblbbbb
+2 bbbllllllllllllttttttltttbbbbbbbbbl.rrrr
+2 rrrrrrrrrrrrrr..ttrrbbrrrrllllttttttttrr
+2 rbl..b.tllrr.bbbblllllllllllllllllllllll
+2 lltlllllllllllllllttrrttttttttttttttlltl
+2 l.rrbrrrrbbrrrbbbbbbbbrrrrrrrrrrrrrrrrrr
+2 rrrrrrrrrrrrttttttttttrrrttttrlblrrbbrlt
+2 tlltttrllttttttttttrtrrrrr........
+
+uuid 42d9a898d09824db0fcda4ca8de1fb68
+
+leaderboard steps time

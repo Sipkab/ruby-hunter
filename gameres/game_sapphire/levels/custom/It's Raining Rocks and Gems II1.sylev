@@ -1,0 +1,109 @@
+n It's Raining Rocks and Gems II
+D 8
+C 3
+e 0
+s 2
+p 0
+d 10
+M 0 Imperial March
+i This one got even wackier patterns.
+i Beware.
+a Nic01
+m 126 54
+~                                                                                      ::$:::::::::::::::::::::::::::::::::$#*
+~                                                                                      ::(: # % % % % % % % % % % % % % % %:%:
+~                                                                                      :%^# #                                :
+~                                                                                      ::(# #                                :
+~                                                                                     :::^: #                                :
+~                                                                                     :::(: #                                :
+~                                                                                      ::^: :                                 
+~                                                                                      :::::#                                #
+~                                                                                        ##%#                                E
+~                                                                                        ## #                                #
+~                                                             :::::::                    ## #                                #
+~                                                         :dddd*:*d::                    ## #                                #
+~                                                       :::    ::$0*:                    ## #                                #
+~                                                       :%:     :%:::                    ## #                                #
+~                                                       :^:     :^(*:                    ## #                                #
+~                                                       :(:     :::::                    ## #                                #
+~                               dd                      :::     #::::                    ##                                  #
+~                                 d                      :#     #d##:                    ## #                                #
+~                                                        :#     # %#:                  :::: #aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#a#
+~                                   d                   ::#     # ##:                  :%#: ##%%%%%%d%%%%%%%%d%%%%%%d%%%%%%#%#
+~                                  d       #           :%:#     # ##::::   :::  ######## %: ##  ^         ^      ^     ^     #
+~                                    d    #d###########% :#     # ##:%%:   :>:  #d%d%d%# #:  #      c        c      c        #
+~                                     d  #% %%%%%%%%ddd# :#     # ##::^:   :(:  #      # #: ##  :         :      :     :     #
+~                                      d  # #          # :#     # ##::^::  :>:  #      # #: ##                               #
+~                                         # #          # :#     # ##::: :  :(:: #      # #: ##                               #
+~                                       dd# #          # :#     # #:::: :  :>%: #      # #: ##                               #
+~                                         # #          # :#     # #::::(:  :(:: #      # #:                                   
+#####dd#dd#ddd################## cc cccccc# #          # :#     # #:ddd::##:::###      # ##aaaaa#aaaaaaaaa#aaaaaa#aaaaa#aaaa  
+# dd#  _  d   #dddddd##d######%#          # #             #       #:      #: ## #        #% %d% %d% %d% %d%dd%%%d%%%d%%d%d%# #
+#d  l_ d_  _ _#      l# d####% #    c    c# #          #  #     # #:    # #: ## #      # #                                 # #
+# 0_#d  d_ # d#     l##  d#### #          # #          #  #     # #:    # #: ## #      # #                 c               # #
+*00#m    d #  #    l# #     ## #          # #          #  #     # #:    # #:    #      # #                                 #  
+#00##_     # _#   l#  #   dd # #            #          #  #     # #: a  # #: ## #      # #                 c               # #
+#00  #   _ # ##  ld   #     l# #          # #          #  #     # #: :  # #:  # #      # #                                 # #
+#00# #   d # ## _d d  #    _   #          # #          #  #     # #: :  # #: ## #      # #                                 # #
+#00#  _    # ## #   d #      # #          # #          #  #     # #: :  # #:  # #      # #                                 #  
+#00 # #ssss# ## #_ s d#    dd# #          # #          #  #     # #: :  # #: ## #      # #                                 # #
+#00## #      ## ##s s #      # #          # #          #  #     # #: :  # #:  # #      # #                                 # #
+#00## #    # ## ##   s#      # #          # #          #  #     # #: :  # #: ## #      # #                                 # #
+#00 # #    # ## ##    #      # #          # #          #  #     # #: :  # #:  # #      # #                                 #  
+#00## #    # ##       #      # #          # #          #  #     # #: :  # #: ## #      # #                                 # #
+#00## #    # #  ##    #      # #          # #          #  #     # #: :  # #:  # #      # #                                 # #
+#00 # #    # ##  #    #      # #          # #          #  #     # #: :  # #: ## #      # #                                 # #
+#00## #    # #  ##    #      # #          # #          #  #     # #: :  # #:  # #      # #                                 #  
+#00## #    # ##  #    #      # #          # #          #  #     # #: :  # #: ## #      # #                                 # #
+#00 # #    # #  ##    #      # #          # #          #  #     # #: :  # #:  # #      # #                                 # #
+#00## #    # ##  #    #      # #          # #          #  #     # #: :  # #: ## #      # #                                 # #
+#00## #    # #  ##    #      # #          # #          #  #     # #: :  # #:  # #      # #                                 #  
+#00 # #    # ##  #    #      # #          # #          #  #     # #: :  # #: ## #      # #                                 # #
+#00## #    # #  ##    #      # #          # #          #  #     # #:a:  # #:  # #      # #                                 # #
+#  ## #    # ##  #    #      # #          # #          #  #     # #:::  # #: ## #      # #                                 # #
+#  1#      #    ##           #            #            #        #       #     #        #                                      
+#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#aaaa##aaaaaaaa#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#
+##############################################################################################################################
+y %%%%^%Q(Q
+R 26371
+0 0
+1 Demo 1
+2 .......................llltttrllltttrlll
+2 tttrllltttrllltttrllltttrrbbrbbbbbbbbbbb
+2 bbbbbr..........rrrrtttlttrttltrtttltrtt
+2 .....rr........rbbbbbbbbbbbbbbrr......rr
+2 tr.lllllltl.....rrtr.....lltl.....rrtr..
+2 ...lltl.....rrtr.....lltl......rtr.....l
+2 ltl....rrrtrr.......rrtt..rrbrbbbbbbbbbb
+2 bbr..........rrrrrrttltrttlttrttlttrttlt
+2 ttrrrtr...rbbbbbbbbbbbbbbbbbr......rrrr.
+2 ..rttlt..rttlttrttlttrttlttrttlttrttltt.
+2 rrrrrrrbbrbbr.....rbbbbbbbbbbbbbbbbbbbr.
+2 r.t.bl...rrrtttrtll..rtltttrrttttrtttttt
+2 ttrttrrt......llrrrrrrrl................
+2 .rbbrbbbbbbbbbbbbbbbbbbbbbbbrr..........
+2 rrrrrt..rtl.ttrtltt..brtltttrtltttrtlttb
+2 ..rtlt...b.brtltttrtlttrr...rbbbbbbbbbbb
+2 bbbbbbbbbbbbrrrr.........rtt..rtltttbb.b
+2 rtlttrblbbrtltttrtltttrtl.t.bbrtlltt.bb.
+2 rttlt.b.brtltttrtlt...brttlttt...rrrbbbb
+2 bbbbbbbbbbbbbbbbbbbrr..rr..lttr.....lttr
+2 ......lttr......lttr......lttr......lttr
+2 ......lttr......lttr......lttr......lttr
+2 r.rbbbbbbbbbbbbbbbbbbbbr......rrrrrttttl
+2 ttrttttttttlltttrtrttttt.brrtr..rbbbbbbb
+2 bbbbbbbbbbbbbbbbr...rtttrttrrtrrttltltt.
+2 ltrtltrrrrrtrrrrrrrrrrrrrrrrr..rrrrr...r
+2 rrrrrrrrrbbbbbbbbbbbbr...........rrttttt
+2 tttttttttbbr..lltttbbbr...ltttttbr...llt
+2 .br...l.....llttttr............llttttr.t
+2 .......lll..........ll...lllllll...lllll
+2 lll..lllll.rtr.l..lllll..llllb.....lllll
+2 ll.............ll.r...ltt.....llt.br...l
+2 lttttbbbbr.....llt.br..lltttttr...lttttt
+2 r.....rr..rrtltrrrtrrrrrrrt.rrrrrrt..rr.
+2 .rr...rr.t.rrrr.rrr..rrrr...rrttr.......
+
+uuid ee1bbe49ede41139824fe167bebe08aa
+
+leaderboard steps time

@@ -1,0 +1,74 @@
+n Staircase
+D 8
+e 7
+p 0
+d 50
+Y
+M 0 Calm
+i Great at balancing? Try this
+i multiple-balance level.
+i 
+i Hint: You only have to balance
+i 6 times.
+a Alexander
+f Bruce
+m 35 30
+~                      d           
+~                                  
+~                       d          
+~                                  
+~                        d         
+~                                  
+~                         d        
+~                                  
+~                          d       
+~                                  
+~                                  
+~                                  
+~                           1      
+~            |aa###################
+~            #     7 77h           
+~          @##                     
+~          ##                      
+~        *##     < h               
+~       @#                         
+~       #                o   ^     
+~     *#                           
+~    *E         <                  
+~    #                             
+~  @#                 ^            
+~  #          ^  o      o        o 
+~@#                                
+~#           <       o             
+~#                                 
+~#                                 
+a#                                 
+R 83816
+0 8
+1 MultiStack
+2 .....l.l.l.l.l.l.l.l.l.l.l.l.lrrrrrrrrrr
+2 rrrrl.l........l.l.l.l.l.l.l.l.l.l.l.l..
+2 rrrrrrrrrrrrr..l.........l.l.l.l.l.l.l.l
+2 .l.l.l.l..rrrrrrrrrrrrrrll.........l.l.l
+2 .l.l.l.l.l.l.l.l.l.rrrrrrrrrrrr.........
+2 .....l.l.l.l.l.l.l.l.l.l.l.lrrrrrrrrrrrr
+2 rrrrrlllll.....l.l.l.l.l.l.l.l.l.l.l.l..
+2 ..llrrrrrrrrrrrrrr.......l.l.l.l.l.l.l.l
+2 .l.l.l.l...ll.ll.l...l..l..rrbbbllbblbll
+2 bblbllbblblbbttttrrrrrr...
+R 90480
+0 0
+1 Do it right
+2 .....l.l.l.l.l.l.l.l.l.l.l.lrrrrrrrrrrrr
+2 ...............l.l.l.l.l.l.l.l.l.l.l.lrr
+2 rrrrrrrrrr...............l.l.l.l.l.l.l.l
+2 .l.l.l.lrrrrrrrrrrrr...............l.l.l
+2 .l.l.l.l.l.l.l.l.lrrrrrrrrrrrr..........
+2 .....l.l.l.l.l.l.l.l.l.l.l.lrrrrrrrrrrrr
+2 ...............l.l.l.l.l.l.l.l.l.l.l.l..
+2 l..llllbb.bbl.l.bblb.l.l.bblb.l.l.bbl.l.
+2 bBtttrrrrr.
+
+uuid 3736d0a64b7277079953f9d825ce36c7
+
+leaderboard steps time

@@ -1,0 +1,40 @@
+n Shoot the Moon
+D 8
+C 3
+e 28
+s 0
+p 0
+i You will need to optimize
+i your use of the stones,
+i among other things.
+a Alex
+m 16 16
+~       #0#     
+~      ##+##    
+~     ## +QQ#   
+~ #######+##Q   
+~##0    0 ###Q  
+## .    1  %#QQ 
+#          &#QQQ
+#   k   5   ###Q
+#   .+  &   :(Q#
+#           ##Q#
+##  (      ++QQ#
+~##+8%   .##QQQ#
+~ ##+#.#c##QQQ# 
+~  ##E+   QQQ#  
+~   ##+QQQQQ#   
+~    #######    
+R 38533
+0 0
+1 Demo 1
+2 ..........r.bbllll..lrbbbb...t..br..r...
+2 .....tlllltttttllbbbbb..r.rr.llbrB.tr..r
+2 .rr.b.......tt.....brr...ll..bll.Ltrrr..
+2 rllllbbbrrBrrrrtttrrttLbbll.............
+2 ..................l.l...l...blllbbbrrtll
+2 l........
+
+uuid db862f15f67402ce041ec5c99f810846
+
+leaderboard steps time

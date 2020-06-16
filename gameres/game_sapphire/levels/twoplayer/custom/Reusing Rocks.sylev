@@ -1,0 +1,52 @@
+n Reusing Rocks
+D 8
+p 0
+M 0 Tico Tico
+i You only have 3 rocks in this
+i level so be careful with them.
+i 
+i The 2nd player doesn't have
+i too much use in this level.
+a Alexander
+m 27 17
+###          ##            
+##            #            
+20            #            
+r#   <        # !0         
+###          S######   &   
+~            .R * E#       
+aaaaaaaa aaaa+#########    
+aaaaaaaasaaaaa#            
+~       y                  
+~      10      Y!          
+Eaaaaaaa####### ###!@      
+####Q##########Y####.@     
+~   .             ###.@.   
+~                 ######s# 
+~  & &                   # 
+~                       @# 
+~    . @ @ @ @ @ @ @ @.###@
+y 6666Q6666
+R 12617
+0 0
+1 Demo 1
+2 .B......................................
+2 .................................r.r.r.r
+2 .r.r.r.b...b.b.rtrRrbr.rrr.rrr.rr...r...
+2 r...r.t.r.r.r.b.r.r.r.r.b.r...b.r.B.l.t.
+2 r.r.r.b.B.t.l.l.l.b.r.b.r...r.t.t.t.t.t.
+2 t.t.l.l.l.t.t.t.l.l.l.l.b.r.r.t.r.r.r.b.
+2 b.b.u.t.t.l.l.l.b.r.r.r.r.b.b.r.r.m.l.t.
+2 t...r.r.r.r.....b.b.b.b.b.b.b.b.b.r.b.b.
+2 u.t.l.l.L.r.r.........b.b.b.B.t.t.t.t.t.
+2 t.l.l.l.l.l.l.l.l.l.l.t.l.b.b.b.b.b.r.r.
+2 r.r.r.r.r.t.r...r.b.l.l.b.l.t.l.b.l.t.l.
+2 b.l.t.l.b.l.t.l.b.l.t.l.b.l.t.l.b.l.t.l.
+2 b.l.t.l.l.b.R.t.l.t.t.t.l.b.............
+2 ....b.r.r.b.B.rrr.r.r.r.r.r.r.r.r.t.t.t.
+2 t.t.l.....l.l.l.l.l.b.b...l.l.l.l.l.l...
+2 l.l.l.b...........
+
+uuid 541bd62ec4edc2c55121b5fee8936246
+
+leaderboard steps time

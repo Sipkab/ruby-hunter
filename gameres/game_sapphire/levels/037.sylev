@@ -1,0 +1,105 @@
+n Digging in ruins
+a Emerald Mine
+D 4
+s 0
+i The problem is the amount of boulders.
+m 64 32
+################################################################
+#E 00 0 +..0. *0+.0.00  +.  00 .+   ..  +  000 + 00. . +.   .. #
+#E0000..+  .0000+.00$000+ .*00..+. 0.0 .+.0000*+ ..0.  + 0*00  #
+#00$. ..+.00.0.0+.00000 +.00..... .00*..+ ... .+.00*0 .+000    #
+# 0000  +0.. 0. + ...0. +000.   + .0000.+ ..00.+. .0.0 + ...0. #
+#. ..0.. ..0 00  .00... ...0....+ .  .0.+.000.  .00.0..+.   0. #
+#.000.. +00 . ..+    ...+. ..  .+.000 ..+ ..  .+. .0 . + .00.. #
+# . .0. + . ....+. ...  + .   ..+.  .. .+.. .. + ..   .+  .... #
+#+++++++++++ ++++++++.+++++++++.++++ +++++++.+++++++.++++++.+++#
+#.. ..  +.... . +..  .. + . . ..+00..0..+..... +.0 .   +   . . #
+#. 0000.+.00.00 +. 0.  .+ ...00 +.0.0...+0   0....000..+0.0. 0 #
+#  000  +..0..0.  00000 +000..0.+ .00   +0. 0 .+  0    + .0  . #
+#.000      .00..+...0...+ 000.0.+ ..0 . +.0 0 .+0.0.0.  ..0.0 .#
+#  .....+. ..0. + . 0  *+..0... + .00.    ..0 .+. 00...+ .000 0#
+#   . ..+*.  .. +.  . . +* . .  + .... .+  0 . +  . . .+ . ....#
+#+++++++++++ +++++++++++++++.+++++++ ++++++++++++++++++++++++++#
+#... 00.+..  .. +.. ....+ 000.. +. .     . . . +.0..0. +.  . . #
+#.....0.+ ....0   ..0 0 + .. . .+ ...0..  .  . +.0  00   .0000 #
+# .0 .0.+. .0.0.+ .0000.+. 0   .+   ..     .00.+..*0.0.+000 0  #
+# .000... 0*0. .+. ..0..+ .0 .  +.0  . 1   ...0 ..0.  .+. 0....#
+#...$0  +.00. 0.+.00..   .00000 +..          ..+. 0000 +0. 0*0 #
+# 000...+.000.0.+ 0 .  .+.00*.  +  0.       .0.+ 0  00.+$.0 0  #
+# ... . +  .. 0.+.. .   +. . .. + ... .   .  . +.  .. .+.......#
+#++ ++++++++++++++++.+++++++++++++++ +++++++++++++ ++++++++++++#
+# .. .0.+0.  0. +00    .+0  . 0 + .. .  + ..000+ ..00..+0.0.0.0#
+#0... 0 +* 00...+0.0 00.+. 0. . +0..0000+ 00.0.+.0. . 0+.00.0.0#
+# ..*.0.+  .0. 0...0.0..+  .   0+.0..0.0+ .0..   .. ..0  ...  .#
+# 00000.+00.... +.  ..  +.00 00.. . ....  ..0.0+.0. . .+..  0..#
+#...0 ..+.000 . +.00. ..+ .0... + 000.0.+  .0*0+ 00 00.+000 . .#
+# .   .*+ ..00. +  . 0  +00$0...+ ....0.+.  000+..0..0 +...   0#
+#  .    +       +   *   +0..0   +     . +   .0 +* 0000.+ *.0  .#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 34477
+0 8
+1 Demo 1
+2 ...bbblllbbblbbb.rrrr....B.r..llrrbbbrrr
+2 lllttrrrrtrrtrr..bbbbr.tltt..rr..t.l..l.
+2 ..t.rrtll..rrbbb.rrr..r....B...ll.......
+2 r..t..lt.rrr.brr....brrr..bbl..bl.trr.tt
+2 ..t.llllllllltt......bbllll.bllbllltlltt
+2 tllll.bbbll....ll.bbll..r.lllrrrrttrrrrt
+2 ttr....l.b.b..r.l...t.rrb..r.r...llll...
+2 ......tttlb.rrttttrb.lllttlttrrrrbrrttll
+2 lllltlrrrrrrrrrbbbbbbrrrrttllbb..tttrr.r
+2 rbbb.ttrrrr...trt.rrb..tt..rrrrr..trrrbb
+2 b.bb..tll.rrrbbllllll.t.r....l...trrtttl
+2 llllllbb.llllllllllllllttt.l......tt....
+2 ...rr.....r..trr..lll.....ttll.t.t..t..t
+2 ......r............lbbbbbbbbbbbbbbbb.ttt
+2 ttttttrrrttr.brr................rr..ttr.
+2 ...r...r..bb...b....L..tttt.rr...t..bb..
+2 ....t..r.l..t..rrrrrr.bbb.rr...r....tttr
+2 r..bb...b.tttt.............tll.......rrr
+2 .rrrr.tttttllllrrrrbbbbblllbbbblllbllttl
+2 lllllllll......rrttlllll..rrr..ttrr.....
+2 .......ttttt..........bbb..............r
+2 .r...t...rr.l..t.rr.....ll..blbl..lllbbb
+2 brr...llbb.lb.lb.lllttlllttttttt...tllll
+2 l.......bb..bbbb..bbbbbll..l..bb..bb.rrr
+2 bbbb.....lll.......L.r..tr.ttlllll.bbb.t
+2 tt...t..rrrrttrrb.lllllllt.rrrtt......t.
+2 .bllll.t..rr...rr....ttr.tt.rttttt.lbbb.
+2 ..l....rr.tttttt...l..bbbl......rrtttlll
+2 ll.bt.rrrrbb.....bbbbbbbblllbbbbbbllbbbl
+2 lllbb.rt.bllbb.lbbbbbrrr.bb...tll.b.lb.l
+2 t.rt..r.lllllttrtrrrbrrttlllt...ttttllll
+2 bbb...rl.tttrrr...lttlllll...lllbb..tt..
+2 r..rbb......t...rrb.....b....B.tt.llllll
+2 bbb.tttrttlrrrrrrllllttrttllltt.......bb
+2 rr..tr..brrtt...rt....rr..ttrrrrrrbbbbbl
+2 llllllt.rr..rtllltrrbrrrrtllttl.brttt...
+2 ...ll.r.t.........b.....................
+2 .tt....R......bb..rrrr....t.............
+2 .........l......t..r.tttt.lllb.trrrbbb..
+2 bl.b....lllll.b.tt...bb.trrrrbbbbbllllll
+2 l....b...tttt...ll...bbrr...lbb.lbbb..bl
+2 llbll.ttrrrtttttttt...........ttl.......
+2 r.bbbbbbbbbbbbrbb.rb.ttlllll.bb.......ll
+2 .................bbbl..rrtttt...t..T..bb
+2 r....l..tt......bb..lr......l..t...l..l.
+2 t.llb......trrb.llllll..bb.r...R....l...
+2 ..l..bbrr....bbbrr..................t.ll
+2 .....lllbb.......ttrrrrrrrbbbbbbl...t...
+2 ....L..trttl..ttllltttttrrrrrrtrrtrrrrrr
+2 rbbbbrrbbbbbb.lltll......l....l.....bbb.
+2 l.ttttrttlllllbb.ttrrrrrrbrrbrrrrrtttttt
+2 ttttlllbllllllt.rttttttttttt.....lllll..
+2 ................................t.l.....
+2 rtt..l.r.....b.....lr............bbrr..l
+2 l.l..rrr...ll...tt.lll.....L.rttlllll.b.
+2 ....
+
+uuid e03de563acc5a63819a3ac5a8ec8caa0
+
+leaderboard steps time

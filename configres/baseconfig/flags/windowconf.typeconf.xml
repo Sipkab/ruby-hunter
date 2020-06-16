@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config xmlns="bence.sipka.types.config" >
+
+    <declare-flag name="WindowStyle" >
+        <flag name="FULLSCREEN"	value="0x01"/>
+        <flag name="BORDERED"	value="0x02"/>
+    </declare-flag>
+    
+</Config>

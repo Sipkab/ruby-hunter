@@ -1,0 +1,67 @@
+n Rooms and More Rooms
+ldeutsch n Räume und mehr Räume
+D 4
+C 1
+p 5
+w 200
+M 0 Stars
+i Complete the rooms and
+i move on...but be sure to
+i get all you need first.
+ldeutsch i Mach jeden Raum fertig
+ldeutsch i und gehe dann weiter.
+ldeutsch i Aber pass auf, dass du
+ldeutsch i nicht irgendwo was vergisst.
+a Alexander
+m 22 17
+######################
+#                    #
+#                    #
+#1  Q               o#
+######## #######_##.##
+###000.#w#  0+    .  #
+##.....###  .+ _ _# b#
+#     .  ##Bs#########
+#   ^ +  R   000# Q  #
+#0    +  # !$sss#.## #
+#.    +  #**(**r#    #
+#G#++++##########  _ #
+# iiiiiii  &      _  #
+#       i  & _____   #
+#       i  &        _#
+#!      Y  &       E #
+######################
+y ?&y&&(   
+R 63898
+0 9
+1 Monsters and Gems
+2 ...trrrrrrbbrbbttllllllb.r.r....rrrrrrrr
+2 rrrrrr.r.bbb.tttrrbl.rrbbbrtlllllrr.....
+2 lllll.b.l.bbrllbrrrr.R.lllttllllbb......
+2 .......................t.b.tttlltlll....
+2 ..............rr..rbbbr.lb.b.l.rr.llt.l.
+2 ..l..utt...r...llbbbbbbbbrrrrrrrrt.t...c
+2 bl...........R.R.R.trr.ttrrrrrr..tttb.rr
+2 rrttll.rrrbbbbbll.t.llllllrr......llllbb
+2 brrrrrrrrr
+R 21708
+0 9
+1 Demo 2
+2 ......trrrrrrrrrr.lllbbb.ttlllllbrrrr...
+2 rrrrrrrrrr.......................trrrr..
+2 ........bbbbb.tttllllbrrrrrrrr.bbbrrtlll
+2 lllrr......ll.b.........................
+2 ......tlll.bl..bb.r.b...llrrr..r...R.ll.
+2 tll.tl...l..............................
+2 ..t........llt................l.........
+2 ..............bbbbr.tr.btt..l..llbb....l
+2 ll..bbbb.bbbb...............sr..........
+2 llbbbbbrrrrrrrrr........................
+2 ........................................
+2 ....tt......m..bb............rtrrrrrrrrr
+2 trtttt.bllltbrrrttll...l..bbbrb.lllllll.
+2 ..ll.....bbbrrrrrrrr........
+
+uuid 658e3d54cd545b9e53d72c09716b35a8
+
+leaderboard steps time

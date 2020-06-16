@@ -1,0 +1,22 @@
+n Slide Through
+D 4
+C 5
+p 0
+M 0 Dancing on the Ceiling
+i You need to move quickly here or
+i the stone will drop onto the exit.
+a Shark
+m 5 4
+#####
+#0.1#
+#..2#
+#E###
+R 62596
+0 0
+1 Demo 1
+2 ........l.b.l......l............bl......
+2 ...b..........
+
+uuid 824609caab4f5fc562b40a801da1ecab
+
+leaderboard steps time

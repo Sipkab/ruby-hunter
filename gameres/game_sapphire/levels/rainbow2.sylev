@@ -1,0 +1,78 @@
+n Rainbow II
+ldeutsch n Der Regenbogen II
+D 8
+C 1
+e 1158
+s 20
+M 0 Over the Rainbow
+i Nearly the same level as
+i 'Rainbow', but now
+i waste not more then
+i 6 sapphires.
+ldeutsch i Fast der selbe Level wie
+ldeutsch i 'Der Regenbogen', aber nun
+ldeutsch i darfst du nicht mehr als 6
+ldeutsch i Saphire zerstören.
+a Juergen, Ronald
+m 30 20
+##############################
+#$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+#$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+#$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+#$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+#$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+#$$$$$$$$$$$$QQQQ$$$$$$$$$$$$#
+#$$$$$$$$QQQQyyyyQQQQ$$$$$$$$#
+#$$$$$QQQyyyyy%%yyyyyQQQ$$$$$#
+#$$$QQyyyy%%%%bb%%%%yyyyQQ$$$#
+#$$Qyyy%%bbbbb$$bbbbb%%yyyQ$$#
+#$Qyy%bbb$$$$$$$$$$$$bbb%yyQ$#
+#Qyy%b$$$$$$$$$$$$$$$$$$b%yyQ#
+#Qy%b$$$$$$$$$$$$$$$$$$$$b%yQ#
+#$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+#$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+#$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+#$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+#$$$$$$$$$$$$$E1$$$$$$$$$$$$$#
+##############################
+R 6800
+0 1
+1 Demo 1
+2 ....rrrrrrrrrr.lllllllllltllllllllll.trr
+2 rrrrrrrrrrrrrrrrrrtlllltlllllllTllTlTlTl
+2 Tllllbrbrrrrrrrrrrrrrrrrrlllllllllllllll
+2 lrbrrllLrrrrrrrrrrrrrrrrtr..llllllllllbb
+2 rrrrrrrrrtr.B..T.....r.......t.r........
+2 ..t..r....TbbbltlBtttrrrrr...ttttttttttt
+2 ttlllllllllllllllllllllllllllbrrrrrrrrrr
+2 rrrrrrrrrrrblllllllllllllllllllllbrrrrrr
+2 rrrrrrrrrrrrrrrrrbllllllllllllllllllllll
+2 lbrrrrrrrrrrRlllblllllllbrrrRlbllbrlbRtt
+2 tttrrrrrrrrrrrtrrrrrbrrrrBrBr.BrB.rbrrrb
+2 llllrrbrr.b......l.r.b..B.l..lltlltllltl
+2 llltlllbllllbbbbbllllb...llllbrrrrbllllb
+2 rrrrRl...lbll.Rrrrrrrrrrrrrtrrrrrrrllttt
+2 tttrrrrrrrrrrbbbbbbblll.LTrr.t.rBttttltl
+2 llttlllllllllbbbbbbbbl..........
+R 86561
+0 0
+1 Alex
+2 ttttttt.rrrrrbrrrbr..brllltllltllllllltl
+2 llbrRllllbLrrrrrrrrrrrrrrrblllllllllllll
+2 lllLbrrrrrrrrrrrrrrrrrrr....lbllllllllll
+2 llllll..Lbrrrrrrrrrrrrrrr....l..bllllllt
+2 llblllllt...tt...lt........bbb..B.lB.ltl
+2 tlt...L................rbbrbBlBltltlTbbb
+2 rtrBttt.......................ltlttt.br.
+2 ..ltt....tttttrrrrrrrrrrrrrrrrrrrrrrrrrr
+2 rrTtlllllllllllllllllllllbLrrtrbrtrbrtrb
+2 rtrbrtrbrtrbrtrbrtrbrtrbrrblllllllllllLb
+2 rrrrrrrrrrrbllllLbrrrrbbBltlttlllllttlll
+2 llllllbltlbltlbltlblTbrrRllbltlblTbLRlbb
+2 rTbbblT.rbbrbrbR.ltllTbRttttttrrrrrrrrrr
+2 rrrrrrrrrrbbrbbbbrtrtrtrtRbllbbbrtrtrtrT
+2 bbbltlbllllllllllll.............
+
+uuid 0eb5397b6f6a7bbf6f1d93b48ff96920
+
+leaderboard steps time gems

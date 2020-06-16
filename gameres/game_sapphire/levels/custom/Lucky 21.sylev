@@ -1,0 +1,37 @@
+M 0 Action
+D 4
+n Lucky 21
+e 21
+a Alexander
+f Alexander
+i If your fast, you'll make it.
+m 15 17
+Q Q Q QQ*QQ  Q(
+~    *  +     +
+~$   +  ?     ?
+~+   ?     $   
+~?         + # 
+~    $ .1y ?##a
+~    +      B E
+~(   ?  (  *###
+~+      +  +   
+~?      ?  ?   
+~  *    (      
+~  &    +   (  
+~  ?    ?   +  
+~!          ?  
+aaaaaaaaaaaaaaa
+~ #############
+~ Y           $
+
+R 40880
+0 8
+1 Grab at Start
+2 ..LRR......ll..bbbbbbrrbbb.t.rrrbrrltlll
+2 lllllltll.Bllbb.r.srrrttt.llllbbbbbbrrrr
+2 rrrrrrrrrllllllllllllltttttttttrrrrrtrrr
+2 rrrrrrr
+
+uuid cb7ea894bda37004824b84a8041a09
+
+leaderboard steps time gems

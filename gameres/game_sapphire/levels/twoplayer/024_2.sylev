@@ -1,0 +1,98 @@
+n Don't feed the animals! (2)
+a Emerald Mine
+D 4
+e 170
+s 0
+i Therefore first let them out
+i then feed yourself
+m 64 32
+################################################################
+#     |**             ****      E      ****             **|    #
+#      |**           **||**           **||**           **|     #
+#       |**         **|  |**         **|  |**         **|      #
+#        |**       **|    |**       **|    |**       **|       #
+#         |**     **|      |**     **|      |**     **|        #
+#          |**   **|        |**   **|        |**   **|         #
+#           |** **|          |** **|          |** **|          #
+#            |***|            |***|            |***|           #
+#             |*|              |*|              |*|            #
+#              .                .                .             #
+#              c                c                c             #
+#                                                              #
+#                                                              #
+#.............. ................ ................ .............#
+#...........^      ..........      ^..........^      ..........#
+#.............. ................ ................ .............#
+#...........      ^..........^      ..........      ^..........#
+#.............. ................ ................ .............#
+#...........^      ..........      ^..........^      ..........#
+#..............................................................#
+#..............................................................#
+#..............................................................#
+#..............................................................#
+#..............................................................#
+#..............................................................#
+#..............................................................#
+#..............................................................#
+#..............................................................#
+#...............................1..............................#
+#...............................2..............................#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 74650
+0 8
+1 Demo 1
+2 ......l.l.b.lrlrlrlrltltl.l.l.l.l.ltltlt
+2 ltltltl.l.l.l.lllll.l.lrlr.r.rr.tlt....t
+2 .t.t.l.....r.......b.btbtltb.b.l.l.l.l.l
+2 .l.l.l.ltttt.t.t..................l.ltlt
+2 btb....ttbtbtbtbtb.b.b.b.bbtbtbt.t.ttttt
+2 .t.....r.l...b.b.b.b.btbtbtr.r.rbrbrbr.r
+2 .rt..rbrbrbrr.r.....r.rrrt.t.trtrtrt.t.t
+2 .l.l......l.l...r......................b
+2 ...l...rlrlrlrl.lllll...tl..tt.t..t...t.
+2 ..r.rlrlrrrrrbrbrr.rrbrbrblrlrlrl.l.l.l.
+2 l.l.l.l.b.b.b.b.r.r.r.r.....r.r.r.......
+2 ...t.....t.....t.t.............l...r.r..
+2 ...............................r...l....
+2 t.t.t.t.t.t..........l.........r.......l
+2 b.l..r..b.l.l.l.r.r.r.r.t..........b....
+2 b.....r.......ll.btb.b.b.t.t.t.tbtltlblb
+2 lrlr.l.l...b.brbrlrlrlrbrb.brbrr.r.rlr.r
+2 lrlr.rtrtr.r.r.r.....rr.r.r.rrlrl.ltltlt
+2 ltltltlt.t...l.l.r.r.r..blblb.b.t.t.t.t.
+2 t.ttb.b.b.b...r.r.r.r.r.....l.l....br...
+2 r...ttt...........r.r......l............
+2 .b.r.r.r.r...t...b.b...t.l.l.l..tttlrl..
+2 lrl.lblrlrl..b...b.b....b.b.b.b.b.b.b.b.
+2 b.b.bbbbb.blbl...b..rtrtrtrtr.rbrlr.rrrb
+2 r.rbrrrrr.r.r.r.r.rrrrr.r.r.rlr..l.t.tr.
+2 r.r.r.r.r.r.r.r.l.l.l.l.l.l.l.l.l.l.l.l.
+2 l...l.l.l.l.l.l.l...t...............t...
+2 ........................................
+2 .......r.r.r.r.tltltltltltlt.l.l.l......
+2 .............tltltlltltltltlt.lblltltltl
+2 tltltbt.t.t.t.t.t.r.rrrbr.t.t.r....bb..r
+2 b.b.r.r.rRt.tRl.lRl.lRlRl.l.lRl.lRl.lRl.
+2 lRl.rRr.rRr.rRr.rRr.rRr.rRr.rR..bRb..R..
+2 .R...R...RR.RRR.RRR.RRR.RRR.RrRrRlR.RbRb
+2 RbRbRbRbRtRtRtRtRt.tRlRlRlRlRlRlRlRlRlRl
+2 RlRlRlRlRlRlRtRtR.R.R.R.R.R.R.R.R.b.r.b.
+2 r.r.r.b.b.l.l.ltllll.lblb.b.b.b.b.r.r.r.
+2 r.r.r.r.r.r.t.tbtbtrtrt.trtrtrt.tbtltltl
+2 tltlt.t.l.l.brbrbrbrlrl.l.l.b.b.lllllltl
+2 tlt.t.t.t.trtrtrlrlrl.l.l.l.l.llllrlrlr.
+2 r.r.r.r.brbrbrbrb.b.r.b.b.bllllllll.l.l.
+2 l.l.lrlrlr.rtltltbtbtbtb.bbbb.btbtbtbtrt
+2 rtrtrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrtrtrtr
+2 rrrrrrrrrrbrbrbrbrbrrlrlrlrltltlrltltltt
+2 tttltlltltltltltttttttlrlrlrlrlrltlrlrlr
+2 lrlrrlrlrlrlrlrlrlrlrlrlrlrlrlrlrlrlrl.l
+2 .l.l.l.l.l.l.l.l..............
+
+uuid f6f948c469cad7125ab2aabe3a9ac5fe
+
+leaderboard steps time gems

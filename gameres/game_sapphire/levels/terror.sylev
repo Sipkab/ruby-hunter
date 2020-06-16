@@ -1,0 +1,74 @@
+n Brain Terror
+ldeutsch n Nervenkrieg
+D 7
+C 2
+e 45
+E 0
+T 2000
+p 0
+M 0 We don't need Another Hero
+i It's your decision,
+i which door you want
+i to take first.
+ldeutsch i Es liegt bei dir,
+ldeutsch i welche Tür du als
+ldeutsch i erste nehmen willst.
+a Ronald
+m 61 30
+#############################################################
+#   0 0 ##############$##$##$##0##$###$####$##0##############
+#   . .              ...........................      .0.   #
+#   ...g             QQQQQQQQQQQQQQQQQQQQQQQ         . 0.   #
+#             Q      ....................*..        .000.   #
+#+#####################++##+###+#+###+####+###Q#########    #
+# ########################## #0#0#0#0#0#0###0###0#0#0#0#    #
+#                            ...........................    #
+############################ ################################
+#            #             # #         # #0#0#0#0##         #
+#   5        #             # #         # ........ # ####### #
+#   +   5    #             # #         # ######## # #*#   # #
+#  5  * + 8* #         ### #R#         # #        # #.## ## #
+#  +  .    . #         #r# # #         # # ######## # #  #  #
+#            #       ###+###R###       # #          #  # #  #
+#8+    5   5 #########         ###     # #   ######### # #  #
+#  8+  +   + .     B B  !1     +y#     #r#   #       # # #  #
+#         5  #########         ###     #!######### # # # #  #
+# + *8+   +  #     ###         #########+#         # # # #  #
+# 7 .        #     #b+         Y Y       ########### # # #  #
+#     8+     #     #####G###+###########               # #  #
+#  8+     *  #         # # #g#         # ############### #  #
+#        8.  #         #G# ###         #                 #  #
+#            #         # #             # #################  #
+#            #         # #             #                    #
+#            #         # #             # ##0000000###########
+#y           #         # #             #  $.......$         #
+##############0000000### ###00000000000######################
+#E  **********.......   b   ...........******************  E#
+#############################################################
+R 32541
+0 9
+1 Demo 1
+2 ...lllbbb.stt.......lbblLrtttlllllll..lt
+2 tttLttltllll........l..bbBtt.....l.llllb
+2 bbtt...b..bbbb.bb.bb.rrrttlllbbbbbbbbbrr
+2 rrrrrrrrrt..ttt.t.l.Lrtttttrrrrrrrrrrrrr
+2 rrrbbbrrrrrrrrbbbbbbbrRlttttttrrrrrrrrrr
+2 rrrrttttttlttTbbrbbbbbblllllllllllll.lbb
+2 bbrrrrrrrrrrrrrrrrrrtttttttttttrttttllll
+2 llllbbbbblllllllllttrrrrrrrttlllllllllbb
+2 bbbbbutt..b....bbbbllblllllllllltttttttt
+2 ttrrrrrrrrrrrrrrrrrrrrrrrrrrrrtt.rttllrB
+2 tlllblllllllllblllllllllllllllllllllllll
+2 llllllllllllllllrrrrTRrrrrrrrrrrrrrrrttT
+2 Lbbrrrrrrrrrrrrrrrrrrrrrrrrrrrrttrrrrrbl
+2 llblllllltt.LbbblllttLbb...lllllttLbb...
+2 llllttLbb...lllttLbbllllttLbb...lllttLbb
+2 ...llrrrrrrrrrrrrrrrrrrrrtrrbllllBlllllB
+2 llllBllllllBlllBllllllllllllllllllllrrrt
+2 ttllllb..trrblllrr..llllbbbbbrrrrrrrrrrr
+2 rrrrrrrrrrrrrrrrbbbbbbbbbbllllbbbbbbbrrr
+2 rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr........
+
+uuid 05bb43cbe41025d89c12564826eab720
+
+leaderboard steps time

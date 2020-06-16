@@ -1,0 +1,49 @@
+n Rock Machine
+ldeutsch n Steinmaschine
+D 3
+C 7
+p 0
+d 25
+M 0 Nobody does it Better
+i A dispenser, of course.
+i Get the rocks out of your
+i way then use the next.
+i 
+i Hint: There is a way to
+i get all the bags with
+i one rock.
+ldeutsch i Ein Steinspender, natürlich.
+ldeutsch i Räum jeden Stein aus dem
+ldeutsch i Weg und benutze den nächsten
+ldeutsch i Stein für den nächsten Sack.
+ldeutsch i 
+ldeutsch i Es gibt aber auch eine
+ldeutsch i Möglichkeit, alle Säcke
+ldeutsch i mit einem Stein aufzumachen.
+a Alexander
+m 7 10
+#######
+#  dE #
+# 1   #
+# .@. #
+# .@. #
+# .@. #
+# .@. #
+# .@. #
+# .@. #
+#######
+R 50541
+0 9
+1 Demo 1
+2 ...b.Rb.Rb.Rb.Rb.Rb.Rtt.tttt.rrt........
+R 50633
+0 1
+1 Demo 2
+2 b.rRlrbtrrlblrRl............rrrbll......
+2 .................rrb...ll...b.t.........
+2 .rbl...bt..t...............rbbrtlttrr...
+2 ttttl..........
+
+uuid dfd20fd38098b3248bda3d0cf590492b
+
+leaderboard steps time

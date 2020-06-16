@@ -1,0 +1,59 @@
+n Easy Money
+ldeutsch n Leicht verdientes Geld
+D 3
+C 3
+p 0
+M 0 Penny Lane
+i You don't need cushions to move
+i bombs. Just move them forward
+i and drop them into place.
+i 
+i Be sure to collect your free gems,
+i too!
+ldeutsch i Du brauchst hier keine 
+ldeutsch i Polster um die Bomben
+ldeutsch i an die richtigen Plätze
+ldeutsch i zu bringen.
+a Alexander
+m 17 17
+#################
+#$.............$#
+#.....*....10...#
+#...Q.....& &...#
+#.........&Q....#
+#.&.&.....&&&...#
+#.&.&...........#
+#.&&&...E...Q...#
+#.............*.#
+#...Q...........#
+#...............#
+#.....&.&.......#
+#.....&.*....&.&#
+#..*..&&&....&.&#
+#............&&&#
+#$.............$#
+#################
+R 50438
+0 8
+1 Demo 1
+2 ....llllllltlllbrr.bbbbtttt....rrbl.t.l.
+2 .bb..r.b.bllbrrrrrtrtttttrrrrrbltrrrblll
+2 b.bllbrrrrbbbbbbbbttttttltllbr..r..rbbb.
+2 ..bb.r..bb.llbrrbllllltttllltttlltllbrrr
+2 ll..r..rbbb.rrbllllllbbllttttttt.rtrrrrr
+2 rr.......
+R 19873
+0 8
+1 Demo 2
+2 b..tt...................................
+2 .......................rrbl.........bbll
+2 brr.......tttlllllllllbbbb.ttttrrb.l.rr.
+2 ..brbbbbbbbb.r.tltttlltt.ltt.bbllt.bbbrr
+2 rrr..rrrrrr....rr.tbbbbbttttttltllbrrrrr
+2 ttttttbbbbbbbbbbbbllbrrblllllltttlllbrr.
+2 lllllbblltttttttttttttt.bbbbbbrrrrrrr...
+2 .....
+
+uuid 446162b4af9bd8cbffa794d6de4ebf93
+
+leaderboard steps time

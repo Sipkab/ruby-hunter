@@ -1,0 +1,39 @@
+n Rolling Stairs
+ldeutsch n Rolltreppe
+D 5
+C 4
+d 1
+M 0 Imperial March
+i Can you block an
+i avalanche with
+i your body only?
+ldeutsch i Kannst du eine Lawine
+ldeutsch i nur mit deinem Körper
+ldeutsch i aufhalten?
+a Ronald
+m 11 16
+###########
+#        d#
+#         #
+#         #
+#         #
+#         #
+#         #
+#        |#
+#       | #
+#      |  #
+#     |   #
+# 1  |    #
+#   |     #
+#  a      #
+# @E      #
+###########
+R 31340
+0 1
+1 Demo 1
+2 .....r..........................t..bb...
+2 .....bll..bb.rrr.........
+
+uuid 1f2d06e6e4b3d4a0ae638b1f1b05b4d2
+
+leaderboard steps time

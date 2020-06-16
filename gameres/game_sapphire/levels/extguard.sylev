@@ -1,0 +1,48 @@
+n Guarding the Exit
+ldeutsch n Ausgangswächter
+D 5
+C 5
+E 0
+M 0 Staying Alive
+i You'll soon notice that
+i killing the lorries won't
+i help in this situation.
+i It is the best to try
+i to mislead them.
+ldeutsch i Du wirst schnell bemerken,
+ldeutsch i dass du die Wagerl nicht
+ldeutsch i zerstören darfst.
+ldeutsch i Vielleicht hift es aber, sie
+ldeutsch i abzulenken.
+a Alexander
+m 15 17
+###############
+#.0.....Q....*#
+#...$..0......#
+#.........*...#
+#$....1.......#
+#......$...$..#
+#....*........#
+#.Q......0....#
+#.............#
+#......*....$.#
+#.............#
+#             #
+#      5      #
+#     8E6     #
+#      7      #
+#             #
+###############
+R 79780
+0 9
+1 Demo 1
+ldeutsch 1 Demo 1
+2 ..lttl..bblllrrrrrrbbllrrrrrtttrbbrrtttt
+2 bbbbbbbblllllltttr.btrbbrbll.l..llbb....
+2 .b..l............ll....tt.rrrrrrrrb.....
+2 .llllbrrbbrrbbb..ttttll.r..b.........b..
+2 tt......tllllllbbbr........
+
+uuid 8b46ab5e73f3384cb5d378122b07819a
+
+leaderboard steps time

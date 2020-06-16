@@ -1,0 +1,32 @@
+n Green Saloon
+ldeutsch n Der gr�ne Salon
+D 2
+C 5
+E 0
+s 0
+M 0 Drive
+i Someone seems to have
+i locked the door.
+ldeutsch i Irgend jemand scheint die
+ldeutsch i T�r versperrt zu haben.
+a Reinhard
+m 18 10
+%%%%%%%%%%%%%%%%  
+%      Q       %  
+%      .       %  
+%   *..*..*    %  
+%   .......    %  
+%              %  
+% %       %    %  
+% %%%   %%%    %##
+% % %   %g%   1G E
+##################
+R 18965
+0 1
+1 Demo 1
+2 ...l.tttttlllllllllrrrr.b.t.lltt.rr.r..r
+2 .bb....bbbbrb.tttrr.bbbrrrrr..........
+
+uuid d15368e418254e0644674f20c46f8123
+
+leaderboard steps time

@@ -1,0 +1,282 @@
+n Cave walk
+ldeutsch n H�hlenwanderung
+D 5
+C 2
+e 137
+s 0
+Y
+M 0 Calm
+i Walk from cave to cave
+i and find little puzzles.
+ldeutsch i Wandere von H�hle zu
+ldeutsch i H�hle und finde die kleinen
+ldeutsch i R�tsel.
+a Erik
+m 80 70
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++              +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ ++++++++++++                       ++++++++++++++++++++      +++++++++++++++++
++ ++++++++++++++++++++++++++++++++++                +++++ ++++             +++++
++ +00                       +++++++++++++++++++++++ +++++ ++++++++++++++++  ++++
++ +$$$+++++++++++++++++++++ ++++++++ ++++++++++++++ +++++ +++++++++++++++++ ++++
++ +$$$+++++++++++++++++++++ +++++   0..++++++++++++ +++++ +++++++++++++++++ ++++
++  $$$+++++++++++++++++++++ +++++ . ...  ++++++++++ ++++  +++++++..++++++++ ++++
++++++++++++++++++++++++++++ +++++@.....+                 +++++..0.0.0++++++ ++++
++++++++++++++++++++++++++++ +++++.@....++++++++++++++++++++++.0.0.*0.++++++ ++++
+++++                 ++++++ +++++..@...+++++++++++++++++++++.*0*.*0.*.+++++ ++++
+++++ +++++++++++++++     ++  +++++++++++++++++++++++++++++++0**00.00.0+++++ ++++
+++++ +++++++++++++++++++ +++ +++++++++++++++++++++++++++++++..*..0**.++++++ ++++
+++++ ++++++..+* o+++++++ +++ +++++++++++++++++++++++++++++++0****.*.0++++++ ++++
+++++ ++++++* o+Y+.++++++    Y       +++++++++      +++++++++++**.*.++++++++ ++++
+++++ +++++.+Y+....++++++++++ ++++++    ++++++ ++++ +++++++++++.++++++++++++ ++++
+++++ ++++.........++++++++++       +++ ++++++ ++++ +++++++++++ ++++++++++++ ++++
+++++ ++++.....++++++++++++++++++++ +++ ++++++ ++++ +++++++++++ ++++++++++++ ++++
+++++ ++++....+* o+++++++++++++++++ +++ +++%++.+h++ +++++++++++ ++++++++++++ ++++
+++++ +++++....+Y+w++++++++++++++++ +++ ++.......++ +++++++++++ +++++++++++  ++++
+++++      ........++++++++...+++++ +++  +.+++++.++ +++++++++++ +++++++++++ +++++
++++++++++++Y+.....+++++++.....++++ ++++ +.+++++.++ +++++++++++ +++++++++++ +++++
+++++++++++* o+....+++++++.0...++++ ++++ +.+++++.++ +++         ++++++++++  +++++
++++++++++++++.Y+..   ++++.....++++ ++++ +.......++ +++ ++++++++++++       ++++++
++++++++++++..* o+.++     ..7.+++++ ++++ ++++++++++ +++ ++++++++++++ ++++++++++++
++++++++++++++++++++++++++....+++++ ++++ ++++++++++ +++ ++++++++++++ ++++++++++++
++++++++++++++++++++++++++..+*+++++ ++++ ++++++++++ +++ +++++++++..+ ++++++++++++
+++++++++++++++++++++++++++++++++++ ++++ ++++++++++ +++ +++++++.0... ++++++++++++
+++++++++++++                       ++++ ++++++     +++ +++++++....... ++++++++++
++++++++++++  +++++++++++++++++++++++       +++ +++++++ +++++++.......         ++
++++++++++++ ++++++++++++++++++++++++ +++++  ++ +++++++ ++++++++...<..  ++++++ ++
++++++++++++ +++++++++++++++++++++*.+ ++++++ ++ +++  ++ ++++++*+....... +++++  ++
++++++++++++ +++++++++++++++++++0.....++++++ ++ ++ _    ++++++++......+++++++ +++
++++++++++++ ++++++++++++++++++.*.....y+++++  + +  Q   ++++++++++....++++++++ +++
+++++0+0++++   ++++++++++++++++...12.00++++++  Y   .   ++++++++++++++++++++++ +++
+++++0+0++++ +    +++++++++++++...00.00++++++ + +      ++++++++++++++++++++++ +++
+++++$.$++++ ++++ ++++++++++++++y000*0+++++++ + ++    +++++++++++++++++++++++ +++
++++$$ $$+++ ++++.+000+++++++++++000*++++++++ + +++++++*+++++++++++++++++++++ +++
++++.. ..+++ ++0+.+*0*+++++++++++++++++++++++ + ++++++++++++++              + +++
+++++. .++++ ++*0.000*+++++++++++++++++++++++ + ++++++++++++++ ++++++++++++   +++
++++++_+++++ ++0**00*.++++++++++++             Y               ++++++++++++++++++
++++++ +++++ ++...0*..       +++++ ++++++++++++ ++++++++++++++ ++++++++++++++++++
++++++ +++++ ++.*.....++++++   +++ ++++++++++++ ++++++++++++++ +++++++.*+++++++++
++++++ +++++ +++00000*++++++++  ++ ++++++++++++ ++++++++++++++ ++++++.*0*++++++++
++++++ +++++ +++++++++###++++++ ++ ++++++++++++ +++++++**+++++ ++++++*0*.  ++++++
++     +++++ ++++++++##Q##+++++ ++ +++...++++++ ++++++****++++ +++++++*.++ ++++++
++ +++++++++ +++++++##Q#Q##++++ ++ +++.+.0..+++ +++++**Q***+++ +++++++++++ ++++++
++ +++++++++ ++++++##Q###Q##+++ ++ ++..*++.++++ +++++******+++ +++++++++++ ++++++
++ +++++++++    +++#Q#####Q##++ ++ ++0...+...++ ++++++*****+++ +++++++++++  +++++
++ ++++++++++++ +++##Q#####Q##+ ++ ++*..*+++*++ +++++++**.++++ ++++++++++++ +++++
++ ++++++++++++ ++++##Q#+###Q## ++ +++0.+00+.++ +++++++++ ++++ ++++++++++++ +++++
++ +++++++###++ +++##Q##++###Q#   Y  ++......++ +++++++++ ++++ +++++++++++  +++++
++ ++++++##Q##+ ++##Q###+++#Q## ++ + ++.+++++++ +++++++++ ++++ ++++++++++  ++++++
++ +++++##Q#Q:: ::(Q##.....Q##+ ++ + ++..  ++++           ++++ +++++++++  +++++++
++ +++++#Q####+ ++###..0.Q..+++ ++ + +++++ ++++++++++ ++++++++ ++++++++  ++++++++
++ +######Q##++ ++++.....Q...++ ++ + +++++ ++++++++++ ++++++++ ++++++++ +++++++++
++ +#QQQQ##Q##+ ++++.Q.......   ++  Y      ++++++++++ ++++++++ ++++++++ +++++++++
++ +#Q###Q##Q#+ +++++........+++++++ ++++++++++++++++ ++++++++ +++++ 0  +++++++++
++ +#Q####Q#Q## +++++++.....++++++++ ++++++++++++++++  +++++++ +++++ .  0 +++++++
++ +#Q##QQ###Q# ++++++++++ +++++++++ +++++++++++++++++ +++++++ +++++    .   +++++
++ +#Q#Q####Q## ++++++++++ +++++++++    ++++++++++++++        Y   +   |      ++++
++ +#Q#Q*+#Q##+ ++++++++++ ++++++++++++          +++++ +++++++ ++ +      |   ++++
++ +#Q###+Q##++ ++++++++++ +++++++++++++++++++++       +++++++ ++ +    |     ++++
++ +#QQ+QQ+++++ ++++++++++ +++++++++++++++++++++++++++++++++++ ++ ++      |  ++++
++ +###Q##      ++++++++++ ++++       ++++++++++++++++++++++++ ++  +++ +@@ ++++++
++ +++++++++++++++++++++++ ++++ +++++ ++++++++++++++++++++++++ +++ +++ ++++++++++
++      +++++++++++++++++       ++++   ++++0000+++++++++++++++ +++ +++ ++++++++++
+++++++                   ++++++++++ + ++++0*..                +++     ++++++++++
++++++++++++++++++++++++++++++++++++E+E++++0000++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+y ~        
+R 75469
+0 8
+1 Demo 1
+2 ..........r........r....r.r..b..r.b.b.b.
+2 bbb.b.b.bBbt.t.ttttt.tlrl.ltl.lrblblrlbl
+2 ttrtt.tbtrrrrtrtrrrtttttttrrrrtrrrrrrrrr
+2 rbrrrrbbrbbbbbbrrrbb.b.brb.bbbbbbbbbblbl
+2 bllllllllllllllllllblblbbbbbbbbbbbbbbbbb
+2 bbbbbbbbbrbrbrrrrrrrrrrtrtrttltltl.t.tl.
+2 lrlrlr.rtrttttttrlllltltrrrrt.t.l.t.t.r.
+2 r.b.r.r.l.tlllllbtblblrbrbbbbbl.bbbrbbbb
+2 rbrbrrbrbrbblblblllllllllllltltltttttttt
+2 ttttttttttttttttttrtrtrrrrrrrrrrrrrrrrrr
+2 .r.r.r......trt.t.tttt.t.t.t.tbbbbbbbbbr
+2 brrrrlrlr.r.rrrrrrrrrrrrrrrrrrrrrrrrrrrb
+2 rbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2 bbbbbbbbbbblblllllllllllllllllllllllllll
+2 .....l......l.l.l.l.l.lll.l.l.lLl.lr.rrr
+2 rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrtrtrtttttt
+2 tttttttttttttttttttttttttttttttttttttttt
+2 ttttttrtrtrrrrrrrrrrrrrrrrrrrrrrbrbrrbrr
+2 trtrttttttttttttrttrttttlrltltllllllllll
+2 blb.b.ll....b...................l.l.l.l.
+2 lttl...t.l.l.l.l.....l..................
+2 .l.l.b.....r........t.r...........R.b.b.
+2 br.r.r.r.r.lt.t.l.l.l.l.r.r.r.rtrtrttttt
+2 tttttttttttrtrrrrrrrrrrtrrtrrtrttttrttrt
+2 tttttttttttttttttttttttttttltt.l.llltrlr
+2 llllllrlrlrlbrbrrrbrrrbrbrbrbbbrbbbbbbbb
+2 bbbbbbbbbbbblbbbbbbblbbllblblblllbbbblll
+2 blblblblbbrbrbbbrbrbrbrrrrrtrrrrrrbrbrlr
+2 brbrbbbbblblbbbblblbtblblblblltlltllllll
+2 llllllllllllblbllllllblllllbllllllllllll
+2 ll.lrlrlr.rrrrrrrrrrrrrrrrrrrrrbrbbbbbbb
+2 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2 .btttttttttttttttttttttttttttttttttttttt
+2 ttttttttltltllllltllllllllllllllllllllll
+2 tltltltltltlttlttrttttttlttttt.t.tblbtr.
+2 b.b.bbbbbr.b.rrrrrb.r...r.r...r......t.t
+2 .r.......t.......rrr.r....b.b.....r.r.r.
+2 r.r.t.t.t........l....lt...r...b.....b.b
+2 .b......rrb.b.bb....bl.....b..lllltt....
+2 rrr......r......................l....r..
+2 ...........t....r.....t.....t.l.l.l.l.b.
+2 b.b.b.r.r.r.t.....t.....t...t.t.....l.l.
+2 l.t.t...r.r.r.l.llll........r.rrrrrrbbbb
+2 b.rrb..ltltlttltltltl.lb.brlrlt.rrrrr.rt
+2 trtrrttrtrttttttttttttttttrtrtrrrrrrrrrr
+2 rrtrtrtttttt.t.ttt......................
+2 ........................................
+2 ........................................
+2 ...b.b.b.b.b.l.l...r......t.t.t.t.t.t.t.
+2 .............R.....R...............r.t.t
+2 .t.t.t.t.t...t.........r.......r.....T..
+2 .r...r.......t.t.r.r.t.......t.........b
+2 .................l...t...l.l.l.l.t.t....
+2 .l...b..................................
+2 .................r.r...t.r.r............
+2 .....l.l.l...r.r.r.....................b
+2 ...l...r...b.....b...r.r...........B.t.t
+2 .t.l.l.l.l...b.l...........b.....b......
+2 .........b.b.r...b.b.b.b.b.b.b..........
+2 ........................................
+2 b.b.bbbbblblblblblblbll.l.l.l.lllblblbbb
+2 bbbbbbbbbbbbblblbllllblbblblblblltltttll
+2 ltttlllll.ltttlttlttttlltltllllttttlt.t.
+2 trl.tttrt.ttttttttttttlttttttltlttltltlt
+2 ttllllllllltlllllllllltltltlllllltlltllt
+2 ltllllllllltllllllllllllllllllblblblblbl
+2 blblbbbbbbrbrbrbrbrbrbrbrrrrrrrrrrrrtrt.
+2 t.t.t.tbtbtltrt.ttt.trtrtrtbtbtbt.tlt.tr
+2 t.ttttt.trttttt.tlt.trt.tbtbtltltltttttt
+2 tttlttttttttt.tlt.trtbtbt.trttt.trt.tttr
+2 t.ttt.tltrt.tbtbtltltltbtb.bbbbrbrrrrrrb
+2 rbbbrrrrrrrr.b.r.r..............r.......
+2 ......t.t.t.r.r.....b...........t...l.l.
+2 b...r.r...........b.....................
+2 ..........R.l.l.........r.r.r.b.b.b...t.
+2 t.llllltl.llllllllttllllltlltltttlllllll
+2 lltltlt..rbrbrblllllllllltltltlttttttttt
+2 tttttttttttrtrrtrrrrrrrrrrrrrrrrrrrrrrrr
+2 rrrrrbrrbrrrrrrbbrbrrbbbbrbrrrrrrrrrrrrr
+2 rrrrrbbrrrbrrbrbrbbbbbbbbrbbrbbbbbbbbbbb
+2 bbbbbrbrrrrbbbbrrbbbbbrbrrbbbbb.r.bbbbbb
+2 bbbbb.b.b.b.b.b.blb..lrlrl.l.rlrlrlrlr.l
+2 .lllllllllllllllrbrbr.rbrtrtrtrrrrrrrrrr
+2 rrrrrrrrrr.r.r.r.r.rrrrrrrrrrrrrrrrr.r.r
+2 .r.r.r........t.t.r.rrrtrr.r.t.r.r......
+2 ....r.r.r.rrrrrrrrrrrrbrrrrrtrtrtrtrtrtb
+2 trtrtrrtttttltltltltltlrltlllllttltltltl
+2 tltlrlrlrlrlrtrtrtrtttrttttttrrrrrtrtrtr
+2 trtrtrtt.r.t.t.ttrttttttttttttttltttltlt
+2 ltltltltllltlllllllltlllllllllllblblblbt
+2 blllbllllllblblblblblllbllllll.l.lllllll
+2 lltltlllll.lbl.ll.ltll..t........l...t..
+2 ...l.l.l.l........l...b.r.....b.r.....b.
+2 r..ltbtbtb.rrr.b..rtrtrtbrrrrrrrrrrbrrrr
+2 rrrrrrrrtrtrtrtrtrltltltltltllllllllllll
+2 lllllllltlllllllllltllllllllllllllllllll
+2 lllllllllllllltlllllllllltllllllllllllll
+2 llblblblblblbbbbbbbbbb.b.............b.b
+2 .brb.b.r.r...r.r.rrr.rrr.r..............
+2 .tttttt.................................
+2 ........................................
+2 ..b.b.r.t.t.....l.b.l.....b.......r.r.r.
+2 ....t.t.t.t.......b.b.b.l.l......r.r....
+2 r.r.t.ttttrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+2 rrrrrrrrrrrrr.rbrrrbrbbbbbbbbbbbrrrrbbrb
+2 bbrbb.brbrbrrrrrrrrbrbrbbbbbbbbbbbbbbbbb
+2 bbblblblllllllllllllllllllllllllllllllll
+2 lllllllbllllbblblbbbbbbbbb.bbbbbbbbbbbbb
+2 bbbbbbbbbbbrbrbbbrrrrbrb.b.bbt.tttltllll
+2 tlttttttttttttttttttttttttttrtr.brrrrbrr
+2 brbrb....b...........b.b.b.b.b.b.b.b.b.b
+2 .b.b.b.b.b.b.b.b.b.bbb.b.bbb.bb..b....b.
+2 l...r.r.r.tL............................
+2 ..b.r.............r.....b.....t.l.......
+2 t...........L.....................t.....
+2 ..........r.........t...l.l.b.t..tr.rl.l
+2 .r.r.rbrb.r.r.r.r.rrrrrbrbbrrrrrrrbrrrbr
+2 bbbrbrbbbbbrbbbbbb.b.b.b.b.b.b.rb....btb
+2 tbt.t.t.t.tttt..trtr.rbrrrrbrbrbbbbbbbbb
+2 bbbrrrbrbbrrrrrrbrrrrrrrrrrrrbrrrrrrbrrr
+2 rrrtrrr.rtr....ttttlttttlttttttttttttt.r
+2 .rtrrrrtrtrt..t.....b.l.l...............
+2 .............t...l.l...t.t......r.r.r.t.
+2 t.t.t.t.t.l.......t.t.l.l.l.b.l.b.r.b.r.
+2 ..b.r.r.t.r...l.b.b.b.b.b.l.lrlrlrlr....
+2 .......llb.bbblblblbtltltltllltltltltltl
+2 ttttttttttttttttttttttttttttttttttttrtrt
+2 rtrttttrtrtrtrttttttttttttttttttltltltlt
+2 ltblblblbl............b...l.l.l.l.b.b.b.
+2 b.r.r.r.r.r.r.t.....t...t...............
+2 ......T.b.b.b.l.l.l.l.l.l.t.t.t.t.r.r.r.
+2 r.r.r........................ll.lblbl.lt
+2 l.b.b.b.b...t.t.r.r.t.r.r.t.r.ttrrtrrrtr
+2 trtbtbrbrbrbrbrbbbbbbbbbbbbbbbbbbbbbbbbb
+2 bbbbbbbbbbbbbbbbbb.b.b.b.l.lllbllllblblb
+2 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2 brbrbrrrrrrrrrrrrrrrrr.tltltbbbbbbblblrl
+2 blbbrbrbrbrbrrrbrbrrrrrrbrbrbrbrrrrrbrbb
+2 bbrbrrrrrbtrtrtbtbtb.b.rtrlr.r.t.t.t....
+2 ...ttt.t.l.t..l..ttt....t.t.r.r.r.r...l.
+2 .b.b.r.r....r.r....rb.b.r..r..btb.....r.
+2 b.r...b...l.....l...b.t.t.t.l.t.t.t.r.r.
+2 .........t...b..........brbb.b.r...btbtl
+2 tb.b...tlttlrt.ttlttttrtttrtttrrtttrrrrt
+2 trttttlrtttttttl.tltltlt...lb.l........l
+2 ...l...t.l.l...b...t.r.r.b.l.l.r.rtrrrrb
+2 rbrbbbbrbbbbrbblbbblllbbllbblbbllllbbbbb
+2 bbblblbrbrbrlbbbbbblbbbbblbblblblblbtbtl
+2 tllltlttttttllltltltltllllllllllblblllll
+2 lllblllltbllllllllllllltlllltllllllltltl
+2 tltttltltlttltltltltltltlt.l.l.l......b.
+2 b.blbbbblblblbbllll...b.b......b.l....b.
+2 b.bl.b.b.l..bbbbbbbbrbrbrbrbrrtrtr.r.r..
+2 .l.lblbllllllbllllllblllllllllllllllllll
+2 lllllllllltttlllllllllttltltltltlttttttt
+2 tttttttt.t.ttttttttttt.ttttttttrtrtrtrtt
+2 ttttr.r.r.r.t.t.t.......................
+2 ........................................
+2 t.t............t.....t......t.tt.....t..
+2 ...t....t...t...........................
+2 .....................l....t.....r.......
+2 ..........t.t........t.......t....RL....
+2 t.t................................t....
+2 ......b.b.b.l.......b.b.b.b.b.b.........
+2 .........b.b.b.r.....b.b.b.b.b....b.l.l.
+2 l.l.lbblblblblbbbbbbbbbbbbbbbbbbbbbbbbbb
+2 bbbbbbbbrbrbrbr.rrrbbrrrrrrrrrrbrrrrrrrr
+2 rrrrrrrrrrrrrrrrrrtrrrtrtrtrtttrtttt.t.t
+2 tt.trtrt..t..trr...t...r................
+2 ....l.....b.......................l.....
+2 ........................l.l.l.t....btllb
+2 ..tltltlrlrlrtr.b...t.l.l.b...r.r.r...t.
+2 l.l...b...l.b.....r...........b.b...r...
+2 l.l.t.l.l.b.r.r.r.r....b.rtrtr.b.b.b.t.t
+2 .....b.b.b.b.b...t.t.t.t.t.t.r.t.t.r.r.r
+2 .r.t.t.t.t.t.......t.t.t.t.t.t.t.t.l.t.l
+2 .l.l.t.l.l.l.l.l.l.l.t.l.l.l.l.l.t.t.t.t
+2 .t.l.l.l.t.l.l.b.b.b.b.b.b.b.b.b.b.b.b.b
+2 .b.r.r.r.b.b.b.b.b.b.b.b.b.b.b.b.b.b.b.b
+2 .l.l.l.l.l.l.........................r.r
+2 .rb.....r..l........l.l.l.l.............
+2 ........................................
+2 .........l.......l.l.t.t.t.l.l.t.l.r.b.b
+2 .r.r.b.r.r.r.r.r.t.t.t.t.tbtrtrtrtrtrtrt
+2 btbt.tbtb.b.bbbbbbbbrbrbbbrbrbrbrbrbtbtb
+2 rbrbrlrlrlrlblbtrlblblbb.b.b.b.r.r.r.r.r
+2 .r.r.r.r.r.r.r.r.r.r.r.r.r.t.r.r.r.r.r.r
+2 .t.r.r.t.r.r.r.r.r.b.b.r.b.b.l.b.b.b....
+2 ..........
+
+uuid 7e3e420171bd9ffcd71ce36bf530b46b
+
+leaderboard steps time

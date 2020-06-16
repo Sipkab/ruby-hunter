@@ -1,0 +1,55 @@
+n Green + Brown Things
+D 6
+C 7
+E 0
+p 0
+M 0 Stars
+i This level contains several things,
+i some of which are green, some of
+i which are brown, and some of which
+i are a different color entirely!
+i Can you solve it!?
+a Alex
+m 15 13
+###############
+#1.Q.*...*..0.#
+#.++.&+.+[.+&.#
+#*.0...0.Q..*.#
+#+.++.&+.++.+&#
+#0..*...0..*..#
+#&+.+[.&+.++.+#
+#.Q..Q.*..0.Q.#
+#.&+.++.&+.++.#
+#*..Q.*..Q...*#
+#[.&+.++.&+.++Q
+#.*...Q.0.*0!E#
+############!##
+R 90252
+0 0
+1 Demo 1
+2 ....bb..rbb.rrrttlttrrrrrrrrlbbrrrtt.bbl
+2 llttlllbtlllbbrbblll....................
+2 .rrr..tt...ll.llttrrr.rr.bbbbbrlbb.r...l
+2 llbbrltt.......rrrbb...ttrlbbrrrttl...tt
+2 rrrrlltt.......bblllrrrttrrllbbr...rrrbl
+2 .....lb....lrrr.ll....l..lbb............
+2 ........................................
+2 .................lll...ttlllbb..r.......
+2 ...b.t.rr..l.ttlttttrrrbbll.llbbr.rrbbl.
+2 ..l.....bb..............................
+2 ............................r...tt....rr
+2 r.ll.ttrr.........bb...lll.........rrrrr
+2 .........b.lll.brbtllrrtrr.b.lt......bbb
+2 rlttrrrrtt.....bblllttR..........bbllll.
+2 .lbbrrrr....ttttttlllllttrbbb..bblbrrrrb
+2 rtltr.brrrrttlll.rrrbb..ll..bbrB.llllttt
+2 tttll.srrr.rttlttlbrbll.rttllbbbbbbLrbbb
+2 l.B.tll...................rrtrtllllrttll
+2 bbrrrrrrrblbbrrtllllllblt.l..l.l.ttrr.ll
+2 bbrrblbl...t..rrrrttt.ll.rb.tlb.rbl..ttl
+2 rr..rbbbbltt.rtll.tl..mbbbrr...........l
+2 LrblLrrrrrrrrrrrr........
+
+uuid 544366019bbe94a0155a278ee471fd6b
+
+leaderboard steps time

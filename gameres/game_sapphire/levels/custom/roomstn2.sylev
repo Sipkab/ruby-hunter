@@ -1,0 +1,54 @@
+n Room of Stone II (Alex)
+ldeutsch n Steinraum II (Alex)
+D 8
+C 1
+E 0
+p 0
+M 0 Nightshift
+i The level setup here is very
+i similar to the original "Room of
+i Stone" level -- but don't expect
+i this one to be such a cakewalk.
+a Alex
+m 20 16
+++++++++++++++++++++
++$00000..0000.0000.+
++00$0$00.00$00.0$00+
++.0000000..0$00000$+
++0$00000$00.00.0.00+
++$000$000$0.0$00.0.+
++00$0000$E0000.0.0$+
++000.$000000000.0.0+
++$00000..000..00.00+
++$0.00000$.00000000+
++0.$$00..00.$$00$.0+
++0.00$00000000...00+
++$..0....$.00..1 0$+
++...........$... ..+
++a||a|||aaa|||aaa||+
+++++++++++++++++++++
+R 71139
+0 0
+1 Demo 1
+2 ....BTr...........lttR.r...R.l..t..bbR.t
+2 ..r..b.r..tbb.r.l.t..lbLrbbrrtttttlL..lt
+2 .....bbbbltl..L.tllbr.rrbbbltr.....tttt.
+2 ....bbbbbllllL.rr.t.l..rbl......ttttrrrr
+2 ttt....r.r.l.l.r.r.l.l.....ttRRRRRRRRRRR
+2 RR..rb..lbb..LRttrRlbbbb..tttttttlLt..bb
+2 b......bbbbbbbbblllll.rrrtttt..rttrttt..
+2 ...Lttll...b..L.r.ttlllbrrrrbbb....bbbbl
+2 llt..r...r..bbb.L.tttlltttllbblr..r.r.bb
+2 r......tttlttllltl.tlttlllbrrrrrrrbbbbbb
+2 bb..bblbr.tttL..tl.l...Lr...t.....bbbbb.
+2 ......ttttttttt.bbbbbbbbb..tllbltrtt.L..
+2 .....tlbLrtttrttttllltlllLrb..b..B.....b
+2 r.bbbl.........RRRRRRRRR....rtrrttllllll
+2 .t.r...brrbbb.L..tl.Lr..tllllrrrrrbbbrRl
+2 ...rrbbbb...lblt............ltbbl.ltrrbr
+2 ......rttttllL...ttlllbbrrrrbbblllbrtttt
+2 ttttttLbbbrrrrrrrr.......
+
+uuid fed146a3bd785fd28b312a057b084e42
+
+leaderboard steps time

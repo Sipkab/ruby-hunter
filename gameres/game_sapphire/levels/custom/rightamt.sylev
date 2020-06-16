@@ -1,0 +1,39 @@
+n The Right Amount
+D 3
+C 3
+E 0
+p 0
+d 3
+i It seems that falling elements are
+i inclined to go to the left, so you
+i might have to convince some of the
+i stones to change course.
+i But not too many...
+a Alex
+m 12 16
+####d##     
+#S  1 #     
+#S    #     
+#.  | #     
+#.# #s####  
+#.#a#    #  
+#.###    #  
+#...#    #  
+###.#    ## 
+~ #.###  E# 
+~ #...#@  ##
+~ ###.##   #
+~   #..##$ #
+~   ##..## #
+~    ##... #
+~     ####a#
+R 20007
+0 8
+1 Demo 1
+2 .....l...........b..........l....b......
+2 .......lbbbbrrbbbrrbbrbrbrrrttl.ttll.trr
+2 ........
+
+uuid 575f0d6bbc629c641efc10735296022e
+
+leaderboard steps time

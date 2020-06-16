@@ -1,0 +1,40 @@
+n What to Explode?
+D 5
+C 7
+e 11
+p 0
+M 0 Nightshift
+i This level is much simpler than it
+i seems. Always look for favorable
+i trade-offs.
+a Shark
+m 15 15
+###############
+##           *#
+#!+    # [ 000#
+!!!# 0 ### ...#
+######B#"##...#
+#      !##+#..#
+#        #+##c#
+#         ..E #
+#     c   #####
+#           &&#
+###           #
+#b!+         1#
+#####:#########
+#  [["[[    !!#
+######### #####
+R 46450
+0 0
+1 Demo 1
+2 ..llllllttttttlllbbbbbcbrrr...l.llllllrr
+2 rrttttrtttttlllsrr.b....llllllbLrtrrrrbb
+2 rcbrrrmll.b...t..r.srtt...lllttltllbr.rr
+2 bbbbbbbb....ull....B..rbbrbb.B.rrrrrrrRl
+2 llllltttrrrrrrr.mllb...ttbb.r.rR...llltt
+2 ttrttlttrrbr..brt..ltl....r.brb.utl.r.b.
+2 ..bbbbbl.....
+
+uuid e27e2494bad3da494b72c714260553bb
+
+leaderboard steps time

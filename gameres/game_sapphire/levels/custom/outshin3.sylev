@@ -1,0 +1,33 @@
+n Outshined III
+D 7
+C 5
+E 0
+p 0
+d 15
+v 5
+N Outshined IV
+i Once you've finally figured out how
+i to solve Outshined (without watching
+i the demo, of course), you'll be ready
+i for this challenge. This one requires
+i some unusual stone manipulation.
+a Alex
+m 12 7
+#d##########
+#  #0  0  Q#
+#   .  .  .#
+#+    |1E  #
+~#+        #
+~ #+ [Q{Q[ #
+~  #a#######
+R 69478
+0 0
+1 Demo 1
+2 .......brrrtt.bbllllltttrrrrrrbbbl.....l
+2 r.bttttllllbb...llt......r.lrrr...bbrttt
+2 rrrb.......Lrbbb.lr....ttttll....l..lbbb
+2 .Br..........rrt.......
+
+uuid 96c85d52f50c10d898056213851d4c3f
+
+leaderboard steps time

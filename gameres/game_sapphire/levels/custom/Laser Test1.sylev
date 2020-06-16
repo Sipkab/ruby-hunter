@@ -1,0 +1,69 @@
+n Bag Time!
+D 6
+C 3
+e 15
+s 2
+p 0
+O ALT-SET1
+S STANDARD
+M 0 Take Five
+i Hmm, what are the lasers doing...
+i One thing's for sure:
+i You need all the rocks!
+a Nic01
+f Nic01
+m 40 40
+~0 0 0 0 0 0 000 ++++++++++*            
+~. . . . . . ...###########:            
+~               ##..   #  #[   #        
+~               ##.. ##   #[ # #        
+~      1        ## ##    ##[#           
+~               ##   #     [#           
+~               E#        #[#           
+~@@@@@@@@@@@@@@@##         [#           
+a#################        #[#     #     
+~#################  # # #  [      #     
+~               ##...      +     #      
+~               ###   ...  [    #       
+~  #   ###   #   ##    .. [+            
+~  #          #     ##    [[[           
+~ ..... ...          #    [[[           
+~ ...##    . ##            +            
+~ ..      # #              +            
+~ .   # #     .       #  # +            
+~ .         ...     #      +            
+~      ##   .     #        +            
+~ #   #           #     .. +            
+~    #       ##       ..#  +            
+~ #  ##.    #       .. #   +            
+~     ...  #       ..#     +            
+~ #   ..  ##      ..#      +            
+~     . .  #               +  # #       
+~ # #  ...  ###            + #          
+~        ...            ## +            
+~*[+[+[+[++[++[+[+++[++++[*+            
+~:*[+++*:::[: :###########:+            
+~[::::::+ :[:      ##    #++            
+~++   :++  [:            #++            
+~[[:   ++ :+:            #++            
+~++   :++  [+ +#+++++    #++            
+~+[:   ++  +  #     +   ##++            
+~[+   :++           +   # ++            
+~+*:[+ ++++++++:++++:+++::+*            
+~*:+[[+*:  [   [[+[[+#####+#            
+~:::::::::%:::::::       #+#            
+~:^(^(^(^(^([+++++[++++[[[*             
+y ~%  ^    
+R 88853
+0 8
+1 Not so tricky
+2 llllltttLrrrrrrrrrrRllllllllbbbbbllrtrrr
+2 bllllrrrrtrrbllllllrrrrrrtrrbllllllllrrr
+2 rrrtrrrrbllllllllllrrrrrrrrtrrrrblllBllB
+2 llBllBllBllBrrrrrrrrrtttttrrrrbrtbbbbbll
+2 bltlbltlbltlbll.tlbltlbl.LrrrrrrrrrrrrRt
+2 rr.......
+
+uuid 781cb33fd419e470aa9204f9a06f137d
+
+leaderboard steps time

@@ -1,0 +1,12 @@
+# Blender MTL File: 'swamp.sapphire.blend'
+# Material Count: 1
+
+newmtl Material
+Ns 9.803922
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.603816 0.000000
+Ks 0.400000 0.400000 0.400000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2

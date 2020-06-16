@@ -1,0 +1,27 @@
+n Killer Instinct
+D 6
+C 3
+p 0
+M 0 Jump
+i Ignore your instinct to kill the
+i enemies. Instead, distract them...
+a Shark
+m 9 9
+#########
+#      1#
+#       #
+#   5   #
+#  8E6  #
+#   7   #
+#       #
+#      !#
+#########
+R 35597
+0 0
+1 Demo 1
+2 ..bbbbbBtttt.lsbbbbblllllltttttt.trrrbbb
+2 .....
+
+uuid 4b3ff0d6a45f0b4ad74cac356e9cb9c0
+
+leaderboard steps time

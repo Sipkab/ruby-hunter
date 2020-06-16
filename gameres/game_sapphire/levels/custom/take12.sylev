@@ -1,0 +1,48 @@
+n jb puzzle 3
+lDEUTSCH n 12 sind genug
+D 10
+e 12
+t 200
+s 0
+p 0
+d 25
+Y
+A graphite
+O graphiteplus
+S Soft
+a Jürgen B.
+m 15 12
+~  |   | { d   
+~  AfCD%CD .#  
+~ CI##..QCD CD 
+~#h.  .C+D  CD 
+C>#  A0C%.1  A#
+C.   ....    #f
+CD            A
+CD            A
+CD            A
+CD            A
+~C+###f##f#QE+D
+~    ########  
+y ~   c    
+R 61897
+0 0
+1 Demo 1
+ldeutsch 1 Demo 1
+2 bllllllllLrtrt.LrrtRb...................
+2 ..........bb.....................b....bb
+2 lbrrrlll......rTrrrrttttttrtTbbbbbbr....
+2 ........................................
+2 llttttlbbbbrrr...........llttttlbbbbLrrr
+2 ..........llttttlbbbbLrrr..........llttt
+2 tlbbbbLrrr.........llttttlbbbbLrrr......
+2 ....llttttlbbbbLrrr..........llttttlbbbb
+2 Lrrr..........llttttlbbbbLrrr...........
+2 llttttlbbbbLrrr.........ll..llBrrrrbb...
+2 lltttt.tlbbbb..Llbl.ttrrrllll.......b...
+2 ................lbb...........rTr.RtLrt.
+2 ..Tr..........
+
+uuid 327e12426f49b73fc906bf64703eadf2
+
+leaderboard steps time gems

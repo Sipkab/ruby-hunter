@@ -1,0 +1,80 @@
+n Junkyard
+D 6
+e 41
+s 40
+p 8
+d 6
+o 5
+w 44
+M 0 Penny Lane
+a Alexander
+f Alexander
+m 22 21
+#           % 0    ^  
+#    %      ^>     %  
+#    ^                
+#        %            
+#   %    ^    %  ^    
+#   ^     %   ^  % ^% 
+#         ^           
+#            %        
+#            ^   %    
+#        %       ^    
+#        ^        %   
+#                 ^   
+#                     
+#     %               
+# %   ^      %        
+# ^          ^   %    
+#                ^    
+#    %                
+#    ^              % 
+#                   ^ 
+1.                    
+y @$ 0w!*&y
+y ##SY$.##Q
+y 0ww[o@($0
+y /g_+%EQSi
+y dSSa:s7^c
+y ..0$?(**@
+y bh>|E @ k
+y +++?#+"?(
+y [0@(rYR |
+y #__s_#_y#
+y 0(E&@&E*E
+y ~( *V*( (
+y iiiioiiii
+y u(@i@g/*^
+y :!Qhj  7Y
+y *  **    
+y Y%  ^ o Y
+y dudhuk_c_
+y judhudskE
+y *$**E$($*
+R 82470
+0 8
+1 Filled
+2 ..rrrr.....rrr.t..t...L.................
+2 ........................................
+2 .........l.......R..R.R.R.R.R.R....r...r
+2 ....R......B..r...R..L...r.r.r.rr..r..r.
+2 rr..rt..R..ll.l.ttt..tl.lll.tttttt......
+2 ..
+R 91477
+0 0
+1 Open a Bag
+2 rrrr........rrttrttLrr......tt......ll.l
+2 bbbrbLlll.........RRRRRRR...............
+2 .....R....rrttttlllllrrrrtttrrrrrrrtTbrr
+2 bbbbbbtbbbLtttrlbb.Bb.l.ttrrrblbl.Lttttr
+2 ttllllltttttt.
+R 65129
+0 0
+1 Demo 3
+2 rrrr........rrRttLrrbbrrrrrllllttttttbbb
+2 bLbLBLLLLLLLbLrlLrrrrtrtrtt.............
+2 .....................
+
+uuid 8812a1520d78b06813dea234e5ca0924
+
+leaderboard steps time gems

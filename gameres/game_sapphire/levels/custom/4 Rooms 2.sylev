@@ -1,0 +1,146 @@
+n 4 Rooms 2
+D 4
+e 413
+i 
+a Dudeman
+f Dudeman David Nestor
+m 61 30
+#############################################################
+#...........@...........@....#!%$%!#........................#
+#...0.0..0....0..............#!/%/!#...#   ..   #..$$...0$..#
+#...............0....0.......#! % !#...# | .. | #..$0...$$..#
+#...0..0.....................#! % !#...# 7 .. 7 #..$$...$$..#
+#.......@.@....0...0.....@...#! % !#.0.#........#..0$...$$..#
+#......@..@.@....@!....0.....#! / !#.0.#   ..   #..$0$0$$0..#
+#!Q.......@......!........@..# !!!!#...# #    # #..$$$$$0$..#
+#!Q.......@....@!.....0......#     #.@.#  #**#  #.......$$..#
+#!Q............!.............#     #@..#.  ##  .#.......$$..#
+#!ycccccccccccccccccccccccc..#     #...#.. 7  ..#######.$0..#
+#............................#     #...#..............#.$$..#
+# ...........................#     #.@@#....####.####.#.....#
+# 0..........................#     ########.#.......#.#.....#
+#B############################     #.0000$..#.0$...0#.#######
+#000000000000000000000000000       #0$$$$$..#0$$000$#.......#
+#...........................       #!$$$$$..#$$..$.$#...... #
+#R##########################       #!$$$$$..#$$$...$#......G#
+# .........................#   1   ######################## #
+#Q......Q........0.......Q.#   r      ! ++++++++++++++++++++#
+#..........Q...............#       ##########################
+#..Q................Q......#       #..........$....Q.......0#
+#Q.....Q.......Q...........#       #......Q$..$!...!.0....**#
+#....Q......Q........Q.....#       #.....!$$..$0...!.0....Q.#
+#..........................#       #.....$$$..!$$$..$$*...*.#
+#                ++++      #       #**...!...Q$.Q$....0...*.#
+#&&  ++  &  ++++ +++$&++  0#       #00......Q$*.......$.!.(g#
+#++++$$++++++  ++&$+$++++ !#      +#!......Q$$........!...(Q#
+#&+&$$$+&&&++bh++$$+$$$$+0 R      +Y  .....$$0*.....!.....(!E
+#############################################################
+R 76451
+0 2
+1 Suspended
+2 ....Brrbrrrr.Rllbblbbbbblbbbuttl.tttlttt
+2 ttllllllllllllllllllllllllllllllb.r...bb
+2 bbb..l.Br.........bbblttttttrrrb........
+2 .lll.bb.....bbbbbL.RrrrT.r.RTllltttrrrrr
+2 rrrrrrrrtrttt.bbblbllllltttt.rrrr.t.r...
+2 ....................R.....r.bbbb.r..L.Tl
+2 lbb.tllllbbrB.ll...tll.tltttttttllbrr.rb
+2 bbL.tlllBrrrbbbb.B.ttt.l.tlllbrrr....b.l
+2 ltllbrrr.r.b...bbbbbbrttrrttttrrb.lllllr
+2 .trrrllllbbbbbbL.rrtrrrrrB.l.Bttt.r.tt.r
+2 .B.b.Btttrrbll.......bbb.Rbbbbrrr.lllttr
+2 rtrrrbbrbrrtttttttttttttllllllllllllllll
+2 lllllllllllltt.rrbrrtt.L.l.Brrbbrttrbbrt
+2 rr.tllrrrBrrBr..llbrrrtrbr.trbrtrbrtrbrt
+2 rbrt.rttltlblllltrrtrrtl.b.Btttttlbbllbb
+2 bbblltttl.bl..bbllltrrttttllbrrlbbttttl.
+2 .lbbrbbbbl.tt.bblllltt...Tbl.bttlbbllttt
+2 trttl.rrbbbrtrr..trttlltllbrrrrrrrbbbbbr
+2 rrrrrrrrrrrrbbbblllbrllrrrllllllllll.Tll
+2 lllllbllTlllltl.ttlttt..bbbbbbbbbrrrrrrr
+2 rrrrrrrrrrrrrrrrrrrrrrrrrbbbbbbbbbbbbbbr
+2 rrrrr..ttt.llllrrrttttrrrrrrrbrl.Brr.b..
+2 .rr..B.......l..tlllbrrrr.b..B.llrrbbbbl
+2 lL.rrt.tttll.L.brrt....b..ll.blblbllll..
+2 ....ttttr.B.t..r.BR.R.rbrrrrr.tr......bb
+2 bbbbrrrrrttr...Rl.Bttll...lttrrrr.....b.
+2 .Lrr.l.trrrblllll.rr..rbbb.R.B.tttllllll
+2 llllllllllllbbbbbllll......t.bll.ttttttt
+2 ttttttttttrttt.T.bbbbbbbbbbbrrrrr.mll...
+2 ..rrrrrrsmll.....rrrrrrrmll.....rrrrrrrm
+2 ll....rrrrrrrrmll.....rrrrrrrmll.....rrr
+2 rrrsmlll...rrrrrrrrmll.....rrrrrrrmll...
+2 ...rrrrr.ml.......rrrrrrmll.....rrrrrrrm
+2 ll......rrrrr.mll......rrrrr.mll.....rrr
+2 rrr.mll......rrrrrrmll.....rrrrrrsmll...
+2 ..rrrrrr.mll....rrrrrrr.mll....rrrrrrrsm
+2 ll.....rrrrrrttllllllttttlltllllbbblbb.l
+2 .b.Bt.l.bbbl.Br.brrr.t.brrtt.bllllltrttr
+2 tt.....llllbb.lbbb.Lb.L......L.bll.B..Tl
+2 ..B.Tl.B.Tl.B.Tl..BT.l.Brrrrrrrtt..tt...
+2 .....t..rrrr..t.ttt..tllbl.BlB.r.l...ttt
+2 ttrrtrrrrr.brrrrtr.BrrbrrrB.tllllbrrrr.l
+2 bbbl.R..R.TTtt...b.llllB.lt....lbbbr.B.b
+2 rr.....R.trrrl.Btrrrbr.ltllbrrr.lbb...bl
+2 .T.bbrrbrttllltttttttttllllllll....lllll
+2 lllllbb..b.BllBrrbllrbbL....bbbbl.tttltt
+2 rrllbbbbbbr.Rlttt
+R 76451
+0 0
+1 Dudeman Demo
+2 ....Brrbrrrr.Rllbblbbbbblbbbuttl.tttlttt
+2 ttllllllllllllllllllllllllllllllb.r...bb
+2 bbb..l.Br.........bbblttttttrrrb........
+2 .lll.bb.....bbbbbL.RrrrT.r.RTllltttrrrrr
+2 rrrrrrrrtrttt.bbblbllllltttt.rrrr.t.r...
+2 ....................R.....r.bbbb.r..L.Tl
+2 lbb.tllllbbrB.ll...tll.tltttttttllbrr.rb
+2 bbL.tlllBrrrbbbb.B.ttt.l.tlllbrrr....b.l
+2 ltllbrrr.r.b...bbbbbbrttrrttttrrb.lllllr
+2 .trrrllllbbbbbbL.rrtrrrrrB.l.Bttt.r.tt.r
+2 .B.b.Btttrrbll.......bbb.Rbbbbrrr.lllttr
+2 rtrrrbbrbrrtttttttttttttllllllllllllllll
+2 lllllllllllltt.rrbrrtt.L.l.Brrbbrttrbbrt
+2 rr.tllrrrBrrBr..llbrrrtrbr.trbrtrbrtrbrt
+2 rbrt.rttltlblllltrrtrrtl.b.Btttttlbbllbb
+2 bbblltttl.bl..bbllltrrttttllbrrlbbttttl.
+2 .lbbrbbbbl.tt.bblllltt...Tbl.bttlbbllttt
+2 trttl.rrbbbrtrr..trttlltllbrrrrrrrbbbbbr
+2 rrrrrrrrrrrrbbbblllbrllrrrllllllllll.Tll
+2 lllllbllTlllltl.ttlttt..bbbbbbbbbrrrrrrr
+2 rrrrrrrrrrrrrrrrrrrrrrrrrbbbbbbbbbbbbbbr
+2 rrrrr..ttt.llllrrrttttrrrrrrrbrl.Brr.b..
+2 .rr..B.......l..tlllbrrrr.b..B.llrrbbbbl
+2 lL.rrt.tttll.L.brrt....b..ll.blblbllll..
+2 ....ttttr.B.t..r.BR.R.rbrrrrr.tr......bb
+2 bbbbrrrrrttr...Rl.Bttll...lttrrrr.....b.
+2 .Lrr.l.trrrblllll.rr..rbbb.R.B.tttllllll
+2 llllllllllllbbbbbllll......t.bll.ttttttt
+2 ttttttttttrttt.T.bbbbbbbbbbbrrrrr.mll...
+2 ..rrrrrrsmll.....rrrrrrrmll.....rrrrrrrm
+2 ll....rrrrrrrrmll.....rrrrrrrmll.....rrr
+2 rrrsmlll...rrrrrrrrmll.....rrrrrrrmll...
+2 ...rrrrr.ml.......rrrrrrmll.....rrrrrrrm
+2 ll......rrrrr.mll......rrrrr.mll.....rrr
+2 rrr.mll......rrrrrrmll.....rrrrrrsmll...
+2 ..rrrrrr.mll....rrrrrrr.mll....rrrrrrrsm
+2 ll.....rrrrrrttllllllttttlltllllbbblbb.l
+2 .b.Bt.l.bbbl.Br.brrr.t.brrtt.bllllltrttr
+2 tt.....llllbb.lbbb.Lb.L......L.bll.B..Tl
+2 ..B.Tl.B.Tl.B.Tl..BT.l.Brrrrrrrtt..tt...
+2 .....t..rrrr..t.ttt..tllbl.BlB.r.l...ttt
+2 ttrrtrrrrr.brrrrtr.BrrbrrrB.tllllbrrrr.l
+2 bbbl.R..R.TTtt...b.llllB.lt....lbbbr.B.b
+2 rr.....R.trrrl.Btrrrbr.ltllbrrr.lbb...bl
+2 .T.bbrrbrttllltttttttttllllllll....lllll
+2 lllllbb..b.BllBrrbllrbbL....bbbbl.tttltt
+2 rrllbbbbbbr.Rltttttttttrttr..r..rbbbbbbb
+2 bbrrrrrrr.brrrrrrbbbbbrrrrrrbbllllllllll
+2 llllllllllllllltttttttttttt.cbb........t
+2 ttttttttllrrbbbbbbbbbbbbbbbbbbbbbbbbbbb.
+2 utt......bbbbrrrr.trrrrrrrrrrbrrrrrrrrrr
+2 rrrr.......
+
+uuid 4092150cc1fcfb20cd608466c6128b74
+
+leaderboard steps time

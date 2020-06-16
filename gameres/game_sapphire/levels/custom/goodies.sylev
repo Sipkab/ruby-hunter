@@ -1,0 +1,35 @@
+n Goodies
+D 3
+C 6
+e 13
+p 0
+i You'll want to convert your items
+i just the right number of times.
+a Alex
+m 10 16
+##########
+#@@*+    #
+#++++    #
+#QQQQ    #
+#++++    #
+#ccc     #
+#        #
+#ccc !   #
+#    1!  #
+#ccc     #
+#     +++#
+#ccc  +0*#
+#     +*0#
+#     +++#
+#       E#
+##########
+R 43342
+0 8
+1 Demo 1
+2 ...tr..b...ll.t..bbbbblll..srr......tttt
+2 tttrt..cblb.............bbbbbbb..lll...r
+2 rrrrrrr.......
+
+uuid 88a402abf011e98afbd98e12d1c01657
+
+leaderboard steps time

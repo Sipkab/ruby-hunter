@@ -1,0 +1,39 @@
+n Be fast but don't be Greedy!
+D 3
+C 1
+e 160
+a David Polsky
+m 17 16
+#################
+#000000000000000#
+#000000000000000#
+#000000000000000#
+#00000$$$$$$0000#
+#0000$$$$$$$$000#
+#000$$$$$$$$$$00#
+#0.$$$$$$$$$$$$0#
+#.$$$$$$$$$$$$$.#
+#.$$$$$$$$$$$$$.#
+#.$$$$$$$$$$$$$!#
+#.$$$$$$$$$$$$$(#
+#.$ssssssssssss(#
+# $            &#
+#a1aaaaaaaaaaaaE#
+#################
+R 10986
+0 0
+1 Demo 1
+2 ....tttttrrrrrrrrrrrrrlllllllllllbrrrrrr
+2 rrr..lbllllllllR...L..rrrrrrrr...rrtllll
+2 llllllllbbbBttrrrrrrrrrrrrrrb.tt.bb..utl
+2 l......rr.bbbb........
+R 944
+0 8
+1 Perfect one
+2 ..tttttrrrrrrrrrrrrtlllllllllbrrrrrrrrrr
+2 bllblllllllll........llbb..Bttrrrrrrrrrr
+2 rrr.Bt.bbb...ut.........bbbb........
+
+uuid 33728cb542fd73691809bfb814335df7
+
+leaderboard steps time gems

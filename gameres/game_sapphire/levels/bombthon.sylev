@@ -1,0 +1,98 @@
+n Bomb-a-Thon 2000!
+D 6
+C 2
+e 16
+E 1
+s 0
+p 0
+d 250
+i Welcome to Bomb-a-Thon 2000!
+i 
+i The rating makes sense.
+i You will find out why
+i it's not easy.
+ldeutsch i Die Einstufung stimmt tatsächlich.
+ldeutsch i Du wirst schon noch rausfinden,
+ldeutsch i wieso.
+a Alexander
+m 47 27
+###############################################
+#1 Q    #   S   S   S   S   S  #E#            #
+#  .    #   +   +   +   +   + r# #        Q   #
+#        Q   Q   Q   Q   Q     # #       #|Q  #
+#       #.0 +.0 +.0 +.0 +.0 +  #5##        .  #
+#   &   ####@###@###@###@###@#R#+ %           #
+#       ######Q###Q##Q###Q###Q  ###    &      #
+# _     #     .   .  .   .   .    #           #
+#       #                       Q #       _   #
+#       # ###   #  #   #   #   !###       &   #
+#aaQQQaa# #                       #           #
+#aa###aa# #  &ib 0%B_:S G*w acd   #           #
+#########+#########################           #
+#      d     #                                #
+#     da     #d                               #
+#    da ?    #                                #
+#   da ?     #a                               #
+#  da ?      #?                               #
+#  a ?       #                                #
+#   ?        #                                #
+# 0          #                                #
+#c#     #c#  #                                #
+# #QQQQQ# #  #s#            G                 #
+#a#sssss#c## # Qaaaaaaaaaaaa*aaaaaaaaaaaaaaaaa#
+###     #  R B . B B       ***               g#
+###aaaaa###### QQQQQQQQQQQQQQQQ000000000000000#
+###############################################
+R 42680
+0 0
+1 The Winner
+2 rrbbbbbrTTTTtttrrrrrbrl.trrrrrrbrllBtrrr
+2 rrbrllBtrrrrrbrllBtrrrrrbrllBtrrbrrBttrr
+2 bbbbrrrbltllLrrb..llllrrrBttcbllltllLrrb
+2 ..lllltlllrrrb..lllltlLrb...lllbbbbllttt
+2 tLrrb..lllllllrrrbbBttllllbbbbbbbbbbllll
+2 llllbb..................................
+2 ................rrrrrrr.rrrrbbbblLrrrrrr
+2 rrrrrrrrTrrrrrrrrrrrrrrrrRllllllllllllll
+2 llttttttttttrrrrrrrrrrrrrtttttrlbbrrtttr
+2 tttttllrrbblllbbbbbbrTTTTttrrttlllblttrr
+2 rtttlrbbbllltrrrttlllbbbbbl...Tllllttlll
+2 tttt.
+R 64407
+0 8
+1 Slight Error
+2 ....rrbbbbbr.TTTTtttrrrrrbrl..t.rrrrbrll
+2 .Btrrrrrbrll.TB.t.rrrrrbrll.Btrrrrrbrll.
+2 Btrrrb.r.BTttrrbbbbrrrblt.ll.Lrrb..llllr
+2 rrB.tlllll.L.rrb.llll.t.l.lL.rrb..llll.t
+2 .l.L.rb..lll.bbbllttttLrrb..lllllllrrrrb
+2 bl..btttllllbbbbbbbbbbllllllllbb........
+2 ..............rrrrrrrr.rrrrbbbbl.L.rrrrr
+2 rrrrrrrrrTRrrrrrrrrrrrrrrrr.Rlllllllllll
+2 lllllttttttttttrrrrrrrtttt.rrrrrrt......
+2 r.l.bbrrtttttrttttl..l.rr..bblllbbbbbbr.
+2 TTTTttttr..t.rtlllbl.t.rrrtttl..b.llbbbb
+2 bl.TTTT...llllbbbbbbblllllllllllllllllbb
+2 bbbbbbl.bl.bllbl..tttttttttttlllttttttrr
+2 rrrrrrrrrrrrrrrrrrrrt.c.llllllllllllllll
+2 llllllbbbbbbbbbbbbbrrrbbbbrrrttttttttttt
+2 rrrrrrrrrrrrrrrrrrrrrrttttttttlllllltttt
+2 .....
+R 89790
+0 0
+1 Do it right
+2 rrbbbbbr...tttrrrrrbrlt...rrrrbrllBtrrrr
+2 rbrllBtrrrrrbrllBtrrrrrbrllBr.rr.rBttrrb
+2 bbbrrrbltllLrrb..llllrrrBttclllllLrrb..l
+2 llltllLrrb..lllltlLrb...lll.bbbllttttLrr
+2 b..lllllllrrrbbBttllllbbbbbbbbbbblllllll
+2 lb......................................
+2 ............r..rrrrrr.rrrrbbbblLrrrrrrrr
+2 rrrrrrTrrrrrrrrrrrrrrrrRllllllllllllllll
+2 ttttttttttrrrrrrrrrrrrrtttttrlbbrrttttrt
+2 tttllrrbblllbbbbbbr...ttttrrtlllblttrrrt
+2 tlllbbbbbl...ttllllllltttt.
+
+uuid 288226dd7249d41bf085f36cb83724ea
+
+leaderboard steps time

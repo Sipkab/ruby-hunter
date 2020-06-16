@@ -1,0 +1,196 @@
+n Granite II
+D 8
+e 679
+E 12
+s 50
+p 0
+A internal map
+M 0 Oxygene4
+i You can miss only 2.
+a Alexander
+f Alexander
+m 30 30
+1"&&&Q&%&&&&0&&"&&&&Q&&&&&"&%&
+&" &%&&&&Q&&&&&&&&+&Q&%&&&&&&&
+&&&&&&&&+++&&^&|&!&&&&&&&&!&&&
+&&Q&&&&QQ&&Q&&&&&&&+&&&Q&Q&&"&
+&+&+&&&&&&&&&&%&|&&&Q&&&&&&&"&
+&&&&%&Q&&&&+&&&&&"&&&&&&&&Q&&"
+&!&&&&&+&!&|&Q&&++&&&+&Q&&+"Q&
+&+&&&&&&&&&&&&&Q&+&&Q&&&&0&&Q&
+&&&Q&&0&&&&"&&&+&&Q&+&&&&0"&&&
+&&&&&&&&&&&&&&Q&&&&&&&&"""&&&&
+&Q&&&&&&&&&Q&&&&&&"&&++&&&&&&0
+&&&&"&&&%&&&&&&Q&&&&&&&&&Q&Q&%
+&Q&&&&&&&&!!!&&&&&&Q&&%&&&&Q&&
+&&&&Q&&&&&&&&%&&&Q&&&&&&&&&&&&
+&&&&&&&&Q&Q&&Q&&&&&&0+&&&&&&&&
+&+&&%&&&Q&&&&&"&&Q&&&&+&&&Q&&&
++&&+&&&&&&&&+&%&&&&&%&&&&%&Q&&
+&Q&&&&0&&&&Q&&&&&Q&&&&&+&&&&+&
++&&&&&&+++Q&&+&+&"&&&&Q&&0&++Q
+&&Q&&&&&&&&+&Q&+&+&%&&&&QQQ&&&
+%&&&&&&&%&&+&&&&&Q+&&&&&QEQ&Q&
+&&&&&Q&&&&&+Q&%&&&"&&Q&&QQQ&+&
+&&&&&&&&&Q&&+&&&&&&&&%&&&&&++&
+&&&Q&Q&&+&&0&&+&&&&&&&&&&"&&&0
+&%&&&&&&&&%%%&+Q&Q&Q"&+&&&&Q&&
+&&&&&&&&Q&&+&&&+&&&&&&++&+&+&&
+&&&&%&&&&&&&&&&&+&+&+&Q&&&&&Q&
+&Q&%%&&&Q+&&&&&&%&&&&&&&%%%"%%
+&&&&&&&&&&Q&0&&&&&&&Q&"&&&&%&%
+&&&&Q&&&&&&&&Q&&&&&&&&&&&&&&%%
+y &&&&"&&&&
+R 73278
+0 0
+1 Demo 1
+2 rbrmtl........rrrbcltlbt......rrrBbml...
+2 ........rrrbllttrrbtcb......l.......rtrt
+2 tbml.........rrrBtrml..........rrbBRtbrm
+2 l..........rrrrbtml..........rrrlBrtcbl.
+2 ......ttrrtml..........rrbRlltllllllbrrr
+2 rrrrrrml........bll......rrrrrttrmbbll..
+2 .....r.rtrrllbmll........rrbrsttt.......
+2 bbbbbllrrml..........rrrbrml.ltlsrb....r
+2 rrbltll..llltrrrrrrml........trtbtcbbbrt
+2 rtt....llbbbbLrtttttlcbbb.....l..b.....r
+2 rtbut.........bbbrtttt.lbll.........rrtt
+2 ml.......bbbrrbb.rttttlbbblltlml........
+2 ..rbtcrr.........llllcrr........tlllbbut
+2 .........blbbrrtttrrml..........rrbbrr..
+2 .utt.......bbbrblltrtb....r.tmll........
+2 rrrbbrBrTlbutll......lb..ttrrrll....b..r
+2 r.....bblbrrtttbbllbsrttt.....lllbbbRbrr
+2 tml.........rrrrrcblTl.....ttrrrbBrml...
+2 .......rrrcllttt...r.crbbrt.....t..llbbL
+2 rttttrrrlml..........rrrbrttrml.........
+2 r.rrTbllllbbbbLttttrrrrtbllllbbbml......
+2 ....rrrttcbblll...ttrr..rrrlbttrtml.....
+2 ....rrbbtllbbbmll...llsrrrrrbllullllblrs
+2 trrbbsrtttll....bbblbrRtlllLrrrr..lllsrr
+2 .......llllbrrrrml.........rb.rrtml.....
+2 ......rrrrbllttttttttrrrtttbblllllllllll
+2 tutt........bbbblllrbrrrbb...tt..mll....
+2 .....rbbtcrr......rl.l...lllllrl.....rrr
+2 tut..l.....bbbbrsrr........llblltrrrml..
+2 b......rrrtrrlllbml..........rbBrrlttlbu
+2 trrrrb...llllllbbbrrutt.......bbbbbrmltt
+2 ...rrrbbbbllrttrrrll..r...rbbrrml...lBr.
+2 ..rrrblltttllllbbttttrrlbbb......rrbbltt
+2 llrrrrrlllcbrr........lllrsr.........mbl
+2 l........ttbbrrrrlrml..........rbrrtbllr
+2 tllrml..........rbbttutttttmllbbrr....tl
+2 bbbbbbbstttt...lbbblbcrr.........tllllbr
+2 rtttttttttttttttttttttrrcbbbbbbbbtttbbbb
+2 bbbbbbbbbrr.....Lrtt...bblcll....l...rr.
+2 .rrrblrlmtlll...rr.rbbBrrtlltlllbml.....
+2 ....rbrrttrrbullbb......rTlllrrrrmll....
+2 l..rrrbbrrtrtblbml.........rb.rrlmltl...
+2 ....rbbrrttml..........rrrrcblbull....t.
+2 .rrrrTmbbblltrbtttrrrbml.........brrtrrl
+2 cll........trrrbt...lbml..........rbrrml
+2 ........trrrclllt......tlbml...b.....rrr
+2 llltttttrrbrml..........rrttbtbbbbbbrRlt
+2 ttttmllttbcbbbbb.....rrrRl..ltttttttltlt
+2 tttcbbb.........ttrRbbbbbbbbbbbltttbmltt
+2 ttllrsrbbbbblbrtttttllllbrlsrr........ll
+2 blmtlt...t.bbrbbsrtt......bb..lllbrrttll
+2 b...brrml.........rrrcll.........rlsrrrt
+2 t....llllllbBttttttttrrttlsbbll......ttt
+2 tttttttttrrrrrbbrrrrrrrtttbllblllllttttt
+2 ttttcbb.......ttrtRrrrtml...b.....rrrtmb
+2 ll....ttrrrrbtclbl......ttrrrcllb.......
+2 trrrRllb.......rtrrtrmlb........rrrrtblb
+2 trml........trrrbbbBultt.....b.brrbbB..l
+2 lrlttltlmlb........rrrlllllllllllcbbb...
+2 .....ttrrrttttllmlbb.......trrRbullbbrbr
+2 bbrbbbbbbbbbbbbbbbbbbbbbbbll...rTrrRrrrt
+2 tttrrr...rrbrrrmlt.ml......bb..r...rrrbR
+2 bLRttttml............rrrbbbrbllllllllllr
+2 rrrrrtllllrrrrtttttrrrmlbbbbb......brr..
+2 .rtttttttllbllllsr.........lTll....bb.tt
+2 rrrrrlllllttuttrtrmllbbbbbbbbbbbrrbrr...
+2 .lttttttmlbbb.....rrrrbbb..Lttttttlrrrrl
+2 lllltttttttttttttttrtbllblllltttttttrrml
+2 b........rrrtml..........rrrrcbll.......
+2 .trrrbrrrml.........rbRtbrrtttlttcbbbb..
+2 .........RRRltlllml.........rbrrltllsr..
+2 .......lllbrttlllbrllbbr..rTrrtmlblbbbrr
+2 rrttrLbbbbbbbbbbbbbbbbbbbbbrbrttt....ttt
+2 ttlttttttttttttttllsbbll......tTbbbbbttt
+2 tttttrrrrtblbbcbbbbbbbbbbbbbbbbbbbbbll..
+2 .........r.rtttttttttttttttttttttttbbrrr
+2 bttblllllltllllbbbbbbbbbbbbbbbblllbblttt
+2 tttttttlltttlrtttttttlbbbbbrcbbll.......
+2 tTrblsr..b......l..lTlttsrbbbl..........
+2 ltlsrb........l..lTlttrtrrtttrttrtttllll
+2 lllllllttrrrbbbrml..........rrrbllut....
+2 .....bbbrllsr...........lllblsrrttttllls
+2 bbbbllbrRttlsrr....lbBtttlbbbbltrbstrrut
+2 llllbbbbrrtrrrtbml....ttrr.bbbRlLtttrrrb
+2 blblull........rbbrrtttrmllllbbrttrrrrrr
+2 lbllbblbllTrbult........bbbrrtttrlbbml..
+2 .......rrrrbrBllrml.........rcrrr.......
+2 .llllllbsrtt......llblbblbrrml.........r
+2 rrbml..........rrrbml.........trrrblttmt
+2 trr.....bbbbbblTlt....rrrbbml..........r
+2 rrbmlt.........b.r.l..t..rrrbllbrrlltlsr
+2 b........tlllbrurr........blcll.........
+2 rrrrbmlt........rrrbbmlt...l...srrrbblLr
+2 tmlllltb..rrrsrrbLrbbbBtttllllltsrr.....
+2 ....llllllcbbrR..........Lltllsbrr......
+2 ...l...lllttt....bbbcrr........ttlllbcrr
+2 r.......tlllllcrr........ttlllrrrbbmltl.
+2 ..b...rrlsbrr.......llllrrrrml.........r
+2 rrblltmll.........rbrrrrut........bbrbll
+2 l..rrrtrbrtlttrullbbb....rrl..rrBtttrrrm
+2 l.b.......rrrlmlb........rrrlml.........
+2 rbtllbrtrsrrbb..r..tlllblllltrrrrrlbrrrr
+2 rrrrrrrrrrrrlllllllllllllltttttttttttttl
+2 srbbl......tllttbbrrbbbbbbttbbbbbllllttt
+2 ttttttrrrlttcbll.r.....ttbbrrtlcll......
+2 ..bbbbttt..rrRtttlcbllbbbbbbbbbbbbrr....
+2 ...lllrrrrttttttrrrrttbtsr..ttll...bbbbb
+2 bbbblbllrrttttttttttcbb...t....tltttllll
+2 mbbbbbbbbbbbbrr..........lrtttllllllltrr
+2 rttcbl........ttbbbbbbRRlttttrbbblbutt..
+2 ...lbbbbut........bblbrr...t.llllrtcbLrr
+2 ......ttlllbbrrttttbllsr..t......lmbbbbr
+2 r....r.ll..LRttttrrllrrrmlltcbbrrrmlbb..
+2 .r....lllttttttrrrrtcll...........rbbbbb
+2 bbrttttttttlbbrrrtttttttlllsrbb.....tlll
+2 lttcbrr....lltt.ltrbsr..........lllllbbr
+2 rtrrmll...bl...srrr......lllclttt......r
+2 rbbbblsrbbbbbbbbbbltltttttsrttllL....bbb
+2 bbbbbLrr....tttttttttttttttttttttttrrrrr
+2 bmlbbbbrrtcbbbbbbbbbbbbbbbbbrrrb....L...
+2 .tllllbLrrRtttttttttttlllllttttttttttttt
+2 rrcbbbbbbbbbbbbbbbbbbbbbrbbr..........ll
+2 rtttttlltttttttttttttttttttrrmbbbbbbbbbb
+2 bbbbbbbbttttcbbbbbbbbb...rrrrttttttttttt
+2 lllllmlbbbrmlttrrr...bblbbbbbbbbBttttttt
+2 tttttttttttttlllsrrttttttrrrrrmbbb....tr
+2 .trtblbbbtbtmlllllbbbbllLrrrrrrbbbbbbbbb
+2 bbbbbbbbbbbrrrRttttttttttttttllllllltttt
+2 cbl........ttttcbbbt...t...tllTrrcbbblcb
+2 bb...bbbbbbbbbbrr......tllllTbrrrttttttt
+2 tttttttttttttttttttrrrrrrrbbrlttrlcbr...
+2 .....trrrrrrrrrrrbbbbbbbbbbbbbrrrbblbbbb
+2 tbbbrrrrrtttcbbblltr...rmltrRll....rrttt
+2 tbbblllsrt........Lbbbrttttbllttbbrrtcbb
+2 bbbllb..rrb......LRltttttttttmbttlt...b.
+2 ttbtbcrrbbbbbbbbbbrlll......rttttttttttt
+2 lttttttttttrrbllbbbbbbbbmbb.r......tmbbb
+2 brrbbbbbbBttttttttttcbbb.......rrbbbbbbb
+2 ....Lttttttttttltttmll.......trrrrbbttbm
+2 bbbbbbbbbbbbbLttttttttttttrtrtlml.......
+2 ..rtrbbBrttlrllblltttbbutr.......bbbbbbb
+2 bbbbbbbbbbbbrrttttttttttlttttrrtml......
+2 .....rbbBrtttlblmlbbbrr...bbbbbbbbbbbbr.
+2 ....lrttttttltttttttttttttbut........bbb
+2 bbbbrbblbbbbbbbbbbbBtttttttttttrrrttttlt
+2 ttltttTbbbbbcccccccmmc..........
+
+uuid 290c7fa450278c6c1baa610729054a46
+
+leaderboard steps time gems

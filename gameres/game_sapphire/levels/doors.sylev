@@ -1,0 +1,42 @@
+n The Doors
+ldeutsch n Die T�ren
+D 4
+C 2
+T 1000
+M 0 Tico Tico
+i You are getting more
+i and more confused...
+ldeutsch i Du wirst mehr und
+ldeutsch i mehr verwirrt...
+a Reinhard
+m 18 18
+##################
+#B R G R B G r*B #
+# Y R Y Y G B G B#
+#B G R B G B Y G #
+# Y G G R B B Y B#
+#B G G R G B Y B #
+# * R.Y G Y G B G#
+#B.R Y R Y G Y B #
+# B R G Y Y Y B G#
+#G Y B Y G Y Y G #
+# R G Y Y G B R B#
+#Y G Y Y G Y Y G #
+# B Y G   B G Y B#
+#R G Y G G Y G Y #
+# R G Y G B B R 1#
+#B Y B Y B G R By#
+# E B G B G * G B#
+##################
+R 21126
+0 0
+1 Demo 1
+2 ....b...bl.t.l.t.l..lt.ttttt.r.lbbbbbbb.
+2 r.b.lb.l.rt.r......t.lt.tt....b.l.l...l.
+2 t.t..r.t..l......r.t.bl.b.b..b..b.r.t...
+2 ...l.....r.t.t.lt.rt.tl.bl.tl.bbb.b.t.rb
+2 .b.lb.br.b.l..........
+
+uuid 7a15e3b97fba35310be155920e1a3c39
+
+leaderboard steps time

@@ -1,0 +1,34 @@
+n EAT 33M
+D 7
+C 2
+o 1
+w 1
+M 0 Staying Alive
+N EAT 39M
+i Like in EAT 33, you are trapped in
+i the closet, but this time with
+i someone that isn't a clone of you.
+i As always, the killer robot wants
+i in on the action.
+a Elliot
+m 8 12
+########
+#...EQ##
+#.###Q##
+#.#w#+##
+#.#2+ ?#
+#.#o#  #
+#.# #  #
+#.#1++ #
+#.#w#  #
+#.###  #
+#....  #
+########
+R 75968
+0 0
+1 Demo
+2 bbttbbttbbttbbttbbttbbttbbttbbttbbttbbrrrrbtbtbtlllllll.t.t.t.t.t.t.t.t.t.r.r.r.............
+
+uuid e870a126a192440db4058bd0abd64148
+
+leaderboard 

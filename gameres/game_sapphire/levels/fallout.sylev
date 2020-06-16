@@ -1,0 +1,90 @@
+n Fallout
+ldeutsch n Ausfallend
+D 9
+C 6
+M 0 Calm
+i Another level of pure
+i time critical actions.
+i Open the slots and
+i prevent the contents
+i from falling down on the
+i bomb carpet.
+i Use our time bombs for
+i this purpose.
+ldeutsch i Wieder mal lauter
+ldeutsch i zeitkritische Aktionen.
+ldeutsch i �ffne die Sch�chte und
+ldeutsch i verhindere, da� der
+ldeutsch i Inhalt auf die Bomben
+ldeutsch i f�llt. Benutze zu diesem
+ldeutsch i Zweck die Zeitbomben.
+a Ronald
+m 19 49
+###################
+##*#*#*#0#*#*#r#E##
+##*#*#*#$#*#*#*# ##
+##+#+#+#+#+#+#+#R##
+#                 #
+#                 #
+#                 #
+#     1""         #
+#                 #
+#QQQQQQQQQQQQQQQQQ#
+#.................#
+#QQQQQQQQQQQQQQQQQ#
+#.................#
+#QQQQQQQQQQQQQQQQQ#
+#.................#
+#QQQQQQQQQQQQQQQQQ#
+#.................#
+#QQQQQQQQQQQQQQQQQ#
+#.................#
+#QQQQQQQQQQQQQQQQQ#
+#.................#
+#QQQQQQQQQQQQQQQQQ#
+#.................#
+#QQQQQQQQQQQQQQQQQ#
+#.................#
+#QQQQQQQQQQQQQQQQQ#
+#.................#
+#QQQQQQQQQQQQQQQQQ#
+#.................#
+#QQQQQQQQQQQQQQQQQ#
+#.................#
+#QQQQQQQQQQQQQQQQQ#
+#.................#
+#QQQQQQQQQQQQQQQQQ#
+#.................#
+#QQQQQQQQQQQQQQQQQ#
+#.................#
+#QQQQQQQQQQQQQQQQQ#
+#.................#
+#QQQQQQQQQQQQQQQQQ#
+#.................#
+#QQQQQQQQQQQQQQQQQ#
+#.................#
+#QQQQQQQQQQQQQQQQQ#
+#.................#
+#QQQQQQQQQQQQQQQQQ#
+#.................#
+#QQQQQQQQQQQQQQQQQ#
+###################
+R 50438
+0 0
+1 Demo 1
+2 rrtttllcb..........stltrsr.....cbbl..mtr
+2 rrst.ltllllllcb..........stltllcb.......
+2 ...mtrtrrrrrrrrrrrcbb...ml.tt..rrTrrbbBt
+2 ttttTbbrrtu...............t...trtrb.cbl.
+2 mtbblrrtttllcbb....ttmlsrRtttl........
+R 57072
+0 8
+1 Ronalds demo
+2 .rRtttlcbb..t......stltllcb..........stl
+2 tllcb..........stltrrrrrsr.....cbbl..mtr
+2 rr.stltrrcb..........stltrrcb..........s
+2 tltttTbbrrtut.......
+
+uuid e27c5978f6b459ab656108e031155909
+
+leaderboard steps time

@@ -1,0 +1,45 @@
+n Dark Walls
+ldeutsch n Dunkle Mauern
+D 2
+C 1
+E 0
+M 0 Pink Panther
+i As a new feature, the
+i invisible walls are no
+i longer invisible.
+i This makes the level
+i a little easier... 
+ldeutsch i Als neues Feature 
+ldeutsch i sind die unsichtbaren
+ldeutsch i Mauern nicht l�nger 
+ldeutsch i unsichtbar.
+ldeutsch i Das sollte diesen Level
+ldeutsch i ein bisschen einfacher
+ldeutsch i machen...
+a Reinhard
+m 15 10
+###############
+#!i   *     iE#
+# i iiiiiiiiii#
+# i i i *  i  #
+# i*  i ii i *#
+# ii ii  i i i#
+# *    i i i  #
+#iiii ii i ii #
+#1       i    #
+###############
+R 90066
+0 0
+1 Demo 1
+2 ...trrrtt.rtt.llllr.rrtt.l.rbblllttttt.b
+2 bbbbbrr..b.rbb.rbbrrrrrrt.r.trrtrrtttltt
+2 rrrbbbbbrrrttttl.ttr.lbbrbblllll.t.ttttt
+2 .r..rrbrr.t.rlll.bbbll.bbr.bb.llb.lllltt
+2 trttt.ltttt.rttt.l.tr.bl.blllblltttrttrt
+2 tttrtttrr.tb.rrbb.lbbrrtt.ltt.rttr.ll.tt
+2 ttrrtt.t.llrrt.l.b.l..ttlltttrrrrrrrrrr.
+2 .ml..........rrrr........
+
+uuid c78ef41add29df79bcfabf05a61c0c1d
+
+leaderboard steps time

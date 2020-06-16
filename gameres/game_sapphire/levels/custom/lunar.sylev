@@ -1,0 +1,36 @@
+n Lunar Landing
+D 3
+C 1
+E 0
+A A
+O alt-set1
+i Of course there is plenty of
+i green cheese on the Moon.
+a Alex
+m 15 11
+~ A        iii 
+~ A        i$i 
+~UTP       iii 
+~AAA           
+~AAA           
+~HEH 1  ""     
+#+#++#++#&++#++
+#&+%+#+&++%+++#
+++#+#+##+#++#&#
++#&++#%+++++&#+
+#%#+%+##+&#%++#
+R 88107
+0 0
+1 Demo 1
+2 ..........rrrr..r.....sr....tt....mllbbb
+2 ...r.....urr.........lbb....ml..ut.r....
+2 ..rbb.r...mb.mtl..l.......srbb..srr.....
+2 ......lttrrbt.lllbblb...trttlll.ttl...l.
+2 .......l.....sr..........llb..utt.......
+2 .bbbb.l...ut.............bbb...utt......
+2 ...bbl...sbbl...r.....r...mttllb..trr...
+2 ...tt..m..............
+
+uuid 78cef2e5581601c1bbe283abacea3bed
+
+leaderboard steps time

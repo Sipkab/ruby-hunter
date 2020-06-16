@@ -1,0 +1,34 @@
+n Chess
+ldeutsch n Schach
+D 4
+C 5
+E 0
+M 0 Take Five
+i What about a nice
+i game of chess?
+ldeutsch i Wie wärs mit einer
+ldeutsch i netten Partie Schach?
+a Ronald
+m 12 11
+############
+# !Q*$1*Q! #
+# **.***** #
+# #.#.#.#. #
+# .#*+.+.+ #
+# #.+.#.#. #
+# .#.+*#.# #
+# #.#.#.#. #
+# ****.*** #
+# !Q*$E*Q! #
+############
+R 4725
+0 1
+1 Demo 1
+2 ......llrbrrt..brrtr....llllllblltl...bb
+2 bbbbbrBrrbrtrrBrrBrttttttlll..b..ut.....
+2 ....bbbl.sr.........llll.srr........lllb
+2 b.ut.........bbrR.bbbr..........
+
+uuid ff740106ff4e900d4dcabace0dd60a8f
+
+leaderboard steps time

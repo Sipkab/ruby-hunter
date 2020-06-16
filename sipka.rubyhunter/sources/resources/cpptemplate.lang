@@ -1,0 +1,346 @@
+language cpptemplate_lang {
+
+	regex whitespace "[ \t\r\n\v\f]+";
+	regex identifier_name "[a-zA-Z_][a-zA-Z_0-9]*";
+	regex operators "(==)|(!=)|(&&)|(\|\|)|([+\-*/<>])|(<=)|(>=)";
+	regex unary_operators "[!~]";
+
+	value expression {
+		value unaryoperator ?{
+			matches unary_operators 1;
+			skip whitespace *;
+		}
+		firstorder 1{
+			value parentheses 1{
+				skip "\(" 1;
+				skip whitespace *;
+				include expression 1;
+				skip whitespace *;
+				skip "\)" 1;
+			}
+			value newexpression 1{
+				skip "new" 1;
+				skip whitespace +;
+				value class 1{
+					matches identifier_name 1;
+				}
+				skip whitespace *;
+				skip "\(" 1;
+				skip whitespace *;
+				inorder ?{
+					value argument 1{
+						skip whitespace *;
+						include expression 1;
+						skip whitespace *;
+					}
+					inorder *{
+						skip "," 1;
+						include argument 1;
+					}
+				}
+				skip whitespace *;
+				skip "\)" 1;
+			}
+			value nullliteral 1{
+				matches "null" 1;
+			}
+			value boolliteral 1{
+				matches "(true)|(false)" 1;
+			}
+			value assignment 1{
+				value target 1{
+					matches identifier_name 1;
+				}
+				skip whitespace *;
+				skip "=" 1;
+				skip whitespace *;
+				include expression 1;
+			}
+			value hexnumberliteral 1{
+				skip "0x" 1;
+				matches "[0-9a-fA-F]+" 1; 
+			}
+			value binarynumberliteral 1{
+				skip "0b" 1;
+				matches "[01]+" 1;
+			}
+			value numberliteral 1{
+				matches "([-+]?[0-9]+)|(0x[0-9a-fA-F]+)|(0b[01]+)" 1;
+			}
+			value stringliteral 1{
+				skip "\"" 1;
+				matches "((\\\")|[^\"])+" *;
+				skip "\"" 1;
+			}
+			value exp 1{
+				matches identifier_name 1;
+				skip whitespace *;
+				value scope *{
+					skip "\." 1;
+					skip whitespace *;
+					matches identifier_name 1;
+					value methodcall ? {
+						skip whitespace *;
+						matches "\(" 1;
+						skip whitespace *;
+						inorder ?{
+							value argument 1{
+								skip whitespace *;
+								include expression 1;
+								skip whitespace *;
+							}
+							inorder *{
+								skip "," 1;
+								include argument 1;
+							}
+						}
+						skip whitespace *;
+						matches "\)" 1;
+					}
+				}
+			}
+		}
+		value operator ?{
+			skip whitespace *;
+			matches operators 1;
+			skip whitespace *;
+			include expression 1;
+		}
+	}
+
+	anyorder baseorder * {
+		value whitespacetext *{
+			matches whitespace +;
+		}
+		value text *{
+			firstorder 1{
+				matches as textchars "[^\s@]+" +;
+				inorder + {
+					skip "@" 1;
+					matches "@" 1;
+				}
+			} 
+		}	
+		firstorder *{
+			value valueaction 1{
+				skip as directive_start "@" 1;
+				skip whitespace *;
+				value optional ?{
+					matches "(opt)|(optional)|(void)" 1;
+					skip whitespace +;
+				}
+				include expression 1;
+				skip whitespace *;
+				skip as directive_end "@" 1;
+			}
+			value variable 1{
+				skip as directive_start "@" 1;
+				value type 1 {
+					matches "(var)" 1;
+				}
+				skip whitespace *;
+				value name 1{
+					matches identifier_name 1;
+				}
+				skip whitespace *;
+				value initializer ? {
+					skip "=" 1;
+					skip whitespace *;
+					include expression 1;
+					skip whitespace *;
+				}
+				skip as directive_end "@" 1;
+			}
+			value replaceaction 1{
+				skip as directive_start "@" 1;
+				value type 1 {
+					matches "(replace)" 1;
+				}
+				skip whitespace *;
+				skip ":" 1;
+				skip whitespace *;
+				value key 1{
+					matches "[^@ \t\r\n\v\f]+" 1;
+				}
+				skip whitespace *;
+				skip as directive_end "@" 1;
+			}
+			value includeaction 1{
+				skip as directive_start "@" 1;
+				value type 1 {
+					matches "(include)" 1;
+				}
+				skip whitespace *;
+				skip ":" 1;
+				skip whitespace *;
+				value key 1{
+					matches "[^@ \t\r\n\v\f]+" 1;
+				}
+				skip whitespace *;
+				inorder ? {
+					skip "\(" 1;
+					skip whitespace *;
+					inorder ?{
+						value parameter {
+							value name 1{
+								matches identifier_name 1;
+							}
+							skip whitespace *;
+							skip ":" 1;
+							skip whitespace *;
+							value value 1{
+								include expression 1;
+							}
+						}
+						include parameter 1;
+						inorder *{
+							skip whitespace *;
+							skip "," 1;
+							skip whitespace *;
+							include parameter 1;
+						}
+					}
+					skip whitespace *;
+					skip "\)" 1;
+				}
+				skip whitespace *;
+				skip as directive_end "@" 1;
+			}
+			value foreachaction 1 {
+				skip as directive_start "@" 1;
+				value type 1 {
+					matches "(foreach)" 1;
+				}
+				skip whitespace +;
+				value itemname 1 {
+					matches identifier_name 1;
+				}
+				skip whitespace +;
+				skip "in" 1;
+				skip whitespace +;
+				value collection 1{
+					include expression 1;
+				}
+				inorder * {
+					skip whitespace +;
+					skip "," 1;
+					skip whitespace +;
+					include collection 1;
+				}
+				skip whitespace *;
+				skip ":" 1;
+				value data 1{
+					include baseorder *;
+				}
+				skip as directive_end "@" 1;
+			}
+			value ifelseaction 1{
+				skip as directive_start "@" 1;
+				skip "if" 1;
+				skip whitespace +;
+				
+				include expression as condition 1;
+				
+				skip whitespace *;
+				skip ":" 1;
+				
+				value truebranch 1{
+					include baseorder *;
+				}
+				
+				value elsebranch ?{
+					skip as directive_start "@" 1;
+					skip "else" 1;
+					
+					skip whitespace *;
+					skip ":" 1;
+					include baseorder *;	
+				}
+				
+				skip as directive_end "@" 1;
+			}
+			value whileaction 1{
+				skip as directive_start "@" 1;
+				skip "while" 1;
+				skip whitespace +;
+				include expression as condition 1;
+				skip whitespace *;
+				skip ":" 1;
+				value data 1{
+					include baseorder *;
+				}
+				skip as directive_end "@" 1;
+			}
+			value dowhileaction 1{
+				skip as directive_start "@" 1;
+				skip "do" 1;
+				skip whitespace *;
+				skip ":" 1;
+				value data 1{
+					include baseorder *;
+				}
+				skip as while_directive_start "@" 1;
+				skip "while" 1;
+				skip whitespace +;				
+				include expression as condition 1;
+				skip whitespace *;
+				skip as directive_end "@" 1;
+			}
+			value callfunctionaction 1{
+				skip as directive_start "@" 1;
+				skip "call" 1;
+				skip whitespace +;
+				value name 1{
+					matches identifier_name 1;
+				}
+				skip whitespace *;
+				inorder ?{
+					skip "\(" 1;
+					skip whitespace *;
+					inorder ?{
+						include expression as argument 1;
+						inorder *{
+							skip whitespace *;
+							skip "," 1;
+							skip whitespace *;		
+							include expression as argument 1;	
+						}
+					}
+					skip whitespace *;
+					skip "\)" 1;
+				}
+				skip as directive_end "@" 1;
+			}
+			value declarefunctionaction 1{
+				skip as directive_start "@" 1;
+				skip "(function)|(func)" 1;
+				skip whitespace +;
+				value name 1{
+					matches identifier_name 1;
+				}
+				skip whitespace *;
+				skip "\(" 1;
+				skip whitespace *;
+				inorder ?{
+					value argument 1{
+						matches identifier_name 1;
+					}
+					inorder *{
+						skip whitespace *;
+						skip "," 1;
+						skip whitespace *;
+						include argument 1;
+					}
+				}
+				skip whitespace *;
+				skip "\)" 1;
+				skip whitespace *;
+				skip ":" 1;
+				value data 1{
+					include baseorder *;
+				}
+				skip as directive_end "@" 1;
+			}
+		}
+	}
+}

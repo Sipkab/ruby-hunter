@@ -1,0 +1,140 @@
+n Bio Recycling III
+D 6
+e 475
+p 0
+M 0 Jump
+N Polymorphing
+i What do bags convert into?
+a Alexander
+m 30 30
+.................0............
+.0....................    <...
+............0......... .......
+..... ............0... ..0..0.
+.....^................ .......
+.........0............     ...
+..0..........<<...............
+...................0..1...0...
+..............................
+..... ......0...............0.
+.0...  > ....... ....0.......!
+..... .......   <   .... .....
+............. .. .. ....^.....
+.......0....   ...   ... .....
+..0.......0.. .. .. .... .....
+....0........   >   ..0. ..0..
+................ ....... .....
+.0.. ....0............0. ...0.
+.... .........0...............
+.... ..0.. ...................
+....^..... ...................
+..........      <  ....0....0.
+.0............................
+...............0..0........Q..
+....0...0.....................
+.......................0...E..
+cccccccccccccccccccccccccccccc
+~                             
+~                             
+Q    Q    Q    Q    Q   Q    Q
+y @@@@@@@@@
+R 96663
+0 0
+1 Hard work
+2 bbbbbbblbbbbttbbbbbbbllbbltrrrrllllbllll
+2 llttrrbbrrttlb.llrrrrTlllllllltllbrrrrb.
+2 .rrttTttttttrrb..tllbbb..bbbbbrrrrlllllt
+2 tbblllllllllllttrrbLrbrrrrrrrrrrrrrrrrrr
+2 rttrrbbttrtttrrrbbbbtttbbbBbltttr.llTrbl
+2 lrr..bl..lbbbbbrRtllllBlllllBllllBllBlll
+2 lllllBlllBrrrrlrrrrrrrrlllbrrrrllllltlll
+2 blbrrrrrrrrlllllrrrrrtrrrrrrrrrrrrrllllb
+2 llllrrrrrtrrrblllllllrrrrrrttttlllllllll
+2 llttttttttrrb.tllbbbrlttlllttllb........
+2 ......r.....rrrrbbbbbbbb...llrtttrbbb...
+2 llttlllbb.rrttrrrttbbtttrrrrrrrbbbbttttt
+2 tllllltllbrrrrrrrbbbbbbbrrrrrbbbbllllllt
+2 lllllllbRlTlTllltrrrrrrrsrrrrrrrrrrtttlt
+2 ttlBttttlttttrrbtllbr.....rllbbbbrbbbbbb
+2 rrbbblbLLLLLLlLttrrttltttttTbbbbrbbbbbLL
+2 LLLLtttttlttttttttltrrbrrbllllbbbbbtttRt
+2 trrrblbl...lbbbbbrbbbbblllttrrrttttttttr
+2 rrrbttlttlbbbbbbbbb.bbbbrrttlltttlttrttt
+2 tttrrtbbllllllttttttttllbLtrrbl........l
+2 rrbbbbbblbbbbbbbbbllttttttrttttrr......b
+2 bbbbbbbbb....rrbbbbllllllrrrrrrttttttttt
+2 ttttllllllllbbbbbbbbbrr.rrrllrrrlllttttt
+2 tttllbbRbbbRbbb.rrrrrrrrbbbblllllllttrrr
+2 rrrtttttllllllllttttttbbbbbbbblllllttttt
+2 llltllbrbRbRbt..................trrbbbbr
+2 rrrrrrrrrrrrrrbbbbllltrrrtttttttbtRttttt
+2 ttttrrtttrbbRbRbRbRbRlltttrbbbbbbbbbbbbb
+2 b.bbbrrblllttttt...bbbrltttttltttttttttt
+2 rrtttrrrtttttttllbl.....r.........lbbRtt
+2 rtrrb...tllTbbbBttttTbrrb.......lrbbbbbb
+2 llrbtTbbbbbbbbbbbbbbllbbbbbbrRlltttttrrt
+2 ttttttttttttttrttTbbblbbbbbbbbbbbbbblbbb
+2 rRRRRRRbRbRlltttttttrtttttttttttttrrbrbb
+2 bbbbbblllltrtttttttttrrttttltlblbrbrbbbb
+2 bbbbbbbbbbbbbblbbbrrbblltttttttttttttttt
+2 tttttttttllllbBtrrrrblllllbbbbbbbbbbbbbb
+2 bbbbbrrbbbbbllttrrttttlllllllllllllllttl
+2 bbbbllllllllltttttttttrr.rRlllbbbbbbbrtr
+2 r..............rrrbLbL...llTrrrrrrrrrrrr
+2 rrrrrrrrbbblllllllllllllllllrbblllllllrr
+2 rRttrrrrrrrrrrrrrrrrrrrrrtttttlllllllltl
+2 llllllllblllllllbbtttttltRbbbbbbb....ttt
+2 ttttttrrTlrrrllbbbbbbbbbrrttttttrttttllt
+2 ttttttrrrTlltttllbrbbrrrllbbbbbbbbrrbbbb
+2 ttrrbbbblttttrtLRltRtRtLRtLRtLR....rbbbb
+2 bbbbbbbbb......rrrrrrrrrrrrrrrrrrbbbllll
+2 lllllllllllllllllllbrrrrrrtrrrrrrrrrrr.r
+2 rrrrrttttttttttttttttttrrtttttttrtttllll
+2 llllblllllbtrrrrrBttbblllllbbBttrrrbbRbR
+2 tttt..rrr........llbtllllTlllbtrrBllbrrl
+2 ........rrlllbbbbbbbbrbbbbbbbbbbbbrbbbr.
+2 ..lttltttttttttttttttttlbrbrrTllbrRLlbbt
+2 brrrrtttlbrbbtLbrr..lTrb.....bbbbbbbbbbb
+2 bblrtttttttttttttbbltbbbbbbbbbbb....rrr.
+2 rrrrbbbbllllllllllllBrrrrrrrrrrrrttttlll
+2 lllltttttttttttTrbbbbbbbbbbbbr...l.l.bbb
+2 llbrrttlttttttttttttttLbbbbbbbbbbbbllltt
+2 tttttttttttltTlbbrrrrrbbbbbbbbbbbbltttlt
+2 ttttttttttttLtbttLtrBrtTbbbbbbbbbbbbbbbb
+2 bbrbb........rr.llbbbbllbrrRllllLttrrrrt
+2 ttttttltttttllllllrBrrBtttttrrbbbbbbbbbb
+2 bbbbbbrlltttttttttttttlllbbllllbbrtlllll
+2 llttttrbbbbbbbbbbbbbbrrlrrrrrrrrrrtttttt
+2 ttttrrrbbbbbbrttttttttttttlttrrbbbtttllt
+2 Rb..rlrrtR.rbbbbbbbbbbbbbbbbbblbbbbbrRLl
+2 lllllllllllllllltrrrrrtrrrrrrrrrrrtttttl
+2 lltrrrrrrrrrttttttltttttlllttltrtttlbbbb
+2 bbbbbbbbbbbbbbbblbbbbbrrrttlltttlllttttt
+2 tttttttttttllltttttrlllllttllllltllbrrrr
+2 bRtt...blbbbbbbbbbbbbbbbbbbbbbrbbb......
+2 .lttttttttttttttttttttrbbbrtttlbbbbbbbbb
+2 bbbbbbbbbbbb..rttttttttttttttttrttttlttt
+2 rrrblllbbbbbbbbbbbbbbbbbbbbbbrrrrrrrrrrr
+2 bbblllllllllllllllbrrrrrrrrrrrrrrrtttttt
+2 tttrrrrrttttttttttttttttllllllllllbbltlt
+2 llbrrbbbbbtrrbbbbbbbbbbbbttttttttttttllb
+2 lbbbbBttttrtrrbllbbbbbbbbbbbbbbbrrrrrrrb
+2 bbrrrrrrlllrrrrrtttttrrrttb............t
+2 ttRllbbbbbbbbrrrrbBtttt....bbbblllltllll
+2 lrrrrrrrrrrtttttttbbtttbbbtttttttttttttt
+2 ttttttlllllll...........................
+2 ........................................
+2 ........................................
+2 ......................bbbbbbbbbbbbbbbbbb
+2 blbbbtttbbbttttttttttttttttttttttbbbbbbb
+2 bbbbbbbbbbbbbb............tttttttttttttt
+2 ttttttt..l..r..cbbb...bbbbbbbbbbbbbbbbbb
+2 brrr..bbb.......llllbrrTrrttttttttRttltt
+2 tttttttttttlttrrrblbbbbbbbbbbbbbbbbbllll
+2 llllllllllllttttrrrrrrrbbbbrbbbbbb....ll
+2 lllllllllllbrrrrrrrrrrrr...rrrrrrrrrrttt
+2 tr.......rrtlbrtlbrtlb
+
+uuid 32ed3e49d6cd9c77e0a83ae518d6032d
+
+leaderboard steps time gems

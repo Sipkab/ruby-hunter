@@ -1,0 +1,40 @@
+n Follow directions
+D 3
+C 5
+p 0
+M 0 Over the Rainbow
+i Just push the safe
+i Get out in time
+i Use left rock to block the pusher
+i from pushing the bag
+i And the right rock to open it
+i The rest should be easy
+a Nic01
+f Nic01
+m 15 12
+###############
+m             #
+# #EEEEEEEEE# #
+#             #
+#      00     #
+#      ..     #
+#       1[    #
+#             #
+#             #
+#             #
+#            Ql
+#{###########_#
+R 1860
+0 8
+1 Demo 1
+2 rrrr.lll..b..l...................lttl...
+2 r.r.....ll.bbbbrrBttttttt.......
+R 2386
+0 8
+1 An Expert's move
+2 rrrrlllllt..llbrb.rt..r.t...............
+2 ......lbbbbbBRttttttttt......
+
+uuid aa6e101138e0816678cd2ed9f996089b
+
+leaderboard steps time

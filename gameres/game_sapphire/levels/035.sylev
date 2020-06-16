@@ -1,0 +1,96 @@
+n Hidden treasures
+a Emerald Mine
+D 4
+s 0
+i Don't waste your dynamite to get to the treasures.
+m 64 32
+################################################################
+#         Q          .                   .          ..         #
+#         . .Q  .          .   .   Q .      .    Q   Q   .     #
+#    Q      Q. ..Q   QQQ .  Q   Q  .       .     .Q  ..  .     #
+#  . .+ Q   .Q. .QQ  .Q. Q  ..  . Q.+ Q   QQ.   +Q.  . .Q      #
+#  .Q.Q . Q ..  .Q.  Q.  .  QQ .... ..Q.  Q.Q  .Q..   + .      #
+#   Q.Q.+ .     .... .Q     ..Q    .Q.. + QQ.  +. Q + + .      #
+#   . . .QQ Q  Q .   ..QQ   . .  +  Q . . ..  QQ  . Q  .   Q   #
+#     .QQ .Q+Q . +  Q....+ Q .      .   .  QQ ..Q. .Q.    ..   #
+#      ..  .....  Q . . . ..Q . Q Q  QQ.   ..  Q. ..QQ.      Q #
+# Q.  Q QQ.      .. Q       . ..Q..  ...  ... .... ... Q  .  .Q#
+# .   ..QQ...Q.  +  .   .Q Q    . . . QQ        .     Q.   .  Q#
+# Q + QQ . . .Q . .. .. .. .1  .   Q  ..Q Q +     QQ  .       .#
+# .+  ... . +... ..  Q  +  .       ... .. Q. .    .. Q  Q.     #
+#Q .    .Q.  ...  .... Q.    Q+   Q   + .  .  Q.  Q  .  .  ..  #
+#.   . . .   Q +  ..   .    ..  ....Q.   .    .  +. . + + +    #
+#  Q  . +  ++. .   . ..   .  ..     .. .   ...       . .      .#
+# .. ..  . ++    +Q     .QQ  .       .   . +     ++    Q . ..  #
+#  Q+ QQ    ++    ..  Q  ..    Q     + .     Q +++++   .  Q.   #
+#.+. ... .  ++ .    . +        .. . .       +++++++++  Q  .Q.  #
+# .         ++    . ...   .. . ..          +++++++++++ ... .   #
+#    . .    +++  .      .. .               +++$$$+++++     .   #
+#          ++++    Q        Q      +++    ++++$$$++++++      ++#
+#  +++    ++++++  ++       +++    ++       +++++++++++++    +++#
+#  ++++  +++$$++  ++++     ++++++  +++++   +++++++++++++ Q  +++#
+# ++++++ +++$$++++++++++    +$$++   ++++   +++++$$+++++++++++++#
+#+++$$+++++++++++++$++++   +++++   ++++  +++++++$$+++++++++++++#
+#+++$$+++++++++++++$$++++  ++++  +++$+++++++++++++++$$$++++++++#
+#+++$$+++++++$$$$+++$$+++++++++++++$$$+++++$$$$+++++$$$++++++$$#
+#++++++++$$++$$$$++++++++++$$+++++$$$$$++++$$$$+++++$$$++++++$$#
+#++++++++$$++++++++++++++++$$+E++E+++++++++++++++++++++++++++++#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 53881
+0 8
+1 Demo 1
+2 .....brrrrbbbbrrrbbbrrrrrrrttttrrrrrrrrr
+2 brrbbr..bb..rr..............l...........
+2 .ltttttt.bbbbbr..t.rr......llttrr.......
+2 llbbbb.tttttttttt.rrbll.l.bbbbbbb...bb..
+2 rr....lltttttttttttrrt.llbbbbbbbbbbb...b
+2 bbbblbllbrrbllrrttttttrrrrrtttrr.l......
+2 bbbbtllllbr.rrll...rrrrtttttttllbrr...bb
+2 b....bbbrttttttttttttttttrrllbbbbbbbbbbb
+2 bbb.....bbbbbbrrrblltlltttlllltttttttttl
+2 llllllll.bb..l..rttt....ll.......llbbbrr
+2 lll..rrrrbbrbrrbll..tttrtttttt......t..b
+2 b.ttttllrrbbbbbb...bbbbbbtttttttttttt..b
+2 lltt..r..r.bbbbbbbbbbbb...rrbbbbbbrblttl
+2 l.............r..r....tttttttttttt...ltt
+2 .b.rtt.l..r..ttt.r.l.bbbbbbbbbbbbbbbbb..
+2 ..bbbbbblllllbrrrtrttttttttllllllbbbb.tt
+2 ttllllbll...l.ttttttll.rrbbb....bbbb..tt
+2 ttttttttttr.l.bbbbbbbbbbbb....bbbbbrrbr.
+2 blrrbrllllrttllttttttttttttttttttttllbb.
+2 ..rrrbbbbbbbbbb.b..bbb....t.t........lll
+2 tlllbrrll..rrrbrbbbrr.tttllll.b.tttttrrr
+2 lllbbbb...bbbbbrbbrbltlltlltttttlllttlll
+2 lbrll...rrrr..l.tttttttttttttt..bbbbrrrt
+2 tlll..lbbbbbbbbbb....bbbbbbbrbr.ltltlttl
+2 ll...ttt.......bb....t.....ltttt..r.....
+2 l..l.......tttttr.....t.t.l.tllb.rr.rr.l
+2 .tttt....trrb.l..lbbbbbbbbbbbb....bbbbbl
+2 b..bl.t.rtttr.......bb........tttttttt.t
+2 tt.bbb....lll.rrbrbrb.bbbbb..tttttttl..l
+2 tttttttr.l..bbbbbb...ttttttttttr..l.bbbb
+2 bbbbbbbbbbb....bbb...trttttttttttttttttt
+2 ttl.r..l.bbbbbbb..bbbbbbbbbb..bbbbbbbbrr
+2 rbbllllltttttttttttllbbbbbll....ll..rbb.
+2 ....tttttttt.....l...rbbbbbbb..ttt.....t
+2 tttltttttttttttt.bbbbrrbbrb..bbbbbbbbbbb
+2 bbbb..............................ttt...
+2 t..bbbb....................llll.r.......
+2 ........l..r..ttttrr..........bbbllll...
+2 ttttrrrrbbbb...bbbbbbllllbrrbltrrtrrr...
+2 .tttttttttttllt..rbbbbbbbbbbtttttttttttt
+2 tttttttt.....bbrrrbbbbbbbbbbbbbbbbbbb...
+2 .ttttttttttttttt.bbrrrtttll...rrbbbbbbbb
+2 bbbb...ttttll.ttlllbrrrrbllbbbbb..bbbbb.
+2 ttttttttttttttttttttt.llb.r..rrrb.l..rtt
+2 tttllll.lbbbbbbbbbbbbbbbbbbbbbb....bbbbb
+2 bbrblltttttrrrrrttrrrrrrrrrrrtrrrrrrrrbb
+2 bbbbbbb.......
+
+uuid 95a12e2bc6e72f892837611465bf6ecd
+
+leaderboard steps time

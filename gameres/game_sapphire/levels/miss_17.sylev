@@ -1,0 +1,38 @@
+n Mission Possible XIV
+ldeutsch n Mission Possible XIV
+D 8
+C 5
+E 0
+p 0
+M 0 Dancing on the Ceiling
+N Mission Possible XV
+i Well, it certainly isn't
+i possible to move a boulder
+i over the acid.
+i But then of course who
+i says you have to?
+ldeutsch i Nun, es ist sicher unmöglich,
+ldeutsch i den Stein über die Säure zu
+ldeutsch i schieben. Aber andererseits:
+ldeutsch i wer sagt, dass man das muss?
+a Juergen
+m 7 5
+####(##
+#  0.*#
+# a:*.#
+#@1."*#
+##E####
+R 8960
+0 1
+1 Demo 1
+2 ......................rr................
+2 ..t..brtt...bb......u..uL.llll..bbLrRl..
+2 .b.
+R 1106
+0 1
+1 Demo 2
+2 rrTrmuruL.llll.bbbLrRlb......
+
+uuid ced93d76a7aecd703948ca4d66fe90b2
+
+leaderboard steps time

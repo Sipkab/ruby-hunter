@@ -1,0 +1,34 @@
+n Pyramind III
+D 5
+C 5
+p 0
+M 0 A View to a Kill
+N Pyramind IV
+i Fragile, eh?
+i HINT : Again, the dirt is useful.
+a Nic01
+f Nic01
+m 15 11
+###############
+#.............#
+#......1......#
+#..... $ .....#
+#.... 0$0 ....#
+#... 0$$$0 ...#
+#.. 0$$$$$0 ..#
+#. 0$$$$$$$0 .#
+# Q$$$$$$$$$Q #
+#..QQQ.Q.QQQ..#
+#######E#######
+R 23515
+0 8
+1 Demo 1
+2 ..l.brlllbLrtrrblbltltllbLtrrbll.rr.lbrl
+2 ..Lrtrrblbltlr.........trrtrrrrbRltllbrb
+2 rtrtrrbRtllbrrrlblrRltllbrbrtrll.llbLR.l
+2 lbrrrr.lb.l.lr..rrrRTlll...lllLTrrr.rbll
+2 .bb......
+
+uuid 455b116131e69b803cef20ca964ac237
+
+leaderboard steps time

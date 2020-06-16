@@ -1,0 +1,59 @@
+n Foresight
+D 7
+C 2
+E 0
+s 0
+p 0
+Y
+i It's always good to think ahead.
+i Other times, however, you must
+i learn from your mistakes.
+a Alex
+m 19 22
+~###########       
+##$..  <***#       
+#1# # # #.##       
+# #V#  .# #        
+# # .##%# ######   
+% #.    +  #0  #   
+# ####+.# ##+# #   
+#.   >  # #.%# #   
+######s## # ## ####
+#         #  #    #
+# ## ####a# ##### #
+#  ##+Q+   ^.   # #
+#*   #Q########s# #
+####s#Q#          #
+~ #  QQ#    5 #####
+~ #QQQ##  # & + #  
+~ ####+# |    # %  
+~    # +      # #  
+~    # #QQ  |## #  
+~    # ###+|### ## 
+~    #.   >    **# 
+~    #####a####### 
+y #$##a##?#
+y #S#@ %. #
+y ~  0$    
+y ~   0Q $ 
+y %    E Q 
+y ~        
+R 7618
+0 0
+1 Demo 1
+2 ...bbbbBttt.....bbbbb......bbbbbrrrrrrtt
+2 lll...Lt................................
+2 .........br.rrrrr..B.lllttttL......rrrrr
+2 ..lb..b..ttrrbbbbbbbbllllrrrrtt....ttttt
+2 ......lr...ttttr.lbbbbllbb..ttrrbbbbllll
+2 lll..lbbb.rr....r.....bbrr..tt.........t
+2 rrrrrtttTbr......................lbbRttT
+2 bbl.......rrrr..lllttttrttrrbbbbrrrbbbbl
+2 l..............llb.lll..ll..b.......bb..
+2 .llbbBttrrrbrb..........................
+2 ......................brrrrRllllt.......
+2 ....brrrrrRllllltttr.rrtt.rrbr........
+
+uuid 6aa2ebc75bced2f2e726f410091f2820
+
+leaderboard steps time

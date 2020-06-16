@@ -1,0 +1,35 @@
+n Spillover
+D 6
+C 5
+E 0
+p 0
+i Opening the first two bags
+i is not much of a challenge.
+i But the one by the exit
+i requires a less
+i conventional approach.
+a Alex
+m 13 11
+#############
+#    d......#
+#     ......#
+#  ## ......#
+#     ....Q.#
+#    |......#
+#    ...1...#
+E    .......#
+#@@@a.......#
+##...########
+######       
+R 44956
+0 0
+1 Demo 1
+2 .........rrr..tttllblll......rrrtrrbllll
+2 ..lrttlll....rbbrr.....ttll.l...........
+2 .bbrb......llll.bbl........ttt.ltttrrbl.
+2 ..l.bbbbb..r.........bbbRl...r...L....tl
+2 l...tl..........
+
+uuid 4fe9905e128c4f975c52ae897039fca3
+
+leaderboard steps time

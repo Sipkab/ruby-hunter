@@ -1,0 +1,52 @@
+n Robocop
+D 8
+C 2
+s 0
+p 0
+o 1
+i The chase is on.
+a Alex
+m 14 10
+~       Q    i
+i   ii iii   i
+~   i  i>%    
+~   i  iii    
+~   i         
+~   i         
+~   i         
+~  ii0       i
+~   Eiiiai   i
+~  @i  !1    i
+y iiii>%o/i
+R 78001
+0 0
+1 Demo 1
+2 ..........................L..........rrt
+2 ttttlbtrtuttl.......l...................
+2 ........................................
+2 ........................................
+2 ...............................llll...lr
+2 rrbb.........ttrrr......................
+2 ......rlllllllbbbbbrrtttrt.trrrrbbllbbbb
+2 blll.ll.bBr.......
+R 62437
+0 0
+1 Demo 2
+2 Lrrtbl.......l.....r....rtt......ttttutt
+2 ...l..........l.........................
+2 ........................................
+2 ........................................
+2 ........................................
+2 ................llll.lbb................
+2 ............btttrlbbbbbrrtttrbrrtrrrrt.t
+2 llbbblbbbblllll.l.bbtr.......
+R 49553
+0 0
+1 Alex
+2 Lrrttttttuttl............l...........lll
+2 l.lbb....b..tttrr..........rlllbbbbbrrtt
+2 trtbttbblbbbbrbll.l.bBr.
+
+uuid 8ad08aaf6f9b8de9cdcba597a71566ca
+
+leaderboard steps time

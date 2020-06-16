@@ -1,0 +1,82 @@
+n Heavy rain
+a Emerald Mine
+D 3
+s 25
+i You have to walk through the rain again and again
+i until you have the keys.
+m 64 32
+################################################################
+# R #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%# #
+# # #                %        %       %        %    %        # #
+#y# #                         %                %             # #
+#$# #                                          %             # #
+#B# #                                                        # #
+# # #                                                        # #
+#g# #                                                        # #
+# # #                                                        # #
+# # #                                                        # #
+#$# #                                                        # #
+#$#1#                                                        # #
+#$#                                                            #
+#E#                                                            #
+##|aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa| #
+##++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+#   #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%# #
+#   #    %  %    %   %     %   %      % %        %     %     # #
+#r# #            %   %     %   %      % %        %     %     # #
+# # #                %         %        %        %           # #
+#Y# #                          %                             # #
+# # #                                                        # #
+#b# #                                                        # #
+#$# #                                                        # #
+#$# #                                                        # #
+#G# #                                                        # #
+# # #                                                        # #
+#$#                                                            #
+#$#                                                            #
+#$|aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|#
+#$+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 33604
+0 8
+1 Demo 1
+2 .......ttttttbbbbbbbbrrrrrrrrrrrrrrrrrrr
+2 rrrrrrrrrrr.....rrr.......rrrrrrrrrrrrrr
+2 rrrrrrrrrrrrrbbbbbbbbbbbbbbb.lllllllllll
+2 lllllllllllllllllll..lllllllllllll......
+2 ...llllll..l...llllllllllttttttttttt.lll
+2 bbtt.rrbbbbbbbbbbbbrrrrrrr..rrr........r
+2 rrrr...rrrr.....rrrrrrrrrrrrrr..r.r.rrrr
+2 rrrrrrrrr..rrrrr..r.rrrrrrtttttttttttttt
+2 ttt.b..ll.b.lllllllllll...llllllllllllll
+2 llllllllllllll..l...lllllllllllllllllltt
+2 tttttttttt.llbbb.tttttrrbbbbbbbbbbbbbrrr
+2 rrrrrrrrrrrrr..rrrrrrrrrrrrrrrrrrrrrrrrr
+2 rrrrrrrrrrrrrrrrrrrbbbbbbbbbbbbbbbbllll.
+2 ........lllllll.......lllllllll.........
+2 lllllllllllllllllll..lllllllllllllllllll
+2 lllttttttttttt.ll.bbbbbbbtttttttrrrbbbbb
+2 bbbbbbrrrrbbrrrrrrrrr....rrrrrrrrr......
+2 ..r..r.......rrrrrrrrrrr.rrrrrr...rrrr..
+2 rr...rrrrrr.rrr..rrrrrrttttttttttttttt.l
+2 llllllllll...llllllllll.l..llll..lllllll
+2 lllllllllllllllllllllllllllttttttttttttt
+2 lllbbbbbbbbbbbttttttttttrrbbbbbbbbbbbbrr
+2 rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+2 rrrrrrrrrrrrrrrrrbbbbbbbbbbbbbbbblllllll
+2 lllllllllll.l..llllllllllllllllllllll..l
+2 ll.llllllllllllllllltttttttttttlllbbbbbb
+2 bbbbbbttttttttttttrrbbbbbbbbbbbbbr..rrr.
+2 .ll...rrrrrrrrrrrrrrrrrrrrr..rrrr..r..rr
+2 rrrrrrrr.rrrrrrrrrrrrrrrrrrrrrrttttttttt
+2 tttttttt.b...b.llll....llllllllllll.l...
+2 lllllllllllllllllllllll.llllllllllll....
+2 llllllllttttttttttttlllbbbbbbbbbbbbb....
+2 ..
+
+uuid 31a2165d21794af0baab2d438a2f00a4
+leaderboard steps time

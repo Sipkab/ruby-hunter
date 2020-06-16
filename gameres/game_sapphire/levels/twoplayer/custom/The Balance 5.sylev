@@ -1,0 +1,31 @@
+n The Balance V
+D 9
+p 0
+M 0 Tico Tico
+i By now, if you think balancing
+i is too easy, try this trick.
+i 
+i If you have 3 or more stones, and
+i are balancing to the right, you will
+i not get the stones where you need
+i them. Unless you get a helping
+i hand...
+a Alexander
+f Alexander
+m 30 5
+~  0                         !
+~ 2                           
+~ 0                           
+~                        ++++ 
+10                          E@
+R 49256
+0 0
+1 Move it over
+2 rb.b..r...rr..rr..rr..rr..rr..rr..rr..rr
+2 ..rr..rr..rr..rr..rr..rr..rr..rr..rr..rr
+2 ..rr..rr..rr.r.r.r.r.r.t.r.t.l.l.b.b.r.m
+2 .l..................trtrrrrbrbrlr.b.b...
+
+uuid a278e5bb625afadbc4dea50199d62d3f
+
+leaderboard steps time

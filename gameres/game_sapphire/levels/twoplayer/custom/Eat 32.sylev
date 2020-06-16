@@ -1,0 +1,45 @@
+n Eat 32
+D 8
+C 5
+e 0
+T 80
+t 145
+M 0 Race
+N Eat 33
+i Work it out.
+a Elliot
+m 20 23
+~###                
+~#*#                
+~#*###############  
+~#. R B R B R B  #  
+~#. G Y G Y G Y  #  
+~#E############RG#  
+~         # Y #  #  
+###########G#G#BY#  
+#  R  Y  R  # Y  #  
+#  G  B  G  # B  #  
+#GB########R#R####  
+#  g  R  ## B #     
+#  b  Y  ######     
+#######RY###        
+#2r   #  R #        
+#1y   #  Y #        
+##### #### #        
+#  R  #  R #        
+#  Y  #  Y #        
+#YR####RY###        
+#  Y  R  #          
+#  R  Y  #          
+##########          
+R 74639
+0 0
+1 Demo
+2 rrrrrrrrbbbbbblllllbbbrbrrrtbrrrrttttrrr
+2 ttttttlltlttltlllbtlllllltttrtrrrbtrrrrt
+2 brrrtrrbtbrrbtrrrtttttltllllllllllllLL..
+2 ..llbb...bllllLL....llbbbblllrrr..
+
+uuid 34c48227ebdf2ee040b3d623acc49e8d
+
+leaderboard steps time

@@ -1,0 +1,48 @@
+n Fish Tank
+D 7
+C 5
+E 0
+s 3000
+p 0
+A GRAPHITE
+O graphiteplus
+M 0 Crystal
+i The fish (bombs) aren't on your
+i side! Do not try to feed them
+i (keeping in mind they're still not
+i real fish). Instead, take all the
+i sapphires. You have only one
+i timebomb, so be careful!
+a Shark
+m 17 14
+iiiiiiiiiiiiiiiii
+ifffffffffffffffi
+if$Q$$$$1$$$$$$fi
+if$$$$$$Q$$$$Q$fi
+if$$$$$$$$$Q$$$fi
+if$$$$$$$$$$$$$fi
+if$$$Q$$Q$$$$$$fi
+if$/$$$$$$$$$Q$fi
+if//$$/$$/$$$$$fi
+if$$$//$///$$/$fi
+if$/$$/$$/$$$/$fi
+if$/$$/$$//$//$fi
+ifffffffffffffffi
+iiiiiiiiiiiiiE!ii
+R 74301
+0 0
+1 Demo 1
+2 llll...rbrr....trrrrrr.rb..tllb.lll.rB..
+2 tllllbtrrrbl.l..bbrT..rt..lbl....tt...rr
+2 rrlb..trrtrrbl.lblbL...rrr..tlb..rblllll
+2 ..rbrr...trrb.....tbl....rbbbBttttlllbrr
+2 ..............llltl...rr...bbrrlllrbrbll
+2 rbtttt...ttlll..l....rrrrrrr..bbbbbbbb..
+2 .tttttttttlllltlllllBlBlBmTbbrrrrbrtlllb
+2 llBrrtrrbrrbRl..tllllrbrrlbll.lbbb.ttrrb
+2 brtlttrrtrrbR.bbbrt..lttrrrrrrrbbbbllb..
+2 ...
+
+uuid d4b97fe0eabc9d6e16dbe619a5c70273
+
+leaderboard steps time

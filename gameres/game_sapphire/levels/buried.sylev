@@ -1,0 +1,69 @@
+n Buried Alive
+ldeutsch n Lebendig begraben
+D 5
+C 7
+p 0
+M 0 Waterloo
+i There aren't any stones
+i on your head.
+i Just be glad of that.
+ldeutsch i Zumindest sind keine Steine
+ldeutsch i über deinem Kopf.
+ldeutsch i Sei froh darüber.
+a Alexander
+m 22 22
+######################
+#00000""!!!!!00000000#
+#00000100000000000000#
+#0000000000000000$000#
+#00000000000000000000#
+#00000000000000000"00#
+#0*000000[00000000000#
+#000000000000$0000000#
+#00000000000000000000#
+#00000*00000000000000#
+#00000000000000000000#
+#00000000000000000$00#
+#0"000000000000000000#
+#00000000*00000000000#
+#00000000000000000000#
+#00000000000000000000#
+#00000000000000000000#
+#0000000000000000"000#
+#000E0000000000000000#
+#00000000000000000000#
+#0000000000"000000000#
+######################
+R 97525
+0 9
+1 Demo 1
+2 .....urrrrrrllllllbb..ut.......bbbbb..ut
+2 ......bbbbbb..utt.....bbbbbb.utt.......b
+2 b..bb.utt........bb....b.ut.........bbb.
+2 ..B..ut.............rrb..mll.......r..b.
+2 .......ut..........bbb...ut.......bbbbb.
+2 ut...t.......bbb.t..L..b..ut............
+2 ..bb.........B...ut........bbbb.uttt....
+2 .bbb.....b.....ut................bb....u
+2 t........bbbb....utt............bbb...ut
+2 t....................blbb..t.l.....rb...
+2 ...........ut...............bb...ll..r..
+2 l.tl..sr..b.......llbttttttttttrrrrrrrrr
+2 trrrrrr..ml..........rrbb....ut........r
+2 ...bbbbb...ut......bbbbbbb....utt......b
+2 bbbb...ut.......bbbbb..ut.......bbbbb...
+2 .ut........bbb..........r...l.......ut..
+2 ...............bb..........l.rb....t.b.t
+2 .......................................l
+2 r.b...tr................ll...sr.........
+2 .............lb..ut.......bbbbb..b..uttt
+2 ll......lllb...rr.lttllllllllbbbllbbbb..
+2 ...r....utt......bbbbb.ut........bbbb.ut
+2 tt.....bbbbb..uttt......bbb......b..ut..
+2 ..........b...b.....ut.........bb...b...
+2 R......ut.........bb............ut......
+2 ll.b...b....utt.......bbbbb........
+
+uuid 290fe4a20b5309146d8d1a7e61da44bb
+
+leaderboard steps time

@@ -1,0 +1,43 @@
+n Little Sequences
+ldeutsch n Kleine Zugfolgen
+D 6
+C 5
+p 0
+M 0 Penny Lane
+i In order to solve this,
+i you have to find the
+i proper sequences of movements.
+i To make it a little worse,
+i this sequences are also
+i quite time critical.
+ldeutsch i Um diesen Level zu lösen,
+ldeutsch i muss man die richtigen
+ldeutsch i Zugfolgen finden.
+ldeutsch i Um es ein wenig schlimmer
+ldeutsch i zu machen, sind diese
+ldeutsch i Zugfolgen auch ziemlich
+ldeutsch i zeitkritisch.
+a Ronald
+m 7 13
+#####  
+#0 ##  
+#$00Q# 
+##1..# 
+#*@@ # 
+##*#+# 
+#*.  # 
+#*  @# 
+##Q*@##
+#&#@..#
+#.E## #
+#     #
+#######
+R 10923
+0 1
+1 Demo 1
+2 .rrblll....r.bbLbr....R.B.trbb..bLttllL.
+2 rrtttlttlLrrbbbbbbbrbblllltT.r..........
+
+uuid 42856e722cd79b2db82561f82d8fb254
+
+leaderboard steps time

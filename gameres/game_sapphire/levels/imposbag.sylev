@@ -1,0 +1,73 @@
+n Impossible Bags
+ldeutsch n Unmögliche Säcke
+D 7
+C 7
+p 0
+M 0 Mission Impossible
+i Figure it out and do it
+i 6 more times.
+ldeutsch i Finde raus, wie es geht
+ldeutsch i und mache es noch 6 mal.
+a Alexander
+m 51 25
+################                                   
+#10     #      #                                   
+###.@   #      ########                            
+~ ##.@  #      #      #                            
+~  ##.@.       #      #                            
+~   #####.@    #      ########                     
+~       ##.@  ##      #      #                     
+~        ##.@.        #      #                     
+~         ######.@    #      #                     
+~              ##.@  ##      ########              
+~               ##.@.        #      #              
+~                ######.@    #      #              
+~                     ##.@  ##      ########       
+~                      ##.@.        #      #       
+~                       ######.@    #      #       
+~                            ##.@  ##      #       
+~                             ##.@.        #       
+~                              ######.@    #       
+~                                   ##.@  #########
+~                                    ##.@.        #
+~                                     ######.@    #
+~                                          ##.@   #
+~                                           ##.@. #
+~                                            ###EQ#
+~                                              ####
+R 52035
+0 1
+1 Demo 1
+2 rrbr.brBl.trrrbBtlllbrbr.R.rrrbr.brBl.tr
+2 rrbBtlllbrbr.R.rrrrbr.brBltrrbrBtlllbrbr
+2 .R.rrrrbr.brBltrrrbBtlllbrbr.R.rrrrbr.br
+2 BltrrrbBtlllbrbr.R.rrrrbr.brBltrrrbBtlll
+2 brbr.R.rrrrbr.brBl.trrrbBtlllbrbr.rb....
+2 ..........
+R 79790
+0 1
+1 Demo 2
+2 rrbr.brlttbrbrltrrbBtlbbrrrbr.brlttbrbr.
+2 ltrrbBtllbbrrrrrbr.brlttbrbr.ltrrbBtlbbL
+2 rrrrbr.brltrrbr.lltrrrbbttlbbLrrrrbr.brl
+2 trrbr.ltrrbBtlbbrrrrbr.brlt...rbr.ltrrbb
+2 ttlbbLrrrrbr.brBltrrbrBtlllbrbr.r.b.....
+R 82550
+0 9
+1 Easy stairs
+ldeutsch 1 Easy stairs
+2 ...rrbrl....trrrbb.ttlllb.rbrl.trrb.r.bt
+2 tlllb.rbrl...trrb.tllbrrr..rbrl...trrrbb
+2 .ttlllb.rbrl..trrb.rbttlllb.rbr.....R.rr
+2 r..rbrl....trrrbbttlllb.rbrll..trrb....r
+2 bttlllb.rbr....R.rrr..rbrl...trrrbbttlll
+2 b.rbrll.trrbr.bttlllb.rbrl..trrbtllbrrrr
+2 .....rbrl....trrrbb.ttlllb.rbrll..trrbrb
+2 .ttlllb..rbr....R.rrr...rbrl..trr..brbtt
+2 lllb.rbrll.trrb.rbttlllb.rbr...R.rrr....
+2 .rbrll.trr.b.rbttlllb..rbrll.trrb.......
+2 .rbttlllb.rbrll.trrbbb.......
+
+uuid e3ed7bc2eee80ddf5fcda09ddc8d1ac6
+
+leaderboard steps time

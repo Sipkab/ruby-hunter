@@ -1,0 +1,42 @@
+n Baseball Diamond
+D 3
+C 1
+s 4
+p 0
+d 10
+Y
+M 0 Live and let Die
+i Run all the bases and return home.
+a Shark
+m 17 20
+########dd#######
+#               #
+#       *       #
+#      *+*      #
+#     *+ +*     #
+#    *+   +*    #
+#   *+     +*   #
+#  *+   |   +*  #
+#0*+   |||   +* #
+#0+   |||||   + #
+#0  ||||||||    #
+#*   ||||||||  *#
+#+*   |||||   *+#
+# +*   |||   *+ #
+#  +*   |   *E  #
+#   +*     *+   #
+#    +*   *+    #
+#     +*1*+     #
+#      +++      #
+#################
+y ~        
+R 52657
+0 0
+1 Demo 1
+2 .rlltltltLt.tlll.BltLbrr.lttl.r......llt
+2 tRtrRtrrrtRtrrtR.trrrbrbrbrbrbrbrbbblb..
+2 lb.lbl........blBrtrr.....
+
+uuid 88d484fabb138f5c00768d64ce71f3a8
+
+leaderboard steps time

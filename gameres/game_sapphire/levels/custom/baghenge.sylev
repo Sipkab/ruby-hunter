@@ -1,0 +1,35 @@
+n Baghenge
+D 6
+C 5
+E 0
+p 0
+M 0 Take Five
+i What goes down
+i must stay down.
+a Alex
+m 13 12
+#############
+#           #
+#   0       #
+#   .   0   #
+#       ..  #
+#      [.   #
+#           #
+#        @  #
+#        .  #
+#"   1 0 .  #
+#  *@@@@@.  E
+#############
+R 77930
+0 0
+1 Demo 1
+2 ....llll......brrtt.rrrrrbr..ltllbrr....
+2 ..lllllttttttt.r.bbrrrbb.lbr..trrtttl..b
+2 bbllbbb..lbl..lrrttrrrb.lbl...l.l..tlsrr
+2 r.........ttt.rbtrrbl..tlllbbb.......stt
+2 trrbll.......rrblllltlbb...srtrrrrb.lblt
+2 lbltlbl...L.rrsssssss.........
+
+uuid bc7b54dd5068e3014c9a376f87a164b7
+
+leaderboard steps time

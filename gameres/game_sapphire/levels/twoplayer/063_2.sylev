@@ -1,0 +1,100 @@
+n Crowded labyrinth (2)
+a Emerald Mine
+D 5
+s 8
+i Do you like labyrinths?
+i Do you like lorries?
+i Do you like swamp?
+i Yes?
+i Then you'll like this level.
+m 64 32
+################################################################
+#### # # ##   ##########*  ### #*######  ##### ##   # # ###    #
+##  6# # ## ###         ## #   #            ## #  ##  # ##  ## #
+## #*# #        ## ## #  # # # ###### ## ##  #*   #  ##    #E# #
+## ### #### # #  # # ### #   #      # ## ### ### #  ##  #  # # #
+## #      # # # ##    ## ### ###### #   #  #  ##   ##  ### #   #
+## ### ## # # # #  ## #          ##6### ## ##  # ###  ## #  # ##
+#  # #  # #      ##  *####### ## #  # # ## #         ##  ## #*##
+## # ## # #*####  # #### #  #### # ## # #  ## #   ###### ## ####
+## # ## # ###   # #   #  ##      #        ### #######          #
+##      #     #    ## ##    ## #   ##### ##   ###     ## ## ## #
+## ####### ##6# ## ## #   ###  ###     # #* # #  ####### ## #  #
+##      ##### # #  #  #  ## # ####### ## ####          ###  # ##
+#### ##     #  *# #  ## ### # #     # #   ##  ########6##  ## ##
+#*   ######   ##  # ##  #*  #   ### # # # #  ##      #    ##   #
+#### #    # ###  ## ## #### # ###   #   #    ## #### ##  ##  ###
+##   # ## # #   #   ## # ##6# #*  #  # ## ## #  #  #    #   ####
+## # #6#  #### #### #  #    # ### ## #*## #### ### # #*##  ## ##
+## # # ##           # #    ##      # ##        # #  ####  ### ##
+## # #  # ####  # ### # ###########     ##### ##  #  # ## #    #
+## ### ##### ####   # #  #     #    ######  #  ## #  # #  # ## #
+#               # ### ## # # ##  #  #       ##  * # ## # ##  #*#
+# ## ## ####### # ##  #  # # ## ### # #####  #  ##  #  # ## ####
+# #   # # #     # ## ### # # #   #       # # ####  #  ##       #
+# ## ## # # ### # ##     # ### # ## ## # # #      ## ### #  ## #
+# ## ## #   #   # ### #### #   #    ## # # ###  # # 6#   ##### #
+#  #    ### ### # ##         ######### # #   #### # ## ###   #*#
+##   ## #     #     6###  ##    6#    6# # ###    # ##     # ###
+##  # # ### # # ######## ######  ##### # #     ## #*  ######   #
+##2%1   #   # #       *#     #        *#  ####### ###     ##   #
+###%#####*############## ###*### ########      #      ###    #E#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 87448
+0 8
+1 Demo 1
+2 .................t.t.......t.lltltbtbt.t
+2 rrrtrtrttttttrtrtttttltlrlrrrrrrr.rlrlb.
+2 l.l.l.t.t.t.rr.r.tbtrlrlrtrtbtbtltltltlt
+2 ltltlrlrlbltllblbb.b.b.btbtbtbrbrrrrrrlr
+2 lrltlt.t.lrtrrrrrtlrlrlrlbbbbbbbbblrlrbr
+2 rrrtbrbrbblblbbbb.bttttttrrrrtrttltttltl
+2 tltltlrbrt.r.r.r.r.r................l.ll
+2 ltbtbtltltlrtrtrtr.r.l.l.b.b.b.r.r.rrb.b
+2 blbl.brbrrtrtbtbrbr.rtrtbtblblbtbtbrbrrt
+2 rtrlrlrlrtrtrtlrlrlrlrlrlblrtbtbrbrrtrtr
+2 tr.tbtblblrtrtrtrltltrrrrrrrrrrrrb.blblb
+2 bbbrbrrbrbrrrrbrbr.rt.tblblblblb.r.r.b..
+2 .................r.r.r.b.btrtb.btr.brbrt
+2 rtrrbrrtrtrrrrbbbbr.rtrtrlrtrttttttltttt
+2 ttrtrlrtbtblbtbtbtblrlrlblblrrrrrrrrbrbr
+2 brlrlrlrlrtbtrlblbtbtrtbtbtbtblblltl.bll
+2 .rtttrrrrtrtrtrrrrbrbtrtrtbtbtblblrbrlrl
+2 rrrrrb.b...b.b.r.r.............r.r.tbrb.
+2 btbrbtb.r.rbrbr.tttrl.lt.rrrr.r.brbbrbtr
+2 .rrbrrrrrrbrb.r.r.r.r.tltttttttllllllbll
+2 bb.llblllblllltltltlrlrlrbtbtbrbrbrbrlrl
+2 rbbbblbl.ltttttllllb.llb.ltlttttttttrtrl
+2 rl.lblbt.ltltlltlllbllbbbbblbbbbbblrtr.t
+2 lrlrbrbrbrlblbblblbbblrlrrrrrbtbtlrlrlrl
+2 btbtbtbtbtltltlrltlttltllllblllltltblbll
+2 tbtbtltbrbrbtltbtbrbrb.blllbbbbrbrbrlrlt
+2 btbtbtblrtrtrrbrbrltltlrltltttrl.ltltrtr
+2 trtbtbtb.lrlrbtbtlrlrbtbtbtrtb.bbbbbbbbl
+2 blbllblbbr.rlrlrbr.tltltltltlt..trtrtrlr
+2 lltltltllblbbbbblblbllllllblbllllltrtrtt
+2 tlttrtrlrtrtlrlrllltrrrtrtrbrbrltbtbrrrb
+2 .b.rrrrrr.r..rb.b.blblrlrlbtbt.l.ltt.trr
+2 rtrtltltltlrttttlrlttttrtt.trttrttttrrrr
+2 tbtrtrrrrtrrrrrrb.b...rrrrbrb.t.trrbrrtr
+2 tttrrrrrrrtrttrt.tltllllrlrttt.trrrrtrtr
+2 trtrtbbbbrbrbrbbbblrlrbbbblrlrbrlrlrbrbr
+2 bt.r.r.t.r.................rtt.rbtbtbr.b
+2 trtrlrlttrttlrlrlrlblblblblllbbbbtltllbl
+2 btltltl.b.b.b.r.r.r.r.b.b.r.r.b.b.b.t.t.
+2 l.l.t.t.l.l.l.l.l.l.b.b.l.l.l.l.b.b.b.b.
+2 r.r.r.r.r.b.b.b.b.b.b.r.r.b.b.r.r.r.r.l.
+2 l.l.l.l.t.t.l.t.t.t.t.t.t.t.l.l.l.t.t.t.
+2 r.r.r.r.r.r.b.b.r.r.b.b.r.r.r.r.r.b.b.b.
+2 b.b.b.b.r.r.r.r.t.t.....l.l.l.t.t.t...r.
+2 t.t.r...l.l.b.b.l.l.b.b.b.b.r.r.r.b.r.r.
+2 r.r.b.b.r.r.r.r.t.t.r.r.r.b.b.b.b.......
+2 ......
+
+uuid 714c88d2e6365f1d2a10479ef0ab60d4
+
+leaderboard steps time

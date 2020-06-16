@@ -1,0 +1,43 @@
+n Power Laser II
+D 6
+C 3
+e 0
+s 0
+p 0
+v 24
+o 2
+Y
+M 0 Axel F
+i This laser may be a bit weaker
+i than the other, but it's more
+i in-your-face than last time.
+a Alex
+m 26 15
+##########################
+#  : V  V  V #oooooooo:  #
+# *:  %  %  %#oooooooo:  #
+# ::  %  %  %#oooooooo:* #
+#  :::::::::::::::::::::$#
+#  :     E  B G Y R...::$#
+#  ::::::::::::::::::+: :#
+#  :b:...............+:  #
+#  : :.::::::::::::::::  #
+#  :Y.....+.....R 000.:  #
+#  :+++++++.....:.000.:  #
+# *:............:.000.:* #
+#  ::::.:::..1..:.000.:  #
+# {:...r..+.....:y000g:{ #
+##########################
+y +V+( /+++
+R 50891
+0 0
+1 Demo 1
+2 ..ltlllllbbb...bb...ttrrrrtrrrrt.r.....b
+2 .....bb...B......tr....rtrt..rbb.lr.bBtl
+2 ll.t.ltlblllllllllllttt..bbrr..ttrrR.llb
+2 b..t................trrrrrrrrrrrrrrrttll
+2 lllllll..............
+
+uuid 75122316454a131475477ef0b1381588
+
+leaderboard steps time

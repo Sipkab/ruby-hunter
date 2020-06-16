@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config xmlns="bence.sipka.types.config" >
+
+    <declare-enum name="Topology" >
+
+        <enum name="TRIANGLES" />
+
+        <enum name="TRIANGLE_STRIP" />
+    </declare-enum>
+
+    <declare-enum name="BufferType" >
+
+        <enum name="UNINITIALIZED" />
+
+        <enum name="DYNAMIC" />
+
+        <enum name="IMMUTABLE" />
+    </declare-enum>
+
+    <declare-enum name="RenderTargetType" >
+
+        <enum name="UNUSED" />
+
+        <enum name="RENDERBUFFER" />
+
+        <enum name="TEXTURE" />
+    </declare-enum>
+
+    <declare-enum name="RenderBufferType" >
+
+        <enum name="UNKNOWN" />
+
+        <enum name="COLOR" />
+
+        <enum name="DEPTH" />
+
+        <enum name="STENCIL" />
+
+        <enum name="DEPTH_STENCIL" />
+    </declare-enum>
+
+    <declare-enum name="TextureUvOrientation" >
+
+        <enum name="Y_DIR_UP" />
+
+        <enum name="Y_DIR_DOWN" />
+    </declare-enum>
+
+    <declare-enum name="TextureLoadOrder" >
+
+        <enum name="FIRST_LINE_AT_ORIGIN" />
+
+        <enum name="LAST_LINE_AT_ORIGIN" />
+    </declare-enum>
+
+    <declare-enum name="DepthRange" >
+
+        <enum name="RANGE_0_TO_1" />
+
+        <enum name="RANGE_NEG_1_TO_POS_1" />
+    </declare-enum>
+
+</Config>

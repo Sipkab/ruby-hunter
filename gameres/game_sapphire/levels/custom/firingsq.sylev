@@ -1,0 +1,39 @@
+n Firing Squad
+D 5
+C 4
+p 0
+o 1
+M 0 Back to the Lake
+i Strength in numbers doesn't give
+i one team the advantage if all its
+i members are fools.
+a Alex
+m 15 12
+###############
+#*.........*..#
+#1....!..(....#
+#....$........#
+#.###.###.#.###
+#o          #*#
+#o          #*#
+#o          #*#
+#o          #*#
+#o          **#
+Eo          #*#
+###############
+R 14181
+0 8
+1 Demo 1
+2 .....t...r..bbrrrr..t.b.rr...utr........
+2 ...........................rrbbbbbbbbrrt
+2 ttt..bbbbB.llllbllllllllll.......
+R 60100
+0 0
+1 Demo 2
+2 ..T.rrrrB..rrrbr.mtt........r...........
+2 .....................rrbbb..bbbbbrrttttb
+2 bbbbtllllblllllllll.....
+
+uuid a9ce52af04a2282ac3b0e89891396597
+
+leaderboard steps time

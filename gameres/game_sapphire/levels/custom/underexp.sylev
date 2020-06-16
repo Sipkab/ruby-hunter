@@ -1,0 +1,54 @@
+n Underwater Explosions
+D 7
+C 7
+E 0
+p 0
+d 8
+o 0
+i When the bridge is out, you have
+i to make your own.
+a Alex
+m 16 19
+~  #########d###
+~  #...........#
+~  #...........#
+~  #...........#
+~  #...........#
+~  #...........#
+~  #...........#
+~  #...........#
+~ ## ..........#
+###SB#....###a##
+#  .      #Q### 
+#       1  b #  
+#         Q  #  
+#&####   ##_##  
+#E#  #ooo####   
+###  #ooo#      
+~    #ooo#      
+~    #aaa#      
+~    #####      
+R 33425
+0 0
+1 Demo 1
+2 ....rrrbl.....t..llllll......tttrrbrrtl.
+2 .rrrrrr.b.t..l..ttttttbbbbbbr...llll..rr
+2 rrr.....llllrr..r.r.....lllllrrrrrr....l
+2 llllllrrrrrrr...lllllrrrrrr....lllllr..r
+2 rrrr.tt..llllllllll...bb.bb.rrr..b.....t
+2 ......trrbbrb.lllll..lll..rr..t.......rr
+2 tttt...rrrrrrrrB....ttllllll...lll......
+2 ...rr...l.trrtlltrrtllrrrrR.llbbbbrrrrrr
+2 rttttlllllrrrrr...llllrrrr........llllrr
+2 rr........llllrrrr........llllrrrr......
+2 ..llllrrrr........llllrrrr........llllrr
+2 rr........llllrrrr........llllrrrr......
+2 ..llllrrrr........lllllrrrrr......llllll
+2 rrrrrrr...lllllrrrrr......lllllrrrrrrr..
+2 ......bbbbbb.lblllll..bl.lr..b.....b.rrr
+2 rrblltlll...tttttLr.brrblbbbrblllllll..l
+2 .....ttL.lll.....bbbbb.......
+
+uuid 1dac40b56ef6b4c56255757e582327f9
+
+leaderboard steps time

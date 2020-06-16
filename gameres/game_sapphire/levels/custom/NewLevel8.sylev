@@ -1,0 +1,47 @@
+A Default
+S Default
+d 30
+T 
+D 6
+n Falling rocks
+e 135
+p 4
+E 0
+w 10
+o 3
+s 30
+a Paulius
+f Paulius
+N 
+i Hit the falling rocks with the laser (the rock falls every 10th move).
+m 17 18
+#################
+########d########
+#:$::::: :::::*:#
+#:$::::: :::::*:#
+#:$::::: :::::*:#
+#:$::::: :::::*:#
+#:$::::: :::::*:#
+#:$::::: :::::*:#
+#:$::::: :::::*:#
+#:::::::Q(::Q:::#
+#:$:::::::::(:*:#
+#:$:(?!1!!::Q:::#
+#:::: :::::::E::#
+#$$$$$$$$$$$$$$$#
+#$$$$$$$$$$$$$$$#
+#$$$$$$$$$$$$$$$#
+#QQQQQQQQQQQQQQQ#
+#################
+
+R 5795
+0 8
+1 Demo 1
+2 ..LrRlllllllbbrrrrrrrRlllllllttcbllllbLr
+2 rrrttbbrrrRtlllttcbbrrrrrrrrrTrTttllllll
+2 llllttcbbblllLrrrrrrrrrrrrRttl..........
+2 ......t.......
+
+uuid d4426f1d043d73ea3a18be2b4a4e93d1
+
+leaderboard steps time gems

@@ -1,0 +1,156 @@
+n Armageddon Zone
+A Armageddon
+D 5
+e 3
+s 15
+p 0
+d 3
+o 1
+w 250
+M 0 Action
+i It's almost impossible
+i to go out there and sur-
+i vive. So...go around it.
+i Beware the lasers.
+a Alexander
+m 126 126
+1             $                                                                                                               
+#:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: 
+#:QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ: 
+E#/        d     d         d     oooo d                                 ooooooooooooooooooooooooooooooooooooooo             : 
+~:                               oooo            ooooooooooooooooooo    ooooooooooooooooooooooooooooooooooooooo             : 
+~:                               oooo         (((ooooooooooooooooooo   uuuuuuuuuuuuuuuuuuu                                  : 
+~:        /                      oooo  /     8((((((((((((((((         uuuuuuuuuuuuuuuuuuu                                  : 
+~:              ((((((((((((((   oooo         ((((((((((((((((         uuuuuuuuuuuuuuuuuuu                                  : 
+~:    oooooo    (V(V(V(V(V(V((   oooo         ((((((((((((((((    o    uuuuuuuuuuuuuuuuuuu                                  : 
+~:    oooooo    ((V(V(V(V(V(V(   oooo        8((((((((((((((((         uuuuuuuuuuuuuuuuuuu   ((((((((((((                   : 
+~:    oooooo    (V(((((((((V((                ((((((((((((((((         uuuuuuuuuuuuuuuuuuu   ((((((((((((                   : 
+~:    oooooo    ((V(((((((V(V(                ((((((((((((((((         uuuuuuuuuuuuuuuuuuu   ((((((((((((                   : 
+~:    oooooo    (V(((((((((V((        E      8((((((((((((((((         uuuuuuuuuuuuuuuuuuu   ((((((((((((                   : 
+~:    oooooo    ((V(((((((V(V(                ((((((((((((((((         uuuuuuuuuuuuuuuuuuu   ((((((((((((                  u: 
+~:              (V(V(V(V(V(V((                ((((((((((((((((         uuuuuuuuuuuuuuuuuuu   ((((((((((((                   : 
+~:             ?((V(V(V(V(V(V(               8((((((((((((((((         uuuuuuuuuuuuuuuuuuu   ((((((((((((                   : 
+~:??????????????((((((((((((((           /    ((((((((((((((((         uuuuuuuuuuuuuuuuuuu   ((((((((((((                   : 
+~:?            ?                                                       uuuuuuuuuuuuuuuuuuu   ((((((((((((                   : 
+~:?666666?66666?                                                       uuuuuuuuuuuuuuuuuuu   ((((((((((((                   : 
+~:?66?666666666?                                          o            uuuuuuuuuuuuuuuuuuu   ((((((((((((                   : 
+~:?666666666666?                                                       uuuuuuuuuuuuuuuuuuu   ((((((((((((                   : 
+~:?6666?666?666?             /    (((((((((((((                o       uuuuuuuuuuuuuuuuuuu   ((((((((((((                   : 
+~:?66666?66?666?                  (((((((((((((          o             uuuuuuuuuuuuuuuuuuu   ((((((((((((                   : 
+~:?6?6666666666?                  (((((((((((((                        uuuuuuuuuuuuuuuuuuu   ((((((((((((                   : 
+~:?666666666666?                  ((((((%((((((                        uuuuuuuuuuuuuuuuuuu                                  : 
+~:?6666666?66?6?          ^       (((((((((((((                                                                             : 
+~:?66?666666666?                                                                                     5555555555555555       : 
+~:?666666666666?                                    E          /                  VVV                5555555555555555       : 
+~:?666666666?66?                     o                                            VVV                5555555555555555       : 
+~: 6666666?6666                                                                                      5555555555555555       : 
+~: 666666666666                                                                                      5555555555555555       : 
+~: 666?66666666      ^   //                   o                                                      55555555%5555555       : 
+~:                       //                                     ((((((((((((((                       5555555555555555       : 
+~:                       ///                        E     /     ((((((((((((((                       5555555555555555       : 
+~:                        //                                    ((((((((((((((                       5555555555555555       : 
+~:                                                              ((((((((((((((                       5555555555555555       : 
+~:   oooooooooo                                                 ((((((((((((((                       5555555555555555       : 
+~:   oooooooooo                                                 ((((((((((((((                       5555555555555555       : 
+~:   oooooooooo   ooooooooooooooo VVVVVVVVVVVVV                 ((((((((((((((       EEEEEEE         5555555555555555       : 
+~:   oooooooooo   ooooooooooooooo VVVVVVVVVVVVV                 ((((((%(((((((       EEEEEEE         5555555555555555       : 
+~:   oooooooooo   ooooooooooooooo VVVVVVVVVVVVV       oo        ((((((((((((((       EEEEEEE         5555555555555555       : 
+~:   oooooooooo   ooooooooooooooo VVVVVVVVVVVVV                 ((((((((((((((       EEEEEEE         5555555555555555       : 
+~:   oooooooooo   ooooooooooooooo VVVVVVVVVVVVV                 ((((((((((((((       EEEEEEE                                : 
+~:   oooooooooo  ^ooooooooooooooo VVVVVVVVVVVVV                 ((((((((((((((       EEEEEEE                                : 
+~:   oooooooooo   ooooooooooooooo VVVVVVVVVVVVV                 ((((((((((((((       EEEEEEE                                : 
+~:   oooooooooo   ooooooooooooooo VVVVVVVVVVVVV                 ((((((((((((((       EEEEEEE                                : 
+~:   oooooooooo   ooooooooooooooo VVVVVVVVVVVVV                                                                             : 
+~:   oooooooooo   ooooooooooooooo VVVVVVVVVVVVV                                                                             : 
+~:   oooooooooo   ooooooooooooooo                                                                                           : 
+~:   oooooooooo   ooooooooooooooo                                                                                           : 
+~:   oooooooooo   ooooooooooooooo                                          ooooooooooooooooooooooooooooooooooo              : 
+~:                ooooooooooooooo                                          ooooooooooooooooooooooooooooooooooo              : 
+~:                                                                         ooooooooooooooooooooooooooooooooooo              : 
+~:  cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc         ooooooooooooooooooooooooooooooooooo              : 
+~:                                                            c  c         ooooooooooooooooooooooooooo?ooooooo              : 
+~:                                                             c c         oooooooo?oooooooooooooooooooooooooo              : 
+~:                                                              cc         ooooooooooooooooooooooooooooooooooo              : 
+~:                  cc                                          cc         ooooooooooooooooooooooooooooooooooo              : 
+~:                    cc                  ^                      c         ooooooooooooooooooooooooooooooooooo              : 
+~:                      cc                                        c        ooooooooooooooooooooooooooooooooooo              : 
+~:                        cc                                       c       ooooooooooooooooooooooooooooooooooo              : 
+~:                          cc         ^                            c      ooooooooooooooooooooooooooooooooooo              : 
+~:                            cc                                     c     oooooooooooooooo%oooooooooooooooooo              : 
+~:                            ^ cc             ^^  ^   ^^             c    ooooooooooooooooooooooooooooooooooo              : 
+~:                ^               cc                     ^                 ooooooooooooooooooooooooooooooooooo              : 
+~:                                                                         ooooooooooooooooooooooooooooooooooo              : 
+~:                                ^^^      ^                               ooooooooooooooooooooooooooooooooooo              : 
+~:                        ^^                                               ooooooooooooooooooooooooooooooooooo              : 
+~:                            ^            ^^                              ooooooooooooooooooooooooooooooooooo              : 
+~:                 ^     ^                  ^      ^                       oooooooooooooooooooooooooo?oooooooo              : 
+~:    ^                                                                    oooooooo?oooooooooooooooooooooooooo              : 
+~:                                                       ^                 ooooooooooooooooooooooooooooooooooo              : 
+~:                                      ^                                  ooooooooooooooooooooooooooooooooooo              : 
+~:                      ^^       ^                                  ^                                                       : 
+~:                      ^                  ^                                              (((((((((((((((((((((((((((       : 
+~:                                                                                        (((((((((((((((((((((((((((       : 
+~:                                ^                                                       (((((((((((((((((((((((((((       : 
+~:                                                    ^                                   (((((((((((((((((((((((((((       : 
+~:          ^         ^                        ^             ^                c           (((((((((((((((((((((((((((       : 
+~:                             ^                             ^                 cc         ((((((((((((((VVV((((((((((       : 
+~:                                   ^                                           c        ((((((((((((((VVV((((((((((       : 
+~:                   ^                                      ^                             ((((((((((((((VVV((((((((((       : 
+~:                                            ^             ^                             ((((((V(((((((VVV((((((((((       : 
+~:                                            ^                                           (((((((((((((((((((((((((((       : 
+~:                                           ^                                       <<<<<<<<(((((((((V((((((((((((((       : 
+~:         ^         ^        ^^^                                                    <<<<<<<<((((((((((((((((((((((((       : 
+~:                           ^          ^                                            <<<<<<<<((((((((((((((((((((((((       : 
+~:                                                                                   <<<<<<<<((((((((((((((((((((((((       : 
+~:                                                                                %  <<<<<<<<((((((((((((((((((((((((       : 
+~:                                                      ^                         %  <<<<<<<<((((((((((((((((((((((((       : 
+~:                                                                                %  <<<<<<<<((((((((((((((((((((((((       : 
+~:             ^                                                                  %  <<<<<<<<                               : 
+~:                                                                                %                                         : 
+~:                    ^^                                                          %                                         : 
+~:                                      [                                         %                                         : 
+~:                                      [                                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%              : 
+~:                                                                             %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%              : 
+~:                                                                             %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%              : 
+~:                                                       %%%%%%%%%                                                          : 
+~:                                                       %%%%%%%%%                    <<<<<<<<<<<<<<<                       : 
+~:                                                       %%%%%%%%%                    <<<<<<<<<<<<<<<                       : 
+~:                                                       %%%%%%%%%                    <<<<<<<<<<<<<<<                       : 
+~:                                                       %%%%%%%%%                    <<<<<<<<<<<<<<<                       : 
+~:                                                       %%%%%%%%%                    <<<<<<<<<<<<<<<                       : 
+~:                                                       %%%%%%%%%                    <<<<<<<<<<<<<<<                       : 
+~:                                          [                                         <<<<<<<<<<<<<<<                       : 
+~:                             [                                                      <<<<<<<<%<<<<<<                       : 
+~:                                                                                    <<<<<<<<<<<<<<<                       : 
+~:                                                                                    <<<<<<<<<<<<<<<                       : 
+~:                                                                                    <<<<<<<<<<<<<<<                       : 
+~:                                                                                    <<<<<<<<<<<<<<<                       : 
+~:                   [                                                                <<<<<<<<<<<<<<<                       : 
+~:                                                                                    <<<<<<<<<<<<<<<                       : 
+~:                                                                                                                          : 
+~:                                                                                                                          : 
+~:        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<                                                     : 
+~:        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<                                                     : 
+~:        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<                                                     : 
+~:        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<                                                     : 
+~:        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<                                                     : 
+~:        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<                                                     : 
+~:                                                                                                                          : 
+~:                                                                                                                          : 
+~:                                                                                                                          : 
+~:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: 
+~                                                                                                                             
+y <(>(?(:V:
+y <([$%wQ0>
+R 3397329393
+0 8
+1 Fireworks
+2 rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb.bbbbbbbbbbbbbbbbbbbbbbbbbbbblllll.lllllllllllllllllllllllllllllllllllllllllll.llllllllllllllllllllllllllllll..lll..lllllllllllllllllllllllllllllllllllllllllllltttttttttttt.ttttttttttttttttttttttttttttttttt..ttttttttttttttttttttttttttt.tttttttttttttttttt.tttttttttt.ttttttttttttttttttttttt.....
+R 3604645086
+0 0
+1 Patience
+2 ...............................................................rrrrrrrrrrrrrrrrllllllllllllllllll..........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllltttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt..
+
+uuid f98f1c6543fc589ce9367ff9529d145c
+
+leaderboard steps time

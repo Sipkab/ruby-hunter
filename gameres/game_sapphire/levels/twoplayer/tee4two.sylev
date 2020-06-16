@@ -1,0 +1,39 @@
+n Tea for Two
+ldeutsch n Tee f�r zwei
+D 2
+C 5
+E 0
+T 175
+M 0 Take Five
+i Hi, Jack!
+i May I introduce
+i Mr. Black to you?
+i He will assist you at
+i working in the mine.
+ldeutsch i Hallo Jack!
+ldeutsch i Darf ich dir
+ldeutsch i Mr. Black vorstellen?
+ldeutsch i Er wird dir bei der
+ldeutsch i Arbeit zur Hand gehen.
+a Reinhard
+m 13 10
+#############
+#.2.....E...#
+#...........#
+#....0*0*0..#
+#....*0*0*..#
+#....0*0*0..#
+#.1..*0*0*..#
+#...........#
+#.E.........#
+#############
+R 580
+0 0
+1 Demo 1
+2 rrrrrrlrtbrbrtlrlrtbttrrrrbbb..b.lr.rrcb
+2 rrrbBbtl....tltltl.Tll.l.l.l.l.b........
+2 ..
+
+uuid efca73a5eb85b2df0b1f7f4734172045
+
+leaderboard steps time

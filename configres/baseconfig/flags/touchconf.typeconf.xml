@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config xmlns="bence.sipka.types.config" >
+
+    <declare-flag name="TapData" >
+
+        <flag
+            name="SINGLE_TAP"
+            value="0x01" />
+
+        <flag
+            name="LONG_TAP"
+            value="0x02" />
+    </declare-flag>
+
+</Config>

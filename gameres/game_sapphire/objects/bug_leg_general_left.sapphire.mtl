@@ -1,0 +1,12 @@
+# Blender MTL File: 'bug.sapphire.blend'
+# Material Count: 1
+
+newmtl Leg
+Ns 3.921569
+Ka 1.000000 1.000000 1.000000
+Kd 0.615175 0.224737 0.145814
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2

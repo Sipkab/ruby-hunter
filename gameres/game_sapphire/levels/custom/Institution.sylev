@@ -1,0 +1,43 @@
+n Institution
+D 5
+C 1
+s 1
+p 0
+Y
+M 0 Only Solutions
+i A small mini-maze level. Fun to
+i watch the demo, if you're bored.
+a Shark
+m 15 13
+#######0##Q####
+#*B B #!G y 0 #
+#.+Q+r# #  ## #
+# +0+$#G#   Q #
+#B#0### # _Q###
+# +0+B 1gR+>+*#
+###+### # ###R#
+#>+   #s# Q#  #
+#.# + #V+ .#  #
+# Y   # #   . #
+%*# Q Y0#  #0 #
+###{##### {#{{#
+#########&#####
+y #>+#%#Y*#
+y #Y## E#$#
+y ### *$###
+y #+##>(#%#
+y # ##>b#%#
+R 94277
+0 0
+1 Demo 1
+2 ...Rtttbbcb......ttttl.rttttrbbrrrllttlb
+2 b..rrlttrrllllbbbbbbbbl....lr..ltl....l.
+2 Br...............b......................
+2 .......r..tl.t...tLb................t.LL
+2 LL...t..ttttt..lbbbbl.............l.tttr
+2 r.bbt.ltlbbbbrr.....rrrrrrbbb......lrlll
+2 ltlttbbbbrlbbbbbbbttttl.....
+
+uuid 46164205c3ddb01f32394ac751a119d4
+
+leaderboard steps time

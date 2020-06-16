@@ -1,0 +1,80 @@
+n The Balance III
+ldeutsch n Die Balance III
+D 9
+C 3
+E 0
+p 0
+M 0 Tico Tico
+i This is one of the hardest level
+i in town.
+i Don't do one false movement.
+i Don't waste even one turn.
+i Don't do what gravity can do.
+i Don't walk where you can grab.
+i Don't despair.
+ldeutsch i Das ist einer der h�rtesten Levels.
+ldeutsch i Nicht einen falschen Zug.
+ldeutsch i Nicht einen Zug verschwenden.
+ldeutsch i Nicht tun was Gravitation f�r dich tut.
+ldeutsch i Nicht gehen wo man nehmen kann.
+ldeutsch i Nicht verzweifeln.
+a Ronald
+m 49 47
+########################################         
+#            0                  0      #         
+#                                      #         
+#     Q Q     0                        #         
+#       .                              #         
+#      Q       0                       #         
+#     ++                               #         
+#     Q         0                      #         
+#     .                                #         
+#      QQ        0                     #         
+#      ++                              #         
+#                 0                    #         
+#                                      #         
+#                  0                   #         
+#                                      #         
+#0                  0                  #         
+#+                                     #         
+#Q+  + +             0                 #         
+#Q+  + +                        $$$    #         
+#Q+  + +              0         $  $   #         
+#Q+  + +                        $$$    #         
+#Q+  + +               0        $ $    #         
+#Q+  + +                        $  $   #         
+#Q+  + +                0              #         
+#Q+  + +                               #         
+#Q+  + +                 0             #         
+#Q+  + +                               #         
+#Q+  + +                  0            #         
+#Q+  + +                               #         
+#Q+  + +                   0           #         
+#Q+  + +                               #         
+#Q+  + +                    0          #         
+#Q+                                    #         
+#Q+ Q                        0         #         
+#Q+ .                                  #         
+#Q+  Q                        0        #         
+#+Q+ ++                                #         
+# +Q                           0       #         
+#  ++                                  #         
+#                               0      #         
+#                                      #         
+#                                0     #         
+#                                      #         
+#                                 01   #         
+#Q#     #           ####################         
+#E     @#           #                  #         
+########################################         
+R 18731
+0 1
+1 Ronald's Madness
+ldeutsch 1 Ronalds Verr�cktheit
+2 .l.l.l.l.l.l.l.l.l.l.l.l.l.lrrrrrrrrrrrT
+2 LrrrRTlllllllllllltllbllllllllllrrrrrrrr
+2 rrtrrblllllllllllllllll.bBllblllllllllll
+
+uuid 62251f84d96afea240959aefaae9bc6f
+
+leaderboard steps time

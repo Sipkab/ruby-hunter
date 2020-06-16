@@ -1,0 +1,18 @@
+n Bridge the gap
+ldeutsch n Lücken überbrücken
+D 0
+m 10 5
+~ 1     2i
+~      0 i
+~ ||| |||i
+~@  E E  i
+iiiiiiiiii
+R 98223
+0 0
+1 Demo 1
+2 ........r.r.r.b.b....b.l.l.l.l.l.l.l.l.l
+2 .l.....l.b.b.r.r.r..b.r.................
+
+uuid 738a77b7c216c24e27f65abccdbbf083
+
+leaderboard steps time

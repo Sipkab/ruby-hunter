@@ -1,0 +1,31 @@
+n Trick or Trap
+D 4
+C 5
+p 0
+M 0 Staying Alive
+i It looks a lot easier than it
+i really is...
+a Shark
+m 15 12
+###############
+#.0.0.0.0.0.0.#
+#.0.0.0.0.0.0.#
+#.0.0.0.0.0.0.#
+#.0.0.0.0.0.0.#
+E.............1
+#.@.@.@.@.@.@.#
+#.@.@.@.@.@.@.#
+#.@.@.@.@.@.@.#
+#.@.@.@.@.@.@.#
+#.$.$.$.$.$.$.#
+###############
+R 34601
+0 0
+1 Demo 1
+2 .lllllllllllllbrrrrrrrrrrrrbllllllllllll
+2 brrrrrrrrrrrr.....blbltlbltl....bltlblt.
+2 ..l...bltl..B........bltrttttll.
+
+uuid 9ba13ab2c03f18fca2d263d74edee00c
+
+leaderboard steps time

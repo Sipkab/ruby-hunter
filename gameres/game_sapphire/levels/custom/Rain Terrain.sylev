@@ -1,0 +1,53 @@
+n Rain Terrain
+D 4
+C 1
+e 1
+s 2
+p 0
+d 10
+M 0 We built this City
+i As you have no umbrella, you have
+i no protection from all the falling
+i anvils. So just use your head.
+i 
+i Well, don't -really- use your head,
+i instead just keep moving the stone
+i and use common sense.
+a Shark
+m 40 10
+###d###########%##%##%##################
+### #####d##### ## ## ##V##V#V#!# #    #
+### ##### ##d## ## ## ## ## # #b# #    #
+### ##d## ## ## ## ## ## ## # # # B  _ #
+### ## ## ## ## ## ## ## ## # # B # _  #
+#10                                    #
+### ## ## ## ## ## ## ##$##$#$# # #    E
+### ## ## ## ## ## ## ##$##$#$# # #    #
+###a##a##a##a##a##a##a##$##$#$#{#a#aaa@#
+########################################
+y >%>%%%>%>
+R 44951
+0 0
+1 Demo 1
+2 .....rrrr....rrr........rrrr.....rrrr...
+2 .rrr...................rrrr.........rrrr
+2 ........rrrr........rr.l...............r
+2 ......rrr.r.l.r..tttt.bbb......rbbb..utt
+2 lb..rr......t.....t.rr...trr..b.l...b.bl
+2 ltr.l.rt.r.b..b.rbll.ttt.lttrbbbb.tt.llb
+2 b..rrbr......brrbttr.....
+R 14801
+0 0
+1 Demo 2
+2 .....rrrr....rrr........rrrr.....rrrr...
+2 ..rrrr....................rrrr...rrrr...
+2 .....................rrr................
+2 ..........rrl................rrrr..l....
+2 ........rrr....r.....ttt..t.bb..b.r...bb
+2 b...uttl..b..rr.........tt..rr..b..br.bl
+2 ..rrttt.l.tlbbb.ttll.b.b.r.........rbr..
+2 ....brrb..ttr.......
+
+uuid a0e28fe5457a3cce673d429d14d3f385
+
+leaderboard steps time

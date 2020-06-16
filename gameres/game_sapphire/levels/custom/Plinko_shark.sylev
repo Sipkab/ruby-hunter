@@ -1,0 +1,46 @@
+n Plinko (Shark)
+D 3
+C 1
+p 0
+d 15
+M 0 Axel F
+i Too many stones!
+a Shark
+m 15 22
+#ddd#######ddd#
+#             #
+#             #
+#| | | | | | |#
+#       1     #
+# | | | | | | #
+#             #
+#| | | | | |  #
+#             #
+# | | | | | | #
+#             #
+#| | | | | |  #
+#             #
+# | | | | | | #
+#             #
+#| | | | | |  #
+#             #
+# | | | | |  a#
+#             #
+#          a  #
+# | | | | |# Q#
+#a#a#a#a#a#E&##
+R 40630
+0 0
+1 Demo 1
+2 ...lbbrbbrll...rrrrrrlbbrbbllll...r..lll
+2 l..r.........rrr.lbbrrbblbl....lttlttltt
+2 rrrrbltll....rrrrlbbrbblttltt...l.ltt...
+2 ....rrrlbblbbrbb........ttlttltbl.....rr
+2 rrlbbrrbb.tlttltt..bbl......rrrlbbr...lt
+2 t....ll...........rrrlbbr.bb..rr...llttl
+2 tt........ll...........rrrlbbrbbrbb....r
+2 ...bbbl.....
+
+uuid aafb287c9aa0d5733a24200496baec47
+
+leaderboard steps time

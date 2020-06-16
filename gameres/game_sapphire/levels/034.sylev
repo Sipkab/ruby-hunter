@@ -1,0 +1,74 @@
+n Reinvention of the wheel
+a Emerald Mine
+D 5
+e 25
+s 0
+i One wheel is good,
+i two wheels are better,
+i four wheels are best.
+m 64 32
+################################################################
+#o 0 o 0 *  o 0   0o 0*0 o 0 0 o  * 0o  *  o  0*  o00*  o0 0* o#
+#    0  0   0  00  0         0 0     0 0 0 0   0  00    00  0 0#
+#  0 000  0 0 00 0   0 0  00 0  0000   0     00                #
+#      0     . . . .  .         . ..  . 00. . ..     00  ..    #
+#   *    . . .       .     00 .      .0 .. .  . . 0  ...  0    #
+#  ..  .  . |       . 00  .00.    .   .   *    0. .    *  .    #
+#     00|  .    | |  |. 00000|||  |    0  . |  . *.00 ..      o#
+#o   0..  .000   .      .0| 0.    |  . . 0    |  .w|| | .      #
+#    ...   ... .     .   . ..  .. ..  .  .    .0 . 0   |  0    #
+#    || .  .  00  *  .  .  *   |    |   0  *   .   .0 .   .    #
+#      0      .0 ..  .    . | |    .   0.  ..   0. ..          #
+#o     |   |   .    .       .        . .|  . 00 .0  . 00   0   #
+#      . |    || 0|  .    ||         .   .| |.00 .  . ..   .  o#
+#       *|  |    .    ..     .  1     .       .0|.         0   #
+#o     .|.|      . 0   |        EE           0 .  |   .*   .   #
+#   .00      .|  . . |    .   0      . .  0  .   *     .   0   #
+#    0..|  . |     .          .   .       .0 .  .. .       .  o#
+#    ..|*.             0 .0   .    .  .   0*0   |  0 0 .   .   #
+#o     .. .  .    0    . 00.  .  .   |    ...  |. 00 .   .*    #
+#   .  .          .*   . ..       |      0.       .. 00   ..  o#
+#     |  .  . .   .. . .    |  |  ..  .  .   |     | ..   00   #
+#     |       |    .   .                 .  |.   .        ..   #
+#o .  |        | .          |   00   00     ..    0  ||        #
+#       .* . ... |        ||.  00*0  ..    |    .00*. |   *.   #
+# .*    .    w   .*  | |.      ....0    .|.      ... .  . .    #
+# ..    ..        ..          .    .    |            . .       #
+#   .      .               .         .|          .. .         o#
+#   ..            *      .            |.     *  .              #
+#              .. .   .                      ..                #
+#o       o       o      o      o      o  .  .o     o     o     #
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 91617
+0 8
+1 Demo 1
+2 ....lltttlllll..bbbblllbbbllllttllbbbbbb
+2 blllbbrrrrbrrbbbbrrrrrrrrttttlttttlttlll
+2 llb.ttlllllllllllbbbbbbbrrrrrbbbbbbrrrrr
+2 ....llllttttt.bbbbrrrrrrrrrrrrrrrrrrrrrr
+2 rrrrrrrttrrrrtttrrrrrtrr.........llttrrr
+2 rrrbbrrrrrlllllttttttlllttttrrttlllttttt
+2 tllltll....bll..bbrrttbbbbbb.lbblllbbbll
+2 lt..bbbbllll..bbbbbbbbllllllllllllllllll
+2 llllllltttttllrrrrrrrtttttttttttttttlll.
+2 ttrrtttltttrrrrb.rrrrrrrrrtrrrrrrrrrrrrr
+2 rrrrbbbbbbrr.lttrrrrrrrrrbbbbbbbbbbbrbbl
+2 bbbbblllbbbbbblltttlbbbrttlllllllllbblll
+2 lllllllttltttt.bblllllllllllllllllllt.l.
+2 ..........ttlllllllbbllllrrtttllbbbrrrrr
+2 rrrrr.ttttlllllttllllltttttrrrrrrllllllb
+2 bbbbbbbbrbbbbbbbrrrrrrrrrrrrrrrrrrrrrrrr
+2 rrrrtttttltttrttrttttrrrrrrrrtttrrrttttt
+2 ttttlrrrrtrrrrbbbb.tttttllllllllllllllll
+2 lllllllllllllllllllllllllbblllllbbbbbbbb
+2 blbbbbbbbbbbbbbrrrrrrrrrttr.b....b.llttl
+2 bbbbbbbbrrrrrrrrrrrrrrrrrrrrttttttrrtrrr
+2 rtrrtttttttllllll.......
+
+uuid 99bf41e2b49d616f247411c78f79fb27
+
+leaderboard steps time gems

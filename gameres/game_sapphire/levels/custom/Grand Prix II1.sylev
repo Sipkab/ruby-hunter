@@ -1,0 +1,36 @@
+n Grand Prix II
+D 4
+C 3
+M 0 Race
+i The traffic is now 2-way...
+a Nic01
+f Nic01
+m 17 17
+#EE##############
+#((#............#
+#..##...........#
+#   #       7  .#
+# #6#          .#
+#   #  ......((.#
+#...#  (.(.(.((.#
+#...   .........#
+#...   ..7    ..#
+#...           .#
+#...       (   .#
+#...  #######6 .#
+#...           .#
+#...6         8.#
+#...............#
+#..............1#
+#################
+R 48893
+0 8
+1 Demo 1
+2 ...lllllllllllllltrtttttttlbbbbbbrrrrttb
+2 lllttt.....ttrrrrtrrtrBrrbrrtrbbbbblllll
+2 lrllllbbrrblll...l.rrrrrrrrrrrrrbbllllll
+2 llllllllttttttttrrttttlttltt......
+
+uuid 9800b877b808aaa86b1a154f81f5cced
+
+leaderboard steps time

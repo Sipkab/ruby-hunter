@@ -1,0 +1,12 @@
+# Blender MTL File: 'sand3.sapphire.blend'
+# Material Count: 1
+
+newmtl Material.006
+Ns 5.882353
+Ka 1.000000 1.000000 1.000000
+Kd 0.195988 0.105097 0.027675
+Ks 0.100000 0.100000 0.100000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.500000
+illum 2

@@ -1,0 +1,38 @@
+n Safe Crossing
+D 7
+C 3
+e 0
+s 0
+p 0
+M 0 Penny Lane
+i Cross safely!
+a Shark
+m 30 15
+~           ##################
+~         ###E Y G B #  # G  #
+~         #d## ##### #  # #  #
+~         #  #######+#  [b#  #
+~         #| # Q        ###  #
+~         # c# ._      #   # #
+~         #  #B####r 1 [y# R #
+############c#         #   # #
+#V(.         # ###      ###  #
+#?#V(.       # #g[      #    #
+#.Q.#V(.     # # #           #
+#.?QQ.#V(.   # #Y#           #
+#..#...Q#V(  #       :       #
+#  .?QQ#Q.# *:      :*#      #
+###########a##################
+y ~  %V% % 
+R 33224
+0 0
+1 Demo 1
+2 ..lLrrbbbbrrrrrr.ttttl..bllt.l..lt...ll.
+2 ...bbbbbbb..lllltt.rr..r....rt...rr..t.t
+2 tt...bbrrbrr.trtttttll.bbllt..l...b...b.
+2 .b.....bb..brb...lt..lll..t....lllll...t
+2 .trbrrrr.........trtttllll.....
+
+uuid b25acebb037c12e1f896b1c355878012
+
+leaderboard steps time

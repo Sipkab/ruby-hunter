@@ -1,0 +1,46 @@
+n Cornered
+D 7
+C 5
+d 1
+o 1
+M 0 Hello
+i The bag is right down there...
+i The only problem should be getting
+i the stones there.
+a Nic01
+m 9 25
+#######d#
+#1      #
+#      ?#
+#       #
+#     " #
+#       #
+#     " #
+#       #
+#     " #
+#       #
+#       #
+#       #
+#       #
+#       #
+#       #
+#       #
+#       #
+#       #
+#       #
+#  #@   #
+#####a#a#
+QQQ###E Q
+QEQQQQQQQ
+QEEEEEEEQ
+EQQQQQQQQ
+R 86206
+0 8
+1 Demo 1
+2 .rrrrbbbrcb..cb...cb..cb..cb...cblbll..l
+2 .r.l.b..r..r.B.l..rr.utr......bbbbb.utut
+2 utmlbbbbbrrrbbbcll......
+
+uuid 77f1b08e8c29557acbcc0804891e9c9b
+
+leaderboard steps time

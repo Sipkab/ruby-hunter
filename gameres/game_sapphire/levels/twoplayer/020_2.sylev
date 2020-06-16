@@ -1,0 +1,105 @@
+n Chambers of pain (2)
+a Emerald Mine
+D 4
+s 0
+i In some of the chambers the pain is in your brain
+i
+i I had to make a little change to the original
+i Emerald Mine level.
+m 64 32
+################################################################
+#                                                              #
+#                                                              #
+#  +++++++++++++++++++B+++++++++  +++++++++++++R+++++++++++++  #
+#  +...00y+........... ..+.0...+  +..0..+.00... ..0...+...0.+  #
+#  +.0..00+.00..0..0...0.+...0.+  G ....+.0.0.0..0..0.+..0..+  #
+#  +...000+...0.0..0.0...+0... Y  +...0.+..0..00000...+00...+  #
+#  R ..00.+........0..0..+.0...+  +0....+...0.0...0...+*00..+  #
+#  +..0...+..0..*........+.000.+  +..0..+..0...*......+000..+  #
+#  +......++++++++++++++++..0..+  +..0..+++++++++++++++....    #
+#  +...0..+b....0.00.....+.0.0.+  +.0...+0.*...0.000.g+..0..+  #
+#  +0.....+..0...0...0*0.+*..0.+  +.0.0.+.0.0.00..0.0.+r.0..+  #
+#  +....0.+.0......0.00..+00...+  +.....+00.0....0....+..0..+  #
+#  +.....*+.... .........+...0.+  +..*..+...... .....0+..0..+  #
+#  ++++++++++++Y++++++++++++++++  +++++++++++++B+++++++++++++  #
+#                               12                             #
+#                                                              #
+#  ++++++++++++++++++B++++++++++  ++++++++++++R++++++++++++++  #
+#  +.0...r+...0...... .0*+.....+  +.....+..0.. ..00..y+00...+  #
+#  +....0.+.0.0...0....0.+...0.+  +.0.0.+0.0....0...0.+0..0.+  #
+#  +..0.0.+...00.00.0.00.+..0..+  +..00.+.0...0..0.0..+0.0..+  #
+#  +..00..+g.....0.......+0.0..+  +....0+...000.0....0+*00..+  #
+#   .0*0..++++++++++++++++.... G  B .0..+*.00.......0.+.0.0.+  #
+#  +......+00.....0*...0.+.00..+  +..0..+++++++++++++++.....+  #
+#  +.0.0..+..000000000...+0.0..+  +....0+..0....0..0 .+0.0. Y  #
+#  +0.....+0....0....00..+$.00.+  +.00..+...0.0..00...+...0.+  #
+#  +...0..+..00......0.0.+..00.+  +0..0.+......00..0..+...0.+  #
+#  +......+....... ......+.0...+  +*....+.. ..0..0...$+b....+  #
+#  +++++++++++++++Y+++++++++++++  +++++++++G+++++++++++++++++  #
+#                                                              #
+#E                                                             #
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 84162
+0 8
+1 Demo 1
+2 ............l.l.llllllllllllllllllllllll
+2 .l.llllblbl.lllllllrlrlrlr.r.rlrlrlrlrlr
+2 brbrbrbrbrbrbrrrrr.r.r.rbrrrrrtr.r.rbrrr
+2 rrrrtrtrtrtrtrlrlrbrbrbrlrlrlrbtbtltttlt
+2 lttttltltbtbtbrbrlrtrtrtrrrrr.rlrbrlrlrl
+2 rbrbr.rtrtrtrtr.r.r.r.rbrbrrr.r.r.r.r.r.
+2 r.l.lbl.llb.brbtbtbtbrbrbrbrbrbbbbbblblb
+2 lblllllllllllllllllllllll.....r.r.r.rlrl
+2 rlrlrbrbrbrlrlr.r.r.r.rbrlrbrlrlrbrtrtrr
+2 rtrrrrrrrrrrr.r.rbrbrbrrrrrrrrrtr.rrr.tt
+2 t.trt.t.t.t.t.t.t.t.tttt.tl.lbtblllllllb
+2 llllllltltllltltl.l.l.lrlrlrlrlrlrlrlrlr
+2 lrlrtrtrtrtrlbtbtbtbtbtbtbtbtlt.l.l.lblb
+2 lbllllllllltltlrl.l.llltltltltlblblblblr
+2 lrlrltlrlrbrbtltbtbtbtbtbtrtrlblblblblbl
+2 blrlrlrlrltltltltltltb.b...l.l.l.rbrbrbb
+2 bbbrlrlrlrlrtltltltlttrttlttrtrlrltltlll
+2 llllllllblblbllllbtbtbtbtbtbrbrrr.r.r.r.
+2 r.r.r.r.r...............l.l.lblblrlrlrlb
+2 lrlbbbblblblblbrbtblbtbtbtblrlrtblrlrbrb
+2 rbrbrbrbrbrlrlrlrlrltltltltlllllllllrlrt
+2 rtrrb.bbbrrrrrrrrrrtrlrlrrrrtttltlllltbt
+2 bltl.rlrlbbblllbbbblllllllblrlrlrlrlrtrr
+2 rrrrrrrrrrrrrbrbrlrlrlrlrlrlrlrlrlrlrlrl
+2 rlrlrlrlrtrt.ttt.t.t.trtrtrtrtrt.t.r.rtr
+2 rr.r.rtrtr.rbrbr.r.rlrlrlrlr.r.r.blbbb.b
+2 .rlrlr.t.t.t.l.l.l.l.l.l.l.l.b.b.bllll.l
+2 .l.l.tlttttrtrrrrr.r.rbrbrbrrrrtbtbrrrrr
+2 rrrrtrrrrrrrrrrrrblblblblblblbl.........
+2 .llll.l.l.l.l.lrl.l.l.l.l.l.l.l.l.l.tbtb
+2 tbt.t.t.t.t.tbt.r..B....b.r....trt......
+2 .l.....r.r.....l........tlrlrlb.b.....b.
+2 b.b.b.b.b.l.l.l.l.t.t.t.t.t.rbtbtlttltlt
+2 lrlr.r.rbt.r.r..l.......................
+2 l.l.l.........r.......t.r.r.............
+2 b.b.b.b.b.b.b.l.l.t...l.l.l.t.r.r.r.r.t.
+2 t.t.t.r............................rtttt
+2 t.tblblblblrlrlrlrlrlrllbl.lllltllll.t.l
+2 ll.bbbbbbbbblblblr.r.rrrtrtrtrtrrrrrrrrt
+2 rrr.r.rrtt.tlttrtrl.lrlrlllllbbblrl.lllt
+2 lrlrl.lrllllltlrlrlrbrbrbrbrb.b.bbbbbrbr
+2 brb.bbrbr.rtrtrtrlrlrlrlrlrlrlrbtb.l.lrl
+2 rbrbrbtrrrrrrrrr.r.rlrlrlrlrbrlrlrlrbrrr
+2 rrrtrtrtrtrtrtrtrtrtrtrtrtrtrtttttttrttt
+2 tttttttttttttttttttltltlrlrlrlrlrlrlrlrl
+2 rlrlrlrbr.rlr..........l..tbrbrbrbrrrrrr
+2 rrrrrrr.r.r.rrr.rtblblb.brb.blblblblblbl
+2 btbtbrbtbtbrbrbrbrblblblblblblblblblblll
+2 lllllllllllllllllllllllllll.lrlrlrlrlrlb
+2 lblblblblblblblblblblblbllllllllllllllll
+2 llllllllllllllllllllllllllllllllllllllll
+2 ll.l.l.b.b.b.b.b.b.b.b.b.b.b.b.b.b.b.b..
+2 ..........
+
+uuid 490545cbc23491e5ec6892f6346880d5
+
+leaderboard steps time

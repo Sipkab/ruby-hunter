@@ -1,0 +1,58 @@
+n Platoon
+ldeutsch n Kompanie marsch!
+D 4
+C 3
+E 0
+M 0 Bavaria
+i Good morning gentlemen!
+i We have to do a tough
+i work today, so we
+i better start right now.
+ldeutsch i Guten Morgen, die Herren!
+ldeutsch i Heute liegt harte Arbeit
+ldeutsch i vor uns, also fangen wir
+ldeutsch i am besten gleich an.
+a Reinhard
+m 30 20
+##############################
+#EEEEEEEEEEEEEEEE....$.......#
+#.....*....$....0..0.....0...#
+#..0.......*.................#
+#.....*..0...0...*..0...0....#
+#..0.u..0...*....0......*....#
+#.0....0.....$..*...h..0.....#
+#.......0.0...*...*.....0....#
+#..0......*.k....0..*..*.$...#
+#....0.0....0..$.....0.**....#
+#............*....j......*...#
+############....$0.$..00.....#
+#          #.*...0..0....$...#
+# 222      #....*...$$.......#
+# 222       .................#
+# 222  1    ...*...0**.......#
+# 222       .......*.........#
+# 222      #....*.....0......#
+#          #........*........#
+##############################
+R 12304
+0 0
+1 Demo 1
+2 ......rrrrrrrrrrrbrrrrrrtrtrltttttrrb.b.
+2 r.b.r.r.r.t.r.t.t.l.l.r.t.t.t.l.l.t.l.l.
+2 T.b.r.b.R.l.....................lrr.r.r.
+2 r...t.rrrrrttttltlllLbrbr.rbrbbbblb.b.b.
+2 b.b.l.trttt.ltttltltlrt.lrtrtrtrlll..ll.
+2 l.bll.l.Bll.b.t.r.r.b.l.b.....L.r.......
+2 .....lrlrtb.btbtrlbr..r.b.b.b.r.t.r.r.b.
+2 b.l.b.l.b.b.r.t.l.l.l.l.l.t.t.t.t.t.t.t.
+2 tttltlltltbtl.l.l.l.t.t.t.b.l...r.t.l.t.
+2 l.l.t.T.l.l.t.l.l.b.r.r.b.R.l...........
+2 r.r.r.b.l.l.b.r.r.t.r.r.r.b.b...r.r.r.r.
+2 r.r.r.r.r.r.r...t.t.t.t.t.t.r.ltllllll.t
+2 .l.l.l.tb.b.l.lllllll..t.r.r.r.r.r.r.r.r
+2 .r.r.r.rr..t..r.r.r.t.t.t...............
+2 ..
+
+uuid 986f24a6a3fd1cc28e3530b29315c836
+
+leaderboard steps time

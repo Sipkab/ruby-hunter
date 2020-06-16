@@ -1,0 +1,79 @@
+n Lots of Bombs
+D 6
+C 3
+T 256
+p 300
+S STANDARD
+M 0 Calm
+N Lots of Bombs II
+i Remember, not to lose even 1 
+i movement!
+i Hint:There is a trap somewhere in
+i game.
+i Be very fast!
+i 
+i (fun to design)
+lDEUTSCH i 
+a Stimac, Marin
+f (name)
+m 49 46
+############################# 0  #QQQQQQQQQQQ?#0#
+#############################++++#Q############+#
+#############################QQQQ#Q#QQQQQQQQQQQ #
+#############################QQQQ#Q#QQQQQQQQQQ# #
+#############################QQQQ#Q#QQQQQQQQQQ# #
+#############################QQQQ#Q#QQQQQQQQQQ# #
+#############################QQQQ#Q#QQQQQQQQQQ# #
+#############################QQQQ#Q#QQQQQQQQQQ# #
+#############################QQQQ#Q#QQQQQQQQQQ# #
+#############################QQQQ#Q#QQQQQQQQQQ# #
+###########################@#QQQQ#Q#QQQQQQQQQQ# #
+###########################+#QQQQ#Q#QQQQQQQQQQ# #
+########################QQQQ#QQQQ#Q#QQQQQQQQQQ# #
+########################Q##Q#QQQQ#Q#QQQQQQQQQQ# #
+########################Q##Q#QQQQ#Q#QQQQQQQQQQ# #
+######################S#Q##Q#QQQQ#Q#QQQQQQQQQQ# #
+################*G0!0#S#Q##Q#QQQQ#Q#QQQQQQQQQQ# #
+################!#*$*#**..#+##QQQ#Q#QQQQQQQQQQ# #
+################!#|.|#.*(.  ..QQQ#Q#QQQQQQQQQQ# #
+################.#   R.:::  @ rQQ#Q#QQQQQQQQQQ# #
+################.#   ###d#####*QQ#Q#QQQQQQQQQQ# #
+################.#   #    #E #*QQ#Q#QQQQQQQQQQ# #
+################.#   #    0#B#*QQ#Q#QQQQQQQQQQ# #
+################.#0.0#    1  #*QQ#Q#QQQQQQQQQQ# #
+################.#0$0# #######*QQ#Q##########Q# #
+################.#|.|# ######**QQ#QQQQQQQQQQQQ# #
+################.#b g# QQQ*****QQ############## #
+################.0# ##*****QQQQQQQQQQQQQQQQQQQQ l
+################.|# ##|QQQQQQQQ##################
+################$   B +QQQQQQQQQQ################
+#################################################
+#################################################
+#################################################
+#################################################
+#################################################
+#################################################
+#################################################
+#################################################
+#################################################
+#################################################
+#################################################
+#################################################
+#################################################
+#################################################
+#################################################
+#################################################
+R 6321
+0 0
+1 Stimac's demo
+2 rlltllllbbbbbrrrrtrrrrtLttttttlltllbrrrl
+2 lltltllBl....rrBrbrrrrrbbbbbbbbbbl..b...
+2 .R.rrlttttttttttlltllbrrrrrbbbbbbbbblb..
+2 ..RrrtttttttttttllllllllbllttTLRbbbbbbbb
+2 cLRbbbllltttttttttttttrrbbbrml.........r
+2 rrml.........rrrtrrrrrrrrbbbbbbbblllllll
+2 ltttttrrrbrbrrtlll......
+
+uuid 556f8a34c98bcfc64947854281cacf0a
+
+leaderboard steps time

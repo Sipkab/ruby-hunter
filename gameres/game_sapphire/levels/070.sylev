@@ -1,0 +1,92 @@
+n Four problems
+a Emerald Mine
+D 6
+e 50
+s 22
+i Rooms of problems,
+i side by side.
+m 64 32
+################################################################
+#oo          .**#+++++++++++++++#%%%%%%%%%%%% # #.............u#
+#            ...#6+  *+         #             # #.............u#
+#               # + +++ +++ + + #             # #.........0... #
+#               #   + 0   + + +*#            0# #............. #
+#.              # +++ + + + + ++#            .  #..0.Q.........#
+#r..            #   +   + + 0   #   *        ## #........Q.....#
+#r$.            # + + + + + + ++#   .         # #..............#
+#+++++++G+++++++#60 0 + 0     0 #          *  # #..............#
+#         +o .* #++ + + +++++ ++#          .  # #..............#
+#++++++   G  .. # +   +   +     # *           # #.....0........#
+#*.  o+   +     # + +++++++++ + # .      *    # #..........0...#
+#..   +   +     #60   + 0   + 0 #        .    # #.Q............#
+#     +   +     # + +++ + +*+ + #    *        # #.........0....#
+#     +   ++++++#   +   + **+   #    .        # #............0.#
+#     +   +o    # +++ +++++++ ++#             # #....Q....0....#
+#     G   +     # 0     +     + #             # #......0.......#
+#     +   +     # + +++ + +++ + #             # #.........0....#
+#     +   G     #6    + 0     0 #*            # #......0.......#
+#     +   +     #++ +++++ +++++ #.         *  # #..0...........#
+#..   +   +   ..#60     +   0   #          .  # #......0.......#
+#*.   +   +   .*# +++ + +++ + + #             # #..............#
+#++++++G++++++++#     0 +   +   #             # #..............#
+#         +:::::# + +++++ + ++++#  * 1        # #........++++..#
+#         ++6::6#6+    +* +     #  .          # #....0...++++..#
+#       Q  +::::#++ +++++++++++ #          *  # #........+bb+..#
+#      ++0 +:::6#$+             #      *   .  # #........++++..#
+#      + 0.+::::#g# + ######### #      .      # #..............#
+#*    00 . +++++#g# + ##        #y           y# #....... ......#
+########G###############Y###################### ########R#######
+#                                                          B EE#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 19878
+0 8
+1 Demo 1
+2 .....bbbbbbllllrrrrrrtttttllllbrrrrrrrrb
+2 bbttttttttttttllttttrrtttllllllltttllbbb
+2 bbbbbbbrrrtttlllbbbbbbbbltttrr...tttrrrr
+2 rttttrrrtttt..t.r.trrrbbbbbbbbbbbbbbbbbb
+2 bbbbbbblllllllllllllllllllllll.tt..rr.ll
+2 bb.......ttrrrrrrrtt..llrrtttllllttllbbb
+2 lrttrrbbrrrrbblllllrrrrrttllllttttlltttt
+2 rrrr.....tttttttttttttt.rrbb.ttlllll....
+2 rbbbbbblltttt...bbbbrrr..l.l............
+2 ....l.tttt..................bbb..b......
+2 ............ttttllbb.llbbbbllttttlltttr.
+2 brrttrrllbbllbrrbrrbbbbbbbbb.lllbbbb.rrr
+2 b.lb..b.ll......llbbbbbbbb..tttttt.rrr..
+2 .rttlttlttttrr...rr..bbrr.rtttrrrr..llll
+2 l..bbrrr..r.......lllrrr.......lll..rrr.
+2 .r.....l.rr..llllllllttllttrrttrr.rrrbbl
+2 rtttllllbbllbbllbbbbrrbbllbbbrrbrrrrrrrr
+2 rrrrbblllllllbbrrrrr...rllllllllllllllll
+2 llllll.....t....................rr......
+2 .ttt.l.t.llb.rrr........lllllllbbb.rrrtt
+2 tttrrrttttttttttttrr..l..t...bbblbbbblll
+2 lllbbbbb.ttttttttttrrrrbbbbbrrr.rbb.rrrr
+2 rbbblllltttll..........................l
+2 bbbbbb...ttttttttttttttrrr..bbb....bbbb.
+2 .....tttttttrrrrttrbbbbllllltttll.......
+2 ...lltlllllll........rrrrrrrrtt.llllllll
+2 l.......rrrrrrrrt.lllllllll...rrrrrrr.tt
+2 ttttttrrrrrrrrb...bbbbbllllllllllllllttt
+2 tttrrr.rrrrbbbbbbbbbbbbbbbbbbllbbbrrbbbl
+2 bbrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+2 rrrrrrrrr..r.....tttttttrttttttttttttrrt
+2 tttt..t.r.........R.lbbbbbb.rbbb.l......
+2 ...rbbbbbb....ttt..bb..ttttt..llll......
+2 .l....bbbbbb..tttl.brrr..ll.bbbb..t.....
+2 ....tt....tt.......b..lll..r..r..t.rrbb.
+2 ........L.b..L.b..L.b.............L.....
+2 ........b.b.l..lbrr.lbb....b..b.....ttt.
+2 .tr.tttttttttttt...l.rbbbbbbbbbbbbb.....
+2 .ttt.........bbb....tttttttttttt.llllllt
+2 t.llbb.rrrrrrrrr.rbbbbbbbbb.tt..bbbbbrrb
+2 rrlllbbbbbrrrrr.......
+
+uuid 8bc385bf1393c48e3709550678639f8b
+
+leaderboard steps time gems

@@ -1,0 +1,101 @@
+n Suicide (2)
+a Emerald Mine
+D 5
+s 0
+i There is not much to say about this level.
+i Kill the lorries,
+i kill the robots,
+i kill the yam yams,
+i collect the emeralds.
+m 64 32
+################################################################
+#. .......0.. .0..... 0...0...0.0....0.......?.. ........ .....#
+#.?..SS......... . ...............0.. s..0.S......0..Q. s...0..#
+#.... S.0. .S..0 ..S..0.s ... .0S.0.....0..S.00S. . s......S00.#
+#... ...  . .....S ...00 0S0.0.Ss.0S.0... .s.  0 0.S..0 .S 0s..#
+#. 0S.. . .0*.S.0 ^.00S0.. S...0.S 0. ..Q.0.0.0.*.0 ..  S .. ..#
+#S.. ..:0.S 0S..S0*0. S0....0.Q...*00. .....0... ^.0S...*0....0#
+#Ss..S.0. . .s0.. ..0..  S .S0...0^0...0 . Q:S.....0000.o..  ..#
+#.....0..S S....o...0...s ...S 0 s 0.. ..0S..S0.0..0    S.S S..#
+#0.. .  .Q .0.0S* ..S. 0.Ss.  .0.0....0S0..0.0.  S.0.....0 ..0s#
+#.SS . S...S.s0S.0.. 00. 0.00... 0s..0 0.0..  00S .0.SS. 0..  .#
+#..0..0.  0..0....S. .  ..0...0. .0. S00. .0.0s0....E0..0.. ...#
+#.s0...  0S.Q0Q  .....0S.S.. 0 0  .S...0.S.0. S. .0  0. ...S. 0#
+#... S*S.sS..0..000 S....S........s. s.. .0 0 .. S.0s..S.0. . .#
+#. ..s^.0.S..Ss . S.s.S.*.Qs..  ..0 0.Q.0*. 0 0....00 .000.....#
+#.s...0 .. ..00.00  .S:.. .00. 0 0.S*6... S...s..0 000.00.0. .0#
+# ..s .  0. 0S00.S. .0.. ..00. ...0 ...0. s...0 ..  S 0   S. ..#
+# ...0S..0 S. .... . S.0 SS.. S S.0Ss 00 0 000..00.*.. .00 . .s#
+#0.0.0.0S  .. .E..0..0 .0.000. .s....0.0.....  .S..*o...S..  ..#
+#. sS*^s .. . . .s .0.sS.0. .S0..000.00 . .....S00..000.  S   .#
+#.0.0s..S00.0..S0 ... S. .S .0 .0. S.   06 s.S...S .....Q.. S..#
+#0...s.Q...Q.S.....QS00  . 0S......00....*0S.0s0....0S ..0S*. .#
+#...S0.S. .. 00.0...0 .0... .*60S.000..S...... ...0.. s.0..6...#
+#. ..00S0 0s0..00 .00s..0 S........00. 0.0S0. ..00.s*S ....S.s.#
+#..S. ..S0: .00.0. .. ..0...Q...00.000s0.0 0 .s ..S0...0.. . S.#
+#..S.. 60.S S ..... *.....S .0S.S  .0.0 .Ss.s.00.. .0... .Ss.SS#
+#....S0  ..S.0.Q.. S0.0.0..S0... s.0SS..00s . 0..0.S.s0.. ....0#
+#S...s.*S0Ss0 .0S.. 0..0Ss0...0 Ss00..0...s.S...00. ....Q...s..#
+#S...SS...s..... ..S.. . 0..0.....S s... 0. ..0. ... .. ....0o.#
+# .?..0 ..S....s..s... S.... ....s......0.. 0..s ..:.S ..0..s*.#
+#....0... ... . .....S......0.12......?................ ..S....#
+################################################################
+y 000000000
+y 000000000
+y 000000000
+y 000000000
+R 96286
+0 8
+1 Demo 1
+2 ........l.t.t.l.l.brbrlrlrlrlrlrtrtrtrtr
+2 .r.r.rbtbtlt.t.trttttlttt....llll.l.l.bL
+2 b.b.b.l.b.bLlrlrlrltllltltltltll.l.l....
+2 .l.....r.b.b.b.rtrtr.r.r.r.t.r.r.rtb.r.r
+2 .r.b...r.b.b.r.r.......b.r.rbrb.b.l.lblr
+2 l.l.l.l.....t.tr......................r.
+2 ....b.r.lltl.brbrb.rtbtrt.r...lRt.tR...l
+2 .lr.bt.l.trtrt.r.tltl....ltl.l...brlt..r
+2 .ttl.t.t.t.t..TbBlblbtb.l.l.tr.rrt.tlr.r
+2 .......Bbtbt.t.t.t.t.r.r.r.r..t.tl.l..rb
+2 tltlrbtltltbl...r...t.rltrt........t.r.r
+2 .r.b.b.lblbblllll.l.l.tbt.t.rbtb.b..rttt
+2 ttt.....r.rl.l....BrRrr.r.r.r...........
+2 .........................llll.b.b.b.b.b.
+2 b.b.b.b.b...r.r.....b....rtt.t...r..l.ll
+2 ttt.tlr.r.r.r.r......L.r.r..t.l.l.l.....
+2 .btltllrl.t.t.tltltltl....l.ltlr.tttttt.
+2 ...rlrlrtb.rrbtbtllltltlr.r.rtrlrl.l.btb
+2 rlrbr.rlbbbbbltlrlrlt....l.....tbtltl.ll
+2 ll..t.t.l.lltlllllt.l.l.l.b.bbb.ltb.b.b.
+2 rlr.b.b.r.r.r.....l.b.bTbrbrbtrt.ttttrtr
+2 .r............r.r.rl.l.l.l.l.b.b...t.r.r
+2 .r.r..................rtrtrtrtrrrr.r.r.r
+2 tr.t.r.t.t........Tlbtb.r.r.r.t.t..l..t.
+2 ...r...t....t.t....t.r.....r.r.r..r..l.b
+2 .bl..r....t....R.b.b.l.....t.t.t.t.t.t.r
+2 .r.t.t.r.r.r.r.r.r.r.....b.b.b.b.b......
+2 ....LRbtbtrtr.rrrr.r.tlrbrbrrrr..l.l....
+2 ....b.b.b.b.b.b.r.........t.l.l.........
+2 .......l.l.lrbtl.lt.tbtltltll.trtrrrrr.b
+2 tbr.rtrl.t.t.llllltltllltltlrltlrlrlrlrl
+2 rl.b.bblbbbb.b.b.l.b.b.b.b.l.l.b.l.t.l.l
+2 .b.b.l...t.t.r.rlr............b.b.r.blbt
+2 btblr.rrr..t.l.l................blb.b.l.
+2 l.l...b.b........................B.L.R.r
+2 .r.r.....l.l.l.l.l..........r.....brbrbr
+2 brbbrbrb.b.b....b.brbblbl.l.........l...
+2 ..r..............b.brbbbbrbrbbbblbtblblr
+2 trtrrrtblbtb.brb.l.llb.btb.l.l.l.l.lrl.l
+2 .l.ltl...b.l.l.l.t.l.l.l.lTlblblbrbrbrb.
+2 l.ltllll.l.l.ltlr.t.t.lblblllltltltltlll
+2 tltl.l.llll.t.t.lrltltl....r.r.r.......b
+2 .b.r.r.r.r.t.l.t.t.t.t.t.r.r.r.t.r.r....
+2 .t.t.t...r.r.....r.b.b.b.r.r.r.r.r.r.r.r
+2 .....t.t.t.t.l.t.r.r.t.....l.t.t........
+2 ...b.b.b.l.l.t.t.t.t.....t.r.r...b.r.l.t
+2 .r.r.r.r.r.r.r.r.b.b.b.r.r.r.r.r.r.t.t.r
+2 .r.r.r.t.t.t.r.t................
+
+uuid eda178ed55e000f67cd7d875cbc2b86c
+
+leaderboard steps time

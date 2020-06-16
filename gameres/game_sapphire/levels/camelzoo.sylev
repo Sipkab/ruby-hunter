@@ -1,0 +1,66 @@
+n Camels in the Zoo
+ldeutsch n Kamele im Zoo
+D 3
+C 2
+e 31
+T 1000
+i You can play this level the
+i easy way or the difficult way.
+i So decide your route through
+i the level carfully.
+ldeutsch i Du kannst diesen Level
+ldeutsch i auf die einfache oder auf
+ldeutsch i die schwierige Art spielen.
+ldeutsch i Wähle deinen Weg
+ldeutsch i mit Bedacht!
+a Erik
+m 40 30
+########################################
+#E1..  u .....*.....6         8......  #
+#...      ............       ....*....u#
+#...      ....  .......................#
+#.*.u     ...   7 .....*........    ...#
+#........ ...      ............u   u...#
+#........u...      .     j..        .*.#
+#......*. .*.     .u      ..       ....#
+#.    ........   .   .......    ...... #
+#.    ........5 .    ....*...u ......h #
+#.   u...  .....u   u........  .....   #
+#u    ...  .............  ...  ...     #
+#     .*.  j..*.....*... .... u...     #
+#     ...j   ..........  ...   .*.u   u#
+#  u ....       .6 ..   8...   ...     #
+#........      j.  ..  5 .........    .#
+#....*...   ............  ...  ........#
+#.....  .. .......*.....  .*.  ..*....$#
+#.*.     ...*...........  ...   .......#
+#.......   ...       .*......     h  ..#
+#.....*.   ...    5 8........j        .#
+#.......j  ........  .... .....    .  j#
+#.  8...   ..*.....   ... ..*...  ...  #
+#.   ...   ........   ... ......j ...  #
+#.6  ...        .*.  ....   8...  ...  #
+#.   .*.....   j......*.     ...  ...  #
+#.   .....*........j ....6   ...   .  j#
+#..  ..........*...   ...........j    .#
+#..6      8.......    j...*.......   ..#
+########################################
+R 58401
+0 1
+1 Demo 1
+2 ...bbbbbrrrrrbbbbbbbbbll.blllbbbbrrrrbbb
+2 bbbrrrrrbrrrrrrtttttllllltttttrrrrrrrrrr
+2 bbbbrbbblbb.r.b.rbrrrrrrttttttlllttttttt
+2 ltttrtttlllllbbblllllllllttltl.ttttttttr
+2 rrrrrrbb.rrbrrrrrrrrrrtrtrtr.brr.r.br.bb
+2 bb.l.bl.blll.bbbbbbbbrrrrrrllllllttt...t
+2 ttttrrrtrtrtrt.lt.tltlllllblbllllllllllt
+2 lltlltlllllbbbbbbbbr.b..rb.brrrrrrrrrttt
+2 rrrrrbbblbbbrbbbbbbbrrrbbbbbblllllltltlt
+2 trtttlttttllllllllllbbbbbrrrrrbbbbblllll
+2 ltlllllttttttllllttttrrrtrrtttttttttllll
+2 ltttttll.......
+
+uuid d3bcf03d2273f97120984c06e64f4a46
+
+leaderboard steps time gems

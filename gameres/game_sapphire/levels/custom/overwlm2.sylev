@@ -1,0 +1,45 @@
+n Overwhelmed II
+D 5
+C 7
+E 0
+T 999
+p 0
+i This is a bit less difficult than
+i Overwhelmed, as the exit is not
+i blocked. There are several traps
+i nonetheless.
+a Alex
+m 13 13
+#############
+#Q@..Q00..Q.#
+#*....**....#
+#*.0Q.$..00Q#
+#.*0$....Q00#
+#.Q$...**.$*#
+#.....@....0#
+#.*.0.@.Q0.Q#
+#0Q.$.Q.*$.Q#
+#**00.E0.0.*#
+#0**..1...@.#
+#.0....Q  ..#
+#############
+R 89343
+0 0
+1 Demo 1
+2 ............r..rtt.......R.....l........
+2 ....rlll...T....bbbbrrrr..ll....tllttttt
+2 r.........l..ttt....bl........T...r.....
+2 ...bbbbb....ll................lL.r..l..r
+2 ..bbb.....tttrrrbb..lblr...r...tlll.b...
+2 .....ttttlll.........rrrbb.b............
+2 .....l....lltl........rrr.............t.
+2 ....ttt...t..bl.........r..t..ll........
+2 ltt.......bbbbbrr...l.....tl....r....ttt
+2 tlbbbbbbbbb..r..tttttrrbbbbb...l........
+2 ...rrttt....rrr....ttttttrrllbbb...ttrrb
+2 l.....rbr......ll...bbbbrr....llllll....
+2 ...
+
+uuid 4c6c509e7943c324c8420a5fa3d0b2c6
+
+leaderboard steps time

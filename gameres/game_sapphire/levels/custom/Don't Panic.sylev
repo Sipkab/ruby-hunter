@@ -1,0 +1,32 @@
+n Don't Panic
+D 3
+C 3
+p 0
+i This level has an extremely simple
+i solution. Don't let all the bombs
+i get to you.
+a Shark
+m 12 14
+QQQQQQQQQQQQ
+Q#E########Q
+Qm0       #Q
+Q######## #Q
+Q#        lQ
+Q# #######QQ
+Qm        #Q
+QQ####### #Q
+Q#        lQ
+Q# #######QQ
+Qm        #Q
+QQ####### #Q
+##   1!   lQ
+#########QQQ
+R 7883
+0 0
+1 Demo 1
+2 .rrrrttlllllllttrrrrrrrtclll....rrrrrttl
+2 llllllttrrrrrrrttlllllllt.....
+
+uuid 44a739f9a2b95fd31402766d5fe6995d
+
+leaderboard steps time

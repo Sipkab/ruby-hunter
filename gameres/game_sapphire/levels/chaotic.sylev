@@ -1,0 +1,61 @@
+n Chaotic Room
+ldeutsch n Chaoszimmer
+D 6
+C 4
+s 50
+M 0 Dancing on the Ceiling
+i This level contains many
+i confused monsters.
+i Don't let them confuse you!
+ldeutsch i Dieser Level enthält viele konfuse
+ldeutsch i Monster. Lass dich von ihnen nicht
+ldeutsch i auch konfus machen!
+a Ronald
+m 36 16
+####################################
+#   # 7       #           #  8    >#
+#              0   V   6  <       ##
+#  8  V        .              0    #
+#        >   7     ^  >   6   .  6 #
+## ^               0    +++++++    #
+#     0  0 0 0 0   .    +++++++    #
+#     .  . #####      7 +++++++   ##
+#8         #1 rR  ^     +++$+++ V  #
+#     7    #####        +++++++    #
+##               <   "  +++++++   <#
+#   5  "                +++++++    #
+#         <    V  V         7      #
+# >    5                      V  6##
+#  #       #        5   #          #
+####################################
+y ~   E    
+y ~   R    
+y ~   E    
+y ~   E    
+y ~   g    
+y ~   E    
+y ~G G G G 
+y ~   E    
+y ~   G    
+y ~   E    
+y ~   E    
+y ~   E    
+y ~   E    
+y ~   Y    
+y ~   E    
+y ~% % % % 
+y ~   E    
+y ~   E    
+y ~   E    
+y ~   E    
+R 24026
+0 1
+1 Demo 1
+2 .rrrbrrbrrr.b...trrcbllltbbllttbrrrtt.l.
+2 bblltlttrrrrrrr...mllll.rrr..rrrml.bb.b.
+2 bbttlltlttr..trrrrrRlllllbsr.........blb
+2 lt........
+
+uuid f8e0a24e6fcba7e9c3d3251bd2196ebf
+
+leaderboard steps time

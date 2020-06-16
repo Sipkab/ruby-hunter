@@ -1,0 +1,28 @@
+n Telephone Wire
+ldeutsch n Telefonleitung
+D 5
+C 6
+E 0
+p 0
+M 0 We don't need Another Hero
+i Use the lorry to transport the
+i rock over the empty space.
+ldeutsch i Benutze das Wagerl, um den
+ldeutsch i Stein über den leeren
+ldeutsch i Raum zu transportieren.
+a Alexander
+m 15 4
+###############
+#           01#
+#       5   ###
+###E@##########
+R 77394
+0 8
+1 Demo 1
+ldeutsch 1 Demo 1
+2 .......................llllllll..blb..l.
+2 .......
+
+uuid 9e5f740e809cec42d820a4afbe852b11
+
+leaderboard steps time

@@ -1,0 +1,68 @@
+n Die hard
+a Emerald Mine
+D 6
+s 0
+i A hint:
+i There is one sapphire you have to grab,
+i before you go to the bottom.
+m 64 32
+################################################################
+#         ^            .........^                           ^  #
+# ........... .....    .....  ..          ..................   #
+# ........... ..$..        ..  . ........ ..$...$...$...$... . #
+# ^           ..... ...... ..$ . ........ .................. . #
+#  .......... .$.$. .$.... ... . ..$...$.         ^          . #
+#  ..... .... ..... ...$.. ...o. ........    ..... . ......... #
+#  .  o$  o . ..$.. ...... ... . ..$..... ...  ... . .$....$.. #
+#  ...    ... ..... .$.... ... . ......$. .  o   . . ......... #
+#  ..... ....       ...... .   . ........ ...  $.. . ...$...$. #
+#  ........ .^         ... .....             . ... . ......... #
+#         . ... ......      ^    ..... ..... .  .. .        ^  #
+# ....... .   . ..$... ............o . .. .. .. .. ........... #
+# .     . ..... ...... ...   ....   .. .. .. .. .. .. .....  . #
+#^...o... ^               ..  ..  .... .   . .. o. ..   ..  .. #
+# ... ...  ......... .... ...    ..... . o . ... . ....o   ... #
+# ... $.. ..... .... .... .... $  .... .  $. ..$ . ..$   $  .. #
+# ... ... . o   o  . .... ...  ..  ..  .. .. ... . .   .... .. #
+# .  o  . ....$   .. .$..^..  ....  .  .. .. ..... ........... #
+# ....... ..... ..   .... . o...... .  .....    ^              #
+#         ........   .... ....1 .....^              .... ..... #
+#  ....                                ...      ........ ... . #
+#  .$.. .....     .. ........   ............... ...      .$  . #
+#  .... ...$. ...... ....$... .   ...... ......       ^..o  .. #
+#  .... .$... ... .. .... ... ... ..$... ......   .... .  .... #
+#  ..$. ..... .. o.. .... ... ... ..... o  ....   .... .....   #
+#  .... ..... .o   . .   o  . ... ..... $  ....               ^#
+#          ^  ... .. .... ... ... ......o...... ...............#
+# ........... ... $. .... ...   . ...... ....$. ..........    .#
+# ........... ...... .... .....   ............. .      o   ....#
+#                  ^ .... .....  ^      ^       ..........$..EE#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 45578
+0 8
+1 Demo 1
+2 ..rr..b.rrrrbbbr.trrr..rrr.bbbllllllllll
+2 l.....r.bbbbrrrrrrrrrrrrtttrrrrrrrrrrrrr
+2 rbbblrrtttttttlltttttttlltttllllbbbbrllt
+2 tttttttttrrrrrrrrrbbllllttttttllllllllll
+2 llbbbrrrbbblttttlllllllbbblllltttt..l...
+2 .....tttllllllllbbbb..rrr.....TLllllllbb
+2 blltttllllttllbbbbrrbbbbbr........llllll
+2 ltttllllt.bbbbblbbbr.......r..r.bbbbrrt.
+2 .rrr...TRrrrrrtrrrr..r.....rbbbrrr.llltt
+2 tttrr.tttrrrrbbbrrrrrrrrbbrrrrttlrrrrrrb
+2 bbbllbblllbblllllbbbblllllllbbllllllllll
+2 ll..t.t..........LBbbrrtrrrrrttt.rrbbbbb
+2 lllllllllllttllllllllttttrrtt.....bbllll
+2 llttl.bbbr.ttt..l...lll.rrr..bb..b.b...b
+2 rrrrrtttrrrttttttrrrrrrrrrrrrrbbbbbrrrrr
+2 bbbrrrrrrrrrttttttrbbbbbrrrrr.bbbbrrrrbr
+2 rrrrrrrrrrrr.......
+
+uuid 73ce3fbe2d5b02ff0dc789cecc57c4a6
+
+leaderboard steps time

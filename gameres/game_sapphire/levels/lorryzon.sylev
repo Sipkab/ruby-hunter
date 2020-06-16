@@ -1,0 +1,37 @@
+n Danger! Lorry Zone!
+ldeutsch n Achtung! Wagerl!
+D 4
+C 1
+M 0 Ringing
+i Try to get around the
+i moving lorries.
+ldeutsch i Versuch irgendwie,
+ldeutsch i um die fahrenden Wagerl 
+ldeutsch i herumzukommen.
+a Alexander
+m 15 15
+#########E#####
+#      i   G  #
+#      iiiiii #
+#      i   i  #
+#6     g 1 i 8#
+# iii  i   i 8#
+#  i   iiiii  #
+#  i     i    #
+#  i     i   8#
+#  ii    i    #
+#6  ii   i    #
+#    iiiii    #
+#             #
+# 5     5     #
+###############
+R 31982
+0 8
+1 Not Really Crazy
+2 ..lllll.l..........llrr..............llb
+2 bbbbbrrl.lttr..........bbbrrrrbrrrrrrrrr
+2 tttttttttttlllt
+
+uuid 0b701f55b0f8f040782ed59a42654676
+
+leaderboard steps time

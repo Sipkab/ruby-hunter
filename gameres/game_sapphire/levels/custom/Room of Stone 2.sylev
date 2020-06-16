@@ -1,0 +1,46 @@
+n Room of Stone II (Shark)
+D 6
+C 7
+E 0
+p 0
+M 0 Nightshift
+a Shark
+m 20 16
+++++++++++++++++++++
++.....S..00...S0$0.+
++.000000..0000.0000+
++.00$000...0$S00S00+
++S0.$..0.S0.00.0.0.+
++.000$0.S$0..$.0.0.+
++..0000S$.0000...0$+
++..S...0000.000.S.0+
++.00000...00..00.00+
++.0.$.0S.$.00000.S0+
++.00.00..00.$$00$.0+
++..00000000000...0E+
++....0...$.S...1 0.+
++..0 0......$... ..+
++a++ +++aaa+++aaa+++
+++++++++++++++++++++
+R 80069
+0 0
+1 Demo 1
+2 .bllllLr.lrllrrrrrttTbbrrtblttTbr..b....
+2 ....ltLlrbltttltTbrr......tttttbbblTl.rr
+2 rl.rrrttttRbbbblbbb.rrbbrbltttrtbblllbL.
+2 ...llrttllbLrrbbL..lblTl...rlTr.ll.rtttL
+2 bbb..l.rllrlllrttttllLrrbbbbb..lrllrllrl
+2 llrlllllTrTrrtttrrrttttrtttrttlllrbblbl.
+2 .rbbbLbbrrtlllltrttll.bbbbttttrrrttttltl
+2 lrrbrrrtrlrRlllbll...rbbbblllltttbbbrr..
+2 .llttttrrblbbRbbbbb...ttttttttbbbbllLtrt
+2 tltrrbbbbbbll.bbbbblTlrrtt.tttrttlbbLbbL
+2 rrtttttttltltlrbBbBr............rbbbblll
+2 Lr......llttR..tr....lllTl.....rtttRlllb
+2 brrrrrr.....bbbblLrrrbb...........bbblbl
+2 .................rtlrttllltLrrtrrrrrrrrb
+2 bbrrrr.....
+
+uuid dcf8ff4075525b5cb318d40d401e0697
+
+leaderboard steps time

@@ -1,0 +1,43 @@
+n Small Puzzles (Shark)
+D 5
+C 1
+e 95
+p 0
+Y
+M 0 Staying Alive
+i A series of small puzzles...a good
+i way to relieve 10 minutes' of
+i boredom.
+a Shark
+m 27 14
+##@#######S################
+#.&....#00$00# 0 Q #Q(   &#
+#.Q....#$$.$$# # # #:#### #
+#.0..y1#.....# #!0(# #"Q(&&
+#.$....#@@g@@#^# |+#(##:# #
+#......#.....# #Y# #Q # # #
+#......#QQ@QQ# # # #Q## #c#
+#......#.....#a#G# #Q#! # #
+#......#.....###$# #Q##(# #
+#      #     (  &#QQQ( Q&c#
+#      #  m(*#########+:#0#
+#      #  +G.#****#E#QQ( 0#
+#     Q+    Q+****#*&Q#Q00#
+########################0##
+y ~   $    
+R 66570
+0 0
+1 Demo 1
+2 lllTbbrbBttlll..rb..rrbbrrrBtlllbrr.rbbb
+2 .....bbrrttttTrrTl.rtLttTbbbrblrrtTbbbl.
+2 .llbrtrrrbrrrrrTllllltttlltttttrlbtrrtTb
+2 bbbbllttttrtttlbrbbltbbbbbbbblbrrR.ltttt
+2 ttttttlLbLrbbLbbbbbb..LtttttttlLrbbrbbb.
+2 rrrrrttttttrl....l....lbbb.....bbBtttttr
+2 rrrbbbbbbbbrrttttrttrrrrbbutR........bbb
+2 bBttttllbbbbLbbRlbuLrr.......llbbrBllbll
+2 t.....
+
+uuid 6c6711ea06a0f08ba1a04eed4f7c9537
+
+leaderboard steps time

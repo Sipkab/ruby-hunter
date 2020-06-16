@@ -1,0 +1,35 @@
+n The Hunt
+ldeutsch n Die Jagd
+D 7
+C 3
+M 0 Jump
+i A real race level.
+i Be faster than the
+i falling stones and
+i the explosions.
+ldeutsch i Ein echter Wettlauf.
+ldeutsch i Sei schneller als die
+ldeutsch i fallenden Steine und
+ldeutsch i die Explosionen.
+a Ronald
+m 11 11
+###########
+#E# 0#*##0#
+# #0 #....#
+# #  #.!Q #
+# #1 #.Q# #
+# #Q *.#Q #
+# Q####Q# #
+# #QQQQ## #
+# ####### #
+#$      * #
+###########
+R 2730
+0 1
+1 Demo 1
+2 .rbrrttrrrtt.ll..Tbrrrbbbbbblllllllltttt
+2 tttt..........
+
+uuid 21f724cda345477d72bf75cdd66e1546
+
+leaderboard steps time

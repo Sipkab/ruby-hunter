@@ -1,0 +1,76 @@
+n Sokoban?
+ldeutsch n Sokoban?
+D 3
+C 5
+e 0
+p 0
+M 0 Money for Nothing
+i This scenery probably
+i seems familiar to you.
+i Just remove all boxes from
+i the maze and apply them
+i at the bottom line to
+i move the bomb.
+ldeutsch i Dieser Anblick kommt
+ldeutsch i dir m�glicherweise
+ldeutsch i bekannt vor.
+ldeutsch i Hole einfach alle
+ldeutsch i Safes aus dem Labyrinth
+ldeutsch i und bring sie in die
+ldeutsch i unterste Reihe, damit
+ldeutsch i du die Bombe schieben
+ldeutsch i kannst.
+a Reinhard
+m 20 12
+####################
+#++                #
+#++ [+ + +[[+++++[ #
+#++[[  + +  [    [ #
+#    + +    +++  [ #
+#  [[+[+ ++++++++  #
+#+  [              #
+#+++++++ ++++++++++#
+#                  #
+#         1      Q #
+#++              ++#
+#E+#################
+R 18017
+0 1
+1 Demo 1
+2 .....lll..rrrrrr.llllll.rrrrrr...rr.tlll
+2 llll...tt......rr......ll..rrrrrrrrrr.tt
+2 t.l.........bb.rb.lllllllllrrrrrrrrrtttt
+2 tllllllllllbbbbbbbb.tttrrrrrrrrrrttttt.l
+2 bbbbrb.lllllllllrrrrrrrrtttttlllllllll.b
+2 bbbbbbbl.b.rrrrrrrr.t.r.b.lllllllll.brrr
+2 rrrrllllllttttrrrrrrrrr.ttll.t.r.brrttl.
+2 bbb.rb.lllllllll.rrrrrrrrtttttlllllllllb
+2 bbbbbbb.lb.rrrrrr........lllll.tttt.....
+2 .......rrrrr.lllll.........rr..rrrrrrrtt
+2 t.lll.........r..........rrttt...lllllll
+2 llbbbrrrt.rrrrrbbrrttlbbbrb.lllllllllrrr
+2 rrrrrtttttlllllllllbbbbbbbblbrrrrrlllltt
+2 ttt..b...ttrrr.....llltttrrr..b.tll.bl.b
+2 bbrr.trrrrrrb.rrttlbbb.rblllllllllrrrrrr
+2 rrtttttlllllllllbbbbbbbblbrrrrlllttttttr
+2 r...rttt......l.bb.rb.llrtttllbbbbbbbblb
+2 rrrlltttt..............ll...............
+2 ..........ll.t...................l....t.
+2 .t..r....l.....r......................l.
+2 b.b.t.ll.b.r.brrrrr.....r...ttrrrtrrrrrr
+2 bbbllllllllrrrrrrrrtttlllllllbllbbbbblbr
+2 r.lttttllllllltt.r.b.lb.rrrrrr...ttrrrtr
+2 rrrrrbbbllllllllrrrrrrrrtttlllllllbllbbb
+2 bblbr.tttttttttllbbb...bbttttrrbbbbbllll
+2 .tllbrrrrrltttttrrbbbbbbbb.tttllllltttrb
+2 blbrrrrltttttrrbbbbbbbbrbl.t.l.b.trtlltl
+2 l..t.lttttllbbbblbrrrrltttttrrbbbbbbb.rb
+2 .llt.l.bttrrttll.lltttttlbbbb.l.brrrrr.l
+2 tttttrrbbbbbbb.rb.lllt.lbbtrrrttll.ttt.l
+2 .rttllbbbb.lb.rrrr.ltttttrrbbbbbbbr.blll
+2 ....l.tl.brrrrrrrr.trrrrrr.bllllllllllll
+2 lllr......ll.l.bb.l..........
+
+uuid 5aa5b727461ba3462472aad3916996db
+
+leaderboard steps time

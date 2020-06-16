@@ -1,0 +1,38 @@
+n Search pattern
+ldeutsch n Suchmuster
+D 3
+C 5
+t 46
+M 0 Pink Panther
+i The problem here is not to
+i collect the gems, but to get
+i them with a minimum number
+i of movements.
+ldeutsch i Das entscheidende Problem
+ldeutsch i hier ist nicht, die Edelsteine
+ldeutsch i einzusammeln, sondern sie
+ldeutsch i mit möglichst wenigen Bewegungen
+ldeutsch i zu kriegen.
+a Reinhard
+m 13 9
+#############
+#1.*.*.*.*.*#
+#...........#
+#*.*.*.*.*.*#
+#...........#
+#*.*.*.*.*.*#
+#...........#
+#*.*.*.*.*.E#
+#############
+R 18871
+0 9
+1 Demo 1
+ldeutsch 1 Demo 1
+2 ....rr..bb...ll..bbbb.rr.tt......rr..bb.
+2 .r..r.t..t..t.t.ll.tt..rrr..r..rr..bb...
+2 ................................b...B.l.
+2 ........l..T.b..b..b.r..r........
+
+uuid e406d4442e8c3098307d9674fc662069
+
+leaderboard 

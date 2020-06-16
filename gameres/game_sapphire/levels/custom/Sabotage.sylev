@@ -1,0 +1,33 @@
+n Sabotage
+D 5
+C 5
+e 0
+s 1
+p 0
+M 0 Nightshift
+i Can't break the machine? Fix it!
+a Shark
+m 13 13
+############ 
+#          # 
+#1       # # 
+#  !  d  # # 
+#        #B# 
+#     c  # # 
+#       l B# 
+#++  *b. # # 
+#%+:     #B# 
+>$(:     : EQ
++++:     # #Q
+#Q###a######Q
+~Q(         *
+y #%##>(%%#
+R 65109
+0 0
+1 Demo 1
+2 ..rrbbb.......rtttrrrbbbbb......Lbbrutt.
+2 ..lbbbb.....r.....tttttttttrrbbbbbr.....
+
+uuid f3eceecc126bf0934f6ab96fbf6ce762
+
+leaderboard steps time gems

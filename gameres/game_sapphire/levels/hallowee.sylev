@@ -1,0 +1,39 @@
+n Halloween
+D 2
+C 1
+E 0
+M 0 Thriller
+i Did you ever wonder,
+i how it would like
+i being the pumpkin?
+ldeutsch i Hast du dich je gefragt,
+ldeutsch i wie es sein muss,
+ldeutsch i der Kürbis zu sein?
+a Reinhard
+m 15 15
+###############
+#.............#
+#......++.....#
+#......+......#
+#...+++++++...#
+#..+++++++++..#
+#.++.Q...Q.+..#
+#.+....1...+..#
+#.+.*....*.+..#
+#.+..*****.+..#
+#..++......+..#
+#...+++++++...#
+#.....+++.....#
+E.............#
+###############
+R 77581
+0 9
+1 Demo 1
+ldeutsch 1 Demo 1
+2 .....bb.ll.l.tbrrrrr.t.....b.......b.r.l
+2 llll.tlltt.r.brtrbrrrrb.ttlltrrllllllbbb
+2 bbbbllll........
+
+uuid 81ff724e925ac0c0f27b257049668775
+
+leaderboard steps time

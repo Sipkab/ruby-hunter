@@ -1,0 +1,45 @@
+n Knack
+ldeutsch n Knack
+D 4
+C 1
+e 21
+d 3
+M 0 Nightshift
+i This is a funny little level.
+i The sapphires are destroyed
+i nearly immediately after creation.
+i So it's good, that you have
+i several attempts.
+ldeutsch i Das ist ein witziger kleiner Level.
+ldeutsch i Die Saphire werden fast unmittelbar
+ldeutsch i nach ihrer Entstehung vernichtet.
+ldeutsch i Da ist es gut, dass man mehrere
+ldeutsch i Versuche hat.
+a Ronald
+m 20 13
+~     #######       
+~     #1   E#       
+~     #  dd #       
+~     #     #       
+~     #   c #       
+~     #     #       
+~     #   c #       
+~     #    ##       
+~     #   | #       
+~     #  |  #       
+~     ##   ##       
+~      #aaa#        
+~      #####        
+R 2880
+0 1
+1 Demo 1
+2 .....................................bbb
+2 bbb.r..t.b.tttttr.b.r..............bbbbb
+2 llttttt.rr......bbbbblttttt..r.r....bbbb
+2 bblttttttr.b.r.r........bbbbblttttt..r.r
+2 ........bbbbblttttt.r........bbbbblttttt
+2 .r........bbbbblltttttttrrrr..........
+
+uuid 9c6f3a94e37f19d828dfe42925d4495d
+
+leaderboard steps time gems

@@ -1,0 +1,37 @@
+n Yoghurt
+ldeutsch n Yoghurt
+D 3
+C 5
+E 0
+M 0 Tico Tico
+i It seems to be
+i blueberry yoghurt.
+ldeutsch i Es scheint Blaubeer-
+ldeutsch i yoghurt zu sein.
+a Reinhard
+m 16 14
+################
+#1             #
+#              #
+# |         |  #
+# +_________+  #
+#  +_____$_+   #
+#  +__$____+   #
+#  +_____$_+   #
+#   +__$__+    #
+#   +_____+    #
+#   +_____+   !#
+#    +++++    !#
+#             !E
+################
+R 9270
+0 0
+1 Demo 1
+2 ...rrrrrrrrrrrrrbbbbbbbbbbbllltttt...sr.
+2 ..........lllb.ttl..sr..........bllll...
+2 ..sr..........lllbrrtrrrrrrbbbbr........
+2 ..
+
+uuid 735d5aa13a75948fbbfc31ae41e0106e
+
+leaderboard steps time

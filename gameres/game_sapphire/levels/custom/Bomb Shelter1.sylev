@@ -1,0 +1,146 @@
+n Bomb Shelter
+D 5
+C 6
+e 3
+M 0 FF7choct
+i Where to hide... WHERE TO HIDE...
+lDEUTSCH i 
+a Nic01
+m 23 126
+#QQQQ   QQQQQQQQQQQQQQQ
+#Q Q     QQQQQQQQQQQQQQ
+#Q Q      QQQQQQQQQQQQQ
+#Q Q       QQQQQQQQQQQQ
+#Q Q        QQQQQQQQQQQ
+#Q Q         QQQQQQQQQQ
+#Q Q          QQQQQQQQQ
+#Q Q           QQQQQQQQ
+#Q Q            QQQQQQQ
+#Q Q             QQQQQQ
+~Q Q              QQQQQ
+~Q Q               QQQQ
+~Q Q                QQQ
+~Q Q                 QQ
+~Q Q                  Q
+~Q Q                   
+~Q Q                   
+~Q Q                   
+~Q Q                   
+~Q Q               Q   
+~Q Q              Q    
+~Q Q                   
+~Q Q             Q     
+~Q Q            Q      
+~Q Q           Q       
+~Q Q          Q        
+~Q Q         Q         
+~Q Q        Q       QQQ
+~Q Q       Q       Q   
+~Q        Q       Q    
+~Q       Q             
+~Q      Q        Q     
+~Q     Q        Q      
+~Q    Q        Q       
+~Q   Q        Q        
+~Q  Q        Q         
+~Q Q        Q       QQQ
+~QQ        Q       Q   
+~Q        Q       Q    
+~Q       Q             
+~Q      Q        Q     
+~Q     Q        Q      
+~Q    Q        Q       
+~Q   Q        Q        
+~Q  Q        Q         
+~Q Q        Q       QQQ
+~QQ        Q       Q   
+~Q        Q       Q    
+~Q       Q             
+~Q      Q        Q     
+~Q     Q        Q      
+~Q    Q        Q       
+~Q   Q        Q        
+~Q  Q        Q         
+~Q Q        Q       QQQ
+~QQ        Q       Q   
+~Q        Q       Q    
+~Q       Q       Q     
+~Q      Q       Q      
+~Q     Q       Q       
+~Q    Q       Q        
+~Q   Q       Q         
+~Q  Q       Q       QQQ
+~Q Q               Q   
+~QQ        Q      Q    
+~Q        Q      Q     
+~Q       Q      Q      
+~Q      Q      Q       
+~Q     Q      Q        
+~Q    Q      Q         
+~Q   Q              QQQ
+~Q  Q       Q      Q   
+~Q Q       Q      Q    
+~QQ       Q      Q     
+~Q       Q      Q      
+~       Q      Q       
+~      Q      Q        
+~     Q                
+~    Q       Q      QQQ
+~   Q       Q      Q   
+~  Q       Q      Q    
+~ Q       Q      Q     
+Q        Q      Q      
+~       Q      Q       
+~      Q               
+Q     Q       Q        
+~    Q       Q      QQQ
+~   Q       Q      Q   
+~  Q       Q      Q    
+Q Q       Q      Q     
+~        Q      Q      
+~       Q              
+~      Q       Q       
+~     Q       Q        
+Q    Q       Q      QQQ
+~   Q       Q      Q   
+~  Q       Q      Q    
+~ Q       Q      Q     
+~        Q             
+Q       Q       Q      
+~      Q       Q       
+~     Q       Q        
+~&   Q       Q      QQQ
+Q&  Q       Q      Q   
+~& Q       Q      Q    
+~&Q       Q            
+~&       Q       Q     
+Q&      Q       Q      
+~&     Q       Q       
+~&    Q       Q        
+~&   Q       Q         
+Q&  Q       Q          
+~& Q       Q           
+~&Q       Q            
+~&       Q             
+Q&      Q              
+~&     Q               
+~&    Q                
+~&   Q                 
+Q&  Q                  
+~& Q                   
+#&Q                    
+#a                     
+##                     
+E1                     
+###################$###
+R 79385
+0 8
+1 Demo 1
+2 rrrrrrrrrrrrrrrrrrb.....................
+2 ........................................
+2 .........................ttttttlllllllll
+2 lllllllllll......
+
+uuid dad3886d6039ad767ba96313f9b211f6
+
+leaderboard 

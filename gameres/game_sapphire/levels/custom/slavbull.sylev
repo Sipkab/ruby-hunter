@@ -1,0 +1,45 @@
+n Slaves & Bulldozers
+D 6
+C 5
+E 0
+s 0
+p 0
+Y
+i Something's missing here.
+i You will need to synchronize
+i the two explosions. However,
+i it's not so easy to get out
+i of the way in time...
+a Alex
+m 22 14
+~    #######          
+~    #000..#          
+######.....# ####     
+#..........###1Q####  
+#............#!#& *###
+#.............!:& ::!#
+#.......+###.!.Q:  #!#
+#.......#####QQ#:+ #!#
+#.........##Q+#    #!#
+#...>.....#Q##QQ( *#!#
+#.........##"#######!#
+#.........######"!!!##
+#.......######+###### 
+#########    #E####   
+y r   %<aaa
+y ~  [%<+++
+y ~   %<   
+y ~   R   R
+R 82905
+0 0
+1 Demo 1
+2 .....bbblt..l...llll....rttltr.bbb....ll
+2 lllll.L..r...bbb...t..b..Btttrrrr..tt...
+2 .....rl..............rb.......rr.b..ll..
+2 ....rrrr......stcbmtl...................
+2 lllttL.bb..t..bb.l....rrrrrrbbbbrrrrr..t
+2 ttltltrr..lbr.brbbbllbbb..ll..b.......
+
+uuid 62cbfc7d5f3f32b2169770cdcfdfe4e8
+
+leaderboard steps time

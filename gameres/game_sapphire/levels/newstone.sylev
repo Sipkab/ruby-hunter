@@ -1,0 +1,47 @@
+n Newstone
+ldeutsch n Neustein
+D 8
+C 6
+e 15
+T 393
+p 0
+M 0 Nobody does it Better
+i The name of this level
+i cannot be properly
+i explained.
+i It has just something
+i to do with strange
+i stone abuse.
+ldeutsch i Den Namen dieses Levels
+ldeutsch i kann man nicht so richtig
+ldeutsch i erklären.
+ldeutsch i Es hat einfach was mit
+ldeutsch i seltsamem Steinmissbrauch
+ldeutsch i zu tun.
+a Ronald
+m 23 12
+#######################
+#          !!!!!      #
+#   1                 #
+#            Q        #
+#  0     0QQ .0 0Q    #
+#####  ++++++++++++   #
+#                     #
+#                     #
+#0                    #
+#**      Qc     c     #
+#*********           E#
+#######################
+R 32695
+0 1
+1 Demo 1
+2 .rrrrrrtrrrrrrrrrbbbbbllcb......ttttsr..
+2 bbbllLttttttttlllllbbrrrr...llbbbbbbrR.t
+2 ttlllllllt.cbr.....ttttmtr.tt..lllbbb...
+2 .llllbb.ttlbbrrrrrrttttttlllllbrtrrrbbb.
+2 .uttlllbrrrrbbbb...rr..trrbbbl.l..Rlllll
+2 lllrrrrrrrrrrrrrrrrrrrr.......
+
+uuid 83a3eae8263aae8ff534a8717b9b79f0
+
+leaderboard steps time

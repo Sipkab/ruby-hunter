@@ -1,0 +1,53 @@
+n Dispensing Machine
+ldeutsch n Steinspender
+D 2
+C 1
+e 100
+d 2
+M 0 Tico Tico
+i As long as the dispenser
+i works, you can collect as
+i many emeralds you want.
+i Just be patient, and everything
+i comes to you.
+ldeutsch i Solange der Steinspender
+ldeutsch i arbeitet, kannst du so viele
+ldeutsch i Smaragde sammeln wie du willst.
+ldeutsch i Alles kommt zu dem der warten
+ldeutsch i kann.
+a Ronald
+m 21 20
+##########d##########
+#E                  #
+#    1    c         #
+#                   #
+#                   #
+#                   #
+#                   #
+#                   #
+#                   #
+#                   #
+#                   #
+#                   #
+#                   #
+#                   #
+#                   #
+#                   #
+#                   #
+#                   #
+#                   #
+#####################
+R 227
+0 1
+1 Demo 1
+2 ..rrbbbbbbbbbbbbbbbbb...........rrr.....
+2 ........RRRRRRRRRRRRRRRRRRRR.LRRLRLRLRLR
+2 LRLRLRLRLRLLL....R..LRLRLRL.RLRLRLLRLRL.
+2 LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+2 LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL
+2 LLLLLLLLLLLLLLLLLLLLLLLLLrrrtttttttttttt
+2 tttttlllllllllllll..........
+
+uuid 37279a0e623eba160ebde03851139679
+
+leaderboard steps time gems

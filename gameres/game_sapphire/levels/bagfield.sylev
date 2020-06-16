@@ -1,0 +1,48 @@
+n Bag Field
+ldeutsch n Sackfeld
+D 6
+C 7
+s 500
+p 0
+M 0 Penny Lane
+i You'll be fine if you can
+i open all the bags.
+ldeutsch i Öffne alle Säcke.
+ldeutsch i Die Treppenhausmethode
+ldeutsch i genügt hier nicht!
+a Alexander
+m 22 17
+######################
+#..0.................#
+#.......1..........%.#
+#.............@......#
+#....................#
+#....@......@...@....#
+#....................#
+#..@.....@...........#
+#.......@............#
+#.......@.....@.@....#
+#..@....E..@.........#
+#....................#
+#.........@..........#
+#...@.............@..#
+#.............@......#
+#....................#
+######################
+R 29737
+0 0
+1 Bag Wild
+2 brrrrrtrrblllllltllblllLrrrtrrblllllbbLt
+2 rrbllrrrblllbrrrrtrrblllllbblLrtLb.lrbbb
+2 llBrrblrtttttrrtrrblll.lbrRblbbrblrtttRb
+2 brTr.lbrrttrrblbllrttrrblbrttttttTrbbbbb
+2 bBrrbltrtttttllbr.rtrrbbbbbbttttttllbr.r
+2 bbbblBrtLrrbbttllbrBrrbBtttttttttllltllb
+2 rrrrrbbbbbbblllltttlllllllllltttttttlLbl
+2 brblbrblbrbLbLbllb.rbrtrbrtrbrt...rbrtrb
+2 r.lrrrbrtrbrtrbr.Bl.rbRtllllllllllltttt.
+2 ......
+
+uuid 012802075838d90f4bc4b5f5fedcfb67
+
+leaderboard steps time

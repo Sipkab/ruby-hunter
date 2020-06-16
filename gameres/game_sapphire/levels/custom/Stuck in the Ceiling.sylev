@@ -1,0 +1,36 @@
+n Stuck in the Ceiling
+D 7
+C 4
+e 16
+s 0
+p 0
+v 3
+M 0 Mission Impossible
+i This originated as a test level,
+i but the result was really weird. So
+i I turned it into a level. Have fun
+i going insane and trying to find a
+i solution...
+a Shark
+m 7 12
+####&##
+#     #
+#  [  #
+#  [  #
+#  [6 #
+#    1#
+#  c !#
+#     #
+!:    #
+E     #
+#++{++#
+#######
+R 21889
+0 0
+1 Demo 1
+2 .Bttlcbllbb.....b.......RrR...b.rrb.....
+2 lltlll.....
+
+uuid b3b0d970cccf713198dadf6b9d127294
+
+leaderboard steps time

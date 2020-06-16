@@ -1,0 +1,44 @@
+n Antidestruction
+D 6
+C 5
+e 2
+p 0
+d 1
+a Shark
+m 15 15
+###@####d######
+#  .    .   #8#
+#  # # .....#.#
+# @# 0 .....#8#
+#s+# # .....#.#
+# Q# 0 ...!.#8#
+#Q+# # .....#.#
+#+ # 0 .....#8#
+# c# # .....#.#
+#  # 0 ...1.#8#
+# c# # .....#.#
+#  # 0 .....# #
+#c@# # .....# #
+E .#0#        #
+###############
+R 39407
+0 0
+1 Demo 1
+2 ...tttt....ttt.bbbbbbbbbbb...rrrtt...Tbb
+2 lllttt......b..llllbrrrrrtlllll......ll.
+2 ..rrrrrrbb.rr.ttttTbbbblllltttlltrrrrBl.
+2 ......llll...............ll.rrrrr..rbbbb
+2 rrtttttt.TbbbbbbllltttttllltrrrrB.......
+2 bb..llllltt..........lll...rrrrr.bbbbbbr
+2 rrttttttttTbbbbbb.bblllltttttttt.l.L.bLr
+2 rrt.....l....l.....lll........l..rrrrrr.
+2 tttl....b.lllbrrrrbbbbb.bbbbrrtttttttttt
+2 ...Tbbbbbbbbbblllltttttttt....t..r....t.
+2 ....................llll....l....r..ttll
+2 ll..r....rr..rb..b.rrrrtt..bl.b..tllb..s
+2 ttr...llllll..........lll.bbbbbbbbbbrrbb
+2 lll.....
+
+uuid 267056d846543ff78ec670d6d07fee2a
+
+leaderboard steps time

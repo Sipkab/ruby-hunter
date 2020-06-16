@@ -1,0 +1,129 @@
+n Optimal Resource Allocation
+D 8
+C 4
+e 0
+p 0
+M 0 Tico Tico
+i You have one stone with which to
+i kill ten enemies. Use it wisely.
+a Alex
+m 30 28
+##############c###############
+#.............0..............#
+#......................     .#
+#......................    u.#
+#..1...................     .#
+#............................#
+#............................#
+#..................5     ....#
+#............................#
+#......   ...................#
+#......   ...........     ...#
+#......   ...........     ...#
+#......5  ...........5    ...#
+#..  ........................#
+#..  .......|...|..   .......#
+#..  ........|.|...   .......#
+#..  ..............5  .......#
+#..5 ........................#
+#............#+#.............#
+#............#+#.............#
+#.......    .#+#....      ...#
+#.    ..    .#+#....5     ...#
+#.    ..5   .#+#.............#
+#.5   .......#+#.............#
+#............#+#.............#
+#.....5     .#+#.............#
+#............#+#.............#
+##############E###############
+R 7524
+0 0
+1 Demo 1
+2 .......tt........rrrrrrrrrrbrrrr..rr..rr
+2 .....Rllllllllt.........Rll...r...t.rrrr
+2 r.bb....bbb.ll.......t..bl...brl.....l..
+2 ..b...................brt..brr.........t
+2 lr....r.......bbb....lll...lt.br........
+2 t.br...........r......rtttllllb..l..b...
+2 B.t.r..r.trrr.bbb.l..l..blr.tr........r.
+2 .l..bb......lll.....bt........l.........
+2 ....ltttrrr..bbrr......rbbbb.....lllbt.r
+2 rr..Rllltt......l........r......tttttttt
+2 .........rttttlll.b...b.tt.rrrbbbbblbbbb
+2 bbbb..............bbrrrrrrrrrrrb..B.tlll
+2 llllllllttt....rl.....l.....r..bbb......
+2 ............rrr......rrrbbbbbb....tttttt
+2 t..ttr.tbllllttttl.....bbbllb...........
+2 ...............t.......bbb...ttt......tt
+2 tttt..............b.......rrrr.....Rllll
+2 l.ttt.bbbbbr..b.........................
+2 ....................................r...
+2 lbbbbbb...b...bbb...ttt..t...tttttttt..l
+2 lltttttttt..l.bbbllllllltttrrrrrrrrrrrrr
+2 rrrrrrrrrrrbbbbbbbbbbbbbbbbbbbbbblllllll
+2 ttttttttlllll.bll.tttttttt.....b........
+2 ...bbbb.lll.t....L....r.br..br..........
+2 ........................................
+2 ........................................
+2 ..r....lbbb......tt.bblllbbttrrrtttttttt
+2 t.......................................
+2 ................tt.....rrr.............b
+2 ....bbbbbbbbbb......ttttttttttttllllbbbb
+2 blbbbrrbbbbbb..b.......ttttttttttt......
+2 ..blllbblllltttttttttbbbbbbbbbbllrrtrrrr
+2 rtttttttrrbbbbbbbbb.....................
+2 ........................................
+2 ...........r.....lbbbbbbb..tttttllllllll
+2 lllbbb..btttttttttttttttrrrrrrrrrrrbbbbb
+2 .rlbbbbb..t.............................
+2 .............................t..bbbbbbbb
+2 ....ttttllbbbbb.bbbttl.lllllttttttttttrr
+2 rrrt.rrrbb..............................
+2 ........................................
+2 .................r..lbbbbbbb....bbbbb..b
+2 ..............
+R 53123
+0 0
+1 Demo 2
+2 ....rrrrrrrrrttrrrrrrrr.bb.r.Rlllllll...
+2 .....................t.......ll....trrrr
+2 rrrrbb.lll.........bbbllll.b..tt..brtrr.
+2 b.bb.l.....b........brbblblbbbtttrt.r...
+2 r....bbb......Rtttlttt....rbbb...l...lb.
+2 .l.b.bb...trrr....ttttttlllllttt...Tbbbr
+2 r...tLr......tr....bbbbbr.bbbl.r.tt...bb
+2 ....bbbbr...Rltttttttll.......tbbl......
+2 .t...bb....bbbb.tttttt.rr.....lll.t..lBr
+2 tbbr..r................rrtrrrllltttttttt
+2 trrrrrtlllltllllllbbrrrbbbbbbbbbbb......
+2 .......tt..............L.r.lbblb.......t
+2 tt..lttt............ll..rrrrrrttRllt..tl
+2 l.Lbbbbbbbr....b........................
+2 ........................................
+2 .........r.....lbbb....ttttrrrrbbbbbbbbb
+2 bbbbbrrrrrrrtttttttttttttttttttttttttlrr
+2 r.bbrbtttlllllllllllllllbbbllllllbb..b..
+2 ..Brrrrr..r.........bb.rr.bb.ttt.lrbbbbl
+2 b.......................................
+2 ..............................r..b.lbbbb
+2 ..b...bbbttttttt.bbrrbbbbbbbbbrrtttttttt
+2 tttttttttttttttllllllttlllllllllbbbbbbbb
+2 bb......Brrrbbbbbbbbbbtttttttttrrrrrrrrb
+2 b...........l...r.......................
+2 ....................t.b.................
+2 ............................t..bbbbbbb..
+2 b...ttttttt..bbbllb...bBtt.r..t.rttt....
+2 .t...r.r.........lllllbbbrbl.bbb..bbblll
+2 ..l..lbrrr..tttrrrtttttltt.lll...l...lbb
+2 bblrtt.bblllbbbrrrrttttttttrrrr....r...r
+2 b...t....rrrr.lllt......................
+2 ..........rrrbbbbbbbbbbb..l.......bttttt
+2 tllllbb.bbbbbbttttttttttltt.t..rrr..r...
+2 .ltr.............ttttttt...bbbbbbb......
+2 ........................blll....rbb...t.
+2 t.l.t..........lbb..bb..bbbr.trrbbbbb..b
+2 bbbb.......
+
+uuid 2bdfea94fac951e48ae8459e01c5f8f0
+
+leaderboard steps time

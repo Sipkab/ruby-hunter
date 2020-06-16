@@ -1,0 +1,47 @@
+n Eat 32M
+D 8
+C 5
+e 0
+T 80
+t 145
+M 0 RACE
+N EAT 33M
+i Another one of theese types where
+i you have to coordinate well with
+i another human being.
+a Elliot
+m 20 23
+~###                
+~#*#                
+~#*###############  
+~#. R B R B R B  #  
+~#. G Y G Y G Y  #  
+~#E############RG#  
+~         # Y #  #  
+###########G#G#BY#  
+#  R  Y  R  # Y  #  
+#  G  B  G  # B  #  
+#GB########R#R####  
+#  g  R  ## B #     
+#  b  Y  ######     
+#######RY###        
+#2r   #  R #        
+#1y   #  Y #        
+##### #### #        
+#  R  #  R #        
+#  Y  #  Y #        
+#YR####RY###        
+#  Y  R  #          
+#  R  Y  #          
+##########          
+R 74639
+0 0
+1 Demo
+2 rrrrrrrrbbbbbblllllbbbrbrrrtbrrrrttttrrr
+2 ttttttlltlttltlllbtlllllltttrtrrrbtrrrrt
+2 brrrtrrbtbrrbtrrrtttttltllllllllllllLL..
+2 ..llbb...bllllLL....llbbbblllrrr..
+
+uuid 1fdf5ecf491f3ad193333bc887fc7ed2
+
+leaderboard steps time

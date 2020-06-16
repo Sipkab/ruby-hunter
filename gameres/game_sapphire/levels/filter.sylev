@@ -1,0 +1,41 @@
+n Filter
+ldeutsch n Filter
+D 4
+C 1
+p 0
+M 0 We built this City
+i Seperating gems and stones
+i should be fairly easy.
+i Be carefull with the bomb.
+ldeutsch i Edelsteine und Steine zu
+ldeutsch i trennen ist hier nicht schwer.
+ldeutsch i Sei vorsichtig mit der Bombe.
+a Alexander
+m 32 12
+################################
+#  1                        0**#
+#0000000*000Q0*0*0*00***00***0*#
+#*********0000**000**00*000*0*0#
+#*000**00***00000*00**0*0*000*0#
+#*0*000**00*00**00*0**0***00***#
+#*000**0000000000000**00000**0*#
+#********E********************$#
+#ssssssssssssssssssssssssssssss#
+#                              #
+#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#
+################################
+R 10246
+0 1
+1 Demo 1
+2 rrrrrbblllllllbbbbrr...L..........r.....
+2 ..L.r.......L...Tr.........Tr..L.....L..
+2 .ll.....tbrttttrrrrbrBllllbbbRttttrrrrrr
+2 BrrltrrtrrbtrrrbrrtrrrbrBRtrrrBlrblbbbrb
+2 bl.............l...R........Tl..........
+2 Tl.....R....l...R.....Rl......llll......
+2 ....rrrrrRltlltlLbbRl..l.......l...R..Rl
+2 ll...R..ll..lll...rrrrRlllll.......
+
+uuid 9c252508f5cf7eef76f47858ef05d86c
+
+leaderboard steps time

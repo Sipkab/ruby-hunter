@@ -1,0 +1,41 @@
+n Hot Spot
+ldeutsch n Der kritische Punkt
+D 6
+C 5
+e 5
+d 4
+M 0 Penny Lane
+i You can re-construct the
+i scenery in order to
+i get an emerald jam.
+i Find this "hot spot"
+i and solve the level.
+ldeutsch i Man kann den Level so umformen
+ldeutsch i dass ein Smaragdstau entsteht.
+ldeutsch i Finde diesen kritischen Punkt
+ldeutsch i und löse den Level.
+a Ronald
+m 7 13
+#######
+#1 d E#
+#.....#
+#.....#
+#.....#
+#.....#
+#..c..#
+#.. ..#
+#.. ..#
+#.. ..#
+#.. ..#
+#     #
+###a###
+R 32476
+0 1
+1 Demo 1
+2 .rbrrbbblttrbbbbbbtt..l..............lrr
+2 .lrr.........lrr.lrr.........lrrrrrttttt
+2 t......
+
+uuid 93ba0e9a0999ac3bb6ec30338fcceff5
+
+leaderboard steps time gems

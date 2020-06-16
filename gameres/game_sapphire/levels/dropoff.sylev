@@ -1,0 +1,33 @@
+n Drop off
+ldeutsch n Abfallend
+D 6
+C 6
+p 0
+M 0 Take Five
+i Can you find a way to
+i open both the emerald and
+i the exits with those two
+i bombs?
+ldeutsch i Kannst du eine Methode
+ldeutsch i finden, wie du sowohl
+ldeutsch i den Edelstein, als auch
+ldeutsch i den Ausgang freisprengst?
+a Alexander
+m 7 8
+#&#####
+#...Q.#
+#..Q..#
+#.....#
+#.....#
+#.....#
+#+++.1#
+##E####
+R 2968
+0 8
+1 Demo 1
+2 ...tll.t.lbltrrr.lllttrtrlllbbrbbrrrtttt
+2 .lblr........lllbbbbrb........
+
+uuid 6839f100cc91909c3f57dfe749b434c5
+
+leaderboard steps time

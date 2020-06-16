@@ -1,0 +1,93 @@
+n Block Blaster
+ldeutsch n Blocksprenger
+D 3
+C 3
+e 78
+d 40
+M 0 Action
+i Lots of rooms. Be quick.
+i 
+i I don't know how I named
+i this level. I just thought of
+i it and used it.
+ldeutsch i Viele Räume. Sei schnell!
+a Alexander
+m 22 22
+######################
+#  d ###         # 0 #
+#    G G  QrQ    # #s#
+#  c #G#         # # #
+#    #  Q     Q  #0# #
+#  c_#           #.# #
+#   _#Q         Q#.#^#
+#   _#     [     #.# #
+#   _#    [ [    R # #
+# ___#   [   [   # #g#
+#    #  [     [  #####
+#    # [       [ +B !#
+#    #[    y    [##  #
+#    #ccccccccccc#   #
+#___ #++++++++++++   #
+#    # ? ? ? ? ? #   #
+#    #+++++++++++#   #
+#    #!          #   #
+#    ##          #   #
+# ___E# ######   #   #
+#QQQQQ# #b       [  1#
+######################
+y ~(  Y    
+R 18527
+0 9
+1 Demo
+2 .lllltllblllllrrr...r.RrtRrrblllllttllll
+2 lllbbtttltrrrr.rrrrbbbbrrrrrrtttttttttll
+2 lblllllttttttttttbbbbbbrrrrrrrtttbbbl.rt
+2 ttttttrrr.mll.......rrrbbbbbbbtttttttllb
+2 bbbbbblllllllllllttttttlllbbbbbbRlbbbbbr
+2 rrbbbbbtttttlllbbbbbbbbttttttttttr.R....
+2 .....R..R...........tt.b................
+2 ...b..Rlbbbbbbbbbbrrr..l.utt.....r..bbbb
+2 r....
+R 93738
+0 9
+1 Demo 2
+2 lllllltllblllll......rrrrrtRtlllllllbbtt
+2 tltbrrbrrrrrrrrbbrrrrtttttttttllllllllBt
+2 ttttttttbbbbbbrrrrrrtttbbbllrrttttttt...
+2 ............rrr.ml........rrrbbbbbbbtttt
+2 tttllbbbbbbblllllllllllttttttlllbbbbbbRl
+2 bbbbbrrrbbbbbtttttlllbbbbbbbtrrrttttlltt
+2 ttt.bltttrrbtl..........................
+2 .....rbtllbbbbbbbbbbrrb.utt.r....bbbbbr.
+2 ...
+R 57133
+0 9
+1 Safer Way
+2 ..lllltllblllll.r.r.rrrtrtlllllllllb.LBt
+2 tlTrrrrrrrrrrbbbrrrrtttttttttllllllllbtt
+2 ttttttttbbbbbbrrrrrrttt.bbbl.rttttttt...
+2 ..rr..mbb......ttttrrbbbbbbbtttttttllbbb
+2 bbbblllllllllllttttttlllbbbbbbRlbbbbbrrr
+2 bbbbbbtttttlltttttlttrrbtllbbbbbbbbbbbbb
+2 bttrr.rlltttttrtlttlttt....r............
+2 .....Rrblbbbbbrrblbltttttttbbbbbbbbr.utt
+2 .......bbbbrrr...
+R 55029
+0 9
+1 Reini's
+2 .....lll..lt.br.....ltllblllllrrrrrtttll
+2 llllllrrrrrrrrrrbbbrrrrtttttttttllltttrl
+2 llllbbbbttttttttttrrrrrbbbbbbrttt.bbbll.
+2 rr.ttttttt......rrll.......rrr..mlb.tt..
+2 ....rrbbbbbbbtttttttllbbbbbbllblllllllll
+2 llttttttlllbbbbblbbbbbbrrrbbbbblrttttttl
+2 lltttt...RRrrrl.ttt..bb......lbbbr....lt
+2 ttt.bbr.Rttttttrrrrrrrrrrrrbbbbbbbbbrrbb
+2 bbbbbbblllllttllllllltl.rbbbtt.rrrrrrrrb
+2 brrrrrtttttttttlllllllllllllttttttttlllb
+2 bbbbb.RRR.lbbbbbrrrbbbbbl...ut........rb
+2 bbr........
+
+uuid cc779471a3a478572cbb4fc75341789c
+
+leaderboard steps time gems

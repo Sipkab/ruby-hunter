@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config xmlns="bence.sipka.types.config" >
+
+    <declare-flag name="SceneTransitionOptions" >
+
+        <flag
+            name="KEEP_OLD"
+            value="0x01" />
+
+        <flag
+            name="DELETE_OLD"
+            value="0x02" />
+
+        <flag
+            name="SAVE_OLD"
+            value="0x04" />
+
+        <flag
+            name="ALLOCATE_NEW"
+            value="0x08" />
+
+        <flag
+            name="LOAD_NEW"
+            value="0x10" />
+
+        <flag
+            name="TRYLOAD_EXCCREATE_NEW"
+            value="0x20" />
+
+        <flag
+            name="CLEAR_HISTORY_STACK"
+            value="0x40" />
+
+        <flag
+            name="MASK_OLD"
+            value="0x07" />
+
+        <flag
+            name="MASK_NEW"
+            value="0x38" />
+    </declare-flag>
+
+</Config>

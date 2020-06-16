@@ -1,0 +1,29 @@
+n EAT 1
+D 2
+C 5
+E 0
+A xmas
+N EAT 2
+i Hold the grab key to collect the
+i emeralds without moving. They will
+i conveniently trickle down.
+i Alternate the side you grab from to
+i prevent them faling on the bomb.
+a Elliot
+m 11 7
+***********
+_*********_
+#_*******_#
+##_**Q**_##
+###_*1*_###
+####EQE####
+####E1E####
+R 61092
+0 8
+1 Demo 1
+2 ..LRLRLRLRLRLRLRLRLRLRLRLRLRLRLRLRLRLRLR
+2 LRLR...rb........
+
+uuid a9a6000ae67c11df83e7b9a2afccb1a1
+
+leaderboard steps time

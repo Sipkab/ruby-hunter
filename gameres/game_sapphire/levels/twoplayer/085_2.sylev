@@ -1,0 +1,115 @@
+n The answer is 42 (2)
+a Emerald Mine
+D 4
+e 78
+s 0
+i But what was the question?
+i
+i I had to make a little change to the original
+i Emerald Mine level.
+m 64 32
+################################################################
+################################################################
+################################################################
+###..............*..............#...SsSsSsSsSsSsSsSsSsSsSsSS####
+###.............................#.#...........*........*.....###
+###*.......*..........*.........#.#.ssssssssssssssssssssssss.###
+###.....*..........*........*...#.#                        s.###
+###..*.................*........#.##SSsSsSsSsSsSsSsSsSsSsS.s.###
+###.*..*..*...*...*.......*.....#.#.......*................s.###
+###.....................*....*..#.#.ssssssssssssssssssssssss.###
+###......*..*...*....*........*.#.#.s                        ###
+###......................*......#.#.s.SsSsSsSsSsSsSsSsSsSsSS####
+###..........1......2.............#.s............*...........###
+###.............................###.ssssssssssssssssssssssss.###
+###                             #E#                        s.###
+###                             #.##SSsSsSsSsSsSsSsSsSsSsS.s.###
+###cccccccccccccccccccccccccccc #.#......*.......*.........s.###
+###                             #.#.ssssssssssssssssssssssss.###
+###                             #.#.s                        ###
+###|     ||     ||     ||     |.#.#.s.SsSsSsSsSsSsSsSsSsSsSS####
+###.|   |..|   |..|   |..|   |..#.#.s..........*.............###
+###..| |....| |....| |....| |...#.#.ssssssssssssssssssssssss.###
+###... ...... ...... ...... ....#.#                        s.###
+###.    ^..   ^ .. ^   ..^    ..#.#.SSsSsSsSsSsSsSsSsSsSsS.s.###
+###.............................#.......*.........*........s.###
+###.............................#.##ssssssssssssssssssssssss.###
+###.............................#............................###
+################################################################
+################################################################
+################################################################
+################################################################
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 88543
+0 8
+1 Demo 1
+2 .......r.rbrb.bbrrrrrrrrrrrrrrrrrbrbrbrb
+2 rbrlrlrlrlrbbbbbb.l.lbl.l.l.l.l.l.l.l.l.
+2 l.l.l.lblrlrlblblblllllrlrlrbrblbl....b.
+2 .l....b.r.r.b.b.b.b..rl.lll.rtr.r.t.t...
+2 ....b.b.b.r.r...l.lrl.lt.t.l.lrtrttttttt
+2 l.l.t.............tltltltlrlrlrlrbrbrbr.
+2 b.bbb.....b....b.r.rbbrbrbbrbrblllllllr.
+2 rrrtr.r.l.l...t.t...b.b.l.l.......l.....
+2 ..r.r...l.l.......r.r...t..............r
+2 .t.t.l.l.t.t.t.t.l.l.l.t.l.lrlt...l...t.
+2 ..l.l.tr....r.t.t..t.r.r.r.r.rtrtrtrrrrr
+2 rrrrrrrrrrrtrtrtrtr.rlrtrtrlrlr.r.....t.
+2 t.tbt.t.lrl.....t.t.t.t.t.lllll.l.l.....
+2 l.t...l.lrlr.t.t.ll.t.tt.tlrlrl.lllllblb
+2 lblbllllllllltltlr.r.bb.bt.t.l.l.l.b.bb.
+2 lt.tbtblb.b.b.bb.brbtbtbtl.t.ttr.tlttttt
+2 .ltl.brbbb.b.bbb.l.t.t.trt.t.tbrbrbbbbbb
+2 rbrb.btltltl.t.tttltlr.rrlrl.l.bbbbbbbbl
+2 rtttt.trtttt.tttlt.t.rrrb.blblbb.b.brb.b
+2 bbbbrb.b.ltl.ltttttt.t.trr.r..b.blblb.t.
+2 t.tbtbtbtbtl.l.tlt.r.r.r.t.trtrtrrrrrrrr
+2 rrrrrrrrrrrrrrrrrrrrrrrrrbrbrbbbbbbbbbbb
+2 bbbbblblblblblllllllllll.l.lllbl.lrlbl.l
+2 rl.lblblbl.ltrtrtbtltbtllblll.lblbl.ltl.
+2 lblbbtrtbtbtrrbr.trrbrbrbr.btbtrtbtblbll
+2 lrttltltltrtrtrtrrrrrrrrrrrrrrrrrrrrrrrr
+2 rrtrtrtrtrtrtrrtrttttttttrtrtrtttttt.t.t
+2 .t.trt.t.t.tr......r.r.........r........
+2 .....................r..b......r...b....
+2 r....b...rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+2 rrrrrrrrrrrrrrrrrrrr.rbrbrb.b.b..b.b.bbb
+2 .bl.l.l..b.lll.l.l.lllllllllllllllllllll
+2 llllllllllllllllllblb....b.b....r..b.brr
+2 rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+2 rrrrrrbrbrb.b.bbbbbb.b..l.lblb.l.lllllll
+2 llllllllllllllllllllllllllllllllllllblbl
+2 .b.b.br.r..b.r...r.rrrrrrrrrrrrrrrrrrrrr
+2 rrrrrrrrrrrrrrrrrrrrrrrrrr.r.rbrbrbbbbbb
+2 bbbblbllllllllllllllllllllllllllllllllll
+2 llllllllllllllllllll.ltltl.t....t.rt....
+2 b.......b..bb...r.r.rt.r.r..r.rrrrrrrrrr
+2 rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr.r......
+2 ..........t.....b.l.l.....rrrrtrtrltltll
+2 llllllllllllllllllllllllllllllllllllllll
+2 tltlttttttt.t.t..t.t.t.t.........b.b.b.b
+2 ......rtrt.t...b.b.b.b.b.b.l.lrtrtrtrtrt
+2 rtrtrtrtr.r.r.r.r.r.r.r.r.r.r.r.r.r.r.r.
+2 r.......t.....b.l.l...r.r.t.t.l.l.l.l.l.
+2 l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.t.t.
+2 t.t.t.t.r.r.r.r.r.r.r.r.r.r.r.r.r.r.r.r.
+2 r.r.r.r.r.r.r.............t.....b.l.l.r.
+2 r.t.t.t.l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.
+2 l.l.l.l.l.l.l.t.t.t.l.l.b.b.b.b.b.b.b.b.
+2 b.b...t.t.t.t.t.t.t.t.t.r.r.b.b.b.r.r.rt
+2 r.r.r.r.r.r.r.r.r.r.r.r.r.r.r.r.r.r.r.r.
+2 b.b.b.l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.
+2 l.l.l.l.l.l.b.b.b.b.b.b.r.r.r.r.r.r.r.r.
+2 r.r.r.r.r.r.r.r.r.r.r.r.r.r.r.b.b.l.l.l.
+2 l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.
+2 b.b.b.b.b.b.b.b.l.l.t.t.t.t.t.t.t.t.t...
+2 b.b...........................t.t.t.t...
+2 ..........
+
+uuid 31852caba35d70ebc5954886b4961135
+
+leaderboard steps time

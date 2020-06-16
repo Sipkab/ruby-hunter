@@ -1,0 +1,25 @@
+n Magic Trick
+ldeutsch n Zaubertrick
+D 4
+C 5
+E 0
+M 0 Nobody does it Better
+i You have to do a
+i *very* special move
+i at the beginning here.
+ldeutsch i Am Anfang ist ein *ganz*
+ldeutsch i spezieller Zug notwendig.
+a Reinhard
+m 4 4
+#0.#
+#!.#
+#1&E
+####
+R 22529
+0 1
+1 Demo 1
+2 ...u.rt.......bb.r..........
+
+uuid 9d5d62a6d67ad103ce5bd8960812b12b
+
+leaderboard steps time

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SapphireScene xmlns:fw="bence.sipka.xml.compiler.config" >
+
+    <SapphireBackgroundLayer />
+
+    <SapphireMenu font="@res/build/sipka.rh.font.convert/gameres/Consolas.ttf" >
+
+        <SapphireMenu.SapphireMenuElement
+            fw:id="sapphire_play"
+            icon="@res/build/sipka.rh.texture.convert/sapphire.anim"
+            text="Play" />
+			
+		<SapphireMenu.SapphireMenuElement
+			fw:id="sapphire_community"
+            icon="@res/build/sipka.rh.texture.convert/sapphire.anim"
+			text="Community" />
+
+        <SapphireMenu.SapphireMenuElement
+            fw:id="sapphire_settings"
+            icon="@res/build/sipka.rh.texture.convert/sapphire.anim"
+            text="Settings" />
+
+        <SapphireMenu.SapphireMenuElement
+            fw:id="sapphire_leveleditor"
+            icon="@res/build/sipka.rh.texture.convert/sapphire.anim"
+            text="Level editor" />
+
+        <SapphireMenu.SapphireMenuElement
+            fw:id="sapphire_credits"
+            icon="@res/build/sipka.rh.texture.convert/sapphire.anim"
+            text="Credits" />
+    </SapphireMenu>
+    
+</SapphireScene>

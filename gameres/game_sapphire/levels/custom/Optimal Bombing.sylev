@@ -1,0 +1,37 @@
+n Optimal Bombing
+D 6
+C 1
+e 9
+p 0
+M 0 Live and let Die
+i Think outside the box...
+a Shark
+m 13 13
+#########0###
+#00 #Q+ #0# #
+#++ #*+  0  #
+.   #+   +  #
+#           #
+#_          E
+#+_     " 1 #
+# +_ +      #
+&  + c      #
+# 5  +      #
+#8+6        #
+# 7  #[[[#  #
+#&###########
+R 26974
+0 0
+1 Demo 1
+2 ..llll.tt.bbut..........cbbbbbsrrtt.....
+2 ..lllbbL.tttttt.r.......tt...cb.........
+2 ...srrtt.lllllbbbbbbbbL.rrrrtttttt.lll..
+2 srrtt..llllbbbbbbbbLttttttr..srrtt..llll
+2 bbbbbbbbL..llsrtttt....lllbttttlllsrrbbr
+2 bbbbllt..ls..r...bbrRtltll.lr.rr.t.lt.rt
+2 ttttlrbbblbbblb.r.trr.rrbbbLrrrrrtttttr.
+2 ....
+
+uuid d77fb249f45e4f08594150ecccd289c9
+
+leaderboard steps time

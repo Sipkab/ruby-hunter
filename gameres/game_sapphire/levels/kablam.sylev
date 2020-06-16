@@ -1,0 +1,36 @@
+n Kablam
+ldeutsch n Kawumm
+D 8
+C 1
+p 0
+d 4
+M 0 Money for Nothing
+i You have only one bomb.
+i Use it wisely!
+ldeutsch i Du hast nur eine Bombe.
+ldeutsch i Nutze sie weise!
+a Ronald
+m 7 13
+#######
+#    E#
+#d1! d#
+#     #
+#     #
+# [   #
+#  [  #
+# [   #
+#  [  #
+#     #
+#     #
+# ### #
+#a###a#
+R 20588
+0 1
+1 Demo 1
+2 ...r.lbb...lbb.r.b.rrttt.ll.b.rrbb...bb.
+2 l.t.....l.t...cb.l.....................T
+2 brrrttttttttt.r..............
+
+uuid 08ae205d25067cfe26fea975093d3984
+
+leaderboard steps time

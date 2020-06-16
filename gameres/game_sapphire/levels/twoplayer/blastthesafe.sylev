@@ -1,0 +1,40 @@
+n Blast the Safe
+D 3
+p 0
+M 0 Converter
+i Here you can move the
+i safe in any direction.
+i 
+i Then there's also a trick.
+a Alexander
+m 20 12
+~    S##     1      
+~  # .E#    1[1     
+~  ##s##     1      
+~2 # s              
+~  # s              
+!  # s              
+~  #                
+~  #               E
+~  #               E
+~  (:              E
+~  #               E
+aaa#a aaaaaaaaaaaaaa
+R 1092
+0 0
+1 Open it
+2 blbbbbbbbbbbbbbrbrr.b.l.l.l.l.l.l.l.l.ru
+2 .t...................b.b.R.t.t.t.t.t.t.t
+2 .t.t.r.r.b.R.....r................l.B.rr
+2 r.r.r.r.r.r.r.r.r.r.r.t.r.t.t.r...
+R 20765
+0 0
+1 Or
+2 bbbbbLbbbbbbbbbrb.r.b..u.t..............
+2 ....lblblRltltltltlt.t.t.t.t.r.r.b.R....
+2 .r............T.rrr.r.r.r.r.r.r.r.r.r.r.
+2 t.r.t.t.r...
+
+uuid 606be37f1548fc3cb97f1bf9bed22557
+
+leaderboard steps time

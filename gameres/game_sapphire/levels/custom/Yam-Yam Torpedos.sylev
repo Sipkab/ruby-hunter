@@ -1,0 +1,31 @@
+n Yam-Yam Torpedos
+D 2
+e 46
+s 0
+p 8
+N Torpedos
+i The trick is that they keep going up.
+m 10 12
++(++++$(++
+(((++++(++
+(+++++$**+
+++$+++$+++
+++++++++++
+~         
+~  0      
+~  .s.    
+~  .V.    
+~  . .    
+~  . .    
+1  ...   E
+y ~V  %    
+R 64043
+0 8
+1 Demo
+2 .tttttrrrll..................bbbrr..t..t
+2 ....t....t....t....tL...t...tlllBrrrrrtr
+2 rbbRlBlbbbbbbbbbrrrrr...
+
+uuid adb86f506736ba02903c4d35fe7ad141
+
+leaderboard steps time

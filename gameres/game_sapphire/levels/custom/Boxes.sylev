@@ -1,0 +1,37 @@
+n Boxes
+D 6
+C 6
+E 0
+p 0
+M 0 Thriller
+i Build a small structure...then
+i destroy it...seems pointless. Why
+i are you playing this level, anyway?
+a Shark
+m 10 10
+####E#####
+#.....0  #
+#.....&Q.#
+#.1Q...&Q#
+#...Q...0#
+#....Q..[#
+#....&...#
+#........#
+#......@.#
+##########
+R 98265
+0 0
+1 Demo 1
+2 ....trrr.T.lTbrr.brbr.lltlttlllb.....ttr
+2 rrrrlllllbb......rbrbbbr..rr.Tr.lllttr.t
+2 trrbb.llllt.....rrbbbrB..lllttttttt.....
+R 33860
+0 0
+1 Demo 2
+2 ......ttrrrrr..llb..ll.rbr..brt.brbl....
+2 ttl.tlllb......rbrbbbrrr...Tr.....lll...
+2 ..brrrtttttttllllt.....
+
+uuid 72c3b88ec4feb052dc931b12336c1900
+
+leaderboard steps time

@@ -1,0 +1,43 @@
+n Passage of Death
+D 4
+C 5
+p 0
+d 1
+M 0 FF7choct
+i In today's world transportation is
+i one of the most valuable skills.
+i And this level is no exception.
+i Except you can't transport yourself
+i so you have to use pushers. But
+i pushers' power is limited. So I
+i should start typing more complete
+i sentences to be more helpful...
+a Shark
+m 15 12
+#QS############
+#..# 5 #1....d#
+#  #8#6#......#
+~  # 7 #..._..#
+R       ......l
+~  # 5 #....a+#
+#  #8#6#.[....#
+#  # 7 #....Q.#
+#  #QQQ#......#
+#  ##E###..r..#
+#! R R R......#
+#a#####"#######
+R 87797
+0 0
+1 Demo 1
+2 ..bbbrrrr..R.lbbbbb.rtltt.........ttlttr
+2 .b.lbrrlbbbbbblll...llll.....ttt..t.t.lt
+2 rb.........rbblt..bbbbbr.....rrrrtt....t
+2 .lttr..lbbrtt.r..ll..trrrr..llbbbbbbllll
+2 lltttt..tlt.rrb..tll..rrbb....b......btt
+2 ttltt...bbl.....b..t...rrtt.lt.bbb.rbbbb
+2 bbb..rrr...........................srttt
+2 t....bbbblllllt.....
+
+uuid 279ac48809479516ff70bb82c0a21082
+
+leaderboard steps time

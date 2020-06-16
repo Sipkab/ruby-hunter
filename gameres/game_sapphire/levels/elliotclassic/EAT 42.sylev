@@ -1,0 +1,39 @@
+n EAT 42
+D 9
+C 5
+E 0
+p 0
+M 0 Indy
+N EAT 43
+i Bomb disposal.
+a Elliot
+m 17 13
+###############E#
+########"""#### #
+########"""    1#
+###############.#
+#...............#
+#...............#
+#..Q**Q*Q*Q**Q..#
+#..Q****Q****Q..#
+#..Q**Q*Q*Q**Q..#
+#..***********..#
+#..Q**Q*Q*Q**Q..#
+#..QQQQQQQQQQQ..#
+#################
+R 66521
+0 0
+1 Demo 1
+2 .llllllltrrbrrrrrbblllbbltllllllbltlbblb
+2 l.trrrrbllltl.srr......b...bllltl.srtrrr
+2 rrrrrrrrrrbltllbrrllltllbrrrrlllltllbrrr
+2 rrrllllltlll.l.....srrrblbL....lll.rb.l.
+2 ....lt.srrrrtrrbrr.ltlllbrrrrlllllblllt.
+2 ..rl.rrrrrbll.tl...lll..srrrblbL...t....
+2 lbblblltrrrbrt..rl...lbllltl.......srrr.
+2 ..tt..srrrblbL......lbtrr...B.r....sBusT
+2 bBrrrtt...lttrttttt........
+
+uuid edb62bccbdd2e60b553d7398005faea2
+
+leaderboard steps time

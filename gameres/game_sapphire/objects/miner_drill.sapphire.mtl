@@ -1,0 +1,12 @@
+# Blender MTL File: 'miner.sapphire.blend'
+# Material Count: 1
+
+newmtl DrillMaterial
+Ns 5.882353
+Ka 1.000000 1.000000 1.000000
+Kd 0.281008 0.281008 0.281008
+Ks 0.300000 0.300000 0.300000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2

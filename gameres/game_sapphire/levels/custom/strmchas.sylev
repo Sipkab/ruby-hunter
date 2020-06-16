@@ -1,0 +1,49 @@
+n Storm Chaser
+D 7
+C 3
+e 80
+T 300
+p 0
+Y
+L
+i The chain reaction
+i is self-sustaining.
+a Alex
+m 21 21
+#E###################
+#.......&&&&&.......#
+#.......&&&&&.......#
+#.......&&&&&.......#
+#.......&&&&&.......#
+#.....:::::::::.....#
+#....::#(((((?::....#
+#....:##^^^^^##:....#
+#&&&&:(^#####+(:&&&&#
+#&&&&:(^##++#^(:&&&&#
+#&&&&:(^#+###^(:&&&&#
+#&&&&:(^##+++^(:&&&&#
+#&&&&:(^#####^(:&&&&#
+#....:##^^^^^##:....#
+#....::#(((((#::....#
+#.....:::::::::...1.#
+#.......&&&&&.......#
+#.......&&&&&.......#
+#.......&&&&&.......#
+#.......&&&&&.......#
+#####################
+y ^^#^^^^^^
+y ^^^^^^^^^
+R 49018
+0 0
+1 Demo 1
+2 .llblllb...............tlllllLrrrrrrrttt
+2 tttttttttllllllllllllbbbbLbbbbbbbbbrrrrr
+2 rrrrrtrrttttrtrttRtttttllllllllllllllbbb
+2 bbblll.LbrbLrbbbbbbrrrrrrrrrrrrrtttttRtt
+2 tttttttllllllllllllblbbbbbbbblllbbbbbbrr
+2 rrrrrrrrrrrrrrtttrtrtbLttLtttttttttlllll
+2 llllllllllllltttt........
+
+uuid bc72fbb62d5ce01717e56043b7ecd294
+
+leaderboard steps time

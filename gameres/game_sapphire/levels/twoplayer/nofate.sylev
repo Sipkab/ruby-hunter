@@ -1,0 +1,58 @@
+n No Fate
+ldeutsch n Kein Schicksal
+D 10
+C 6
+E 0
+s 0
+p 1
+M 0 Granite
+i This is a demonstration that
+i all random actions in the game
+i are somehow related to each other.
+i By pushing stones, you can
+i change the way the YamYam will
+i take.
+i 
+i The level can only be solved
+i with the demo editor!
+ldeutsch i Das ist eine Demonstration daf�r,
+ldeutsch i dass alle zuf�lligen Aktionen
+ldeutsch i im Spiel miteinder zusammenh�ngen.
+ldeutsch i Durch das Schieben von Steinen
+ldeutsch i k�nnt ihr den Weg den das YamYam
+ldeutsch i geht, beeinflussen.
+ldeutsch i 
+ldeutsch i Dieser Level kann nur mit dem
+ldeutsch i Demo-Editor gel�st werden!
+a Reinhard
+m 17 14
+~###%######%#    
+##<# #      #####
+%    #   #      %
+#### ### ## ## ##
+#%#   %#%#%    # 
+# # ###    # # # 
+#    % 0210  #%# 
+# #####%#### # # 
+# #%##         # 
+# #     # ## # # 
+#   # # # #  # ##
+### # #   #     %
+#%    ### #  ####
+#########%#%%#   
+y ####E## #
+R 9866
+0 0
+1 Random manipulator
+2 ............r...rlr...r.......r.r.......
+2 ....................r.r.rl......r.......
+2 ............rlrlrlr.r.r.................
+2 rl......................r.......rlr.....
+2 ................rlrlrlrl......rlrlrl....
+2 ....r.......................rlrlrlr.....
+2 ....r.....r.............................
+2 ...t.tl.ttt.t...t.t.t.............
+
+uuid 075a36b1bbf9dd681c66c49e3b829108
+
+leaderboard steps time

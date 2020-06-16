@@ -1,0 +1,38 @@
+n House II
+ldeutsch n Hochhaus II
+D 8
+C 1
+E 0
+p 0
+M 0 Rooms
+i Time for a trip
+i outside!
+a Alex, Ronald
+m 11 17
+###########
+###!!1bE###
+#####B#####
+### 0 0 ###
+### #B# ###
+### # # ###
+### #B# ###
+### 0 0 ###
+##  #B#  ##
+##  # #  ##
+##  #B#  ##
+~   # #    
+~#  #B#  # 
+~#  B B  # 
+~#  # #  # 
+@  $# #$  @
+i#########i
+R 42933
+0 0
+1 Demo 1
+2 ...rllL.rb..lrbblrbbblmtt..trbll..rbbbbR
+2 lL.rrttrrttttt..rlbbrlbbbrstt..tlbrrlbbb
+2 brR.llttllttttttrr.........
+
+uuid 2d582a1b3cfd82837e4a502e9b4f5f53
+
+leaderboard steps time

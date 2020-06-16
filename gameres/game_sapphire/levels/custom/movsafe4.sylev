@@ -1,0 +1,38 @@
+n Move the safe IV
+ldeutsch n Schieb den Safe IV
+D 8
+C 3
+E 0
+p 0
+M 0 Money for Nothing
+i You can move the safe,
+i you may drop things on the safe,
+i and you can blast the safe...
+i 
+i But you can also move other
+i things.
+a Juergen, Alex
+m 10 12
+~         
+##########
+#  0    E#
+#  # 1  !#
+#        #
+#  [     #
+#        #
+#        #
+#        #
+#    @   #
+###aa#a###
+~  aaaa   
+R 33102
+0 8
+1 Demo 1
+2 ......rrr.....llllbllbr.br..t.......r...
+2 ........tt.b............................
+2 ...bllltttr.lbbbrrr....t.....b..mlt.....
+2 ...rbbbb.R.b..rrrrttttttt........
+
+uuid 7604c2c84415f27732abc426f9121cc2
+
+leaderboard steps time

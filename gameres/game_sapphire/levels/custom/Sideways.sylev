@@ -1,0 +1,51 @@
+n Sideways
+D 4
+e 56
+p 0
+Y
+M 0 Your Wildest Dreams
+i This level can easily confuse you.
+i 
+i Even the name.
+a Alexander
+m 15 22
+####&Q&#&Q&####
+#    0&#&0    #
+#   0*#!#*0   #
+#  0*#   #*0  #
+# 0*#     #*0 #
+#0*#       #*0#
+#*#         #*#
+#+           +#
+# &&       && #
+#             #
+#             #
+#   1  !  !   #
+#             #
+#+           #^
+#Q+         #^#
+#.Q+       #^.#
+#$.Q+     #^.5#
+#$$.Q+   #^.5.#
+#$$$.Q+!#^.5.&#
+#$$$$.Q#^.5.&.#
+#$$$$$.+.5.&.E#
+###############
+y *........
+R 62768
+0 0
+1 Demo 1
+2 rrrrrrlllbbbbbbbtttb....ttttttttttttttbb
+2 bbblllll...rrtt...bbbbbbbbbbrr...llrrrbb
+2 butt...............llllllbbbRbrRbLrrrrrr
+2 rrrrtrtttttblblblblblblltttrtbbtrtrtrtrt
+2 rtrtt...llltttttlllllbblllsr..bbll...tbb
+2 bbbbbbbbbbrtttttttttllbbbbbbbttttttttttt
+2 ttrtrtrtrtRbllllbbbbbrrrrrrrrrrrmlbtt...
+2 ...t......bbrrbbbblbbbBRtr.trttttttltltl
+2 tlltLb...rrrrrbbbbbbbbbllbbblllllbbbbbbr
+2 rrttrrrrttttcbbbbb.........
+
+uuid 4f197aa3693b5a73036cd3cae18ae064
+
+leaderboard steps time

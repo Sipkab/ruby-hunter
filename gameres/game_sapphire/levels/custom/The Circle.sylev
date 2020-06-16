@@ -1,0 +1,45 @@
+n The Circle
+D 6
+E 0
+s 0
+M 0 Stars
+i Grab 'n' go.
+a Alexander
+f Alexander
+m 7 7
+~      
+~ 1    
+~  %   
+~      
+~      
+~  ^   
+aaaaaaa
+y $+++V++%+
+y +$+%<++++
+y +%$+ ++^+
+y ~%  ^    
+y +%++ $+^+
+y +%++ ++^$
+y +++%<++$+
+y ~%     ^ 
+y +%++^+$++
+y +%+$ ++^+
+y ~%     ^ 
+y ~  > %   
+y E%     ^ 
+y ~7 678 5 
+R 2181
+0 8
+1 Constant Fire
+2 ...BBBBBr.BBBr.BBBrbb.LLLLLLLB.bLLL.bllT
+2 Tl..TTltRRRRt.RRRt...............rrr....
+R 27918
+0 0
+1 Exact
+2 .......Br...Brrb.Lb.........Lbbl..Tl....
+2 Tllt.......Rt....Rt................r....
+2 .......................
+
+uuid 84414e864273faec8e6c8222aec5af3a
+
+leaderboard steps time

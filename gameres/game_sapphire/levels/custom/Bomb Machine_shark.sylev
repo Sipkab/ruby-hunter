@@ -1,0 +1,42 @@
+n Bomb Machine (Shark)
+D 5
+C 5
+p 0
+v 2
+M 0 Rasputin
+i All the bombs in all the levels in
+i all the game, I had to blow up this
+i one...
+a Shark
+m 15 12
+#####0#########
+#&   .   $ (* #
+#(####  & 1 ($#
+#Q        $ E #
+####### ******#
+####### #######
+# %           #
+# >           #
+#    _    _   #
+#             #
+#             #
+###a_##{#######
+y /.0 >Q.. 
+R 59518
+0 0
+1 Demo 1
+2 ....rrrbbblltllbRLllbbbllbrb...lllrrrrrr
+2 rrttlbrbllll...lllbl....rrrtrtttttt.r...
+2 ...llllll...rrrrbbbbbbbl..lll...rrrtrttt
+2 tttr.......llllrrrbbbbbbbll..b.r..lll...
+2 rrrtrttttttr.......llllr.bbbrbbbbbbbl...
+2 .lll....rrrtrttttttr.......ll.rrrbt.tl.b
+2 b..lbbbbbbllll..rrrtrttttttr.......ltt..
+2 .............bbllllbbbbbbbbl.lll...rrrrt
+2 rttttttr.......ll..bbbb.llbbbb..ll....rr
+2 rtrttttttttlll.r.l.....rrrrbbbtllllllltt
+2 r.rrrrrrrrrrb..b.....
+
+uuid 8092bb843518967c21c308910fa89fd8
+
+leaderboard steps time

@@ -1,0 +1,34 @@
+n Blackjack
+D 5
+C 1
+E 0
+p 0
+M 0 Jump
+i If you get 21, there's no way
+i to lose!
+a Shark
+m 15 12
+###############
+#..........1..#
+#...0.........#
+#..0$0....0$0.#
+#.0$0$0...$0$.#
+#0$0$0$0..0$0.#
+#.0$0$0...$0$.#
+#...$.....0$0.#
+#..$0$....$0$.E
+#.........0$0.#
+#.............#
+###############
+R 17448
+0 0
+1 Demo 1
+2 .bBllbbRbttrrtrrblblbtrrbbLbtt.tllltlltl
+2 lltllbllrrtrrblllBrrblBrtrrblBrrbrbbbbbb
+2 llltTbllttlltTbr.tL.r..Tr.....LrtbrrtL.r
+2 rRlbbrRtltrrrBlllbblBrbrbrrtbrrtltrr....
+2 .
+
+uuid 05be9ba129038e8e9d368e62cf25884e
+
+leaderboard steps time

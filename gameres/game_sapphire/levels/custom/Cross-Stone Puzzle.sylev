@@ -1,0 +1,35 @@
+n Cross-Stone Puzzle
+D 5
+C 1
+p 0
+M 0 FF7choct
+i Don't lose a single gem!
+i Or a double gem!
+a Shark
+m 13 13
+#######E#####
+#.Q.*.0.*.Q1#
+#..@*.@.*@.!#
+#.***000***.#
+#...0$$$0..l#
+#mQ@0$Q$0@Q.#
+#...0$$$0..l#
+#.***000***.#
+#..@*.@.*@..#
+#.Q.*.0.*.Q.#
+#...........#
+#.{.{{{{{.{.#
+#############
+R 6579
+0 0
+1 Demo 1
+2 bbllltTlTrrrblttbbbbbbbBttllllbrrllltLbb
+2 ll.rlTrtrr...rsrr........bllllrbrllb.br.
+2 .L.rttlltlllbrrrrrrrbbbr..bllrrblTltL..r
+2 ttttbbbbrrrbbllll.....rttll.r.bRtltbrbbl
+2 l.rrllltttllbrtrtrrblbllBtlrlTl..l.....r
+2 rrb..rbbrrtttttttttrllrt.....
+
+uuid 9cd45bf355668e78e6d3257abc6ec236
+
+leaderboard steps time

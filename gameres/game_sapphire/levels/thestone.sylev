@@ -1,0 +1,80 @@
+n The Stoned
+ldeutsch n Steinigung
+D 8
+C 1
+e 30
+d 6
+M 0 Oxygene4
+i You will be punished
+i for your sins.
+i If you survive the stoning,
+i your crimes will be forgiven.
+ldeutsch i Du wirst f�r deine S�nden
+ldeutsch i b��en m�ssen. Wenn du die
+ldeutsch i Steinigung �berlebst, dann
+ldeutsch i soll dir verziehen sein.
+a Ronald
+m 12 51
+############
+#d         #
+#          #
+#   d  d  d#
+# d   d d  #
+#          #
+#  #   c   #
+#  #       #
+#  #   c   #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#  #   |   #
+#  #       #
+#  #   E   #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#  #       #
+#1 #       #
+#aa#       #
+############
+R 28146
+0 1
+1 Demo 1
+2 .ttttttttttttttttttttttrtltrtltrtltrtltr
+2 tltrtltrtltrtltrtltrtltrttr..rrbbbbbbbbb
+2 bbbbbbbbbbbbbbbbbbbbbbbbbbbbBR.tR.....R.
+2 t.RR...tR.bR.tR...tR.bR.tR....tR...t....
+2 ....tt.bbB..t....t..b.trrtttt
+
+uuid ac71f5ba5356a1d864b9220e11da9d34
+
+leaderboard steps time gems

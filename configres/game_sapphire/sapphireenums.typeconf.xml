@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config xmlns="bence.sipka.types.config" >
+
+    <declare-enum name="SapphireExplosion" >
+        <enum name="None" />
+        <enum name="Normal" />
+        <enum name="Big" />
+    </declare-enum>
+    
+    <!-- Air must be zero -->
+    <declare-enum name="SapphireObject" >
+        <enum name="Air"/>
+        <enum name="Player" />
+        <enum name="Bomb"/>
+        <enum name="Bug"/>
+        <enum name="Citrine"/>
+        <enum name="Bag"/>
+        <enum name="Emerald"/>
+        <enum name="Sapphire"/>
+        <enum name="Ruby"/>
+        <enum name="Converter"/>
+        <enum name="Cushion"/>
+        <enum name="DoorOneTime"/>
+        <enum name="DoorBlue"/>
+        <enum name="DoorRed"/>
+        <enum name="DoorYellow"/>
+        <enum name="DoorGreen"/>
+        <enum name="Earth"/>
+        <enum name="Elevator"/>
+        <enum name="Glass"/>
+        <enum name="KeyBlue"/>
+        <enum name="KeyGreen"/>
+        <enum name="KeyRed"/>
+        <enum name="KeyYellow"/>
+        <enum name="Lorry"/>
+        <enum name="Robot"/>
+        <enum name="Dispenser"/>
+        <enum name="Rock"/>
+        <!-- <enum name="RockEmerald"/> -->
+        <enum name="StoneWall"/>
+        <enum name="Wall"/>
+        <enum name="RoundStoneWall"/>
+        <!--  <enum name="RoundStoneWallEmerald"/> -->
+        <enum name="RoundWall"/>
+        <!-- <enum name="InvisibleWall"/> -->
+        <enum name="InvisibleStoneWall"/>
+        <enum name="Sand"/>
+        <enum name="SandRock"/>
+        <!--<enum name="SandRockEmerald"/>-->
+        <enum name="Safe"/>
+        <enum name="Swamp"/>
+        <enum name="Drop"/>
+        <enum name="Acid"/>
+        <enum name="TimeBomb"/>
+        <enum name="TickBomb"/>
+        <enum name="TNT"/>
+        <enum name="YamYam"/>
+        <enum name="Exit"/>
+        <enum name="Wheel"/>
+        <enum name="PusherLeft"/>
+        <enum name="PusherRight"/>
+    </declare-enum>
+    
+    <declare-enum name="SapphireControl">
+        <enum name="Undefined"/>
+        <enum name="Move"/>
+        <enum name="Take"/>
+        <enum name="PutBomb"/>
+    </declare-enum>
+
+    <!-- Fixed order, must be valid value from 0-3, and in left-top-right-bottom order -->
+    <declare-enum name="SapphireDirection" >
+        <enum name="Left" />
+        <enum name="Up" />
+        <enum name="Right" />
+        <enum name="Down" />
+		<enum name="Undefined"/>
+    </declare-enum>
+    
+    <declare-enum name="SapphireState" >
+        <enum name="Moving" />
+        <enum name="Pushing" />
+        <enum name="Still" />
+        <enum name="Converting" />
+        <enum name="BagOpening" />
+        <enum name="FallDelay" />
+        <enum name="Spawning" />
+        <enum name="Dispensing" />
+        <enum name="Exploding" />
+        <enum name="Taking" />
+       	<!-- Ticks fixed order -->
+        <enum name="Tick1" />
+        <enum name="Tick2" />
+        <enum name="Tick3" />
+        <enum name="Tick4" />
+        <enum name="Tick5" />
+        <enum name="Tick6" />
+        <enum name="TickMax" />
+	</declare-enum>
+	
+    <declare-enum name="SapphireLevelCategory" >
+        <enum name="Fun" />
+        <enum name="Discovery" />
+        <enum name="Action" />
+        <enum name="Battle" />
+        <enum name="Puzzle" />
+        <enum name="Science" />
+        <enum name="Work" />
+        <enum name="None" />
+   	</declare-enum>
+   	
+    <declare-enum name="SapphireSound">
+        <enum name="UseDoor"/>
+        <enum name="PickKey"/>
+        <enum name="PickEmerald"/>
+        <enum name="PickSapphire"/>
+        <enum name="PickCitrine"/>
+        <enum name="PickRuby"/>
+        <enum name="PickBomb"/>
+        <enum name="Walk"/>
+        <enum name="Dig"/>
+        <enum name="YamYam"/>
+        <enum name="PutBomb"/>
+        <enum name="FallAcid"/>
+        <enum name="BagOpen"/>
+        <enum name="SwampMove"/>
+        <enum name="MinerDie"/>
+        <enum name="Explode"/>
+        <enum name="Laser"/>
+        <enum name="RobotMove"/>
+        <enum name="DropStill"/>
+        <enum name="Elevator"/>
+        <enum name="SapphireBreak"/>
+        <enum name="CitrineBreak"/>
+        <enum name="CitrineShatter"/>
+        <enum name="PushRock"/>
+        <enum name="PushBag"/>
+        <enum name="PushBomb"/>
+        <enum name="PushSafe"/>
+        <enum name="PushCushion"/>
+        <enum name="ConvertBag"/>
+        <enum name="ConvertRuby"/>
+        <enum name="ConvertEmerald"/>
+        <enum name="ConvertSapphire"/>
+        <enum name="ConvertCitrine"/>
+        <enum name="ConvertRock"/>
+        <enum name="FallBag"/>
+        <enum name="FallEmerald"/>
+        <enum name="FallRuby"/>
+        <enum name="FallSapphire"/>
+        <enum name="FallRockSoft"/>
+        <enum name="FallRockHard"/>
+        <enum name="FallCushion"/>
+        <enum name="RollBagBomb"/>
+        <enum name="RollEmerald"/>
+        <enum name="RollRuby"/>
+        <enum name="RollSapphire"/>
+        <enum name="RollCitrine"/>
+        <enum name="RollRock"/>
+        <enum name="ExitOpen"/>
+        <enum name="ExitClose"/>
+        <enum name="Win"/>
+        <enum name="GameLost"/>
+        <enum name="Wheel"/>
+        <enum name="BombTick"/>
+        <enum name="BugMove"/>
+        <enum name="LorryMove"/>
+        <enum name="Clock"/>
+    </declare-enum>
+    
+    <declare-enum name="SapphireDifficulty">
+        <enum name="Tutorial"/>
+        <enum name="Simple"/>
+        <enum name="Easy"/>
+        <enum name="Moderate"/>
+        <enum name="Normal"/>
+        <enum name="Tricky"/>
+        <enum name="Tough"/>
+        <enum name="Difficult"/>
+        <enum name="Hard"/>
+        <enum name="M_A_D_"/>
+        <enum name="Unrated"/>
+    </declare-enum>
+</Config>

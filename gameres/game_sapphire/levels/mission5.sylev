@@ -1,0 +1,34 @@
+n Mission Possible V
+ldeutsch n Mission Possible V
+D 6
+C 5
+E 0
+p 0
+M 0 Mission Impossible
+N Mission Possible VI
+i You have to be really fast to
+i snatch away the timebomb - but
+i then? A heavy sack on your head,
+i and a boulder to the right?
+i Hmmm! That ain't workin...
+ldeutsch i Du must wirklich schnell sein, um
+ldeutsch i die Zeitbombe wegzuschnappen - aber
+ldeutsch i dann? Ein schwerer Sack auf dem Kopf
+ldeutsch i und ein Felsen zur Rechten? Hmmm!
+ldeutsch i Das wird nichts...
+a Juergen
+m 7 5
+#######
+E0 00.#
+#@. #.#
+#1!Q..#
+#######
+R 4730
+0 1
+1 Demo 1
+2 ..R....rr.....srtt...lllbbb.L.ttll......
+2 ....
+
+uuid 5b79d30e5f4c27f7639727527b6b650a
+
+leaderboard steps time

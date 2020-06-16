@@ -1,0 +1,86 @@
+n Out of the Blue
+D 6
+C 2
+E 0
+p 0
+i This one is straight-
+i forward enough:
+i Collect all the sapphires
+i you find in each room.
+a Alex
+m 27 37
+###########################
+#00#1..0..............#Q..#
+#0$#...Q...#.Q.###.Q..#$$.#
+#Q.#..#$#..#...#$#....###.#
+#Q.#..#0#..#...#0#....#...#
+#0.#..0$0..#...0Q0........#
+#0....### .#...###....#0..#
+#QQ#.......#..........#$0.#
+####SS###################Q#
+#..!...# 0 Q..Q#.    Q....#
+#.####0# #0|.#$#...####...#
+#.#$##$#Q#$#.#.#.!.#Q$#.Q.#
+#.#0  Q..#..0#.....#00#...#
+#$#0|###########...00Q0...#
+#.#Q0#.#####00.00. ####...#
+#.#000.##...$# 00.........#
+#.##0#.#..Q 000|####0####B#
+#....#.b.Q0QQ0$##.Q#0#0Q# #
+################.$!$0#$0#B#
+##.0Q#.$.#.$.#Q$.Q0#0...# #
+#.$#...#...# 0...$.#Q0. B #
+#.#########################
+E....0....0+..............#
+#Q0Q......0+.QQ.QQ.QQ.QQ.Q#
+#0Q0Q.....Q+Q$$Q$$Q$$Q$$Q$#
+#Q0Q0Q0 ..0+..............#
+#######B#################.#
+#.........#Q#....#0 0#....#
+#.00000...#$#....#0$0#..Q.#
+#.00000...#....Q.#0Q0#....#
+#.00$00...#.#....#000#....#
+#.00000...#.#....#Q0Q#....#
+#.00000...#.#...##0Q0##...#
+#.........#Q#...QQ000QQ...#
+#.........#0#...#######...#
+#..........$#......$......#
+###########################
+R 45004
+0 0
+1 Demo 1
+2 ....b.......t..r................lbbbbb.l
+2 lt..T..brr.........llb...tr..r........tt
+2 tt.....rr..l..bb........blbbrrrrr.ttttt.
+2 ll..B..l....l...bbb.rrr..rr..ttttrrrrb.b
+2 .B..ttllbrtrrrrr.bbb..tttrrblrr....l..bb
+2 brrrr..........rb..B....ttttllrrbbb.llll
+2 ll...llll.r.T.rrrrrrrr..l....r..bbl..rrb
+2 b.lllllll...bbl..........bbbB..t..ltttt.
+2 bbrrtt....l.rrrrrrbbb..ttrrbl.t....lbbbl
+2 .sr......lllll.L......r..bblllllttt..lll
+2 ltt..bbrr......lltttllbB..t.rr........ll
+2 bb...ttlllrrrbbbllt.brrtttllllbbbll.t.bl
+2 ..rtttlllllbbbbbbbbrr...R....ml.........
+2 ..............rrr...ttrrbbrr..trtr...rr.
+2 .........llrr.l.rrt...bb..rrB.....trrrrr
+2 rrrrrrbb.l.bl....ltt....bbrr.......l....
+2 ....tllltl..l...mlbbRlt...blrr........ll
+2 ll.tllblltllbllrr......ll..tllblbbrrrb.r
+2 rrrr..b.lt......brrr..t........bb.......
+2 .......ttrtrr...................r..B..rr
+2 rB.rrrB.rrrRB....llllllllllllbl.bb......
+2 .rrtttr...bbt........bb..rrttt.rrblb.t..
+2 ...bb......rrtttrrbllb.t.......bb.rrtttr
+2 r.blB.......bb.rrttttt......bbbbb.......
+2 ..ll...bbbbb..tttttrrblr.....bbbbbbbl...
+2 ltt.l..........ll......rrrbbllllllllttt.
+2 rt..rttt..lllbr..lll.t.brr.......llbbb..
+2 tttrrtrrrblll..l....l.b....bbbbbl.......
+2 .ll..lttttttt.r.b...tlllltlllbbbbbbr....
+2 ..r..r.r...r.....bbr..r..r...ttttlllll..
+2 .ttttrrr.tttt..lllllll........
+
+uuid 157e96952da350ae6a99ec0b6fd96457
+
+leaderboard steps time

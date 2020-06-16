@@ -1,0 +1,62 @@
+n Aggressors
+D 2
+C 4
+e 6
+s 1
+p 0
+o 2
+M 0 Jump
+i You have many aggressors, but you
+i must only challenge one. Who will
+i it be?
+a Shark
+m 23 10
++++++++++++++++++++++++
++      +( B           +
++ ++++ ++++ +         +
++ +E1+    + +         +
++  + ++++ + +         +
+++ + ++++ + +*+*+*+*+*+
++  +      + +b+b+b+b+b+
++ +++++++++ +%+7+ +o+o+
++           +%+ +j+o+%+
++++++++++++++++++++++++
+R 2670
+0 0
+1 Demo 1
+2 ..bbbrrrrr.tttlllttlllllbbbrbblbbrrrrrrr
+2 rrr.tttttttrrbbbb..BttttlllLrbbbbbbbllll
+2 llllllttrttltttrrrrrbbrrrbbbllllltttl...
+2 ..
+R 2710
+0 0
+1 Demo 2
+2 ..bbbrrrrrtttlllttlllllbbbrbblbbrrrrrrrr
+2 rrtttttttl.rrrbb.br.b.BttttlllllLrbbbbbb
+2 bllllllllllttrttltttrrrrrbbrrrbbbllllltt
+2 tl.....
+R 2751
+0 0
+1 Demo 3
+2 ..bbbrrrrrtttllltltlllllbbbrbblbbrrrrrrr
+2 rrrtttttttrrrrrrbbb.b.....BttttlllllllL.
+2 rbbbbbbbllllllllllttrttltttrrrrrbbrrrbbb
+2 llllltttl.....
+R 2794
+0 0
+1 Demo 4
+2 ...bbbrrrrrtttlllttlllllbbbrbblbbrrrrrrr
+2 rrrtttttttrrrbbbrrrrrb..BttttlllllllllLr
+2 bbbbbbbllllllllllttrttltttrrrrrbbrrrbbbl
+2 lllltttl.....
+R 2835
+0 0
+1 Demo 5
+2 ..bbbrrrrrtttlllttlllllbbbrbblbbrrrrrrrr
+2 rrtttttttrrrrrrrrrrbbbb.Bttttlllllllllll
+2 Lrbbbbbbblllllllllltttrtt.ltttrrrrrbbrrr
+2 bbblllllttt.....l.....
+
+uuid 983578e0a39518aafd33689731379998
+
+leaderboard steps time gems

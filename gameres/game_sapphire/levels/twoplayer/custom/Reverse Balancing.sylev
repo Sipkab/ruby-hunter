@@ -1,0 +1,29 @@
+n Reverse Balancing
+D 8
+C 6
+p 0
+M 0 Tico Tico
+i Another balance level? At least
+i this one has two players to make
+i it more original.
+a Shark
+m 16 9
+~   #5 6#       
+~ ### # ########
+###  8 0     02#
+#           0. #
+# #         .. #
+# #   10       #
+# #  +++++++   #
+#@  |+++++++|a|#
+#E#a############
+R 58225
+0 0
+1 Demo 1
+2 ........r...r...rl.brlrl...r.b...ll..ll.
+2 .ll..ll..ll..ll..ll.ll.tblbllr.b.b.blb.l
+2 bl...b..........
+
+uuid 07b605d087fb44e77a8fce9178840355
+
+leaderboard steps time

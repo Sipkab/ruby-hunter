@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config xmlns="bence.sipka.types.config" >
+
+    <declare-enum name="UIRotation" >
+
+        <enum name="DEFAULT"	value="0" />
+        <enum name="LEFT"		value="1" />
+        <enum name="TOP"		value="2" />
+        <enum name="RIGHT"		value="3" />
+        <enum name="ROTATION_DEGREE" value="90" />
+    </declare-enum>
+
+</Config>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config xmlns="bence.sipka.xml.compiler.config" >
+
+    <declare-element
+        name="Animation"
+        abstract="true" >
+
+        <declare-attribute
+            name="duration"
+            type="int" />
+
+        <declare-attribute
+            name="flags"
+            type="AnimationOptions" />
+    </declare-element>
+
+    <declare-element
+        name="InterpolatedAnimation"
+        abstract="true"
+        defaultStaticType="Animation" >
+
+        <inherit base="Animation" />
+    </declare-element>
+
+    <declare-element
+        name="Interpolator"
+        abstract="true" >
+    </declare-element>
+
+    <declare-element
+        name="LinearInterpolator"
+        defaultStaticType="Interpolator" >
+
+        <inherit base="Interpolator" />
+    </declare-element>
+
+</Config>

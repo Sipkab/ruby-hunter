@@ -1,0 +1,39 @@
+n Crusher II
+ldeutsch n Zermalmer II
+D 7
+C 5
+E 0
+i To walk straight through
+i may not be a good idea.
+i But there is a way
+i you can go.
+ldeutsch i Einfach Augen zu und
+ldeutsch i durch ist keine gute
+ldeutsch i Idee. Aber es gibt
+ldeutsch i einen Weg.
+a Ronald
+m 23 8
+###################### 
+#         1          # 
+#  .0000000000000000.# 
+#  .0000000000000000.# 
+#   ..................#
+#   Q*.Q*.Q*.Q*.Q*.Q..#
+#E.[[[[[[[[[[[[[[[[[[.#
+#######################
+R 25370
+0 1
+1 Demo 1
+2 ....llllllllbbbrr....rBr.......llll...rt
+2 trrrtrrrrrrrrrrrrrbb........bBl.........
+2 ..............l.l..................B....
+2 ....................l....rtltllbbb.l....
+2 ......B.................................
+2 ..........l...rrttlllbbl....B....l...rrt
+2 tlllbbl.....B..........l.rrttlllbblbrrrr
+2 rrrrrrrrtrrbllllllrrrrrrrrrbblllllllllll
+2 lllllllll................
+
+uuid 3d3ae8ff90432589258c257810986653
+
+leaderboard steps time

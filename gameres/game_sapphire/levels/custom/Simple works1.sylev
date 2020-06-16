@@ -1,0 +1,38 @@
+n Simple works
+D 5
+C 3
+e 16
+p 2
+M 0 Rooms
+i Just be quick!
+a Nic01
+f Nic01
+m 15 19
+#       l#0####
+#c##### ##0####
+# #   # ##0####
+#c#   # ##.1###
+# #   # ##@.###
+#c#   # ##s.###
+# #   # ## .###
+#s#   # ##@.###
+# #   # ##s.###
+#s#   # ## .###
+# #   # ##@.###
+#s#   # ##@.###
+# # # .   @.  #
+#s# # . _#@.0l#
+# # ###{#####s#
+#c# ######### #
+# #      Q(Q(Q#
+# ##### #######
+#Q(((((E#######
+R 2464
+0 8
+1 Demo 1
+2 ..LbLbbb.Lbb.b.LbLbLbLtllllrrrrrrrrrrlll
+2 lllltllbbbbbrrrrrrrrRllllbbb......
+
+uuid 4e8e108e3e8bae8532591ae19ecf8c30
+
+leaderboard steps time

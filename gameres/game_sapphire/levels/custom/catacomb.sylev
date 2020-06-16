@@ -1,0 +1,77 @@
+n Catacombs
+D 6
+C 1
+p 0
+M 0 Dancing on the Ceiling
+i The first challenge is avoiding
+i all the monsters.
+i 
+i The second challenge is escaping.
+a Alex
+m 28 34
+##########  ##########  ####
+#!*....7 ####**....7 ####**#
+#**####  ....**++++  ....**#
+#.##  ##.####.++  ++.####.##
+#.#    #.#  #.+  E +.#  #.# 
+#.#    #.#  #.+    +.#  #.# 
+#.##  ##.####.++  ++.####.##
+#7 ####**....7 ++++**....7 #
+#  ....**####  ....**####  #
+#####.####  ####.#####  ####
+~   #.#        #.#          
+~   #.#        #.#          
+#####.####  ####.#####  ####
+#**....7 ####**....7 ####**#
+#**####  ....**++++  ....**#
+#.##  ##.####.++  ++.####.##
+#.#    #.#  #.+ !1 &.#  #.# 
+#.#    #.#  #.+    +.Q  ..# 
+#.##  ##.####.++  ++.####.##
+#7 ####**....7 +&++**....7 #
+#  ....**####  ....**####  #
+####.#####  #####.####  ####
+~  #.#          #.#         
+~  #.#          #.#         
+####.#####  #####.####  ####
+#**....7 ####**....7 ####**#
+#**####  ....**++++  ....**#
+#.##  ##.####.++  ++.####.##
+#.#    #.#  #.+    +.#  #.# 
+#.#    #.#  #.+!   +.#  #.# 
+#.##  ##.####.++ *++.####.##
+#7 ####**....7 ++++**....7 #
+#  ....**####  ....**####  #
+##########  ##########  ####
+R 63023
+0 0
+1 Demo 1
+2 ...l.......bb.ut.......r..b.bbLbbbbbblll
+2 bllll.r..r...................rrt..rrrttt
+2 ttrrtrBblll..lllltttttttrblbbbbbllllllbr
+2 .llllbbbbblllbrlbb..b.............ttttrr
+2 rrRlttt.tt..bbbbbrrrrbRbbbbbbltrtt..tt.r
+2 trr..rrrrtrrr....Rll.rrttt..bbbrrrbrrrrr
+2 rTl.lllllbbbbbbltrttttttlllll....llbllll
+2 lltlrbr...bb...........tttllllttttt..L.b
+2 b........ttlllttttt.r..bbbbr..br..ltlBtt
+2 tttrtrrrRlllbblbbbbbbrrrrrrrttttttrr.Rll
+2 ltl.rrbrrrrrbbbbblllllttttttllltttttrrtr
+2 b.trrrRllltt....bbrrrrrtttTbbbrbr.....rr
+2 rt..tr...trb.tl.blll......rrrrtrrr......
+2 .llllblrrtttTbbbllllbbbbb...............
+2 ........Ltttttrrrtrrrr.Rlllttt.b.bbrrrrr
+2 tttt...bbbbr...................lBtttttll
+2 lLrrrRbbbbblllllbll.rrtttttttllllllblbbb
+2 b..........bbrrrrrrrtttttttlrbrr...llbbb
+2 bbrrr........llltt..ttttl..l..llllbllllL
+2 rrrbb........ttlllllltllllllbrtr....rrrr
+2 rbb.....bbbbblllbbbbbrrrbrrrrrbbbbbrrrtt
+2 trr.....clbbbrr..lll.tl.ttt.....rrrrbrtt
+2 t.rrrrrtrblbbbllllllll.blbbbbb....bbbblb
+2 bbLrBttttttttttttttttlt..t.b..ttttr.lcb.
+2 ........tttrtttt.......
+
+uuid 68e4431357ca187f078016304e5e412b
+
+leaderboard steps time

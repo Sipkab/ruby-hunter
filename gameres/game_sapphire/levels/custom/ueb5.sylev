@@ -1,0 +1,35 @@
+n jb easy 5
+lDEUTSCH n Uebung 5
+D 10
+e 28
+p 0
+O walls
+m 13 11
+~TTTTTTTT*TT 
+T.....0...0.T
+W.0.(...$...W
+T...|.@.*...T
+W....|..|...W
+T......|....T
+W.....c.....W
+K...........K
+~K1...c...EK 
+~ K.......K  
+~  f+++++N   
+R 38277
+0 0
+1 Demo 1
+ldeutsch 1 Demo 1
+2 ..rrrtRttrTlbbRttrttltlltllbrr.rr...rbbb
+2 lbbbbrr..L...rttrrttttltt.....bllbblblb.
+2 .b....R..RbbrrrttrrttttLrttlbb...lbbbbll
+2 bb...Lrrtr....L..Lrrttttrttltt.......lbl
+2 bblblbbtt.LL........rrrtRttrTl.bbRttrttl
+2 tlltllbrr.rr.rbbblbbrrrrrttttLltt.lblbbl
+2 blbbbbrrttL..LrrrttttLrttlbb...lbbbbllbb
+2 LLLLL..Lbr.rbr....rr.rrr....bbblbbrrrrrt
+2 tttltTl.rttltlltllbrr......rrrrtrrB
+
+uuid ae2b81946febdebf24f59b388d37f597
+
+leaderboard steps time

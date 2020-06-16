@@ -1,0 +1,47 @@
+n EAT 13
+D 8
+C 4
+s 0
+p 3
+A graphite
+M 0 Axel F
+N EAT 14
+i You can't escape, they got you
+i cornerd ,just go to the next room.
+a Elliot
+m 19 16
+########### ### ###
+#>(+% R (#(>  #* ##
+####.# ## ##R##.#*#
+#.Q1.#^G****^ #  .#
+#.##.#######G## ###
+#..#g# # # G G   ##
+## #.G^G  ^# ##^# #
+##R#####^# # G ## #
+##     #####^#  G  
+~     <rE#*###^ # #
+~#>    ###.###### #
+## ^   # ^  #*# G^ 
+##R##G##G##G#.# # #
+#( R  0 < #    ^###
+##(###### ## ######
+###################
+y ~   >    
+R 51969
+0 0
+1 Demo
+2 rTbbb.......r.rr........................
+2 ......rtrr..rttttr...lbbrrtbllbbl.lbbrb.
+2 .rrbbbr......llbbllttb......bll..tltT...
+2 bll.rrt.bllbllll.tttrRbllllbbLB.....ttr.
+2 .lttttlttrrrlr..........ll.ttt..........
+2 ................rr.l...rr....rttlLrrrR..
+2 ..llbbl..rbb.brl.rrlltttl...rbbbrrrr....
+2 ........rt.r..rtlllLrlt......brrrt...lLr
+2 bbr.lbbtbtbrb..b..t...b..rtrbbbr..llbbll
+2 lb........tltlt..........bllbllltttrrrr.
+2 r.rt.....rt......r..
+
+uuid 532243e481f51caba89ffddefcf90fd7
+
+leaderboard steps time

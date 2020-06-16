@@ -1,0 +1,39 @@
+A Default
+S Default
+d 5
+T 
+D 3
+n Dark Arena
+e *
+p 4
+E 
+w 10
+o 1
+s 30
+a Jorobot
+f Jorobot
+N 
+i A simple exercise in robot evasion.
+m 15 14
+iiiiiiiiiiiiiii
+iw     o     wi
+i   iiiiiii   i
+i * **   ** * i
+i i ii   ii i i
+i i i *** i i i
+i i   iii   i i
+i i * iEi * i i
+i i i*   *i i i
+i i ii   ii i i
+i   *******   i
+i   iiiiiii   i
+iw     1     wi
+iiiiiiiiiiiiiii
+R 3638290329
+0 0
+1 Demo
+2 ...rrrrttlllllll.tlttttttt.lrrrrrrrrr.rlrbblbbbbllttllllbb.L..Bttrrrrbbblltt.....
+
+uuid 673c0b27986c244c04b4a56a7b817502
+
+leaderboard steps time

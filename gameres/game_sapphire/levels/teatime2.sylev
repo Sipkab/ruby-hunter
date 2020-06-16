@@ -1,0 +1,81 @@
+n Teatime II
+ldeutsch n Teezeit II
+D 9
+C 6
+E 0
+T 1000
+M 0 Perplexities
+i For weeks I suspected teatime
+i to have an e * solution, although
+i I was unable to prove it in hundreds
+i of attempts!
+i 
+i I did not give up though - and I was
+i rewarded with a solution of unmatched
+i beauty and simplicity. Truly beyond
+i belief: The key sequence is only 13
+i moves long! That's approximately one
+i move per day if you really want to
+i solve it on your own...
+ldeutsch i Wochenlang hatte ich den Verdacht
+ldeutsch i dass man bei Teezeit *alle*
+ldeutsch i Edelsteine kriegen kann, obwohl ich
+ldeutsch i es in hunderten Versuchen nicht
+ldeutsch i beweisen konnte!
+ldeutsch i 
+ldeutsch i Dennoch hab ich nicht aufgegeben -
+ldeutsch i und ich wurde mit einer Lösung
+ldeutsch i von unerreichter Schönheit und
+ldeutsch i Einfachheit belohnt.
+ldeutsch i Unfassbar: Die Schlüsselstelle ist
+ldeutsch i nur 13 Züge lang! Das entspricht
+ldeutsch i ungefähr einem Zug pro Tag, wenn du
+ldeutsch i es wirklich selbst versuchen
+ldeutsch i willst...
+a Ronald, Juergen
+f Juergen
+m 55 24
+#######################################################
+#                                                     #
+#       .                                             #
+#                                                     #
+#                                                     #
+#              ++                                     #
+#            #######                                  #
+#         +++++++++++++++                             #
+#      00....$$$$$$$$++           !1                  #
+#     000  +.$$$$$$$+                                 #
+#    ++++  +.$$$$$$+                                  #
+#   +++++QQ$$.$$$$$+                                  #
+#  ++   +++$$.$$$$$$++                                #
+# ++    +$$$$.$$$$$$$$+                     #         #
+# ++   +$$$$$.$$$$$$$$$+                   #          #
+# ++   +$$$$Q0Q$$$$$$$$+                  #           #
+#  ++  +$*$*0!Q$*$$$$$$+       +         #+           #
+#   ++++*$*$Q0Q*$*$$$$$+     +++*$*$*$*$#0+           #
+#    ++++*$*QQQ$$$*$$$$+    +  +$*$*$*$#!$+      #R#  #
+#        +$*$Q$*$$$$$$+     + r+*$*$*$##$$+      # #  #
+#         +$$*$$$$$$++       ++++*$*$###$+       #R#  #
+#          +$$$$$$++             ++$###++        # #  #
+#           ++++++                 ++++          #E#  #
+#######################################################
+R 26743
+0 1
+1 Demo 1
+2 .llllllllbbbbbbllll.srrr.....lllll..B.l.
+2 ....ltltltlttttr.RBllllllbrrrrrblllllbrr
+2 rrrbllllllTLLTlblll.bl.rrrrTrrTrrrrrrrll
+2 llllllllllllbrrr.lllbrrrblll..r...b....t
+2 ttrrrbr.ltrtrrbrrrrrrrllllllltllbrrrrrrr
+2 rrrr.lbllllllrbrrrrrbllllrbrrtttlllllLL.
+2 br..brb.r.BtllllTbblTbRltlBtlBTlTrrrrrrr
+2 bRblTltttttttrrrrrrrrrrrrrrrrrbbbrrrrrrR
+2 bllllllbrrrrRblbl.tlltttttttrrrrrtrrrrrr
+2 rbbbbblllsrr........lllllblb.RBtrtrrrrtt
+2 tttlllllllllllllbbbbbbb.utt.....rbbbblll
+2 .rrrrtttttttttrrrrrrrrrrrrrrrrbbbbbbbbbb
+2 b............
+
+uuid dfcaf0047e743890905bcf1a56f1edd4
+
+leaderboard steps time

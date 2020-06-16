@@ -1,0 +1,53 @@
+n Swimming
+ldeutsch n Schwimmen
+D 9
+C 1
+M 0 Under the Sea
+i My advice:
+i Don't think about
+i which direction to take.
+i Just keep moving as
+i fast as you can.
+ldeutsch i Mein Rat:
+ldeutsch i Überleg nicht lang in welche
+ldeutsch i Richtung du laufen sollst,
+ldeutsch i beweg dich einfach so
+ldeutsch i schnell du kannst.
+a Ronald
+m 30 21
+##############################
+# QQQQQQQQQQQQQQQQQQQQQQQQQQQ#
+# 000000000000000000000000000#
+###########################Q##
+#QQQQQQQQQQQQQQQ #########Q###
+#000000000000000+QQQQQQQQQ##E#
+#E##########################+#
+#$+$$$$$$$$$$$+$$$+$$$$$$+$$$#
+#$+|$$$$$|$|$$$$$$$$$$$$$$$$$#
+#$+$$|$$$$$$$$$|$$$$$|$$$|$$$#
+#$+$$$$$$$$$|$$$$$$$$$$$$$$$$#
+#$+$$|$$$|$$|$$|$$$$|$$$$$$|$#
+#$+$$$$$$$$$$$1$$|$$$$$|$$$$$#
+#$+$$$$$|$|$$$$$$$$$$$$$$$|$$#
+#$+$$|$$$$$$$|$$$|$$$|$$$$$$$#
+#$+$$$$$$|$|$$$$$$$$$$$|$$$$$#
+#$+$$$$$$$$$$$$|$$$$$$$$$|$$$#
+#$+|$$$|$$$$$$$$$$$$$$$|$$$$$#
+#$++++++++++++++++++++++++++$#
+#$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+##############################
+R 763
+0 1
+1 Demo 1
+2 .bbbbllllllllllltttrrrrbbbrbrrrrrtrtrrrb
+2 rrrrrrrtrrrrtttttllbbllbllllllbbblltllbl
+2 lblllltllllltttrrrbbbrrbrrrrrtrtrrbbrrrr
+2 trrttrrrbrrrbblllltttllbbllllllbllllllll
+2 tlllllttrrbbL.LbrtrBrrbrrrrrttrrrbrrrrrr
+2 bllllllTlllllllrrrrrTrrrtrrrrrbllllrrrrr
+2 trrtrrrrbbllllttrrbbrtrbbbllllllllllllll
+2 lllllllllllllttttttttttttt
+
+uuid fe310d68fd22662d1d49795f16a5a479
+
+leaderboard steps time

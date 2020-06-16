@@ -1,0 +1,49 @@
+n No Clearance III
+D 4
+C 4
+E 0
+p 0
+N No Clearance IV
+i This level is exactly the same as
+i No Clearance II, but with the bombs
+i and stones reversed. Enjoy!
+a Alex
+m 15 15
+###############
+#0.0.0.010.0.0#
+#Q...Q...Q...Q#
+#0.0.0.0.0.0.0#
+#..Q...Q...Q..#
+#0.0.0.0.0.0.0#
+#Q...Q...Q...Q#
+#0.0.0.u.0.0.0#
+#..Q...Q...Q..#
+#0.0.0.0.0.0.0#
+#Q...Q...Q...Q#
+#0.0.0.0.0.0.0#
+#..Q...Q...Q..#
+#0.0.0.0.0.0.0#
+#######E#######
+R 71276
+0 0
+1 Demo 1
+2 ...b.Bll.t.b.bbbbr...rr.lbb..tt.lblBr...
+2 .........tttlllll.r.r..btrrbbb.........r
+2 ...Btttrrrrrl.l....r.Bbbbbbbbbbbr......t
+2 llttlbbbl....rttt.tttrrbbbrtttttll...bbb
+2 b.ttll...t.r.t.bbrrr.t....bbllltllrr....
+2 ..rbbttt.lb.b......................l....
+2 bbbbblllrbrrbbbr.tt..ll...tlltll.brrl...
+2 ...rrbbbb
+R 47903
+0 0
+1 Demo 2
+2 ...bbbrr...Tll.Btt.r..r.....lb.......t.l
+2 l....tl..bb.bl.l......rttlll.rr....bbrtt
+2 ...bb.........r...rbbbbb.r....L.br.....l
+2 llt.brr...bBt........bbbb..............b
+2 rt.ll...t.l.brrr....b..llbbb.
+
+uuid 400b21798a0ec0ea2f2f205bdb9994fb
+
+leaderboard steps time

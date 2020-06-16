@@ -1,0 +1,40 @@
+n Strip Mining II
+ldeutsch n Tagbau II
+D 6
+C 5
+E 0
+T 875
+p 0
+M 0 Your Wildest Dreams
+i The Strip-Mining level was too easy?
+i Well, this one contains just one
+i more stone...
+i I hope you enjoy it.
+ldeutsch i "Tagbau" war zu einfach?
+ldeutsch i Nun, dieser enthält nur einen
+ldeutsch i zusätzlichen Stein...
+ldeutsch i Ich hoffe du magst ihn.
+a Ronald
+m 15 10
+###############
+#.E   G  R  B #
+############# #
+#1.....000..#Y#
+#...........#.#
+#0000.....Q.#.#
+#0000 ........#
+#00000000000..#
+#00ry*g**b000.#
+###############
+R 18888
+0 1
+1 Demo 1
+2 ...rrrr..............b.r...........b..r.
+2 .r.......l.l....B.rr.....r.B...trr.b.lll
+2 lrr..............ll..bbbr...R.ll.......l
+2 .................l.Lrrr...tt..rrrrrrr.tt
+2 ttllllllll..........
+
+uuid 76320350111e44bbc7ef272d6b3c5436
+
+leaderboard steps time

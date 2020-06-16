@@ -1,0 +1,34 @@
+shader SimpleFontShader {
+	vertex {
+		uniform MVP{
+			@fp_precision=high
+			mat4 u_mvp;
+		}
+	
+		@fp_precision=high 
+		in float4 a_position;
+		@fp_precision=high 
+		in float2 a_texcoord;
+		@fp_precision=high 
+		in float4 a_color;
+		
+		out vertex_position opos = a_position * u_mvp;
+		@fp_precision=high 
+		out float2 v_texcoord = a_texcoord;
+		@fp_precision=high 
+		out float4 v_color = a_color;
+	}
+	fragment {
+		uniform UTexture{
+			@fp_precision=medium 
+			texture2D u_texture;
+		}
+		@fp_precision=high 
+		in float2 v_texcoord;
+		@fp_precision=high 
+		in float4 v_color;
+		
+		out fragment_color ocolor = v_color;
+		ocolor.a = ocolor.a * sample(u_texture, v_texcoord).a;
+	}
+}

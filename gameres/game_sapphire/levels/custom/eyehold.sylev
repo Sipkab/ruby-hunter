@@ -1,0 +1,36 @@
+n Eye of the Beholder
+D 7
+C 5
+E 0
+p 0
+i You can do it your own way;
+i If it's done just how I say.
+a Alex
+m 17 12
+#################
+#       @       #
+#    #####a#  0 #
+#      Q10    + #
+#    # ### #    #
+# Q  # 5   # &0##
+#E# |# + 5 # 0|# 
+###  #   + & ..# 
+~ #  & Q 7 #   # 
+~ #  # &   #   # 
+~ #            # 
+~ #{#########[## 
+R 88256
+0 0
+1 Demo 1
+2 ...........r............rrrttlllllll...l
+2 bbrrrr.............rrr..............rl..
+2 ......lllllll...........ll.bbr.....rrttt
+2 tl......rrrrrrrrrrr....rb........llt....
+2 .....bbbbl..bbl..rbbbrttt...rbbb...l....
+2 ....llllll..rttlrr...bb...ll...rrrrr.trr
+2 b...l.B...lllllllll.tt..R...tlttrtttt...
+2 lbbbbl.....lb........
+
+uuid 533ce6ef9bc0db335637b5721ddda545
+
+leaderboard steps time

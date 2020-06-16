@@ -1,0 +1,135 @@
+n Bomb experts
+ldeutsch n Bombenexperten
+D 4
+C 5
+s 0
+i Some nice bomb puzzles.
+ldeutsch i Ein paar nette Bombenpuzzles.
+a Emerald Mine
+m 64 32
+################################################################
+#..............#!!!!!!!!!!....gg#..Q......#..........#.........#
+#..............#.............. 1#.........#......Q...#.........#
+#..............#................#...++#+..#......Q...#.........#
+#..............#........++#++...#...#%.%+.#.....Q....#.........#
+#..............#........+Q$Q+...#...#+8++.%..........#...+++++.#
+#........#####.#........+ooo+...#...#6#%+.#..........#...+.0.+.#
+#........#0..# G........+Q| +...#...###++.#..........#...+...+.#
+#........+...#.#........+++++...#.........#..#+++#...#...+@@@+.#
+#........+ k #.#................#....... .#..#%%%#...#...+++++.#
+#.........++##.#########################G##..#%%%#...#.........#
+#..............#............#.........#...#..#%$%#...G ........#
+#..............#.##+##......#..#++##..#...#..#####...#.........#
+#######G########.# 7 #......#..#^.6#..#...#..........#.........#
+#...... ...#.....+658+......#..+.$.+..G ..################G#####
+#..........#.....#.$.#......G .#^.^#..#............#...... ....#
+#..+++++...#.....#####......#..##+##..#............#...........#
+#..++i++...#... ............#.........#............#...........#
+#..+i$ +...####G#################G#####............#...........#
+#..++i++...#...........#......... ....#...+Q+++....#...........#
+#..+++++...#...........#..............#...0++++....#...........#
+#..........#...........#..00000.......#....+$QQ....#...........#
+#..........G ..........#..00000.......#...++QQ|....#.....+++R+.#
+#..........#...........#..00000.......#...+QQQ+....#.....+$+ Y.#
+#..........#..#####....#..00$00..############|+#####.....+0+++.#
+#..........#..# 0 #....#..00000..#.++E++...........#.....+.  B.#
+#..........#..+Q$Q+....#.........#.++E++...........#.....+|a|+.#
+#..........#..+Q.Q+....#.........#.+r+b+...........#......+++..#
+#..........#...++++....#.........#.++y++...........#...........#
+#..........#...........#.........#.+++++...........#...........#
+#..........#...........#.........#.................#...........#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 55165
+0 8
+1 Demo 1
+2 ..tllllllllllllrrrrrrrrrrbbbbb..uttt....
+2 .........bbbbbllblbbllllllllllttttttttrr
+2 llbbbbbbl..bbbbblllllll..ttttt.bbbrr....
+2 .......mlll....................rrrrrrt.b
+2 blllbrrttllllbbrrrrrrlbbllllbbbbbbrr....
+2 .............rrrbbbb.t.......srr.......l
+2 llllll..ltrrrrrbbbbbbbblllrrrrttttrrbbbb
+2 bb................r.......bbrrrrtlllr...
+2 ...srrrr............llllltttbbrrrttttttt
+2 ttlllltttt..bbbrrrrrrrrrrrrttlllllb.tt..
+2 .tttllllllbbbbbbrrrrrrttt.....cbbrr.....
+2 ......l.........tt..tllllbtrrrrrr.rrbr..
+2 r..........ttttrr....srrrrbbbbbbllllllll
+2 lttttttrbbbbb.tttttrr...b.b.............
+2 .........Bttllbbb.......................
+2 ..bbbttttttrrbbbr.l.tttll...bbb.........
+2 ..........bbbrrrbbbbb......lbbbbbbbltttt
+2 tttttttlllllllbbbbbbbbbbbrttttttttttt...
+2 .brrrrbbblllr..bttrrrrr.tt..t....t.rrrt.
+2 .ttrrr....ttttt...............r.ttttt..b
+2 bbbbblbbbbbbbbbbbbbb.tttttttttttttt.....
+2 .....r.t.......ttttt.lb.ttllllrrrrrbbbbb
+2 bbblllllllttttttttrrrrrrrrrrrll..rrr.bbb
+2 l................Lrrbb.....b..........tt
+2 tttlltl.......................rrrbbbbrrb
+2 brrrrrr..............lttlll.r.rrtttlllrr
+2 rrrbllllbbb...bbbbbbbttttrrrrrbbbbrrr.tr
+2 rr.....mllll....r..bbbrrrtll.rrrl.tttrrt
+2 ttbbllttrrrbbbbbbbll..lbbbbbbb.tttttttll
+2 lltlllttttttlllllllllbbbblbbbbbbbbbbbrrl
+2 ltttrr.....r..srrr......lllbbbtttrrrbbbb
+2 brrrr..........lllllbbbbllllll..srrr....
+2 ..llllllrrrrrrrtttttlllllttttttttttttrtt
+2 ttrrrrrrrrrrrbbbbbbrrrrbbrbbbbbbbbrrrrbb
+2 bb.......lll..rr..l..lrrrttttllllttttttt
+2 ttlllllllttttttlllllllllbbbblbbbbbbbbbbb
+2 brrrrrbbbbllllllll.srrr.....lllllll.....
+2 ..
+R 67726
+0 8
+1 Demo 2
+2 ...tllllll..rrrrbbbbb.........uttl.....r
+2 bbbbbbl....ltlbblllll...llltttttlttl.trr
+2 rrrrrrllllllllbbbbbb.l.bbbllbllllttlt...
+2 .ml....l...............rtrrrrbllrrblllll
+2 ..rbbb..rbbb...ut.......bbbblllrrrrrbbbb
+2 r......r...rrttttt..bbbbbbb............l
+2 l.bb......tttbbbbbbbrrr...mll...........
+2 ...rrrrrttt.bbllltttttrtt.rtt......t..rr
+2 rrrrrrrrrrttlllllt...utrrrrrr.bbbbb.....
+2 ...llllltttllblltrrrrttrrrrrbbbrr.......
+2 ....ttl.btttrrrr.....srrrbbbbbbllllllllt
+2 tt.rt...ttrrrb........................Bt
+2 rrrbbbbbtttttlllbbb.ttt..llll...rbbb...b
+2 bbrrrrrrtttrrr...r......tttlttrrtttttltt
+2 llllrrrrbbbrbbbbb.llllllttttlltttrrrrrrr
+2 rr.......bbbbb...........Lrrrbbbb.......
+2 .....l.bb...............................
+2 tt.rtttrrrrr.lllllbbblbbbbb.rrbbbbb..trr
+2 rr..l......utt........bbbbbbtttrrrrrbbbb
+2 b.llttttt.....lllll....b..lttttttttltt.r
+2 ....tttrrrrr..bbrrrrrrbbbbr..t..rrrrr...
+2 ...mll...........rrrrr.................b
+2 bb......L..t...L.l...L.....tttttt..bbll.
+2 tt.bb.rrrttlll..l.bbbbb.rb.rb.llbbbbbbb.
+2 .ttttttttttllllbllttt..l.tll.ttlll......
+2 r...tttrrrtrrb.l.l.tllbb..rll...rtrrrb.l
+2 l......l.bbbbbbblbttttrrrrr.llllllttllll
+2 lbbblblbbrbbbbrrbbbbbbbbbrrrrbbbblllll..
+2 .srrr....lllllll..rt..srrr....rrtttttt.l
+2 ttttlllttttttltttrtrrttrrrrrrrrrrrbbbbbb
+2 rrrrrbbbbbbbbbrrrrbbbbl....l............
+2 ....r..llrr..lllrrrttttlllttttttltttllll
+2 lllttttttlllllllllbbblbbbbbb..tl.......l
+2 l.bbblllbb..bbb...l...bbbbbbb.tttttt....
+2 .l..tttt.........bbbb.rb..b...........Lt
+2 tt...........lll.ttllll..l..bbbbbbbbbbrr
+2 rrrrrtttlbblllltllb.rllttttttrttt....lbb
+2 bbb....t..R...ttt...bbbb..R.ttt.........
+2 .rrrrrrr.......llllllbbbb...R.tttt..rrrr
+2 rrr.bbrbb..Lttt..llllllbrb.trrrrrtttt...
+2 ..........t..rrrrtttrrrt.bbbbbbbbrrrrbbb
+2 bblllllllll.......
+
+uuid 576e12d51f5c05fba9b734323e3e6362
+
+leaderboard steps time

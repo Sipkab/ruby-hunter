@@ -1,0 +1,80 @@
+M 0 Action
+d 10
+D 4
+n Common Change
+e 40
+p 4
+a Alexander
+f Alexander
+i The laser keeps changing...
+m 20 20
+[[[[[[[[[d[[[[[[[[[[
+[         d        [
+[        c         [
+[         c        [
+[  1     c         [
+[                  [
+[         :        [
+[        :         [
+[        ++        [
+[                  [
+[        ++        [
+[                  [
+[      :::::       [
+[                  [
+[        ++        [
+[                 E[
+[[[[[[[[ (([[[[[[[[[
+~        >%         
+~       [[[         
+~      aaaaa        
+
+y ~(  >%
+R 39866
+0 8
+1 Laser Avoision
+2 ..r.....b..r.b.ltttr..r............lllbb
+2 bbbbbbbbbbbblbbrttttttt.bbbl............
+2 .......rttr.R.........Rr.lr.RR....R....R
+2 .R.rb.tl..r.Bllll.rtttttt..ttt.b.bbbbbbb
+2 bbbr.r..................................
+2 ...................................l.r..
+2 ...l.r.rl...l...b.b.R.....Rr.R....R.....
+2 ....R........R.R.......R.R........R.l.tl
+2 ..t....ttt..tt..tttttt.ttttt....rr...rrr
+2 t................brrrrrrrbbbbbrrr.b.....
+2 ..bbbbbbbb
+R 64694
+0 8
+1 Crazy Laser
+2 ..t......bbbbbbbbbbbbbblbbrt.t..t...tttl
+2 .t.rrrrrr.rllbbbr..............t........
+2 ...l..t.r.t..r........r.TLll.bbr........
+2 ......lltt.R..R........r....RRRRR.......
+2 .R.t..r.R.R.brll.l.r.lbbrtttttttt.....tt
+2 t..t.b.ttbbbbbbbbbbbr........b...b.LLLLL
+2 r..L......L.........L.l.t..t..lll....ttt
+2 ...ttttttttttttt...b....b..............t
+2 .t..ttttt.l.t...........................
+2 ..............r..rrrrrrrrrllrll..rrrrrll
+2 lll....llbbbblbbbb.bbbbbbrbbrrr.........
+2 ......lllttttttttttttttt...rrrrt.rr..r..
+2 ........rrrrrrrrbbbbbbbbbbbbbbr
+R 3755
+0 8
+1 Strange Laser
+2 .brrrrrrbltttr.lr....l.b..bbRtttttr.....
+2 ...ll......lr..rr.....llrr..l...bbr.....
+2 .............brrbllBtt...br.brrrrrrrrbbb
+2 bbbbbbllbbbblbbrttt.....................
+2 .................................t.t...b
+2 ...trbbt.tl.LLLLLLLLLLLLLLLLLLLLLLLB.b..
+2 ..r....ltL..LLLLLL.....ll.LLLLLLLLLLLLLL
+2 LLL....rb..............rttlllb.l.t.rtllr
+2 b.ll.rBbL......tlBr.bL.LLLLLLLLRrrb.....
+2 ...................tllLLLLLLLLLLrrb.....
+2 .tll.L....l.Lrrrrr
+
+uuid b37b27d37a30fb493562fbbc894cd5f2
+
+leaderboard steps time gems

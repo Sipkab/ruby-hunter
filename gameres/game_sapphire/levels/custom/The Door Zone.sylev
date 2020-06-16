@@ -1,0 +1,43 @@
+n The Door Zone
+D 9
+e 6
+s 0
+p 0
+M 0 Action
+i Even though you're using
+i doors, you still have to be
+i really fast.
+a Alexander
+m 40 20
+~ 1 Q #>$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$%
+~^ ## ################################# 
+~% ##E:*#                               
+~   # #$(Q          *  QQQQQQQQQQQQQQQQ.
+###R#B##############:##Q##########.####Q
+# R R Y #   #y R Y #$  Q(        (Q((Q#Q
+#R   G*G#   #B ###Y#####################
+# B R R ##### R# # #                    
+#R Y R R R R R #  Y#                    
+######B###### ##   #                    
+~   #       #R#   Y#                    
+~ ### ## #### #    #                    
+~#    #     #R#   Y#                    
+~# ##B#  # ## #    #                    
+~# #b # ## #0.#   Y#                    
+~# ## # #  #| #    #                    
+~#    # #  ## #   Y#                    
+~## # # ##### #  0 #                    
+~ ####      G ( Q. #                    
+~     #######*#....#                    
+y ~RrR##0R 
+y ~       Q
+R 82617
+0 0
+1 The Doorz
+2 r....llbrbrbbrbrrrrrttLrrbbbbbblblr....l
+2 lllBllllllttttttrttlllbblllbbbbrrrttLttt
+2 rtltltrtt.....
+
+uuid b54cc39488bbb7edd7f034e0944858a5
+
+leaderboard steps time

@@ -1,0 +1,98 @@
+n Critical mass (2)
+a Emerald Mine
+D 6
+e 45
+s 0
+i There are some different ways to solve
+i this level. The Demo 1 shows the chain
+i reaction method.
+m 64 32
+################################################################
+#E0.....  00 0..  .......0.0000..............0.00.0... ....00.E#
+#0.00.   ..... 0...0.0.00...  .0000000. 0.0 .. 0...0 000  ..00.#
+#...0 0..0. 0.0.00.......0  00. .0.00 0...0..0..0.  .0.  0 .0. #
+#00 . ...0.0.00.. 0000  .000. .0.......   ..0..00 .. .0.0  ..0.#
+#.  0. .00 .     . .0 .00. . .0..0..0.0 00.0  .0...0..0  ... ..#
+#0 .0....0.. ..0.... 0...0.  0 0.00 0.00... 0. .0  00... 00  .0#
+#...0. ...0 0.   000 ^..0 .. ....0. ^. . 0.0. . 0 0. 0... .00 .#
+#. 0. ...  .00  .00 .0000. .0. 0.. .00. . . . 00 .0.  0  ..0 . #
+#.. ..0..0 .... .... 0.  .0 .  .0.0..0  .  0 .0.. . .   0.00 ..#
+# .0.....00.. ..   0.  0...0..0.0..00....00..  .00..0..  ..0  .#
+#... .0.0..00. 0.  . .0..0...0...  0.0 0 0 0. . 000.. .0.00.0 .#
+#  0...0....0 0. ..00. 0..0. . .00.0.0 .0.0 .0 ^ . ..0 ....   ^#
+#... .00....0     .. 0.0 .  .00.   ...00. 0 0.. 00 . .^.0  ..  #
+#.0 00..^ .0..  . 0..0 .0 .0.0.0.00.. .. .0. .0.0..0 . 0...000.#
+#. .0.00..  .. ...0 .. ......00^00  .0.  0.0.0 0 0.0..00.000. 0#
+#. .. .00 ..00.0..0.0  .....0. 0.  00.  ^ .0.0 ..0 .0.0 .0..0..#
+#...0 ...0..0..00 0. 00.  ...0...0..0..00.  .0..  .0.0. . . . .#
+#0....0.  . ... ... ..00 .0.00^ 00....0.00. ..0.00   0..  .0.. #
+# 0 .0000  ..0 ...0.. ...... .0.. ..0. ...0 ...0. 0. .. . .0...#
+# 0  .^0. .0..00... 0. .0.00.00  .0.. 0.  .0.0000..0. .  .0..00#
+#.. ..0   00 0.0..0.. .0    .0.. 0..  ..0.0 0... 0 .. 0..0. . .#
+#.00 .00 ...0  .  .0.00.0 .00...0.0 0000...0. . . .00...00 ..0.#
+#..00.0 ..0.0 .  . ..0  .00.....0..0... ...00. 0 ..0..00 00... #
+#0 ..0... ........ .... .^ .   .0  . ..000^.0..0000.  .00^. 0..#
+#00 .0.0 .0.. ..00.0..0.00.0 .00  . 00 .. 0.0.0...^.0.0. .0 . .#
+# ....00. 0.. 0 .. .  . .. . .0 ... ..  .000   0.0. .0.0. ...0.#
+#.   0^.   . 0..00.0.00    0 0. 0.0. 00 ....  ...0.0.0.0.  .00.#
+#..0.0.0 ..0... ..00....0.0.   0  0 ..0   .0 .0. .00 .   ...0..#
+# . .0.00 .00^0 00....0..0.0 .    .. .00 0  .0000...0.0..0 0...#
+#. . 00... .....0.0.0..000 .12   000..0..0..  ..0.  . .0.  ..  #
+################################################################
+y $$$$^$$$$
+y #$#$^$#$#
+y #.##$####
+y $^$^$^$^$
+R 86103
+0 8
+1 Demo 1
+2 ..........t.t.t.t.t.t..........t...r.t.r
+2 .r.rb.b.........l......b.r.rlr.rb..tlllt
+2 lr.rtrlrlblr.rt.tbl.l.lbtrtrtttrlt..tllt
+2 lr.r.r.r...t.ltlltltlt.t.r.rl.l.blbt....
+2 ...r.......t.l.t.t.t....r...ttrrr.b.blb.
+2 llltlt.t...r...t..btbtl..b.b.r.r.r.rbt..
+2 .r.r.t......R..........rtt.t.rtr.rrr.rt.
+2 tlll.t.t.t.r.t.t.l...t.t.l.l.tltllllllll
+2 ll.l.l.brbtltbtblblblltltltltttttltltltl
+2 tlrlrl...bt.tltlt.rtr.r..l.lrlrl.l....l.
+2 lbtltlrtrtr........tlrl.btblblbbblblrlrl
+2 r..b.lrl......blbbrbrb.l.bb.b..br......t
+2 btrtrt.ttltlrlrt.tll.l.llltbtltltltltltl
+2 .l.llltlrtr.rbrbr.rl.llllrltlrlrbrbrbrbr
+2 btbrbrlrlrbrbrbrbrrrrr.r.r.rlr.rtrlrtr.r
+2 rrrrtrrrrrbrbrbrrrbrbrrrrrrrrrbrbrrrbbbb
+2 brlrlblblblb.b.lblbbbbbbbbbbbrbrrrrbrb.b
+2 .b.b.b.b.b.b.l.l.b.l.l.b.b.b.b.....l.l.l
+2 .l.l.l.l.l.l.l.l.l.l.......b.l.l.l.t.t.l
+2 .l.b.l...l.l.l.l....t.t...l.l.l....t....
+2 .blrlr.rtrttlrlrlrltlrltltlrlrl......l..
+2 ...b.t.t.t.r.r.r.b.b.......r...btbt.rrrb
+2 t.t.tbt..l.....r.r.b.btrtr.trtr.trtr.r.r
+2 lrtrtr.r..ll.t..........................
+2 ........tt.t.r.t...r...t.r.r.r.r...rbrrr
+2 rt.rtr..l.lr.t.trrbrb.ltrr..ttltlt.t.t.l
+2 .l..B.t.tBrRrrrrr..b.b.b.blbblbbbbblblbr
+2 brblblltlt.tb.bbbbl.l.bt.ltlrlrltttltlr.
+2 rt.t................b.rtbtrtrrrrrttttrt.
+2 l.l.l.l.l.l.r.r.r...........l.lR.l.l.blb
+2 tbtl.brbrbbrbr..rtrrbrbrbbbbll.ltl.lllrl
+2 .t.lb.r.rtrtrt.l........b.bt..tlt.t.tlt.
+2 t.lrlr.........t....b..t....r........l..
+2 ..l...r.r.rt.l.l.b.b.....trt.rrrrrbrb.rt
+2 btbrbrbrbrlblblbrrrrr.rtrrrrtrr.r......b
+2 tbtb.....lr.rbrbtbt.t.tt.............rb.
+2 b.lblb.b.l.lr.rt.t.r.rtt.t.r.rbtbt.t..bl
+2 lllblblbtbll.l.....b.r.l.l.l.l.b.r.r.btr
+2 rrtbtblbl.l.ltlt.t.rl.l.l..t.tltltttlrll
+2 lllbbbrb...l.l.b.brr...r.rl.lblblb.bl.l.
+2 tlt.t.t.r.rr...t.t.t.tllltlt.tbl.l.lbtlt
+2 ltrlrlblb..bbbblllttlt.t.tlrtrtttt.t.tr.
+2 ..b...........lrtttltllb.b...l.l.b.b.b.b
+2 .rrbtbtr.r....bblb.rrrtbt.ltll.l.ltlt...
+2 brbr.r.lttlrltlt.trrrr.r.rrrtrtrtrtrtrtr
+2 tttttttrtrlrltltltltlt.t............
+
+uuid 9099a3ccb2d4d0146bff27a066599f02
+
+leaderboard steps time gems

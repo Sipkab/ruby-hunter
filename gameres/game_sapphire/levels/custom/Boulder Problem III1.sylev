@@ -1,0 +1,47 @@
+n Boulder Problem III
+D 6
+C 5
+e 14
+T 1000
+p 0
+M 0 Dancing on the Ceiling
+i Great, now you only have 1
+i pillow...
+a Nic01
+f Nic01
+m 15 15
+###############
+###############
+##(*(ssss.S..##
+##**$sss...S.##
+##($ssS.....S##
+##$ssS.SSS...##
+##ssS.....S..##
+#SSS.......S.##
+#............##
+#             #
+# c      _    #
+#E       1!   #
+##            #
+###############
+###############
+R 12162
+0 8
+1 Demo 1
+2 .rrtllllllltl..tbr.lltr.brbblbLtrttlbrbb
+2 lltrbrtrttl.....ttbbrbltbbblltr.trttllbr
+2 trbttrt......br.lbbbltl.rbblt.blBrtrttll
+2 brrrtrtttbbbrblll.tllbrrrrtrtt.bbrbllllt
+2 llbrrrrrtrttbrbblllllbbbllTrttrttllbrrrr
+2 rrtrttbbrbllllllbbbllLtrtrttllbrrrrrr...
+2 r.trbttbbrblllllllblt.t..ltrrrrrrrtrb..l
+2 brtrrblllllllltllbrrrrrrrrrtrb.ttttbbbbr
+2 blllllllll..bllbrr.tltrttllbrrrrr..r.r..
+2 r.t.r.b.r.ttt...bbbttttltbrb.Lbbbb.lllll
+2 lllbblLttrttllbrrrrrrrtrrrt...t.bbl.rtut
+2 l.tltbrb..Lbbbb.lllllll..b.bll....Brtrtl
+2 ltLrbbblBlll.....
+
+uuid 74c2b5a9a167e8c562b83aea3b932187
+
+leaderboard steps time

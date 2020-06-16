@@ -1,0 +1,97 @@
+n Walk on the wild side (2)
+a Emerald Mine
+D 4
+s 0
+i Make an endspurt to reach the exit door!
+m 64 32
+################################################################
+#.........................#.............................#......#
+#....................... .#.............................#......#
+#...####################B##..####################.#######..^ ..#
+#...#20...................#..#..#^# # ### #.# #    ^ #  #..  ..#
+#...#.....................#..#..# #^# ### #.#####.#######..  ..#
+#...#...             ^....#..#... . . ... ..# #^     #  #..  ..#
+#...#... ............ ....#..#..# # # ###^#.#####.#######..  ..#
+#...#... .##########. ....#..#..# # #^### #.# #    ^ #  #..  ..#
+#...#... .#...0...1#. ....#..#.############G#####Y#######..  ..#
+#...#.0. .#.0......#. ....#. # ##                       #..  ..#
+#...#... .#... .0..#. ....##Y#G##                       #..  ..#
+#...#... .#... ....R. ....#.....#  ###### ######        #..  ..#
+#...#... .#.     ..#. ....###.###  #EQQQQ+QQQQE#        #..  ..#
+#...#... .#... ....#. ....#.....#  #Q.........Q#        #..  ..#
+#...#... .#...^....#. .0..#   ..#  #Q.........Q#        #..  ..#
+#...#... .##########. ....# . ..#  #Q.........Q#        #..  ..#
+#...#... ............ ....# .  .#  #Q...E#E...Q#        #..  ..#
+#...#...              ....# .. .#Q #Q....Q....Q#        #..  ..#
+#...#.....................#6 . .#. #EQQQQEQQQQE#        #..  ..#
+#...#.....................#. . .# ################+######..  ..#
+#...#######################  . .#Q..QQQQ..#QQQ..QQQQQQQQ#..  ..#
+#.......................... .. .#Q..Q..Q..Q##Q..Q......Q#..  ..#
+#   ..    .       ..        .. .#Q..Q..Q..Q##Q..Q...QQQQ#..  ..#
+# .  . .. . ..... .. ......... .#Q..Q..Q..Q##Q..Q...Q...#..  ..#
+#6..   .. . ..... .. ..   .    .#Q..Q..Q..Q##Q..Q.*.QQQQ#..  ..#
+#  ......   .     .. .. . .8....#Q..Q..Q..Q##Q..Q.*....Q#..  ..#
+#.  .   .  .. .....  .. . .    .#QQQQ..QQQQ##QQQQ.!QQQQQ#..  ..#
+#.. . . ..... 7     ... . .... .#########################.. ^..#
+#.  . . 5 ...........   .      ................................#
+#.    ...            8..........  o        o             ......#
+################################################################
+y y$b$r$b$$
+y ****r***g
+y ~        
+y ~        
+R 88130
+0 8
+1 Demo 1
+2 ..........l.l.lbb....r.r...t........L.Rb
+2 rrr.rl...t.l.l.b.rlrl.l.l.l...b.r.rtb.b.
+2 l.b.b.r.r.r.rbtbtbtbtbtb.l.b.b.b.t.t.t.t
+2 .r.......b...l.b.....t...b.b.b.b.b......
+2 .t.t.t.t.t.t.t.t.t.b.b.b.b.b.b.b........
+2 ....................bt.t.t.b.b.b...t.t..
+2 .bbbbbb.b....t....l.l.l....t.t.t.t.t.t..
+2 .tl.....l.l.l................r......t.t.
+2 t.t.t.t.r.r.r.r.r.r.r.r...b.b.b.b.b..rlr
+2 lr.llll.l.......r.rrr....r.r.r..........
+2 ........................................
+2 .....b.b.....l...l...b...r.r...l.l.l.l.b
+2 .b.b.b.b.b.b.r.r.r.b.b.b.r.r.r.r.r.r.r.r
+2 .r.r.r.r.t.t.t.t.t.t.t.t.t..........r.r.
+2 t.r.r.t.r.r..b.brb.l.l.tltll.l.ltltbtbtb
+2 trtr.r.rrrbtbrbrrrrrrrrrrb..l.lbb.b.b..t
+2 lblbbbbbbbbbbbblblblllllllllllllllllllll
+2 lllllllllllltttttttttttttttrtttttttttttt
+2 ttttrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrtrt
+2 rrrt.t.lrltl.llltltlllllllllllllllllllll
+2 lllllllllllblblblblblblbbbbbbbbbbbbbbbbb
+2 bbbbbbbbbbb.b.....b.b.b.b...............
+2 ........................................
+2 .................................b......
+2 .b.r.b.rrbbrbrrrrtrt.r.rr.r....b.br..t.t
+2 .r.r.r..b.rrrrrrrrr..r....r...r.........
+2 .......................r....rr.rrrr.r.rr
+2 .r.rrrr....rr.rrr......t.trt.tt.tt.t.ttt
+2 ttt.trtrttt.rt.ltt.tr..r.r.tttt.l.t.t.t.
+2 tttt.tt.trt.t.rrr.r.r.r.................
+2 ....r.r.r.r.rrrrr.r.r.r.r.r.rrrrr.r.....
+2 ...r.r.r.....r..b.b.b....r.r.r.rbbbb.b.b
+2 .r.rbrbrbrb.b.brbrbbbbbrbr.b.brbrbrbrbrl
+2 rl.l.lltltltltltltlt.ttltltltltltltltlll
+2 llllrlrlrlrlrbbbbbbbbbbbbbb......t.t.t.t
+2 btbtrrrrlrlr.r.r.r.r.r.r.r.rlrlrlr.b.b.b
+2 .br.rt.t.t.t.l.l.l.l.l.l.l.l.l.l.l.l.l.l
+2 .l.b.b.b.b.b.b.b...r.r.r..r.rbrbrbrbr.r.
+2 ..t.t.t.t.t.t.t.l.l.l.b.b.b.b.b.b.b.l.l.
+2 l.l.l.....r.r.r.r.r.r.r.r.r..t.tltltltlt
+2 ltltl.lb.b.b.b.b.b.b..........r.r.r.tb..
+2 l......l...r.t.t.t.t.t.t.t.t.r.r.r.r.r.r
+2 .r.r.r.r.r.r.r.r.r.r.b.b.b.b............
+2 ........................b.b.b.b.b.b.b.b.
+2 b.b.b.b.b.l.l.l.t.tttttttttlrltlrlrltltl
+2 tltlt.tltltltlllllt.lrlrlrlrl.lrl.b.....
+2 ...........t........u.t.............b.b.
+2 b.b.brbbbbbbbbbbrbbl.b.b..............
+
+uuid 6c0ffee5008a987ad09786937174d39b
+
+leaderboard steps time

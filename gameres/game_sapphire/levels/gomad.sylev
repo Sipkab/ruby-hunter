@@ -1,0 +1,53 @@
+n Go Mad
+ldeutsch n Zum Verr�cktwerden
+D 6
+C 4
+e 27
+s 0
+p 0
+d 8
+Time
+i It's a hard decision, which of
+i the enemies to kill first.
+i But probably you should do
+i something entirely different
+i at the beginning...
+ldeutsch i Es ist eine schwierige Entscheidung
+ldeutsch i welchen Feind man als erstes erledigen
+ldeutsch i soll. Aber vielleicht solltest du mit
+ldeutsch i etwas ganz anderem beginnen...
+a Ronald
+m 14 17
+~   ####      
+~   #QQ#      
+~   #QQ#      
+~   #QQ##d### 
+#####Q0.....# 
+#...#E%..#a.# 
+#.Q.....   ## 
+####  .+ k #  
+~ #*(^#( & #  
+~ #:# #+   #  
+~ #:# #  _ #  
+~ #:# #1@ ##  
+~ #:# #@.@####
+~ #:# Q###Q($#
+~ #:##$ ::::$#
+~ #*::::::*###
+~ ##########  
+y ~#  "  * 
+R 88678
+0 1
+1 Demo 1
+2 .t.......r.t.tttllLrttrrr.lllbbltt..b..t
+2 rrrr.............lllbbb..rrbbbltlttttrrt
+2 rrr..........lllbb..rrbbbbllbbLR..t...tt
+2 .ttt.l...............lr..t..bll......lbb
+2 ...Lttltllb..r..rr.tl...rb....rbbrrttrtt
+2 rrrr......l....l.bbbbllbbrrbrRblb..R..L.
+2 BtttlllbbbBttttttt.....tlllttt..........
+2 ....
+
+uuid 7eb75bf74e656c95090770f9cbc0076b
+
+leaderboard steps time

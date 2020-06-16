@@ -1,0 +1,87 @@
+n Robnviecha gschissane
+a Emerald Mine
+D 6
+s 0
+i The level name is an old austrian saying for things like that.
+i Play the level and you know what it means.
+m 64 32
+################################################################
+# 0 0   *#     0#    0   0 0#EE               ^            ^   #
+# . .   .#0    ..    .  *. .# .... ...... ....... .. .... .... #
+#  o  0  .. o   #       .   # ....  ^        .*.. .. ....      #
+#     .  #      #  o   o    # .... .... .... .... ..      .... #
+#        #   0  #          *#^        . ....    ^ ... ... .*.. #
+#     o  # o .  ###.################# . .... . .. ... ... .... #
+#        #      #0   0 0#...........# .      . ..     ^   ....^#
+#        #      #. o ...#...........#   .... . .. ......       #
+##########      #     o #........+..# .    . . .. ...... ..... #
+#0  0  00#   o  #       R........+oo# .. .  ^            ..... #
+#.  .  ..#*    *#*      #........+ r# .. . .. .... ..... . ^   #
+# o  *   ########. 0    #..1 ....+  #    . .. .... .*... . ... #
+#    .   #*     0  .    #........+ r# ..*. ..      ...     ... #
+#        #.     .       #........+oo# ....    ....     ... ... #
+#   o o  #   o          #........+..# ^    .. .... ... ... ... #
+#        #         o  ###...........# .. .... .... ... ... ... #
+#*       #            #.............#             ^          ^ #
+#.       ######.#############RR###############################R#
+#######.##   0#     0   *  0#  .............     ..............#
+#*   0   0   .#   0 .0  .  .#...............     ..0...0...0...#
+#0   .   .  0 #   .  .  o   #...............     .0...0...0....#
+#..         . #   o       0 #...............     ..............#
+#   o 0  o    #        0  . #...............     ..............#
+#     .       #        .    #...............     ..............#
+#             #      o      #...............     ..............#
+#             #             #...............     ..............#
+#   o         #   o      o  #...@...@...@...     ..............#
+#        o    .             #...............     ..............#
+#             #             #...............     ..............#
+#*            #      *     *#..@...@...@....     ..............#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 11825
+0 8
+1 Demo 1
+2 ...rrrrrbbbbbbrrrttrbbllll....r..ttt..tt
+2 ttttrrrb.tttlll....ll.....llllllbbbrrrrr
+2 rrttrrrbbbbbbbbblllllb.......bbbbbbbrrrr
+2 rrrrrrrbbb.......lltrrtlrrbbrrtlllllbrrr
+2 rrrrrrr.b.rrrrr.trrbrrrrrrrrrrrtttt.l.bb
+2 bbllt.r.lllllllllllbrrrrrrrrrrrrrr..llll
+2 lllllllllllllltllbrrrrrrrrrrrrrrrrrrrrrr
+2 rrrrrrrrrrlllllllllllllllllllttlllrrrrrb
+2 brrrrrrrrrrrrrrrrrr..rrr.....ttt.bbbllll
+2 lllllllllllllltllbrrrrrrrrrrrrrrrrrrrrrr
+2 rrrrrrr.llllllllllllllllllllltllbrrrrrrr
+2 rrrrrrrrrrrrrrrrr..t..blllllllllllllllll
+2 tt..llbbrrrrrrrrrrrrrrrrrrrrrrrrrttrrttt
+2 bbrrrrrrrbllllllllttrrrrrrrrrtlllllllllr
+2 trllrrrrrrrrrtllllllllltrrrrrrrrrtllllll
+2 llllbbbbb...bbrrbblrtrrrbrtrrrbrtttttttt
+2 tttlll..l.....lllllllllllllllllllllll...
+2 ..lrrrr.....................lll.....lltt
+2 llllttltt.....tb...tt.bbb...tttlllllllbb
+2 bbbllllttllllrrrrr............bbbbbbbbbb
+2 bbbbblllllltlllllbbblllltttttrtttt.....r
+2 rrrrtttttttttlltllllbbbbbbrrrrrrbbbbbbbb
+2 bbbrrrrtttttrr.....bbbbbrrrrrrrrbbrrrrrr
+2 tt..lttttlttltttt.rrbrbbbbbbbbblllllllll
+2 lttttttttrrttttllllttttt.t.b....rrrrrttt
+2 ttt...bbrrr.....lttl.......ll......rrr..
+2 ....t.llltbbbbbrrrbb....b..lbll.lltttr..
+2 .b....bbbrrrtrttttttllttltttll.rrrrrbrrr
+2 rrt.ttlllll.bblllbbrttrrrtlt....rrrbbb.l
+2 ltlllll.b..tttllllllbbbbbbbbblrrrrrllltt
+2 .ltttltttllttlllbbbbbbbb.....llllltttttt
+2 rrrrrrrrbbbbbb............tttttrrrrrrrtr
+2 rrbbbrbbbbrrbbbbbbrrrr.......tttttrrrrrr
+2 rrbbbbbbbllbrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+2 rrrrttllllttttlllllltttrrrrrrrttttllllll
+2 lllltlltlllllllllll.rrrrrrrrbbbbbbbbbbll
+2 llttttttttttllllllllttll........
+
+uuid a3c7855095289fd36f7fdc75b14f972b
+
+leaderboard steps time

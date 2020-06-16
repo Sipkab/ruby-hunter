@@ -1,0 +1,38 @@
+n Lockstep
+D 6
+C 5
+s 0
+p 0
+d 14
+M 0 Imperial March
+i This level looks simpler than it
+i is. That doesn't mean the solution
+i isn't simple; it just takes some
+i precision and a clear plan.
+a Alex
+m 15 12
+###############
+#...........Q.#
+#.............#
+#      d 1....#
+#         ....#
+#         ++++#
+#  lm     ++++#
+#   7  |  %E++#
+#     |   ++++#
+#    |    ++++#
+#   a     ++++#
+########a######
+R 87563
+0 0
+1 Demo 1
+2 .....................bbblll.ttt....bbb..
+2 ..ttt..................brrbb......lll...
+2 tt..tl.tt.rrrrrr.llllllbbrbrrrrrrrtttlll
+2 lll....l.........................rrrbbb.
+2 bl..bbbbbr..............................
+2 ...t..ttrr........
+
+uuid 0dcfd2a46b865799d6428d2614526662
+
+leaderboard steps time

@@ -1,0 +1,31 @@
+n Helium
+D 5
+C 5
+E 0
+p 0
+i You can explode the TNT box
+i to produce a large blast. But
+i this creates some gaps that
+i must be filled...
+a Alex
+m 13 11
+#############
+#           #
+#           #
+# 10        #
+#  #"    #  #
+#           #
+#     "     #
+#           #
+#           #
+#         @E#
+#############
+R 61096
+0 0
+1 Demo 1
+2 .......trr.bbb..mltt..rrrrbbbbb..rrr....
+2 .mlltt..rrrrlllbbbb.ssusscss........
+
+uuid 83eaff3020d17c4075ddd69c8e750c80
+
+leaderboard steps time

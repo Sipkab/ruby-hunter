@@ -1,0 +1,40 @@
+n Robots
+ldeutsch n Roboter
+D 3
+C 4
+E 0
+M 0 Imperial March
+i Hurry up!
+i The cops are
+i after you...
+ldeutsch i Beeil dich!
+ldeutsch i Die Polizei ist dir
+ldeutsch i auf den Fersen...
+a Reinhard
+m 15 10
+###############
+#w     Eooooow#
+#       oooooo#
+#  1   *  oooo#
+#     ***  ooo#
+#    *****    #
+#   .......   #
+#         ****#
+#w       ****w#
+###############
+R 89492
+0 0
+1 Demo 1
+2 ..bbrllttttlbbbb.rrrrrrrllllllllbbb.lrrr
+2 rrrrrt.rbrtr...bttttt.ltllll............
+2 ......l........
+R 79719
+0 8
+1 Demo 2
+2 ..ttll.bbbbrrrrrrr.lllllllllbb.......brr
+2 rrrrrbrrtrrrll.br.......rtttttttlllll...
+2 .....
+
+uuid 3306ed1b442bf9698409ace123cfa3af
+
+leaderboard steps time

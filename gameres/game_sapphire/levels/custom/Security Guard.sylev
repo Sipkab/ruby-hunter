@@ -1,0 +1,35 @@
+n Security Guard
+D 3
+C 3
+p 0
+o 4
+M 0 Staying Alive
+i For some reason, you need to steal
+i four sets of keys to successfully
+i escape.
+a Shark
+m 15 8
+###############
+#* R 1 S   Y *#
+#**#   S  g##Y#
+####   *    r #
+#* G   #      #
+####   #   ob #
+#* B  #Qy     #
+#####EQ#Q######
+R 5773
+0 0
+1 Demo 1
+2 ..bb.rrr..tr.Rlbbbbrrrrtttllttrr....bt.b
+2 t...bt...llllbblllllttllbrtrbbbll..rrbll
+2 blLrrb.....
+R 96290
+0 0
+1 Demo 2
+2 ...rbbr.tll.rrr.b.....trlb.r..trb..tr...
+2 lbb...ttr.rrrtrrbbbllBttttrrrrblbblll.lt
+2 tllllttllbrtrbbblLrbbl.Lrrb.....
+
+uuid dbb966b7af2cb3ee8f40a7d607c4b6
+
+leaderboard steps time

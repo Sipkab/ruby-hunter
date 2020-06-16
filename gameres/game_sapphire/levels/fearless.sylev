@@ -1,0 +1,41 @@
+n Fearless
+ldeutsch n Furchtlos
+D 7
+C 5
+p 0
+M 0 We built this City
+i Don't be afraid,
+i this level looks harder
+i than it is.
+ldeutsch i Keine Angst, dieser
+ldeutsch i Level schaut schlimmer
+ldeutsch i aus als er ist.
+a Ronald
+m 11 12
+###########
+#Q000#0*0*#
+#.0$. *000#
+#*$*$#.*0*#
+#+Q#Q#.000#
+#+Q###.1..#
+#+++@##$###
+#   |# # 7#
+#  |##6   #
+# E##  E 8#
+####  5   #
+###########
+R 4200
+0 1
+1 Demo 1
+2 .B.L..r...L..l.tlttrrbrllltll...L..bl.l.
+2 .L...rrrtl.........lbbbbblbb.r..........
+R 17753
+0 0
+1 Alex
+2 .....B...L...r.......L......l...tl....tt
+2 rrbr.....llltl.....l.B..l.bllt..rrrr....
+2 rrb....tlllbbbbbbb.r...........
+
+uuid 6fba188892f5a6c7653e28e9baaa7272
+
+leaderboard steps time

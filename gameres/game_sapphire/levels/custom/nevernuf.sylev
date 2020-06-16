@@ -1,0 +1,80 @@
+n Never Enough
+D 5
+C 6
+s 0
+p 0
+i You have more resources available
+i than you might think.
+a Alex
+m 22 22
+######################
+#....................#
+#.......Q......00Q00Q#
+#..####B|............#
+#..#    #......0Q00Q0#
+#..# ** #......++++++#
+#..# ii #1...........#
+#..#5  k#............#
+#..#####&....Q.......#
+#.Q..................#
+#.........+++.....+..#
+#.........+b+.....+Q.#
+#.........+++........#
+#..................|&#
+#00....c..........|+0#
+#*00...+.........|+$0#
+#00*0...........|+00|#
+#0000..........|+00|+#
+#000...........+00|+*#
+#0E.............0|+..#
+#0000................#
+######################
+R 11038
+0 0
+1 Demo 1
+2 .........l.b...tttttt.................bb
+2 .bbbbb.l.rr...t.ttttrrrrr.lbbbr........b
+2 lllll......br..ttrrrrblll..b...l..tlll.b
+2 .......l..b..rttrrbl.....llbb..B..ttrrrt
+2 rrrb.lll..........lblr....lll.......bbbl
+2 ....................bbbb..........lBr...
+2 tttttttllL...rrb..b..lllllttrrrrr.rbbbb.
+2 ......R..rtrr..llllbbbbbRtl.lLr.......bb
+2 .L.tr..ttllltllB.rrb.rrrttttttrrrt......
+2 ....rrrrr.....rrr..b..b.......llbll.b..t
+2 rrtrr.........tttt.b..rrr..bbbbb...ttttt
+2 t.bllllllttttr..........Rl......rrrbbbb.
+2 ..brrbbrbllllllr......llll...rrttttttttt
+2 llllll..........bblLbr.bLttttrrrrrrrrrrb
+2 rR.l.....bbbbbbb.....rrrbbblttttttttl.bb
+2 bbbb.lll..bllblllll.rrrrtrrrblllllll..bb
+2 lbb.rrrrrrb......bb.llllllrrrrrrrrrrrrrt
+2 t.bbllllllllllrrrrrrrrrrlllllllrrrrrrlll
+2 ll.rrrr...ltlllllllllllllll.......
+R 83262
+0 0
+1 Alex
+2 .....btttttt..bb.......bbbb....r..bl....
+2 .bl....bblt.t.rrt..............r........
+2 trrrrttttRbbbbr..........llll...bl.rrtrr
+2 blll.................lblr...............
+2 llll.bbbb.r..R.l.t....R.b.r.l..bbb.....t
+2 ttt.r.R.ltttllL...rrbblllll..ttrrrrrrbbb
+2 b..t...........rrrbl..llbbb.rbl.....blLr
+2 .ttttlllb.trr.bbl..T.br..tttllll.b......
+2 ..trrrrrtttt..trrrtttttttllbb..rrbb..bbr
+2 rrrr.bb................rrr.bb.tttt......
+2 .......llrbll.ttttrr.ll......rr.bbbb..rb
+2 bb....b...b................llllBrrrrrtrr
+2 bllllllr.....llllL..rttttttttt.rrrrbbbbb
+2 b..brrrtttbbbbbbtttttt.b..lll..bb..ttttt
+2 tR.t.b.r....Rl..bbbbbbb...........rrr.bb
+2 b...tt.lllll..blllblL.rrtrrblllllll....t
+2 ttttrtttttt.ll...bblL.brbLttttrrbbbbbbbb
+2 bbbbbbblL...rrrrrr.bbb.lllllrrrrrrrrrrr.
+2 Tl.RT.lllllllllrrrrrrrrrllllllllrrrrrrr.
+2 lllllllrrrrrr..ltlllllllllllllll.......
+
+uuid 9e5b3607fc58f71253d0fbe355ee1831
+
+leaderboard steps time

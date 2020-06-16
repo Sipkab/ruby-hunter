@@ -1,0 +1,59 @@
+n Mutual Exclusion
+ldeutsch n Ausschlie�lichkeit
+D 4
+C 1
+E 0
+M 0 Tico Tico
+i As you will quickly realize,
+i only one player may enter
+i the game at a time.
+ldeutsch i Wie du bald merken wirst,
+ldeutsch i darf immer nur ein Spieler
+ldeutsch i den Level betreten.
+a Reinhard
+m 17 13
+#################
+#..0.#  $#Q G ..#
+#..*rY $$#. #...#
+#.0*y#$$$B *#.0.#
+#*...###R#**#.0.#
+#..*......###...#
+#. .###.....#.@.#
+##G##Q#####.#..@#
+#...b$.0..#.#...#
+#.......g.B.#@@.#
+########.########
+#E B R1.0.2Y G E#
+#################
+R 32342
+0 1
+1 Demo 1
+2 .........l...r..r........l..l....l...t.t
+2 .b.b...r.r..r.r.r...r...t.t.l.l.t...l.l.
+2 l.l.......r.r.r.r.r.r.b.b.b.l.l....l.l..
+2 .t.t...r.......r...r...t.l...l.l.l.l.l.l
+2 ...t.....t.r...l.l.t.t.t.....r.r........
+2 ...l.l...b.b.b.r.r.r.....t.t.....l...r.b
+2 .b.r.r.r.r.r...b.r.r.b.b.b.l.l...t.t.t.l
+2 .l.l.l.t.l.l.l.l.l.b.b.r.r.r.r.r.r.b.b.b
+2 .r.r..r...r.r...t.t.....r.r...t.t.t.l.l.
+2 l.l.t.l.l.l.t.t...b...t.t.b.b.b.r.r.r.r.
+2 r...b.r.r.b.b.b.l.....l.b.b.l.l....l.l.l
+2 ...l.l...t.t.r.r...r.l.t.l.l.l.l.l.l.t.t
+2 .r.r...t.t.t.r.r.r.t.b.b.l.l.t.....l...b
+2 .b.b.l.l.b.b...r.r.r.r.r.r.b.b.b.r.r..r.
+2 r...t.t.r.r.t.t.t.l.l.l.t.t...r.r...b.l.
+2 ..t.t...r.t.....r.......b.b.l.l.l.b.b.r.
+2 r.r.b.b.b.l.l.b.b.l.l....l.l...t.t.r...l
+2 .t.l.l.l.l.l.l.t.t.r.r.r.r.r.l.l.l.t.t.t
+2 .r.r.b.r.r.r.r.t.t.r.r.r.....b.b........
+2 ...B...t...l.l.b.b.b...r...R...l.....b..
+2 .......r...R.....l...b...........b...r..
+2 .t...l...t...r.r...b.b.b.l...L...r.t.t.t
+2 .t.t.t.t.t.l.l.l.l.b.b.l.l.b.b.l.l.t.l..
+2 .b.b.b.l.l.b.b.r.r.r.r.r.r.b...b.b.b.b.r
+2 .rlrlrlrlrlr............
+
+uuid b3c095786a73090bfa84c6661691f4b7
+
+leaderboard steps time

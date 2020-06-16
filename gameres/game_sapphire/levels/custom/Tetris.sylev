@@ -1,0 +1,159 @@
+n Tetris
+D 5
+e 87
+E 23
+p 6
+d 100
+M 0 Staying Alive
+i They ARE in groups of 4.
+i 
+i Too bad you can't rotate them.
+a Alexander
+f Alexander
+m 20 125
+####################
+#                  #
+#                  #
+#        $         #
+#dddd    $    $$   #
+#       $$    $    #
+#             $    #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#             0    #
+#        000  0    #
+#   0      0 00    #
+#   0              #
+#   0   00     0   #
+#   0   00     0   #
+# 0            00  #
+# 0        00      #
+# 00        0      #
+#           0      #
+#     0000         #
+#                  #
+#                  #
+#             00   #
+#      000     0   #
+#       0      0   #
+# 0                #
+#000               #
+#                  #
+#                  #
+#                  #
+#                  #
+#   $              #
+#   $              #
+#   $$             #
+#                  #
+#                  #
+#           $$$    #
+#       *    $     #
+#       *          #
+#     0 *          #
+#    $00*          #
+#                  #
+# *                #
+#***               #
+#          ****    #
+#                  #
+# $                #
+#$$$               #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#QQQQQQQQQQQQQQQQQQ#
+#            0     #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#            (Q    #
+#            Q(    #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#         0000     #
+#                  #
+#                $$#
+#                 $#
+#                 0#
+#  000             #
+#   @              E
+#       000        #
+#         *        #
+#                  #
+#                  #
+#           $00$   #
+#                  #
+#    $*            #
+# 0  $0            #
+#00                #
+#0                 #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#                  #
+#1     !           #
+####################
+R 8724
+0 8
+1 B Fast
+2 .rrrrrRll...RRRrtrrB.rr....tttt.rrrrbbbb
+2 rbrrrtrlllllttttttlllllllllbbbbbbBL.L..l
+2 lltbbrrtrTBrBttttr...r...rrrr....rr.rbrb
+2 rbrbtttllllllltllbrllb.urrrrrrrrllllllbb
+2 brBlttttttttttrrrrrrrtttttttttrrrrr.....
+R 20947
+0 0
+1 Demo 2
+2 rrrrrRlltttrbbBrtrrrrrrcBrrrrrbrrtRllB.l
+2 llllBtlllbBttrrrrrrttlllllllll..llbbbblb
+2 rrrRlttrbbLtrrltttrrttttrrrr....llbbbllb
+2 bttrrrbrrrrrrbbrbrBtttlllllllllttttttttt
+2 trrrrrttttttrrrrrr......................
+2 .......
+
+uuid 116dfce2c6acf3c1d05b2f13e258617b
+
+leaderboard steps time gems

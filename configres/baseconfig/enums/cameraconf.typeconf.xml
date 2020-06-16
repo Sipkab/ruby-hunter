@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config xmlns="bence.sipka.types.config" >
+
+    <declare-enum name="CameraFacing" >
+
+        <enum name="FRONT" />
+
+        <enum name="BACK" />
+    </declare-enum>
+
+</Config>

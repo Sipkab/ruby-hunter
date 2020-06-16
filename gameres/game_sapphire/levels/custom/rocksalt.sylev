@@ -1,0 +1,32 @@
+n Rock Salt
+D 6
+C 3
+E 0
+p 0
+i This is one of those levels
+i that seems impossible at
+i first. Fortunately, you have
+i several resources available.
+a Alex
+m 11 11
+#####E#####
+#000...  0#
+#00...  0$#
+#0...  0$*#
+#...  0$*.#
+#..  0$*..#
+#.  0$*...#
+#  .$*....#
+#1!.*.....#
+#.........#
+###########
+R 35034
+0 0
+1 Demo 1
+2 ....r....tt......ltr.ltr..rr..tttl..bl..
+2 r.bbbb......bbrt..rt........st....rtrtrt
+2 ll..lltt........
+
+uuid 663e8622ab8b2e864a2cfcb4b2347ae9
+
+leaderboard steps time

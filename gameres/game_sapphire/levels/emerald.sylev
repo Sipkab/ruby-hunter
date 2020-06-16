@@ -1,0 +1,38 @@
+n Emerald
+ldeutsch n Smaragd
+D 4
+C 6
+E 0
+T 1000
+M 0 Don't you forget about me
+i Playing this level is
+i like moving on thin ice.
+ldeutsch i Diesen Level zu spielen ist
+ldeutsch i wie das Gehen auf dünnem Eis.
+a Reinhard
+m 13 13
+~     #      
+~    #0#     
+~   #$$*#    
+~  #$$$**#   
+~ #$$$$***#  
+~#$$$$$****# 
+#1$$$$$****E#
+~#****$$$$$# 
+~ #***$$$$#  
+~  #**$$$#   
+~   #*$$#    
+~    #Q#     
+~     #      
+R 27707
+0 8
+1 Demo 1
+ldeutsch 1 Demo 1
+2 ..rtr.t.rt.r..t.b.r...B..t.....l..rr.br.
+2 br.ll.tl.tll..bbrrr..r.l.br...r...R.l..r
+2 ..l.b.r.r.B...l..ltlllllbrrrrrrblllllllr
+2 brrrrrrlbllllrbrrttttrrrrr.......
+
+uuid 9ff42ff59c39f05ad9668b687afb2e04
+
+leaderboard steps time

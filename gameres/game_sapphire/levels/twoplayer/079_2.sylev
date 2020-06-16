@@ -1,0 +1,52 @@
+n Get connected (2)
+a Emerald Mine
+D 5
+e 92
+s 0
+i Little puzzles, connected with
+i invisible ways.
+m 64 32
+################################################################
+# rr12 i   i   i   iii    i iii iiii+EE$+iiiii   i    i i      #
+# i ii   i   i i i    i i     i ii  B $$+   i  +B++B+B+B+B++ii #
+# i+++++++R+++++  ii G+G+++++ii    i+$$$+ i ii+ 7  7     7  +  #
+# +  0...   ... +  i+     .0 +  i  i +++i i   B +++++++++++ + i#
+# +....0...0....+i  +   ....0+i  i    i iiiiii+ +  5      + + i#
+# +.......0...0 R i +.0......+    ii i        + + +$$$$$+  8+  #
+# +...0. 0.0....+   + . 0....+iii  i i iiiii  +6+ +++++++ + +i #
+# +. .....0..0..+iii+........+   i i i i   ii B + 7    7  + +i #
+# +.0. 0 ...  ..+   +  .. ...+ i i  i  i i   i+ +++++++++++ +  #
+# +.  ......  . +i i+ @ . @  + i ii    i  ii  +   5     5   + i#
+# +... .   .... R  i+..@@@.@@+ i  i#####GG### i+B+++++B+++++i i#
+# +cccccccccccc++i  G ..@.@@.+  i  #   aa  a#  i     i  iii    #
+# +             R i + ...@@..+i i i#   QQ0 Q#i i ii iiii    i i#
+# +          .  + i + .......+ i   #........#  i   i   ii iii i#
+# +y           y+ i iG+++++++i   ii#        #i i ii  i  i   i  #
+# i++++++++++R++i i   i     i  iiii#    +++ #  i  i  i  i i iii#
+# i   i    i  i    i    ii  ii     #  ++++++# ii i    i  ii   i#
+#   i i ii i i  iii iiii  i  iiiii G +++++$$#   ii i i  i   i i#
+#iii  i   i  i    i     i  i      i# +b+++$$# i  i i++B++++++  #
+#     i  i  ii ii i i  i  i i  ii i#G######## ii i +   Q Q   + #
+# i i   iiii      i  i  i   i i i        i   i i i +   .Q.   + #
+#  i  ii     +++++++Y+ i ii i iG++++G+ i i i i   i +   ...   + #
+#   ii    ii+         +     i +    i  +    i  ii   +   ...   + #
+# i   iii  i+ o       + i  i  + ii i i+iii i   i ii+   .u.   B #
+# i i   ii i+  $$w$$  Y i i  i+ ib i  +   i ii i i B   ...   + #
+#  i  i    i+  .g.g.  +i i  i G iiii i+  i     i iii++B+++++Bi #
+#i  ii  iii +         +   i i +       +i i   ii  i  ii  ii i   #
+#  i  ii    Y         + i   i  +++G+G+     i  i ii    iii  i i #
+# i i    i iiY++++++Y+i  iii  ii   i  iiiii  i     ii     i i  #
+#     ii   ii i         i        iiii      i i ii   i iiii    i#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 2198697205
+0 8
+1 Demo
+2 llbl.l.lt..brbrbrbbbrbrbtbrbrbbbbbbblbbblbbbbbrr.rb.rtbrlrlblbbbllllllrltbtbrbbbtttrrrtbt.lrlrbbbrtrtrtbtrrrrrrtrtblbtrtrrbrrrbtbtbrrrrtrtttrrttlt.rtt.rttltltltllr.t..b.b.l.tr..b.l.t.t.l.b.l.l.l.b.l.T.l.l.l.l.l.l.rlrlrtrtrtrtrlrlrbrlrtrlr.t.t.r.bl.t.l.l.lblblbllblblbbblbbbbbbblblbbblblblbbb.b.bbbrbrr.rrtrrrrbrbrlllrlbtllb..lbtllllltllllbbbbbbrrrbbbrlbbrbbbrrrrbrrrrrtt.rr.rrrrttt..r.r.rl..rtrtrrtrtrttrrBrrtttrtrrbtr.rrbrbtbtbtbt.l.brbrbrlrltltltlrlrlblrlrltltltrrrrrtrrrtrtrtrtrtrrrrrrrrrbrrtrtb.rrrbrbbblbbbbbbblblllbllb.lblblllblbll..lbtbtltbtlrlrlrbbbbrrbLbtltlllllltt.bt..blllblbtbl..rlrt..rlrlrbtbtb.r.b.b.l.b.b.r.r.r.r.t.r.r.r.t.r.r.r.t..t.tb.t..t.tb.r.r.r.r.r.t.t.t.r.r.r.b.b.b.r.r.r.t.t.t.r.r.b.r.r.t.t.t.r.t.r.t.t.t.t.t.l.t.l.t.l.t.l.l.ltbtl..tl..tt.t.t.t.t..r.r.r.T.l.lt.t.r.r.b.t.l.l.t.t.t.t.r..brrrrbr.tb..rb..r.r.t.l.l.r.t.l.l.l.lr.b.r.b.B.t.l.t.l.l.b.r..r.rr.r..r.b.b.b.b.b.r.b.lb.r.b.b.B.t.l.b.b.B.t.l.t.t.l.l.T.l.b.....b.r.......r.b.b.r.B.l.....t.r.l.b.b.r.B.r.B.l.l.r.t.t.t.r.r.r.r.t.t.t.T.l.b.b.l.b.......r.r.b.b.l.B.r.....t.l.l.l.b.B.t.r.r.r.t.l.t.t.t.t.T.r.b.b.b.b.b.....b.b.l.L.l.t.l.l.l.l.l.b.b.b.b.r.r.t.r.r.r.r.b.b.r.b.r.b.r.t.r.r.r.b.b.r.r.r.t.t.r.r.t.r.r.b.B.ttttttttttrtrt.lr.t.tttlltttttrrrtrtt.r.rrrbb..rb.rrrbbrrbbbrrb.bbr..bbbbbbbbbbllbbbbrrrrbbrrbbbbbbbbrrrttr.r.ttttttttttttrrttr.ttrrttrrt.rrrbbbrrbbbbbllbbbbbl.t.b.r.llbbbbbbrrR.llllttttbbrrrrrrrrttrrrrrrttllL.rrrr.bb..l.lllllll.l.l.b.tb.l..ll..ll..lt..bbbbbbbrrrrrrtt.t.t.tt..............r.r...........l.bb..bllbbbbbbllbbtr.lllttttr.rrrrrrrrrrrtrrrrtrtrtrttttllttltltlt.lttllttllll.ttltlltlttlltttltttrr.l.ltt.trrttrtrrrrtrrtrrtttttrrtttttrrttttlltlltlttlrtrttrttrrtrrtttrttll..r.ttt.tllllllll..b...r.r.b.b.b.b.b..lbbbrlrlblblbllllltlllllb.llllltlttll.l.b.b.b.r.r.r.r.r.r.rt.trltltlrll.tl.llllllllblblblbllblblbtrlrtrtrlrt.trlrlrt.ttttrrrrrbtbrbrbrlrltlblbllllltltl.l...l.l.t.t.l.t.l.t.l.l.l.l.l.l.b.b.b.b.l.l.l.t.l.t.t.l.t.l.l.t.t.t.r.r.r.t.r.r.r.t.t..........
+
+uuid 1d7fa79cae2736e64ac98d464b20ebfd
+
+leaderboard steps time

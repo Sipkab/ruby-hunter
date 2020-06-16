@@ -1,0 +1,44 @@
+n Order of Operations
+D 4
+C 6
+e 10
+p 0
+M 0 Money for Nothing
+i You need to place the items
+i into the converter in the proper
+i order.
+a Alex
+m 15 19
+###############
+#.............#
+#..Q...Q......#
+#..0...@......#
+#..........0..#
+#.............#
+#........++ ++#
+#........++ ++#
+#........1+$++#
+#.........+c++#
+# #######+++++#
+#QQQQQQQQQQQQQ#
+#+###########Q#
+#EQQQQQQQQQQ#Q#
+###########Q#Q#
+#QQQQQQQQQQQ#Q#
+#Q###########Q#
+#QQQQQQQQQQQQQ#
+###############
+R 79712
+0 0
+1 Demo 1
+2 .......llllllll.b..tttttttr.trrbl...r.rr
+2 trr........brrrrrtllllllllbrrrrrrrr.....
+2 ...bbb..ttllbr...bbbb..tttt.rrbl........
+2 t..ll....blllllllt.bl..rrrrrrrr..llltlb.
+2 rrrr.............lllllllll...rr..tttlbbb
+2 bbbbrrrrrr.........rbbr.R.R.Rlllllllllbb
+2 ..................
+
+uuid 040c93cee9514653313b59e85e4f2c1e
+
+leaderboard steps time

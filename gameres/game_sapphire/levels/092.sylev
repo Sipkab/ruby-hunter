@@ -1,0 +1,84 @@
+n Symbiosis
+ldeutsch n Symbiose
+D 3
+C 5
+e 25
+s 0
+i Another help each other level.
+i The one player version is only a
+i modification of the two player
+i version.
+i You have to go into symbiosis
+i with yourself.
+ldeutsch i Wieder ein helft-euch-
+ldeutsch i gegenseitig-Level.
+ldeutsch i Weil sonst niemand da ist, 
+ldeutsch i musst du dir selbst helfen.
+a Emerald Mine
+m 64 32
+################################################################
+#.........0.0.......0*.....0..0....0.*.0.....0.0......0........#
+#.... .......0.0....0.000.000..00..00.00.0.00...00.000.0.......#
+# ......0.0.00..000.0.000...000..00000000000..00000.00.0.. .. .#
+#..... .0........0.....0..00.0......0.......0.0................#
+# ###ssssssssssssssssssssssssssssssssssssssssssssssssssss##. ..#
+#......... ....00 .   .0.  0.  0.*. .0  .0.0    .00 00  ..#....#
+#... ...00..0......0..00.0........00..0.00.0...........00.#.. .#
+#1... ....00.0..*0.0..00.0.0..000.0.0.0.0*...000.0.0.0....#....#
+#..................00... ......0..0.0.....0....000........#... #
+#########################################################.#....#
+#................. ..0.....  ............ ...... .........#. ..#
+#..... . .0...... .. .. . .....0..000..0... ..0.... . .####.. .#
+#............ ...*........00.....00000....0.....0.........#....#
+#.. .....000......00.0.0.0000.0.00000000...00000..00000...#. ..#
+#....##cccccccccccccccccccccccccccccccccccccccccccccccccc##....#
+#....#...0.......0........00...0.....0.....000.....0...........#
+#....#.. ... ......0.... ..0..0 ..0...00.0..... 00..0.0........#
+#. ..#.....0.0.00.0....00.. .......0. ...0.0 ..0.0.......0.. ..#
+#....#. .0.0........0.0...0.....0...... .. ..00................#
+#....#....######################################################
+#. ..#...................................0............ ..00....#
+#....#... ........0.. ....0.........0.... .0...0.0. ...........#
+#....#.....0.0........ ... ....0............ . ..0.............#
+#.. .#.......................00. ......... ..0................E#
+#....#sssssssssssssssssssssssssssssssssssssssssssssssssssssssss#
+#.........................@..............@......Q.@..@.........#
+#...........Q...Q....Q...............Q.....QQ...Q..........Q...#
+#..... ..@..................@....Q......Q..Q.Q.@.QQ....Q@......#
+#...........Q...Q....@.....Q..Q...........Q...Q.Q..Q..Q........#
+#....................................@....Q......Q..........Q.E#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 48477
+0 8
+1 Demo 1
+2 ...rrrbrrrrrrrrrrrrttrr...t.rrrr.l......
+2 lbbrt..bbrrr.....rr..tt.l..b.lttrr.b..rr
+2 .......bbrtt..rrr..rt..b.b....B.ttr...r.
+2 .....r............br......bbrrrr...t..r.
+2 .....tlllb.tt...lllllrrrrrrr.bbrrtrrr...
+2 .r.b.tt.brr.bbrrtt.ll..rrrr....tl..rrrrb
+2 b...llltrrrbbbblllllllllllllllllbblltltl
+2 lllblbll..r.btllb.t.ltlllblb.tlbblbtllb.
+2 tll.t.llbbb....r...llt..bllltllllbltrrtr
+2 rrrrbb.ttrrrrllllllllllllbbllbbbbbbbbbbb
+2 bbbbb.tttttttttttttttttttrrrrrrrrrrrrrrr
+2 brrrrrrrrrrrrrtrrrrrrrrrrrrrrrrrrrrrrrrr
+2 tttttlllllllllllllllllllllllllllllllllll
+2 llllllbllttlllllllllllllttrrrrrr..rrrrrr
+2 rrrrrrrrtttrrrrbbbrrrrrrrrrrttrtttr.lbbb
+2 rrrrrrrrrrrrrrrrrrrrrrrbbbbbbbbbbbbbbbll
+2 lllllllt..rrrrrrrt.lllllll....t.rrrrrr..
+2 llbbrb.tllbtllt..lt.llll...........bbl..
+2 tlll.t..rrbrb.rbtr.lltl..llllbbllll.trrr
+2 r.t...lllllllll...rrrrrrrr.llllllllllbbl
+2 l.ttl.....l..blllllltlllblllllllllllbbbb
+2 brrrrrrrrrrbbrrrrrrrrrrrrrrrrrrrrrrrrrrr
+2 rrrrrrrrrrrrrrrrrrr.......
+
+uuid a2b98c10263ce9ce6a67c90bd1b06c6d
+
+leaderboard steps time gems

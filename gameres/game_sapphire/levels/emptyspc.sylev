@@ -1,0 +1,46 @@
+n Empty Space
+ldeutsch n Zwischenraum
+D 5
+C 5
+E 0
+s 12
+p 0
+M 0 Tico Tico
+i You need something
+i to fill it up.
+ldeutsch i Du brauchst etwas, um
+ldeutsch i den Zwischenraum aufzuf�llen.
+a Alexander
+m 14 18
+##############
+#1       ( # #
+#        . # #
+#          Y #
+# Q      y # #
+#B### ###  # #
+#     %##  :$#
+#      #####:#
+#      # "  $#
+#      #######
+#b0    #    E#
+#####  #######
+#            #
+#            #
+#            #
+#            #
+#aaaaaaaaaaaa#
+##############
+R 21743
+0 9
+1 Demo 1
+2 ...bbbrrtrrrrrrt.lb...lll.bbbbbbllllbrr.
+2 ........................................
+2 ........r.lllttttttrr.b.................
+2 ..............trrrrrrbllltlllb..........
+2 .....................rrrrr.........rrbbb
+2 bbbtttttttrrbbbtttlbbbbbrrlblbbrr.......
+2 .
+
+uuid f61d2a3f9fcc7b42ac5c06d805e14100
+
+leaderboard steps time

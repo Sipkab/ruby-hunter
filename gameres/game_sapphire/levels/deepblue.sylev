@@ -1,0 +1,56 @@
+n Deep Blue
+ldeutsch n Deep Blue
+D 6
+C 6
+e 159
+E 3
+T 1000
+M 0 Bond
+i As any grandmaster knows:
+i It is sometimes necessary
+i to sacrifice a pawn
+i to win the game.
+ldeutsch i Wie jeder Groﬂmeister weiﬂ,
+ldeutsch i ist es manchmal notwendig
+ldeutsch i einen Bauern zu opfern
+ldeutsch i um das Spiel zu gewinnen.
+a Reinhard
+m 20 20
+####################
+#0$. B..$$...B ..b0#
+#00..#.......#..00$#
+#$$$.#..$$...#...$$#
+#b$..#.$.....#..$$$#
+######.......#######
+#$.....#####.......#
+#..$.#.......#..$..#
+#....#.......#.....#
+#.$..#...1.0.#.....#
+#$...#.......#...$.#
+#$...#.............#
+#.$..#$$$$$$$#.....#
+#......#####......Q#
+#B####.......#####B#
+# ...#.0$...0#.00$ #
+#....#0$$000$#0$$$.#
+#...b#$$..$.$#b$$$.#
+#.E.$#$$$...$#.$$$.#
+####################
+R 20077
+0 1
+1 Demo 1
+2 .......lll.b....b...rt.lttttt.r.lt.rrl.t
+2 t...rrr....l.bb.llb.l.bbb.r.rrrb.trrblll
+2 ll..bbrrrrrrrrr.t.br.lllllllllltll.brrrr
+2 rrrrrrrrrrrr.trrbbttllbrrr.......rbbbb..
+2 .....L.b......b....B...l...B.......Tl..B
+2 ..Tl....TB.L.rrrrtttttt.ttttllltlllttttt
+2 rr..rrlll.bbbr..r..r.tr....B..Tttlllllll
+2 lllllllrrbb.ll...B.l..B.r..rrtrrtrrbbbbl
+2 bbbbbbbrrrrrrrbbllllbb.l........bbl..ttr
+2 rbbrrtrr....Bttlltllllttllttttttllttlbbb
+2 rblbbr.lbbbbrrr.bll..............
+
+uuid 69811e4693ea69a587f39b6db6161277
+
+leaderboard steps time

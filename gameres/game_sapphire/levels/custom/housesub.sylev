@@ -1,0 +1,57 @@
+n A House Subdivided
+D 5
+C 5
+E 0
+T 1600
+p 0
+i An exercise in efficient
+i stone management.
+a Alex
+m 17 17
+#################
+#..0......+...#E#
+#.0$0.....+..1# #
+#.000.....+...#G#
+#+++++++&++...*.#
+#...Q.........*.#
+#.......0.......#
+#......... .....#
+#               #
+#          .    #
+#aaaaaaa  . .   #
+########   *  | #
+#..  0.#  .. .#.#
+#g.$.0  |     #Q#
+#.!$ |B#     |#+#
+#..$Q#  @|   &b7#
+######## ########
+R 81991
+0 0
+1 Demo 1
+2 .......bb.ll.bbbbrrr....................
+2 ltttl...rr..lllllllllrrrrb...rbblllllllt
+2 ttrrr...rbrl.........tr..b..tttt.lllB.r.
+2 ..ll......tr..llb..rrrr..rbbblbrr.......
+2 r..rbbb...rrrrbbb...ttttllllllbr.....ttt
+2 ttlltttlllllllbrrrrrr..rbbblbrr...bbb..r
+2 r.......r......llbbR.trrr...bbb.llltt...
+2 ........r.....r...rbbbb.R......llltllbll
+2 .t.t.ll........b..blBtrrrr...........lll
+2 llbrrrrtr..brrtr...mbllt.......r...lbrrb
+2 ...ttttttttttttrrrrrrrtt.............
+R 80660
+0 0
+1 Alex
+2 ..bbbbbbrrbbbBtttlllllttltlllL.rrrrbbbll
+2 llllltttrrr.rbrl.t..rt.....ttlllBtL.llbr
+2 rrrtllllllbrrrrrtrrbbbblbrrtttttlllbr.rb
+2 bblb.r..rbb...rr....b...r......br.rttttt
+2 tlllbbbrttrrrbbbbbbbbbbLttttttllll......
+2 .l.......lbbrrrrbllltTllbb............ll
+2 tll..........................bblBtrrr.ll
+2 llLB.rrrrr.lb.trrb.rbl.B.rrrr.ut.r......
+2 .bb.....tttttrrtttttttt........
+
+uuid b48284e7bc9f4cde507f8cbe03b5385f
+
+leaderboard steps time

@@ -1,0 +1,50 @@
+n Adventure in a Bog
+D 7
+C 6
+E 0
+s 1
+p 0
+M 0 Money for Nothing
+i Opening the bags is a little
+i challenging, sure. But how on
+i earth do you get that gem at
+i the top?
+a Alex
+m 16 16
+###E############
+# &.@.........1#
+#7#.........0..#
+#.#...0...@....#
+#..Q..Q..Q.Q...#
+#0......@####++#
+#0...0.Q#i     #
+#..Q...#i      #
+#Q....#i   iii #
+#...Q#i        #
+#...#i         #
+#.@#i          #
+###%           #
+#  %           #
+#aaaaaaaaaaaaaa#
+################
+R 68245
+0 0
+1 Demo 1
+2 ...lllbb.t.trrBllbl.rrlllbr.trrBllbrttrr
+2 rb.lbl...L.B.tlllb.rbrl.........tl..lbrr
+2 .tllltllbr.r.......lll.bbbb.rr.l..t.l...
+2 l.b..lbbb.l.rtt...t..rrtttt.bbbbr.l..ll.
+2 ..t.bbbblb..R..bR....t.r.ttt..trr.......
+2 r..............bbl..l.ltrr.l...tt....r..
+2 ...........b..tttrrr..........bbr.lttllb
+2 bbrtrtrr.trrrbll........................
+2 .........................ltlllll..bbbbll
+2 Ltttrttt................................
+2 ........................................
+2 ........................................
+2 ........................................
+2 .............L.t.........
+
+uuid ab5165c58caec5a78e59dee51ded05f6
+
+leaderboard steps time

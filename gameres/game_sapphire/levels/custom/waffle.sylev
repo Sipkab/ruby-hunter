@@ -1,0 +1,56 @@
+n The Waffle
+D 4
+C 6
+E 0
+p 0
+i The smaller bomb might not be
+i powerful enough to open all those
+i safes. Luckily, you have a spare
+i explosive.
+a Alex
+m 16 16
+################
+#.0.0.0.0.0....#
+#..............#
+#..............#
+#.....1........#
+#.........[.[..#
+#......[.......#
+#..............#
+#.Q.....#..[...#
+#......#"#.....#
+#...[...#..[...#
+#..............#
+#.....[...[....#
+#..............#
+#..............#
+########E#######
+R 62051
+0 0
+1 Demo 1
+2 ..bbb..brllll.tllbrrrrrr...t.rrrlllttrbl
+2 brr..lllbbrbtll.rbtllbrr.....brr.ll..rrb
+2 tllbrbrt.rtrrr.llbtrrbll.b...ltrrtttr..b
+2 rbll..rrttttlbbrbl.ttlt.t.lttrbbbb.tttrt
+2 rrblltlbbb..tllll.......r.ttttt.b..ll.r.
+2 ..r.........rrb..ll..r.rrrtT.bllttrbbbbb
+2 rr.bbbb..lll.rblblrttrrrb.lblt.lb.rBtlll
+2 b.rbr.Rt..tllllb.rbr..rbb........
+R 91332
+0 8
+1 Demo 2
+2 ....rbrbb..lrrtltlblbrtrr..rrt.tlbrbltlb
+2 rbbbbbllll.t.....brrrrtttttlllbblllltllb
+2 rrrrr.lbbtrlll...b....ttttrrrrrrrbblttll
+2 brrtrttlbbr..bb.trrblbrbl..bllbllbrrrrtl
+2 bl..trrtt.rbbttttttlttrbbbbbbbrbllllblt.
+2 ltllbrbrtl.tttlllbrrtttrrtttttt.bll.r.rb
+2 .............rrtT.bbbbbblltttttttrbbbbbb
+2 bbbb..rbrl.trrbrBtlllb.rbr.trllllltttttt
+2 ttttllllLrrrrrbbbbbbbbb....tttttttttllll
+2 tllbrrrrrbbbbbbbbb...l.bbbRtttrrrrrbbbLr
+2 rtlllB.lllbrrb........
+
+uuid 87fda5034a9c2e23b48d81856b11bd7f
+
+leaderboard steps time

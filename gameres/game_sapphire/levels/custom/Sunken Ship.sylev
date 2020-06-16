@@ -1,0 +1,26 @@
+n Sunken Ship
+D 6
+C 5
+E 0
+p 0
+M 0 Staying Alive
+i Use the bombs for leverage.
+a Shark
+m 15 7
+###############
+# 0           #
+# # # #"#1# # #
+#  #       #  #
+#   #######   #
+#E 0***1***0 @#
+###############
+R 36629
+0 0
+1 Demo 1
+2 .......rrRlllltllBltllttrbblttst.t..rrrr
+2 r..lbblsr....rrrrr.ml.....rrrrrttrrr.b..
+2 r..bbbtttltlllllllllllblbbbbb.....
+
+uuid dd87c41a744a411727e1501f9e037882
+
+leaderboard steps time

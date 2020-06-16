@@ -1,0 +1,45 @@
+n Xsploders
+D 5
+C 1
+e 9
+E 0
+p 0
+v 2
+i Xsplode them in just the right
+i places, or you won't be able to
+i xsit the level.
+M 0 Axel F
+a Alex
+m 21 12
+#####################
+#.........Q..Q#0    #
+#.0....Q......#**   #
+#.0.........Q.###   #
+#.0..Q...Q....#     #
+#.#____.____#1#Q##  #
+#.##### ##### #Q    #
+#0#####Q#####0#&#   #
+#0### +0+ ###Q#     #
+#0###B#0#b###0#c    #
+#QQ0E*000Q* 000     #
+#######_##########{##
+R 81481
+0 8
+1 Demo 1
+2 ....tttl......lbl..l...............l..tt
+2 lllb..brbr..btltl..tlltllbr...rtrrbbll.r
+2 .......rrb.........r..tr..........llllbr
+2 r...r.......bbbbbbllrrtr.trrb...tllttttt
+2 .rrrrr......r.......bllltllbrrrr.....r..
+2 bbbbbbllllttllbbrrrrrrrrrrttttrrtt...l..
+2 l.ttlrrbbbbbbbblllllttttttttlllltrrbbbll
+2 l..lbbbbllbrrrrrrrrrrrrttttrrtt....ltttl
+2 llbrrrrrbbbbbbbbllllllllllllttttttttllll
+2 llbrr..brrrrrbbbbllbbrrrrrrrrrrrrttttrrt
+2 t....lll...lbbbbrbbllllllllltttttttlllll
+2 lbrrrr..rrbbbbllbrrrrrrrrrrrrttttrrtt...
+2 .lll.lbbbbrbblllllllllllll.......
+
+uuid 3d979bb2b27e4c2c55541b0bf001095e
+
+leaderboard steps time

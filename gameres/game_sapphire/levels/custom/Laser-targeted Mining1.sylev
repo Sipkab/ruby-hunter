@@ -1,0 +1,55 @@
+n Laser-targeted Mining
+D 6
+C 6
+e 334
+T 2400
+t 2000
+M 0 Rooms
+i As you can see, you don't have
+i sufficient amount of explosives
+i to mine by yourself and win.
+i So use the laser... but be warned,
+i it CAN kill you.
+a Nic01
+m 17 20
+#((0*(((:::::::*#
+E&&&:$$&&:(:   :#
+E(($&$&$:($:  * E
+E&$&$&&:($*:  . E
+E$&&$&::$*$:  $ E
+E((&&& :*$*:  . E
+E&$($& :$*$:  * E
+E&&$&+ :*$*:  . E
+E&$&(& :$*$:  | E
+E&&(&& :*$*:  " E
+E&$&$&  $*$   1 E
+E$&&&& ::::  :::#
+#[+$&&      :$$:#
+#&$+&(&&&&$&$((:#
+#&&$(+$&&&&&$((:#
+#$&&($($+$+$(((:#
+#EEEEEEEEEEE$((:#
+****::::::::::::#
+****:::::::::%:: 
+****:^(^(^(^(^(* 
+y ~%  ^% % 
+R 94277
+0 8
+1 Demo 1
+2 .tlttttR..bb..bb.rmttR..tttttt........bb
+2 brrtt...................................
+2 .......bbbbllttt........R.lt......bbbbbb
+2 bbl...llLRLRLRLRLRLRLRLRLRLRLRLRLRTrrrbb
+2 lblbltlrrr.t..lblllllttt...LL...ll.LRLRL
+2 RLRLRLRLRLRLRLRLRLRLRLTl.llltrbbrrrrTbbl
+2 tllbrbrblLbBrrTrltltttttllttttlLrrrttRtt
+2 rtrllLbbbbbbbbbbrbrrbrrrrburtrt..lll.rrr
+2 ttttt.bbbbbb.mtl.t.tbbttt....t..t.....bb
+2 bbbrrr.tr..................rr.mll.......
+2 bRllbbbrrrTblllllBrrbrrbLrtlltltltllllll
+2 llBltLTbrbtrrbblsrr.......llllbll.srrb..
+2 t....lllbblbbrtrB..TrBtt......bb
+
+uuid 15a98749e2fa8acf80e162cc1f73c399
+
+leaderboard steps time gems

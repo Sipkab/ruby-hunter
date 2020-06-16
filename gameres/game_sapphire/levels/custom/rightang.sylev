@@ -1,0 +1,28 @@
+n Right Angles
+D 4
+C 5
+E 0
+i Take this puzzle
+i one step at a time.
+a Alex
+m 13 9
+#############
+#           #
+# 1   0     #
+#    $*$    #
+#   $$$$$   #
+#  $$$$$$$  #
+# $$$$$$$$$ E
+#QQQQQQQQQQQ#
+#############
+R 14260
+0 8
+1 Demo 1
+2 .............rrr.....b..bl..........bl..
+2 .t...r...tr...rrb.l.rrr..b..ll...rbrr...
+2 ....ttt....llllllb..l....b..lb.....r..r.
+2 .t.r......R......brrrrrrrr.......
+
+uuid 99904aae02c5aabe48d1509a4beb8dc3
+
+leaderboard steps time

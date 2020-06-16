@@ -1,0 +1,114 @@
+n Traffic circle (2)
+a Emerald Mine
+D 4
+s 0
+i Basically this level is not so difficult.
+i But it's not easy to stay concentrated.
+m 64 32
+################################################################
+#    +              +   +   +   +   +++++++++++++              #
+# ++ + +++++++G++++ + +   +   *   + +E  R B Y   + ++++++++++++ #
+#6+  + +       ++++ +6+++++++++++++ +++++++++++ + +6         + #
+#   r+ +6+++*+ +    +               +           + + ++++++++ + #
+#G++++ + +++++ + +++++++++G+++++++++++++++G++++++ + +      + + #
+#      +    ++ +8+                                + + ++y+ + + #
+# ++++G++++ ++ + + +++++++++++++G++++++++++++++++++ + ++++ + + #
+# +       +    + + +                  +           + +      + + #
+# + +++++ ++++++ +6+ ++++++++++++++++ + +G+++++++ + +G+++  + + #
+# + +   + +      + + +* G     +      8+ +      ++ +     +  + + #
+# + + + + + ++++G+ + ++++ +++ + +++++++ + ++++ ++ +++++ +  + + #
+# +6+6+ + + +      +    +    6G       + +     6*+     + + 8+ + #
+# + + + + + + +++++++++ +++++++++++++ + +++++++++++++8+ +  + + #
+# + +   G + + +       G              8+               +6+  + + #
+# + +++y+ + + + +++++ +++++++++++++++++++++++G+++++++++ +  + + #
+# + +++++ + + + +6  + +          g12g           +       +  + + #
+# +       + + + + + + + +++++++++++++++++++++++ + +++++++  + + #
+# +  ++++++8+ + + + + + +6                    + + +        + + #
+# +  +    + + + + + + + + +++++++++++++++++++8+ + + ++++++ + + #
+# +  + ++ + + + + + + + +        G          + + + + +    + +8+ #
+# +  + ++ + + +6+ + +8+ ++++++++ + ++++*+++ + + + + + ++ + + + #
+# +  + ++   + + +6+ + +        + +6++++++++ + + + + +6++ + + + #
+# ++++ ++++++ + + + + ++++++++ +6+          + + + + + +  + + + #
+#      +    + + + + +        + + ++++++++++++ + + + G   b+ + + #
+#+G+++++ ++ + + + + ++++++++ +8+              G +6+ ++++++ + G #
+#        ++ + + G   G *+     + ++++++++++++++++ + +        + + #
+# +++++++++ + + ++++++++ +++++ +6             + + ++++++++++ + #
+#6+ 6    r+ +6+          +     + ++++++++++++ + +            + #
+# ++++++G++ + ++++++++++++ +++++ +   +   +    G ++++++++++++++ #
+#           +              +b  G   +   +6  ++++                #
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 89018
+0 8
+1 Demo 1
+2 ......l.l.l.lrlrlrlrlrlrlrlrbrbrbtblblbl
+2 blrlrlrtrtrtrtrtbtbrbrbbb.brlrlrlrlrbrlb
+2 lblrblllllllllllltltltlrlrlrlrlrlrtrtrtb
+2 tbtbtbtrtrtrtrtbtbtltltltltltl.lrlrb.b.l
+2 rl.l.............l.ltl.lll.lllllllllblbl
+2 blbl.lblblblbl.b.bbbbbbbbb.rlrlr.rtrtrtr
+2 .blblblb.b.bblblblblbblbllllllll.ltltltl
+2 tltltltltltttttttttttttttttttt.t.t.t.t.t
+2 .t.t.t.rtr.r..t.t.trtr.trtrt.t.trt.r.rbr
+2 brbr.rlrlrltblblrlrltlrtrtrtrr.r.brrtrtt
+2 trtrtbrrrrrrrrrrrrrtrrbrbb.bbbblblblllll
+2 lltltlllllll.ltrtrtr.b.brrrrrrrrbrtr.rrr
+2 rrtrtrrlrlrlrlrlb.b.bbb.l..............r
+2 rrlrlrlrbbbbblblblblbl.l.l.btb.ll.l.llll
+2 llblblbtbtblblbrbrbrbrbrbrlblrlrtbtbtblr
+2 lrlrbrbrbrbrbblblllllllllltltltltltltltl
+2 tltlt.t.t.t.t.t.tlt.tb.brbrbrbrbrbbb.brb
+2 rrrr.rbrb.brbrbrbr.b.b.lll..b.tllll.lbtb
+2 tltltl.l.lrlrl.l.l.tbtbrbrb.r.rlbtbtbtlt
+2 ltltltltlttttrtrtbtbtbtbtbtb.brbrbrbtrtr
+2 t.t.tlt.r.r.r.r.r.r.r.r.r.r.r.rlr.r.blbl
+2 blltltltbtbtbtbtbtbtbtbtrtrrtrtrtrtrtrt.
+2 ..........r.rrr.r.rtrtrlr.rlrlrtrtr.rtrt
+2 rrrrrrrrrrrrrrrrrrrrrrr.r.rrrtr.trtrtrtr
+2 trrrrrrrrrrrrrrrrrrrrrrrrrrrbtbtbtbtbtbr
+2 brb.brbrbrbrbrbrbrbrbrbrbrbbbbbbbbbbbbbb
+2 bbbb.btbtb.bbbbbbbbblblblblblblblblll.lb
+2 lblblllllltl.l.l.l.l.l.l....l.l..t.l.tlt
+2 ltbtltltttltltbtltltlrlrlrtrlrlrbtltltlt
+2 ltltllrlrtrtrtttlrtrtrtbrtrrrrrbrbr.r.rt
+2 rtr.r.r.r...b.b.rbtbtbtbtbtbt.tbtbtttttt
+2 ttttltltl.l.lblblblblblblblblblblblblblb
+2 lblblblblblbblblblblblblrlr.rtr.r.rtr.b.
+2 brbrbrbrblllllltltbtbtbrlrlrlblblblbllll
+2 lll.l...........l.lltltttttttttttttrlrlr
+2 brbrbrbtbt.ttttttttttttttttltltltltbtltl
+2 ttrtrttt.trttttrlrbrlrlrlrlrlrbrbbbbbbbb
+2 bbbbbbbbbbbbbblblbtbtbtbtblblblb.bbbbrbb
+2 bbbblblbllll.l.llllltltltltltltltltltltt
+2 ttttttttt.t.t.t...rlr.r.rlrltltltltltlrl
+2 rlrlrlrlrlrtrtrtrtrtr.r...b.b.....brl.l.
+2 lr.r.rbrbrbbbtbrbrbrbrrbrbtbtltltltltlrl
+2 rlr.rlrlrlrtrtrtrlrlrlrlrlrlrlrlrlrtrtrt
+2 rrrrrrtr.rrrrrrrrrrrtrtr.rlrlrlrlrlrlr.r
+2 .r...b.b.b.b.b.b.b...............r.t.t.t
+2 .t.t.t.t.t.t.l.l.t.l.l.l.l.l.l.t.t.t.t.t
+2 .t.r.r.r.r.r.r.r.r.r.r.b.b.b.b.r.r.r.r.b
+2 .b.l.l.l.l.l.l.l.l.b.l.l.l.l.l.l.l.l.l.l
+2 .l.l.l.l.l.l.l.l.l.l.l.l.b.b.b.b.b.b.r.r
+2 .r.r.r.r.r.b.b.b.b.b.b.l.l.l.l.b.b.l.l.l
+2 .l.l.l.l.l.l.l.l.l.l.t.t.t.t.t.t.t.t.t.t
+2 .t.t.t.t.t.t.t.t.r.r.r.t.l.l.l.l.l.b.b.b
+2 .b.b.b.b.b.b.b.b.b.l.l.l...t.t.t.l.l.l..
+2 .b.b.b.b.b.l.l.l.....l.b...r.r.r...r.r.r
+2 .t.t.r.r.r.r.b.b.b...b.b.b.l.l.l........
+2 ...........t.t.r.l.b.b.l.....l.l.l.l.l.l
+2 .t.t.t.t.r.t.l.t.t.t.t.....t.t.t.t.t.t.t
+2 .t.t.t.t.t.t.t.r.r.r.r.r.......t.t.t.t.t
+2 .r.r.r.r.r.r.r.r.r.r.r.r.r.b.b.b.l.l.l.b
+2 .b.b.b.b.b.b.r.r.t.t.t.t.t.t.r.r.r.r.r.r
+2 .r.r.t...r.l.b.b.r.r.r.r.r.r.r.r.r.r.r.r
+2 .r.r.r.r.t.r.r.r.r.r.t.l.l.t.l.l.l.l.l..
+2 ..................l.....................
+2 .......l...l.l............
+
+uuid cc503e80586010c81d7ed320a4312c29
+
+leaderboard steps time

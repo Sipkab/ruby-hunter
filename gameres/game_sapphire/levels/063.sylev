@@ -1,0 +1,92 @@
+n Crowded labyrinth
+a Emerald Mine
+D 5
+s 8
+i Do you like labyrinths?
+i Do you like lorries?
+i Do you like swamp?
+i Yes?
+i Then you'll like this level.
+m 64 32
+################################################################
+#### # # ##   ##########*  ### #*######  ##### ##   # # ###    #
+##  6# # ## ###         ## #   #            ## #  ##  # ##  ## #
+## #*# #        ## ## #  # # # ###### ## ##  #*   #  ##    #E# #
+## ### #### # #  # # ### #   #      # ## ### ### #  ##  #  # # #
+## #      # # # ##    ## ### ###### #   #  #  ##   ##  ### #   #
+## ### ## # # # #  ## #          ##6### ## ##  # ###  ## #  # ##
+#  # #  # #      ##  *####### ## #  # # ## #         ##  ## #*##
+## # ## # #*####  # #### #  #### # ## # #  ## #   ###### ## ####
+## # ## # ###   # #   #  ##      #        ### #######          #
+##      #     #    ## ##    ## #   ##### ##   ###     ## ## ## #
+## ####### ##6# ## ## #   ###  ###     # #* # #  ####### ## #  #
+##      ##### # #  #  #  ## # ####### ## ####          ###  # ##
+#### ##     #  *# #  ## ### # #     # #   ##  ########6##  ## ##
+#*   ######   ##  # ##  #*  #   ### # # # #  ##      #    ##   #
+#### #    # ###  ## ## #### # ###   #   #    ## #### ##  ##  ###
+##   # ## # #   #   ## # ##6# #*  #  # ## ## #  #  #    #   ####
+## # #6#  #### #### #  #    # ### ## #*## #### ### # #*##  ## ##
+## # # ##           # #    ##      # ##        # #  ####  ### ##
+## # #  # ####  # ### # ###########     ##### ##  #  # ## #    #
+## ### ##### ####   # #  #     #    ######  #  ## #  # #  # ## #
+#               # ### ## # # ##  #  #       ##  * # ## # ##  #*#
+# ## ## ####### # ##  #  # # ## ### # #####  #  ##  #  # ## ####
+# #   # # #     # ## ### # # #   #       # # ####  #  ##       #
+# ## ## # # ### # ##     # ### # ## ## # # #      ## ### #  ## #
+# ## ## #   #   # ### #### #   #    ## # # ###  # # 6#   ##### #
+#  #    ### ### # ##         ######### # #   #### # ## ###   #*#
+##   ## #     #     6###  ##    6#    6# # ###    # ##     # ###
+##  # # ### # # ######## ######  ##### # #     ## #*  ######   #
+## %1   #   # #       *#     #        *#  ####### ###     ##   #
+###%#####*############## ###*### ########      #      ###    #E#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 7300
+0 8
+1 Demo 1
+2 .........rrrrtttlllbllttlltttttrrttltttt
+2 trrt..tlllrrttrrttllttttttttttrrbrtrllbb
+2 bbbbbbrrrrrtttlrtrlttt.brrrbbbbbrrrrbbbr
+2 r.lbb.lbbll.rrttr.brrtttrrttlrtrlttlllll
+2 b.ttt.bbrrrrrrbr.rbrrbbrbbllbbblbblbblbb
+2 llllltttlllbbbbbbrrr.llllllltttbbbrrlltt
+2 rtttttrrttttrrrbbrrrrbbrtrrrtrrtttrrrbbl
+2 bblbblbbllb.rblllb..bbtrrrbbbbbbbbbllttt
+2 tllllbbbbbbllb.trrrttttttrrrrbbb..brrrrr
+2 .....llllbblbbrrrrrrrlllllllttrrtttttttt
+2 trrttttttrtrrttlltllttrrttllltttrrrrrbrr
+2 bbbrrrrr..rrrllllllll..rrrrttllltttllrrb
+2 bbrrbbrrrrrbbbllbbllbbbbbb.ttttttrttllbb
+2 lbblllbbllbbllbbbblbbbbblbbrrrrtrtttlttr
+2 trrrtttlllrrbbblllbblbbrbbbbblllbbrrrbbb
+2 rrrrbrtlllltttrrttttttt.bbbbbbllllltttrr
+2 rr..tttt....ll.tt..rrrr..t.r.llllbblbbrb
+2 bbblllbbrrrrrrr...t.rrttrrt.lttrttrrrttr
+2 tttltllbllrrrrttrrbrrbbbrrrtrrtttttlllbb
+2 llb.rbb.trrtrrtttttrttttt..lttttlltttlll
+2 llrrrrrbbbrbbrbbbbrrblbbbbrbbrrrttrtttll
+2 bblrttrrbbb..l..r....llbblllbbbllbllllbb
+2 bbbb..llltttllbbllbbbrrrrrbbrrrrrrtttttt
+2 lttrrrrrrbrbbrrrrrbbbbbrrrbbrrrr..tt...l
+2 lrrbbbblllltttttttrttrttttt......l.rbbbb
+2 lbblblllllttltlllllllbbbllttttrrrrtrrrrr
+2 bbrbbrrbbrrtrrllll..tl..ttrr.tt.rr.tt.rr
+2 rrr..bbb..tttllllllbbllbbllllllll.......
+2 .......rrrrrrrrttrrttrrrr.r.bb.rrbrtrrtt
+2 rrrtrrtrrtttttttltlllt.lttllbllblbllblll
+2 lttttllrrbbbrrrtrbblbbrrrtrrtrrtrtrrtrrr
+2 rtrrtrrrrbbbblbbt.rtrrttttllllbllbbbbrbb
+2 bbbblbbblbblbblbblbblb.tllttt.brrbrrrttr
+2 rtrrtrtrrtrtrrrbblrrrllbbbllbllblllbb.tt
+2 rrtrrtrrt.ltttrrttlllbbb...lbblblllttlll
+2 lllllltttttrrrrrrrtrrtrtrrtrrrbbbrbbbrrr
+2 bblbbblblblblbbbblbbbrrrttttrrrbbrtttlll
+2 lbbbrrrbrrrrbbbrtttllllllbbllbbrrrrtrrbb
+2 brrrbr.......
+
+uuid abf9476fe87a370cee8c05d197a8f835
+
+leaderboard steps time

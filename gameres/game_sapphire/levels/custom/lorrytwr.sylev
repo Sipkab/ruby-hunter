@@ -1,0 +1,61 @@
+n Lorry Tower
+D 5
+C 7
+p 0
+d 1
+i Perfect your architectural
+i skills with this death-
+i defying construction job!
+a Alex
+m 17 15
+#####0###########
+#### .     Q  #8#
+# 5  # #   ...#.#
+#8#6 # 0  ....#8#
+# 7  # #  ....#.#
+#### # 0  ..!.#8#
+#### # #  ....#.#
+#### # 0  ....#8#
+####"# #  ....#.#
+###### 0  ..1.#8#
+####+# #  ....#.#
+####E# 0  ....# #
+###### #  ....# #
+######0#        #
+#################
+R 34230
+0 0
+1 Demo 1
+2 ...........r.bbb.ttttttt.L....tttt......
+2 ..bb..lll....l............bbbbbbbbb..brr
+2 rrrrtt.....Tbblllllltttr.....bll........
+2 ............l......rrrrr.b.rrbrrttt..t.T
+2 bbbblllllttttr.............lll..........
+2 ......l.......rrrrbbbbrrrrtttttt.Tbbbbbb
+2 lllllttttttr....B..............lll......
+2 ......l......rrrrrbbbbbbrrrttttttt...t.T
+2 bbbbbbbblllltttttttt..rb..t..l..........
+2 ......lll.........ll........rrrbbbbbbbbr
+2 rrrrtttttttttt.....Tbbbbbbbbbblllllttttt
+2 ttttrr..tl..........................lll.
+2 ....l..r..tt...llll.r..rrrrbb......srrtt
+2 ..lllllllrrr.......r...r.....bbbbbbbb...
+2 l..lllllbb........
+R 1066
+0 0
+1 Demo 2
+2 bbbbrrrttTbbllllttttlbbBrttttttttlbbbbbr
+2 bbblll....lrrrrrrbbrrttttTbbbblltttttltr
+2 tltrtltr..tlbbbbbbbllll.........lrrrrrrb
+2 bbbrrttttttTbbbbbbllllltttttt...........
+2 ...............ll.......lrrrrrrbbbbbbrrt
+2 tttttttTbbbbbbbblllttttttttll...........
+2 ...............ll.........lrrrrrrbbbbbbb
+2 brrttttttttttTbbbbbbbbbbllllttttttttttl.
+2 ...............................ll.....lr
+2 ttllll.r.rrrrbbsrrtt..lllllllr....rr..b.
+2 rbbb..bbbb.........lllllbb.....
+
+uuid 446f2925255a096e82d15424e8741379
+
+leaderboard steps time

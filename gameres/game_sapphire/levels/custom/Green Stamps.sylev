@@ -1,0 +1,64 @@
+n Green Stamps
+D 6
+C 5
+E 0
+p 0
+M 0 Drive
+i Use whatever method you want to
+i remove the bombs, but no matter
+i what, you still need to get all
+i the emeralds.
+a Shark
+m 16 16
+#E##############
+#"+.........!.1#
+#+.............#
+#..++++++++++..#
+#..+**Q***Q*+..#
+#..+***Q***Q+..#
+#..+Q***Q***+..#
+#..+*0***Q**+..#
+#..+**Q***Q*+..#
+#..+***Q***Q+..#
+#..+Q***0***+..#
+#..+*Q***Q**+..#
+#..++++++++++..#
+#..............#
+#..............#
+################
+R 89222
+0 0
+1 Demo 1
+2 .lllllllllllbsrt........lllLbbrrbRturrrr
+2 sr..rrrbbutllllbbllllltllblBtrrrbllrrrrr
+2 rrttrrrbbBttlllbbBrbrbb...tttlltlllllllb
+2 mbBtttrrrbbrrtrrblllblbb....tt.rrrtrrbrr
+2 rrrbttlllllllbrrrrrrllbltllblllllllBrrrr
+2 rrrtrrbllllllllrrrl.ll.lbbBturrrb.....tr
+2 rblllblrrtrrrrtrrBtrrbbutllbllb...rbrbbl
+2 tltltllbrbrbrllltltllllbbrbbrrrrmllbLt..
+2 ...lttttrrbBtttttttttlmmu.....
+R 76528
+0 0
+1 Demo 2
+2 lllllllllllbsrr.......llltl..l..rrrbbbr.
+2 ..lttr.rrr.mlll........llbb....b.mbbbbbb
+2 bbb.ttttttttt.rr.b.t..tttrrrrbb....rr...
+2 l...b...ttt....lllllb...lbb..rttt.rrrrrr
+2 rrrrbb.....utlll....rr.bbb.tttlll.bbrbrb
+2 l..tlbrbr.b.tttt.l.lttll..rrbbbrr.lltt..
+2 .l....tll.llllbbbbbb....lbbbbrmttt......
+2 .bbtttttttrrttrrrrrrrrrbll.tlllllllbbbtr
+2 bbl......tll..r..lbr.ttrrrrrb..lllblbb..
+2 ...tt...rrr..trrbllllbBr.....rr.........
+2 ..llb.rb.lllll.rrrrr.l..bll.t.rrrr..bl..
+2 .......tlllllbb...t..............bbbbbr.
+2 tttlt.utrrrr...ll.....rrr.b....trr......
+2 ....l.l..lll...srrb.lbL.........t..r..r.
+2 tt...srrb.lbLb.......r...bltltllb....rbr
+2 l..lltll.Brrbll.llltttttt..rtt..t.umu...
+2 ..
+
+uuid ce57435e62f23d8ceb05327f263fcc10
+
+leaderboard steps time

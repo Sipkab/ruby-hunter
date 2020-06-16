@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config xmlns="bence.sipka.types.config" >
+
+    <declare-enum name="TouchAction" >
+
+        <enum name="CANCEL" value="0" />
+
+        <enum name="DOWN" value="1" />
+
+        <enum name="UP" value="2" />
+
+        <enum name="MOVE_UPDATE" value="3" />
+
+        <enum name="MOVE_UPDATE_DONE" value="4" />
+
+        <enum name="MOVED_SINGLE" value="5" />
+
+        <enum name="HOVER_ENTER" value="6" />
+
+        <enum name="HOVER_MOVE" value="7" />
+
+        <enum name="HOVER_EXIT" value="8" />
+
+        <enum name="SCROLL" value="9" />
+        
+        <enum name="WHEEL" value="10" />
+    </declare-enum>
+
+</Config>

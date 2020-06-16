@@ -1,0 +1,74 @@
+n Dead End
+D 5
+e 11
+s 15
+p 0
+d 10
+M 0 Nobody does it Better
+i Don't go until you're sure
+i you're done.
+a Alexander
+m 40 40
+~  Q*r #d    1                   #      
+~###:# #     #                   .      
+~      # ############### ###########g   
+~ ##:### # E*#        #   #        ###G#
+&      # #  :#   #    #   #            #
+####:# # #   #   #    #   #            #
+~      # #   #####    #***#            #
+~###:### #   #   #    #...#            #
+~      # #   #   #  ###   #            #
+####:# # #   #   #  #*#   ############ #
+~      # #   #   ## #.#   #     %      #
+~###:### #   #      # #   #            #
+~      # #   #      # # % #            #
+####:# # #   #    ### #   #            #
+~      # #   #### #*# #   #            #
+~###:### #   #    #%# #   #            #
+~      # #   #    # # #   #            #
+####:# # #*  #  # # # ##.####a#######a!#
+~      # #.  #  # # # #   #o#a       a  
+~###:### #:R:#### # # #   #8#           
+~      # #   #    # # #   # #           
+####:# # #   #    # # #   # #           
+~      # #   #    # # #   # # ####+     
+~###:###     #   Q# # #   #+# #**Q+     
+~      #a#   #   .  # #   #+#"#**Q+     
+####:# ###:::####   # #   #+# #++#      
+~                   # #   # #           
+~                   # #   # #           
+~                   # . % # #           
+~                   ####### #           
+~                   % % % %*#           
+~                          .#  c        
+~                           #a   aaaaaaa
+~                           ############
+~  :::     :::  Q           % % % % % % 
+~  :(:    ::(:::. :                     
+~  :Q:    :(QQQQQQ:                     
+~  :::    :::::::::                     
+~                                       
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+R 35882
+0 0
+1 Maze
+2 rrrrrrrrrrrrrrrrbrrrrrrrbrrbbbbbbbbbbbbb
+2 bbbbblllllllllbbutrrrrrrbbb..........bbb
+2 bbbblllbl.......lrrtrrrtttttllllttr....l
+2 tl.lllbbbbbbbbbbbbbbblllllllllllllllllll
+2 lttttttttttlttttllllllttrrrrrrttlllllltt
+2 rrrrrrttllllllttrrrrrrttllllllttrrrrrrtt
+2 llllllttrrrrrrttlllllttrrrrrttlllll.l..b
+2 ....bbbrrrrrrbbllllllbbrrrrrrbbllllllbbr
+2 rrrrrbbllllllbbrrrrrrbbllllllbbrrrrrrbbl
+2 lllllbbrrrrrrbbrrrrrrrrrrr.rtt...rtttttb
+2 bbbbbbbbbbbbbbbrrrrrrrbbbllllllllr......
+2 ........rrrrrrrtttttttrttttttrrttttrrrrr
+2 rrrrttttbbl.........rtttttttttttttttttll
+2 llllllllllllbbbbbLRtttttllllllllltllllll
+2 b.lbbbbbbbbbbbbbbbbbbbbbbrrrttttlttttttt
+2 ttttttttr.
+
+uuid 16442da704f5803bc1efde2de42eaabd
+
+leaderboard steps time

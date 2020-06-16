@@ -1,0 +1,42 @@
+n Robotic Bridgework
+D 4
+C 1
+e 12
+p 0
+d 30
+o 1
+M 0 Jump
+i Mobile bridgeing! How's that for
+i M.A.D.?
+i 
+i What? It's only rated 'Normal?'
+i 
+i Don't worry, I'll think of a harder
+i level soon enough...
+a Shark
+m 15 12
+###############
+# d           #
+#m            #
+# |o          #
+#a+a|a|a|a|ac|#
+#            l#
+# ++++++++++++#
+m             #
+#| o          #
+#+a|a|a|a|a|ac#
+#  1          E
+###############
+R 32377
+0 0
+1 Demo 1
+2 ...rrrrrrrr...lllllllll......rrrrrrrrrr.
+2 .lllrrrR.llllllllll...rrrrrrrrr.llllllll
+2 l........rrrrrrrrrr....rllllllllll......
+2 ...rrrrrrrrlllllllll.........rrrrrrrrrrl
+2 ..rrlllllllllll..r.....rrrrrrrrllllllll.
+2 .l.......rrrrrrrrrr....rr..
+
+uuid 71098c7a2fcc37dff26803dbf1944b15
+
+leaderboard steps time gems

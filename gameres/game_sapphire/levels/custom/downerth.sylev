@@ -1,0 +1,40 @@
+n Down to Earth
+D 4
+C 7
+e 1
+E 0
+i Clearly, the bomb is too high up
+i to be useful. You will need to find
+i a way to lower it before you can
+i work with it.
+a Alex
+m 13 13
+#############
+#           #
+# Q         #
+# [      _  #
+#           #
+#           #
+#    [1     #
+#           #
+#        0  #
+#       ### #
+#          Q#
+#        &++#
+#########E###
+R 88549
+0 0
+1 Demo 1
+2 .......ll...blt......rrrrrrttt.l.lllllll
+2 ..tl.bb...rrbbblt..lllttt.rr.b..r...b..t
+2 lb....ttrrrbll..b..l.....b.trb..ttlllbr.
+2 .b...r..r...b.tlb.ttrrrbl..b...l.l.....b
+2 .trb.....ttlllbr.rr..b.b...r....l..b..lb
+2 rrrrrrr....lllttrb..lbrrr..lttrr..b....r
+2 .r..r..l...bb..lbrrrrrr....lll.tttrbbb..
+2 lbrrr.l..ttt..rbbb....rrrrrr......lltt.r
+2 ..rr.......r..bbbllb...........
+
+uuid 0df09e390245d1f645d28f43951cd840
+
+leaderboard steps time

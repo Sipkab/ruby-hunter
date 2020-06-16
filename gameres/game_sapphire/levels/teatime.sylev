@@ -1,0 +1,59 @@
+n Teatime
+ldeutsch n Teezeit
+D 8
+C 1
+e 429
+T 1000
+M 0 Take Five
+i This is green tea.
+i You may also waste some drops
+i of the tea when emptying the can.
+ldeutsch i Das ist grüner Tee.
+ldeutsch i Beim Leeren der Kanne dürfen auch
+ldeutsch i einige Tropfen verloren gehen.
+a Ronald
+m 55 24
+#######################################################
+#                                                     #
+#       .                                             #
+#                                                     #
+#                                                     #
+#              ++                                     #
+#            #######                                  #
+#         +++++++++++++++                             #
+#      00....$$$$$$$$++           !1                  #
+#     000  +.$$$$$$$+                                 #
+#    ++++  +.$$$$$$+                                  #
+#   +++++QQ$$.$$$$$+                                  #
+#  ++   +++$$.$$$$$$++                                #
+# ++    +$$$$.$$$$$$$$+                     #         #
+# ++   +$$$$$.$$$$$$$$$+                   #          #
+# ++   +$$$$Q0Q$$$$$$$$+                  #           #
+#  ++  +$*$*0!Q$*$$$$$$+       +         #+           #
+#   ++++*$*$Q0Q*$*$$$$$+     +++*$*$*$*$#0+           #
+#    ++++*$*QQQ$$$*$$$$+    +  +$*$*$*$#!$+      #R#  #
+#        +$*$Q$*$$$$$$+     + r+*$*$*$##$$+      # #  #
+#         +$$*$$$$$$++       ++++*$*$###$+       #R#  #
+#          +$$$$$$++             ++$###++        # #  #
+#           ++++++                 ++++          #E#  #
+#######################################################
+R 27760
+0 1
+1 Demo 1
+2 .llllllllttllllllltllltllllllllbbbbsrrrr
+2 rrrrrrlbllllllbrrrrrbllllbrrrrbrrr.lllll
+2 ll.llttl..bbrlllblrrrrrrrrrrrrrrbllllllt
+2 lllllblllb.....rrB.r.....blll.r.b.......
+2 r.B.tt...rrR.t.rtrrb.rrrrrrrblllllL.brrr
+2 rrblll..lrrrbll.....t.......bll......Tll
+2 lbbltl....t..l.tlrrrrrrrrrblllbrllbltt.t
+2 tttttttttttllllttrrtrrtrrrrrrrrrrrrrrrrr
+2 rbbbbbbbbbbbbbrrrrrrRbllllllbrrrrRbllL.r
+2 B.rtttttttrrrrrrtrrrbbbbbblll....cb...ll
+2 .ttttl..T.l.BTrrr..ttttrrtttlllllbbbblll
+2 lllllbbb.sr.......llllllrrrrrrrtrtrtrtrt
+2 rtrtrrrrrrbbbbbrbbb........
+
+uuid e3f0cbe9b698e6a7109890b4320b381e
+
+leaderboard steps time gems

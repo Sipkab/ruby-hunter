@@ -1,0 +1,53 @@
+n Optimining
+ldeutsch n Optiminieren
+D 5
+C 5
+T 800
+M 0 Penny Lane
+i This level has been constructed
+i to improve your handling
+i of bombs and timebombs.
+i You have only a total
+i of five explosives, so
+i don't waste them.
+ldeutsch i Dieser Level wurde konstruiert
+ldeutsch i damit du deinen Gebrauch von
+ldeutsch i Bomben und Zeitbomben verbessern
+ldeutsch i kannst. Du hast nur fünf Explosionen,
+ldeutsch i also verschwende sie nicht.
+a Ronald
+m 26 17
+##########################
+#1!!.....................#
+#.........0....Q.........#
+#............. . ........#
+#........................#
+#.........+++............#
+#.0.......+*+............#
+#.Q.......+++............#
+#.....+++.........+++++..#
+#.+++.+*+.....+++.+++++..#
+#.+$+.+++.+++.+Q+.++$++..#
+#.+++.....+*+.+++.+++++..#
+#.........+++++...+++++..#
+#...........+*+.....E....#
+#...........+++..........#
+#........................#
+##########################
+R 19832
+0 1
+1 Demo 1
+2 ...rrll.rrrrbbbbbbbb.t..t...............
+2 ...tll.rtllbb........l..b.....r.......tr
+2 rrbbbbbtttttlllbrrrrblltllbrrrt.r..bbbbb
+2 rrlllblrrtttttttttt.rrrrrrrrrrr.........
+2 ......ll...b.llltllbrrrrrr.bbbbbbbbb.ttt
+2 tttttttrrr..b.......llrbrrrllltllbrrrrrr
+2 lbbbbbrbb.t...ull......llbbrrrrtrtttttll
+2 bb.blllt..cbbbbllrrbb.tttrrrrrrrllllttll
+2 lttllrrrrrbbbbrbbrrbrrr.................
+2 ....
+
+uuid b4430970db9f2fa44febb18d5b68119e
+
+leaderboard steps time

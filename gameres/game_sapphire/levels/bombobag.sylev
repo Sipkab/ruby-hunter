@@ -1,0 +1,62 @@
+n Bombo-Bag
+ldeutsch n Bombo-Sack
+D 4
+C 6
+E 0
+T 900
+M 0 Take Five
+i This one contains a nice trick.
+i Is there any way to drop-open
+i the bags without triggering
+i the bombs?
+ldeutsch i Dieser enth�lt einen netten Trick.
+ldeutsch i Gibt es einen Weg die S�cke zu
+ldeutsch i �ffnen, ohne dass die Bomben
+ldeutsch i explodieren?
+a Ronald
+m 41 23
+#########################################
+#E1#***.................................#
+#..####....0.................0..........#
+#..#000#..0*0...00000....0..........0...#
+#...............@@@@@..........0........#
+#####.##....................0...........#
+#....#0.#.......     ...................#
+#.0...$..#.....#QQQQQ#................###
+#*0.0...0.#....#######..............##..#
+#..$....*..#...................#####....#
+#.0...0.....#.................#......0..#
+#.0.....0..0.#######.#########..........#
+#...0...........0.................00.*..#
+#0..000...0...00...0....0...000....0....#
+#0....$..........0....0.*....$00..0...0.#
+#..0.*$.0000....00$.0.0....0......00....#
+#..........*..0.$.0....0...0..0...0$....#
+#.$..0...............0.0...0......0.0...#
+#.0..0.......0...0....$..........0......#
+#...*0.....0.0.*......0..0...0..*.....0.#
+#..0........0..0...0..............0.....#
+#.$..00..0...0.....0.0.*..0....0.00$.0..#
+#########################################
+R 30097
+0 1
+1 Demo 1
+2 ...bbblr..rrrB.lllrrrrr.l.rrtttlllLrrrbb
+2 brrrTrr......ttrrrrrrrrrbbbbL.rrrttrbbll
+2 llllllllll.l..lrrrrrrrrrrrlllllllllllllr
+2 rrrrrrrrrtttrbbblllllllllllrrrrrrrrrrrtr
+2 blllllllllllllrttttlllllllllbbbblTl.r..r
+2 trrbRtllbrrrrrt.......r..r.L..r.L.r.....
+2 .......r.....r......t....ll.....tl.rbb..
+2 ..............t...t....l.llbrrrrrlbl.rtr
+2 rrbB.rrrbbrbbblllllbbrrrrrbbLrrrRlttrrrr
+2 trrrrrbrbbbblLrbbbbllBtllllltllbbllllLB.
+2 lBttlllltttL.bblltll.bbblttlltllllllt.Tl
+2 .b.lb..lL.b.b.RllbbRtttrttttrttt.r.ttL.r
+2 rrRttlllltllbBtrrrbrrrrrrbrbrrbbbrrrbbrr
+2 rrrrrtttttllllllllttlltltltlltllbllttt..
+2 .l..........
+
+uuid 02e6a6c26fe69a68be511454fb26a454
+
+leaderboard steps time

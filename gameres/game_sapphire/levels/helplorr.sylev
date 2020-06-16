@@ -1,0 +1,35 @@
+n Help the lorry
+ldeutsch n Hilf dem Wagerl
+D 4
+C 1
+s 0
+p 0
+M 0 Tico Tico
+i ... help yourself
+i 
+i One thing's for sure:
+i Don't blow up the lorry!
+ldeutsch i ... hilf dir selbst.
+ldeutsch i 
+ldeutsch i Eines ist sicher: Du darfst
+ldeutsch i auf keinen Fall das Wagerl
+ldeutsch i sprengen.
+a Alexander
+m 12 8
+############
+#          #
+#          #
+#6       !1#
+# &&&#& &#E#
+#   %     %#
+# &&&      #
+############
+R 44378
+0 9
+1 Demo 1
+2 ..lllb............cb..............lrrll.
+2 .lllllrrrrrrrtttrrb........
+
+uuid 5d0a276c78f7614c54a0f9875aab3ef6
+
+leaderboard steps time

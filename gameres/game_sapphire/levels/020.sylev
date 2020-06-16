@@ -1,0 +1,95 @@
+n Chambers of pain
+a Emerald Mine
+D 4
+s 0
+i In some of the chambers the pain is in your brain
+m 64 32
+################################################################
+#                                                              #
+#                                                              #
+#  +++++++++++++++++++B+++++++++  +++++++++++++R+++++++++++++  #
+#  +...00y+........... ..+.0...+  +..0..+.00... ..0...+...0.+  #
+#  +.0..00+.00..0..0...0.+...0.+  G ....+.0.0.0..0..0.+..0..+  #
+#  +...000+...0.0..0.0...+0... Y  +...0.+..0..00000...+00...+  #
+#  R ..00.+........0..0..+.0...+  +0....+...0.0...0...+*00..+  #
+#  +..0...+..0..*........+.000.+  +..0..+..0...*......+000..+  #
+#  +......++++++++++++++++..0..+  +..0..+++++++++++++++....    #
+#  +...0..+.....0.00.....+.0.0.+  +.0...+0.*...0.000..+..0..+  #
+#  +0.....+..0...0...0*0.+*..0.+  +.0.0.+.0.0.00..0.0.+r.0..+  #
+#  +....0.+.0......0.00..+00...+  +.....+00.0....0....+..0..+  #
+#  +.....*+.... .........+...0.+  +..*..+...... .....0+..0..+  #
+#  ++++++++++++Y++++++++++++++++  +++++++++++++B+++++++++++++  #
+#                               1                              #
+#                                                              #
+#  ++++++++++++++++++B++++++++++  ++++++++++++R++++++++++++++  #
+#  +.0....+...0...... .0*+.....+  +.....+..0.. ..00...+00...+  #
+#  +....0.+.0.0...0....0.+...0.+  +.0.0.+0.0....0...0.+0..0.+  #
+#  +..0.0.+...00.00.0.00.+..0..+  +..00.+.0...0..0.0..+0.0..+  #
+#  +..00..+g.....0.......+0.0..+  +....0+...000.0....0+*00..+  #
+#   .0*0..++++++++++++++++.... G  B .0..+*.00.......0.+.0.0.+  #
+#  +......+00.....0*...0.+.00..+  +..0..+++++++++++++++.....+  #
+#  +.0.0..+..000000000...+0.0..+  +....0+..0....0..0 .+0.0. Y  #
+#  +0.....+0....0....00..+$.00.+  +.00..+...0.0..00...+...0.+  #
+#  +...0..+..00......0.0.+..00.+  +0..0.+......00..0..+...0.+  #
+#  +......+....... ......+.0...+  +*....+.. ..0..0...$+b....+  #
+#  +++++++++++++++Y+++++++++++++  +++++++++G+++++++++++++++++  #
+#                                                              #
+#E                                                             #
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 5456
+0 8
+1 Demo 1
+2 ..rrrrrrrrrrrrrrrrrrrrrrrrrrrrrtttttttl.
+2 bllllllbbbbr..t...L..ttlltrrrrrrbbbbbbll
+2 llllllllllllllllllllllllllllllllllllllll
+2 lllllllllllllllllttttttttr....bbb.rbbbrr
+2 rrtttt........tt..bbbblllltttt..rtt.rrrt
+2 tlllllbbbllbbbbbbbbbrrrrrrrrrrrrrrrrrrrr
+2 rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+2 bbbbbbbbl..bbblllltt....rrrrtrrttttttttl
+2 lllllllllllllllllll..rrlllllllllllllllll
+2 lllllllllrrrb...llll..l.bbbllllltttrrrrr
+2 rrrrrttrrrrrrrrrrrbbbbbbbbb....t..tl....
+2 ..bbbb...B.ttl...t.......b.ll..bbl..ttrr
+2 rrrttrrrrb.....bbrrbbrrbbllll..r..tllttt
+2 tl.bbbbbbbrrrrrrrrrrt.....r..r.....llll.
+2 rrr..r..................................
+2 ..............................t.........
+2 ...................tt.t.....b..t.rr.....
+2 .............t.ll..bb..r.l.....t...rr...
+2 ll.rrr..l...t....l.rrrrrr.b.rr.bb.tttlll
+2 lllll.b..b.ll.bbbrrrrrrrrrrrrrrrrrrttttt
+2 t.lllll..ttt...bbrrrr.b.rrtttttttlltllll
+2 lllllllll..tt.l.t...........llll.ttt.rr.
+2 .bbb.rrb.rrrrrr.lllllllbb......l.b.bbl..
+2 ...l..bll.b.ttrttrrrrrttlttllllllllllllb
+2 blbbbbb.tttttttttttttttt.r..rrrr.bbbbbbb
+2 bbllllttttr.tttlltllbb.lt.l.b.b.........
+2 ........bbbblll.t.llltt........R.tt.rrrr
+2 trrttttlllllllllll.b...lllllll..bbbbrrtt
+2 trr.trrrrttllllllllllllllllllllbbbbbbbbb
+2 bbbbrrbbrrrrrrrrrrrrr...t.t.........rr.r
+2 ..tt.r.r.........................t...rr.
+2 b.t..rrr.bbbbllll.......tt.bbb..........
+2 ...llll..............t.l.b.l.b.t.rrb.ll.
+2 bbrrrrr..r.b..bbbrrrrttttlllttrrrrrrrrrr
+2 rrbbbbbbbbbbbbbblllllllllllllll..t......
+2 ............rrrrrrrtt..l...b....Bt..b...
+2 t.t..ll................t.ll.rrr...r.....
+2 .bbb....................................
+2 ......L...t.lllllbbbb.lllllllllllllllltt
+2 tttttt.r..r.b......rr.t.llltt.lttttttttt
+2 tttttttttttrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+2 rrrrrrrrrrrrrrrr..b................r.r..
+2 l.l....l.l..bbbbrrrrrrrrttttt.l.l...llll
+2 l.ttllllllllllllllllllllllllllllllllllll
+2 lllllllllllbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2 b.......
+
+uuid 86f3a6ffc8870493f2194c6b8f7aa7cd
+
+leaderboard steps time

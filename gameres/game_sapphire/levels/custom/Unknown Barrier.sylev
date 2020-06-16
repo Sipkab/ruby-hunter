@@ -1,0 +1,32 @@
+n Unknown Barrier
+D 7
+C 5
+s 0
+p 0
+M 0 Staying Alive
+i There is something strange you need
+i to solve this level, and why it's
+i necessary is a mystery.
+a Shark
+m 15 12
+###############
+#     0+.....Q#
+#    %%%Q....Q#
+#    %7%.QQQQQ#
+#    %%%.QQQQQ#
+#    ! +Q....Q#
+#    1 +.QQQ%Q#
+#     0*...7 .#
+#@#!###:#######
+### #         #
+#   E         #
+#####         #
+R 96872
+0 0
+1 Demo 1
+2 .tblstt..rbrbb.l.l.l.lBtlsbb........tllB
+2 rrbbbr.....
+
+uuid e4f112653697aef26381946165572c5f
+
+leaderboard steps time

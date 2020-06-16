@@ -1,0 +1,100 @@
+n R2d2 hate level
+a Emerald Mine
+D 4
+s 0
+i The robots are really tiresome.
+i You can kill some of them, but you should
+i not waste too much time with it.
+m 64 32
+################################################################
+#1 E........................................................Q..#
+#E..........................Q....Q......0......................#
+#..Q.....Q...........0..............................0..........#
+#.................Q...................Q.......Q................#
+#.............................. *.....................Q.....o*.#
+#.......*o .....................o............................ .#
+#............0............................Q....................#
+#.......................o ....................... .............#
+#................Q......*........................*.............#
+#.......................................0........o..........0..#
+#...Q.0...Q..........................Q.......0.................#
+#.......................................................0......#
+#...................o........Q.................................#
+#...................*......................................Q...#
+#...0............... .....0.........*o ........................#
+#............0........................................Q........#
+#.............................................Q................#
+#......*o..............Q......Q................................#
+#..Q.... ......Q..................0..........0..............0..#
+#..............................................................#
+#......................0.......................................#
+#..............................................................#
+#......Q.............Q......*.....Q........Q...........o..Q....#
+#..........0..Q.............o....................0.....* ......#
+#........................... ..................................#
+#................ .............................................#
+#.......Q........o*...................... o*...................#
+#.0...........................0................................#
+#.....................................................0........#
+#..............................................................#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 51932
+0 8
+1 Demo 1
+2 ......r.bbbb...b..rrrr.r.ll.r.r.........
+2 ....RRTttttttrrrrrrrrr...bbbbbrrrr...tt.
+2 .t..l...b.rrrr......bb.l..bbb...r.......
+2 RBbbbbbbbbrrrr..ttt...bbbbbb.r..b..b....
+2 .....BTtttttttrrrrtttttt.lll..tttt.tttt.
+2 l..l.....b......tt.rrr..l..bbbbb.tt..b..
+2 r..r.........RRtttt.llll.b..............
+2 .....tt...l...b..rrtttbbbbbrrrrrrrrrrrrr
+2 rtttrrr.rrrrrrbbbb...b......Bttttt..rrt.
+2 rrbbllll.l.l.b...llll......bbbbbbbbbbb..
+2 .t..t..t.t......rrrr......bbbbrrbbbbbbrr
+2 rbb..ll....bbb.llll.l..l..............RR
+2 R...LLTttttttlllllbbbb.llllll...........
+2 ...........ttttttt.r.tt.t..r......RTtttt
+2 t.rrrr..bbbbbbb....rr.b..rrrrrrrrrrrrrrr
+2 rbbbbbb...b..l.l.....TBbbbrrrrrrrttttttt
+2 ttttttttttttt.l..t........T.Bbb.lllltttt
+2 ttttt.bbbbbbblllbbbllbbbb..t.rrrrr.bbrrr
+2 bbbrrbbbbbbbbbbbbbllllllllllllllllllllll
+2 lllllllllllllllllllll.ttt......LTttttttt
+2 tttr..t..............Tbb.llllttttttlllll
+2 l.bllll..bbbbb...........R.Llllllttttttt
+2 tttttttttt.......
+R 51932
+0 8
+1 Demo 2
+2 ......r.bbbb...b..rrrr.r.ll.r.r.........
+2 ....RRTttttttrrrrrrrrr...bbbbbrrrr...tt.
+2 .t..l...b.rrrr......bb.l..bbb...r.......
+2 RBbbbbbbbbrrrr..ttt...bbbbbb.r..b..b....
+2 .....BTtttttttrrrrtttttt.lll..tttt.tttt.
+2 l..l.....b......tt.rrr..l..bbbbb.tt..b..
+2 r..r.........RRtttt.llll.b..............
+2 .....tt...l...b..rrtttbbbbbrrrrrrrrrrrrr
+2 rtttrrr.rrrrrrbbbb...b......Bttttt..rrt.
+2 rrbbllll.l.l.b...llll......bbbbbbbbbbb..
+2 .t..t..t.t......rrrr......bbbbrrbbbbbbrr
+2 rbb..ll....bbb.llll.l..l..............RR
+2 R...LLTttttttlllllbbbb.llllll...........
+2 .................tttttt..t..r..tt..t.r..
+2 ..R.ttttt..rrrrbb..l...bbrr.bbbbbrrrtt.r
+2 rrttrrrrrrrrtttttttrrrrrrrrrt..b...l.t..
+2 ...T.bb.lllttttttrrrrbbbbbbbbbbbbbbbbbbb
+2 bbbllllllll............RLllbbbbbllllllll
+2 llllllllllllt.......t...t.lllllbblllllll
+2 lt..t....L.ttttllllttlllllrrrrrrrrrttttr
+2 ..t....TBbbblllttttllllllllllllbbb.r....
+2 .......R.Tttttttt.rrrrttttlllll...ttt.ll
+2 lttt.lltttt........
+
+uuid 8c142079aaa585af5d2691ff0565ce46
+
+leaderboard steps time

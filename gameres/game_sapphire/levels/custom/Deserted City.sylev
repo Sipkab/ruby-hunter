@@ -1,0 +1,51 @@
+n Deserted City
+D 8
+C 5
+E 0
+s 0
+p 1
+d 0
+v 0
+o 0
+w 0
+Y
+M 0 Hello
+i Is anyone still here?
+a Shark
+m 16 23
+################
+##+#++   #  *  #
+##+      #0##  #
+#+  0    #0    #
+#   .0*#  0#   #
+#    .0#  +#   #
+#     |#   0   #
+#        & .   #
+#        +     #
+#  @           #
+#  o        @  #
+#             .#
+#      1 "  #++#
+#    0    oo .##
+#o@  {o   oo |+#
+###o############
+#           ...#
+#+0     %   ...#
+#+0+        ...#
+#+0         ...#
+#++         ...#
+#   @       .<.#
+################
+y ~ 0@00E  
+R 97024
+0 0
+1 Demo 1
+2 rrrttttttlsbbb..b.strmtt..rr....bbbbl.lt
+2 tttlLttttttrRlbbbllbbbbbbbbbllutttttmut.
+2 .ltllbbbbbbbr.rttLbbbbrrBlllbLbbbrcbmbbl
+2 ...s...tr.r.b.LrrrrrttttrrrbbBttllb.....
+2 .b....llllttlcbrrrrt...bblltt.....
+
+uuid f1294cfe48077e850f87b1160eee1ff3
+
+leaderboard steps time

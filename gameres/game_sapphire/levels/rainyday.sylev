@@ -1,0 +1,40 @@
+n Rainy Day
+ldeutsch n Regenwetter
+D 3
+C 1
+s 8
+p 0
+d 8
+M 0 Voyager
+i Can you bring all three
+i of them through this bad weather?
+ldeutsch i Kannst du alle drei durch
+ldeutsch i dieses schlimme Wetter bringen?
+a Alexander
+m 126 12
+...#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
+...#                                                                                                                         #
+...#                                                                                                                         #
+...#                                                                                                                         #
+####                                                                                                                         #
+#                                                                                                                            E
+#                                                                                                                            E
+#111                                                                                                                         E
+####                                                                                                                         #
+...#                                                                                                                         #
+...#                                                                                                                         #
+...#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#
+R 74384
+0 9
+1 Demo 1
+ldeutsch 1 Demo 1
+2 ..r.b.r.bttllllrrr.l.....rrr....rrrrrrrr
+2 rrrrrrrrr..rrrbb..rrrrrrrr...rrrrrrr.rrr
+2 r........rr.....rrrrr.......rrrrrr......
+2 .....rrrrrrrr......rrrrrrrrrrrrrrrrrrrrr
+2 rrrrrrrr....rrrrrrrrrrrr..l...rrrrrl..l.
+2 ..rrrrrrrrrr..rrt.....rrtrrrr.......
+
+uuid eefeff98dd33d1b3ec2755c637627713
+
+leaderboard steps time

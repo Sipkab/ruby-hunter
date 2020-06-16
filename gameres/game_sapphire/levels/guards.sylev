@@ -1,0 +1,49 @@
+n The Guards
+ldeutsch n Die Wachen
+D 8
+C 6
+E 0
+M 0 Nobody does it Better
+i I admit, that this level
+i can only be solved, if you
+i know the exact internal
+i rules for object-movement,
+i the game applies.
+i (But don't be desperate,
+i there is a demo provided)
+ldeutsch i Ich gebe zu, dass man diesen
+ldeutsch i Level nur lösen kann, wenn
+ldeutsch i man die exakten internen
+ldeutsch i Regeln für Objektbewegungen
+ldeutsch i kennt.
+ldeutsch i (Aber nicht verzweifeln, ein
+ldeutsch i Demo wird mitgeliefert.)
+a Reinhard
+m 13 16
+~   ####     
+~  ##.*##    
+~ ##Q...##   
+~##0.....##  
+##.E...*..## 
+#*.........# 
+#......*...# 
+#.**.......# 
+#1.........# 
+##### ####.# 
+## 5   5 #.# 
+##8#6 8#6#.# 
+## 7   7 #.# 
+##### ####.# 
+#E.*000!...# 
+############ 
+R 4678
+0 0
+1 Demo 1
+2 ..rrrrrrrrrbbbbbblllrrrttttttllllltttttt
+2 bbbll....stt..rrr...bbb.ttttlt.bbbblllll
+2 bbbrrr.trrr..ltttrrrbbbbrbbbbbblllllllll
+2 ..............
+
+uuid 3120ed629c0b8611181ca275c4393d65
+
+leaderboard steps time

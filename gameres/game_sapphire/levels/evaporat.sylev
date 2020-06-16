@@ -1,0 +1,46 @@
+n Evaporating Bridge
+ldeutsch n Verdampfende Br�cke
+D 8
+C 6
+e 1
+s 0
+p 0
+Y
+L
+M 0 Jump
+i This one works a little like
+i Matrix but now it's for a
+i bridge. Don't wait too long
+i between safes!
+ldeutsch i Dieser funktioniert ein bisschen
+ldeutsch i wie "Matrix", aber diesmal
+ldeutsch i wird daraus eine Br�cke.
+a Alexander
+m 27 12
+###########################
+#               0         #
+#::                       #
+#$:             |:::::::::#
+#:: [@          r         #
+#    +[[[[[[[[[[          #
+# E  R         1          #
+#::a@aaaaaaaaaaaaaaaaaaa::#
+#$:::::::::::::::::::::::*#
+#:::::::::::::::::::::::::#
+#%< > % >  % >   % >    %*#
+###########################
+y ~  %>(   
+R 68642
+0 0
+1 Demo 1
+2 t..tRbblt.tbblttbblttbblttbblttbblttbblt
+2 tbblttbblttbblt.tb..tlrRbbll......
+R 31504
+0 0
+1 Demo 2
+2 t..tRbblt.tbblttbblttbblttbblttbblttbblt
+2 tbblttbblttbblt.t.Rbbll.......
+
+uuid d2f2e9fcf592cab7a4c809034247e1a8
+
+leaderboard steps time

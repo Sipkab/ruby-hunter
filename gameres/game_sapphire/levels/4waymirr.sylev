@@ -1,0 +1,44 @@
+n Four way mirror
+ldeutsch n Vierfach-Spiegel
+D 2
+C 6
+s 20
+p 0
+M 0 Penny Lane
+i Collect as fast as you can,
+i because the swamp is
+i growing quite fast.
+i That's why you have 4 exits.
+ldeutsch i Sammle die Edelsteine so schnell
+ldeutsch i du kannst, weil sich der Sumpf
+ldeutsch i ziemlich rasch ausbreitet.
+ldeutsch i Deswegen gibt es hier auch vier
+ldeutsch i Ausgänge.
+a Alexander
+m 17 17
+#################
+#%.....1*......%#
+#.......$.......#
+#.......*.......#
+#...E...$...E...#
+#.......*.......#
+#.......$.......#
+#.......*.......#
+#*$*$*$*(*$*$*$*#
+#.......*.......#
+#.......$.......#
+#.......*.......#
+#...E...$...E...#
+#.......*.......#
+#.......$.......#
+#%......*......%#
+#################
+R 50417
+0 8
+1 Demo 1
+2 r..bbbbbbbbbbbbbBttttttlllll.L.lL.rrrrrr
+2 rrrrrrrbbbblll........
+
+uuid f9f7e1405fe995722ac1a7683bd36989
+
+leaderboard steps time

@@ -1,0 +1,36 @@
+n Mission Possible IV
+ldeutsch n Mission Possible IV
+D 6
+C 5
+E 0
+p 0
+M 0 Mission Impossible
+N Mission Possible V
+i So you finally made number 3!
+i Now you have the opportunity
+i to place the bomb anywhere.
+i I think this should make things
+i a lot easier for you...
+ldeutsch i Hast du also endlich
+ldeutsch i Nummer 3 geschafft!
+ldeutsch i Hier kannst du die Bombe
+ldeutsch i zünden wo du willst.
+ldeutsch i Ich denke das sollte
+ldeutsch i die Sache viel einfacher
+ldeutsch i machen...
+a Juergen
+m 7 5
+#######
+#   0 #
+#!E.# #
+#@   1#
+#######
+R 8812
+0 1
+1 Demo 1
+2 ................ll...ttll.b.trr.b.......
+2 .....b.r.....stt....lll....brbbll.r..t
+
+uuid 9cb6006b70528b1cda205a83157819ca
+
+leaderboard steps time

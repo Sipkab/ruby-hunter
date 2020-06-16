@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<FrameAnimation>
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.08984375"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.06640625"
+        x="0.009765625"
+        y="0.390625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.08984375"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.06640625"
+        x="0.08203125"
+        y="0.390625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.08984375"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.06640625"
+        x="0.1484375"
+        y="0.390625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.08984375"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.06640625"
+        x="0.22265625"
+        y="0.390625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.08984375"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.06640625"
+        x="0.296875"
+        y="0.390625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.08984375"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.06640625"
+        x="0.36328125"
+        y="0.390625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.08984375"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.06640625"
+        x="0.56640625"
+        y="0.390625" />
+
+    <!-- tick -->
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.0703125"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.0546875"
+        x="0.43359375"
+        y="0.40234375" />
+
+    <!-- question mark -->
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.0703125"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.0546875"
+        x="0.5"
+        y="0.3984375" />
+		
+	<!-- suspend mark -->
+		
+	<FrameAnimation.FrameAnimationElement
+        h="0.078125"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.0625"
+        x="0.640625"
+        y="0.39453125" />
+		
+	<!-- dual mark -->
+		
+	<FrameAnimation.FrameAnimationElement
+        h="0.078125"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.0625"
+        x="0.7109375"
+        y="0.39453125" />
+
+</FrameAnimation>

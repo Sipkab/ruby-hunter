@@ -1,0 +1,66 @@
+n Shock
+D 5
+e 0
+s 0
+p 0
+o 2
+M 0 4-32
+i The race is on!
+a Alexander
+f Alexander
+m 30 30
++####Q###Q####################
++Eo#Q+QR .                   #
++ 8# ? ##Q################## #
++  +   #"QQ!!!!!!!!!!!!!!!Q# #
++uj# 1 #!Q################!# #
++  # r #Q!!!Q#77777777777#!# #
++o #i i#!QQ!!#77777777777#!# #
++ ^#   #Q!!!"#77         #!# #
++55# ! #######77  7  77 7#!# #
++oo#   # 7   777777    77#!# #
++  #######################!# #
++  # R R R R R R R R R R #!# #
++  # ###################R#!# #
++  # #Q!!!!!!!!!!!!!!!Q# #!# #
++  # #!###############!# #!# #
++  # #!# Y   Y Y R   #!#Y#!# #
++  #Y#!# ########### #!# #!# #
+~  # #!#Y#Q!!!!!!!Q# #!#Y#!# #
+%+%# #!# #!#######!# #!# #!# #
+%%%# #!#Y#!#E    (!# #!# #!# #
+%%%# #!# #!#........ #!#R#!# #
+%%%# #!#Y#!###########!# #!# #
+%%%# #!# #Q!!!!!!!!!!!Q#R#!# #
+%%%#Y#!#Y############### #!# #
+%%%# #!# Y Y Y Y Y Y Y R #!# #
+%%%#R#!###################!# #
+%%%# #Q!!!!!!!!!!!!!!!!!!!Q# #
+%%%#R####################### #
+%%%#  R Ry R R R R R R R R R #
+##############################
+y ~V  %    
+R 27563
+0 8
+1 Demo
+2 ..bbbb..rtttttttrrsrrrrrrrrrrrrrrrrrrbbb
+2 bbbbbbbbbbbbbbbbbbbbbbbblllllllllllllttt
+2 ttttttttttrrrrrrrrrrbbbbbbbblllllllltttt
+2 trrrrrrrrbbbbbblltlllll.....l.....
+R 64107
+0 8
+1 The Hard Way
+2 ...bbbbbltttttt.....t....srt.....bbbbbbb
+2 ......tt..t.ll.bbbb.......ttttttllltt...
+2 .....
+R 8609
+0 0
+1 Top Speed
+2 bbbblt....ttttttrrrrsrrrrrrrrrrrrrrrrrrb
+2 bbbbbbbbbbbbbbbbbbbbbbbbbblllllllllllllt
+2 ttttttttttttrrrrrrrrrrbbbbbbbblllllllltt
+2 tttrrrrrrrrbbbbblltTllllmm.............
+
+uuid 6018b0a81a948b7b3969376959ec89d3
+
+leaderboard steps time gems

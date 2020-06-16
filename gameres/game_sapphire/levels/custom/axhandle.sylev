@@ -1,0 +1,28 @@
+n Axehandle
+D 4
+C 3
+E 1
+p 0
+i Only you can determine
+i which way the stone
+i should fall.
+a Alex
+m 9 9
+~ ##E##  
+~##...## 
+##.....##
+#1..0...#
+#..QQQ..#
+#...@...#
+##.....##
+~##...## 
+~ #####  
+R 92044
+0 8
+1 Demo 1
+2 .......rr...t.rrb.l......rr..bbb.l.B....
+2 .t.....bblttl..........rttttt........
+
+uuid a347492b99cef7366d50f59c5fe613cc
+
+leaderboard steps time

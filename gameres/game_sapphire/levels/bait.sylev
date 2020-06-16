@@ -1,0 +1,37 @@
+n Bait
+ldeutsch n Köder
+D 4
+C 4
+i As you will quickly see,
+i you need a helping
+i hand here to get hold
+i of the embedded emerald.
+ldeutsch i Wie du bald feststellen
+ldeutsch i wirst, brauchst du Hilfe,
+ldeutsch i um an den eingemauerten
+ldeutsch i Smaragd ranzukommen.
+a Reinhard
+m 17 12
+#################
+#E # #      #   #
+#    #  ### # # #
+# ## ##   #   # #
+# #   # Q1# ### #
+# # # # #####   #
+# # #   &   # # #
+#   ### # ##### #
+# #   #   #o  # #
+# ### ####### # #
+#               #
+#################
+R 31746
+0 8
+1 Demo 1
+2 ....tll.ttrrrrbbrrttrrbbbbbbbbblllllllll
+2 l...ttlltttt............................
+2 .........rrb.brrtt.........bb........ttt
+2 rrblrr.....llbbrlllttlttlllt........
+
+uuid 2a413a2dafbbc401cf223c85206c785d
+
+leaderboard steps time

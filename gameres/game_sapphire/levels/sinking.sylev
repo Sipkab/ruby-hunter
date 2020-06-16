@@ -1,0 +1,81 @@
+n Sinking isle of treasure
+ldeutsch n Sinkende Schatzinsel
+D 2
+C 2
+e 280
+M 0 Take Five
+i Apply your time bombs at
+i the right places and
+i the whole treasure
+i will collect at the bottom.
+ldeutsch i Verwende die Zeitbomben
+ldeutsch i am richtign Ort und der
+ldeutsch i ganze Segen wird sich
+ldeutsch i am Boden ansammeln.
+a Ronald
+m 24 51
+########################
+#1#00000000000000000000#
+#!#00000000000000000000#
+#!#********************#
+#!#********************#
+#!#********************#
+#!#********************#
+# #++++++++++++++++++++#
+# QQQQQQQQQQQQQQQQQQQQQ#
+# +++++++++++++++++++++#
+# #                    #
+# #                    #
+# #                    #
+# #                    #
+# #                    #
+# #                    #
+# #++++++++++++++++++++#
+# QQQQQQQQQQQQQQQQQQQQQ#
+# +++++++++++++++++++++#
+# #                    #
+# #                    #
+# #                    #
+# #                    #
+# #                    #
+# #                    #
+# +++++++++++++++++++++#
+# QQQQQQQQQQQQQQQQQQQQQ#
+# +++++++++++++++++++++#
+# #                    #
+# #                    #
+# #                    #
+# #                    #
+# #                    #
+# #                    #
+# +++++++++++++++++++++#
+# QQQQQQQQQQQQQQQQQQQQQ#
+# +++++++++++++++++++++#
+# #                    #
+# #                    #
+# #                    #
+# #                    #
+# #                    #
+# #                    #
+# +++++++++++++++++++++#
+# QQQQQQQQQQQQQQQQQQQQQ#
+# #++++++++++++++++++++#
+# #cccccccccccccccccccc#
+# #                    #
+# #                    #
+#                      E
+########################
+R 15305
+0 1
+1 Demo 1
+2 ...bbbbbbbcbbbbbbbbcbbbbbbbbcbbbbbbbbcbb
+2 bbbbbbcbb..t......bbb..r.......rrrrrrrrr
+2 rrrrrrrrrrr..llllllllllllllllllll..rrrrr
+2 rrrrrrrrrrrrrrr..lllllllllllllllllllll.t
+2 tttt.r.lr.lbbbbbrrrrrrrrrrrrrrrrrrrrr...
+2 l.t.bllllllllllllllllllTrrrrrrrrrrrrrrrr
+2 rrrrr.........
+
+uuid 8b4b13173e18cacfb54c4eef0dfbdc9d
+
+leaderboard steps time

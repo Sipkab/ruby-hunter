@@ -1,0 +1,29 @@
+n Lava Tunnel
+D 6
+p 0
+A Lava
+M 0 Sections
+i Another race level. Run!!
+a Alexander
+m 50 9
+%#Q..QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ   
+^#.#...................QQQQQQQQQQQQQQQQQQQQQQQQQ  
+1# ###################..............QQQQQQQQQQQQQQ
+~  ################################...............
+#################################################.
+QQQE                                         +   .
+Q..                                         Q+   .
+QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ+  Q.
+QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ+ Q. 
+y ~Q  Q  Q 
+R 38855
+0 0
+1 The Race
+2 brrtt.....bbll.....rrtttrrbRtl....rbrrrr
+2 rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+2 rbbbbbblblrtttl.......llllllllllllllllll
+2 llllllllllllllllllllllllllllll.....
+
+uuid ddba473ad830038c4b2c678122ff2103
+
+leaderboard steps time

@@ -1,0 +1,42 @@
+n Push the Stone
+ldeutsch n Schieb den Stein
+D 3
+C 3
+e 36
+E 0
+p 3
+M 0 Thriller
+i It seems easy enough to
+i collect the gems.
+i But can you make your way out
+i of the mine fast enough?
+ldeutsch i Es scheint einfach genug,
+ldeutsch i all die Steine einzusammeln.
+ldeutsch i Aber kannst du die Mine auch
+ldeutsch i schnell genug verlassen?
+a Reinhard
+m 30 12
+##############################
+E                          0.#
+# ##########################.#
+###............*........*..#.#
+#r.*...0...*0....0...0...###.#
+#..*..*...$.....$.......$#j0.#
+#..........*.0...*..0....##|.#
+#.*..0..$...0..$....$*.....#.#
+#.0.......$...*...0...0....#.#
+#...0...0...*.....$........#.#
+#1.........................R #
+##############################
+R 82911
+0 0
+1 Running fast
+ldeutsch 1 Im Schnellgang
+2 ..ttttttrrbbbllbbbrrrrrtttttrrbbrbrrtttl
+2 trbbbbbrrrttrttttrbbbrbbbrrttrrrrttttrbb
+2 bbbbbrrrttttt......ttttlllllllllllllllll
+2 lllllllllllllllllllllll..............
+
+uuid 1df9460bbfa4c6bfe58d30a9abcf120f
+
+leaderboard steps time

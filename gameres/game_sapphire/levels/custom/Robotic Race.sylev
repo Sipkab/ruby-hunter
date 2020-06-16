@@ -1,0 +1,44 @@
+n Robotic Race
+D 8
+e 19
+p 0
+o 1
+w 100
+M 0 Race
+i Don't look back!
+a Alexander
+f Alexander
+m 20 20
+Eo1              ***
+############### ####
+(                  w
+# ##################
+~      #QQQQ # # #$ 
+###### #...y #   # @
+Q      ##### # # # .
+.#####y        # #. 
+~#   # ######### Y  
+~# # ###         #cY
+~# #      Y     ##  
+~# ######w########cY
+~#             #... 
+~#             #*...
+~###############....
+~#..................
+~#..................
+~#.......%..........
+.&................*.
+....................
+R 54477
+0 0
+1 Roborace
+2 rrrrrrrrrrrrrbbllllllllllllllbbrrrrrbbbr
+2 rrrrrrrttrrbbbblblllllBtrrrrrrrtrttrbbb.
+2 ...Lbbllblbbbbrrllllltttlllllllllllbbbbl
+2 ltttttttttttTbbbbbbbbbbbrrrrr...lllllttt
+2 ttttttttttrrrrrrttlllllttlrrrrrrrrrrrrrr
+2 rrtlttrrRrRllllllllllllllllll.......
+
+uuid f8b6ec0efee15633536842a4e41eeb28
+
+leaderboard steps time

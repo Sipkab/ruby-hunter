@@ -1,0 +1,74 @@
+n Safecracker
+ldeutsch n Panzerknacker
+D 4
+C 4
+E 0
+T 2000
+s 20
+p 0
+M 0 Nightshift
+i Sometimes safecracking is so
+i much work, that you could
+i do a honest job instead.
+ldeutsch i Manchmal ist Tresorknacken so viel
+ldeutsch i Arbeit, dass man ebensogut einem
+ldeutsch i ehrlichen Beruf nachgehen k�nnte.
+a Juergen
+m 17 26
+#################
+#0..............#
+#.............0.#
+#...0...0000....#
+#.....0....000..#
+#.000......0.0.0#
+#...000.........#
+#...0...0.......#
+#......00...0...#
+#00....0......0.#
+#...0..0..0.0...#
+#...............#
+#..[............#
+#.......[..[....#
+#.............6.#
+#..6............#
+#.....[..6......#
+#............[..#
+#...............#
+#.[.6....[......#
+#.....[.....6...#
+#...............#
+#..[..........[.#
+#.......[..[....#
+#E.............1#
+#################
+y ~        
+R 28491
+0 9
+1 Fast and simple
+ldeutsch 1 Einfach und schnell
+2 ........lltl.tlt..brr.T.trrbl.blt.bbbllt
+2 ttltttr.ltllbrrr.t.trrtrrbllltttl..B.rr.
+2 ttllbtrrbl.tlbbb.rbbbbllllt..R.llttrb.lb
+2 rr..l..t...ll..rtt.l.rbbblll.t..bblbbrtt
+2 tt..rrr.tttt.lllttr.bblbr.trbbrrr.trrbll
+2 ltlbbbrbll.b.B.rrbb.l..r.tLbbbltt.rtllbb
+2 b..t.blll.T.rr.Tbblltt.bbbrrrrrrttlllbrt
+2 rrblllbltttrtttttrtt..rr.lll.rrrrttt.l.r
+2 .bbrbl..tlllbb.r......Rll............ttl
+2 llttt.t.rrbl..l.bblbb.....Rtt..r..bbbb..
+2 ...r.tttttt...t.bbbbbbbrr...l........l..
+2 .l..bb.R..l.bb.B.t.r......Rlll..rr....bb
+2 .................b......tttrtttttttt..ll
+2 ..rbbbbbbbbbbb..b..t..ll..rr............
+2 ....bb...b.Rt.rrtll.r..rr...bl..B.r.tttt
+2 ttttttttttttl.rbbbbbbbbbbbbbb.rbbbL.tttt
+2 tttrrr....ll..bbrrrtr.ttttttttttr.trrbll
+2 ll.bbbbbbbbllbblbbbbr..r..ll.ttrr.R.b.R.
+2 b.R....bbrt.lttttttrrrb.tttttttll..bbbbb
+2 rrrbbb........Lrr..lllll.b.ttttttttttttt
+2 t.bbbblbbbbbbbbbbbb.......rr..rrbbl.bl.L
+2 rttllllbllllllll....bb......
+
+uuid 67751197a7651f383f10fac1c273dc19
+
+leaderboard steps time

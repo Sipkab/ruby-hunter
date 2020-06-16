@@ -1,0 +1,41 @@
+n Be Careful! 2
+D 3
+M 0 Tico Tico
+i A simple mining problem
+a Nic01
+m 15 12
+###############
+#      ".00$00#
+#      ".00$$0#
+#      ".00$$$#
+#      ".00000#
+#      ".0$$$0#
+E     1".0$$00#
+#(     ":0$000#
+#((    ":0000$#
+#(((   ":000$$#
+#((((  ":00$$$#
+###############
+R 77864
+0 8
+1 Demo 1
+2 ...rbbbBtttttt.Tl.tRT.rTllllllbbbbbbut..
+2 .......bbut.........bbut..rrrrrtttttrrrr
+2 rbbr.Rttlllrrrbmlll...........bBtrb..urr
+2 rbut.lllbbbrbrR.bl.......B.ut..........b
+2 bb..trutt.....rrbbb.mllbutt..rrrbbbbllll
+2 l.srbbl.......rRltluttllTlllllbbbbRl.TRL
+2 ..lttttl.......
+R 78000
+0 8
+1 Demo 2
+2 ...rbbbBtttttttTrBTl..bbRttt..rrrrbbrRtt
+2 lllllbbbbRl.....rbRltttrrbbtttrrrrmllb..
+2 ....rrrrmll.......r..sbbl....bLB.l.B...s
+2 tr.........b.mlb......rrrrr..ll.srbbl...
+2 bLrtlltltlttlllbbbllbbl.l..R.R...R..l..R
+2 .Rttttl.......
+
+uuid a5b423da29fa7f14c772b0dcb364da8e
+
+leaderboard steps time

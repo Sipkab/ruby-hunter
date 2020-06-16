@@ -1,0 +1,137 @@
+n Easy Level Skill Practice
+D 11
+e 231
+s 20
+p 0
+d 30
+o 4
+w 40
+M 0 Only Solutions
+N Tricky Level Skill Practice 1
+i This is a skill practice for the Simple, Easy, and
+i Moderate levels. Here are the doors:
+i 
+i Green: Simple/Tutorial/
+i Yellow: "Supernova"/Easy
+i Red: Moderate
+i Blue: Allows access to exit.
+i 
+i Note: This may include some
+i Emerald Mine levels.
+m 50 50
+#*#############    G * #                     # # !
+*1*G .........#    # c #                     # G  
+#g##.0..*...*.#    # * #*     !           S  # #  
+###...........#  **###G#**       ........... # #( 
+..#.*@....$...G Q0@#.. #***      ...@....... G #: 
+0.#...*.....########.0.#****     ........... # #  
+..######G####******#...#Y##################### +$ 
+....# #*+*#........#.^.G    w   ##############G#:#
+... R #...#QQQQQQQQ#...#Y## # ooG .0.#       5   #
+....# #####+++++++Q#####  # G * #..u.# ###  ###  #
+.^..# R  ########++Q++0+Q+#######....G  7        #
+....# # @@@@@ #0##++Q++++QQ+Q+Q+#....###########:#
+....#*# iiiii #..##++Q+Q+++Q+Q+Q###G####........ .
+cccc#.#       R...##++Q+++++++++Q## 000#...$.... .
+~   # #       #....##++Q+Q+Q+Q+Q+# .***#.....*.#:#
+~   # #ccccccc#@.@..##++Q+Q+Q+Q++##G####000....#&#
+~   R R       #......#s+++++++++### #...0%0.####c#
+~   #*#       #....@..######Y######*#.*.000 Y Y  #
+R##############.. ...@..#        ####.......# ####
+~.............###R##....# Q      ####sssssss# #...
+...............#***#..!.####     Y   *    * * #Q..
+.. [ ..........#+++######    & & ####sssssss#Y#...
+..+%+........u.#        #   _& & #**#       # ....
+..+++..........#        # _  &&& #00#aaaaaaa#.....
+##########R#####   0    #        #++#########Y#_#.
+~   0 *        #sss. #Y###########QQQ#  #   # #   
+*0$*00$0*$*00**#s s  #          # +++#  #"  # # # 
+...............#s^s  #    *     #    Y  #   Y # 7 
+ccccccccccccccR#+++###       *  #cccc#  ##### ### 
+~              #######          Y    Y     !#   # 
+~               R ...############    ######## ! #&
+################&..Q..#         ######      #   #c
+~ # # # # #    #&.Q...# 0000   * 000   00 0 #     
+E B R Y G^R>   #&.....###SSS##R##SSS###SS## ######
+~ #(#$#*# ## ###&.....R ...*     ...   .$   #     
+###########  > #&&&...# ######R##############     
+.....*..*.## ##########^# !i   i * i R          0 
+*o.*......# >     #0#*# # i  iii i * #         _##
+. ...*....####   ##*#.# #    i   i i #@    _      
+. ....*...R #>    #.# # #* i   i   i ##s _     _  
+. .*......#*##   ## # ###i iiii iii# #            
+. .......*#.      # #   #i       *i#*#aaaaaaaaaaaa
+...*...############ R   ######################R###
+.*.....#dddddddddd# #    #         #       #    .*
+...###.#          # #    #         #   *   #    #7
+...#0###          R #    #         #   .   #  * #*
+.###$Q##          # #   [%[       [%[     [%[ . #8
+~  R.. R          # #    #    $    #       #    #*
+~  #####aaaaaaaaaa# #    #    .    #       #    #6
+~      #aaaaaaaaaa#a#aaaa#aaaaaaaaa#aaaaaaa#aaaa#*
+y .*..y....
+y ~^ +%+ r 
+y ~^ +%+   
+y ~^ +%+   
+y ~^ +%+   
+y ~^ +%+   
+y .........
+y 000000000
+y #*##b##.#
+y 555QQQ555
+R 33677
+0 0
+1 Demo 1
+2 TLBRrrbbRbrrBrrTr..lbrrtttrrrbbrrtrrrttt
+2 rbbRRrrbbbLt.....lbbrrrrrRbbrrrtrbbrRltt
+2 r....brrbllbrRbbrrRllbBttttr.....btrrr.r
+2 r.rr.rrrttlttttttrrtbbb..bbbltrtttlult..
+2 ....b.rrbbttllbbbltlllllllllbbRttttrrrrr
+2 rrrbbllllllbblllllltttllllllLbLbRlbrrrll
+2 lbbu............bbbbrrrr......lllllllltl
+2 l.lBtlllllrrrrbrrrrrrrbbbbrrrrbbbbbblbbr
+2 tttrttllbrtrblbbbbbllttltrrbrtbbbrrrrttt
+2 tttlllllllbrrrb..rtrbrbbbbbb.llllrrrrrtt
+2 ttrrrrrrrrrrrrtttrRllblllllttrrtrttrrrbR
+2 lbbbrbbbbrrrrbBlltTlbLrrlllbbbbbbrrbbrRl
+2 lltttttlltcrr.........lllllbbrrrRllllttl
+2 llltcrrrrbbllllrl......rrbltllllllllltll
+2 ttttbllllrBt........bbbbllbttttttttttttt
+2 ttttttLRt...rttlltrrblbbrrrlllrrbbrrttlB
+2 tltltltllltrRtLb..lbbbRrbbRrrrrr.bbttttl
+2 llllbbrrbbttttttlltllllmlltt...bb.ttrrrr
+2 rrrrbbrllllllltttlbbbbbb..btrrbrrrrrtlll
+2 lllllrtttt.....ttttllllbBtttrbbrrlbbbblT
+2 lt...rrrBttttLbrbbbbbbbbllllTbRrRlbbrrrr
+2 rrtllllllbbbbrtttrrrbrbbrttttrrbbbbrrttt
+2 trrbbRttllbbbbllttttllllbbl.............
+2 .........rrr......tlllblblbLtrrrrbrrrrrb
+2 lbbrrrrRlllllllTllllttbbll.rrrrrrrrrrrrr
+2 rbbllllllllllllllrrrrrrrrrr.....rrrrrrbb
+2 bBttrtrrblblrr..tllllbbRbRbrrrrrt...rrr.
+2 .............rrrrrrrrrrrrrrrrrrtttllb...
+2 .....t.b.........r..........r..r....bbtt
+2 llllllllllllllllltlllbrrrrrrrbbblbbrbbll
+2 bbbllltllttlttRbbbrbbrrrrrrRllllltlttltt
+2 rrbrrbrrbrrrttrrrttrrrbrrbbbbtttttrrrrrr
+2 rrbbbbrstrtl......bltlllbltltrrrbbbllltt
+2 ltrrrtrrrtrrrblllrbbrbllllblttrrrrttllrb
+2 rblllllbltrrrrrttl.rbblllllltrbrrrrrttll
+2 rbrbllllbltrrrrttllrbrbllllbltrrrrttllr.
+2 ..lrl...lbl.blLtrbbbrrrrrrbbbbbtttrr.Rll
+2 lbbbblttb....trttlbbbbbbbtllllllbltrrttr
+2 rrbbrrrrrttttrrbBtlllbbbllllllllbllt....
+2 ............rrr.....l.llllllllbblttrtllr
+2 rbrrrrrrrrrrrrrrrrrtttrrbbbBtttlllllbbbl
+2 llllllllllllllllblt.....................
+2 ...rrr..ttlllbbllrrrrrrrrrrrrrrrrrrrrrrr
+2 tttrrbbbbbBtttttllbbblllllllllllllllllll
+2 lllllbltttttltrlttttbbbbbltttTbbbbbblrr.
+2 ...lllllllbbllllllTlllttttrrrtttttttrrbb
+2 brrrrbBttttlllllllLrbtrrrbbb..bbbbllllll
+2 tttttttrrrrrbbbbrrrrtrbbrrrttttllttt...t
+2 lllBlBlBll......
+
+uuid 48d953adf3e722455860de0ba0b3455c
+
+leaderboard steps time gems

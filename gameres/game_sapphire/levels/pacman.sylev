@@ -1,0 +1,56 @@
+n PacMan
+D 5
+C 3
+o 1
+M 0 Action
+i A nice and open maze -
+i just like in the old days
+i of the PacMan game.
+i And the monster is also
+i here...
+ldeutsch i Ein hübsches, offenes Labyrinth -
+ldeutsch i genau wie in den alten Zeiten
+ldeutsch i des PacMan - Spieles.
+ldeutsch i Und das Monster ist auch
+ldeutsch i schon da...
+a Reinhard
+m 27 23
+###########################
+#    *       $            #
+# ######### ### ######### #
+# #   *   # *   #       # #
+# #   ##    ###    ##   # #
+# #  ##  ##     ##$ ##* # #
+# # ## *#   # #   #  ## # #
+# # #  #  # # # #  #  # # #
+# #   #   # # # #   #   # #
+# #( #   $# # # #$   #  # #
+# ## # #### #1#o#### # ## #
+#            E   *        #
+# ## # #### # # #### # ## #
+# #  #*   # # # #    #  # #
+# #   #   # # # #  *# * # #
+# # #  #  # # # #  #  # # #
+# # ##  #   # #   # $## # #
+# #  ##( ## $   ##  ##  # #
+# #   ##    ###    ##   # #
+# # $     #   ( #       # #
+# ######### ### ######### #
+#       *             (   #
+###########################
+R 18288
+0 12
+1 Demo 1
+2 ....tttttllbllbbblllbbbbrrrbbbrrbrrrrbbl
+2 lllbbllllllllllttttttttttrrrbblbbbbbbrrr
+2 rrttltltltltttttlttttttrrrrrbblblblblbbb
+2 rrrrrrrttttttttrrrrttllllllllllllllbbbbb
+2 bbbbbbbbbbbbbbbrrrrrrrrrrrrrrttttttttttr
+2 rrrrttllltttllttrrrbrbrbrbrrtttlttlllllb
+2 llbbbbbbbrrrrrrrbbbrbbbbblllllttrtrtrtrt
+2 ttllbblbllbbllbbbbbrrrrrrrrrrttttttttttl
+2 llllllllllll.......
+
+uuid b412bbf67f2afd84f353fd6ce2164a75
+
+leaderboard steps time

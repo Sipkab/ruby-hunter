@@ -1,0 +1,82 @@
+n Dynamic Duo
+ldeutsch n Dynamisches Duo
+D 5
+C 3
+E 0
+M 0 Tico Tico
+i Here you have to control two
+i miners with the same input commands.
+i I hope, you won't get too confused.
+ldeutsch i Hier musst du zwei Kumpel mit
+ldeutsch i den gleichen Kommandos steuern.
+ldeutsch i Ich hoffe es ist nicht zu verwirrend.
+a Reinhard
+m 30 30
+##############################
+#E1..0.............$.$$....0.#
+#E1.....0..$...0....$.....0..#
+#......$0*...*..$$...0....*..#
+#0.00..$..*.......*0.0*...**.#
+#...***$.0$*.*.*.00.....**..*#
+#.00.0...0.....$.00.$*.0....$#
+#..0.00$0000.0.....0.*0.$..0.#
+#*...0*****.00*.0*.....0**...#
+#.*..0.$.....0*.........*...$#
+#...00.$*....00...*$0.*.*$0..#
+#.......*.0..0.00*.$..0.*.000#
+#0..00.$.000....0.......*.00.#
+#0..*0.$..0*.0.0.0.0....**.0.#
+#0.*...*....0..*.00...**...0$#
+#0.0....00...0*...0....*$..$$#
+#..0...0..0........*...$...0$#
+#.0**.....$..0.*...*000....0$#
+#.*..$...0$*0....0..0..*.....#
+#...0$0...0*.00$0*.........0.#
+#..0$$*0...0.0$$.*....*$*..0.#
+#..00..**.....00..*0.*$.*..0.#
+#*.........$....$$..$*.......#
+#*.$.0*.0.$...00...*$...$.0..#
+#..$**....**.......*......0..#
+#*.$......0$...0.$**..0*.....#
+#**0$$.*......*.**.**.***0...#
+#..0...*.....$...0$......0*..#
+#...0.....0......00..........#
+##############################
+R 58254
+0 8
+1 Demo 1
+2 .....brrr.r.t.r.....ll...lb.r..r..tt.rrr
+2 rrbrrtrrrrrrrrrr.bb..r...b.b..rrrr......
+2 ....t...L...b.L..........b..b.r..bbb....
+2 ..t..ll.t.ll..bbbbbb..bl.br.bb.bbb.lr.b.
+2 .b.bbbl.r...tllbbbrr..t.ll.trrrr...B...r
+2 r.tlll.tttllll..bl..bl..bbr.llll.rr.b.t.
+2 ll..ll...b.......l...b..l..l...b..t.b..t
+2 ...b.rr.t..rrrr..t...rr.tt.ltt......l.rb
+2 bbb.tttr.t...rrr..brr.ttttt..rtt.lttl.rr
+2 t.l.tttl.rr.lbbbbbbbbbbbrtttttttttttt...
+2 brr.ll......lbbbbb.r..bbbbbb....t....bbb
+2 bbrr..b.rr.ttttttttt..t..L...ttt.lt.lt.l
+2 bbbbbbbbbbllllllltl.rrttt.bbb.rr..trr.ll
+2 llbbbbbll.t.r.tt..l..tttlll.bb..L..rr...
+2 b.lr.bbbl..r.bllllll..t..L.t.bbbblllll..
+2 ....ll..ttl.lblltttbbrrrrrt.r.brrrttl.tl
+2 ll.t.l.t..L.t..brbbbllllttttr.t.rr..llbb
+2 bbbrrrrrrrrrrrrr.t.lll.r......tttt......
+2 t..t...lll...b...l.....br...B.t.rr..tt..
+2 bbll.rrbbll...l.ttl..rbrbbbl.blltlt.l.t.
+2 rrrrrrrtttt.brr.brrttr..rtttttttt..L..bb
+2 bbbbbll.tttll.tt.rrr.t.rttrtttllrbbbbbbb
+2 bbbblllb.lllll.blltt...bbblll..bll.ttr.t
+2 tt......bbb.lllttl.....brrrrrrrr.tllrrtt
+2 ......l.r.brrrt......llbbbbbbbb.tttttttt
+2 trr.t.rtttttrt.rr.llblllt.lbll.t.l.r.t.l
+2 .r.tlllbbb.ll...L.r...b..r...B..l..ttttr
+2 rrrrrrbbbrbbbbbbllll..l..l....t....t.t..
+2 .L..r..r.....l..l.tt...l.tt.bbbrbbr.....
+2 l..rrl.r.bbbblllll.ttlllttt..brrrtttr.tt
+2 ttlllltl........
+
+uuid eb4454a6d2e84069783d7e466dcf3d70
+
+leaderboard steps time

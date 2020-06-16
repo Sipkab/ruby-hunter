@@ -1,0 +1,38 @@
+n Blackout
+ldeutsch n Blackout
+D 3
+C 5
+E 0
+M 0 Winner
+i The bomb on your head
+i will not cause you any
+i troubles, if you get out
+i of the way in time.
+ldeutsch i Die Bombe auf deinem Kopf
+ldeutsch i wird dir keine Probleme
+ldeutsch i machen, wenn du rechtzeitig
+ldeutsch i davonkommst.
+a Ronald
+m 14 12
+~        #### 
+####     #00##
+#Q #######000#
+#|6## .** Q0.#
+#**&E G&$(** #
+#.####Q#####G#
+# R Br1yR B g#
+######+#######
+~    #Y#      
+~    # #      
+~    #b#      
+~    ###      
+R 24041
+0 0
+1 Demo 1
+2 ...Lrr.....llbbBTttrrrrt.l.Lrbl...rttlll
+2 bltlbtlbbllllttRbbr........lllttrrr.....
+2 .....
+
+uuid 78403ee4cda52859dfc491433981c99f
+
+leaderboard steps time

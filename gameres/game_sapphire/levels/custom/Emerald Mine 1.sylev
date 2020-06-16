@@ -1,0 +1,73 @@
+n Emerald Mine I
+D 4
+C 1
+E 0
+s 0
+p 0
+M 0 2
+i 1st emerald mine level.
+a Shark
+m 22 22
+#E####################
+#.....0...0..@.*...0.#
+#0@.......$........$.#
+#..$Q....*..$..Q.@...#
+#......0...0...*.....#
+#...0$.1...$.@....0.Q#
+#........$........$.*#
+#.0..........0..0....#
+#.@..$....@..$..$.@..#
+#.$...0.*.....*......#
+#.....@............*.#
+#*.......0..0...0....#
+#.............@.....Q#
+#..0..@..Q.....Q..0.0#
+#..........@.....0..$#
+#.Q...$..*.....Q.....#
+#.@..........0.@...$.#
+#.....0......0.......#
+#..$....Q.@.000...@..#
+#0...@..$...0$0..*...#
+#00.....*............#
+######################
+R 82413
+0 8
+1 Demo 1
+2 ....lll.t..lltt....bbb..lttrr..l.bbbL..b
+2 bbbr....L...tt.r.l..ttt...r..r.llbbbbrb.
+2 B.t.t.r..rbbl....t..lltttttrrrr..r.Tl..b
+2 bRt.llllllbbbb.L.rbr...rtr.r...tr.t.rtt.
+2 .t..t.t....rbb.b.ttr..bbbb.tttrtttlbbbbb
+2 bbbr.......tt....tt.rbbb...b.B.t.t.ll.b.
+2 tl.L.rb..rr...r.bb.....trttlbbb...tt..ll
+2 ..ll....blbb....b.rr..r...t.t..bbll...lt
+2 ........tr..trr..lllbbbrr..b.R.t.R......
+2 .lbr....rbttt..bb.R..bR..tt.....bbb.....
+2 .......tt..t..t..b.tl.b.L..llbr.b.b...ll
+2 .t.rr..r...lr....bbbll.B..tRl....bb.R..b
+2 l.B..ll...r..r..rtttlltlbb.Btrrbl.bb...t
+2 t...ttt.lbbbbbbrrr...tll.l.ttl..l.b.trr.
+2 t..tlbb........tt..l....bbbbrrr......lll
+2 l..lttR..rr.tttlbbbbb.rbb.ttrrtttttt.lll
+2 lt.bbbbbbbbbrrrrbrr.....r.t..r.r..br...r
+2 ....r..t..brrr..tR...........l..tl.lttt.
+2 ........R................ttttttttttttttr
+2 rr.rrlllllbbb......rrrrr........ll.bl..t
+2 llbbbbbbbbb..b...ttttttttttrrbl..rrlllbb
+2 bbbbbbblbbb...l.tllbr..rr.R..ttttttttttt
+2 ttrrrrrrrtttllllllrrrrrbblllll.bbbbbbbbb
+2 bblbbbr.b..Bt..ltttttttttttttrrrrrrbllll
+2 rrrbrr.llllllbbbbbbbb....bbbbrrr........
+2 ....b......rr..l.....tlt......t.t..lllbb
+2 bbr...trrrb.....tt.l.t.........bb.ttt...
+2 ll...rrrttt.L.....bbbbb.b..lrb.Bt.lblttt
+2 trrttttllllbbbbbbbbbr.t.rr..tttttt.....t
+2 trr..llllll..ll.......rrrrrrr.....bb..lb
+2 bbtttttrt..l..rbb.blbbbb...tttt....bbbbr
+2 r..r.tt....bblll....rrttt.ll.bbbbbbL.B.t
+2 lllllllB.lllllttttttttttttttttllltllt...
+2 ..
+
+uuid c4222c3c70cdc412760542b9b77de1e7
+
+leaderboard steps time

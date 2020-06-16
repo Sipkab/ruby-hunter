@@ -1,0 +1,42 @@
+n Impossible square
+ldeutsch n Unmögliches Quadrat
+D 4
+C 1
+i I am sure, there is more
+i then one solution.
+ldeutsch i Ich bin sicher, es gibt
+ldeutsch i mehr als eine Lösung.
+a Anica, Ronald
+m 13 10
+#E###########
+#1.........!#
+#...........#
+#..$Q$Q$Q$..#
+#..*Q*Q*Q*..#
+#..*Q*Q*Q*..#
+#..$Q$Q$Q$..#
+#...........#
+#...........#
+#############
+R 47347
+0 0
+1 Don't worry
+ldeutsch 1 Keine Bange
+2 rrbblrlLrtrrbllllllrrrtrrBrrBbrrtTblltll
+2 brrrrllrllllllbtrrBrrBrrbrltllbrrrrbtlrb
+2 rblttrRlllbB..ttllbbbbllttttttllt.......
+R 85931
+0 8
+1 Demo 2
+2 ........................r..r.b.btr.llb.l
+2 trrr..r.blll.rrrtrrb.lllll.rrrrtrrbrrttb
+2 b....bbbbbtttttlltllbrrr.l......rr.bbbbb
+2 lllllllllltttt.bbbbrrrrrrrrrrtttttllllll
+2 lllll.rbl.rtrrbllllrrrtrrbllllllrrrrrtrr
+2 blllllllllr.bl.trrr.blll.rrrtrrbllllll.r
+2 ll..l.rrrr.trrrbllllllllllllllll.rbtrrbt
+2 rrbtrrbt.bblllllllttttttlt.......
+
+uuid 18ab917bce14ac617ed9d776b90e81fc
+
+leaderboard steps time

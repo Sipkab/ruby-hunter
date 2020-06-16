@@ -1,0 +1,37 @@
+n Safe Opening
+D 7
+C 3
+e 4
+s 0
+p 0
+M 0 Penny Lane
+i Sometimes you have to sacrifice one
+i or two to save the entire group.
+a Shark
+m 30 15
+~           ##################
+~         ####               #
+~         #d##  [            #
+~         #  #   000000      #
+~         #| #   ......      #
+~         # c#               #
+~         #  #               #
+############c#               E
+#V(.         #   1 "         #
+#?#V(.       #             ::#
+#.Q.#V(.     #             :*#
+#.?QQ.#V(.   #   cccccc    ::#
+#..#...Q#V(  #             : #
+#  .?QQ#Q.# *:             :*#
+###########a##################
+y ~  %V% % 
+R 18095
+0 0
+1 Demo 1
+2 ..tr.rB...usurmllmlbb.......ttttlttrbbbb
+2 bbbbbblbrtt.rrrrrrrbbbllllLtrrrrttttrrrr
+2 trr.....
+
+uuid f6e37980a536a4f8082a59067a2b24c1
+
+leaderboard steps time gems

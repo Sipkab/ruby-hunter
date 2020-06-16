@@ -1,0 +1,56 @@
+n Gunjack
+ldeutsch n Pistolenjack
+D 8
+C 7
+e 311
+s 0
+p 0
+L
+M 0 Thriller
+i Do you know Jack?
+i He seems to be a bit
+i trigger happy.
+ldeutsch i Kennst du Jack?
+ldeutsch i Er scheint ein biﬂchen
+ldeutsch i schnell am Abzug zu sein.
+a Ronald
+m 40 17
+########################################
+#############**$*$*$**                 #
+#++++++++++++**$$***$$*                #
+# ###########**$*$*$*$**               #
+#         #d##*$*$*$$***$              #
+#         #  #$$**$**$*$*$             #
+#    E    #| #*$***$$$*$**$      1     #
+#         # c#*$*$**$$*$*$*$     "     #
+#         #  #*$**$*$$$$**$*$          #
+############c#$*$**$$$***$*$*$         #
+#V(.         #***$*$**$$$*$*$$*  #######
+#?#V(.       #**$$$*$**$*****$*$   *#  #
+# Q.#V(.     #***$*$$**$*$*$*$*$# *$ * #
+#.?QQ.#V(.   #$$*$***$*$*$**$$$*#****$*#
+#  #...Q#V(  ########################$*#
+#   ?QQ#Q.# *                        *##
+###########a############################
+y ~  %V% % 
+R 3774
+0 1
+1 Demo 1
+2 ..blll...bb....b...................l....
+2 .....bl..l.l.l.lll...tttttttrrrrb..rrb..
+2 ...tll..ll...l..............brBt.bBt.ltl
+2 llrrrrbbbltllBr.llBr.tltlttc.rbbl.Btlrmt
+2 ....tm....blL...rtl.tll.llbrrtrrrrrrbbbb
+2 brrrrrrrr...lll.................rrrrbbbb
+2 utl........r..r.............bbut......ll
+2 lBrbbLrrlrBlB.lB..........ttl.llllll.tll
+2 llllll.RRRRRRRRRRRRRRRRRRrrbbbbbbrrrrrrr
+2 ..lllllllll..rrrrrrrrrr..llllllllll..rrr
+2 rrrrrrr..llllll...rrrrttttrrr.trrr.lbb.r
+2 ..bllll.rr..rbllllbrrrlllllllltllllbrrrr
+2 ttttttttttllllltllllllllllllbbbbbbbbrrrr
+2 ...tt........
+
+uuid bce297224addcb1804e681429f167e25
+
+leaderboard steps time gems

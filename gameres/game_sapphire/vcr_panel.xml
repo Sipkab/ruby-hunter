@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<FrameAnimation>
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.1171875"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.1171875"
+        x="0.00390625"
+        y="0.00390625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.1171875"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.1171875"
+        x="0.12890625"
+        y="0.00390625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.1171875"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.1171875"
+        x="0.25390625"
+        y="0.00390625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.1171875"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.1171875"
+        x="0.37890625"
+        y="0.00390625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.1171875"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.1171875"
+        x="0.50390625"
+        y="0.00390625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.1171875"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.1171875"
+        x="0.62890625"
+        y="0.00390625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.1171875"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.1171875"
+        x="0.75390625"
+        y="0.00390625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.1171875"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.1171875"
+        x="0.87890625"
+        y="0.00390625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.1171875"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.1171875"
+        x="0.00390625"
+        y="0.12890625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.1171875"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.1171875"
+        x="0.12890625"
+        y="0.12890625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.1171875"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.1171875"
+        x="0.25390625"
+        y="0.12890625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.1171875"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.1171875"
+        x="0.37890625"
+        y="0.12890625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.1171875"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.1171875"
+        x="0.50390625"
+        y="0.12890625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.1171875"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.1171875"
+        x="0.62890625"
+        y="0.12890625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.1171875"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.1171875"
+        x="0.75390625"
+        y="0.12890625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.1171875"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.1171875"
+        x="0.87890625"
+        y="0.12890625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.1171875"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.1171875"
+        x="0.00390625"
+        y="0.25390625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.1171875"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.1171875"
+        x="0.12890625"
+        y="0.25390625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.1171875"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.1171875"
+        x="0.25390625"
+        y="0.25390625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.1171875"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.1171875"
+        x="0.37890625"
+        y="0.25390625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.1171875"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.1171875"
+        x="0.50390625"
+        y="0.25390625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.1171875"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.1171875"
+        x="0.62890625"
+        y="0.25390625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.1171875"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.1171875"
+        x="0.75390625"
+        y="0.25390625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.1171875"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.1171875"
+        x="0.87890625"
+        y="0.25390625" />
+		
+	<FrameAnimation.FrameAnimationElement
+        h="0.1171875"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.1171875"
+        x="0.50390625"
+        y="0.50390625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.1171875"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.1171875"
+        x="0.62890625"
+        y="0.50390625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.1171875"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.1171875"
+        x="0.75390625"
+        y="0.50390625" />
+
+    <FrameAnimation.FrameAnimationElement
+        h="0.1171875"
+        texture="@res/gameres/game_sapphire/art/vcr.sapp"
+        w="0.1171875"
+        x="0.87890625"
+        y="0.50390625" />
+
+</FrameAnimation>

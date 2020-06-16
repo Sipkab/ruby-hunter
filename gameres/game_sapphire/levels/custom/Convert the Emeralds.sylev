@@ -1,0 +1,41 @@
+n Convert the Emeralds
+D 2
+C 6
+e 36
+O graphiteplus
+M 0 Only Solutions
+i   Emeralds --> Sapphires
+i   Sapphires --> Stones
+i   Stones --> Emeralds
+i 
+i And follow the rule of thumb:
+i Don't stick your thumb in the
+i converters!
+a Shark
+m 15 12
+OOOOOOEOOOOOOOO
+O......*......O
+O.*........*.*O
+O*..*.*.......O
+O.............O
+O........*..*.O
+O..*....*.....O
+O....*........O
+O.............O
+Occccccccc1cccO
+O.............O
+OOOOOOOOOOOOOOO
+R 33590
+0 8
+1 Demo 1
+2 ....t.l.rbbrrr.llllllllllll..rrrrrrrrrtt
+2 lllllll..tll.br.lttt..t.r..bb.tt..t.l.tt
+2 rrbb.bbbbr.t.t.t.l...r..rbbbrt..t.t.l...
+2 r.r.bbbllttttt..rr.B..r...lbbbbbrr..t.r.
+2 .b.rb.rr.t.ll.t..rrr.t.lll.trrr.t.lllllb
+2 br.tbbbbrbbrrR.llllllllllLrrrrrrrrtttttt
+2 ttrR..t.lllllt.....
+
+uuid bd8aabc69e2a1b4e9160db17ae7d775d
+
+leaderboard steps time

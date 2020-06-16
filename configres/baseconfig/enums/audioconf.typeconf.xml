@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config xmlns="bence.sipka.types.config" >
+
+    <declare-enum name="PlayState" >
+
+        <enum name="PLAYING" />
+
+        <enum name="PAUSED" />
+
+        <enum name="STOPPED" />
+    </declare-enum>
+
+    <declare-enum name="AudioPriority" >
+
+        <enum name="LOW" />
+
+        <enum name="MEDIUM" />
+
+        <enum name="HIGH" />
+
+        <enum name="NEVER_RECYCLE" />
+    </declare-enum>
+
+</Config>

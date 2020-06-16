@@ -1,0 +1,82 @@
+n Firewall
+ldeutsch n Feuerwall
+D 7
+C 6
+M 0 Voyager
+i J: Sir, if we create an eight parsec
+i    long fire wall, the escaping
+i    z-particles will protect the
+i    wormhole from collapsing!
+i 
+i P: Make it so!
+ldeutsch i J: Sir, wenn wir einen acht Parsek
+ldeutsch i    langen Feuerwall aufbauen, dann
+ldeutsch i    werden die austretenden Z-Teilchen
+ldeutsch i    den Kollaps des Wurmlochs verhindern!
+ldeutsch i 
+ldeutsch i P: Machen Sie's so!
+a Ronald
+m 39 25
+~         #############################
+~         #.......Q....Q..............#
+~         #...(..............Q._...Q..#
+~         #.....Q.._...._.Q......._...#
+###########..(......(..........Q(...(.#
+#          ...._...Q.._.(.._......._..#
+####      #......................(....#
+#E ########................(..........#
+##QQQQQQQQ#...........................#
+~#QQQQQQQQ#              1            #
+~#++++++++.     +  +  +  +  +  +  +  +#
+~############*##!##!##!##!##!##!##!##!#
+~           #*# #!#!#!#!#!#!#!#!#!#!#!#
+~           #*#  #!#!#!#!#!#!#!#!#!#!##
+~           #*#   #!#!#!#!#!#!#!#!#!#  
+~           #*#    #!#!#!#!#!#!#!#!#   
+~           #*#     #!#!#!#!#!#!#!#    
+~           #*#      #!#!#!#!#!#!#     
+~           #*#       #!#!#!#!#!#      
+~           #*#        #!#!#!#!#       
+~           #*#         #!#!#!#        
+~           #*#          #!#!#         
+~           #*############Q!#          
+~           #*$$$$$$$$$$$$$#           
+~           ################           
+R 43001
+0 8
+1 Demo 1
+2 ....lllllllllllttttttr..lbbbl.rrr.l..rtl
+2 tlbr.lbr.lb.rbl..rb.l.r..b.r.brrrrrrtttr
+2 ttlbbbbrblllllllllll.t.Lbbltrtllllbltr.l
+2 t..rrrrrrrr....tttt..r.Trrt.l.bllt..lrbr
+2 rtl..bllttrbbbbb.rbllllllllrrrrrrrbrrrrr
+2 tttt..blltr.r.trbbbbrbllllllllllllllt.bl
+2 .l.l.tltltltll..r..r..rrbbbrrrrrr..llttt
+2 bbbrrr....rlllllllltltltllbbbrrrrrrrrrrr
+2 rrrrtrtl...rb.rb....tlblbrrrr.trr..llbrr
+2 rr...........trr..r..t........lllbbbrttl
+2 trrlrrrllbllllllllllllllbrrrrrrrrrrrrrrr
+2 rrrbrtltrlrr.lllllllllllllllttlbb...lbrr
+2 rrrrrrrrrrrrrrrrrb.r.br.ltttt..rrr.Tlll.
+2 ....rrrb....b.b...b.l.br.t.rtr......br.r
+2 llllbrrrbrtlttr.ttr....bbb....tlbbb.tlll
+2 ltlllbrr...r..llbrrrrlttrrbb.btttl...ll.
+2 tt.rbbb..b.....trr.....bl..lll...tllll..
+2 .lrrrrrbllllllll..l.l...tttt....tl.blltr
+2 r.trbbbbbbbb.tttttlllbr.r.r.............
+2 rbb.rbllll.tlbbt.bbb.tttttttr......lllll
+2 bbbllbrrtrbbbbt.bbbttttrrttl.rrrbbrrrrrb
+2 bbrrrrrrrtrrrr..........llll.....rrr..lt
+2 tttttrrrbB.tllbrrr..b.l.tlbbb.bb.rbllllt
+2 lbbb..b.ttttttttllbrr.llBrrrtrrbllllltlb
+2 bbbbbbbb.tttttttllbr....rrbbrrrrrrtrrbll
+2 lltlbbrblllllllllt.bltlbbbbbbtttttttT.bl
+2 lttrlrrlrr..r.lllllllllllbbbbbbbbbl..L..
+2 rrbbbbbbbbbbbbbrrrrrrrrrrrrrllllllllllll
+2 ltttttttttttttrrrrrrrrrrrrrrrrrrrrrRllll
+2 lllllllllllllllllllllllllllttlltl.......
+2 .
+
+uuid 7621bffb5521cc25ec5b302cce362348
+
+leaderboard steps time

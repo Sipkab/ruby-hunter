@@ -1,0 +1,59 @@
+n Heavy Traffic
+D 6
+C 1
+E 0
+p 0
+Y
+L
+M 0 Action
+i Something's wrong; it looks like
+i this mine has already been mined!
+i 
+i But the worst is yet to come...
+a Alex
+m 22 22
+######################
+#...*               0#
+#   . QQ........... .#
+# Q . .0.           *#
+# .   .$0 ...0..0$*0.#
+# $Q..... ..0Q*0000Q0#
+# .0.   0 .Q0QQ***$*Q#
+# .*. . . .*$Q.......#
+# ... $ . .0*.       #
+#     . . .$0. ..*.. #
+#0.0*0. Q .... *Q00. #
+#**.Q0Q .      .Q$Q* #
+#$QQ00. .0*Q........ #
+#...... *....        #
+#.      .   0 0..*.Q0#
+#. .0*0Q. . . .::::::#
+#* ...... * . *:   Q"#
+#. .1     . . .: : ::#
+#. ........ * Q: :6/.#
+#.          . .: :.^.#
+#*.....0..Q..    :...#
+###############E######
+y 6/..^....
+R 60105
+0 0
+1 Demo 1
+2 ..rrrrrrrbRlTblllllBllBllBrttltrttLrrrBr
+2 rtRtttttttllbbRblBll.B....bblBrRttlttttR
+2 bbrRltttttrrblrrtTrbbrRtll..brrrrrtttrrr
+2 rrrrrbbrrRlbltllllll..l..b.ltlttllrr..rr
+2 rrrrbbllll..lllllttlllLrrrrrrrr..rrrrrrr
+2 rrbrbllllllll...llltl.lllll.rrrr.trr.rrr
+2 bbbLtrrbllll..l.lbblrtt......bbbbbb.lttt
+2 t.lbbbllb.t.r.trrrbbbrB.....bbttrrbltr.l
+2 ll..tt..b.r.............brrrrtRttrrrBllt
+2 t..r.....................rr.....Rbbl..l.
+2 .....rrrrbblbr..bblllBtt.blltt.......bbb
+2 .b..tttbbl..lbbbRttrrrrrll.tttt....lltt.
+2 .r.l.R..bR.b...tt.............lltlllbbrr
+2 bbbbrrbbbbrttttrrblllllr..bbbbbbrrb.....
+2 ...
+
+uuid 1a32e4511d428ad037f8f04f00d474ee
+
+leaderboard steps time

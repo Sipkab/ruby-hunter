@@ -1,0 +1,40 @@
+n Temptation
+D 4
+C 5
+e 153
+E 0
+p 0
+M 0 FF7choct
+i Go ahead, take as many as you
+i want...
+a Shark
+m 15 17
+###############
+# R **********#
+# #***********#
+# #***********#
+# #***********#
+# #**********|#
+# #........*|##
+# #cccccccc|###
+# #        ####
+# 0           #
+# #     |  |*+#
+# #   | #  #Q+#
+# #|  # # |#Q+#
+# ##  # #  #Q+#
+# ## |  # |#Q+#
+# R1r#  #  #Q+E
+###############
+R 47988
+0 0
+1 Demo 1
+2 .......Rlttttttttt..tt.tttrbbbbbrrrrrr..
+2 R.........lllllltttttllbbbbbbbbrrtrrrBrr
+2 rRblLtrrblLtRRRRRbR.rTrrBllllllltllbBrrr
+2 rrrrbblTbbbBtttttllbbbbbbltrBttttlllbbRb
+2 rT.lbBtttttrrrrrrrrrbbbbbbr.....
+
+uuid 34b94e4ae8d50c34466c0c0fca5b6732
+
+leaderboard steps time gems

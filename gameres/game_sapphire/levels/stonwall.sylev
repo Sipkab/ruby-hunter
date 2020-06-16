@@ -1,0 +1,51 @@
+n Stonewall
+ldeutsch n Steinwall
+D 6
+C 4
+e 1
+p 0
+d 1
+M 0 Your Wildest Dreams
+i A hard regenerating wall
+i waits to be destroyed.
+ldeutsch i Ein Wall der sich ständig
+ldeutsch i erneuert, will zerstört werden.
+a Ronald
+m 26 27
+##########################
+#              #d#       #
+#              # #       #
+#              # #       #
+#              # #       #
+#  !!!         # #       #
+#                        #
+#   1                    #
+#                        #
+#                        #
+#                        #
+#                        #
+#            c      E    #
+#                        #
+#                        #
+#                        #
+#                        #
+#                        #
+#                        #
+#                        #
+#                        #
+#              #a#       #
+#              #a#       #
+#              #a#       #
+#              #a#       #
+#              #a#       #
+##########################
+R 28589
+0 1
+1 Demo 1
+2 ..ttLrrrrrrrrrrrbr..cb........srttt...ll
+2 lllbbbrbbbbblbbbbbbbbbbbrtttttttttttrr.c
+2 bb......rrrrtttttr..........
+
+uuid 0449729b4d729d77695a3f23b3d6b971
+
+leaderboard steps time

@@ -1,0 +1,126 @@
+n The circle of life (2)
+a Emerald Mine
+D 5
+e 200
+s 200
+i The circle:
+i Yam-yams -> bugs -> diamonds
+i The original emerald mine level was played with a different
+i strategy. But the Ruby Hunter version is also very
+i interresting.
+m 64 32
+################################################################
+#     ..   ..   .. 0   .    .      .       .   .   .     ...   #
+#  000...  . 0.   ..     0. .|. .   ..|.  .. .| .|   . .  .0.. #
+# 00. 0.   .0. .  0.. .  .   | . .  ..  |..|. .  .|||..  ..000.#
+#00 . .0...000..  00 . ..  ..  0.. . ... | . ..  ...|...... . .#
+#0. .0. ..0... ..   ..... 0.. ||..||.  ...    . 0 .. |.. 0.. 0 #
+#. .0 0..0. ...    . .0.  .  |.. .. ..  . .. 0.0.. 0  |     ..0#
+#       .0     |.|... . .   . .. 0.. 0. . .0 . .0.  00 | | ....#
+# ..  0.   |   ..... .........|0..0  .   0 .  ..   .0000||  ...#
+# ..   |... ..  .  |    . .|.|0 .|.......  0.0.0 .0.  0....||. #
+#   . ....... ..^. . | 0 .| | 0 ...  . . . ..  .  .. .. .||... #
+#   |||     .... ..  .. . | .0.. | ||0...  . . .  0.. ^.  |   .#
+#..  .....0... . . .  .|.|. ... ..|  ..|..   .  ... .       .  #
+# ..   . ..    ....0 |. | |..  .. |. ..|..0.. .  ..| 0..... .. #
+#  | |^... .0..0.000.. |. .   ^...      . 0   . .0||.| || .0 00#
+#  | |  .0 .  ........| ..| .. ...... .| .....^ . |.  ...0.... #
+#...|..0.  ...    .   .....|..  . .0   |     . . |..^..0.  .. .#
+#  | ......| .00.. ^ ...  .   ...0.  . . .0.    .. . . .^ .. ..#
+#. ....  | |...   ... ..  |.|12..0.... ...    0.. ...... .. .00#
+#.| .^...  ..  0 . . .. .| .. ..0.. . |...0......^ .  ||...00  #
+#. .   .  ...||.  . 0. . |. |.. 0 ^ . ..| ..  . |.. .. . .0 .  #
+# .. ..0.  .|.|0 |. . ...0| . .0.. ..  ||.. . . .   |.. .0. . .#
+# .|  ..^ .. . ... .. 0 0.... |0.. . . |. .|  ^  .|...0 .. .| .#
+# . |.    .. 0 . 0 0 0 ...|.|  ..  ..     ..  . .. .. . .  ....#
+#. .| . ...0|. ....|...||..... . |  .|||... .|...||| . ^ . .|  #
+# .  |  .0 . .^...0||.|...||. . | |..  .  . ^.| ...|    .. . . #
+#   . 0.|   .  .  .  | ...|||.|. ..  ..  .   .  .. | . . ..|   #
+#.0.0  | .......  ..0.  .. . | ....|.||| .. ....|  . .  .|  ...#
+#....|. ||.| ....|  0.. .| .  ...  ...|. ..  .. .......|..  .  #
+#  ...  . |  .  .  .  .. ..  .. .. .......| .   .  . .. .. ... #
+#   .. ...... ..  .. . ... ...EE....   .... ...     ....       #
+################################################################
+y |||||||||
+y |||||||||
+y ||||/|| |
+y uuuuuuuuu
+R 57939
+0 8
+1 Demo 1
+2 ......................b......r.rbtb.b.b.
+2 bbblb.b.l..ttr.r.rtb..l.l.l.l.brb.brbrl.
+2 l.b.bt.ltltlllllltlt.tbtbtl.l.lllll.l.l.
+2 ..t..lb.b.b.l.l.lrlrlrl.l.lll.l.ltlltltl
+2 t.t.t.t.t....b.b.btbtbtrtr.r.r..b.......
+2 ...btrtrtrtrtrtrt.rbrrr.r.rrrrr.r.t.t.t.
+2 t....llt.ttrt.t.ttt.tt.tl......rlrltrrr.
+2 .b....lrl.r.r.r.rbrr.r.rlrlblblbtbtll.ll
+2 l.ltbt.t...............t.l.l...t.l.l.l.b
+2 ....rb..............rrr....rrr.rb...l...
+2 b.b......l.........................b.b..
+2 ....l.lt.r.r.bbb.b...lb....rlr...t.tb...
+2 .l....rr.ttt.trtrtttttrlr....b.brb..btbt
+2 bt..r..bb.b.b.b..blb...tb....tl.l.lblb..
+2 ....r.r.....btbt.t.ttr.t.trrrr........r.
+2 r.......l.l.....bl...bbb.b.b...t.t.t....
+2 .................t.tbl.l.........r.r....
+2 R..r..tbtb.b.bbb.lrl....b............t..
+2 .....b.b....Rl.lltttt.t.t.t.t.t.r.rrrrr.
+2 ....t.t.t.t.t.r.r.r.....t.t.t.t.t.l.llll
+2 lb.......b.b.brlr.rrrrr.b.b.............
+2 ......lbblbllllll.b...l.l.....t...l...r.
+2 r...........................r.r.t.t.t..b
+2 .rlrlrlrlr.r.b.l.lrlrlblblb.t.t.l.l.l...
+2 t.t.....................lr.r.rbr.rlrlbll
+2 llll.l.b....rl.l...rrr.r.r.r.r.r.r.b.l.l
+2 .l.l...lblb.b.b.b.b.rlrl..b.b.b...l...l.
+2 ......b..brr.r.r.rtr.r.rtr.l.l..........
+2 l....br...b.b...t.......r.....t.........
+2 b.b.b.b.b.b.b.b.b.b.b.b.r.r.r...........
+2 .l.l...l...t.t.l.l.l.............blblblb
+2 .b.b.btbtbtltltltltlt.t..rlrlrlr.r..b...
+2 .lbl.lrlrl...r.r.rbr..r.r..tb...tl.ll.lt
+2 .lb..rtrtrrrrb.l.lbbb..r..bt.t.t.trtrt.t
+2 .r.tbt.r.rlr.t.t.t.t.t.tlt.t.t.t.tbrbrbt
+2 btrtrt.r.rt.t.........l...............l.
+2 .r..r.....b...t...l.l.......r...........
+2 ..t.t.t.t.t.......r.................tltl
+2 tl.l.btb.b.b.lbbbbbbbbbbbblb.b.b.rrr.btb
+2 tbtrt...r.r..l.ltbtb.b.brr....t.t.t.tlt.
+2 ..r...b...blblblb.b..b.b.b.b.lbtbt.trtrr
+2 .rbr.r.t.t.tbrbr.t.ttr.r.lblbt.t.t.l.t.t
+2 tttttt.tlt....t.........t.....l....btb.b
+2 .blb..l.ltl.l.ltltl.tt.tl.ltl.lrl...t.tl
+2 tltltl....t....l.l..r.rbrb.bt.trt.tltltb
+2 .b.r.r.r.r.bl..rr.rtr.rbrbrbrbrbrbrbrlr.
+2 rrrrrbrb.l...brb.b.rlb...tbl.ll...trt..t
+2 rtrtrl.tbt.tltltltltltlt.r.rr.rtrrrtr..r
+2 ..l.l.l.l.ll...b.l.lrlrltltllblll.l.ltlt
+2 lrltl.lrl.ltltltl.llltl.r.rtbrbrb.bbb...
+2 ..l.l.l.l..r.rr.......l.l.blb.b.btbrbrbr
+2 b.br..t.t.t.t....b.b..b.b.brbbbbbbbbb.b.
+2 ...b.l.b.b.bbbbbbbbbbbbbbbb.b.bt.lrl..b.
+2 ....t.....................l.llt.t.t.....
+2 ...B.t.t.r.r.rb.b.blrlr...b.b.rrr.r.rbrb
+2 rbr.r.rb.b.brlrlrlrl.l..trtrt.t..t.t.t.t
+2 .t.t.r.r..t.trt....t....................
+2 ..bbbbbbb.blb.b.lrl.lrl.l.lr............
+2 .......b...l.lr.rlrlr.r.r.r.r...l.l.l.l.
+2 l.lblblbl.l.lllllblblblltl.l.blrtrtrtttt
+2 tttttt.t.t.r.r.r.r.ttttrtrt.t.tltttttttl
+2 tttttttttttrtt.t.ttt.t.trtrrrrrrrbr.r...
+2 ......b..........trl.l.l.l.l.l.lrlr...b.
+2 b.blblbl.ll.l.l......r.r.rr.r...........
+2 .ttttltllblbll.l.ltbtblblllll...bbb..rrb
+2 .b.b.b.l.l.lrlrlrbrb.l.l.l.brl.l.lr.rlrl
+2 blblbbb.bbbbbbblblblb.blb.b.blb.b.b.rbr.
+2 r.rbbb.l.ll.lblb.btbtblllltltllllbtllll.
+2 lrlrlrbtbtbtblblbtbtb.b.b.b.b.b.b.b.b.b.
+2 b.b...r.r.r.r.rlrlrtrtrbrbrrrrrbrrbrbbrb
+2 rrrrrrrbrrrrrrrrrttrtrtrrrrrrtrrrrrrrrrb
+2 rbbbbrbrr.r.r.r.t.r.r.b.b.b.............
+
+uuid 577676aac330261c98801ff0711b8c8a
+
+leaderboard steps time gems

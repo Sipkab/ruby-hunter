@@ -1,0 +1,54 @@
+n Stone Sequences II
+D 8
+e 63
+p 0
+M 0 Nightshift
+i There is a way...don't panic.
+a Alexander
+f Alexander
+m 20 27
+#################   
+00.!!! #$+...00.#   
+00.### ###.Q....#   
+00.#  1  #.Q* ..#   
+00.# 0 ..####.. #   
+00.#0.0  #  E.  #   
+00.#0+Q+|# ##0. #   
+000#|++ ##0#000 #   
+#*.##| @##.0##. ####
+###0$##.0#0!.#$ #&& 
+#  ..  .0#.0 ## +&&E
+# #cc###0#.######&& 
+#  ..!!!.#     >####
+###++### #      #   
+#        #      #   
+#   |#  ## >    #   
+#  @#   ##.######   
+# @#   #$#  .000#   
+#c#   #$$#  .000#   
+# #  #$$$#  .000#   
+#.+  #$$$   .000#   
+#Q###########0.0#   
+#++#0.0..0....Q.#   
+#$*#..0@....#..0#   
+#**#.0.0.@0.#.0.#   
+#$*....0*..@#...#   
+#################   
+y ~   *    
+R 9103
+0 0
+1 Demo 1
+2 ttllLrrbblblbrbrrt.l..bbbbbrbbllll.Rllbb
+2 rrrrrrrbblllllrsrbbblbllbbut........bbbl
+2 lTsrr......lllllbbbrblbrrrrrtltrrtrrbrrr
+2 BtlllbrbbrRltlbr..Ltttrrrrbbbrrtltrtlt..
+2 ....rttllllbllllltrrTbLrrttttttttttr...l
+2 bbbbbbbb...bbtttttttttttR...............
+2 tr....lbbbbbbbbbbbbbbtttttttttttttttrmbb
+2 ........ttrrrrrbbbbLuttt.......ltttlltll
+2 bBrtrrblblrtt..llllrrrrrrrbbbbbbbbbrmtt.
+2 .......bbrrTbtml........rr.rbrtr........
+
+uuid fd225c678d79efcfeab54b6e5319cb12
+
+leaderboard steps time

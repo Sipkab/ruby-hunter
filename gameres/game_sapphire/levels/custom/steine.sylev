@@ -1,0 +1,47 @@
+n jb puzzle 10
+lDEUTSCH n Brücken
+D 10
+s 15
+p 0
+Y
+L
+A graphite
+O graphiteplus
+S soft
+a Juergen B.
+m 13 12
+~ L       y  
+~LeL*.L LY%  
+LLLL0   @ L  
+L!  L   LLLL 
+L      L0*0*L
+L      L*000L
+A   Q   .*0*#
+A. ||| #.000#
+~A...  #.1..#
+~A..@..&#$E# 
+~A{.|....##  
+~ C++D###    
+R 40864
+0 0
+1 Demo 1
+ldeutsch 1 Demo 1
+2 ...B.L.r...L.l.tl.t.Tlll.tttt.T..r.bbb..
+2 ..b...rrr.....r.l..trr..blll..l.........
+2 .................l..t.lll..brrrr.......l
+2 l..........ll..ll.tt.T.bbb..r.b.........
+2 ..........................b.r.t.r.r.....
+2 ...........b.......B.......r.........l..
+2 ....l.....trr.........b..l...r.....b.r..
+2 ........r.......m.l..................R..
+2 .............l.t..l..l........l.ttt.....
+2 t.l.tt....r.bbb...r...t.rrr....ttt.r.tt.
+2 rr....R..bb.............................
+2 ........................................
+2 ........................................
+2 .................................lll.llb
+2 bbllbrrrr.b.bb.b.ttttrrrr.bb...b......
+
+uuid 4504e2db4297c09996e2707973ed90b7
+
+leaderboard steps time

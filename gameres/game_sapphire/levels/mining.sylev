@@ -1,0 +1,79 @@
+n Mining
+ldeutsch n Bergbau
+D 6
+C 1
+E 0
+T 1312
+M 0 Downunder
+i Although there are not too much
+i dangerous time-critical actions,
+i you will find it quite tricky.
+ldeutsch i Obwohl es nicht allzu viele
+ldeutsch i gefährliche zeitkritische
+ldeutsch i Aktionen gibt, wirst du es
+ldeutsch i ziemlich knifflig finden.
+a Juergen
+m 20 20
+####################
+#1........0.000#00.#
+#......0....#0000E0#
+#..0.*.......##.0..#
+#..!...00..0...##0##
+#.......0...*0.!.#0#
+#*...0....0...0..0*#
+#.0..*.....00...000#
+#0...00.*.00.000..!#
+#............00!...#
+#....00..!.....000*#
+#0.0..00.00.000...0#
+#0.00..*00..0..00..#
+#0*.!0...........0.#
+#00!.!00..00..000*.#
+#*.000*00.*0..00.0.#
+#0000..!....00.0..0#
+###*...00.0..0.0.0.#
+#E00000.!.0.00.*0.*#
+####################
+R 18963
+0 4
+1 Demo 1
+2 ....bbbbbrrttrrt.lbbbbR...bl..bblbb.B.tt
+2 ..b.rrrbr...r...br..br.br......bl.......
+2 ..ml...................rrr..l.........b.
+2 ...............................b.m.ll...
+2 ..rrrtllll.L....r..tr...t.llll.L.rrrrrrr
+2 bbbrrtr.ll.....trrr.............r......c
+2 brr.....tttrr...........trr...ll...rr...
+2 ....ll.....t.rr.tttt.l...r.....bbbll.b..
+2 ..trrb.ttttl.tt..L....bbll........rr....
+2 .....lt..l.ttttt.bbbbbrrbbbbrbb..ut...l.
+2 .......bbrbb.B.ttllllllllllltttttrrltt..
+2 rtttrrrr....trrb.rr.b.lbbrr....R..ltt.rr
+2 b.ll.bbblllllbbbbbbllllllll...srr.....ll
+2 lll.....b..............utl..............
+2 ...........bb.srrr...lll..llbblll.......
+2 ..
+R 20468
+0 8
+1 Demo 2
+ldeutsch 1 Demo 2
+2 ....bbbbbrrttrrt.bblbbrrrbr.brr...lbrrr.
+2 ..r...ll..rttrt.rt..ltttbbbrrr.tt.bb....
+2 ..lllrrrr..ml........rrr.bb.rrr...B.t.l.
+2 ...........ll.r.trrbbttllllll.lll.bb..t.
+2 brr.bbbbrr.....r..r..........r...l......
+2 ....ulrrr.........bb..lll.....r...r..rb.
+2 ................tl..........l.b....b...u
+2 tll..................bbbRrr......b.R....
+2 ....tt.ll.......l.bbrrr.tttlllll..trrr..
+2 ..........t.llllt.ll.....blbbr..........
+2 ........blll........l..t................
+2 ......bcll....L...rr...ttt...rtt...bbbl.
+2 ...rr.llll...ll..L..r...t.L.......r.....
+2 ...R.....b.....srr.........bbllll...sr..
+2 .........lll...rb....stt........l.tt..bb
+2 bbbl...utt........bbblll.......
+
+uuid 18b91790878b76ffac49d93a86e3569a
+
+leaderboard steps time

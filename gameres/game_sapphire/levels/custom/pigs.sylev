@@ -1,0 +1,44 @@
+n Pigs
+D 7
+C 5
+E 0
+p 0
+i Although this level has nothing
+i at all to do with pigs, neither
+i does its solution. A more
+i appropriate name would be "Bags",
+i but that sounds uninteresting.
+a Alex
+m 14 13
+###[########E#
+#0   Q #     #
+#*| .|.# @ Q #
+#0|  1!### #&#
+####+### +@+ #
+#@#   !# +@+ #
+#*     # ... #
+#.     #     #
+#.     # |.| #
+#      #     #
+#  . . .     #
+##a#######{a##
+~#a#     ##a# 
+R 26935
+0 0
+1 Demo 1
+2 ............r....lll....t..b.........s..
+2 ..Tr................tt..llllb.rbr....r..
+2 bbrr....bbbbbr.......l..tll....brtt..ll.
+2 ........lt..bbl.....sttLblt.r..bb.....rb
+2 r......rrrrr............................
+2 ......tl.ttrrtllbbbbl.....r....ttttrrrr.
+2 bbbl...lblr..tll..br.....lttttrrrb.l....
+2 .rr..............................llllbbr
+2 blll..tllbrrrr...tttrrrrbbl..lblr..t..ll
+2 br........tlttrrRB..ttttttr..lblr....tll
+2 br...t................rbrl.bbbbbbbbr....
+2 r.......tttttttttt...........
+
+uuid 69f564e123a6b59ba53615e16e8db335
+
+leaderboard steps time

@@ -1,0 +1,58 @@
+!Ruby Hunter
+is an old-school
+miner game,
+which took inspiration
+from old-time classics.
+(Sapphire Yours,
+Boulder Dash,
+Emerald Mine)
+
+
+Version 4.1.0
+
+
+!Original game logic by
+Reinhard Grafl
+Jürgen Wallner
+
+
+!Game levels
+Ronald Grafl
+Reinhard Grafl
+Jürgen Wallner
+Michi Wallner
+Leo de Bruin
+Erik Eckstein
+Alexander Hill
+Jürgen Bonhagen
+Anica Grafl
+Bence Sipka
+
+!Original game music by
+Jürgen Wallner
+
+!Level editor
+Bence Sipka
+
+
+!3D graphics
+Bence Sipka
+
+
+!Programming
+Bence Sipka
+
+
+!Community features
+Bence Sipka
+
+
+!Contact
+sipkabe@gmail.com
+
+
+
+!Special thanks 
+to everybody who keep making
+additional levels.
+

@@ -1,0 +1,67 @@
+n EAT 38
+D 3
+C 7
+e 89
+T 615
+t 612
+o 1
+M 0 OXYGENE4
+N EAT 39
+i Walk through doors and collect
+i gems. Nothing that will hurt your
+i brain here, hopefull. But you're on
+i the clock, so get going.
+a Elliot
+m 25 34
+~  # ****Y Y Y Y Y Y Y   
+~# # #***#############Y  
+~#   #**# Y   #$##$  #   
+~########b# # #.  .#R#Y  
+~       ##1 Y   Y rY # Y 
+*###### ############R##  
+##      #y # G R # R # Y 
+#  ####### #G# #R#R#Y##  
+~ ##    ## G # # R #  #G 
+~##  ## ##B### #####  #  
+~#  ##  ## B #        #G 
+~  ##  ##$+  ###$$$$#g#  
+~#### #####!###########G 
+~***#   # # ####* ***##  
+####### # # # Y #Y#*#*#G 
+~       ### #Y#Y  ###.#  
+~########!  + # Y # Y #G 
+~   #   ######## ##Y#Y#  
+### # #Yo0. Y  Y Y  Y #G 
+#   # # #|a #Y ####Y#*#  
+# ### # #***# Y Y Y ###G 
+#     # #*###########*#  
+####### #***#*.     G.#G 
+~       ###.#*.###### #  
+~########## ## #Q+  #G#G 
+~#Q(:Q(:Q(: w:  ++Q*# G  
+~#Q##Q##(## ###########G 
+~#Q##Q##QQ# #*(*(*(# #   
+~#QQQQQQQ#Q #####(*G #G# 
+~ ######### #   ##(#G# ##
+#         #!  #  #*# #G##
+~# G      ###### *(#G# ##
+~#         G G ##### # E*
+~ #  G G G     G G G #  .
+R 96361
+0 0
+1 Demo
+2 rttrrbbrrtTrrrBtrrbblbltlbbbbrrBrBrBrrrB
+2 llBlllllttttlblttLbbrtrrbrtrtllllllttlBr
+2 bbrrrrrrblbltllblbrblcbbbblLruttttlLrbbb
+2 bbrrtrbrttLrrBRllblbbrrrBttTblbbllltlL.b
+2 bllbbrrbbbrbbbbcrrtrrbrbrrttttllllLrrrbr
+2 rbbbllltllbllltltlltlttttttrrrrrrrtttttl
+2 lbbbbllllttrrttlllttrrrrrrrttllttrtrttll
+2 lblblbllbbrrRlltttttrtrtrrrrrttlllllllBt
+2 tttrrbbrrttrrbBrBTrtrrrrrrrbrbbbbbbbbbbb
+2 blttllllllbbbrrrtrrBllblllttLtrrrrrrbbrb
+2 lbbbbrR.RtrtlbcbbblLrutt....
+
+uuid 8c287985a4d216234d21c910e90719d0
+
+leaderboard steps time gems

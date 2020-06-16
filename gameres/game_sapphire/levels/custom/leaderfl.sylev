@@ -1,0 +1,45 @@
+n The Leader, Followed
+D 4
+C 1
+s 0
+p 0
+d 7
+o 1
+Y
+i The robot is responsive
+i to your every command.
+i Use it to persuade
+i another entity.
+a Alex
+m 19 16
+###################
+#                 #
+# ###d#d######%## #
+# # # #      # ## #
+# #     ## ### ## #
+# # # #  # #    # #
+# ##  #a## ## ### #
+# #    #      > # #
+# # #a####d###### #
+# # #d##d#   #Q0# #
+# # #    # # #|Q# #
+# # #| #   # # o# #
+# #    #a# #   ## #
+# ###a|###a###### #
+#               1 #
+###################
+y ~E  #    
+R 97238
+0 0
+1 Demo 1
+2 .....llblll..........llllllllllttttt....
+2 ............bbtt......bbbbbrrrr...r.llll
+2 l...ttttttttttttt..rrr.......rr.........
+2 .rrrrrrrrrrrbbbbbbbb..bbbbbllll..l..l...
+2 ....l...rr...............r.............r
+2 rrrttttttttttttt.ll...l....l............
+2 ...........r....b........
+
+uuid e22ce1fe9e59d6ddde5f8dc836232290
+
+leaderboard steps time

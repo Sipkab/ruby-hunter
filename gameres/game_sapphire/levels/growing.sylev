@@ -1,0 +1,26 @@
+n Growing Trap
+ldeutsch n Wachsende Falle
+D 3
+C 3
+e 3
+M 0 Calm
+i Do your work before
+i the swamp traps you.
+ldeutsch i Mache deine Arbeit schnell
+ldeutsch i bevor dich der K�se einsperrt.
+a Alexander
+m 7 5
+#######
+#%...*#
+#1.*..#
+#E...^#
+#######
+y *...*....
+R 21913
+0 0
+1 Demo 1
+2 rrrRl.....rrbllll.
+
+uuid cca6cd8cc2afb9d6db4c31077971dc13
+
+leaderboard steps time gems

@@ -1,0 +1,80 @@
+n Traffic circle
+a Emerald Mine
+D 4
+s 0
+i Basically this level is not so difficult.
+i But it's not easy to stay concentrated.
+m 64 32
+################################################################
+#    +              +   +   +   +   +++++++++++++              #
+# ++ + +++++++G++++ + +   +   *   + +EE R B Y   + ++++++++++++ #
+#6+  + +       ++++ +6+++++++++++++ +++++++++++ + +6         + #
+#   r+ +6+++*+ +    +               +           + + ++++++++ + #
+#G++++ + +++++ + +++++++++G+++++++++++++++G++++++ + +      + + #
+#      +    ++ +8+                                + + ++y+ + + #
+# ++++G++++ ++ + + +++++++++++++G++++++++++++++++++ + ++++ + + #
+# +       +    + + +                  +           + +      + + #
+# + +++++ ++++++ +6+ ++++++++++++++++ + +G+++++++ + +G+++  + + #
+# + +   + +      + + +* G     +      8+ +      ++ +     +  + + #
+# + + + + + ++++G+ + ++++ +++ + +++++++ + ++++ ++ +++++ +  + + #
+# +6+6+ + + +      +    +    6G       + +     6*+     + + 8+ + #
+# + + + + + + +++++++++ +++++++++++++ + +++++++++++++8+ +  + + #
+# + +   G + + +       G              8+               +6+  + + #
+# + +++y+ + + + +++++ +++++++++++++++++++++++G+++++++++ +  + + #
+# + +++++ + + + +6  + +          g1 g           +       +  + + #
+# +       + + + + + + + +++++++++++++++++++++++ + +++++++  + + #
+# +  ++++++8+ + + + + + +6                    + + +        + + #
+# +  +    + + + + + + + + +++++++++++++++++++8+ + + ++++++ + + #
+# +  + ++ + + + + + + + +        G          + + + + +    + +8+ #
+# +  + ++ + + +6+ + +8+ ++++++++ + ++++*+++ + + + + + ++ + + + #
+# +  + ++   + + +6+ + +        + +6++++++++ + + + + +6++ + + + #
+# ++++ ++++++ + + + + ++++++++ +6+          + + + + + +  + + + #
+#      +    + + + + +        + + ++++++++++++ + + + G   b+ + + #
+#+G+++++ ++ + + + + ++++++++ +8+              G +6+ ++++++ + G #
+#        ++ + + G   G *+     + ++++++++++++++++ + +        + + #
+# +++++++++ + + ++++++++ +++++ +6             + + ++++++++++ + #
+#6+ 6    r+ +6+          +     + ++++++++++++ + +            + #
+# ++++++G++ + ++++++++++++ +++++ +   +   +    G ++++++++++++++ #
+#           +              +b  G   +   +6  ++++                #
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 56866
+0 8
+1 Demo 1
+2 .....l.rrrlllllllllllllbbbbbbrrrrrrrbbbb
+2 bbllllbblllllllllllllttttttttttttttttttr
+2 rrtlllllbbbbbbbbbbbblltttlllbbbbbbllll..
+2 .b..rrrrrrttrrrrbb.bbbblll.......ttrlbll
+2 lllllttttrtltttttttttttttttttt.rrrrrbrrr
+2 .bbb.bbblbtrrbbblllllltttttttttrrrtttttt
+2 rrrrrrrrbbltllbtrrtrrrrrbbblllbbbbbbbrrt
+2 tttttrrrrrrrrtllllltttrrbrrtrrbbrrrrrrtr
+2 rrbbblllllllllbrrrrrr..brrrrrbbllllllllb
+2 blllllttlllr.......r.rr.rr..bb.rrrrrrrbb
+2 lllllllllllll.ll.bbbbbbbbbbrrrrrrrbbllll
+2 bblllllllllttrrrrr................llllll
+2 ttttttttttttrrrrrrrttlllttttrrrrrrrrrrrr
+2 trrrrrrrrrrrrrrrrrtttttrrrrrrrrrrrrrbbbb
+2 bbbbbbbbbbbbbbbbbbbbllb..bblllllllllll.t
+2 tttttttttttrrr.rrrrtttttttll.....t.rrrrr
+2 bbbbbbbbbbbbbbbbbblllllllttrttttrrrbbbbb
+2 llllttttttrrrrrrttttttttttllll.....bbllt
+2 ttttttrrrrrr..rrrbbbbbbbbbbbbbbbbbbbbbbr
+2 bbbbblllllllllllllllltllllblltlllblltlll
+2 blltttrrrrrrrrrrrrrrrbbrrttttlllllllllll
+2 lllltttttrrrrrrbtllll..rr.r.rrrrrbbbllll
+2 lllllttt....ll.ll....llllttrrrrrrrrrrrrr
+2 rrrrrrrbbbbbbbrtttttttttlltllllllttttttr
+2 r.....b.r...rrrrbbrllllllt.t......t.r..r
+2 r.rrrrrbbbbrrrrrbbllllllll.....b.lllllll
+2 llllllllllllllll.bbb.bbbrrrrrrrbbbbbb...
+2 llllbblllllllll..llllltttttttttttttttttt
+2 rrrrr.ttttttrrrrrrrrrrrrrrrrrrrrrrrrtrrr
+2 rrttlllllll.......
+
+uuid 2c45c7bbd367162f3e4a5b3f7f3b0dd2
+
+leaderboard steps time

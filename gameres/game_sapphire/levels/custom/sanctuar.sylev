@@ -1,0 +1,38 @@
+n Sanctuary
+D 3
+C 3
+s 1
+Y
+M 0 FF7choct
+i You're beset by chaos in every
+i direction -- but there is a safe
+i path you can take.
+a Alex
+m 17 17
+#################
+#+V+V+V+V+V/V# E#
+#V+V+V+V+V+V#   #
+#+V+V+V+V+V#    #
+#V+V+V+V+V#    ##
+#+V+V+V+V#    #^#
+#V+V+V%V#    #^/#
+#+V+V%V#    #^.^#
+#V+V+V#    #^.^.#
+#+V+V#    #^.^.^#
+#V+V#    #^%^.^.#
+#/V#    #^%^.^.^#
+#V#    #^.^.^.^.#
+##    #^.^.^.^.^#
+#    #^.^.^.^.^.#
+#1  #^/^.^.^.^.^#
+#################
+y ~%>/V/<a 
+R 58372
+0 8
+1 Demo 1
+2 .....rtrtrtr.trtrtrtrt.r.trtrtrtrtrt....
+2 ....
+
+uuid 9a943f93cc991d03cb7af1c788b6a3df
+
+leaderboard steps time

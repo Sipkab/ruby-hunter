@@ -1,0 +1,117 @@
+n Invisible labyrinth (2)
+a Emerald Mine
+D 6
+s 0
+i The labyrinth is huge.
+i And that is the difficulty.
+m 64 32
+################################################################
+# i   i i   i i   i i   i   i i     i     i i         i i     i#
+# : :i: :i: : : :i: :i: :i: : :i:i: :i: :i: : : : :i:i: : : : :#
+#   i     i i     i     i   i     i   i   i   i i i i   i i i i#
+#i: :i: : : : :i: :i:i: : :i:i:i: :i: : :i: :i: :i: : :i: :i: :#
+# i   i i     i             i   i i   i i   i   i   i   i i   i#
+# : :i: :i:i: :i:i: :i: :i:i: : : : :i: : :i:i:i: : :i: : :i:i:#
+#     i     i   i i   i i     i i i i     i       i     i     i#
+# :i: : :i: : :i: : :i:i: :i:i:i: : : :i: : :i:i:i:i:i: :i: : :#
+# i     i   i     i   i i i i       i i i     i             i i#
+# : : :i:i: :i:i:i: : : : : : :i: :i: : :i:i:i:i: : :i:i:i:i: :#
+# i i     i       i i   i i     i   i     i   i   i i     i   i#
+# :i:i:i: : :i: : : :i:i: :i:i: :i: :i: : : :i: :i:i: :i: : :i:#
+#     i   i i i i i i   i   i   i       i i i   i   i i i i i i#
+#i: :i:i:i:i: : : : : :i: :i: :i: :i:i:i:i: :i: : : : : : : : :#
+# i i         i i         i   i   i   i   i   i   i   i i i   i#
+# : : :i:i:i: : : : :i: :i: :i: :i:i: :i: : : :i: :i:i: : : :i:#
+# i i   i   i   i i i   i   i       i i     i i i   i   i i   i#
+# :i: :i: : :i:i:i:i: :i: :i:i: : : : : : :i:i: :i: : :i: : :i:#
+#     i i i   i i       i   i   i i i i i i i       i i   i   i#
+# :i:i: :i: :i: : :i: :i:i: :i:i:i:i: : :i: : : :i:i: : :i: : :#
+#   i     i i   i i i   i i   i   i   i   i   i i i   i i i i i#
+#i: : : :i: : :i: : :i: : : :i:i: : :i:i: : :i:i: : : :i: :i: :#
+# i   i   i     i i     i i         i       i       i i i     i#
+# : :i:i: :i: : :i:i: :i: :i:i: :i:i: :i: : : : :i:i: : :i:i: :#
+# i   i i     i i   i i   i   i   i i i i i i i   i         i i#
+# :i:i: :i:i:i: : : : : : : : : :i: : : :i:i:i: :i:i: :i: : :i:#
+#       i i   i   i i   i   i i     i         i   i i   i i iEi#
+#i: : : : : : : :i: :i:i: :i: : :i: :i:i:i: : :i: : :i:i:i: : :#
+#21 i i     i   i     i   i       i       i i             i   i#
+#i:i:i:i:i:i:i:i:i:i:i:i:i:i:i:i:i:i:i:i:i:i:i:i:i:i:i:i:i:i:i:#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 56901
+0 8
+1 Demo 1
+2 ..............r..............r.rt.t.t...
+2 ...r....................................
+2 r.r.r.r.t...b....r.t.trrrrbrbr......rbr.
+2 r.r..r...b.rtrtrtrtr...tr.r..r.t.r.r.rb.
+2 b..r.b.br.r..r.b.r.btrt.t.tttttttttttt..
+2 ...l.l.l.lb.b.b.b....b.b..b.b.l.l..l.l.l
+2 t..t.t.tt.t.t.l.l......t.t.t............
+2 .l.l.l..................b.b..l......b..b
+2 .bl.l.l.l..lb...l..b.l.ltltl...t.t....l.
+2 l..l...t.l.lb.t.t....l.tttl.......l.l...
+2 ..b..b....b...l.l....t...lblb....b......
+2 ......l.l....l...b.l..t.t.t..l.l.....t..
+2 ....l.l....t.l......t.t......l.t........
+2 ..r.r.....r.r.t.....b..t.r.rt.t.t.r.r...
+2 .r.r.ttt.t....r....t.rrrrrrrrrrrrrrr.r..
+2 ......b.b....b.r.b......r.r....b.r......
+2 ........t.t.t....rtttttt.....t.t........
+2 ........r...r....t.r.r........b.b....r..
+2 ..b.b..b.b.b.br.r..r.b.rrrrrrrrr....b.b.
+2 .r.bbb....l.l..l...b.lllb.b.blblbbbbbbbb
+2 ..r.r....r.b.r.r..b.b..r.b.b......l.l...
+2 .b.lblb...........b.bbbb.......bb..br.r.
+2 ...b.r.r................................
+2 ..............t.t..rtt.t....r.r..t.r.r..
+2 ......b.b..r.b.b..........r.r....r.b.r.r
+2 ..t.t..r.t.t....r...l...................
+2 ............................r.r..r.t.r.r
+2 ....b.b.b.bbbrbbbbbbrbrb....rb.r....l...
+2 t....r..tttttttttt..............l.l.l.lt
+2 llllllllllt.t.tltttt.ttt................
+2 ........................l.l..t.l.l......
+2 t...t..l.t.t......r.r..r.t.r.r.r.r.rtrtr
+2 .t.t.t......r...t.r.....t..t.r.rtr.t...t
+2 ....r.....r.tt....r.r..r.r..t.t..t.t.t..
+2 ........r...r..t.t........l.....r.r.....
+2 ........................t.l.....r.r.r...
+2 ..l.l....l.t.l.lttt...r......l.t.t......
+2 r.r.r.r.r...l.l..r.r.r.r........b.b..r.b
+2 .b............r.r..b.r.r.rb.b.rr.b.b....
+2 rrrrrr..............................b.t.
+2 t..r.t.t..r...l.l.l.tt.l.l..tt..t.tt....
+2 .t.t........r.r.r.........t..trrrt.r.r.r
+2 b.b.....rr...b.b.b.brr.rb.....t.t..rtttt
+2 ........r.......tt..rrrrrrrrrr....b.....
+2 t.....t..r.t.ttt....l.r.r..t.r.r.rb.b..r
+2 .b.b.b......r.r.r.r..brr.r.r.r..b.....t.
+2 t...b.b..rbbbb........r...l.l.l.lbllllll
+2 ll....r.b......l.l..........b.b..b.b....
+2 ..l.l..b.........l.l..b.b.....t.t.......
+2 ..............................b.b....l..
+2 b.b..b.b.b.b..........r.r....r.....b.r.r
+2 .r...l.r.r.rb....b.rb....b.br.r..b.r...r
+2 ..b.b.rr...b.br...r.....l.l..b.lllllllll
+2 ..b.b..........b.l.b.br.r.r...l..b.l.lll
+2 ..b.b..l.b.b.br.r...l..b......l.l.llllll
+2 ll..b.b......l..bl.bblbl...b.b.b....r.r.
+2 ..bb..r.rbrbrbrbrbrb...r.r.r.r.r.r.r.rtr
+2 .r..b.b..rbb.br.r....b....l.....r.r.rrrr
+2 rr.....r.l.l..l.l.t....r.rt......t..r...
+2 ....l....l.tt.l.l.t.....t.....l.l..l.ltt
+2 tt....r.r......t.t.......l.l....l.l...r.
+2 ......l....r.r..........r.r.rrrrrr......
+2 .r.r........t....r..tt..r.r....r.t.r.r.r
+2 ....b.b..r....bbbbbb.b........tt....r.r.
+2 .b..rrrrrrrr...........r.r.r.rb.b...b.b.
+2 .r..bb.b.brbrb......t.t....r.r.t.t.t....
+2 ..........
+
+uuid c48da908838865343df8565de7e95585
+
+leaderboard steps time

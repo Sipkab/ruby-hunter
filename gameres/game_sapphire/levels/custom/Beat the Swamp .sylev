@@ -1,0 +1,69 @@
+M 0 Race
+D 3
+n Beat the Swamp
+e 5
+p 0
+E 0
+s 20
+a Alexander
+f Alexander
+i Collect all the gems and
+i get out. Don't let the stones
+i or swamp ignite the bombs
+i next to your exit--that's your
+i lateless fee, being trapped
+i forever.
+i 
+i Note: This was my first level
+i idea.
+m 20 20
+%%%%%%%%%%%%%%%%%%%%
+~                   
+....................
+~ .0.               
+~ .*.           0  1
+~ .$.  0        .   
+~ .*.  .            
+~ ...       0       
+~           .       
+~                   
+~                   
+~                   
+~                   
+~                   
+~                   
+~                   
+~                   
+~                   
+~                   
+EQQQQQQQQQQQQQQQQQQQ
+
+R 98571
+0 8
+1 Just in Time
+2 .llbbllllllltlltlllllbbbbbbblllbbbbbbbbb
+2 ....
+R 62084
+0 8
+1 Demo 2
+2 .ltllbblbllllllllllllbblllbbbbbbbbbbbbbb
+2 ...
+R 62384
+0 8
+1 REALLY Close
+2 .tllllbllllllllllllbbblbbblbbbbblbbbbb..
+2 .
+R 37442
+0 8
+1 No Stopping
+2 .lltllbllllllllllllbblllbbbbbbbbbbbbbb..
+2 .
+R 26133
+0 8
+1 Another Trick
+2 ..lltlllblllllllllllbblllbbbbbbbbbbbbbb.
+2 .......
+
+uuid e61d10ae9e0b927431d23fd8ba7e8687
+
+leaderboard steps time

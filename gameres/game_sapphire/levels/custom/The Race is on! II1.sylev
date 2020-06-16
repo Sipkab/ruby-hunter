@@ -1,0 +1,39 @@
+n The Race is on! II
+D 3
+C 3
+s 1
+p 0
+M 0 Drive
+N The Race is on! III
+i Again : be quick
+a Nic01
+f Nic01
+m 13 10
+%0          .
+#0#########  
+1"   +   + # 
+##########+#.
+ddddd#  +# # 
+~    # # # # 
+######+# #+#.
+~ #E   # + # 
+~Q"########  
+~.        ...
+R 44834
+0 8
+1 Demo 1
+2 rr.lrrrml......rrrrrrrrrml........rrrrml
+2 .......rrrrrbbbut........bbbbut.......bb
+2 bbbllttcb........ttttllburr......llllbbb
+2 lll.......
+R 44900
+0 8
+1 Near-suicide
+2 .rrrr.mllr.....rrrrrrrrmlllllsrrrrrrrmll
+2 l....rrrrrrbbbuttlll..l.rrrrbbbbuttt....
+2 .bbbbbllttcbr......tttttllburr......llll
+2 bbblll.......
+
+uuid 88b4fc74b0236ef776b0ea16ea7385db
+
+leaderboard steps time

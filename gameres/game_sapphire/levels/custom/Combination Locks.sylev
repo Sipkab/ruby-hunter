@@ -1,0 +1,46 @@
+n Combination Locks
+D 6
+C 6
+E 0
+p 0
+M 0 Dancing on the Ceiling
+i If you don't open them the right
+i way, everything blows up...
+a Shark
+m 15 12
+###############
+#QQ0..........#
+#Q@0..........#
+#0QQ..........#
+#.......QQ0...#
+#.......0E0...#
+#.......0QQ...#
+#.Q00.........#
+#.Q*Q.1..+....#
+#.00Q.........#
+#.............#
+###############
+R 63996
+0 0
+1 Demo 1
+2 lttllllbbbb.rr........LrrTr....lttttlltT
+2 lbb..b..rr.rrtttrTb.lttrr..bbbbll..bllbr
+2 t..rrb..rrrrrrlllltllllbrrrrrrrllllllllt
+2 llbrrrrrrrrrtrtttttltllbrrbbbbbbRltttltt
+2 .....
+R 19000
+0 0
+1 Demo 2
+2 .............t...b..tlb.....b.r........t
+2 tll..tlllb..b....bbr.r..........ll......
+2 ............rrrttt......l.....ttt..bbbbl
+2 ....rrr......r...r..bbrrrrrllllltllbrrrr
+2 rr...........llllttt..ltt.r.....r......T
+2 ..........b.lttrrr.............bbbbbrrr.
+2 .r.....ll......r..lllllllllbrrrrr..trrrr
+2 ..rtttttll...l..lbbbbbb......rr..l..r.tt
+2 tr........lllttr........
+
+uuid d5c838c59aa645a5b77c9825e43da3e8
+
+leaderboard steps time

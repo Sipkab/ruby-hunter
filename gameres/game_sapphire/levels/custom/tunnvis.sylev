@@ -1,0 +1,57 @@
+n Tunnel Vision
+D 6
+C 2
+E 0
+s 0
+p 0
+d 1
+o 1
+Y
+M 0 Just do it
+i Warning: This level
+i may contain tunnels.
+a Alex
+m 27 22
++++++++++++++++++++++++++++
++++0000Q+++++++++++++++++++
++1......0+   0    ++   Q ++
++++++.Q 0+ + +++|  ++  + ++
++++++++ ++ + ++oo@  ++ + ++
+++++  * *+ + ++0++| d+ + ++
+++++ +d++  + *+*+++ *  + ++
+++++  * + +++++*+0+a++++ ++
++++$+++ +      *B*++++   ++
++  *  + ++++ ++*+*  ++  _++
++ +++   *5++ +0++$@ ++ _+++
++   +++++d++ +0++*. +&+++++
++++      * + +*  *+   + +++
++++++ ++++   +*+++++++d +++
+++$** **$+++++*       b +++
++++++a+++++++++++++++++++++
+++++ ++++++++++++++++++0  +
+++*+ +++++++000+++++++ |*++
++>*         ***         * +
+++++++++++++++++++++++&++++
++++++++++++++++++++++++++E+
++++++++++++++++++++++++++++
+y ~Q Q$Q++.
+y ~        
+R 56201
+0 0
+1 Demo 1
+2 ...rrrr..B.r..Rltrr.....bbbrB.llb.llbbrr
+2 rbbb.......llrr......Rlltllllbbrrbrrbbll
+2 LrrrrRllttlltllttr......Rlbbrrbrrrrrrr..
+2 .brrtttttlll.ttrttttrrrrrlllbbbbR.ttttll
+2 bbbblbbrrrrrrBtt....bbllllllttrttttrrrrr
+2 rrbbrrbbrr......rttttr.rbb...bb..b..bllb
+2 bblblltt..........tllB.rrbbL...llTblllbb
+2 rrrrrrrrrtttllblltttlltllllbbbbblltlll..
+2 .....................l.....l......bbblbb
+2 bl.L..Lrrrrrrrr..rrrrrrrrrrrrrt...t.....
+2 ...........r......l..lb.rb.tllbll......r
+2 rbrrrb.........
+
+uuid 37358e06f82758956b9bce84f90a00bf
+
+leaderboard steps time

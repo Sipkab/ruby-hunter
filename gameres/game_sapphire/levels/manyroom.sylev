@@ -1,0 +1,124 @@
+n Many Rooms
+ldeutsch n Viele Räume
+D 8
+C 2
+T 4000
+p 0
+Y
+M 0 Dancing on the Ceiling
+i A great challenge for
+i great players.
+ldeutsch i Eine große Aufgabe
+ldeutsch i für große Spieler.
+a Ronald
+m 64 50
+################################################################
+#E.      Y0.Q .0Y .0..00*Y   *   Y 0#B R R R R R R+.0.  G G G  #
+#..#######0## #0#*0$*000*# 5 .   #.0# R G G G B Y #...G       Y#
+#  #*000*#0##<#0#*$$$$$$*# # * # #.0#R   B B B Y R##Q######### #
+#  #*010*#0. +#0#.$$.00**# 5 . 7 #.0# Y Y Y G B R ##QQQQQQQQQQY#
+#  #*000*#|.  +.########## # * # #.0#R B B B G Y R##QQQQQQQQQQ #
+#  #|***|### ++|#.*.* *$*#   . 7 #.|# Y B Y G B B ##QQQQQQQQQQ*#
+#   #|*|#    #$$#***.Q.**#########.##R B Y B B Y R############+#
+#  ### ### ######.***Q*** #   0  #.## Y R G G Y B #        0   #
+#        # #QQQ##.$$.Q##**    .@ #..!Y g#R Y Y Y B#        .   #
+#  #     # #Q#Q##..QQQQQQQQQQQ.####################        0   #
+#  #     # #Q#Q##..*b000000000..     #*+          0    # #######
+#  #     # #Q#Q##..............##### #*+ Q @ @ @ @.   @#Q#0*#$Q#
+# ######## #Q#Q#################.0.#G###############  ####|+++|#
+# Y0Y0Y0#  #Q#Q#....#............|....QQQ0000.00000#           #
+# #@#0#0#  #Q#Q####.#..+++++.Q.......Q+++Q...0Q0000#          !#
+# ......   #Q#QQQQ#.#++QQQQQ#.. .....+Q00#.Q0Q0#######!0!#######
+## | | |#y #Q####Q#.#0Q0000Q####QQQ++#Q0..Q0Q00#Q00#$#0!0#76867#
+## #R#R#####Q#**#Q#.#00...0QQQQ#++++Q###..00Q0.#000#$#.0.#5 555#
+##R#   #####Q#..#QQ##.....0000Q##+#Q0QQ++.00Q0#000.#.#...# 7757#
+##   ####Q##Q#.*... R..........QQQQ0.00Q+++..QQQ.. Y  ...0 8565#
+###R####Q#Q#Q##Q#+###...Q.......000....0QQ+###.+00.#######67775#
+#....QQ#Q#Q#Q##Q#...#0..0..Q............00QQQ#+0.00#578887855 6#
+#.##Q#Q#Q#QQQQQQQQ**#..Q.0.....0.....0....000QQ+++.#7 55 88 777#
+#*QQQ##Q####Q#####..#...0..0.0........0......00QQ++#78587578885#
+#.######****#*****..#.....Q...Q...0###..Q..Q...0QQQ#8 55+++7 56#
+#...........*.......#..0Q.0....0..Q#  0....Q....000#7756+$+6665#
+####################################B###########################
+#................................... ..........................#
+#..................#...........................................#
+#...QQQ............#...........................................#
+#..QQQQQ...........#...........................................#
+#..QQQQQQQ...000...#.........00......00....000....00....00.....#
+#..rrr$r.......00..#...0.....**......0*...0***0...**....**.....#
+#...rrr........@00.#..0*......*0....0*...0*...*0..**....**.....#
+#...YyYY......@..0.#.0**0000...*0..0*....**...**..**....**.....#
+#..YyyyyY....@...0.#0*******....****.....**...**..**....**.....#
+#..YYYyyyy..@......#.*******.....**......**...**..**....**.....#
+#..YYYYYyyyr.......#..**.........**......**...**..**0..0**.....#
+#..$$$$$$.r........#...*.........**.......*****....**00**......#
+#..$$$$$...........#.............**........***......****.......#
+#...$$$$$..........#...........................................#
+#..$$$.$$..........#...........................................#
+#.@@@...@@@@.......#...........................................#
+#..@@@..@@.........#...........................................#
+##############################################################*#
+#$...QQQQ....QQQQQQ..#  #  QQQQQ        Q....QQ     QQQ#    ##*#
+##.QQ....QQQ#......QQ#  #QQ.....QQQQQQQ#..##..QQQQQ#...QQQQQ##*#
+#.....##......####..........###..........####........#........*#
+################################################################
+y ~#     Q 
+R 3650
+0 1
+1 Demo 1
+2 ..........................rbbllbbbl.Brrb
+2 llrb.RbLtttlllllbbbbbbbr.r.R.lRR..rrrrll
+2 r...R.rrrBrtttttttttrrttltrbbbllbbbbbbbb
+2 blllttlllttttttttttttrtrrrrrrrrrrrrrllll
+2 lllllbbbbbbbbbbblbbrrrbbrrrtttttttttrrtr
+2 rbRttRllbbllbbbbbbbbblllttlllttttttttttt
+2 trtrrrrrrrrrrrrrbbr.Br.BTr.TrrrB.rB.tlbr
+2 tt.........rrrr.....bbbBttt..rrrrbbbbbbb
+2 brrrrltttrbrrrbllbrrrtttr.m.........rrrt
+2 rrbrrrtrrrrbbBtt......bbbbbbbll.Lb.l.l.l
+2 .lllllbbBllllbltlbltlbltlbltlblr.....lll
+2 Lrrrrrrrrrrrrrrbbrblr.Brrbl.Bt.b.strrrrr
+2 rllt.crr.....lllllRRlllllbbrBllbr..bbrrr
+2 rrrrrrrrrrrrrrrrrrrrrrrrlTlll.ltttbbb...
+2 ...l.l..srr..............l....lllllltttt
+2 ttllll.srrrbbbbbbrrrrrrr..rr............
+2 ..lllllllllttttttlllllllllttllllllB.BT..
+2 rr....llllltlltlllltLLLLL.LTlLttlllllbLR
+2 br.RB.blbbrRllttt..rrrrrrrrrbrrrrtrbr.R.
+2 lbbrrrrrrbbbbrrrrtrrrrrbbbbbrrrrrrrrrrrr
+2 bbbbbBL.bLttttttlllllllllllltttttlllllll
+2 lll.B..l.Bl.Bl.Bll.tllbrtrrrT..lllb..rrr
+2 rr.........rbbbbbbbbrlllrrrtrrbllllr.brr
+2 trrblllrrbrb.ttrr.blltt.llbbbllbbrrrrrrr
+2 rrrrrrbbbbrrrrrrrrrrrrrbbbbbbbbbbbbbbbll
+2 lllllltllbllllllltltlllblbllllllllltllll
+2 bllllllllltlllllbllllltlllbllll...rrttLr
+2 rrrrrrrrrrrrrrrrrbbrrrrrrrtrrrrrrrrrrrtr
+2 rrrrrrrrrrrrrrrbbrrrrrrrrtttttttttttllll
+2 lll.rr..r.lll.rrr.b.llbl.blll.tl.t.L.L.L
+2 L..L.L.tt..Tbb.tttlllll.lb.rrrbl..lT.br.
+2 lbl..B..l.Bl.B.lt.L.LL..L.L..t.L..Ttlbrt
+2 tttrrrr.tllllllbllblbl.bll..bbbbll..rrtl
+2 Btttllt.ltt.ll.bbblllll.tt...bbll.brrrrr
+2 rblllllbrrrrrrtttttllllttttttlllllllllll
+2 lbb..lbbbbbbbtrtrtrtllBl.....rrrrbbl.bl.
+2 bl.bll..blllllllbrrrrrrrbllllllllblbbR.t
+2 .Rttrrrrrrrrrrttl...brrbllllllll...lbblB
+2 .Rttrrrrrrrrrrttl.rrbbllllllll....lbblB.
+2 ttrrrrrrrrrrtttl.bbrrblllllllllll..bbB.t
+2 r.Btrrrrrrrrrttttl.bbbrrblllllllllllbbBb
+2 B.tr.rrtrrrrrrtttt.r.t.bbbbr.bllllllllll
+2 bbR.b.R.ttrrt.rrrttttttrrrRttrrrbllllbbb
+2 bbbrbllllllll.bBt.r.BrrrtttttrrRttrrrbll
+2 llbbbbbrbllllll..lbb..l.B.trrttrrrtttrRt
+2 .trrrbllllbbbbrbllllllbbBtttttllllltlttt
+2 rrrrrrrrrrrtttttrrrrrrrrrrrrrrrrrrr.trtr
+2 rtttttlllllllllltllllllllllll...rrrrbbrb
+2 RbblllllblllllllllllltTbbrrrrrrrrrrrrtrr
+2 rrrttllltttttLbbbbbrrrbbblllllllllllllll
+2 llttttrrtltttlttttttttttttttt...........
+2 ...
+
+uuid 8465dc2d9b26dd2c3a3a29d33c475d4b
+
+leaderboard steps time

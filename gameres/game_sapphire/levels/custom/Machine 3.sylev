@@ -1,0 +1,78 @@
+n Machine III
+D 6
+e 10
+s 0
+p 0
+M 0 4-32
+f Alexander
+i Just like the first machine.
+i With a side order of lasers.
+i 
+i Warning: It looks like the
+i lasers can't hit falling
+i objects. Not really...
+a Alexander
+m 24 45
+##################      
+#................#      
+#...0.....0....0.#      
+#......0....0....#      
+#...0....0.....0.#      
+#::::.0......0...#      
+#+++:............:::::::
+:>%(:            :+++:::
+:::::            : %  <:
+#.+++ +++........:::::::
+#.+5  5 +........#      
+#.+ 7  7+........#      
+#++++ +++++      #      
+#      *  +  1   #      
+#   |Q+|| +      #      
+#  *+++ + +      #      
+# ||+Q|   +      #      
+# + +++*  +      #      
+#   |Q+|| +      #      
+#  *+++ + +      #      
+# ||+Q|   +      #      
+# + +++*  +      #      
+#   |Q+|| +      #      
+#  *+++ + +      #      
+# ||+Q|   +      #      
+# + +++*  +      #      
+#   |Q+|| +      #      
+#  *+++ + +      #      
+# ||+Q|   +      #      
+# + +++*  +      #      
+#   |Q+|| +      #      
+#  *+++ + +      #      
+# ||+Q|   +      #      
+#   +++   +      #      
+#|       |+      #      
+#+|     |+       #      
+#E+|   |+        #      
+# ++| |++        #      
+# +5  5 +        #      
+# + 7  7+        #      
+# +++ +++        #      
+#                #      
+#                #      
+#                #      
+##################      
+y :%:(>(:::
+R 52570
+0 8
+1 Rich
+2 trrrtt.t......t.tttttttlllllllllllbbbbBt
+2 tll...rr...tbllb...........r....ttrrrrrt
+2 rrbllll.l.rrrr..rrrrtrrbllllllllll......
+2 .....btrrbll..............rrrrrtrrrbRlll
+2 lllll.............brrtrrblll............
+2 .......rrrrrrrtrrblllllllll.............
+2 bl..r.......rrrrr.trrbRllllllll........b
+2 rrrrrrrrr...b.bbbbbbrrbbbbbbbbbbbbbbbbbb
+2 bblllllbbbbbbbbbblllllllll..rrrrRllllltt
+2 ttttt.....
+
+uuid e2db36452dc1ca043bbad475733ca464
+
+leaderboard steps time

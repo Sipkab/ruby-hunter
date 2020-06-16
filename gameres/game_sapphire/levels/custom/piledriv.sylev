@@ -1,0 +1,58 @@
+n Piledriver
+D 7
+C 5
+E 0
+p 0
+i When you can't travel by
+i land or by sea, try
+i traveling by air.
+a Alex
+m 20 13
+####################
+#     .0*0.....$...#
+#     ............0#
+#     ..0.0........#
+#     .......$.0...#
+#     *.........0..#
+#   1 ....0........#
+#     ...0.........#
+E     ......*.0....#
+#     ......0...$..#
+#     .........0...#
+#a@   .$...........#
+#####a##############
+R 42144
+0 0
+1 Demo 1
+2 .............b...bbb......rrrrrrrr.....r
+2 ..r..brr................................
+2 .t..ttlltl..lbll..rrtrrbllll..brblllll..
+2 rrrrrrrrrrttttttt..ltllll...lllrrr......
+2 bbb..llllll.bbbb...t..rrr...lll.lttt.rrr
+2 rrrtttrrrrrbbbbbbllllllllll....rrrrrrrrr
+2 r............tttt..lltll.b..trrb...ll..b
+2 ...llllll....rrrrrrr.trrb........lllllll
+2 ll...........l..ttt...r....r..r.......tl
+2 lbrrr..ll......blt..rrrtrrb.l...lbl.l.tl
+2 ....t.ll......bbbbbbbbbbllltlll.........
+2 tr.b.rb...l.rrrtrrrbl..tttlllllll......
+R 3205
+0 0
+1 Alex
+2 ...bbbb.......r...rr.ttttttTbbbbbb......
+2 .............rtrbrtr........b.rr..l.l.l.
+2 l..tl....rrr..r.trtr.b.rbr..blll.rrlBtrr
+2 rblbl.l.l.l.l.ltllrrrr.........rrrrrrttt
+2 tttltllT..............................b.
+2 lbl...b.l.........lllb................L.
+2 trr.......blll...Brrbl.lrrttrrrtrtr.BrBl
+2 lbrt.rrBllbrll.brttrrb.lbllllLrrrrtrrb.l
+2 bl.l.l.l.lb..lb..l.ltl...rr.............
+2 ......r..................tttt....lllll..
+2 ...rrtrrb......lblt.lrrrrblltlltllbr..bb
+2 bbbbbbbllltllt....r.brbl.rr.rrrtttRlllll
+2 ll........
+
+uuid 7aa94f516f87129389e2e76c722d1b40
+
+leaderboard steps time

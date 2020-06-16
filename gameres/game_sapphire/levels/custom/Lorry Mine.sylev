@@ -1,0 +1,69 @@
+n Lorry Mine
+D 7
+e 45
+E 0
+s 0
+p 0
+d 300
+M 0 Live and let Die
+i This level looks easy. Look
+i closer. You need the lorries
+i as bombs, a laser (lorry), and
+i more.
+i 
+i There is enough space at
+i the top to get the lorries
+i away from you for a while.
+a Alexander
+m 25 30
+~ d       #E#            
+~ +       #+#            
+~ ?                      
+~                        
+1 @        *             
+.asa.....................
+................&%.......
+....$7....(........$.....
+................*.$$$..5.
+......................._.
+.........................
+.........................
+7.7.7.7.7.7.7.7.7.7.7.7.7
+.........................
+.. .0. ..................
+.. .0. .....^............
+.. ... ..............0...
+.. [.. ..................
+.. ... ..................
+.. .6. rrrrrrrrr.........
+..s....r  57   r....:s:..
+..s....r ..... r....: :::
+..s....r6..(..6r....:Q(Q:
+..s....r8.(((.8r....:::::
+..s....r ..... r.........
+..s....r   57  r.........
+..s....rrrrrrrrr.........
+..s..7...........5.......
+..0..............*......7
+..a......................
+y ....^....
+R 10631
+0 0
+1 Lorries Everywhere
+2 trrrrrrrrrrrbrrrrrrbtllrrbrbbrbllLrrrlll
+2 llrrrrrbrRt...RlttllbLtttrrrr..........l
+2 lllllbbbbrrrrrrrrbllltllblllllllllbrrrrr
+2 rrrrrrrrRttlllrbllllllllllbttttTbbbbbtl.
+2 .Brttll.......rrbbBtttttbbblllbllllTrrr.
+2 ..ttrrttbbllLrrrrrrbblllllllllrrrtttttrb
+2 bbbbrrbbbbbbbbbrrrrrrbbbbrrrtttrrtllllbb
+2 brttlbbbbLrrbrrrrrbllllllltLRbLrrbrrrrrt
+2 lllllttttttttrRlbbbbbbbbrr..............
+2 .........bbbblllll..l...................
+2 rRllllttttttlLttttltttttttttttttlllllttl
+2 lLrrbrb..........l........ttttttrrrrbbrr
+2 tt.
+
+uuid 57062fba5ac02355bf8a79bb178a3ac4
+
+leaderboard steps time

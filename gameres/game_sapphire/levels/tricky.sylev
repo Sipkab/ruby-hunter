@@ -1,0 +1,29 @@
+n A Little Tricky
+ldeutsch n Ein bi�chen knifflig
+D 4
+C 1
+M 0 Jump
+i This one is not so easy
+i and contains a time-critical
+i action.
+ldeutsch i Der ist nicht so leicht,
+ldeutsch i und erfordert einen
+ldeutsch i zeitkritischen Zug.
+a Ronald
+m 16 7
+################
+#   #0**0..0.0*#
+# 1 ....0  0.0.#
+############.0 #
+#E         ...##
+#          #0. #
+################
+R 14341
+0 1
+1 Demo 1
+2 ..rrrrtrbltrrrR.rrrbbbLr.B.lllrtttrrbbll
+2 blllllllllll..........
+
+uuid b68e084a036f3b15f025761e8438783e
+
+leaderboard steps time

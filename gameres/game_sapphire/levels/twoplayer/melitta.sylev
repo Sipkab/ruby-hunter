@@ -1,0 +1,48 @@
+n Melitta
+ldeutsch n Melitta
+D 5
+C 5
+E 0
+M 0 Stars
+i When you make coffee,
+i you need a good filter.
+i If there is none available,
+i you have to do some
+i clever improvisation.
+ldeutsch i Wer Kaffee macht, der
+ldeutsch i braucht einen guten Filter.
+ldeutsch i Wer keinen hat, der muss
+ldeutsch i sich mit geschickter
+ldeutsch i Improvisation behelfen.
+a Reinhard
+m 17 11
+#################
+#|**0***00**0*0|#
+#1|***0**0**00|.#
+#.2|***0000**|..#
+#...|**0*0*0|...#
+#....|0**0*|....#
+#.....|***|.....#
+#......|.|......#
+#...............#
+#......EaE......#
+#################
+R 3428
+0 9
+1 Demo 1
+2 ........bbbbbbbbbbb.....rrrrrrrrrr.r....
+2 .tr.r..t..t.....tt.........t..........L.
+2 ..R...L.....t.......b.....L.....L.....L.
+2 ....t.......b.....L.....L.....L...L.....
+2 t...b.....L.....L...L.....L.......t.b.b.
+2 ....L...L.....L.....L.....L...t.........
+2 ........b.b.....R.....R.....t...b.....R.
+2 ....R.......t.b.b.....R.....R...........
+2 t.b.b.....R.......R.................t.r.
+2 r.b.....t.t.t..........r.....l....lb..bl
+2 blblb.brbr....l.....b.bbbbbb.r.b........
+2 ........
+
+uuid ae7e6b4397079ba74e3d497df3824d31
+
+leaderboard steps time

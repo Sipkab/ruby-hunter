@@ -1,0 +1,187 @@
+n All About Sequences
+D 8
+C 5
+e 754
+T 2350
+t 1294
+s 0
+p 0
+d 7
+M 0 Stars
+i There's one split-second
+i time-critical move here...
+a Nic01
+f Nic01
+m 21 110
+#####################
+#####################
+#####################
+#####################
+###########    .0####
+###########    .@####
+######0####    .0####
+####  0  ##    .|####
+####           . ####
+####   Q       . ####
+###r10           ####
+########R        ####
+###     R        ####
+###               ###
+####aaaaa@|aaa@.@ ###
+########&Q&######.###
+###.....###.      ###
+###.0...........  ###
+###.........Q.Q. .###
+###.........Q.Q.  ###
+###...Q.....Q Q  @###
+###............. .###
+###....8.8..     .###
+###858.   ..   @..###
+###8.6......  @...###
+###878..     @....###
+###8....   .......###
+###.777# ##      # ##
+###.787#   aaaaaa#Q##
+###.777.    .....#B##
+###8. .#.@      #  ##
+###888....@      R###
+###8888#...@.     ###
+#############Q##BB###
+#########::::+:: R ##
+##    + g::*(b*&## ##
+##G####+###(##:... ##
+## G  #+# B*&(&.(#.##
+#####G#+#R::#(&.Q#.##
+##  G #+# #"#Q&._..##
+##G####+# + #_ ....##
+##  # #+#R+R#########
+##G 7 #+# +QQQQQQQQ##
+##  # #+# ########(##
+##G   #+#.*$*$*$*#Q##
+##  # # #*$*$*$*(#(##
+##G   #  $*$*$*(*:Q##
+##6 # ###*$*$*(*$#(##
+##G######$*$*(*$##(##
+## # G ##*$*(*$*::Q##
+##G#G#G##$*(*$*$#####
+## # # ##*(*$*$*::%##
+##G#G#G##(*$*$*$:(^##
+## G # ##*$*$*$*:::##
+###### ##############
+##(            :::%##
+##*(           :*(^##
+##(*(          ::::##
+##$(*($*(*(*(*$*(*(##
+##*$(*($*(*(*(*$*(*##
+##**$(*($*(*(*(*(*(##
+##$**$(*($*(*(*(*(*##
+##($**$(*($*(*(*(*(##
+##(($**$(*($*(*(*(*##
+##*(($**$(*($*(*(*(##
+##**(($**$(*($*(*(*##
+# ***(($**$(*($*(*(##
+# :##################
+# +#68 87.  Y       #
+##+#8 8 8.  Y      %#
+##+# 8 7 .%yY       #
+##+#5 8 8.#+####### #
+##+########+#!!!! # #
+##++++++++++#!!!! Y #
+## ################Y#
+## "#             # #
+##  ############### #
+######(  %%%%%%%%%% #
+######(( %%%%%%%%%% #
+######(((%%%%%%%%%# #
+####  #############Y#
+##m    #Qm        Y #
+#m 0s # .  #####s #Y#
+m  {sm          s # #
+# {#s  &&&{ @     # #
+# ##     ######   # #
+# #m         #    # #
+#  l##        l{s # #
+#   l#{s##### ##s # #
+#    ##         0l# #
+#       l.... ....  #
+#{{{#########{###Q###
+#################+###
+# d   Y  o      Y w #
+#     Y wwwwwww Y Yo#
+#     Y w     w Y Y(#
+#   @ Y w    ow Y wo#
+# ww# Y wwwwwww Y Y #
+#     Y         Y Y #
+#a####Q########## ###
+E#####Q ###$####   ##
+c   (QQQ   Q   # c ##
+c  (QQQQQ QQQ  #   ##
+c (QQQQQQQQQQ$ # c ##
+##############R# . ##
+###         ## # c ##
+# B R G Y B8R  # . ##
+#Y############## c ##
+#  G R B Y G R B . ##
+#####################
+y ~%  ^    
+R 80228
+0 0
+1 Demo 1
+2 .L.....r.r.r..rbb.rBl......bbbrrttrrrttt
+2 tttttrrTbbbbbbbbl..rbr.r.BllLrrbblbbbbbb
+2 BllbrBllbrBllbrtrtrtrttttR....bbRbbbblbL
+2 .llllb..ll.rrtr..ltttLrrttt......tttllbl
+2 bbbbllllBrrrbb....bllb.lbbbbr..rbrltrrrb
+2 BltllbrbrltrrBrbBltllbrbr.R.......rrbbBt
+2 trrrbrbblllbbbbrrtrBtTbl...l..tllbRbrr..
+2 ...lltttlllttrrRllbblbbbb..brrrrrrrbbltl
+2 bltlbltllbbrTrrrrr.Rb...btlllLBlllbrlb.B
+2 R..R...rR.bRlbRB.R..Rttrrr.....rr..ll..l
+2 ...r..rrrttt.bb..bbllllblbrrtrrbRL.R.ttt
+2 tttttllllltttrrttTbbrrrrrrrbbbbbbBtttttt
+2 lllllllllbbbblltcrr........llttcb.......
+2 ..tttcbb....t....tttcb.........tttcb....
+2 .....tttcb........ttttcb..........tttcb.
+2 ........ttt.cb.........ttttr.c.lb...cbb.
+2 ......ttttlllllbrrbll..............b.b..
+2 ........bbb.bbrttrbbbbrrb..lllllLT.lbrrr
+2 rrrrrbrrrbr.ltr.rrrRB......bRt.......bLt
+2 ..bB...b..R..t....t...lllllbllltlbltlblt
+2 lbltlbbrrrrrrrrrRbllllllllLbLrrrrrrRblll
+2 lllLbLrrrrRbllllLbrrrtttr.rtttrrrrrR....
+2 ..br.R.......R..ltrrR.....rrB...bR.t....
+2 ..bLBt......lllllbblblblbbl..L.T.trtrtrt
+2 ttrr.b.r.bR.tr...rr...bLRB......bRt.....
+2 ................................bLttt.bb
+2 ........r...bb.....l.................Ltl
+2 l.......llT..b.RltlbblbLrrtr........rR..
+2 ...rr.....rrb..tlt...lll...bbLrrrr..l...
+2 t.lllllllllll..............rrrrrrrrr....
+2 ..bRllllllllllllllbbrbbbbbbbRtcb........
+2 .tttrmbb........ttrrml.........rrrml....
+2 .....rrrml.........rrrml.......rrrrrml..
+2 .....rrrrrml..........rrrml........rrrrt
+2 cll........rrtttrbrrrrrrbbblltl.L.lLbLrr
+2 rr..uttlmlllllts.........blll.Lrrrrrrrrr
+2 rbbbbbbbbbbl...................r.l......
+2 .....rt.b.l.............................
+2 ....................r..t.tt.tt.tttbbbbbl
+2 llllblsr..........lllsr..........lllsr..
+2 ......llllsr.........lllsr.........lllll
+2 lTbrrrrrrrrrrrtrrbbb......bb...tttlbbbll
+2 ltlllbrr................................
+2 .........r.....r...bb..............Rttll
+2 ltllllt..................lblb..rrrrRbb..
+2 ..rb....tl..r...l...b.rrlltttrtttrrrrrrr
+2 llllllblblblbllttrbbbbrrrrrrrrrbb.lrr...
+2 ........r.......b...rRlll....rr.llltlrrt
+2 tlllll..tltt..ll.b.................rbbrr
+2 rrrrrrrbblrb.rrr.rbbbrbrBlbbbbbblbbbbR.R
+2 ttttrttllltlllllllttl....l.Lrrrrbbt.rbrt
+2 tlttrttr.bbbbrrrrrrrtrrbblbbbbbbbbllllll
+2 llt.r.r....rrrrttrttttlllTrrbBr.....llll
+2 llllllblllltttttt..
+
+uuid 27f18de5c0aff60a2c4fc25d93bfcc96
+
+leaderboard steps time

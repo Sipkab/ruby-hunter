@@ -1,0 +1,28 @@
+n Evil Bombs
+D 7
+C 6
+E 0
+p 0
+M 0 Jump
+i You'll have to be really careful
+i when deciding where to move or else
+i end up a pile of dust yourself.
+a Shark
+m 9 9
+#########
+#.......#
+#.......#
+#.Q0Q...#
+#EQ*Q..1#
+#.QQQ...#
+#.......#
+#.......#
+#########
+R 3873
+0 0
+1 Demo 1
+2 .......llTbbbrttltllttllbb.....
+
+uuid 43fd22b6ba30fee7980a5342e5ab9f2d
+
+leaderboard steps time

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config xmlns="bence.sipka.types.config" >
+
+    <declare-enum name="InputDevice" >
+
+        <enum name="UNKNOWN" />
+
+        <enum name="FINGER" />
+
+        <enum name="MOUSE" />
+
+        <enum name="KEYBOARD" />
+
+        <enum name="VIRTUAL_KEYBOARD" />
+
+        <enum name="STYLUS" />
+        
+        <enum name="GAMEPAD" />
+        
+        <enum name="JOYSTICK" />
+    </declare-enum>
+
+    <declare-enum name="SeekMethod" >
+
+        <enum name="CURRENT" />
+
+        <enum name="BEGIN" />
+
+        <enum name="END" />
+    </declare-enum>
+
+    <declare-enum name="Endianness" >
+
+        <enum name="Little" />
+
+        <enum name="Big" />
+
+        <enum name="Host" />
+    </declare-enum>
+
+</Config>

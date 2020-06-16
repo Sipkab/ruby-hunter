@@ -1,0 +1,26 @@
+n Fire Exit
+D 6
+C 3
+p 0
+M 0 Live and let Die
+i The name applies. The exit really
+i is on fire!
+a Shark
+m 9 7
+#########
+#  #QQ Q#
+#1  *EEQ#
+#  #.##Q#
+#2 # ##Q#
+#  #QQQ##
+#########
+R 80360
+0 0
+1 Demo 1
+2 ....r.r.r..t.r.r.t...r......B...........
+2 .rrr.................l.......r.t.r.r.b..
+2 ....
+
+uuid 89867917729ff482e02b47a946707021
+
+leaderboard steps time

@@ -1,0 +1,35 @@
+n The Stack
+ldeutsch n Der Stapel
+D 4
+C 3
+E 0
+M 0 Take Five
+i The sack-stack actually...
+i Find a way to open all the
+i bags before your exit gets
+i blasted!
+ldeutsch i Eigentlich ein Sackstapel.
+ldeutsch i Finde einen Weg, die S�cke
+ldeutsch i aufzumachen, bevor der Ausgang
+ldeutsch i weggesprengt wird!
+a Juergen
+m 10 10
+######Q###
+# 0 .. .Q#
+# 1 #...Q#
+# @.#Q...#
+#.@ #Q .Q#
+# @.#...Q#
+#.@ #Q...#
+# @.#Q .Q#
+#.@ ....E#
+##########
+R 4384
+0 1
+1 Demo 1
+2 ..l.brrbllbrrbllbrrblrrrrrr............l
+2 .brrbllbrrbllbrrblrrrrrr..........
+
+uuid 47434941e9f2bbcc6a22cd00f0e7b416
+
+leaderboard steps time

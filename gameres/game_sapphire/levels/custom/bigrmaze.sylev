@@ -1,0 +1,70 @@
+n Bigger Maze
+D 5
+C 2
+e 68
+s 1
+p 0
+d 10
+Y
+L
+A xmas
+M 0 Voyager
+i This time, you have a few more
+i tasks ahead of you.
+a Joseph, Alex
+m 72 25
+PP{{{{PPP   iiiii       PPPP      .$0..i                                
+P$.... $P   i:%:i       Pb  G G   .*..*i      iii                       
+P 0000P.m   i:^:i    G G Y   G Y   .*..i      iQi                       
+P.{{{{l.m   i:(:i   G G Y Y Y Y GsaOOOOOOOOOOOi.OOOOOOOOOOOOOOOiii      
+P     l.mPOOOO:OOOOO G G G Y G Y                              Y  P      
+PPPPPP .        $ * Y G Y Y Y Y GOOOOOOOOOOOOOi.iaaaaaaaaaaaO OY P      
+~  PPPO OPOOOe#eOOOO Y Y G G Y G    .0PPPPSiPPi iQQQiQQQiQQ O O YP      
+~     O SOO  JSJ    G Y G G G G     .@P   .0 Pi #QiQ#Q#Q#Qi O OY Pi     
+~ iiiiO . O JJ.JJ    G GfffffG      ..B PPyP PiQiQiQQQiQQQi O O YPPi    
+~ i   . O O J   JJ                PPP i    PcPiQ#QiQ#Q#Q#Qi O OG   Pi   
+~ i i P P JJJ __ JJJ iBi          P1P i PP P PiQQQiQQQiQQQi O O Y   PPP 
+~ i     _$J      JQJJJ0JJ         P P0P P*   PiiiiiiiiiiiiiiO OY  OOOEO 
+~ii.iJJ JJJ JJ  @J.J  @ J         O O0P PPPPPPiiiiiiiiiiiiiiO O Y Om  O 
+~i   J  <J  <J .*J J ..cJ         O O.P P                   O OY  OO  O 
+~i|  JJ JJJ JJ  |J J JJ J iiiiSSi O $  *P                   O O Y  O cO 
+~ii|  J J*J JJ  J  &    J i   **i O OPPiPiiiiii             O  Y   O  O 
+~ ii|   J.J  J  J JJ JWTUii iiiHHHM*MHHiiiiiiii             O*  GOOO  OO
+~  ii|  J JJ JJaJ               0* Y*  F....dii             O$$      @lO
+~   iJ|      J    JcJJWTUiiiiiiHHHM MI  ...[ Oi             OOOOOOOO OOO
+~    J @J JJ   JJJJ 0    i       iF*    [Q.. Oi                    O{O  
+~    ia.. J    <J0  .    i       iNHH   .[.. Oi                    OOO  
+~    iiiJ^JJJBJJJ00 0    i       iii 5    [  Oi                         
+~       J J      .i i    i         i i       Oi                         
+~       JJJ      iii     i         i   Pi   aii                         
+~         i          0   i         iii $iiiiiii                         
+y <%>%^%< >
+R 67743
+0 8
+1 Demo 1
+2 ...bbbbrrrrtttttttrrrr.l.bbbBLbLrRlttlll
+2 bbbbbllllbbbbrrbblbbrrbr......l.ttrttttr
+2 rr.t.bbbrtlttrbbbbbtt.lbb.tlltlrtltrr...
+2 trbbtllbr...bblbrrrltlttrbblb.rrrrrr..tt
+2 ...........t.r...bbbl..brRltttttlllltlll
+2 lllllllttrrrRlllbbllllllltttttrrl.rllbbb
+2 rrR.Rllbblllttrttt.bbblbb.blllblltllll..
+2 ..rbblL..........rttr............lttTbbl
+2 ltttt..ttttttrr.lrbbBttll.bb.tttttttttll
+2 llllbbbrrrrrbrrrrrrr.rrrrrrrbrtrrtttllrb
+2 lbblbbbbbllblllbbbbblllblltlllllbBtrrrrr
+2 ..ttlt...t..tttrrttrrb.tlt.bl.bbrbrR.bRl
+2 ttlllb...bbbbrbbbr...........bbbbrrrrrrr
+2 rrrttttllllbBtrrbbblblllllll.ttttrtrrrtr
+2 rrtttttrrtrrtrrrrrrrrrrtrrrrrrbbbbbbllt.
+2 bl.rr.ll.....R.rtttttttllllbblllllllllll
+2 ttrtrrrtrbbrtrbrttrttrRbbrrrrrttllll.brb
+2 lllt.blbrrrrrrrrrrrrrrrr.B.t.bl.r.......
+2 ...rrrrrrrrrrrrrrrrrbbbbbbl..b..........
+2 .b.r.tllbtrrbrrrr.RRRRRRRR.lllltllbrrrrr
+2 r.........................rtttttrtt.....
+2 ..
+
+uuid eb53efa159df33b666e14a911c9adc1e
+
+leaderboard steps time

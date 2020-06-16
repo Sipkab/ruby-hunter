@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config xmlns="bence.sipka.types.config" >
+
+    <declare-flag name="VSyncOptions" >
+        <flag name="VSYNC_OFF"			value="0x00000100" />
+		<flag name="VSYNC_ON"			value="0x00000200" />
+		<flag name="SWAPINTERVAL"		value="0x00000400" />
+		<flag name="ADAPTIVE"			value="0x00000800" />
+		<flag name="TYPE_MASK"			value="0xFFFFFF00" />
+		<flag name="SWAPINTERVAL_MASK"	value="0x000000FF" />
+		<flag name="SWAPINTERVAL_SHIFT"	value="0" />
+    </declare-flag>
+    
+    <declare-flag name="RenderingContextOptionsResult">
+        <flag name="SUCCESS"			value="0x00000001" />
+        <flag name="FAILED"				value="0x00000002" />
+        <flag name="PARTIAL_SUCCESS"	value="0x00000003" />
+        <flag name="RELOAD_REQUIRED"	value="0x00000004" />
+    </declare-flag>
+
+</Config>

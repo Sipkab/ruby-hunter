@@ -1,0 +1,39 @@
+n Money rules the world
+ldeutsch n Geld regiert die Welt
+D 1
+C 1
+M 0 Pink Panther
+i As you have probably noticed,
+i the only reason for mining
+i is financial gain.
+ldeutsch i Wie du vielleicht schon
+ldeutsch i bemerkt hast, ist der einzige
+ldeutsch i Grund für Bergbau der
+ldeutsch i finanzielle Gewinn.
+a Reinhard
+m 11 13
+###########
+E1********#
+#***$*$***#
+#**$$$$$**#
+#*$*$*$*$*#
+#*$*$*$***#
+#**$$$$$**#
+#***$*$*$*#
+#*$*$*$*$*#
+#**$$$$$**#
+#***$*$***#
+#*********#
+###########
+R 73352
+0 8
+1 Demo 1
+ldeutsch 1 Demo 1
+2 ..rrrrrrrrbllllllllbrrrrrrrrbllllllllbbb
+2 bbbbrrrrrrrrttttttllbllllllbrrrrrrrrblll
+2 lllllbrrrrrrrrbllllllllbrrrrrrrrllllllll
+2 ttttttttttl........
+
+uuid 73d012153b6b5408309629327b0621b8
+
+leaderboard 

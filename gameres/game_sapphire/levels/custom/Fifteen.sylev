@@ -1,0 +1,37 @@
+n Fifteen
+D 4
+C 5
+p 0
+M 0 Nightshift
+i Fifteen bags and fifteen stones...
+i It sounds easy, but how do you get
+i out?
+a Shark
+m 11 10
+###########
+#..00000..#
+#1..0000..#
+#....000..#
+#..@..00..#
+#..@@..0..#
+#..@@@....#
+#..@@@@..E#
+#..@@@@@..#
+###########
+R 35134
+0 0
+1 Demo 1
+2 brrTr.bl.l.lbbbBttttttrblbbbrBr.r..r.Tr.
+2 blll.l.ttttrrrrrrrbbbbllblllllbrrrrrrrt.
+2 ...
+R 14368
+0 0
+1 Demo 1
+2 ....brrr.....B..l.t...bl...lb.r.R.l....b
+2 .rrrr.....Tr..........blllll.........ttt
+2 trrrrrrrr..bbbb..l......L.......b...llll
+2 lll....b...rrrrrrrrt........
+
+uuid 4b856cb58fb12304650001f525d90df3
+
+leaderboard steps time

@@ -1,0 +1,60 @@
+n Thin Brick Wall
+D 8
+C 7
+s 0
+p 0
+A graphite
+M 0 Axel F
+i Systematic destruction of a long
+i brick wall...that's gonna take a
+i lot of bombs.
+a Shark
+m 22 18
+##################Q###
+#QQ00. #Q  0 0    .Q #
+#...0. #.  . .   0 . #
+#   _  #   ... Q . . #
+#  _   #      Q1 . . #
+#    Q #+######__#####
+#    . #+#  # ####    
+#    Q  +   #         
+# a__._#+#Q #         
+# ###!##+#Q##         
+# #Q   #+#Q#####      
+#.0.   #+#Q# B #      
+# |  b #+QQ+Q  #      
+#      #+####%%#      
+#      #+#   %>#      
+#_     #+### %%#      
+# _s_{##+&E#####      
+############          
+y 0  >   / 
+R 66968
+0 0
+1 Demo 1
+2 lllllttR.rlbbrrrrtttlbl...llrbrrrrrbllll
+2 lllrrrrrrrttrtrbbrrttlllbbb.llllllll..l.
+2 ....bbblltttllbbbrrrrrlttttTbbbbllllttrb
+2 b.rrllbbbbbblllstt..rrtttttttttTbbbbbbbb
+2 bbbbbl...trtttttttr...llrbbbbbblllbbrrtt
+2 ttlllttttttttrrtrtrbbbbbb.rrlllllttttrrt
+2 rbbbbbtttlltlTlbbbbr.rrrrrllllllttttTbrr
+2 rbbbrbbblbrllllbbbbrrrlllttttttttttrrrrb
+2 b.rr.rbbbbbrrr...rtrblllll.lb......bbbrr
+2 .....
+R 24968
+0 0
+1 Demo 2
+2 ...lllllttR.rlbbrrrrtttlbl..lllrrrrrrbbl
+2 llllllrrrtLrrrrtr..rtbbrrttlllbbb.llllll
+2 ll....lbbbbbblltttllbbbrrrrrltttttr.bb..
+2 ..lbbbbbllllttrbb.rrllllrtttrtttrbbbbbb.
+2 l.l..l...t.trtl.tlb......tt.bblbbbr..rrr
+2 rrl..........llllttr..tlrrrttlbbrbllt.lt
+2 ltrbbrbbbl..rrrrrl.rr...lllbbbbB.....ttt
+2 trrrbbbbbrrr.......rtrblllllr....llbbbbu
+2 tt.......bbbbrr.....
+
+uuid 9713a4839e84fc5c2b2d72069620f7d0
+
+leaderboard steps time

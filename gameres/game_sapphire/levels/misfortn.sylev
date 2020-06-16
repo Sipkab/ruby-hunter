@@ -1,0 +1,56 @@
+n Wheels of Misfortune
+ldeutsch n Pechräder
+D 7
+C 1
+E 0
+o 7
+w 70
+M 0 Dancing on the Ceiling
+i Spin them and
+i see what happens.
+ldeutsch i Dreh' sie und schau
+ldeutsch i dir an, was passiert.
+a Alexander
+m 20 8
+#$##################
+#.                 #
+#                01#
+#  # # # # # # # #.#
+#@ #w#w#w#w#w#w#w#.#
+##w###############.#
+#Eo................#
+####################
+R 88990
+0 0
+1 Demo 1
+ldeutsch 1 Demo 1
+2 .bbbbllllllllllllll..Lrrrrrrrrrrrrrrrttt
+2 tt......................................
+2 ........................................
+2 ........................................
+2 .....................ll........b.t......
+2 ..................bbbtl............t.rrr
+2 b..........ll.tll.......................
+2 .......................................b
+2 ..bbtl...trrrbll.tll....................
+2 ......................................b.
+2 ..t.bbbtll..t....rrrr.b..............llt
+2 .bl.tll................................b
+2 b.btl.......trrrb.llll.tll..............
+2 ........................................
+2 .bb.t......bbtl.................trrrb...
+2 ..ll..tll...............................
+2 ................b.bbtll............t....
+2 .rrrr.b...ll.tlll....r..................
+2 .............................bbbtl....tr
+2 rr.blltllb...t..........................
+2 .................bb.......tt............
+2 .......b.....bbbtlltt...rrr....bl..llrr.
+2 .............t........rrrrrr............
+2 ........................bbbttllllllllbbb
+2 lrtttrrrrrrrrrrrrr.rrrbbbbblllllllllllll
+2 lllll........
+
+uuid ead1fcb9eaf049f1e07cfbe70e7e4504
+
+leaderboard steps time

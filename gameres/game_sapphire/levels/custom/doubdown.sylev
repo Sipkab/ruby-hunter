@@ -1,0 +1,34 @@
+n Doubling Down
+D 3
+C 6
+E 0
+p 0
+M 0 Just do it
+i An object hit by two explosives
+i will, in effect, explode twice.
+i In this case, you don't want
+i that to happen.
+a Alex
+m 13 7
+#############
+#  Q  #   Q #
+#  .  #   . #
+E     1     #
+#     #   Q #
+# &Q  #  +&Q#
+#############
+R 63176
+0 8
+1 Demo 1
+2 ......llllttr...........bbrbb.llttrrrrrr
+2 rrrbl......lrr...ttt.l.........bbbb..lll
+2 ttlllllll........
+R 63203
+0 8
+1 Demo 2
+2 ......llllttrb..rrbrrrrrr..b.l.rtttlr...
+2 ....bbblb..lllttllbbllll..ttl........
+
+uuid c9300bcbc3f00cce7a7efd6d7786f3c2
+
+leaderboard steps time

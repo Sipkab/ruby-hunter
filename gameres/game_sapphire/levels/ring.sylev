@@ -1,0 +1,62 @@
+n Lord of the Ring
+ldeutsch n Herr des Rings
+D 4
+C 2
+E 0
+T 1100
+M 0 Drive
+i One ring to rule them all,
+i One ring to find them,
+i One ring to bring them all,
+i And in the darkness bind them.
+ldeutsch i Ein Ring sie zu knechten,
+ldeutsch i sie alle zu finden,
+ldeutsch i ins Dunkel zu treiben,
+ldeutsch i und ewig zu binden.
+a Ronald
+m 29 26
+#############################
+#1..........................#
+#.Q.........yyyyy...........#
+#.........yy00000yy.........#
+#........y00$$$$$00y........#
+#.......y0$$yyyyy$$0y.......#
+#......y0$yy.....yy$0y......#
+#.....y0$y.........y$0y.....#
+#....y0$y...........y$0y....#
+#....y0$y...........y$0y....#
+#...y0$yy............y$0y...#
+#...y0$y.............y$0y...#
+#...y0$y.............y$0y...#
+#...y$0y.............y0$y...#
+#...y$0y.............y0$y...#
+#...y$0y.............y0$y...#
+#....y$0.............0$y....#
+#....y$0.............0$y....#
+#.....y$0...........0$y.....#
+#......y$0.........0$y......#
+#.......y$00.....00$y.......#
+#........y$$00000$$y........#
+#.........yy$$$$$yy.........#
+#...........yyyyy.........++#
+#.........................+E#
+#############################
+R 17173
+0 1
+1 Demo 1
+2 ...b.bbbbbbbbbrrr.Bl...trrr..bbr.......t
+2 .....tlT..lBTl.rR..t.R.tt..rrtt.rr......
+2 ...ll....llllllltttttrrbrrrrrrrrrrrrrrrr
+2 rrrrrrrbbbbbbbbbbbbbbbbbbbbttttttttttttt
+2 tttttttllllllltllllllllllllllllllbrrrrrr
+2 rrrrrrrrrrrrrrrrrrrrrrrr.blllllllltlllll
+2 llllbbbrrrtrrrrr..brr.....br.br...br..bb
+2 r...bblllllllllllttttllllllllbbbbbrr...b
+2 bbr..bbr..br..br..brr..brrr...bbrrrrrrrr
+2 rrrttt.rttttttttlll.bbbl.bbl.bl.bl.bll.b
+2 lltt.bbbbrrrrrrrrrrtrrb.................
+2 ...
+
+uuid 471f02fd7e6709e3c3dcca18fe494fe0
+
+leaderboard steps time

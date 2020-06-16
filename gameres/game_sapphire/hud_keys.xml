@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<FrameAnimation>
+
+    <FrameAnimation.FrameAnimationElement
+        texture="@res/gameres/game_sapphire/art/keyhudicons"
+		h="1.0"
+        w="0.25"
+        x="0.00"
+        y="0.00"
+	/>
+
+    <FrameAnimation.FrameAnimationElement
+        texture="@res/gameres/game_sapphire/art/keyhudicons"
+		h="1.0"
+        w="0.25"
+        x="0.25"
+        y="0.00"
+	/>
+
+    <FrameAnimation.FrameAnimationElement
+        texture="@res/gameres/game_sapphire/art/keyhudicons"
+		h="1.0"
+        w="0.25"
+        x="0.50"
+        y="0.00"
+	/>
+
+    <FrameAnimation.FrameAnimationElement
+        texture="@res/gameres/game_sapphire/art/keyhudicons"
+		h="1.0"
+        w="0.25"
+        x="0.75"
+        y="0.00"
+	/>
+
+</FrameAnimation>

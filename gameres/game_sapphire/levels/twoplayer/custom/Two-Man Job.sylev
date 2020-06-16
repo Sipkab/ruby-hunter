@@ -1,0 +1,38 @@
+n Two-Man Job
+D 3
+C 1
+e 7
+p 1
+d 18
+M 0 Live and let Die
+i You will both need to serve as
+i placeholders to allow the emerald
+i machine to work. No pushing.
+a Shark
+m 13 10
+#############
+#         +d#
+#        l+ #
+# 2   ||  + #
+#    |+     #
+#    l+  1 |#
+#c| | +   E #
+#     +  |  #
+E     + {   #
+##|a|##a|####
+R 60754
+0 0
+1 Demo 1
+2 ......t.t.l.t.t.......r.l........r.b.b.b
+2 ........................................
+2 ........................................
+2 ...........b.b.l.l...t.r.r.t............
+2 .......b...l.l.b.r.r.t.t................
+2 .b.b...l.l.t...r.r.t....................
+2 ...b.l.l.b.r.r.t.t.................b.b.l
+2 .l.t.t.r.r.t.....................b.b.l.l
+2 .l........r.b.l.b.b.r.b.b.r.b...........
+
+uuid 96e4b0317137bb1a685dc5f63377eb42
+
+leaderboard steps time gems

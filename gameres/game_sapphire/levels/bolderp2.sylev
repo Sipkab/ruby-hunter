@@ -1,0 +1,48 @@
+n Boulder problem II
+ldeutsch n Felsproblem II
+D 6
+C 5
+e 12
+p 0
+M 0 Dancing on the Ceiling
+i This game is nearly the
+i same as "Boulder problem".
+i It differs only in one detail.
+ldeutsch i Dieses Spiel ist fast
+ldeutsch i identisch zu "Felsproblem".
+ldeutsch i Es unterscheidet sich nur
+ldeutsch i in einem kleinen Detail.
+a Ronald
+m 15 12
+~ ############ 
+~##$*(*((S$(*# 
+##$*$$**S.S$S# 
+# (($(*S...S.# 
+#SSS($S......# 
+#...SS..1....# 
+#............# 
+## c         ##
+~#     _  _   #
+~#   _        #
+~E            #
+~##############
+R 475
+0 1
+1 Demo 1
+ldeutsch 1 Demo 1
+2 ......rrrrbbbblllllllblttbrrrtrtllbrrrbr
+2 rtlllbtlbltllllttrTrrlrlllrrtrbllllrlbtl
+2 lbbrrrrbrttblllttrrtrtbr..lblbl.bbrtrtbl
+2 lttlbltllbbrrbrtlttrrtrrttbbrlllbllbl.bb
+2 rtrtbllttlbrbbblltlbttrrbrtlttrrtrrrtttb
+2 bbrllllbllbl.bbrrttbbltlttlbrbblltrbrtlt
+2 trrtrrrrttbbrlllllbllbl.bbrtrtbllttlbrbb
+2 lltrbrtlttrrtrrrrrtbrllllllbllbl.bbrtrtb
+2 llttlbrbblltrrrrrrrrbrtttblllbllllttrtrr
+2 rrrtrTll.rrbbbbrblllllllblttrrrrrrrtttll
+2 lllbllbl..tlbrbllbltrrttllLrrbbbrrrtllbl
+2 ttrtllltl.rr..bbrbbblLbRll........
+
+uuid c3c3dd74fb73c87e1998b1fd717d6c0b
+
+leaderboard steps time

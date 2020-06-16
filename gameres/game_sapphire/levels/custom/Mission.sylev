@@ -1,0 +1,110 @@
+n Mission
+D 7
+e 107
+s 0
+p 0
+M 0 Tico Tico
+i This level combines a lot
+i of previous levels. The
+i hardest part is on
+i the converting/balance.
+f Alexander
+m 50 50
+##################################################
+#  0    V                                        #
+#                                                #
+#10                   |######################|   #
+#######   ####################################|  #
+#                                              s #
+#       %                                        #
+#                                              0 #
+#  |#################################|           #
+# s###############################################
+#  rR @#    #::::#                      #        #
+# @ #!.#    #::::#                      #        #
+#s###!c#    #::::#                      #        #
+# ### .     :$:E:####                   #        #
+#a### .     :*:  :"(:                   :       $#
+#   #0c     #::::####                   #      ((#
+#   #..     ######                      #     (((#
+#   #..          #           #######    #    ((((#
+#   #..          #           #(   ":    :   (((($#
+#                #           #######    ########.#
+#                #                               #
+#    .           #                               #
+#                #                               #
+#     .          #                               #
+#                #                               #
+#     c          #                               #
+#                #                               #
+#     c          #                               #
+#                                      .         #
+#     # #########ssssssssssssssssssssssssssssssss#
+#       ################################# ########
+#aaaaaaaa                                        #
+#aaaaaaaa  $      $   $    $     $      $        #
+#      ..................................        #
+#                                                #
+# #R###### ###### ### #### ##### ###### ##########
+# #  #############################################
+#@ R #############################################
+#@.###############################################
+#@.#                                              
+#@.#                                              
+#@.#                                              
+#@.#                                              
+#@.#                                              
+#@.#                                              
+#@.#                                              
+#@.#                                              
+#@.#                                              
+#@.#                                              
+####                                              
+y ~%  ^    
+y ~%  ^    
+y ~%  ^    
+y ~%  ^    
+y ~%  ^    
+y aaaaaaaaa
+R 86364
+0 8
+1 Demo
+2 .r.r.r.r.r.r.r.r.r.r.r.r.r.r.r.r.r.r.rtr
+2 rrrrrrrrrrrrrrrrrrrrrrrrrrrrbbbbbbl.l.l.
+2 l.l.l.l.l.ltllllllllllllllllllllllllllll
+2 lllllllllllbbbbrrTltrrbRbbRutt.........b
+2 bbrrbbbb.bltt.r.llbbr.lblbrB...bbbRbbbbb
+2 bbrr.mltt...rrrrrrtrrrrbrrrrrrrrrrrrrrrr
+2 rrrrrrrRllllllllllllllllllllllltllllbrrr
+2 rrrrrrrrrrrrrrrrrrrrrrrrrrllllllllllllll
+2 lllllllllllllllllllbbbrrbblLr.rbrrrrrrrT
+2 .rrrrT.rrrrrTrrrrrrTrrrrrrrTrrtrrblltL..
+2 b.llBllllltL...bllBlllltL..b.llBllltL..b
+2 lllBlltL..b.llBllllltL..blllBllllllllrbr
+2 blLbLbLbLbLbLbLbLbLbLbLbLtttttttttttrtlt
+2 trrrrrrttlltttrrrrrrrrrrrrrrrrrrrrrrtttt
+2 ttttrrrrtt..llLrrrrrrrrbb.rrr.rrrrrrtttt
+2 ttlbbLbllbLrrrbbbbbbbbbbllllllllllllllll
+2 llllllllllllllttttttttttttttlllt.
+R 47322
+0 0
+1 Demo 2
+2 r..r.r.r.r.r.r.r.r.r.r.r.r.r.r.r.r.r.rtr
+2 rrrrrrrrrrrrrrrrrrrrrrrrrrrrbbbbbbl.l.l.
+2 l.l.l.l.l.ltllllllllllllllllllllllllllll
+2 llllllll.llbb..brbrtrbRbbsrbbbbbltTlBTbb
+2 lb.rbbbRbbbbbbbrrmltt...rrrrrrrrtrrbrrrr
+2 rrrrrrrrrrrrrrrrrrrRllllllllllllllllllll
+2 llltllbrrrrrrrrrrrrrrrrrrrrrrrrrrrtrrrrr
+2 rtttttrrttttLtLLLLLLLTLlllbLrrrbblllllll
+2 lllllllttlllLrrbbbbbbbbbblllllllllllllll
+2 lllllllllllbbbrrrbbbrrrrrrrTrrrrTrrrrrTr
+2 rrrrrTrrrrrrrTrrtrrblltLb...llBllllltLb.
+2 ..llBlllltLb...llBllltLb....llBlltLb...l
+2 lBllllltLb...llBllllllllrbrblLbLbLbLbLbL
+2 bLbLbLbLbLbLtttttttttttrtlttrrrrrrttlltt
+2 trrrrrrrrrrrttttttttttttttlllt......
+
+uuid 01ed925780607c2825d3aab9120d5ac1
+
+leaderboard steps time

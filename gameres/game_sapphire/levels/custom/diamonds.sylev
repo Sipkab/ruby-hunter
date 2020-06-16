@@ -1,0 +1,43 @@
+n jb puzzle 7
+lDEUTSCH n Smaragdkäfer
+D 10
+s 0
+p 0
+Y
+A graphite
+O graphiteplus
+S soft
+a Jürgen B.
+m 17 12
+~KKKK%KKKKK%KKKK 
+.1 . . . . . . .K
+.0. . . . . . .!K
+000.....XZ . . .K
+|000. .Z(hX . .kK
+K0000..XJJZ| . .K
+K00000. ZX. .#. K
+K0y0000. .K. K@.K
+K0j00000. KYKK.KK
+K00000000.K !#^KK
+K00000... KKKKKKK
+~KKKKKKKaKKKKKKK 
+y ~    $**E
+R 49648
+0 0
+1 Demo 1
+ldeutsch 1 Demo 1
+2 ........rrrrrrrrrrrrrbRbRl..............
+2 .tlTlTlTlllllllltllbrrrrrbbbrbrbrbrbbll.
+2 ...........l..........................ru
+2 t........................tllltllBrr.....
+2 lllbBrBrBrrtttttrrrrrBrbr.rrbbbtttllbr.r
+2 rbbbl..Brt......ltllbblbRttrttltltlllbml
+2 ..........rrbRlbbbbrr...................
+2 ........................................
+2 ..........................bBltltlllblttt
+2 tttrrrrrrrrrrrrbbbbbbbbLtrb....Brrr.rrrb
+2 blllllltllbrrrrrrrrrrBrb..
+
+uuid 6fe7c381d211b0e710c0109d9c38c32d
+
+leaderboard steps time

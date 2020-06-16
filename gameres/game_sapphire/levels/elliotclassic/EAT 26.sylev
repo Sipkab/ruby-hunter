@@ -1,0 +1,38 @@
+n EAT 26
+D 5
+C 5
+T 80
+A graphite
+S standard
+N EAT 27
+i Your clone decided to stick around.
+i You must now escape the building
+i with your clone before the time run
+i out.
+a Elliot
+m 20 15
+~                   
+~ #############     
+~ #  R B R B E#     
+~ #  G Y G Y E#     
+###RY##########     
+# R  Y #            
+#B####G#            
+# B  G #            
+###BG###############
+~ #  B g  Y R Y R  #
+~ #  G b  R Y R Y  #
+~ ###############RY#
+~   ## 1y R Y R Y  #
+~   #  1r Y R Y R  #
+~   ################
+R 67925
+0 8
+1 Demo 1
+2 .llrrr..brtrbrbrtrbtr...brtttlbltlbltl..
+2 bl.l.t.l..bltt.ltrttrrttltltrrrrrrr.....
+2 ..
+
+uuid 76a01c6908c5b59f26e5f37990394e4e
+
+leaderboard steps time

@@ -1,0 +1,76 @@
+n Hello
+ldeutsch n Hello
+D 4
+C 2
+T 1750
+s 5000
+M 0 Hello
+i An urgent "Hello?" in despair.
+i Someone to solve me - anywhere ?!
+ldeutsch i "Hallo?" (der Verzweiflung nah)
+ldeutsch i "Wer will mich lösen? Jemand da?"
+a Ronald
+m 50 22
+##################################################
+#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
+#%E...%.........%.........%%......%..........%.1%#
+#%..............................................%#
+#%%............................................%%#
+#%....Q*..Q*..$0$$$$..**......00........Q$......%#
+#%%...**..**..$$$$0$..Q*......QQ.......$$$$....%%#
+#%%...*Q..*Q..$$......*Q......QQ......$$..Q$....%#
+#%....**..**..$$......**......00......Q$..$$...%%#
+#%....Q*****..0$$$$$..**......QQ......$$..$$....%#
+#%%...****Q*..$$$$0$..0$......QQ......$$..Q$...%%#
+#%%%..**..**..$$......$$......00......$$..$$...%%#
+#%%...*Q..*Q..$$......$0......00......$Q..$$....%#
+#%....**..**..0$$$$$..$$$$$$..Q*$QQQ...$$$$....%%#
+#%....Q*..Q*..$$$0$$..$$$$$$..QQQQQQ....$Q....%%%#
+#%%.............................................%#
+#%.............................................%%#
+#%..............................................%#
+#%.............................................%%#
+#%%...%.....%%..............%.........%...%.%%.%%#
+#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
+##################################################
+R 2109
+0 1
+1 Demo 1
+2 .....llbbbllllltllbl.rtrrbll.rrrbllL.bll
+2 rbtllBrrbl.l.brblbrl.Brrbl...B.tttttrrtr
+2 rbl.brblrbtllBrblrrbl.rblbrblllBttllllbl
+2 lll.........b.Ltrrtt..tlllllltttlltllLL.
+2 lL.btllB.rrbl.rrBllbrrlbrblrb...tllBrrbl
+2 .rbl..B..bLtrrblll.brrrrrblllllttttttttt
+2 lllllltllblL.rtrrbll.l.brrrtrrBllllbblbr
+2 llBrrbl.rrrrrbtllblllrblbrllBrrbl.rrrrrb
+2 ltllbllttttttttttlllBllbrrrlbrlb.Lt.....
+2 b......ttllltll.r.lBrrbllllrblb.trrBllbr
+2 .lbrllBrrbl..b..rtrr...ll..brl..bl...bl.
+2 B....rr.tr..r.Bllbr.lb.r.Btttt..tttrrr.t
+2 trrrrbbL.ttlllbrrrll.....r..b....b.ll.ll
+2 .rblbrll.Brrbl.rbl.btrrBllbr.blrbttttttl
+2 llltttttlllllt..........
+R 28259
+0 8
+1 Reinhard says hello
+2 ...lbbbllllltllbllrrtrrblllrbrrrrbrtlllb
+2 rrrblbr.br.ltllbrrrrrrrblbr.ltttttlllllb
+2 trrbllbrblbr.l.b.l.rtrrbll.brrrllbtttlll
+2 lllbllb.l.rtrrrrrrrltllllllllttttttlllll
+2 llr.br.tlllbrrr.lb...t.rtrbrrrrbllltllbr
+2 rrr.blltllbrrrr..rrblllbr.br.t.llbb.lbrr
+2 rrrbl.b.l...brr..bl.trrrrrbllltllttttttt
+2 tlllllltllb.lrtrrbll.brrrtrrb.tllllbblbr
+2 .btllbtrrblllrrrrrb.tllblllbrbl..l.btrrb
+2 llbrrtrrrbltllltttttttlttl....llbrrrrtll
+2 llbrrrrrrllblrrrrllllbtrrbrtlllbr..r.l..
+2 .bl.br.ttttlllltllblltrrrrbllllrll.rrbrr
+2 r.bltllbrr.llb.r.btll.bltrrrblllrrrrblll
+2 .brrtrrtrrbl.l.br..rbtllbr.blrb.tttttlll
+2 llbrrbbtllbrrrrbbtltttttttttlllttl......
+2 ..
+
+uuid 5809e279786e57b526629a89145e1e01
+
+leaderboard steps time

@@ -1,0 +1,53 @@
+n Crematory
+D 3
+C 4
+E 0
+p 0
+o 0
+M 0 Hello
+i Remove all those dead robots so
+i we can get out of here.
+a Shark
+m 14 14
+##############
+#.0.0.0..0..0#
+#..0.........#
+#......0...0.#
+#0...0.1.....#
+#.0.0....0.|o#
+#.....0....+o#
+#.......0..+o#
+# |  | ||  +o#
+#o+oo+o++oo+o#
+#o+oo+o++oo+o#
+#o+$ +o++oo+Q#
+#(+  +**+$ +o#
+############E#
+R 17702
+0 0
+1 Demo 1
+2 .............rrrr..rttl.tlbll.rrll.....b
+2 rrllllbrrrrlllltllbrrt.tbbrrrrllltllbrrr
+2 rrrlllllll.tt.bbl.rrrrrrr.rrbbb....bbbbb
+2 blllrrrttttttttll..lll..bbb...l..rttrtrr
+2 bl..lrbblll......lbbbbbrlttttttt...lbblt
+2 rtttll..bl.r....bbblltt.bbrrttl.tltttbrr
+2 .lbbbbb..lbbbbbbbtttttrrrbbbbbLttttttrrr
+2 rrrttrrbbbbbbbbb.....
+R 30937
+0 8
+1 Demo 2
+2 ......rrrr......r.t..tl........rbb..bb..
+2 .tttt..llll.rr..b.llllbrrrr.......rrbbbb
+2 .......tttt..t.llllllllbrrrrrr...tt...ll
+2 lllbb...rrrrr......lllllll..t..lb....rrr
+2 rrrrr.......rrrbbbbbbbb.lll..rrr..tttttt
+2 tt.llllll..r...bbb..L...t........rrr..l.
+2 ..b...ll......lll..tr..tttt.L.....b..bbb
+2 brbbbbbr..ltttttlll....lltt...brrr....ll
+2 ttttrrbbbbbbbbbbl..rtttttlllbbbbb.tttttr
+2 rrrrrrrrtttrrbbbbbbbbbb........
+
+uuid 4e3c25d0a9e8335a4a5b01615297f266
+
+leaderboard steps time

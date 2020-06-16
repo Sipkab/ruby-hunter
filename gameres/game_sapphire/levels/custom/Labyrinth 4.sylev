@@ -1,0 +1,64 @@
+n Labyrinth IV
+D 7
+C 2
+e 143
+s 0
+p 0
+d 100
+Y
+M 0 Penny Lane
+i Fourth labyrinth-like level...
+a Shark
+m 33 27
+################  ###############
+#.iQQQ.#000000G G #  0      ++Ql#
+#.i#Q..#*$****#0 ## #0#     Q####
+#..#.1.###0000#QGb# QQQ     +777#
+#..#$..#Q#QQQQ#$  # #0#  r  &++7#
+#.Q###&#.g|...#B### Q$Q     #+77#
+#.Q..$7*.#  0 # #*# s#s  !  #7++#
+#.%..|a|.# 000#G0.#         #777#
+#.Q ... .#0000# G #         #++7#
+#!&##########0## ##sSS   ######7#
+# 0  d***Q***Q# G G ..*QQQQ77777#
+#### **Q***Q**#* #####[+####+####
+############################ ####
+# + B*0# BQ*!0#QQQ#*Q***Q R R#.*#
+#0 # *B B B* B+QEQ#*Q*Q*Q*#R R R#
+#|$#  *#* B***#QQQ#***Q***# R R #
+##B#c|####E#####+##+#############
+#! + +#       #Q+ #R#0+Q+.!#    #
+!  +++# +   + #Q0 B #0+Q+.#+ ## #
+##Q#### 7   7 #+++#R#Q+Q+.# #%# #
+#+>+          #   # #0#Q+.# ! % #
+#+++    +   + #Q$$#R#0#Q+.#6! #Q#
+#+7+    7   7 #0$$#  .+Q+.# "+Q##
+#0+0$         #0$##+sQ#Q+.+#  & #
+#$$$$$  +   + #Q$#.Q 00Q+.##+ 7 #
+#$$$$$$ 7   7 #$$B $Q0!Q+...#**$#
+#################################
+y %%%%$%%%%
+R 38863
+0 0
+1 Demo 1
+2 bLrtlTrtt.......lllllbbbbbbbBr.ltutrTtTl
+2 .r...bbbbbBttrrtRbbrrrrtttRbllllbbl...l.
+2 ...bbrrbrrtrrbrrtrrbRtl.lb....rl.ltrrrrt
+2 tttlllbtbrtTr.tL.....bbllt.......b......
+2 .trrrTlbBl....rrbBttttttllllLtrrrrrrtlbb
+2 rTllbbrtt.blbbltrrrrrttrrrttttlltutll..r
+2 ...l...bbbblrrlllttttrlbbbbrrttrrrbrrr.R
+2 llllbbbbbblBrrrrrrbbbrtrblltlbbl.lttRllb
+2 bl.lttR...bbbbbbrRl.....rrbbrB.ltl.t.rrr
+2 rrtttttrmbbbbbbbbrr.....................
+2 ....ll.........ttt..b........rrrrrbbRltt
+2 llllltlllllttltcr..........l......lbbbbl
+2 TbbbLrtrb.llttttttttttltllTlTblLt...rrrb
+2 Rtllllltlsb.....t...lllbbbLmbl.......rrt
+2 rrR.R..RlttttrrrbbRttlllbbbbbml.........
+2 rrbbbbbbblT.rrrTLrTRtttttrbbbbbl....rr.r
+2 rrtltttrrtttl.lt..rt.....
+
+uuid b9ad4e252bd71981c44a005622dfb7c3
+
+leaderboard steps time

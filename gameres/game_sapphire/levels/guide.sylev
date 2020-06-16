@@ -1,0 +1,47 @@
+n The Guide
+ldeutsch n Der Guide
+D 4
+C 4
+T 1000
+s 0
+i May I invite the
+i gentlemen to a nice
+i little sight-seeing
+i tour?
+ldeutsch i Darf ich die ziellos
+ldeutsch i umherirrenden Herrschaften
+ldeutsch i zu einer netten kleinen
+ldeutsch i Besichtigungstour einladen?
+a Juergen
+m 17 13
+#################
+#7             7#
+#               #
+#  _    _    _  #
+#    %    %     #
+#   %E%  %$%    #
+#    %% 1 %%    #
+#    %(%  %*%   #
+#     %    %    #
+#  _    _    _  #
+#               #
+#5             5#
+#################
+R 37312
+0 9
+1 Detour
+ldeutsch 1 Umleitung
+2 ...bb..................r...l..b...l.br..
+2 rrt.r.lbrrr.t...rr.t..r....bbbrrbll.t..l
+2 ...bbt.lllll.......................rr...
+2 .......................rrbb.trrblllll..t
+2 tllltllb..b.............................
+2 .............lbrrr.lttllt.tttr.ttltr.r..
+2 r.brrrrrrbblt.t.rtllllll.rrrr.bb.rrbbrtt
+2 .rtllll..blllllllttrrrr.bbbbbrbbbbllbllt
+2 tt.rrrrtt...............................
+2 ttrrBlllllb.......
+
+uuid 1898a16023cda2d26f0ac4fc6e13f566
+
+leaderboard steps time

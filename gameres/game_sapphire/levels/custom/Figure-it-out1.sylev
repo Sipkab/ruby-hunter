@@ -1,0 +1,53 @@
+n Figure-it-out
+D 5
+C 5
+p 1
+M 0 Perplexities
+i 1. No pushing
+i 2. All sapphires must be collected
+i 3. There's bags in the bottom
+a Nic01
+f Nic01
+m 5 30
+1..00
+...$$
+...$$
+.##((
+...$$
+...$$
+#.#((
+...$$
+...$$
+.##((
+...$$
+...$$
+#.#((
+...$$
+...$$
+...$$
+Q.#((
+...$$
+...$$
+...$$
+..#((
+...$$
+...$$
+Q..$$
+...$$
+..#((
+...$$
+...$$
+..#((
+E..@@
+R 96737
+0 8
+1 Demo 1
+2 ..bbrrrtrBllllbbbbrrrtrB...TblllbbbrrtrB
+2 .T.bllllbbrrrBR....Tr...BlllbbbbrrBR.R..
+2 .Tr.B..blllbbbrrBR.R...Tr...blllbbbrrBR.
+2 R.........Tbbr..Tll.r.l.lbbrrBR.........
+2 r...bbltllbbrrRllll......
+
+uuid f98a24eaba33f7011ff16d84963d7026
+
+leaderboard steps time

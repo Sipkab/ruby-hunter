@@ -1,0 +1,90 @@
+n Management
+a Emerald Mine
+D 5
+e 80
+s 0
+i The order of explosions is crucial.
+m 64 32
+################################################################
+#..............................................................#
+#..............................................................#
+#.................................0..................0.........#
+#.....0...0..........0.........................................#
+#........................................0.....0...............#
+#.....................^......0........^................^.......#
+#..............0...................0...................0.......#
+#.........^.................................^...........0......#
+#..............................................................#
+#...0.............^..............................0.............#
+#.........................^.....^..............................#
+#............0.........................0..^....0...............#
+#..^...................E.......................................#
+#...........................0.....0....1 ..........^......0....#
+#......0...........0...........................................#
+#.............^.........^...................0.........0........#
+#................................0.........................0...#
+#..0...........................^.......^.......................#
+#..........0.......^.............................0.............#
+#.........................0.......0....................^.......#
+#....^.......0...................0..............E.^............#
+#.....................0..................0..................0..#
+#........^.........0......^.................................0..#
+#...........0........................^........^................#
+#.................^............^........0.............0........#
+#........0.....................................................#
+#....0....................0.....................0...........^..#
+#....................0.........0.....0....^.........^...0......#
+#..........^.....0.....^.......................................#
+#..............................................................#
+################################################################
+y 000000000
+y 000...ccc
+y 000....c.
+y ccc...ccc
+R 67202
+0 8
+1 Demo 1
+2 ....lllltttt.rrrrrrrt..lt.r.ttttllb....t
+2 r.llb..ttlllltllbrrrrr.b..R..b.....RLll.
+2 ....llbbbb.rrbbbbb.rrrrtl.bbrrb.ll.b..Ll
+2 ..r.RLll......b...bbrrrrr..tt.......llll
+2 l...rrtttttttttt....bbbbbbll...bbbb.....
+2 .......bbb...b.......llll.rrrrr.........
+2 ...............bbbb...ttt...ttrrb.tllbr.
+2 b..RLll.......r...b.bbbbrtrrtllbbbrrt.bb
+2 lllttttttrrrr...lll.tlllbrr.r..r.....ttt
+2 lll......bblbbbbb.brrrrbtllbltttttttt..r
+2 ....r...t.r..rllll.........rr..ltttrrtrt
+2 ttttrttttlttllbrrrtttrrrrrblllllllbllbrr
+2 rrrrrrrbbbbbbbbb..rrbblllllllbbbbbllbbbb
+2 bb..rrrr.llbl.rtrrb.tttllltttrrttttlttrr
+2 rtttttttttrttt....llllllbbbbbbblbrrrrrrb
+2 bllbbbb..bbbbrrtttttttttttttttttttt..bbb
+2 bbbbbbbbb.lllllllll....rrrrrrrrrrrrr.ltt
+2 ttttttttt..bbbbbbbbbbbbrrrrrrrrrrrbb.tll
+2 b.rrrrrtrrrbb.l.LRr..t..l.l.tltttttttll.
+2 ..rbtllbrrrbbbbbbb...trrrrbbblllrr..rrbl
+2 lbllll..rrrrtttt..lltttrrrtrrbllll.rrrrr
+2 rrtrrbllllllllllllllllllllllb.trrrrrrbtl
+2 lllllbrrrrrrrrrrr.bbrrrr.r.r.bbbbllll.rr
+2 rrttttlllttttttttttttttlt.llbrrrrt.rttrr
+2 b.lrrrtrrbllllllllbbbbbbb.t.t...b.rrrrrr
+2 rr.lllllllllllll.bbbbbbbbb.....lbrr...rr
+2 rbbbblllrr.llrrr.........bbbllllllllllll
+2 llttttrrtt.bbllllllllllltlllll......br..
+2 Rll.r..brrrrbbllllttttrrtttttttrrtrrblll
+2 .rtttt..tttttrrbll.ttllllllltllbrrrrrr..
+2 .br.......r.l.b.lbbbbbbbrr....blll.rr.tr
+2 rrrbl.ll.lbbbbb....bllbbbbb.rrrr.llll.rr
+2 r..llllt..rtt..t.....r.rtttttt.bbbbbblll
+2 llllllb.b.rtrrblll..tllbr..b.RLl....trtt
+2 .bblbbrrrrrrrrtttll.tlb.lbt.rrbll..bllll
+2 ...lllbbbbrrrrr.llbllttlttttrttttttttr.t
+2 rrblll.ltttllltllbrrrrr..rbbbbbbbbb..lbb
+2 bbbbbrrllttttttrttttttttttllttttl.bbbb.r
+2 rr.rbbbbbbbbbbblbbbbr.lrb.lttttttrrrrrtt
+2 tttttttrrr.......
+
+uuid 53aa0d902516cc8e31abcb0f76624cc7
+
+leaderboard steps time gems

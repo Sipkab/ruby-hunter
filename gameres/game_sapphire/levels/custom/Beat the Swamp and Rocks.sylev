@@ -1,0 +1,104 @@
+n Beat the Swamp and Rocks
+D 2
+e 0
+s 1
+p 1
+d 1
+M 0 Race
+i Just go as soon as you
+i can and you'll make it.
+a Alexander Hill
+m 20 60
+%d1#              #%
++++#              #.
+~?                # 
+~#                #.
+~#                # 
+.#                #.
+~#                # 
+~#                #.
+~#                  
+~#                  
+~#                  
+~#              ____
+~#                  
+.#                  
+~#            _     
+~#            _     
+~#            _     
+~#            _     
+~#            _     
+~#            _     
+~#            _____ 
+.#                  
+~#                  
+~#                  
+~#                  
+~#                  
+~#              ____
+~#                  
+~#            _     
+.#            _     
+~#            _     
+~#            _     
+~#            _     
+~#            _     
+~#            _____ 
+~#                  
+~#                  
+.#                  
+~#                  
+~#                  
+~#                  
+~#                  
+~#                  
+~#                  
+~#                  
+.#                  
+~#                  
+~#                  
+~#                  
+~#                  
+~#                  
+~#                  
+~#                  
+.#                  
+~#                  
+~#                  
+~#                  
+.#                  
+~################## 
+Q(                 E
+R 18888
+0 8
+1 The Chase Down
+2 ..........bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2 bbbbbbbbbbbbbbbbbbbbbbbbbbbrrrrrrrrrrrrr
+2 rrrrbbb
+R 17704
+0 8
+1 Demo 1
+2 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2 bbbbbbbbbbbbbbbbbbbbbbbbbbbrrrrrrrrrrrrr
+2 rrrrbbb
+R 78617
+0 8
+1 Demo 2
+2 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2 bbbbbbbbbbbbbbbbbbbbbbbbbbbrrrrrrrrrrrrr
+2 rrrrbbb
+R 78984
+0 8
+1 Rocks
+2 .bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2 bbbbbbbbbbbbbbbbbbbbbbbbbbbrrrrrrrrrrrrr
+2 rrrrbbb
+R 9474
+0 8
+1 SightSeeing
+2 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2 bbbbbbbbbbbbbbbbbbbbbbbbbbbrrrrrrrrrrrrr
+2 rrrrb.....t.b......................b
+uuid 10cc393c87813334758ca4518b81180f
+
+leaderboard 

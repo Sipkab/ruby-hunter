@@ -1,0 +1,101 @@
+n Sex with aliens
+a Emerald Mine
+D 5
+s 0
+i This is a really nice level.
+i The difficulties start right at the beginning.
+i
+i Originally this is a two player level.
+i I made a little change so that it can be
+i also played by one player.
+m 64 32
+################################################################
+#E                  E #    Y        !#   #  #       #          #
+# S     00 s0ssss     #    #         #   ## #o ##      $#   o ##
+#   ss   s  Ss  s  SS #    ##  $$$  ##   #   ####    ## ###   ##
+#  SsS s S s  s  Sss  #     ##$$$$$##    # # #   # ##  ## #   ##
+#sss SsssSS ss sSS ss #      #######     #  #    #$#  ##   # # #
+#   sSs ssss0ssssss   #o      #   #      #  # ### #     #      #
+#S  Ss0ssSS ss sSs   S#       #   #      R    # #     #  ####  #
+#rsS   SssSsSssrSsss  #       #   #      #          ##   #   # #
+#   S SSss Ss S   0   #       R   R      ### #   #  ###   ## # #
+# SsssSsss SssS ssssss#      #######     ##    ##  # ## ###    #
+#  SS s s s     S0S S #     ##     ##    #   #  ### #     #  # #
+#S sS SsS 0Ss0 Ss    S#    ##      $##   #  ## # #    $   #    #
+#   SSss SS S  Ss SsS #    #      $$$#  o#  #    #   # #       #
+#SS  0sSSs  Ss  sSs00 #    #     $$$$#   #     ##  #  #   #  # #
+#S  SsSs00 sss  s  Ss #    #    $$$$$##B##   #  ##   ## #    ###
+# S SsSSss    S sss   #    #   $$$$$##   ##  #   o##     ###   #
+# S   ss   ssS    0s  #    G  $$$$$##     ##$# #  #   #  #  # $#
+#Ss S 0 Sss  S00  S SS##############       ######  ###     # ###
+#s 0s 0 S0 S 0ss 0ss S#.#$.0..#..0$#       #0..$### ##   #     #
+#0 s 0s 0s S  0  s 0 S#.#0....#...0#       #....# #   #   # o# #
+# 0   s    s  ss s    R #..6. R .0.##  $  ##..0.# # # ##  #  # #
+# s                   #.#6...0#.....##$!$##6..0.# # #  #  ##   #
+#                     #.#..  0#..0...#####...0.6#  #     #  ## #
+#                     #.###R###....6.......0....#  #  # #      #
+#                     #.... .$#.6.............6.#  #    # ++b++#
+#                     #0.0....#...0... .........#    #  # +++++#
+#                     #....0..########R##########      ## ++y++#
+#     1               #..0....#$0.0.00 ....0.$..###   ##  +++++#
+#                     #....6..#..........0..... R #### #  ++g++#
+#    $$$              #.......#..6..6.......6...#         +++++#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 50280
+0 8
+1 Demo 1
+2 ..bblrrrrrtttr...rr..ttr...trrrrrrrtttrr
+2 rrrlllbbllttttttltttltttrttttbbblbbbrbbb
+2 rbbbbbrrrrrtrbbbb.rrrrrr......lltr.t.bl.
+2 .....Tb.......................tttt...rr.
+2 .......bb...llll...rrbbb.lll..........lt
+2 tttll.......rr..bbbb..rrrr........ttllt.
+2 .t..rtt.l...rrbbbbl.ttrrrrr.........b.tt
+2 rltrrrlllbbbb.R..b....Rtt.........bbr...
+2 r....R.ttll...rrrbbbbrbrrrrrrrrt.llll.bl
+2 b...............ttlllltttt........llll..
+2 ..rrrrrbrbrrbrrrrrrr...........r........
+2 .....R...b..R..l..rt.r..tttttrr.l..l.bbb
+2 bblllllllbbbb.......L.....b.L..t.l....LR
+2 rr..llll..L.R.b....Lr.ttlll...rr.b......
+2 .l....Lrrr..bll.tllllt.rr.rrrrrrbbrrr.l.
+2 ....r..t..R..b........Rtt.rrrrrbr......b
+2 rrrrrrrrrttttttrrrbtrrttlltttlltlllttttr
+2 ttllbtrttttttlllbblllblllllllttttt......
+2 ..........bbbbllllllbllbl..lltttt.......
+2 .....rrbbbrrrrbbbbbrbblllbbbbb...rrrbllt
+2 tttttrttttttttttttlttt...............rrb
+2 bbbbbrrrrbrrrrrrtrrtrrbbbbbrrbbrrrbbbrrb
+2 lttltt.bllltllbbbbrrrbrbbrbbrbbrbbllb.ur
+2 rr......lllbbb...tttrrtttttlllltlllttttr
+2 tttlttttttt.........bbb.ttt......bbbbbb.
+2 ......ll.....l....rrrrrbb.llbblllttttrrr
+2 ttttttllllbblllllllttlttltt.............
+2 bbbbllllllbbllttttll........bbbllllttttt
+2 tttrrrbbrrrrbllllltttrrrrrrlllllllllllbb
+2 llbbbbbbrrrrrrrrtttrr....bbbrrrrrrttrrtt
+2 .bbrrbrrrrrr......ttrrrr.llllbb.lllbbllb
+2 b...bbbllbbbbb.tttrrtttttrrtrrrrlrrttrrr
+2 rbbbbbbrbblbbbbrrrbrrbbbrrbbllbbbb..utt.
+2 ......bbbbbtttttrrttlltttlltllltttt.....
+2 rrtttlltttttllllbbllllllltttltttlttt....
+2 bbbbllllllbblltttll....bb.ttt....bbbllll
+2 bbbbbbbbrrrrrrrr....lllll.rrrrrr...llll.
+2 rrrr..ll....rr.ll.rrtrtr.llllllllbb....l
+2 lllttttttttttrrrrrrbbrrttttr..........bb
+2 brrrrrtttttrr....tt.....bbbbbrrrbrrrrrrr
+2 trrtrrbbbbbrrbbrrrrrtttttttlltttttlllllb
+2 btllllbblbbttrrtrrrtrrrrrbbbbbrrbbbbbbbl
+2 lllllblbbbbbbrbb.ttttrrbrrrrbbbbblllllbb
+2 bbbblllllllltl..t.lllll...llllttllllttll
+2 ttl.llbbblbbb.rrbb......tttllllllttttlll
+2 lblltttttltttltttrttrrrrrtttrtttttll....
+2 ...
+
+uuid 1be2bca576662e5c9b256663082722a3
+
+leaderboard steps time

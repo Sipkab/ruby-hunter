@@ -1,0 +1,39 @@
+n Easy Maze
+ldeutsch n Einfaches Labyrinth
+D 3
+C 5
+e 12
+p 1
+M 0 Just do it
+i Look at the whole level first.
+i 
+i Hint: No pushing!
+ldeutsch i Schau dir zuerst den
+ldeutsch i ganzen Level an.
+ldeutsch i 
+ldeutsch i Tip: Schieben geht nicht.
+a Alexander
+m 12 12
+############
+#b 1       #
+#000000000B#
+#........! #
+# #ccccccc #
+# #        #
+# #####  ###
+# # R  Y! g#
+#+#Y#### #Y#
+# #  yr# + #
+# G (  # +E#
+############
+R 75001
+0 8
+1 Doors
+2 ..llrrrrrrrrrbbbllbbrrllttrrttllllllll.r
+2 .tl.srrrrllll...lllbbbbb.utt........bbbb
+2 bbrrrrtlllttrrrttrllllllrrrrrbbbbbtttrrb
+2 bb
+
+uuid 6c1bd327d57dca9eebdeac766a785eaf
+
+leaderboard steps time

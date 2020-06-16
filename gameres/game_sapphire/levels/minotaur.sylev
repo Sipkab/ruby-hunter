@@ -1,0 +1,50 @@
+n Minotaurs
+ldeutsch n Minotauri
+D 5
+C 3
+i You seem to be 2 timebombs
+i short if you want to get
+i all emeralds.
+i But maybe the two other
+i inhabitants of the labyrinth
+i will help you...
+ldeutsch i Dir scheinen zwei Zeitbomben
+ldeutsch i zu fehlen, wenn du alle
+ldeutsch i Edelsteine freisprengen
+ldeutsch i willst.
+ldeutsch i Aber vielleicht helfen dir ja
+ldeutsch i die beiden anderen Bewohner
+ldeutsch i des Labyrinthes...
+a Reinhard
+m 15 15
+###############
+#1..........."#
+#.++..+&+..++.#
+#.+....+....+.#
+#...&+...+&...#
+#...+.....+...#
+#.+....&....+.#
+#.&+..&E&..+&.#
+#.+....&....+.#
+#...+.....+...#
+#...&+...+&...#
+#.+....+....+.#
+#.++..+&+..++.#
+#5...........8#
+###############
+R 89088
+0 8
+1 Demo 1
+2 ..rrrrrrrrrrrr.llllbblbbbrrrttrr.bbbbbbb
+2 ........Btttttttllbbmlll......t...tlltll
+2 lbbllbbbbbb....Bttttttrrttrrrcrr........
+2 ....llllrrrb..ml..........brrrrb....srr.
+2 ..l......bbb...sr...........blllll..srr.
+2 ........llllbtlll..sr...........llbttllt
+2 rt..sr...........lllbbtttrrr...ml.......
+2 ....rrrb..bbrrttb.l..sr.........bbb..llt
+2 tttt.......
+
+uuid 05be9210c1a4db100b14a734d5197713
+
+leaderboard steps time

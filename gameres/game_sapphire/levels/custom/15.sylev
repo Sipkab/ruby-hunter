@@ -1,0 +1,171 @@
+n Obstacle course
+D 6
+C 3
+e 2
+s 3
+d 4
+w 20
+O alt-set1
+M 0 Axel F
+i No, it's not impossible
+m 20 126
+####################
+# Y Y Y Y6Y Y Y    #
+#             #GGGG#
+#Y#############7   #
+#      # Y    #   G#
+#YYYYYY# #YYYY#  G #
+#    >># #>   # G  #
+#YYYYYY# #YYYY#  G #
+#    Y^# #8   # G  #
+# >  Y Y #YYYY#G   #
+##########    #   5#
+#>       Y    #GGGG#
+#YYYYYYYYYYYYY#    #
+#>     Y>     #BBBB#
+#YYYYYYYYYYYYY#    #
+## # # ########   B#
+#  #####      #  B8#
+#      <      #6B  #
+#############Y#B   #
+#d# % d%d % # #    #
+# #         #Y#BBBB#
+# Y         # #    #
+# Y         #Y#RRRR#
+# Y         # #   <#
+# Y         #Y#   R#
+# Y         # #  R #
+# Y         #Y# R  #
+# #         # #R   #
+~ #           #>   #
+~a#aaaaaaaaa###RRRR#
+~             #    #
+#YYYYYYYYYYYYY#GGGG#
+#           77#   7#
+#YYYYYYYYYYYYY#G##G#
+#55           #o  o#
+#YYYYYYYYYYYYY##GG##
+#            5#w  w#
+#######Y########GG##
+#             #    #
+#RRRRRRRRRRRRR#>  >#
+#>           >##GG##
+#BBBBBBBBBBBBB#    #
+#>     >     >#GGGG#
+#GGGGGGGGGGGGG#    #
+#>   >   >   >#6   #
+#YYYYYYYYYYYYY#    #
+#>>>>         #6   #
+#RBGYRBGYRBGYR#GGGG#
+#             #    #
+#RRRRRRRRRRRRR#G####
+#            8#  ###
+# RRRRRRRRRR 8#G ###
+#           R #  ###
+#   RRRRRR  R8#G ###
+# 6R      R R #  ###
+#  R  RR  R R8#G6###
+# 6R R  R  R  #  ###
+#   R   R    8#G####
+#             #    #
+#RRRRRRRRRRRRR#BBBB#
+#             #    #
+#BBBBBBBBBBBBB#   8#
+#             #B  B#
+# #6#6#6#6#6#6#6   #
+#             #B  B#
+# #6#6#6#6#6#6#    #
+#             #B  B#
+#BBBBBBBBBBBBB#   8#
+#             #    #
+#############G#BBBB#
+#>     G>     #>   #
+#GGGGGGGGGGGGG#.##.#
+#>     G>     #    #
+#GGGGGGGGGGGGG#BBBB#
+~>     G>     #   <#
+G##############BBBB#
+~       5     #   <#
+~# #  ####  #6#BBBB#
+u####   8## # #7   #
+~# ##j   ####6#BBBB#
+u#  ####  # # #   7#
+~    h        #BBBB#
+#############E#    #
+###############BBBB#
+# #    B    B BV   #
+# # ## B ##V# B #  #
+# #^## B ## # B  # #
+# B    B    # B   ^#
+#B##################
+#     B B     #     
+#  B     B  B # %%  
+#    B  B    B#     
+# B B^^^^ B B # %%%#
+#############B#   %#
+# R>>       R ## %% 
+# RRRRRRRRRRR #% #% 
+# R       <<R # %  #
+# RRRRRRRRRRR # ##%%
+# R>>       R # %% #
+# ############# %# %
+# R    >>   R # %  #
+# RRRRRRRRRRR ##%  %
+# R     >   R # % ##
+############# ##%%#%
+# R>        R ###   
+# RRRRRRRRRRR ##  %%
+# R>        R #%% % 
+# #############%%%%#
+# RV      R   #%%%%%
+# R CLLLC R   #%%%%%
+# R       R>  #%%%%%
+###########RRR#%%%%%
+#         #   #%%%%%
+#RRRRR#RRR#RRR#%%%%%
+#>    # > # > #%%%%%
+#RRRRR#RRR#RRR#%%%%%
+#>    #<     <#%%%%%
+#RRRRR#RRRRRRR#%%%%%
+#>    #       #%%%%%
+#RRRRR#########%%%%%
+#             ##%%%%
+####R###########%%%%
+#^*         *<##%%%%
+##########R#####^^^^
+#1rbgy        ##^^^^
+################    
+y ^^^%V%QQQ
+R 32186
+0 0
+1 THE possibility
+2 ...rrrrrrrrrtrRllllllllLrt.r..lllll.t..t
+2 ..bbr.rr.tltlttrrrrr.........b.t......bb
+2 brrrrrrt...b.......ttt.t..lt...........l
+2 lt..bblrtt.bblllllllttttttrrrbrrrrrrrttt
+2 tllltllbllllltttt...rrrrrtrrrrrtttl.l.t.
+2 ..l..lbll.t.l....ltttrrt.ltttrrrb.r...tr
+2 lbb...b.r..l.t..br.rrtttr............rt.
+2 ...........tb...........................
+2 .ttt..rtt...rr.Tlll..r.l..Tr..lttr....lt
+2 ....t......t........t...ttt..........t..
+2 ....t.......t.......tt..r...........lt.t
+2 tttrr.....ttt..r...l...tl....tt....r.t.t
+2 .t...t.r....tt.l.....l...t...t..tttt....
+2 ...t..r.....t...tttttl........l.l.l.l.l.
+2 l......l.bb.r.rrr.lllll...............b.
+2 ..b.brrr..rr.tttttr.............bbb..b..
+2 .l.........blb.tllb.....tllbb....b..rrrr
+2 rr..t..b...........trrrrrbbbbbb.tt.bbbll
+2 ll....ll..lllltrtl..lbblbbrr.......lbb.r
+2 .rrrrrbb...ll...llllbrrrrbtrrrrb.b.rbb.l
+2 l......rrr.bllllllllll.bbr.lt.tt...rrrrr
+2 r................lbbbbbbb..lllll.bbbbbbr
+2 rrrrrrrrrrr..............b.....t......bb
+2 ..b.ll..rrt.blltlllb.....llll.rr....t.ll
+2 blll....rrtrrrb.lltll....r.l.tb.blbb.rtr
+2 rrrrrrrrrrrrbbbbbbb......
+
+uuid 6b594c32a8799978f37f5e683a229dca
+
+leaderboard steps time

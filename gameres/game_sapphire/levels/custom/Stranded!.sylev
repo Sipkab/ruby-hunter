@@ -1,0 +1,37 @@
+n Stranded!
+D 4
+e 0
+s 0
+p 0
+M 0 Calm
+i Who put the "lure" in
+i lorries?
+a Alexander
+m 10 10
+1     %%%%
+~      %%%
+~       %%
+~5  [    %
+#         
+E 5    5  
+#    #++# 
+#  # #$(# 
+#### #### 
+%%%       
+R 93908
+0 8
+1 Help Him
+2 ..rrrr.bb.......lbrtr.....lbrtrbbrbllttt
+2 ...r................................r.br
+2 .b......ll.lllllbl.....
+R 12791
+0 8
+1 Run For It
+2 ..rrrrbbbbrrrtt....................bb.b.
+2 lllrrrr..rbbbbl..ll..rrrtttttlbl.l......
+2 .........lllrrrrr..ttltlttlllll....b...b
+2 ..............bbbl....
+
+uuid 2c1a17b67858fa00456dc5baa7722ac9
+
+leaderboard steps time

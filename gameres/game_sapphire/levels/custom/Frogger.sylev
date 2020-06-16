@@ -1,0 +1,92 @@
+n Frogger
+D 8
+e 4
+s 5
+p 0
+d 3
+w 1
+M 0 Staying Alive
+i Map:
+i (START) Key room 1
+i Dispenser room 1
+i Great Dropping room
+i Yam-Yams in Your Way room
+i Dispenser room 2
+i Lorry Room
+i Yam-Yam Room
+i Key room 2
+a Alexander
+f Alexander
+m 126 15
+1. d d d  d d d d d# %  %  %  %  %  %  % #        #+%+#+%+#+%+#+%+#+%+#       5    #########S########   ##    #   ^  #   #  .r
+R#  # # ## # # # # #                     ###      # ^ # ^ # ^ # ^ # ^ # #  #6 # 8# ........*S.....  # ^    #    # ##  ####  # 
+~#                 #                       ###.## #   #   #   #   #   # 7          #########S########  # ^  #       ^ ##^## #Y
+y#                 #                    a# ##>  # ##c#d#c#d#c#d#c#d#c##    5       #   #    S  #             # ^ ##  #      # 
+G#                 #                    ##.###.## ## # # # # # # # # ## #6 # 8#  # #* ^   # S ^  ^  #  #  #            ^ # ^#g
+~#                 #                    #  <#>  # .              *    .          7 #########S########      ^  #   #  #      #B
+b#        w        #                    ##.###.####                   # 5          .................. #  ^   #  #   ^    ^  # 
+~#                 #                    #  >#>  #                     # # 8#  #  #6########a#a#######   # # ##   #  ####  # #!
++#                 .                    ##.###.##                     #       7    #     #   > #        #      ^       #  # ##
+~#                 #                    #<  #>  #                     #          5 #   #>        #        #  #  # ##     ^   #
+E#                 #                    ##.###.##                     #8#  #  #6 # #       #> # #  ##^ # ^    #      ^#  #   #
+##                 #                     #     #                      #    7       ##################    #  ^ # #  ## #  #  # 
+~                  #                     #     #                      #            ................$# ## ^  # ^   #     #  ^  
+aaaaaaaaaaaaaaaaaaa#aaaaaaaaaaaaaaaaaaaaa#aaaaa#aaaaaaaaaaaaaaaaaaaaaa###############################      #      ^    ^   # #
+aaaaaaaaaaaaaaaaaaa#aaaaaaaaaaaaaaaaaaaaa#aaaaa#aaaaaaaaaaaaaaaaaaaaaa#000+Q|+QQ+00#             ^     ^ #     #  # ###  #    
+y +%+ ^  ( 
+R 47902
+0 0
+1 DEmo 1
+2 rrbbbb..rr.rr.rrrrr.rr.rr.rr.bbbbrrrrrrr
+2 rtttrtt.trrrrbrrrrrrrrrtrrrbb.bb..bb....
+2 ..bbbrrrrt........tt..tt.....tttttrrrbbb
+2 brrbbbbrr.rrrr..rrrr..rrrr..rr.ttttrr..r
+2 rbb.....bb.bbbrrrrrrrrrrrrrrrrrrrrrrrrrr
+2 rRlllllllllllllllltttttttttttrrrrrrrrr.l
+2 lll.....llllltlllllllllllb....bb.b.....b
+2 b.b.....bb.bbbrrrrrrrrrrrrr...llttttttrr
+2 rrrrrrrrrrrrrrr.rrbbrrblbblrr..........r
+2 brrttrttrrllttlllltlttrrrrrrlbbrrtrrrrrr
+2 rrrrrtrr......................rtttrR.lbb
+2 blllblllllllllllllbbllllblltllllllllllll
+2 llllllllttttttlllllllllllb....bb.bbllbbb
+2 .ll..llll..llll..ll..llll.lltttllttttlll
+2 b....bb...bb......b....b....bbbllllt....
+2 ......tttt.ttttlllbbbbllllllllllllllbbll
+2 lllllll.ll.ll.lll.lll..ll.ll.llttttttttl
+2 lbbttrrbbbbbbb.rr.rr.rrrrr.rr.rrb.rr.rrr
+2 rrrrrrrrrrrrtttttrrrrrrrtrrrbb.bb..bb..b
+2 bbrrrrttt....tt................tt.tttrrr
+2 bbbbrrbbbb..rrrr.rr.rrrr..rrrr..rrrrtttt
+2 r..rb.bbt...bb.bbbrrrrrrrrrrrrr.llt..ttt
+2 ttrrrrrrrr....rrrrrrrrrrrrtrrrrttttrtrrb
+2 rrrtrrbblbbrrrrrrrbrrrttrtttrrbbBttllbbb
+2 lllbblltll..ttlll...rrbbttllllllrtlrbrlt
+2 b.trtrrrrrbbblbllllllllbllllllblllllllll
+2 llllll.lllllttttttlllllllllllb....bb.bbl
+2 lbbb..lllllll..llll..llll..ll..lltttlltt
+2 ttlllb.bb.bb..bb......bbbllllt...tt...tt
+2 .....ttttlllbbbbblllllllll...lllll..l.lb
+2 llll..ll.ll.ll.lllt......ll..ll.ll.llttt
+2 ttttllbbbbb.......tttttrrbbbbbbb..rr.rr.
+2 rrrrr.rr.rr.rr.bbt.rrrrrrtttrttrrrrrrrrr
+2 rrr.trrrrrrbb.bbbb....bbbrrrrttt.tt.....
+2 .........tt.tttrrrbbbbrrbbbbbrrrrrr..rrr
+2 r..rrrr..rr..rrtttttr.l..rrt...bb.b.....
+2 bb.bbbrrrrrrrrrrrr...lt.tttttrrrrrrrrr..
+2 ........................................
+2 ........................................
+2 .....bbbbbbbbbbtttrrrrrrrrrrrttrtrrbb..r
+2 r.rrrtrrrrrrrrrrrtrrrttrtrrbbbbBttttllbb
+2 bbbblllllllllltlltllbllllllllbllllllllll
+2 llllllllllrr....llttttttllllllllllllb...
+2 ..bb.b.....b.llbbbllllll..llll..ll..llll
+2 .lltttllttttlllb....brrb...........bb.bb
+2 .bbbllllt......tt.....tt..ttttlllbbbbbbl
+2 lllll..llllllllll..lllll..ll.ll.ll.tttt.
+2 ll.lllll.ll.llttttllbbbbbtbut.........bb
+2 bbbb...
+
+uuid c9e73384fdee48c3bee9c7f06b64ff02
+
+leaderboard steps time

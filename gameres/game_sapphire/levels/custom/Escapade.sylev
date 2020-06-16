@@ -1,0 +1,190 @@
+n Escapade
+D 3
+e 45
+s 50
+p 8
+M 0 Only Solutions
+i There are many ways
+i to solve this level.
+a Alexander
+f Bruce
+m 25 25
+#####E###################
+#8                5     #
+# +++B+++++++++++++++++ #
+# +u  +%%% "g      %%%+ #
+# +u  G               + #
+# +u  +   #####       + #
+# +u  +   # y1#    >  + #
+# +u  +   # #0#       + #
+# +u  +   #Y# rR###   + #
+# +u  +   #       #   + #
+# +ub +   #####s###   + #
+# +u  +   %%%%% %%%   + #
+# +u  +  >            + #
+# +u  +               + #
+# +u  +             > +6#
+# +u  +               + #
+# +u  +         >     + #
+# +u  +               + #
+# +u  +               + #
+# +u  +               + #
+# +u  +               + #
+# +u  +               + #
+# +++++++++++++++++++++ #
+#           5           #
+#########################
+y (((((((((
+y ~%  >    
+y ~%  >    
+y ~%  >    
+R 39310
+0 8
+1 Blast the Swamp
+2 ..llbbrrr..tbr.tttttllllb.lll.cbbbbbbbbb
+2 bbbbbrr.b.lrrlllbrrrrrrrrll..l.trrrrmlll
+2 ......ttrrrrrr.tt..l.tttttcbbbbbbbb.r.ml
+2 lllllllltttttttttttttttttt.cbbbb....tttt
+2 tttlll..ut
+R 39370
+0 8
+1 Bug Chase
+2 ...llbbrrr.t.brttttttllllrrr.b.l..ll...t
+2 l.srrb..................r..r.b........t.
+2 llll....l..l.bbbbbbbbb.rrrr.t.mlllbb....
+2 ...rr...rbbbbb..uttrrrrrrrrrb........lll
+2 l.ll..trrrbbbbb.t..uttttt.lllbb.r.b.mlll
+2 .....r.l.bbbblllll...rrrrrrtr.uttttlllll
+2 ttttttt.b...................bbrr........
+2 ..............bb.b..................llll
+2 ll.l..b.L..L...B.r.bb.....ttllllbrrrrrb.
+2 ...lll.b.rrr.llltttlll.ttttttrrrrrrrttt.
+2 ..bbbbllllllb.l.t.....tt.b..t.ttttcbbbbb
+2 ...........tt...tt...b................tt
+2 ttcbbb.................tttttcbbbbbbbbbtt
+2 t...tt...rrrr.l........ll..l.......t....
+2 .........ttttcbbb.........rr.rr.lllttttt
+2 rrrt
+R 39640
+0 8
+1 Demo 3
+2 .....llbbrrr.t.brtttttllllb.lllcbbbbbbbr
+2 rrrrsrrrsrrrbbbbb.lllllllllll....bbb....
+2 LR.B..b.rrllllrrrrrrtttrrrrr....mllll...
+2 ............trrrrrlllllbbbb.r..r.....rll
+2 .rrrll...tttlllllltttttttttttttttt..cbbb
+2 bbb.tttttttttlll...ut
+R 39902
+0 8
+1 The Millionaire
+2 .llbbrrr.tbrttttttllll.rr.lb.lt.llsrrr..
+2 ................l...l..l.......b....lllm
+2 lll..........bbbrrrr...l.....t..lllllt..
+2 ....cbblb.........ttt.rrr.....bbbb.ttllr
+2 rrrblllbbblb.r.llrrrr..b.B...B.ll..llbrr
+2 rblllbrrr...b..lll.b.r..r..R..R...r..r.R
+2 .....b..L.R.B..b.t.l.LB..l.L.B..llbbbttt
+2 tttttttttttttttttttrrrrut
+R 8692
+0 8
+1 No Bombs
+2 ...lllbbbrrr.t.b....r..........ttt..tttl
+2 .l..b..lltt.bbll.bbbbbbbbbbbbbbrbb.LR.b.
+2 l.L..r..r.R.ttttttttttllltttttr.bbb.....
+2 lll...rrrtttttrrllttttllll.t
+R 88998
+0 8
+1 2nd Million
+2 ..llbbrrrtbrtttttllllblll.cbbbbbbbrrrrrs
+2 rrrsrrbbbbllllllllll...bbbttttt.........
+2 ..tlllllllllbrrrrbllllbrrrrrrr.bbbbbrrrr
+2 tttutllltttttttttttttl.cbbb.l....tttttul
+2 lu
+R 92854
+0 8
+1 Fatal Bug Situation
+2 ..llbbrrrrt.br.....tttttlllb.tlbllll.cbb
+2 bbbbbrrrrrsrr.cbbb.....lllll........b...
+2 ......ll..rr.....l.ll.l.Brrr.bbb.Btttr..
+2 ....l..l.bbbrb..B.L.tt..bb.ttutt........
+2 ..utt........r..rrrrrlll.r.t.tbbrtt.cblt
+2 l.t..rrrrttllllttr.rbbbllttr.lbb..ttrrbb
+2 brrlrttt.rb.l......tt.ll..L.L...llllbbbb
+2 bbbbb.rrrbrrbtttttll.llrrrrrttlltttl....
+2 ..rbbbrrtrrrrb.Brrrb.tt.rllllllllbrrllll
+2 llttrrbbbrrbbbbbbb.rrrrrb.rbblllbrrrblll
+2 ll.l.L..Bttttttttttttttttllllltttlllll.u
+R 86505
+0 8
+1 Useless Millions
+2 ..llbbrrrtbrtttttlllllsrrrb....rrrbbbrrb
+2 bbbbllmlllmllbbbbbbbbLRBbLRrrlllltttrrrt
+2 ttttttl.................l..ttttttttttllm
+2 lut
+R 90094
+0 8
+1 Error
+2 ...llbbbrrrT.rtttttllllb.l.srrr........l
+2 lll..lbbbbbbl.l.b..t..t.t..t.t.cbbbb....
+2 ...bbbbbbb..srrrrr.r...ttt......rtttt...
+2 ..cbbb........tttttt..b...bl..bl.srrrrsr
+2 r......b..bb..tt......t.............t...
+2 ......lll..l....l.l.....t.t.t.tt.t......
+2 ........r......l.............l....t...l.
+2 ...l..........rrr...bbbb.tttt.cbbbbl..l.
+2 .l.ltt.trrb.b..brr.bb.b.bb.bll..l.rb.rrr
+2 r..lbllllllll.rrrrbl...l.l.L.b..r.l.l.L.
+2 b.L.R.b.L..r..t..l....cbrrrrttttttttttl.
+2 lltttt.b..l....l..L.t......ttttttmlt....
+2 ....
+R 90316
+0 0
+1 Chaotic Area
+2 bbbrbrtttttlllllbllcbbbbbbbrrrrrsrrrsrbb
+2 bbblllllllbllbbLRblLRrrRuttt...tlllltttt
+2 ttttttttrtrcb.........llttsttllmu.......
+2 ........................................
+2 ...............................
+R 32447
+0 0
+1 Demo 11
+2 llrrbbrbr..trrttttllllllblllcbbbbbbbrbrr
+2 rrtsrrrsrrbbbbllllllbbbbrmllllTrblrulBll
+2 tt.bbbrrbbrmtttl...ttt..rrtrrrbbbbbbblsr
+2 tttt......bbbbltlllbuttttl..rrrbbbbbrrll
+2 tlllbllllrrrrrRttttttttrrrrrrrbbblbbb...
+2 btttttrrrbbuttlllllllbbbbbbttttllllltttt
+2 tttttttttbbbbbbbbbbbbbbbbbrrbbrrrlllrrrr
+2 rrttttttttttttbbbbbbbbbllllllllttttttttt
+2 ttttttrrtrrrrrrrrrbrbbbtttltlllllllllllt
+2 ....bbbbbbbbbbbbbbbbbbrrrr...bb......lll
+2 lllllllttttttttttttttttttttttrrrrrrrrrrr
+2 rrrrrrrrrrrbbbbbbbbbbbbbtttttttttttttlll
+2 llllrrrrrrrbbbbbbbbbbbbbbbtttttttttttttt
+2 tlllllllll.lllllllllllllbbbbbbbbbbbbbbbb
+2 bbbbbbrr..rrrrrrrllllllllltttttttttttttt
+2 tbbbbbbbbbbbbbbbrrrrrrrr...llllllll...rr
+2 ..............rrrrrrrrrtttllbbbllrllllll
+2 llttttttttttttttttttttttrrrrrrrrrrrrrrrr
+2 llllllllllllllllbbbbbbbbbbbbbbbbbbbbbbrr
+2 rrrrrrlllllllltttttttttttttttttbbbbbbbbb
+2 bbbbbbbbbrrrrrrrlllllllttttttttttttttttt
+2 tttttrrrrrrrrrrrrrrrrrrr.lllllllllllllll
+2 llllbbbbbbbbbbbbbbbbbbbbbbrrrrrrlllllltt
+2 tttttttttttttttbbbbbbbbbbbbbbbbbrrrrrrrr
+2 rlrlrtttttlll.....rrrlllbbbrlttttttbbbbb
+2 bsrtttttt...bb..tt.....ttrbbbb....tttttt
+2 ltttttttt...............bltr............
+2 .......bbbbbbbbbbbbbbbttttbb............
+2 ..bbbllbbbbllllllttttttttttbbbbbbbbbbrrr
+2 rrr........ttrrttttttttttttttttlttr.....
+2 ...bbbbblbbbbbbbbbbbbbbrRbRl..lllLrrrttt
+2 tttt....bb.......brbbbbll..l..lllllttttt
+2 tttttttttttttttttbbbbbbbbbbbbbbbbbbbbbbr
+2 r......rrrrrrRttttttt....lbbtt...bb.....
+2 .....b..bbbRblLllllllttttttttttttttttttt
+2 tttrrrrbttttt
+
+uuid af4a08f36931c8ea96b284f2c0f635aa
+
+leaderboard steps time gems

@@ -1,0 +1,67 @@
+n Swamp-Brigde
+ldeutsch n Die K�sebr�cke
+D 7
+C 7
+E 0
+T 1500
+s 50
+M 0 Nightshift
+i You will need the stone at the
+i right for the bag at the left.
+i But how will you get it over the
+i trench?
+i Is it really true, and the
+i swamp is your friend this time?
+ldeutsch i Du brauchst den Stein rechts
+ldeutsch i f�r den Sack links. Aber wie
+ldeutsch i bringst du ihn �ber die Senke?
+ldeutsch i Stimmt es tats�chlich, und der
+ldeutsch i K�se ist dieses Mal dein Freund?
+a Ronald
+m 31 18
+###############################
+#1gE#%%%%%%%%%%%%%%%%%%# #....#
+#.###++++++++++++++++++###....#
+#.#r#                    #.0..#
+#.#y#                    #....#
+#.#+#                    #....#
+#.QQ++                    ....#
+#.Q.#                  ###....#
+#..Q####################Q#Y####
+#.Q.#!!!!!!!!!!!!!!!++QQ+Q !!!#
+#..Q#!!!!!+++++++!!!+QQ++#!!!!#
+#.Q.#$+!!++QQ++Q++!!+Q+QQ#!!!!#
+# G #Q++++Q+Q+Q+Q+!!+Q+++#!!!!#
+#0  #+QQQQQ+Q+Q+Q+!!+Q+!!#!!!!#
+#R# #+++++++Q+Q+Q++++Q+!!#!!!!#
+# #@#!!!!!!+QQ+++QQQQ++!!#!!!!#
+#!#############################
+###                            
+R 10835
+0 1
+1 Demo 1
+2 ...R.bbbbbbbbbbbrbb.ttttttttttttT.bbbbbb
+2 bbbllbBttttttttrrr.ml.......rrrrrrrrrrrr
+2 rrrrrrrrrrrrrrrttrbbllllllrrbbrrrblllbrr
+2 rblllbrrrblllbrrtt.rbBtttttlll.rrlllsr..
+2 ....llllllllllllllllllllllllllbB.t..brrr
+2 .blrrTbbbblllLrrrrrrrrrrrrbbbbtttttLrbbb
+2 rrrrbbrttttttrrtttlltttlll.ml.mll.mllmll
+2 mllmlbbtt.cbbrrrrrrrrr..rr..rrrrrt.mllll
+2 llllll..srr..r..ll..r.u.rr.......rrrrrb.
+2 mlllllll..ll..........srr.......llll....
+2 .............r.ml.......rrrrrrrr..ml....
+2 ....rrrrrrrr.mll.........llll.l.rr.mllll
+2 lll.srrrrrrrrr..mlll....mllttrrtll..srr.
+2 .srr.srbb.rb.sr..utt..ll.mlllbbb.mlllmll
+2 l....utrrrrrrrrrrrrrrrt.cbb.srrb.....lll
+2 llllllltlll.ll.rr.mllllllttt.cbbb.rrrrrr
+2 rrtrrblllllllll.tlll.srrb....lllllllllll
+2 .rr.srtr.lb.urrbrr.urrr..srsru.rrrb.sb.u
+2 tttlllbbbbsrrrt.mltlllbbll.mllmllullll.b
+2 llbbbbbbb.ullb.utrrbbbbbBtttttttmmuuuuuu
+2 sss.........
+
+uuid 0e96d05ac74817ee298906d4737bbb8a
+
+leaderboard steps time

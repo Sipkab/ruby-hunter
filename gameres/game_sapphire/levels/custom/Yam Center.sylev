@@ -1,0 +1,326 @@
+n Yam Center
+D 5
+e 91
+s 0
+p 0
+o 4
+w 56
+i You have 52 bombs. Use
+i them wisely.
+a Alexander
+f Alexander
+m 60 60
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+s      +++++                                               s
+s    +++   +                                               s
+s    + 1%< +                                               s
+s    +++   +          >>>>>>                               s
+s      +++++          >++++>                               s
+s                     >++++>                               s
+s                     >++++>                               s
+s                     >++++>                               s
+s                     >>>>>>                               s
+s                                                          s
+s                                                          s
+s                                                          s
+s                                                          s
+s                                                          s
+s                                                          s
+s                                                          s
+s                                                          s
+s                                                          s
+s                                                          s
+s                                                          s
+s                                                          s
+s                                                          s
+s                                                          s
+s                                                          s
+s                                                          s
+s                                                          s
+s                                                          s
+s             <<<<<<<<<<                                   s
+s             <++++++++<                                   s
+s             <++++++++<                                   s
+s             <<<<<<<<<<                                   s
+s                                                          s
+s                                                          s
+s                                                          s
+s                                                          s
+s                                                          s
+s                                                          s
+s                                                          s
+s                                                          s
+s                                                          s
+s                                                          s
+s                                                          s
+s                                                          s
+s                                                          s
+s                                                          s
+s                                                          s
+s        w                                                 s
+s            w                                             s
+s                  V                                       s
+s                        o                                 s
+s                                                          s
+s                                                          s
+s          V          V                                    s
+s                o                                         s
+s                                                          s
+s             h                                            s
+s                                                          s
+s          7   h   7                                       s
+ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+y ~  <%    
+y +""!""+"!
+y $*>0(0 Q 
+y < [$% Q0>
+y $(*(((Q(Q
+y ssss^ssss
+y 0^>.@>..s
+y +%+(^(+(+
+y ^+SE(!+++
+y ~<> ( >$%
+y 0000V0000
+y ****E****
+y ((((E((((
+y EEEE(EEEE
+y $#?  >#^#
+y S$S<E>.(.
+y Sww.<wwww
+y ((((o((((
+y yYrBERbGg
+y E((*$*((E
+R 62595
+0 0
+1 Laserz
+2 l..........rrrTlTBrcltll.....srrrtcbml..
+2 ....utsrrbbbbbrbbbbbbbbbbbcbb......bbbbb
+2 bblllllllllllsbcbltsbbbrr..llttllrbbbrrr
+2 r.mlt....trrtttrrrb.....bbbbbcbb......bl
+2 llttttrrrtrrrrrrbbbbbbbbbbbbbllbbbbblbbb
+2 bbLLblllttttttt.rrtttttllbRllbbbbcbbbrrr
+2 rlrrbullllt.....rrrrbbbullltttb.tttltcbb
+2 bbbbrlbl....LrrrTrmlltt.......rrrbbbLrtr
+2 rttttttttttttrrrbrrrrsr.........llttbrrt
+2 tlsbbllltm..........
+R 12022
+0 0
+1 Laser Fun
+2 .....l....rrTBrTBrmlllsrbut..srcbsrrtttr
+2 rrrrrrrrrr...cbb.....llbbbb..br...ltcbrr
+2 r....llmtutt......bbbbbbbbbbblblbbutt...
+2 ..tl.........lbbbbbbbrrRlbbblblbLRtrrrrb
+2 Rtttcbbrrbbrrbutrrrbb.l..lllllllbbbrbbbb
+2 bbblbbbbbbbbbbbbbbrrrrrrrrbbuttt.......b
+2 bbllltlmttt..l....bbbrburrrrr.ttt...bbbb
+2 bllllllllbuttttt......rbbbbtrrrbbulllull
+2 bl.....llsrrbrutttrr...bbbbbuttt.....l.l
+2 ..bbbbrrutrrbullttl...bbbrrrrrrrrrbmtttt
+2 l...rrrrrrrrrbbuulmllllllrrrrrrrbbsrrbs.
+2 ...............................
+R 24454
+0 0
+1 More laser fun
+2 .....l....rrTBrTBrmlllsrbut..srcbbrrb.tl
+2 srrbttttrrrrrr......lcbbbbb......cbbbbbb
+2 r.......lsrrr...llbblttllbbbbbbbbbbbbbb.
+2 .....mlllb.......ttrrrrrbllrrrrmlll.....
+2 rrrbsuttt.....bb.llllbbtlmllllbbllrbbRbb
+2 mltt...r...rbbbrbbbblbbbbbbbbbbbbbbblbrl
+2 trrrbBltllbrbr.r.r...rbr...rbr.r.rtrrbrB
+2 ltblllttlllllllbuttrrrrrrllllbrrbbbuttt.
+2 ......bbbbbutttt.....bbllllbbbuuttt.....
+2 ..bbbbltllbuttt.......bbblllllbsrrrr....
+2 ...llllu.tttllrbbbcsbsrtttttrrrbbblbmllb
+2 ......trrrburrbuttt....bbblllrbsrtt..t.l
+2 lllbrrrbblbuttttrr....lltt.b....crrbbbl.
+2 ...mmlllb.......trrrrbuttt........rrmmlt
+2 rcbbblllltt.cbll........ttlrrbbutttt....
+2 bbbbbutttt.....bllst.cbb...rrrlltttbbsrr
+2 ..rrbtlrbsrr......lllllbuttt........llcb
+2 rsrrbb.........tlluttt......blbllt.....l
+2 llsrrbb...llblsrrrrtttbbblllbuttt.......
+2 bbttrr.
+R 24894
+0 0
+1 More lasers
+2 l.........rrTBrTBrmlllsrbut..srcbrsrr...
+2 ......tttcblcbbrr.l...mcbbb....rtcbbb..l
+2 srrb..blbbrrllbbbbmllllllllltttttrttttrt
+2 tttttttttbbbbbttttttrlbbbbcbbbb.....b.ls
+2 sssrrrbb....lll.lrrbbbbbllllllbbburrrbbb
+2 bbbblllmlbbbbrrrlllltttbbbr..tlltttttttt
+2 tttttttttttttttbsrrr...rrrrrrrrrrrrrrrrr
+2 mtttttt..tcbbbbblclbbr....brrt.rmblbtbbt
+2 t.brssrrttt....llllbbllbbbbbcbbb......bc
+2 b.....llltltllbrbr.r.lbLb.bbBRtrrrrlrrrb
+2 tllsrbbuttttlllbbbrluttrr......llbbbbLbr
+2 bulltllbuttttrrrbbbbbbbblllmllbbbbbbbbbb
+2 rrr..lsrbbbttcbbbbllsrbbbttbbbbbbbrbbrbr
+2 utttll.....lllbsrr....ttt..l....bbbblllt
+2 tllllbulullb......ttlbbuttt.......bbbbrb
+2 brbuuttll......brrbbtttlllltlllbb.uutttl
+2 ........brrbbbbrbutt......bbrrrrrrrrbrbl
+2 tt.lbbRBrtttlllllllrrbrllbbllttbllbutrrt
+2 ttrrrbbbrbbttllbrrrrllllllbrrbtllrrbllll
+2 lsr...........srrtttr.....trrrrrrrrrrrbb
+2 bbrrrrlllttlllllllbtlllbbLRbLRLLRbLBLLtr
+2 rBll.rrbrltllburr...r....
+R 6710
+0 0
+1 Even More lasers
+2 l.........rrTBrTBrmlllsrbut..srcbsrrrrrr
+2 rrlllllbbbbbbbbbbbbbbbbbbbbbbbbbbbbblllb
+2 bbbbbbbbbbrbblbbbbbbblbbbbbtllbuttt.....
+2 ..bbbbbrttrrrtcb.....mlll.....ttt.rrbrut
+2 ttl......rblll....rbbbrbr.trBrrllbmlbRtt
+2 tlllll...bbrrttmllbbbrrrrmmlltttt......r
+2 rrstuttr..bbbbbbbbbrRbmllttt.......r....
+2 r......rrlbbBrrBmll........rr.uuttt.....
+2 bbrrbbsrrrrr.....llllllllllbbb.........u
+2 trr.......ttllbbbbuttrr.......llbbbttrrr
+2 urutll.....ttrrrrrrtttllllllbbbbbrrrrrrr
+2 rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrcbb
+2 lrbbrrr..mlll.....ltttbbrr.......ttrrbtt
+2 llblbbbrtttrrbutl........rcbbbulltttllll
+2 llllllllllbbb..........uttrr....rr.llrrr
+2 .......ttttllltlllltttlllbbbbbbbrrrrbbBr
+2 Rmll.....tbutttrrtr.....llbbbbsrbuttrttl
+2 ......tt..r....rrbbttrrlllll..llbblbbbrr
+2 rbBtllbutttrr....llbbbbbblltttrrrrrrrrRu
+2 ttl.......ttrrrrrssrrbbrrblbbbbbbrrrrrml
+2 lll.......rrrrrllBrrbsttttttlllbbbbbrrbt
+2 llllbrrtb...trrbutttr..llllbbrrrbbuttt..
+2 ......llttrlbutttt...ll..bblbbbbbbrbbuut
+2 ttr.b..lllbbrbbBrtrrbutrrr.t....lllbbbut
+2 tr.......llllllllltttlllllblllllllllllll
+2 ltttttttttttttttttttt.uttt.......lbbbbbb
+2 bbbbbbbbblbbbbbbbbbbbblbbrrbrRlllrrrrrrr
+2 rrrrrrrsssrrrrrrrrrrrrrrrrbllllltlllllll
+2 lllllllllllllllrrrrrrrrrrrrrrrrrrrbrRtll
+2 lllllllllllllllrBrrrrrrrrbRllllllttlllll
+2 lllllllllllllllllllllblLBrrbrtrrRlllllll
+2 lbRlTltlllrrrrtrrr..
+R 75741
+0 0
+1 Collector
+2 l.........rrTBrTBrmllr........rrrrrrrrrr
+2 rrrrrrtt....cbb....llbbttcbbbbrlttmtRRLl
+2 lllttrrrrrbbbbbbbbbbbbbbbbbbbbcbbbllllll
+2 llllllbbbbbbbbbbbbbbbbbbbLbbbblllrrrrrrr
+2 rrrrrrrrr.......bbbBllllbbrrrlllll......
+2 ..tttrrrrrtttrrbBtttttLbbblllllltcbbb...
+2 .....lllttcbb......rrrrrrbblbuttttt....b
+2 bbbrrbuttttrr..rrbbbbblblbtrttL.....bull
+2 bbbrbBt..l...utt........rbbbbuttt.......
+2 .llbbbrbululmlllllllllbbrllttttttmllll..
+2 ..bbbbbbutttt...rrrr..lllbllbsrrrrr....l
+2 llrbbtuttt........lbbbbltlbrrbsbrrrrr..t
+2 tttlllbbbbllTlbrtttlllbllbLrrbltttrrrrrb
+2 brutrrrrr.tt...lllbbbLblblrtRblLtrr....t
+2 rrbrrrrrll.....rrrrTrbrrrrurttlllbbblllL
+2 rrrrrrtt.bBrrrrrrrrrrrrtttrrrrrrrrrrrrrr
+2 rbbullll.....rrrbbBrrbuttttl...ll...rrbb
+2 bBrrttllblll...rrrl....lb...l.........rl
+2 llbrrrrrtr.rbulltll.llllrrrrrrrtrrrbbttl
+2 lllbbutrrrrbbuttlll...llllbbbbuttttrrrrb
+2 bbbbrrbllllltllTbltlllllllllllllllllllll
+2 lllllllBllll.lttrrbsscsrrrttttllllllbbbb
+2 bLrrrTruttll......rrbbbrrrrrtutll.......
+2 rrrbbBrrrrrrmmttt......rrrrbbbllllTlbrrr
+2 rtrrrrrrrrr.utrrrrrrrrrrllllllllllllllll
+2 lllllllllllllllllllllllbblllllllttllllrs
+2 rrrbbt......lr..b..........uttt.......bl
+2 ..lllbbbbuuttltblbbbmlttt....rrrrbbbbLrr
+2 rtrrrrrrrrrtrrrttttrrbrrrrrlllllllllltt.
+2 brr...lmmlll..llll..rr...rrrrrrbbbbbuttt
+2 lll.....rrbbbbllTbltrrrbrrrrrrrtttttrsst
+2 uuulmbs.......
+R 98232
+0 0
+1 Blam
+2 .....l....rrTBrTBrml.......t..srrrrrtt..
+2 .bbblllltsrrrr.....llbbbllllscbbl......l
+2 lllbbbbbrrrrblltllbrbr.Rbbbbbbbbbbbttl..
+2 .....rrrrbllbbmlllttt...rrbbbrrrrrbbbbbb
+2 btttttttlrbbbbbbbbbbbbbbbbblllbbbbbbbbbb
+2 lbbrbbLrutttt.....rrrlllbbbbbrbttttlllrr
+2 rrrrrt.rttrsrbtbbrr...bbb.........rrrrrr
+2 rrrrrrrrrtsrrr..rrbrrrrrrrrrrrllbrrrmlll
+2 ....llll..rrrrtbrrrrttrrr.....llbulllll.
+2 ........rrrrbrbbuRttttt...bbbbbblltllllu
+2 ttrrr.....bbbrmllll.rr....utt.....lll..r
+2 bbbrrbRtllBllllllllll.mlll.....tt..rrrrr
+2 mll.....b...rrrBtttttrrmllllllllllllllll
+2 llllllb..bbbbLbrsssssssssssssssssss.....
+2 ............
+R 36840
+0 0
+1 Bomb Path
+2 .....l....rrTBrTBrtmlb........trrtrrrrrr
+2 rrrrrr....srrr...llbbbmllltll.bbrrrtmll.
+2 ...tttrrrrcbbbcbbllltttttttrrrrrllllllll
+2 lllllllsssssssssssssccsssssuussrbbbrrrrb
+2 rrrttttbrrsssssssssscsssssscccccclllllbb
+2 bb...trrbbbbtttlllllllllllBrrrrbbbllLrbb
+2 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbblll
+2 lblLrblLrBrrbRtllltlltlllrr.....llbbbrrT
+2 Rbltllllllllllllltttttlll.
+R 55643
+0 0
+1 Critical Bombs
+2 l.........rrTBrTBrmlll.....srrrtcbsrrrrr
+2 rrrrrrrrrtttllllsssssssssscsssssussscsss
+2 ssssssssssssssssbbllbbbllllttttttllbllll
+2 lllllllllllllllllllllllllbbbbbbllllllbbb
+2 bbbbbbbbbbbbbbbblbbbbrrrrrrbbbbbbbbbbbbb
+2 bbbbllllllLrrrrrrrrrrrrrrrlbbbr..b......
+2 ..r.Rtrrrbbbbbbbrrrrrbrrtrrrrrrrrrrrrrll
+2 lllltllllblllllllltllllllttttlllllllllll
+2 llltlllbbbllllllrrllllbbbrrrrrutttt....l
+2 llllr...rbbbbbrrBrrtttlllll.....ttrrbtll
+2 llbbbbbrtltttttttttttttttrrrrrrrrrrrrbbb
+2 bbbbllTbbbbbbblllllbmlllllttt......rrrrr
+2 bbbbrtrrbRbllttttrrrttttmllbb...rrrrrrtt
+2 trrrrrrrrrbbrrrrrrbRbbbrrrrrrrrrbbmll...
+2 ttttt.......bbbbbrrButtrrrr.lllbbbbrr..t
+2 rrrrrrrrrTrRbllttlllttttttttttttttllbbbb
+2 bbbrrbbbbrrrbbutttt...rrrttrrbbbbbbb....
+2 .tlttllbtttlllllbbbrRlttttrrrrllrbbtrrbb
+2 llbbbbblbrtttttrrrbbbbmlll...tlllt.brrbr
+2 rrmll.....r..rrrrrrbllLrrtRlllllllllttbr
+2 rr...t.
+R 11903
+0 0
+1 The End is the madne
+2 .....l....rrTBrTBrmltcb........rttsrrbbb
+2 ......bbllllb.cbbrrr...lllsbbbtrbbbbbbbb
+2 bbbbbbbbbbbbcbbbbbbbbbttrbbbt...bbbbbbbb
+2 bbbbbrrttttlllllbllbbbLRllblbLrttrrbb..t
+2 trrbrbmttllb.....ltlltttrrr..bbbrbbbrrtr
+2 rtlttcbb.......tttcbb........tttlttrmlll
+2 ......lrrrrrrrrrbbbbtrrbbrlurrrrrb....ll
+2 rrr...mlttttt......bbbrsrrr.....lllbuttl
+2 llllbblllrrrttrrrrrrbbsrrrrrrrrrrtlll..l
+2 bbb.....lmllllllllttrtrrblbtrlbtrlbtrbbb
+2 RlLtrrrrrrrr......suutttt...bbbbbbbRlllt
+2 llllllttlbbrtlmlll...bbllLrtttllllllllll
+2 rrrttttrrrrmmmmmcccccm..................
+2 ........
+R 99692
+0 0
+1 Live and Let Fly
+2 .....l....rrTBrTBrmltcb.........tttr....
+2 ...............cbrrrrrrrbl..rrtttll.bbbb
+2 .....lllbllllrrrrrcbbb..ttr......br.bbbb
+2 bbbbbbrrrrttllllbbbbbbbbbblbbbbbbbbrrrrt
+2 rrbbbbbbbbblllttrrtbbbbbllbbbbbbbbbbtt..
+2 .lllbbblllmtmlllllrrrlsrrrbrr...llsrrrtt
+2 rr....llllbbbrrrbuuttlttrbbbbbrrbblblllt
+2 tllbBRtlltllbrrlclltlbLr...rrrbuttmllltt
+2 tttrrrrrrrrrrrbbbbbbbrrrrrrrrtmu........
+2 .......
+
+uuid 15ec6027a68535cde19353c9ccc91814
+
+leaderboard steps time gems

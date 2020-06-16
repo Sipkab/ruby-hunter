@@ -1,0 +1,46 @@
+n Soften the Blow
+D 5
+C 4
+e 5
+E 3
+p 0
+M 0 A View to a Kill
+i Hint: The stone must land
+i on the row of bombs.
+a Alex
+m 15 12
+############..#
+#     .      V#
+# 0   1       #
+#.....!       #
+# ...         #
+#             #
+#             .
+#             .
+#QQQQQQQQQQQ..E
+#+++++++++Q+@.Q
+#         QQ$@Q
+############QQ#
+y ~      $ 
+R 68510
+0 0
+1 Demo 1
+2 ...b..bbbrrrrrrrbRllllllt...l...t..b....
+2 .......ttttrrrrrrrtTbbbbbllllllt........
+2 ......brrrrrrRtlllllll..cbrrr....l....ll
+2 t....rrrrrrbbrB..ttlllllllltttttllllbrrr
+2 ..rbbbblbrrrrrrr...rb...bbr.lttrr.......
+2 .......
+R 81626
+0 0
+1 Pure Luck
+2 ..llltllbrrrtrrbBrrrrrrrtTl.............
+2 ...............bbbbb....brBlttttt..t....
+2 ........................................
+2 ........................................
+2 ....................ml.......llllllb.rrr
+2 rrrrbbb.rrbbbLBtlbbbr.lttrrr......
+
+uuid 0816ea82e7b5f1ccd251d71985178557
+
+leaderboard steps time

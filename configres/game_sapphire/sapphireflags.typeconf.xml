@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config xmlns="bence.sipka.types.config" >
+
+    <declare-flag name="SapphireProps" >
+        <flag name="Pickable" 			value="0x001" />
+        <flag name="Fallable" 			value="0x002" />
+        <flag name="Blowable" 			value="0x004" />
+        <flag name="Pushable" 			value="0x008" />
+        <flag name="Round" 				value="0x010" />
+        <flag name="Convertable" 		value="0x040" />
+        <flag name="Enemy"		 		value="0x080" />
+        <flag name="ExplodePropagate"	value="0x100" />
+        <flag name="SandSinkable"		value="0x200" />
+        <flag name="ObjectPushable"		value="0x400" />
+    </declare-flag>
+    
+    <declare-flag name="SapphireVisual" >
+        <flag name="LaserVertical"				value="0x00000001" />
+        <flag name="LaserHorizontal"			value="0x00000002" />
+        <flag name="LaserLeftBottom"			value="0x00000004" />
+        <flag name="LaserLeftTop"				value="0x00000008" />
+        <flag name="LaserRightTop"				value="0x00000010" />
+        <flag name="LaserRightBottom"			value="0x00000020" />
+        <flag name="MaskLaser"					value="0x0000003F" />
+        <flag name="Rolling"					value="0x00000040" />
+        <flag name="ExplosionSpawning"			value="0x00000080" />
+        <!--  <flag name="Appearing"			value="0x00000100" />-->
+        <flag name="CitrineShattered"			value="0x00000100" />
+        <flag name="FallFinish"					value="0x00000200" />
+        <flag name="Moving"						value="0x00000400" />
+        <flag name="CitrineBreaking"			value="0x00000800" />
+        <!-- Object based flags -->
+        <flag name="SapphireBreaking"			value="0x00080000" />
+        <flag name="YamYamOldDirectionSet"		value="0x00080000" />
+        <flag name="YamYamOldDirectionMask"		value="0x00070000" />
+        <flag name="YamYamOldDirectionShift"	value="16" />
+        <flag name="YamYamEatingGem"			value="0x00100000" />
+        <flag name="TickBombSpawning"			value="0x00080000" />
+        <flag name="PlayerDig"					value="0x00020000" />
+        <flag name="PlayerTryPush"				value="0x00010000" />
+        <flag name="PlayerUsingDoor"			value="0x00008000" />
+        <flag name="PlayerRobotKilled"			value="0x00004000" />
+        <flag name="PlayerRobotDirMask"			value="0x00003000" />
+        <flag name="PlayerRobotDirShift"		value="12" />
+        <flag name="PlayerFacingMask"			value="0x000C0000" />
+        <flag name="PlayerFacingShift"			value="18" />
+        <flag name="DoorUsing"					value="0x00080000" />
+        <flag name="SwampUp"					value="0x00080000" />
+        <flag name="SwampHighlight"				value="0x00040000" />
+        <flag name="SwampDropHit"				value="0x00020000" />
+        <flag name="DispenserSpawn"				value="0x00080000" />
+        <flag name="DispenserRecharge"			value="0x00040000" />
+        <flag name="WheelActive"				value="0x00080000" />
+        <flag name="ExitSinkPlayer"				value="0x00080000" />
+        <flag name="ExitWalkPlayer"				value="0x00040000" />
+        
+        <!-- Past object flags -->
+        <flag name="PastObjectDirMask"			value="0x00700000" />
+        <flag name="PastObjectDirShift"			value="20" />
+        <flag name="PastObjectPicked"			value="0x00800000" />
+        <flag name="PastObjectFallInto"			value="0x01000000" />
+        <flag name="MaskPastObject"				value="0xFE000000" />
+        <flag name="PastObjectShift"			value="25" />
+    </declare-flag>
+    
+    <declare-flag name="SapphireLaser">
+        <flag name="LaserLeft"				value="0x00000001" />
+        <flag name="LaserTop"				value="0x00000002" />
+        <flag name="LaserRight"				value="0x00000004" />
+        <flag name="LaserBottom"			value="0x00000008" />
+        <flag name="MaskLaser"				value="0x0000000F" />
+    </declare-flag>
+    
+    <declare-flag name="SapphireDynamic" >
+        <flag name="JustPushed"				value="0x00000002" />
+        <flag name="FixedStill"				value="0x00000001" />
+
+        <flag name="MaskPlayerId"			value="0x00000800" />
+        <flag name="MaxPlayerId"			value="1" />
+        <flag name="PlayerIdShift"			value="11" />
+        <flag name="KeyRed"					value="0x00001000" />
+        <flag name="KeyGreen"				value="0x00002000" />
+        <flag name="KeyBlue"				value="0x00004000" />
+        <flag name="KeyYellow"				value="0x00008000" />
+        <flag name="MaskBombCount"			value="0xFFFF0000" />
+        <flag name="BombCountShift"			value="16" />
+        <flag name="MaxBombCount"			value="0xFFFF" />
+        
+        <flag name="DoorClosed"				value="0x01000000" />
+        
+        <flag name="DefaultTurned"			value="0x01000000" />
+        
+        <flag name="ExitClosed"				value="0x00000000" />
+        <flag name="ExitOpening"			value="0x00100000" />
+        <flag name="ExitOpen"				value="0x00200000" />
+        <flag name="ExitClosing"			value="0x00300000" />
+        <flag name="ExitOccupied"			value="0x00400000" />
+        <flag name="MaskExitState"			value="0x00700000" />
+        
+        <flag name="StoneWallWithObject"	value="0x00100000"/>
+        <flag name="StoneWallObjectMask"	value="0xFF000000"/>
+        <flag name="StoneWallObjectShift"	value="24"/>
+        
+        <flag name="DispenserObjectMask"	value="0xFF000000"/>
+        <flag name="DispenserObjectShift"	value="24"/>
+        
+    </declare-flag>
+    
+    <declare-flag name="SapphireLeaderboards" backing-type="uint32">
+        <flag name="MostGems"	value="0x01"/>
+        <flag name="LeastTime"	value="0x02"/>
+        <flag name="LeastSteps"	value="0x04"/>
+        
+        <flag name="UsedFlags"	value="0x07"/>
+    </declare-flag>
+
+</Config>

@@ -1,0 +1,34 @@
+n Lucky Strike
+D 4
+C 1
+s 1
+Y
+i You will need a bit of
+i luck on your side to
+i solve this one.
+a Alex
+m 13 7
+##########S##
+#...00000...#
+#..#00000#..#
+#1.#000<0#..#
+#..#00000#..#
+#@..$$$$$...#
+###E#########
+y /^/</>/V/
+R 74758
+0 0
+1 Demo 1
+2 ......r.....l..ttr..R....l..bbb.........
+2 rbr...r.r...r....r.rr........rrttttl.L.r
+2 ..lllllllllllll..ll..bbbb...l...rr.b....
+2 ....
+R 78549
+0 0
+1 Don't try this at home
+2 ..ttrrllbbrblrbrrrrrrrrrttttlllllllllllb
+2 bbbLrb.......
+
+uuid 556c213733bedd4b1bb672cf8092d66c
+
+leaderboard steps time

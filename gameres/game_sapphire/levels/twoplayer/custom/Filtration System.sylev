@@ -1,0 +1,41 @@
+n Filtration System
+D 5
+C 7
+E 0
+T 150
+p 0
+M 0 Live and let Die
+i Two simultaneous funnels can be
+i hard to check...
+a Shark
+m 21 17
+#####################
+#00**0*0**+00*00*000#
+#|*0***0**+***0*0**|#
+# |0*0*0**+*0*0***| #
+#  |00***0+0*0*0*|  #
+#   |**0**+*0*00|   #
+#    |*000+0***|    #
+#     |*0*+***|     #
+#      |**+00|      #
+#       |1+2|       #
+#                   #
+#        E E        #
+#        + +        #
+#        + +        #
+#        + +        #
+#        +a+        #
+#####################
+R 55471
+0 0
+1 Demo 1
+2 b.lb.rl....l.lrrl.....rl.rr.t.t.tlbrb.bl
+2 brr.......l.l......llT.r......rllrr...r.
+2 T.ll.r....R...RL..R...R...............R.
+2 ..R....L...L..RL..RL..RL...L...L...L..R.
+2 ....R.....R....L.........L..R.b.bLb.b.bL
+2 l.L.t.t.tLtLr....L.....lrb..........
+
+uuid d78504ca5fe9bc00782e6fee3c5aece6
+
+leaderboard steps time

@@ -1,0 +1,61 @@
+n Bag Balance
+ldeutsch n Sackbalance
+D 7
+C 1
+e 4
+p 0
+M 0 Tico Tico
+i You have to get the
+i stone on the second
+i to last row (or third)
+i to get 4 emeralds.
+ldeutsch i Du musst die S�cke ein
+ldeutsch i St�ck weit balancieren
+ldeutsch i um zumindest 4 Edelsteine
+ldeutsch i zu kriegen.
+a Alexander
+m 30 30
+##############################
+#             0              #
+#             @              #
+#                            #
+#              @             #
+#                            #
+#               @            #
+#                            #
+#                @           #
+#                            #
+#                 @          #
+#                            #
+#                  @         #
+#                            #
+#                   @        #
+#                            #
+#                    @       #
+#                            #
+#                     @      #
+#                            #
+#                      @     #
+#                            #
+#                       @    #
+#                            #
+#                        @   #
+#                            #
+#                         @  #
+#                            #
+#E                         @1#
+##############################
+R 54269
+0 8
+1 2nd Row
+2 .l.l.l.l.l.l.l.l...tttttllllllllbbbbBtb.
+2 .rrblbl..ltllllllllllb....
+R 36280
+0 8
+1 or Third
+2 l..l.l.l.l.l.l.l.l.tttlll..lllllbbBt.trr
+2 rrblbl.L.llBllllllllllb.....
+
+uuid 90bd3283bd196945d55eaf9930a0d752
+
+leaderboard steps time

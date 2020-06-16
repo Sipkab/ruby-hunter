@@ -1,0 +1,65 @@
+n On the Rocks
+ldeutsch n On the Rocks
+D 8
+C 7
+T 2000
+p 0
+M 0 Nightshift
+i This is a hard level with much
+i building and pushing.
+ldeutsch i Das ist ein harter Level mit
+ldeutsch i viel Bauen und Schieben.
+a Ronald
+m 22 17
+######################
+#&0........1.........#
+#&*....Q..0...0...0..#
+#&. ........0...0....#
+#&. ......0..........#
+#&. ....Q....0....0..#
+#&. 0.......0..0.....#
+#&. ......0..........#
+#&. ....Q............#
+#&. .0........0.0....#
+#&. .................#
+#&. ...0.....Q.......#
+#&. ...............0.#
+##. .....0...........#
+##. .................#
+##..................E#
+######################
+R 6891
+0 1
+1 Demo 1
+2 ....lllllllblbbbbbbbbbbbrrrrrlllllttrrrl
+2 lltt.brlttrrrrllllttttttrtrrrrrrrrrrrrrr
+2 rrbbbbbbbbbbbbllllllllllllllllrrrrrrrrrr
+2 rrrrtrrbllllllllllllllllrrrrrrrrrrrrrrrr
+2 tttlllllrrlllrrllbllllllllrrrrrrrrtrrbll
+2 llllllllrrrrrrrrrrrrllllllllllllrrrrrrrr
+2 rrrrrlllllllllllllrrrrrrrrtrrrrrrtttllll
+2 lllbllllllllrrrrtrrbrrtrtrrbrrrrbbblllll
+2 blllllllllt.L.llr..ttrrrrtrrblllllrrrrrr
+2 rtrtrrbrrrrttttttllllllllllllllllblbb..r
+2 rrrrrtr..rbllllllllrrrrt........rrttrrrr
+2 rrrrrrbbbbbb........lll..ltll.b.l.L.b.ll
+2 lllllrrrrrrrt.rtrr.b..ll.ll.bllllllllrrr
+2 rrrtrrrrrrrr.Tr.lllllbllllllllrrr.trrrrb
+2 lllll..lllrr............rrr.............
+2 ....rrr.t....t..r....bb.....lllllllll...
+2 ......................................tl
+2 .L..l............t.l..tt..rr...rrr.llll.
+2 Brrrrrtrr.b......l......llllllrrrrr.....
+2 .r.....t.........t..r.......r...........
+2 .blttrrrbl..b.llbllllll.l.rrrrtrrbllllll
+2 ..b.rrtrrbll..lll..rrrr.t.rrt.rrrrr....t
+2 .r........rb...llllrr..rrrr.lllll.....lb
+2 ll...l.trrb.l..lbl.l.l.l.l..tl.rrrrrrttt
+2 llllllL...ll.B.rrrbr.trrrb..lllll.tllbbb
+2 bbbbbbbbbbbrrrr...............tll..l..L.
+2 L.L.L.L.L.L.L.L.TtllLLLLLLLLLLLLLLLTlBtL
+2 rbrrrrrrrrrrrrrrrrrbb.........
+
+uuid 811269f340b27a47f7dcac867d6af572
+
+leaderboard steps time

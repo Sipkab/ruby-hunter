@@ -1,0 +1,52 @@
+n Inaccessbile
+ldeutsch n Schwer zug�nglich
+D 4
+C 7
+e 66
+E 0
+M 0 Granite
+i It seems easy enough
+i to get the emeralds.
+i But emeralds are not
+i good enough here.
+ldeutsch i Sieht ja ziemlich einfach aus
+ldeutsch i die Smaragde zu kriegen.
+ldeutsch i Aber Smaragde gen�gen hier nicht.
+a Reinhard
+m 16 14
+################
+#      1       #
+#++&&++&+&+"&++#
+#+++++++++++++&#
+#++"+++&++++&++#
+#++&+++"&+&+"+&#
+#+&+&+++++++&++#
+#&&+++&+&&+&+&+#
+#              #
+#              #
+#cccccccccccccc#
+#              #
+#              E
+################
+R 90828
+0 9
+1 Demo 1
+2 ..rrrrb.tllllllllll...sr.........llb..ur
+2 r........llbb..ut.........bbbbrrll....ut
+2 .........bbbr...mttt.........bbrr...m..l
+2 ........rrrr..ml..........rrrr...mll....
+2 ....brrrrr.l...mll..........rrb....ut...
+2 ........bbbbllll.r.srr...ttttt.l..mllbbb
+2 bb..b.........r.ut..........rrr.t..bbrrr
+2 ...mll...........rrrrrr...mll...........
+2 rrrrr..lt..ml............rrtt...cbll....
+2 .........rrrt...cbll.........rttttr...cb
+2 bll.....tttr.t...cbrr..........bblllll..
+2 .mll.........rrrt..mll......t..rrr..ml..
+2 .....t..r...sr..........lltt..ml....bbbb
+2 bbllllbb.rrrrrrrrrrrr..blltlllllllllllbr
+2 rrrrrrrr.rrrrr........
+
+uuid 2b8833755664041fb7a32a855cba17ff
+
+leaderboard steps time

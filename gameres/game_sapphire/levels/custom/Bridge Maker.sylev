@@ -1,0 +1,35 @@
+n Bridge Maker
+D 7
+C 6
+e 17
+p 0
+M 0 Dancing on the Ceiling
+i Timing is crucial.
+a Shark
+m 19 15
+##########         
+#....0..*#         
+#..*.....#         
+#.....*..#         
+#........#         
+#....*...#         
+#........#         
+#       1##########
+#m*               #
+###########     0s#
+~         #ccccc* #
+~         #+++++# E
+~         #QQQQQQ #
+~         #QQQQQQQ#
+~         #########
+R 96839
+0 0
+1 Demo 1
+2 ttttTbbbbbl.l.ttt..Tbbbll.ttltt.....Tbbb
+2 bl.l...rrrrt.lt......Rbbl..rrrttttlttR..
+2 ..bbblbbb.rrrrrrrrrrrr..............bbrb
+2 bblllllLrrrrrttr.....
+
+uuid deb6d7d5ee93a892d068373615b30832
+
+leaderboard steps time

@@ -1,0 +1,49 @@
+n Spike Shield
+D 5
+C 6
+e 50
+p 0
+i As you will quickly discover,
+i there are few safe havens from
+i the storm. But there *is* a
+i way out!
+i 
+i That is, if you're
+i willing to pay the price...
+a Alex
+m 24 17
+################        
+#$     QQQQQ000#        
+#+    000000000#        
+#  QQQ0####Q000#        
+#00000#000#0Q00#        
+#00####+++#Q0Q0#        
+#00+QQQQQQQ#Q0Q#        
+#00#Q+#+++#QQQ0#        
+#00#Q+E| |##############
+#00#Q+Q#$#$**#**..0..QQ#
+#00#Q+0#*#*#$#*#00Q0000#
+#00#Q++#$#*#*#$#QQQ07.0#
+#00#QQQQ*#$#*#*#...0.Q0#
+#0+#####*#*#$#*#.Q5..00#
+#QQQQQ #*#*#*#$#.0.0..1#
+#00000 #*$*#***#.00Q.00#
+########################
+R 86609
+0 0
+1 Demo 1
+2 ...l..l.b....trrttt...tt..lbbbblll......
+2 ..........Bttttllllbbbbbbllttttttllbbbbb
+2 bllttttt..........................bbllll
+2 ttttttlltttttl.rbbbbbrrrbbr.........
+R 86688
+0 0
+1 Demo 2
+2 ..llb.....trrr.....t.l..lllb............
+2 ....tttllttllbbbbbbllttttttllbbbbbbllttt
+2 t..t..............................bbllll
+2 ttttttllltttrttL.bbbbbrrrbbrr......
+
+uuid 2aa87261165562bbff70d8582327bbbb
+
+leaderboard steps time

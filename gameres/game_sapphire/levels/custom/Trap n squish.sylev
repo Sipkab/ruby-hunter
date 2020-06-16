@@ -1,0 +1,41 @@
+n Trap'n squish
+D 2
+a David Polsky
+m 15 12
+###############
+#.............#
+#.............#
+#...u  .......#
+#... .........#
+#... .........#
+#...0.........#
+#... .........#
+#... .......(.#
+#... .........#
+#1..{.......E.#
+###############
+R 83864
+0 8
+1 Demo 1
+2 ........r....lttr.tttttR....ttrrrrrrrbbb
+2 bbbbbblllttttt..Tbbbbbrrrrtttltttttllbll
+2 ...............................llll.r...
+2 ...lbbbbbll.trbbrrt.llbblttrrrrrrrrrrr.b
+2 b........
+R 92795
+0 8
+1 Demo 2
+2 ......rrr.........rrrrrrr..tt.r.l.ttttll
+2 l..l..bbb.....b.tttt.......TBbbblllltttt
+2 r....t.rrb...ll.....lbbl.bbrrrlllbbrrrrr
+2 rbrr........
+R 19851
+0 8
+1 Dave 2
+2 ....ttttttttr.brrrr.bbbrrrrttt.........L
+2 bbbllllttrr.ll.rr.lllllbbrrtlbbbbrrrrrrt
+2 rrbb........
+
+uuid ff1500fed11a54524ad1bafdd8a5f06b
+
+leaderboard steps time

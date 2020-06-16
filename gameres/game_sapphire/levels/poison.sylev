@@ -1,0 +1,73 @@
+n Poisonous Powder
+ldeutsch n Giftpulver
+D 6
+C 4
+s 0
+p 0
+M 0 Live and let Die
+i Each "poison" is
+i worth 11 gems.
+ldeutsch i Das "Gift" hat einen
+ldeutsch i Wert von jeweils
+ldeutsch i 11 Smaragden.
+a Alexander
+m 27 22
+###########################
+#E1                       #
+#                         #
+#    _   %    _        %  #
+#    h        h     _     #
+#                   h     #
+#  %  %                   #
+#        _   _            #
+#        h   h         %  #
+#                   _     #
+#    _           %  h     #
+#    h                    #
+#                         #
+#            _            #
+#            h   _        #
+#    _           h        #
+#    h    %               #
+#                    %    #
+#  %           %       %  #
+#                         #
+#                         #
+###########################
+R 12931
+0 0
+1 Demo 2
+ldeutsch 1 Demo 1
+2 ...b.lbbbbbbbbbbbbbbb..tt..r............
+2 .rrrrrllll......rrr...t.................
+2 ......rrbbbrrbllbrrblllrrrrrrrrrrrr.t.t.
+2 llt...........tttt.bbbbrrr.....tttt..lll
+2 tttt..........rrll.......rrrlll.....r.tt
+2 .......lttt..........rrrll.......bbbbbbb
+2 bbbb......rrrblblllbrrrrrtrrrbbbllltllll
+2 lllbrrrrrrlllllllllltttt.lttttt..trrr...
+2 .bbb..b..b.tt........bbbtt.....bbbbrrbll
+2 lbrrrrtttttttttt......................bl
+2 lllllb.llblll.........ttttbbb..ll.....tt
+2 tt.....lttt.............bbbbbbr.........
+2 .......................rrrrrrrt..l......
+2 ..........ttttbbll...........r.ttttt....
+2 ..tt..b.t........l.......ll.rr.......llb
+2 btrrr......l.........llbbrrrb..tt..l....
+2 ......llrr.....rrbbbbblbllllllttltttrt.r
+2 ...........rrbbttrrr.bbb......llr..r....
+2 lllrr.....l.bbbbbb.rrrbrrrrrrrrr.tttt...
+2 ........................l.l.............
+2 ...llllllllllllrrrbbbbbbbbbblllllbblbrrr
+2 rrrrrrr.llllllllrrrrrttttttttttttttttll.
+2 tlllb.........bbbbbbbbbbb.ttt....bbbbbbb
+2 rlllbrrrrrrrrrrrrrrrrrr.ttttttrrtttttttt
+2 tt..bbllllllllllttt...........rl........
+2 .rrrrrrrrlll....l.ttrr..r........rrbbbbb
+2 bbbbbbbblll....rrrrbbbbbrlllbrr....rrrll
+2 lllllllllllllllllllllttttttttttttttttttt
+2 ........
+
+uuid e0c1a9d0527bfb5797f70c97d4ffb2c6
+
+leaderboard steps time

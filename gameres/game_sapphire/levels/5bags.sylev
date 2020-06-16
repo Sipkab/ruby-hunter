@@ -1,0 +1,48 @@
+n Five Bags
+ldeutsch n Fünf Säcke
+D 4
+C 5
+e 28
+s 0
+p 2
+d 0
+o 0
+w 0
+M 0 Action
+i This level has a nice trick.
+i How would you get
+i 25 gems from 5 bags?
+ldeutsch i Dieser Level enthält
+ldeutsch i einen netten Trick.
+ldeutsch i Wie kriegt man 25 Punkte
+ldeutsch i für 5 Säcke.
+a Alexander
+m 17 17
+#################
+#0        #!! ! #
+#i        #     #
+#?        ##iiGi#
+#i              #
+#Q .0.          #
+#1  0 @         #
+#iiiiii@@@@     #
+#     iiiii     #
+#               #
+#g              #
+#ccccccccccccccc#
+#               #
+#i             i#
+#E             i#
+#iiiiiiiiiiiiiii#
+#################
+R 84578
+0 8
+1 Demo 1
+2 ..r.r..........llbbbbrrrrrrrrrrrrrtttttt
+2 ttlllrrrbbbbbbbllllll..mlltt.......mll.t
+2 tt.r...rrrrrrbbr.rrrrr.rrbbb.mll.......r
+2 rbbbblllllllllll.......
+
+uuid 9182940e7aa363feae7d5712a9862938
+
+leaderboard steps time

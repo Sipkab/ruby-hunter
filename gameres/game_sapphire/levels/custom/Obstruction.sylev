@@ -1,0 +1,33 @@
+n Obstruction
+D 2
+C 3
+p 0
+M 0 Action
+i Just place one bomb and you've got
+i it made.
+a Shark
+m 9 14
+#########
+m   #   #
+#0# ### #
+#0#Q+E# #
+#0#+### #
+#0#     #
+#0#     #
+#0#     #
+#0+  1  #
+#*+    !#
+#0+ #####
+#{#  ####
+# #   ###
+####0a###
+R 90513
+0 0
+1 Demo 1
+2 ..rrbllll....utt........................
+2 ........bbbb.L...ttt..t.......t.ttrrr...
+2 ..
+
+uuid 36f22f08943abb8315791be6c95d57b2
+
+leaderboard steps time

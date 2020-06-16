@@ -1,0 +1,65 @@
+n Elevators & Rocks
+D 3
+a David Polsky
+m 22 22
+######################
+#QQQQ.Q..Q.Q###     0#
+#Q$......Q$Q#.R B G .#
+#QQQ.Q.Q.Q+Q#.##### @#
+#...........#.####+.y#
+#QQQ.Q.Q..$Q#.#E Y+Q #
+#Q$..Q.Q.Q$Q#.####++.#
+#QQQ.Q.Q..QQ#.###### #
+#..#..........#      #
+####..#########      #
+#####+............Q  #
+#....#....@.@.@.@.#  #
+#000  ###.b.r.g.g.   #
+#000     .........   #
+#.000                #
+#..000               #
+#...000              #
+#....000             #
+#......00            #
+#.......0.           #
+#1 ......            #
+##########{#{#{#{#{#{#
+R 91562
+0 2
+1 Suspended
+2 ...rrrrrrr........l..rr.rrrrrrr..lllllll
+2 llllllllrrrrrrrrr.llllllllllllrrrrrrrlll
+2 llllrrrrrrrrrrrr.llllllllllllrr.t..lbrrr
+2 rrrr..ttttttt.LR.tLR.b.r..brr.t..r.r.R.t
+2 LRbrrbrrrrtttttllblllllllllll.Brrrrrrrrr
+2 rrtrrblllllllllllllrllrrrr.Brrrr.B...bbb
+2 bb.......ttl.r.ttt.rrt.tllbbbbbbbbbbbbl.
+2 ..tllbrr.l.Bllttttttrttttlllbllblltbbbbb
+2 lbb...r.r.rrbbL.tttttttttllblltllltl..
+R 84745
+0 0
+1 Demo 1
+2 ...rr.rrrr.........R...rrrrrrrrrrrrrrlll
+2 llllll..l...llllllllllllrrrrrrrrrrrrr.ll
+2 llllllllllllll...rrrrrrrrrrr.lllllllllll
+2 rrrrrrr.ll........rtttllbrr..tttt....t..
+2 R.t.R.bbr..tr..t.R.t.R.bbrr.t..R.t.R.b.r
+2 r.brr.t.Rt..R.bbrrt.rr.ttttllbllllllllll
+2 l.Brrrrrrrrrrtrrrb....lllllllllllllrr...
+2 ....Brr..Brr.Brr.Brr...lll..llllllrbbbbb
+2 ....bbbbb.t.rr.B.llltl.rrrrrrrrb.l..b..l
+2 ll.tllllbll...lllllrrrr.rrlllt.R.brrr..r
+2 .ttttttttlttrrrbbbbbbbbb..r.....tttttttt
+2 trrr.bbbbbbbbb.r.B.ttttttttt..bbrrrttrrr
+2 rttttt.l.lll..............blblllbllltlll
+2 ltlllttbbrrr..l......llttt.tt.rttt....l.
+2 ..r.................................bbb.
+2 .....t.bll.Btttrt.......lbl.Lrr.......bb
+2 bbll.Lrr........b.tt.rrrrrbllll...tt.r..
+2 R..ttr..R.lbbb.rt.r.Rll......rrrbbbbrrtt
+2 ttttrrr.R.t.rbb.B.b.Lttt.b.lbbblll......
+2 ..
+
+uuid 92d6e88cc590e8041a8e90c4f0a80686
+
+leaderboard steps time

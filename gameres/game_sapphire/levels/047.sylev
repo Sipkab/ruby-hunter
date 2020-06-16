@@ -1,0 +1,71 @@
+n Red fugue
+a Emerald Mine
+D 5
+s 0
+i To explode or not to explode.
+i That's the question.
+m 64 32
+################################################################
+#....Q.........Q.............E1Q E....Q......Q....Q..Q.........#
+#.Q..Q.Q....Q.....Q..Q....QQ.........Q..Q.Q.............Q.Q....#
+#...Q..........Q...Q..Q.Q...Q....Q.....Q....Q..Q.Q...........Q.#
+#........Q...Q............Q...Q.Q..Q.Q..Q.....Q.......QQ...Q...#
+#Q.Q..Q...Q.Q......Q.Q..Q...Q...Q.Q........Q.......QQ..........#
+#..........Q....QQ.....Q.....Q...Q...Q.......Q.Q.Q........Q....#
+#.Q..Q..Q....Q.........Q.Q..Q..Q...Q...Q.QQ....Q..Q.*..Q.....Q.#
+#..Q......Q.....Q.QQQ...............Q.......Q........Q...Q....Q#
+#..Q.Q..*.Q................Q...Q.Q....Q....Q....Q..Q...Q.....QQ#
+#Q.....Q..Q.QQ.Q...Q..QQ.....Q.....Q.....Q.Q.Q........Q...Q.Q..#
+#....Q...........Q..Q...Q.Q...Q...Q.....Q.....Q..Q.............#
+#.Q......................*..Q...Q..Q.Q.....Q.Q.....Q.Q...QQ..Q.#
+#Q....Q.Q.Q.Q.Q..QQ.QQ.Q.....Q..........Q..............Q...Q...#
+#...Q....Q..Q..........Q.QQ...QQ.QQ...Q...Q.Q..Q.Q.Q.Q...Q.....#
+#.Q.........Q.Q.Q..Q.........Q...Q..QQ.......Q....Q........Q.QQ#
+#....Q..Q.Q....Q..Q..Q.....Q...Q........Q.Q....Q......QQ.......#
+#.....Q.....Q..Q*......Q.Q.Q.....QQ...Q.......*...Q..Q...Q..Q..#
+#.......Q......Q....Q........Q......QQ...Q.Q...Q..........Q....#
+#.Q.Q.....QQ.Q..Q..Q..Q...QQ....Q.....*.....Q.......Q....Q...Q.#
+#......QQ...............Q.....Q.......Q..........Q....Q.....Q..#
+#..............Q....Q.Q..Q..Q....Q..Q..QQ.Q....Q...Q.Q.Q.Q....Q#
+#Q..Q.Q...Q..Q.Q.QQ......Q....QQ.............Q......Q.......QQ.#
+#...Q...Q...Q.........Q..QQ.Q.......Q..Q.Q.....Q.QQ...........Q#
+#..Q......Q.Q.Q....Q..........Q...Q........Q........Q.QQ.Q...Q.#
+#..Q...Q....Q.QQ.Q...QQ.Q..QQ..Q..Q..Q....Q....Q...Q........Q..#
+#...Q.....Q....Q.....Q....*...Q........Q.....Q........*..Q....Q#
+#Q.Q..Q.....Q.....Q.Q.Q..Q........Q..Q...Q.......Q...Q..Q...QQ.#
+#....Q.Q.Q.Q..Q.Q...Q..Q...QQ..Q..Q........Q..Q..Q.Q...........#
+#..Q..Q.......Q.......Q.......Q.....Q.Q.QQ...........Q....Q....#
+#*........Q.......Q......Q..Q.....Q...........QQ......Q..Q...Q*#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 35774
+0 8
+1 Demo 1
+2 ..bbltltllllllllllll..bllltllll.......bb
+2 l.....bbb.l....bbbr........bbblbbbbbb...
+2 b.l.bb......llll..bb....bll.bb..rbbbbbl.
+2 .rrrrrrrtttttt.....r....l.........bb....
+2 ...........bbbbb.rrrrrrrrrtttt..rr......
+2 ..........ll.bbbbbrr..lltttt.rrr.....ttt
+2 ............bb.....rrbbtt.bbbr.brr.t...r
+2 ttttllllll.......bb....rrrr..........lll
+2 ltt..tltttlltttlrrtttlttt..rrrrrttt.....
+2 ...............bbrrrtttttrttt.ltttt.....
+2 ..rrrbrr.b...........rr..trrr..r.....bbb
+2 ........tt..r.ll.........r.....rr......r
+2 .........bb..r.......rrr.bbb..rrbbb....b
+2 .rbbbbb..bbbb.lll.tlll.lt.l...rb.r.rr.br
+2 brrrttttttttttttt....l.tttttrt.rr..bb...
+2 br...r..tt...rrr.bbbbl.bbbbbbbbbbb...l.b
+2 bb.lb..b.ll.bbbb..rr..br..rtrr.......r..
+2 ..........bbb.rr.tr...r.b..b.rt.rrb.....
+2 ..ttt..blllltttttllllllltlll...tttlltttt
+2 ttt....tt.rttltttll..trttll........rrr..
+2 blllllllllll..ll..tl.t........
+
+uuid 2229b9a5f9e60c23a5e718232e65c1a9
+
+leaderboard steps time

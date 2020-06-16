@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config xmlns="bence.sipka.types.config" >
+    
+	<declare-enum name="KeyboardType">
+		<enum name="NONE" />
+		<enum name="ALPHANUMERIC" />
+		<enum name="ALPHABETIC" />
+		<enum name="NUMERIC" />
+	</declare-enum>
+    
+	<declare-enum name="KeyAction">
+		<enum name="DOWN" />
+		<enum name="UP" />
+		<enum name="UNICODE_SEQUENCE" />
+		<enum name="UNICODE_REPEAT" />
+	</declare-enum>
+    
+	<declare-enum name="KeyCode">
+		<enum name="KEY_UNKNOWN" />
+		<enum name="KEY_A" />
+		<enum name="KEY_B" />
+		<enum name="KEY_C" />
+		<enum name="KEY_D" />
+		<enum name="KEY_E" />
+		<enum name="KEY_F" />
+		<enum name="KEY_G" />
+		<enum name="KEY_H" />
+		<enum name="KEY_I" />
+		<enum name="KEY_J" />
+		<enum name="KEY_K" />
+		<enum name="KEY_L" />
+		<enum name="KEY_M" />
+		<enum name="KEY_N" />
+		<enum name="KEY_O" />
+		<enum name="KEY_P" />
+		<enum name="KEY_Q" />
+		<enum name="KEY_R" />
+		<enum name="KEY_S" />
+		<enum name="KEY_T" />
+		<enum name="KEY_U" />
+		<enum name="KEY_V" />
+		<enum name="KEY_W" />
+		<enum name="KEY_X" />
+		<enum name="KEY_Y" />
+		<enum name="KEY_Z" />
+		
+		<enum name="KEY_0" />
+		<enum name="KEY_1" />
+		<enum name="KEY_2" />
+		<enum name="KEY_3" />
+		<enum name="KEY_4" />
+		<enum name="KEY_5" />
+		<enum name="KEY_6" />
+		<enum name="KEY_7" />
+		<enum name="KEY_8" />
+		<enum name="KEY_9" />
+		
+		<enum name="KEY_NUM_0" />
+		<enum name="KEY_NUM_1" />
+		<enum name="KEY_NUM_2" />
+		<enum name="KEY_NUM_3" />
+		<enum name="KEY_NUM_4" />
+		<enum name="KEY_NUM_5" />
+		<enum name="KEY_NUM_6" />
+		<enum name="KEY_NUM_7" />
+		<enum name="KEY_NUM_8" />
+		<enum name="KEY_NUM_9" />
+		
+		<enum name="KEY_NUM_MULT" />
+		<enum name="KEY_NUM_DIV" />
+		<enum name="KEY_NUM_ADD" />
+		<enum name="KEY_NUM_SUBTRACT" />
+		<enum name="KEY_NUM_ENTER" />
+		<enum name="KEY_NUM_COMMA" />
+		<enum name="KEY_NUM_DOT" />
+		
+		<enum name="KEY_F0" />
+		<enum name="KEY_F1" />
+		<enum name="KEY_F2" />
+		<enum name="KEY_F3" />
+		<enum name="KEY_F4" />
+		<enum name="KEY_F5" />
+		<enum name="KEY_F6" />
+		<enum name="KEY_F7" />
+		<enum name="KEY_F8" />
+		<enum name="KEY_F9" />
+		<enum name="KEY_F10" />
+		<enum name="KEY_F11" />
+		<enum name="KEY_F12" />
+		
+		<enum name="KEY_ESC" />
+		<enum name="KEY_BACK" />
+		<enum name="KEY_FORWARD" />
+		<enum name="KEY_MENU" />
+		<enum name="KEY_ENTER" />
+		<enum name="KEY_BACKSPACE" />
+		<enum name="KEY_SPACE" />
+		<enum name="KEY_DELETE" />
+		<enum name="KEY_INSERT" />
+		<enum name="KEY_HOME" />
+		<enum name="KEY_END" />
+		<enum name="KEY_PAGE_UP" />
+		<enum name="KEY_PAGE_DOWN" />
+		<enum name="KEY_DIR_LEFT" />
+		<enum name="KEY_DIR_UP" />
+		<enum name="KEY_DIR_RIGHT" />
+		<enum name="KEY_DIR_DOWN" />
+		<enum name="KEY_TAB" />
+		
+		<enum name="KEY_LEFT_CTRL" />
+		<enum name="KEY_RIGHT_CTRL" />
+		<enum name="KEY_CTRL" />
+		<enum name="KEY_LEFT_SHIFT" />
+		<enum name="KEY_RIGHT_SHIFT" />
+		<enum name="KEY_SHIFT" />
+		<enum name="KEY_LEFT_ALT" />
+		<enum name="KEY_RIGHT_ALT" />
+		<enum name="KEY_ALT" />
+		
+		<enum name="KEY_CAPSLOCK" />
+		<enum name="KEY_NUMLOCK" />
+		<enum name="KEY_SCROLLLOCK" />
+		<enum name="KEY_COMMA" />
+		<enum name="KEY_PERIOD" />
+		<enum name="KEY_GRAVE" />
+		<enum name="KEY_MINUS" />
+		<enum name="KEY_PLUS" />
+		<enum name="KEY_LEFT_BRACKET" />
+		<enum name="KEY_RIGHT_BRACKET" />
+		<enum name="KEY_EQUALS" />
+		<enum name="KEY_BACKSLASH" />
+		<enum name="KEY_SEMICOLON" />
+		<enum name="KEY_APOSTROPHE" />
+		<enum name="KEY_SLASH" />
+		<enum name="KEY_VOLUME_DOWN" />
+		<enum name="KEY_VOLUME_UP" />
+		<enum name="KEY_VOLUME_MUTE" />
+		<enum name="KEY_MIC_MUTE" />
+		<enum name="KEY_MEDIA_PLAY_PAUSE" />
+		<enum name="KEY_MEDIA_STOP" />
+		<enum name="KEY_MEDIA_NEXT" />
+		<enum name="KEY_MEDIA_PREVIOUS" />
+		<enum name="KEY_MEDIA_REWIND" />
+		<enum name="KEY_MEDIA_FAST_FORWARD" />
+		<enum name="KEY_BREAK" />
+		<enum name="KEY_COMMAND" />
+		<enum name="KEY_PRINTSCREEN" />
+		<enum name="KEY_PAUSEBREAK" />
+		<enum name="KEY_CLEAR" />
+		
+		<enum name="KEY_GAMEPAD_DPAD_LEFT"/>
+		<enum name="KEY_GAMEPAD_DPAD_UP"/>
+		<enum name="KEY_GAMEPAD_DPAD_RIGHT"/>
+		<enum name="KEY_GAMEPAD_DPAD_DOWN"/>
+		<enum name="KEY_GAMEPAD_START"/>
+		<enum name="KEY_GAMEPAD_BACK"/>
+		<enum name="KEY_GAMEPAD_LEFT_THUMB"/>
+		<enum name="KEY_GAMEPAD_LEFT_THUMB_LEFT"/>
+		<enum name="KEY_GAMEPAD_LEFT_THUMB_UP"/>
+		<enum name="KEY_GAMEPAD_LEFT_THUMB_RIGHT"/>
+		<enum name="KEY_GAMEPAD_LEFT_THUMB_DOWN"/>
+		<enum name="KEY_GAMEPAD_RIGHT_THUMB"/>
+		<enum name="KEY_GAMEPAD_RIGHT_THUMB_LEFT"/>
+		<enum name="KEY_GAMEPAD_RIGHT_THUMB_UP"/>
+		<enum name="KEY_GAMEPAD_RIGHT_THUMB_RIGHT"/>
+		<enum name="KEY_GAMEPAD_RIGHT_THUMB_DOWN"/>
+		<enum name="KEY_GAMEPAD_LEFT_SHOULDER"/>
+		<enum name="KEY_GAMEPAD_RIGHT_SHOULDER"/>
+		<enum name="KEY_GAMEPAD_LEFT_TRIGGER"/>
+		<enum name="KEY_GAMEPAD_RIGHT_TRIGGER"/>
+		<enum name="KEY_GAMEPAD_A"/>
+		<enum name="KEY_GAMEPAD_B"/>
+		<enum name="KEY_GAMEPAD_X"/>
+		<enum name="KEY_GAMEPAD_Y"/>
+	</declare-enum>
+
+</Config>

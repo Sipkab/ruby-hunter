@@ -1,0 +1,40 @@
+n Canyons
+D 3
+C 4
+e 16
+E 0
+s 0
+p 0
+Y
+M 0 Oxygene4
+i All Yamyams have the same contents.
+i How you use them determines what
+i you get: Gems, or blown up.
+a Shark
+m 15 12
+###############
+#>#>#>#>#>#>#>#
+#.#.#.#.#.#.#.#
+#             #
+#             #
+#       1     #
+# # % # # # # #
+# # # # # # # #
+# % # % % # % #
+% # # # # % # E
+#QQQQQQQQQQQQQ#
+##############$
+y #*##$##Q#
+R 65386
+0 0
+1 Demo 1
+2 ......rrrrl..........t..t.Tl......bb....
+2 rbbb..ttt....ll....t..t.Trr.........llb.
+2 ....bbbbtttllllllll.t..t.Trrb.....llbbbb
+2 b..tttrr....t...........................
+2 rrrrt.Trrr....llblbbbb.tttrlllt..t.Trrrr
+2 rrrrbbbbbbr.....
+
+uuid c6fa4182e19ad1c49528ad9c7b3d919f
+
+leaderboard steps time

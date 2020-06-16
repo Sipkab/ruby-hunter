@@ -1,0 +1,50 @@
+n Lighthouse
+ldeutsch n Leuchtturm
+D 3
+C 5
+i Oops! While you took a nap in the
+i old light house, the watchman locked
+i the door without noticing you
+i being still inside.
+i Fortunately there is never such a
+i thing as a "perfect" prision.
+ldeutsch i Ups! Ein kleines Nickerchen
+ldeutsch i im Leuchtturm und schon hat
+ldeutsch i dich der Wachmann übersehen
+ldeutsch i und eingesperrt.
+ldeutsch i Zum Glück gibt es so etwas
+ldeutsch i wie das "perfekte" Gefängnis
+ldeutsch i einfach nicht.
+a Reinhard
+m 22 20
+~                     
+~                     
+~     :::             
+~    :   :            
+~    : ( :            
+~    : i :            
+~    ##.##            
+~    #...#            
+~    #...#            
+~    #...#            
+~   ##...##           
+~   ##...##           
+~   ##*..##           
+~   E.*"1##+          
+~   ####+#++          
++  |+++++$+           
+++ +++++++$$ $$    $$$
++++++++++$$$$$$$$$$$$$
+++++++++++$$$$$$$$$$$$
++++++++++++$$$$$$$$$$$
+R 17964
+0 8
+1 Demo 1
+2 ....lr...ut...lttttt...cbbbbbl.b........
+2 ......rr..ut..........bbbbrl..ut........
+2 bbbbrrrrrrrrrrrrrblllllllllllbrrrrrrrrrr
+2 rbllllllllllttllttlttllll........
+
+uuid b6f90155b94c204268568ae7dc3a739e
+
+leaderboard steps time

@@ -1,0 +1,53 @@
+n Corner-Stone
+ldeutsch n Eckstein
+D 7
+C 7
+E 0
+M 0 Nobody does it Better
+i The only certain thing
+i is that you have to
+i get the stone away
+i from the wall.
+i But how?
+ldeutsch i Das einzig sichere ist,
+ldeutsch i dass du den Stein von der
+ldeutsch i Wand wegkriegen musst.
+ldeutsch i Aber wie?
+a Reinhard
+m 20 19
+####################
+#0...........*.....#
+#......*....*......#
+#..................#
+#..*.........*..*..#
+#........*.*.......#
+#...*...........*..#
+#.........$........#
+#....$..*..........#
+#..................#
+#.....*..........$.#
+#.$................#
+#......1......*...$#
+#..................#
+#..................#
+#..............*...#
+#....*......*......#
+#E.......0@........#
+####################
+R 7824
+0 1
+1 Demo 1
+2 ........bbb........rrrrrbrrrttttlrrrrltt
+2 ttttlttt.llllllttlllllllbbllbbbbbbbbbbb.
+2 b..........r........l.t.rttl..r.bb.rtttt
+2 tttt..tl.rbbbbbbbb.rttttttl.rbbbb..b.rtt
+2 t.l..b.b.rr.l.trrtt.bl.rttttt..tl.r.bbbb
+2 bb.r.l.t.rrtt.l.b..trr..r.l.t.rrt.ll.r.t
+2 trrr.bb....l.l.bbll.bb...ll.bb.ll..bb.ll
+2 ..bb.ll.brrrr.llllt.ltttttttttttt.r.tlbb
+2 bbbbbbb...bbbb..b.rrrr.rrrr.rrr.brr.b.l.
+2 rtllllllllll.b..........
+
+uuid 13dc5ad50f6945e7bf6a5cffefef5c0d
+
+leaderboard steps time

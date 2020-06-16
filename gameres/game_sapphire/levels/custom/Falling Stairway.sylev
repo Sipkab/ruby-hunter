@@ -1,0 +1,73 @@
+n Falling Stairway
+D 7
+e 56
+p 0
+d 20
+w 1
+M 0 Bomb
+i The rocks will come, the
+i rocks will go. Find some
+i use for them.
+a Alexander
+f Alexander
+m 30 40
+##############d########!######
+#1           # #             #
+#            #s#             #
+#                            #
+#            .               #
+#############ab#############@#
+#          B   #           ###
+#          B  |              #
+#          B s               #
+#.########### ########(#######
+& QQQQQQQQQQQQ:$: :QQQQQQQQQQ#
+#rQ##########++(:  $$$$$$$$$$#
+# QQ!Q!Q!Q!Q!Q!Q:  #########R#
+# .R R R R R R R  #  R R R R #
+#############| ####R##########
+#             s              #
+#             y            Q #
+# ############ ###############
+#&      <    #s#     >    >  #
+#     *      #s#             #
+#     #      #s#       * (*  #
+#          g       >   # ##  #
+#   <   <  #  s              #
+#             s       >   >  #
+##############s##########G####
+#                            #
+#                            #
+#                         @  #
+#wwwwwwwwwwww wwwwwwwwwwwwwww#
+#                            #
+#                            #
+#                            #
+#       @                    #
+#wwwwwwwwwwwww wwwwwwwwwwwwww#
+#                            #
+#                            #
+#                       E    #
+#                            #
+#                            #
+#aaaaaaaaaaaaaaaaaaaaaaaaaaaa#
+y ~> <*> > 
+R 15023
+0 0
+1 Fall Down
+2 bbbrrrrrrrrrrrr...........r.r.r.r.r.r.r.
+2 r.r.r.r.r.r.llltttTrrrrrbbmlb........rrB
+2 llllllllllllllbbllllllllllllbbbbbbbrrrrr
+2 rrrrttrrrrrrrrrrrb.....tllllllllllblblll
+2 BtlllllllllllllttLbbbrrrrrrrrrrrrtrrbrrt
+2 trrrrrrrrrrrblllllbllllbLrrrrrrrrrrrtrrb
+2 llllllllllll............llllllllllllllr.
+2 .....llbbb....rrrrRllllbbbbrrtttrrbrrtt.
+2 .rrbbrr.....lb...tr..rrrrrrtrrrrrrrrRlbb
+2 brbbrrblllllllllll.................l.L.l
+2 lbbblllllblbrrrr......r.r.rbbbbrrrrrrrrr
+2 r.
+
+uuid a949177f3fbfe552e36081476f2c327c
+
+leaderboard steps time

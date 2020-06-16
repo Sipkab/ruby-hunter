@@ -1,0 +1,33 @@
+n Kill the Yam-Yam-Beast
+ldeutsch n Kill das YamYam-Biest
+D 4
+C 4
+E 0
+M 0 A View to a Kill
+i ... or otherwise
+i it will kill you.
+ldeutsch i ...denn sonst
+ldeutsch i killt es dich.
+a Reinhard
+m 10 10
+##########
+#.1......#
+#........#
+#.**0.. .#
+#...... .#
+#...... .#
+#.$$>   .#
+#.$......#
+#.$......#
+##########
+y $$$$E$$$$
+R 22631
+0 0
+1 Demo 1
+2 ...bbbbbRbb.tttttrt.rrb...R.tllbr.trrb.t
+2 llbrr.rrll....rrrrrbbblltt.r............
+2 ..
+
+uuid 446bb5617ecc5e6094c45c0dc7eb4331
+
+leaderboard steps time

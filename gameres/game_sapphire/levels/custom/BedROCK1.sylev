@@ -1,0 +1,33 @@
+n BedROCK
+D 2
+C 7
+E 0
+M 0 flintstones
+i Just balance the rocks long enough
+i to crush the the Yam-Yam Beast.
+a Dudeman David Nesor
+f Dudeman David NEstor
+m 12 7
+############
+# 0        #
+#10        #
+#########s.#
+#........^.#
+E........ .#
+############
+y *$*      
+y ~        
+y ~        
+R 64840
+0 2
+1 Suspended
+2 .r.r.r.r.r.r......
+R 64901
+0 0
+1 Dudeman Demo
+2 .r.r.r.r.r.r........ttrrrbbbblllllllllll
+2 ....
+
+uuid 28611a5317b00d9ce39c79be44b63164
+
+leaderboard steps time

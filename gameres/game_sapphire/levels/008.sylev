@@ -1,0 +1,89 @@
+n Rush hour
+ldeutsch n Hauptverkehrszeit
+D 3
+C 3
+s 0
+i Look out that the traffic
+i doesn't catch you up.
+ldeutsch i Pass auf, dass dich der Verkehr
+ldeutsch i nicht �berrollt!
+a Emerald Mine
+m 64 32
+################################################################
+#7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 77#
+#.............................................................0#
+#.............................................................1#
+#.............$................+++++++......+++++............+ #
+#............+++.....$.........+$..............$++......$....++#
+#.......++........+++++++......+++............++.+.....+++.....#
+#.$.....++.....................+.................+............E#
+#+++....++.....................+.................+.............#
+#.......++..........................++++.........+.............#
+#.......+........+..................+..........................#
+#.......+........+..................+..........................#
+#.......+........+..................+$...............$.........#
+#.......+$.......+...........$......++++............+++........#
+#.......++++++++++........+++++.....+..........+...............#
+#.........................+.........+..........++..............#
+#.........................+.........+..........++..............#
+#.........................+.........++++$++....+...............#
+#.........................+......+.....+++.....+...............#
+#..+........+.+...........+......+.............+...............#
+#..+........+$+...........+......+.............+...........+...#
+#..+........++++++++......+......+.............+...........+...#
+#..+$.......+.............+......+.............+...........+...#
+#..+++++....+....................+............$+...........+...#
+#................................+..........++++...........+...#
+#...........+...................$+........................$+...#
+#...........+$..............++++++...................+++++++...#
+#...........++++++..........................$..................#
+#......................$.................++++++++.............+#
+#....................+++++...................................$+#
+#...........................................................+++#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 35872
+0 8
+1 Demo 1
+2 ........................................
+2 ........................lll..r.bbbbbbbbb
+2 bbbbbbbbbbbbbbbr.bbblllllllllttttrrrrrrr
+2 tttllllllllllbbbbbllllllltttt..rrrrrrttt
+2 ttttllllllb.ttrrrrrrrtttrrrrrrrrrttttllt
+2 ttrr..r.lllllllt..l.t.llllll.bbrrrrlll.b
+2 bbbbb.lllllll.bb.r..tt.rr.tttt.llllllttl
+2 l.rrrbbbbbbbblllllllllllllllllttttttl.tt
+2 .rrrr.lllllttl..b.lllllllllllllbbbbrrrbb
+2 bbbbbbbbbbbbbllrrrrrrrbbbrrt.rrrbbbllltt
+2 ttrrrrrrrr...........t..t.lllllltt.ll.bb
+2 .tt.llll.ttll.ttttttttt.................
+2 .t..t..rrrbbbbbbbbllrrrrrrtttrrrt.rrrrrr
+2 rrrbbbbbbbbbbbbbbbrrrrrrrbbllllllllllbbb
+2 rrrrrrrrrrrrttttttttttt.rbb..rrrrrr..rrr
+2 rrttttttrrrrbbrrrrrrrrrrrrrttttttttt....
+2 ...
+R 62805
+0 8
+1 Demo 2
+2 ........llbbllllllllllbbbbbbrrrbrrbbllll
+2 llltttttttllttlttrrlllllllllllllllrrbbll
+2 bblllttttlllllllllllllt.llllllllllllllbb
+2 brrrrrbbbbbbbrb.ttttbbbbrrrrrrrrrrrttttt
+2 tllbbbbllllllltttrtttr.rrrrrrrrrbbbbbbrr
+2 rrrrrrrrrrrrrtttt..trrrrrbblllbbrrrbblll
+2 bbrrrbr..trrrrrrrbbbbbbbblllbbbbrrrrrrbb
+2 lllllllllllllllttttttttttttllbbbbbbbblll
+2 lllbbblllttttttttttt.llllllllllbbb.t.tll
+2 bbbblllllllttttlllbbbbbrrbrrrrrrrrrrrbbr
+2 rrrrbbbbrrrrrrrrrrrrrr.t.rrrrtttttttt.rr
+2 rrr..bbbbbb..llll....l.rr..ll.tttttt.rrr
+2 rr...tr.ttrtttttrrrrrrrttttttttrrrrbbbrr
+2 rrrrrrbbbbbbbbbbbbbblltttllbbbbbbbllllll
+2 bbbrrrrrrrrrb.tttllblllllllltttttttttttr
+2 rrrrrttttttttrrrrtt.......
+
+uuid 9f085c759c52c58e6592b72a17b8ea65
+leaderboard steps time

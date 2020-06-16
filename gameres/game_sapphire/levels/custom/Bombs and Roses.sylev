@@ -1,0 +1,33 @@
+n Bombs and Roses
+D 5
+C 5
+e 132
+E 0
+p 0
+a Shark
+m 15 11
+~############# 
+~#.*&..&.....# 
+~#...........# 
+~#.(.Q...Q.Q.##
+~#.#Q.Q.Q.Q.QE#
+##1****(*****&#
+#!.++++:+++++:#
+#$((((($(*$$$*#
+#(*Q$$((((***(#
+#*(((**Q0$Q@*Q#
+###############
+R 26293
+0 0
+1 Demo 1
+2 .bl..Brttt...tR.t.r.bbrtrrbl.l.tllbbb..r
+2 ...rrttrrbllBtttlllll.......brrrrrB..r.r
+2 B...lll..b.rtrrrrbtllbr...l.tllblbtrtrrb
+2 lblb.....tlml...........rrb..r..llbblll.
+2 llbr.lb.rr...rtr..B.r.B.r.t.lll.....rrrr
+2 ..rrrrr.....blllllb.L.rtrrrb.ttllllllttr
+2 ....rr..rrrrt.....
+
+uuid 84017d39afaf67906e53ef04c8ee6ef8
+
+leaderboard steps time

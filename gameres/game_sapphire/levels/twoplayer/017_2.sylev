@@ -1,0 +1,118 @@
+n Stone for bag (2)
+a Emerald Mine
+D 4
+e 36
+s 0
+i Don't waste your boulders and remember
+i that you have to pick up the emeralds.
+m 64 32
+################################################################
+#             0       0               .                        #
+#             .       .                0         0             #
+#    0  .   0      . . 0    0    0    ..      .  .             #
+#   0.   00 .    .     .    .  . ..    .  .         0    .     #
+#   .    ..        0             .    0             .0         #
+#   .     0        . 0    .  .   0    .        0     .         #
+#  .      .0      . .         .00..   . 0      .          .    #
+#        . .0                  ...  0   .    .          00     #
+#        .  .        .              .               0   .    0 #
+#  .   .      .    .  .      .   .        . 00      .        . #
+#   00           0        00 .      2  0    .0  0   0   0      #
+#0  ..     . .  00.   .   ..  1   . E  .    ..  .   .  0.      #
+#.         .    ..     0      E                        .       #
+#         .   .        .              .0   0  .                #
+# .              .     .       .  .0   ...0.   .          0 0  #
+#    .                 .   .       . ..   .    .         .. .  #
+#        .                      0           .           .     0#
+#     .       .       00.       .          .    0 00          .#
+#                     .0                        . ...      .   #
+#      00              .              .                        #
+#      ..                          .              .        .   #
+#                                        .               . .   #
+#       .    .         .                                       #
+#               .             .                                #
+#      .                           .                           #
+#            .        .          .         .                   #
+#    .                   .                                     #
+#   .                                               .    .     #
+#                                                              #
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 73103
+0 8
+1 Demo 1
+2 ......lrlbbblblllbtblb.rtrlrlrlr.rbrbtbr
+2 brlrlbbrlrlrlrlrlrlrlr.r.bbrbrbrbrbrbrbb
+2 bblblblb.bbbbbbbb.btltltltltllltlt.t.t.t
+2 .ttrt.tltbtbtbtbtbtbtbtbtb.b.btbt...t.t.
+2 t.t.t.t.t.t.t.trtb..blb.b.b.bbb.b.t.t.t.
+2 t.tttltlt.tr.r.trrrt.trtrtbt.tltltlt.t.r
+2 r.r...b.b.b.b.l..ltb.blbltlt.t.tltbtbtbt
+2 btbtbtblblbbbbbbbrbbbbbbbbbb.bbbbbbbbb.b
+2 .b.b.bbblb..b...r.r.r.rbr.r.r...lrlrl.bl
+2 .lt.lttltltltttlt.t.tlt.tbt.trtrt.t.t.r.
+2 ....b.b.b.btb.b.b.b.bbb.lrbrb..l......b.
+2 btbtbtbt.ttt.t.t.t.t.trtrttt.t.t.t.t.t.t
+2 .t.tbtrtrt.tttr.rbbblblblblblblb.brbtbtb
+2 .b.b.b.btbtbtbtbtbtbtbtbtttttttttttttt.t
+2 .t.tttttttttttttt.ttttr.rbbblblb..l.bbb.
+2 b.b.btblb.b.b.b.b.b.btbtb.bbbbbbbbb.b.b.
+2 b.b.....r.b.l.l.l.btb...r.b..bt..l.lr...
+2 .........l.b.b.b.b.b.r.r.r.r.rrtrtrtrtrt
+2 rtrtr.r.rlr.r.r.r.r.r.r.rtrbrbrbrbrbr.r.
+2 r.r.rtrtrtr.r.rbr.r.r.r.r.r.r.r.rtrtrtrt
+2 r.r.r.r.r.r.r.r.r.r.r.t.t.t.t.tlt.ttt.tl
+2 t.t.t.....t.t.t.l.ltlt.l.l..l........b..
+2 .r.r...r........r.r......rlblblblblrlblb
+2 lblb.btblb.b.b.bbbbbbbbblbbbblbbbrbrbrlr
+2 lrlllllbb.btllltltltltbtbtbtbtltltltltlt
+2 lrlrl.lllll.l.lblblblblblbllltltltltltlt
+2 lrlrlllblblblblb.b.b.b.b.btbtbt.t.t.tbtb
+2 t.t.t.t.ttttt.tltbtblt...l.t.tbtbtbtbtbt
+2 btbtbtbtbtbtbtbtbtbtbrbr..rlb..brbtb.brb
+2 tbtbtbtbtbtbtbtbtbtbtltbtbtbt.tttlltl.tt
+2 .t.trtbtbtbtbtb...............bbbbbbbbbb
+2 bbb.btbtbtbtbtrtrttttttttttttttlt.tbtbtb
+2 tbtbtbtbtbtbtbtbtbtbtbtbtbtrb.bbbtb.blbt
+2 btbtbtbtbtbtbtbtbtbtbtbt.trtltlt.tbtbtbt
+2 btbtr.rbrbt.tl.l..l.ll...rl.btbtbtbrrrb.
+2 l.lrlblblblblblblbrbrbrbrb.b.b.b.b.b.b.b
+2 .btbtbtb.b.b.b.t.t.l.t.tltbtbtbtbtltrtrt
+2 tt.trt.t.ttttttttttttltltbtrtrtrt.tr.b.b
+2 .bbbrb.b.bbb.b.bbbrbbb.blblb.b.blbbbbbbt
+2 b.blbtbtbtbtbt.tltltlt.trrtr.lr.tltbtbtb
+2 tbtbtbtbtbtbtbtbt.tttltttttttttttttttttt
+2 .t.tr.lrl.blbbbb.brbrbrb.blblb.b.b.b...t
+2 .l.t.t.t.t.t.t.t.t.tttttttttttr.rr.lb.ll
+2 lb.blb.bbbbbbblbbb.bbbr.rtblbtbtbtbtbtbt
+2 btltltltbtbtbtbtbtbtbtbtbtbtblbl.br..r..
+2 b.lllbl...trr.r.brlrl.lbrbtbrb.b.....lt.
+2 tbtbtbtbtbtbtbtbtbtbtbtbtbtrtrtbtttltttt
+2 tt.t.tlt.tbtbt.t.lr.rr.btb.blb.bbbbbbbbb
+2 bb.brbt.ltblbtbtbtbtbtbtbtbtbtbtbtbtbtbt
+2 btbtbt.t.tltltlttlr.rrb.lblblbrbrbtbrb.b
+2 tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbt.tttltttt
+2 lttt.ttttttttttt.trt.t.trt.l..brbbbbbbbb
+2 bbbbbbbb.brb.b.brb.b.blbbbb.btblbtbtbtbt
+2 btbtrtbtbtbtbtbtltltttttttrrr.blb.bbbbbb
+2 bb.btb.blblbbbbblblblbtbrbrbbbl.ltrl.ttt
+2 rt.t.t.t.t.ttttttttttttttttttttttrt.tltb
+2 tbtbtbtbtbtbtbtbtbtbtbtbtblblb.brbrb.b..
+2 btblbtbtbtbtbtbtbtbtbt.tttttttttrrrrrlr.
+2 bl...b.bbblblblblb.b.blbbbbb.b.b.b.t...l
+2 .t.t.t.t.t............r.rtrt.tbtbt.tltlt
+2 brbrblblbbbbbb.blbbbbbrbrbrb.blblblbb.bt
+2 bt.tl.btb.b.l.l.l.l.t.t.r.r.r.b...l.b.br
+2 lrlr.rtrrrrrbrlrlrtrrrrrbr.rtrrrrrrrrtrt
+2 rtrtrtrtrtrtrtrtrtrtrtrtrtttttttltlttttt
+2 tttttltltltltltltltltlllltllll.l.l.l.l.l
+2 .l.l.l.l.l.l.l.l.l.b.b.b.b.b.b.b.b.b.b.b
+2 .r................
+
+uuid 585b45c75350f995b14cfde3c33ff579
+
+leaderboard steps time gems

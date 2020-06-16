@@ -1,0 +1,35 @@
+n Counter-Balance
+ldeutsch n Das Gegengewicht
+D 6
+C 5
+E 0
+p 0
+M 0 Take Five
+i A balance needs a weight
+i on every side.
+ldeutsch i Eine Waage braucht Gewicht
+ldeutsch i auf beiden Seiten.
+a Ronald
+m 13 7
+#############
+#    !1   0.#
+#.0 #QQQ#...#
+#.*. *E* .!*#
+#.0. .#. 0..#
+####..#..####
+~  #######   
+R 11961
+0 1
+1 Demo 1
+2 ...L.rr.rbbrR.lttl...sbbll.bbrttlt..tlll
+2 lbbl.rrrr..........
+R 3809
+0 1
+1 Demo 2
+2 ..Lrrrbb.srtt...lllrrbbbRll..clttrrttllb
+2 ..tllll.llbbrr...rbB.tltllbrrl..r.Bllbrr
+2 trr.B.r..........
+
+uuid 38723248211a7b2a582a4c77b5c0ceef
+
+leaderboard steps time

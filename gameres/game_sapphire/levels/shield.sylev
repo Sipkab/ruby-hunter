@@ -1,0 +1,39 @@
+n Shield
+ldeutsch n Schild
+D 6
+C 3
+e 7
+s 0
+Y
+L
+M 0 We don't need Another Hero
+i Watch the laser and
+i try to avoid being hit.
+ldeutsch i Beobachte den Laser und
+ldeutsch i gib acht, dass er dich
+ldeutsch i nicht trifft.
+a Alexander
+m 22 12
+######################
+#V >  % >    %  $#####
+#%##############:# b #
+###  #**********:#   #
+#$   #:::::::::::#   #
+###R##            1  #
+#* g#y               #
+##Y##             #B##
+#*               ##  #
+#|c## #::::::::::#   #
+#E. G #$$$$$$$$$$#r!!#
+######################
+y ~   >( % 
+R 23154
+0 8
+1 Demo 1
+2 ...tttrbbbbbbrbllrttttll...llllmlllmllbb
+2 l..t.bb.l..llttlrrttlbllrrb.lb...rrrbbll
+2 ..r...ll........
+
+uuid 56e1fcc239aca5297ebd6eefc0f041c0
+
+leaderboard steps time

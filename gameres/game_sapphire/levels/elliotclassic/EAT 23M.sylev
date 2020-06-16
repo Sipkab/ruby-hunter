@@ -1,0 +1,35 @@
+n EAT 23M
+D 3
+C 3
+S voice
+M 0 RACE
+N EAT 25M
+i Race the stone, as a team.
+i Like Tour de France.
+a Elliot
+m 23 14
+#######################
+#m0          #m       #
+############ ## ##### #
+#12........# ## #...# #
+##########.# ## #.#.# #
+#..........# ## #.#.# #
+#.########## ## #.#.# #
+#.##         l# #.#.# #
+#.## ########## #.#.# #
+#.#m            #.#.# #
+#.#############{#.#.# #
+#.............###.#.E #
+#############.....#.EQ#
+#######################
+R 48091
+0 0
+1 Demo 1
+2 rrrrrrrrrrrrrrrrrbbbbllllllllllllllllllb
+2 bbbbbbbbbbbrrrrrrrrrrrrrrrrrrrrrrrrbbrrr
+2 rrrrrttttttttttttttttttrrrrbbbbbbbbb..bb
+2 bbbbbbrr............
+
+uuid 907940847d95f124de4e4178bfefb028
+
+leaderboard 

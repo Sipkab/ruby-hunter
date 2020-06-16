@@ -1,0 +1,55 @@
+n Leo V
+ldeutsch n Leo V
+D 4
+C 5
+e 30
+T 450
+i Don't get lost in
+i such a small cave.
+i And don't let the
+i bombs hurt you, either.
+ldeutsch i Verirr dich nicht in
+ldeutsch i so einem kleinen Level.
+ldeutsch i Und tu dir mit den
+ldeutsch i Bomben nicht weh!
+a Leo de Bruin.
+m 14 15
+##0###########
+~0$. #. Y *.Q#
+#*@#Y#*G#Q+ |#
+#g# 0.#*#|+###
+#####00.## +Q#
+# B *$| ###+|#
+#Y#####Y#Q+ # 
+#*|bQQQ*#|+## 
+##$ |||### #*#
+*##Y##+#*# #r#
+.    #*#.#+# *
+* ##### 0 Y Y.
+#[#E 0.|.# #0#
+#1#*.* R@.*.* 
+#y##@#######@#
+R 14194
+0 1
+1 Demo 1
+2 .......bttt.lttbrrrt...T.L.bbb..........
+2 .......tttlltrrrlllbrrrrrRbbBttrttt.bllt
+2 lltt.llllb.RBtrrrbbrbrrttlBrrrRlll......
+2 ..rrr.b.........bb.rbb.lbbbbbbrR.rrB.ttt
+2 T.brblll.B.tt.bbrrrtllbblllll....t.lllb.
+2 ll..r.B.l.t..........
+R 19033
+0 9
+1 Demo 2
+2 ....bttt.ltt.brrr.t....T...L.b..........
+2 ...ttttllrrrrrrlbbbtttlllllt.rr..rllllbr
+2 rrrrrtt........ttt.blltlllt.l....l..l..b
+2 .BR.trrrb.rbrrtttl.btrrrrlll...........r
+2 r.....bbb.r..bb.l...bbbb..bb.r.r.l..rr.b
+2 t.ll...rrtttt.bbr.b.lll.ll...tt.bbb..t.r
+2 r.rrtlbblll..l.l..t.lll.........b.......
+2 l.l..rr.lb.ttl........
+
+uuid c837295d70dd7fc7b5618e90f489f236
+
+leaderboard steps time

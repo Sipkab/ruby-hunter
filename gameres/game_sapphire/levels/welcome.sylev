@@ -1,0 +1,43 @@
+n Welcome to the Game
+ldeutsch n Willkommen im Spiel
+D 2
+C 5
+E 0
+T 175
+M 0 Nobody does it Better
+i This first level has
+i been constructed especially
+i for novice players to
+i improve their skills.
+ldeutsch i Dieser Level wurde extra
+ldeutsch i für Anfänger erfunden
+ldeutsch i um ihre Reflexe ein
+ldeutsch i wenig zu trainieren.
+a Reinhard
+m 13 9
+#############
+#.......E...#
+#...........#
+#....*0*0*..#
+#....0*0*0..#
+#.1..*0*0*..#
+#...........#
+#...........#
+#############
+R 6147
+0 0
+1 Demo 1
+ldeutsch 1 So geht's
+2 ...rr..R.t.r.R.trrtrr.b.l..b....trr.bb.L
+2 ..b.lll..ttttt.r..........
+R 7881
+0 0
+1 Demo 2
+ldeutsch 1 So auch
+2 ...rrr.ltrrltrrtrrblll.r.btrrrb..b..bbll
+2 lllllllttttrrrrrrrrbbbll..rb..tt.llttt..
+2 r.t...................
+
+uuid a868e9cab4b37a24d316e70147773731
+
+leaderboard steps time

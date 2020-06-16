@@ -1,0 +1,42 @@
+n Bags Over Easy
+D 5
+C 7
+E 0
+p 0
+d 20
+i Since you can't remove the acid,
+i you will need to find a way to
+i work around it -- or above it.
+a Alex
+m 14 12
+######E#####d#
+#            #
+#      _  Q  #
+#         [  #
+#  & _    [  #
+#  &       _ #
+#       _    #
+#   _    1   #
+#            #
+#            #
+#aaaaaaaaaaaa#
+##############
+R 7377
+0 0
+1 Demo 1
+2 ........l..ttt..r.b..r.b...rrt.l.l.blt..
+2 .tllltttr..bb.trb.lllbb..rb.....tlb...rr
+2 rrr...rtttt.l...lb....t.lll....rrrb...lb
+2 lll.tl..bbbr.bl..l...bllttrb.rrrrrrrtl..
+2 ltlbbb.rblllblt...rrrr.tttttrr.bbbrblll.
+2 rr.t..trrtllllllt.lb............rrrrrrrt
+2 llllltlbb..ttlllb..rllbbbr.....rt.......
+2 ..l..lbbbrt..tlt..rrrrrtr.bb...b..tl.b.r
+2 ..t........ll...............tlllbbbr....
+2 tb.rr..t........rbrrrrr..t.R..llll......
+2 ..ttllb.t.llb.....rbrrrrrrrt.....r..llll
+2 ll.tttttt........
+
+uuid 0f09d8d380cc174688629c86e6bacdd5
+
+leaderboard steps time

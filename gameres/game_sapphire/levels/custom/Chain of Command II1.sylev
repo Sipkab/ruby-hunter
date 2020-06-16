@@ -1,0 +1,27 @@
+n Chain of Command II
+D 4
+C 5
+M 0 Don't you forget about me
+i 5 Miners
+i 5 Exits.
+a Nic01
+m 15 7
+#E#############
+E6.....+......1
+# .....+.#   #1
+E6.....+.#8# #1
+# .....+.#   #1
+E6.....+.#####1
+#E######"#####!
+R 70296
+0 8
+1 Demo 1
+2 .....B.l...llllbbblbbbbbut....l.....llll
+2 ltt.....lllllbltt.l.llllbltt.l.llllblbbl
+2 ttt.c..cb.......t.blb.r.l.l.l.....rttttl
+2 bbbb......Lrrbrb...................lltll
+2 llblbttlttltt......
+
+uuid 8c0188860ca578202ec6e677837de1e8
+
+leaderboard steps time

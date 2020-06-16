@@ -1,0 +1,70 @@
+n As hard as it gets
+D 8
+C 2
+T 1250
+p 0
+d 1
+M 0 Thriller
+i Looks like Level 42 at beginning
+i huh?
+i 
+i If you use the same strategy,
+i probably you won't make it.
+i Hint : The featured sequence is
+i only about 17 moves long, not
+i including waits.
+a Nic01
+m 23 23
+#&###&##0000000########
+#................#Q.. #
+#^................$.. #
+#.^............Q##Q.. #
+&..>..............$.. #
+########+++++++ ##Q.. #
+#*0.00*#QQQQQQQ #.$.. #
+#00*000#....... ##Q.. #
+#0000*0#......$ #.$.. #
+#000000############## #
+#QQQQQ.+** R B G      #
+#Q+++!.#####E######## #
+#QQQQQQ#0!0###        #
+#Q........QQ.  ########
+#0y    #*.Q*#          
+#########0############ 
+#$::$  #... #    #00## 
+#:::. Q#     .0    .1# 
+#::   .#@+..# 0* 0.#c# 
+#::    ##+Q####&Q&## # 
+#::      ++#########c# 
+#$ (((   _.Y    +Y Y Y 
+####&##&&&#############
+y 0d00r00 0
+y ddd!!! b 
+y dwwg..ww.
+R 86129
+0 0
+1 Demo 1
+2 ....llbltlrrrllltlllBrbrbrlt....r.bbRltt
+2 lllllBtlLr.lttTT.tT.b.bbrr.......lllbBtr
+2 tttlllblllLt..........rtrTrbr......lbLt.
+2 ..t.lllBtlbLrrrrbrrbrb..b.lbr.......bbbr
+2 Bllllttllt..r.bb.lbbLllLrrBrrrBrtrrbrrrr
+2 ml.........rrrrm.........rrrrrrrtttttttl
+2 lllllllltllblrtrrrtrrrrrrrtttt.ttttttttl
+2 lbbr..lbbr..lbbr...lbLttttlll.r.l.lbbbbl
+2 Tll......t.lllLttt...rrrllrrr....r.r..l.
+2 l...l.rr..l..tllllllllLrrrrrrrrttTrrrlll
+2 ..rtrb......lrr.....lbb..b.llll...rt.rll
+2 llllllltLrrrrrrrrttrr.ll..b.l.rt.....L.r
+2 r..l....l.l..l.........l....bbl..r.t.t.b
+2 blll...rr..ll..rrrttLbblllllllLrrrrrrr..
+2 tl....rttlrrrb....tllbbbRtttrrb.........
+2 ....lrr..ll..lllbl..b.........rrrrrBRlll
+2 lttlmllllcbbsr..r...R...lllLrrrrtrrttrrr
+2 rrrrrrbrrbbbbbbrrrbblllllllll.Lrrrrrrrrr
+2 bblllllllblllllbbbbbbbbbLtttttttttrrrrrt
+2 rrrrrrrttlllllll...b.......
+
+uuid 5ca163625194fb6531006c7ff3d4ab45
+
+leaderboard steps time

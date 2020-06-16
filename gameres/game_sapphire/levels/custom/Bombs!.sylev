@@ -1,0 +1,30 @@
+n Bombs!
+D 2
+C 3
+p 0
+M 0 Rasputin
+i Note: Bombs are highly explosive.
+a Shark
+m 15 12
+#E#############
+#...Q.....Q..1#
+#.Q....*..*...#
+#.*..........Q#
+#....*...Q....#
+#..........*..#
+#.*.Q..*......#
+#.Q....Q..Q..*#
+#.*......*....#
+#.............#
+#Q....*.....Q.#
+###############
+R 50966
+0 0
+1 Demo 1
+2 ..bllllllllbbllltrrr....lllbbblbbrrrr...
+2 bbrlttttrrrrbb.ttrrrr.bll.t.b.lttt.b..ll
+2 lllltttltllt.....
+
+uuid 86e90ff97f3b6e276bd70b907eef191b
+
+leaderboard steps time

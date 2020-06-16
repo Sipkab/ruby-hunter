@@ -1,0 +1,35 @@
+n Introducing the Swamp
+ldeutsch n Kennen Sie Käse?
+D 2
+C 3
+E 0
+M 0 Waterloo
+i Try to finish the level
+i fast enough, so that you
+i will not be trapped by
+i the growing swamp.
+ldeutsch i Versuch den Level schnell
+ldeutsch i genug zu lösen, sodaß du
+ldeutsch i nicht vom wachsenden Käse
+ldeutsch i eingeschlossen wirst.
+a Reinhard
+m 15 10
+###############
+#E1...........#
+#......%%%%...#
+#.............#
+#.......000...#
+#.............#
+#........*....#
+#....@...*....#
+#.............#
+###############
+R 23300
+0 0
+1 Demo 1
+2 ..bbbbb...rrrrrrr...blll.tllbrrrrtt.Rbb.
+2 ..r.llll.t.ll.ttttt..l............
+
+uuid af5555de8c542a1fcd834c9a8ab2010d
+
+leaderboard steps time

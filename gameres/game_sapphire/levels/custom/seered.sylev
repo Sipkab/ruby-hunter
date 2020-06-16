@@ -1,0 +1,47 @@
+n See Red
+D 6
+C 6
+e 5
+s 0
+p 0
+d 1
+i Every stone and bag is useful,
+i though ultimately, you only need
+i to collect one gem.
+a Alex
+m 18 18
+##################
+#... ..........0.#
+#..0 ............#
+#... .........a..#
+#.0. ............#
+#... ..........aa#
+#... Q...........#
+#... ..1# #......#
+#... .#0+Q#......#
+#... .#>  #......#
+#... .#####......#
+#... ..... .@[+..#
+#... ..... ..++..#
+#... ..... ......#
+#... ..... ......#
+#... ...c. ......#
+#...a.....aa.....#
+##################
+y dEQ>  ###
+R 64641
+0 0
+1 Demo 1
+2 ...t...tllllll.r..trtlbb..rrrr.....r....
+2 ....b..rr.tllllbrrr...t.rrr..bl..r...t.t
+2 tttrrrr.llllbbbrrrrrrtttllllll.lbbbb.r.b
+2 .........ltlllbrrr.......trrbrr.bbbb..tt
+2 tttllllb.rrr..rb......bbbb.......tlll.bb
+2 b....brtt.l.rb..ttrr.trrbbb.lll.rrtr..b.
+2 ll..rttllllbbb.lll......rrrtt..rtrrrbbll
+2 bl..llll.bbll..rrtttttrrtttttllb......bb
+2 bbl........
+
+uuid 4a9a0d5427645a4662c46e5aa6e5a479
+
+leaderboard steps time

@@ -1,0 +1,53 @@
+n Puzzle buffet (2)
+a Emerald Mine
+D 5
+e 97
+s 200
+i Discover new puzzles in every room.
+i I had to make a little change to the original
+i Emerald Mine level.
+m 64 32
+################################################################
+#$.   7    .$#.Q  QQQ$QQ #..0........# 00.0  00. #     #       #
+#.. ...... ..# . ....Q.. #.0....0..0.# .0.0 ..0. #     #       #
+#6  .    .  8# .Q.Q.Q..Q #.000.......# .. 0 ..0  #     #      *#
+# ...  0 ... #  .Q.Q.Q.. #.....0.....#  .. .   . #     ### #####
+# .6  ..  8. #  .Q$QQQ.. #.........0.#. . .. ... #*    #    #  #
+# .        . # Q .Q... .Q#.0.........# . .  . .  ##### # wo    #
+# .        . #Q.Q.Q.QQ. .#..0........#  .    .   #  o# #    #  #
+#6.   u    . #. ...Q...Q #...ccccc...# .   .  .. #   #     *#  #
+# .        . #Q Q.Q.QQQ.Q# ......... #.....     .#     ######  #
+# .6      8. #. ..QQ..Q..#  .......  #  ..  . .  #   #      #  #
+# .......... #  . ..  .. #           #    . ..@  #   #      #  #
+#6     5    8#    . .    #           #@@@@@@ .@@@#o* #        o#
+#######R###########R###########R############R############R######
+#                                                             E#
+#                             1r2r                             #
+#                                                              #
+#######R###########R###########R############R############R######
+#+++!!! +++++#           #QQQQ. .QQQQ######S #$  #$     #      #
+#++++++++++++#    .. .   #QQQQQ.QQQQQ###   . #$$ #. ... ###### #
+#++++++++++++#  ..       #...........### ##s#### #. ...    $ # #
+#++++++++++!!#     .     #.*........*###       # #. ........ # #
+#++++++++++++# .  .   .  #.........%.######s## # #. ........ # #
+#$+++++++++$+#........ . #....*.%....###       # #. .     $. # #
+#++++++++!+++#oo|aaa| .. #..........*### ##s#### #. . ...... # #
+#++++++++!!++# o+++++ .  #..%.......%###       # #. .        # #
+#++++++++++++# oooo      #....%.*...*######s## # #. ....###### #
+#++++++++++++#*          #.*....%....###       # #. ...##^^^^# #
+#+++$++++++++#**         #...........### ##s#### #.     0^^^## #
+#++++++++++!$#***        #......*.%*.###    #    #.....#S####  #
+#++++++!!!!!+#****       #*...%......#####    ####      .      #
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 2459510028
+0 8
+1 Demo
+2 rrblblbtb..tbtrrrrrrrrrrbtbtbtltltbtb..trtrtl..tllllllrbbbbblb.bbbrbbbrbr.t.t.llllllllltltltbrbbbblrlrttrttttttltltltttLtrrrrrbbbbrbr..ttbt.t.tlt..tt..lt.ttttt..lt..l.btllrbblrttrrrrrrbrrrtt.r.b.l.l.l.b.t.r.r.b.l.ll.l.l..l.l.l.l.l.l.B.l.t.l.b.b...r.r.r.r.r.l.b.r.r.r.r.r.r.r.r.rllbblr.b.rbbbbrbrlrrrrrrlblbl.b.rrrrrrrrrrrrrrrrrrrrrrrrrrbbbbbbblll.b.b.l.l.b.b.r.r.r.r.r.r.b.b.l.l.l.l.l.l.b.b.r.r.r.r.r.b.b.r.b.b.l.l.l.l.l.l.brbrb.r.r.r.b.rtrtrtr.t.rtrttttrrttrtrtbtlt.tt..tlt.t.t.l.l.t.r.rtbtb.bbb.b.b.b.b.b.b.btbrbrbbbrlrll.llllt.ttt.t.t.t.l.b..b.l.l.l.b.bb..br.brbbbbbbll.tb.r.r.t.t.t.t.t.t..lrlt.rlr..t.lbt.rtrlrlrbrrrrrrrltltbtbtblblblblblblrl.lr.R.ltttl..rlrbrrrrr.r.ttt.tlt.t.ttltlllll.l.lblll.tl..ll.t.t.t.t.t.t.l.t.t.r.l.b.b.r.r.r..t.r.rtrtrtrlrlr.rrrb.b.b.l..t.t.t.t.t.t.l.ll.b.l.b.b.b.b.r..lt.t.t.t.t.t.r.b.b.b.r.r.t.r.t.r.b.b.b..t.t.l.t.r.b.bb.l.r.b.b.b.t.l.b.b.r.r.r.t.l.l.b.t.r.l..t.l.t.t.r.b.b.b.b.b.ll.l.b..bll.Lrrt..rrr.trrrrbrbrbbblbb.brbrrttrtrrrrrrrrrrrrrrrrrrrrrrrrrt.l.ltltltll.t.r.r.r.r.t.t.t.t.t.t.l.l.b.B.t.l.t.t.t.r.r.r.R.l.l.l.b.b.l.l.b.b.b.l.l.t.t.t.l.l.l.l..r.r.r.r.r.r.r.t.t.t.t.t.t.l.l.l.l.l.l.l.t.l.t.t.t.b.b.b.brbrbrbrb.b.bbbbbbbbblblblbbbbbBb.btbtbrbrbrbbbbbrbrrrbrrrrbbllbbbbt..t.t.r.r.bbb.blbbbblblbb.l.l.l.l.b.b.bbbrr.b.bl.r..l.b.rrrrrrrrrbbbbbbbrbbbbbbbbbbbbbbbblblblblblll..l.l.l.lll.l.t.lt.l.t.t.t.t.t.t.r.r.r.r.t.r.t.t.T.l.l.l.l.l.l.l.l.l.t.T.r.b.L.L.b.b.r.r.b.b.b.b.b.b.b.r.r.rrrrrrrrrrrrrttttttttttttttttttttttttlllllllllltttttllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllbl.lll.b.l.b.l.l.b.l.l.l.l.l.b.b.b.b.b.b.b.b.b.b.r.b.r.b.r.l.l.l.T.t.t.t.t.t.t.t.r.r.t.t.t.t.t.r.r.r.t.tltltl.l.l.l..rl.lrlrlrlrlt.Tlblllllll..lb.l.l.L.r.r.u.t.r.b.l..r.r.r.r.t.t.t.t.t.lb.b.b.r.u.l.l.b..r.b.b.b.b.l.b.l.l.l.l.l.l.l.l.r.tr.r.r.b.u.t..t.l.l.r.t.t.r.l..b.b.b.r.r.r.l.m.l..l.r.t.l.t.r.r.t.t.l.lb.r.r.b.b.u.t..t.r.t.r.b.t.b.b.bb.b.b.l.l.b.r.u.r.r..b.b.b.b.b.b.r.r.r.r.r.b.r.r.r.r.l.l.t.l.t.l.l.l.ll.b.b.m.l..r.r.r.r.r.t.r.l.l.l.r.l.rr..lrlbruttr.r.r.t.t.t.t.r..b.b..l.t.tb.b.b.R.b.l..rl.lrlrs.r.r..b.l.b.b.b.b.l.l.t.rl.l.l.l.t.s..l.l.rr.b.....l..b.b.b.l.l.l.l.t.l.l.ll.t.t.t.l.l.L..r.r.r.b.r.rl.s.r..r.t.t.t.r.r.t.r.l.t.t.rl.l.l.ltt.s.r..t.b.T.b.b.l.l.b.ll.l.l.t.s.r..r.b.b.b.l.l.r.t.t.r.tl.l.l.t.s.r.b.b..r.t.l.l.r.r.l.l.l.l.B.l.l.ll.llr.r.r.brbrrrbrrrrrr.rtr.r.rlt.t.t.trlltttttttlt.tlt.l.l.l.t.t.t.r.r.r.r.r.r.r.t.t.r.r.r.r.r.t.t.l.l.l.l.l.l..t.ttt.t.tttt.t.t.t.t.t.t.t.t.r.r.r.rrrr.b.rr.rlr.R.llllllbbbbbblbblbbbbbbbbbbbbr.r.r.b.b.b.l.l.l.l.l.l.l.l.l.l.l.l..r.r.rb.b.b.b.r.r.b.r.r.b.r.r..r.t.r.t.r.b.r.r.l.t.t.b.b.......t.t.l.t.t.t.t.t.t.t.l.t.r.....b.l.b.l.b.b.b.b.b.b.b.b.b.b.b.l.l.l.ll.l.l.l.t.t.l.t.t.tltlt.llllllll..llll.tt.t.t.t.t.t.t.t.t.t.t..t...l.trtrlrtrlrtrt.rr.rtrrrrr.b.blbtb.b.b...l.l.t.l.t.l................................................................l.l.b.b.b.b.b.............r.l.l.t.t.t......L................t.r.r.r.b.b.bb.b.b.b.l.b..br..rR.llbbbbbrbbrrrrrrrrrrrrrrrrtrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr.r....
+
+uuid 56c2196ba462b439ba6d9abe30b51fa5
+
+leaderboard steps time gems

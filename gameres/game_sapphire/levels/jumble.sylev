@@ -1,0 +1,44 @@
+n Gem Jumble
+ldeutsch n Durcheinander
+D 2
+C 1
+e 52
+s 0
+p 0
+M 0 Penny Lane
+i Try to open all bags
+i using the stones.
+ldeutsch i Versuch, alle Säcke mit
+ldeutsch i den Steinen aufzumachen.
+a Alexander
+m 17 17
+#################
+#..*.#*#..*0.0%0#
+#.0...c......0u0#
+#.1.0.$.*.0..000#
+#.0.............#
+#...............#
+#0.0............#
+#......*..@@....#
+#.............*.#
+#...............#
+#.*.@.*..0%0....#
+#........0u0..*.#
+#.0%0....000....#
+#.0u0.........E.#
+#.000...........#
+#.......*......*#
+#################
+R 50491
+0 9
+1 Demo 1
+2 ......rttrrbr..b.R..rrrrtrt..brrrtrrbllb
+2 rr.l..lbbblltttrr..lll..tllbr.bbbr.ttl.b
+2 ..bb.rrrrrbbbb...rbbbbllllllllllllll..t.
+2 .ttttr.trrttt..ttrbbbbb..b.Lrrtttr.bbb.r
+2 rrbllbrrbllllllllbR.llbrrrrrrrrrrrrrtt..
+2 ......
+
+uuid c33d66dd367b564f38566c9e39c0ced2
+
+leaderboard steps time

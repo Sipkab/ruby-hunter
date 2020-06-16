@@ -1,0 +1,75 @@
+n Ticket to hell (2)
+a Emerald Mine
+D 4
+s 0
+i Many stones,
+i many bombs,
+i much headache.
+m 64 32
+################################################################
+#...0..0. ............0......12...................QQ...0.......#
+#..........  ....0........ ..0..Q.QQ............0.. ...0.0.....#
+#..000.......  ..Q.. ..0Q....Q0..0..Q*QQ0.0 ...Q0...Q.. .0.....#
+#......Q..0...0Q.Q.0 ..0..0Q ..0..Q0.0..Q.Q0..... ..0.0..0.....#
+#..0.....Q..0.0.00.Q0Q..QQ0 ....*0.......QQ.0 0.. 0Q.0.0...00..#
+#...Q...0..0Q.00Q.Q. .0QQ0...0...00.  0..0.....Q..00Q0...Q..0..#
+#..0.Q...*00..*.0.......Q..00.......0.0...0.0 0.... .. Q.. ....#
+#......Q..Q.0...0..0*.0....... .Q0...0.0..Q..QQ0 ......*.00....#
+#.0......0...0..00 ... .0 .0..0.0*..Q. 0...0 0.Q 0 0. ....*Q...#
+#.....00QQ00  0... 0... 0   ...0. ..Q. QQQ.0. 0Q00. *0Q .......#
+#...0..Q0.0... .   .00...0  ... .  ... ..0..*.0 ....0...Q......#
+#  ......  .0. .Q..QQ0.0. ....Q. .. .0..0....0.... ......0.0Q..#
+#.. .... . 0  ....0Q.....0.000...... .Q..*..0..QQ..000.........#
+#.0. .0Q..0  ....0..0 .QQ.00.0.0 . 0Q.0. ..0. 0. 0.0.... ... ..#
+#..  0 ..0. .0.Q0...Q.Q.0.... ....00Q...0....Q00..  .0 00......#
+#  .0  0.Q.  .0.Q0Q.Q..QQQ.. ..0...Q0.0..00.Q 00 .Q...Q.0. .0 .#
+#.0...0..... ..00... 0..0Q.0..*...0.QQ.Q.Q0 . ..   0.Q..*...Q0.#
+#0...Q*...0.0    .0..Q....00..0..  0 .....0..0 Q0Q0..Q.........#
+#.........Q...0.. .. .0.... .00....... 0  .0. ..0..00..0... ..0#
+# .0.0.Q0..0.QQ.*.    ...0.0 ....QQ.Q. . ..0... Q... .. 0..0...#
+#0  .0.QQ.0..00...0.0    .. ..Q.0...Q. 0 ..Q .0..0..........0..#
+#....0Q...0...  ...000..0.0.. .0. ....0  .......Q....0..  .Q...#
+#..0...Q...0. .*. QQ0...0...  ..Q..0.... .*....0 ..QQ. .. .00..#
+#.0Q...0. ..Q0   ...Q0Q..00 ..Q..Q... 0 ....Q.00......*... . ..#
+#.Q00...0  ..0.....0....0..0.Q.. ..0......0...  .. ....0.0Q....#
+#Q...0....0. .00QQ...Q..Q.Q...0.00....0Q00.....0. .. .0.  ..Q..#
+#.....0  .0. 0......0.*....0..0 .0.00. . ... . .Q.0.0... ..0...#
+#0...0 0...  ..Q.00...... ..0....00....... *....0Q.....00. ....#
+#...  ... ....Q.....000 .0....0...0..00  ...0..0..0..0.0.......#
+#.......................E..................E...................#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 76041
+0 8
+1 Demo 1
+2 ...........r.r.r.r.r.r.b.b.r.b.t.r.rlrlr
+2 .r.rlr.r.b.b.blb.b.bbbblbbbbblllllbbbblb
+2 .bbblrbr.rlr.rbt.tltlt.t.t.tbtbtlrlr.r.r
+2 lr.blbtrtbttttlrtrtrtrlblr.r.b.rrr.rtrlb
+2 lblblblbblblllblbbbb.l.lbbrbrrrr.b.blbll
+2 .l.b.btltltllbtbtb.b.l.b.b.l.l.l.lblblbl
+2 btbtblllllblbtlrbrbrblblbl.t.tbt.rbtbtbt
+2 rrrtrtttrtrtrl.t.t.t.t.t.tlllllllll.lt.t
+2 .rr.b.b..l...t.t.l.l.lbbbbbbbbrbrl.l.l.t
+2 btb.b.r.rr.r.bbbbbbbrbrbrb..lbl.l.l.l.lr
+2 lrltltrlrtrtrtrtrt.ttlrlrlbtr..l.t.t.t.r
+2 r....lrlrlrlrlrlrl.l.l..r..l.t.l.lrlr.rt
+2 rt.ttl.lll.ltltl..b.b....l.lrl.l.ltbtbtl
+2 tltbtbtb.b.b.btlllllt..blblblblblb.rbr.r
+2 .blbbbbrbr.r...l.l.ltbt.tllllblb.lt.t.t.
+2 ltlt.t.r.rrrrrrrtrt..trrrrrr.rbrbrb.b..t
+2 .trtr.r.rb.brbrbbbbbbrbrbrbrbrbr.r.rrrb.
+2 t...r..l.l.lrtbtbtrtrtrt.r.t..r.r.r.rbr.
+2 r.r.r.rlrlrbrbrbrbtbrbtrrrrr.r.bb.b.rb..
+2 .rtbrr.r.rrrr.r.r.rltttttt.t.t.t.r.r.l.l
+2 .bbbbbbbl.l.l.ltltltlttrlrlr.r.rlrbrbblb
+2 lbtblrlblblblb.b......r.....l.l.l.l.l.l.
+2 l.l.lrl..btblblrbrbbbr.r.r.r.r..........
+2 ....
+
+uuid 1f38ff29aadd56c21ba62705d593c8d0
+
+leaderboard steps time

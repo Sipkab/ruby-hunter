@@ -1,0 +1,50 @@
+n Not Good for the Mechanism
+D 8
+C 6
+E 0
+p 0
+i I was thinking I would create a
+i fairly simple level, where the goal
+i was to shoot something with a laser
+i and that would be that.
+i 
+i Instead, it somehow turned into
+i this. Enjoy!
+a Alex
+m 18 16
+##################
+#0..*..(.*..*....#
+#.....1.*......*.#
+#..$g.....*..$.. #
+#$.....Q.......  #
+#..*....*...Q.   #
+#+sss+s+.....    #
+#ss+sss.$...     #
+#s+ss+.*...      #
+#+ss+... ..      #
+#5              0#
+# 7 :::        0Q#
+# iQ:::       0E0#
+# i[:::      00Q0#
+#  _:::     00Q00#
+#a#####aaaa#######
+R 54866
+0 0
+1 Demo 1
+2 ......llll..bb.R...bltt.r.t.....bbbrrr.l
+2 tttllL..lbbbrrr.......trr........t...rrb
+2 lBt.lL...rr.b.rrB.rrrtllllllllbrrrrrr...
+2 ..t.ttrrrrbbb...tllllllll.trrrrrrrbbbbbb
+2 lll....................tlltL...Tbr...r..
+2 .l.Tr...........bbb........tt.ttTbbLrtTr
+2 bbbbr........lllltttltlttlltllbrtrrrrrrr
+2 rbbbbbbll..llll..ttLrbrbbbbbrr.llltttttt
+2 ....tt.bb.b................lt...........
+2 ................................bLblll..
+2 ..................llr....r..rrbbbb......
+2 ..ttttlllllbbbBtttrrrrrrrrrrrrrbb.......
+2 .
+
+uuid b47555e3fad12b4065d8b038ab9a7024
+
+leaderboard steps time

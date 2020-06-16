@@ -1,0 +1,34 @@
+n Shelved
+D 3
+C 1
+p 0
+M 0 FF7choct
+i The layout of the level makes the
+i trick fairly obvious. But the
+i true challenge is not trapping
+i yourself at the beginning.
+a Alex
+m 7 13
+#######
+#.SS###
+#... *#
+#.## ##
+#.SS###
+#... *#
+#.## ##
+#.SS###
+E... *#
+#0## ##
+#**Q#1#
+#0*...#
+#######
+R 6923
+0 0
+1 Demo 1
+2 ..b.llL..L....L..rr......lllt.l.tt.rr..l
+2 .rrrRllltttrr.l.rrrRllltttr....r.l.r.rRl
+2 ll.bbbbbbl..............
+
+uuid 1fc226848b9b43930d315af7f4743cca
+
+leaderboard steps time

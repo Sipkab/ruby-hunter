@@ -1,0 +1,34 @@
+n Magma
+D 3
+C 5
+p 0
+M 0 Live and let Die
+i One way to solve your problems is
+i to deal with them. Another way is
+i to drop stones on them to make them
+i blow up.
+a Shark
+m 15 12
+#######E#######
+#...#.....#...#
+#0..#.....#..0#
+#...#.....#...#
+#@..#..@..#..@#
+#...#..1..#...#
+#...#..0..#...#
+#.............#
+#QQQQQQQQQQQQQ#
+#.............#
+#QQQQQQQQQQQQQ#
+###############
+R 23062
+0 0
+1 Demo 1
+2 ..l.rrtrrbrtlllbr.llbblllttttLt.lbbrr...
+2 ..............bbbrrrrtrR..ll.bbbbrrrrrtr
+2 ttttttRtrbbbbbbbblltlll.lttt.ttttltt....
+2 .
+
+uuid 290ced85f7cf46fa628d3c9dacc974eb
+
+leaderboard steps time

@@ -1,0 +1,29 @@
+n Dropoff Point
+D 1
+C 1
+E 0
+p 0
+M 0 Dancing on the Ceiling
+i All you have to do is release the
+i stone, and the machinery takes care
+i of the rest.
+a Shark
+m 13 10
+~            
+~   ######   
+~   #m   #   
+~   ##0# #   
+~    #1 @E   
+~    # ###   
+~    #{#     
+~    ###     
+~            
+~            
+R 53350
+0 0
+1 Demo 1
+2 ...r..............rr.....
+
+uuid f7069011a4c1228ce7196426ae0acd71
+
+leaderboard 

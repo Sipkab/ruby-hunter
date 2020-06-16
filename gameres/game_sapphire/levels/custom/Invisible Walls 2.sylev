@@ -1,0 +1,76 @@
+n Invisible Walls II
+D 4
+e 5
+s 0
+p 3
+M 0 Nightshift
+i A harder maze.
+a Alexander
+f Alexander
+m 40 50
+1iiiiii>     +                          
+~     iiiii  +                          
+ii  i     i  +                          
+iiiiiiiii i  +                          
+bi ii     i  +                          
+~   i  iiii  +                          
+i  ii  ii>   +                          
+ii  ii  i    +                          
+iii     i    +                          
+iiiiiii i    +                          
+iiiiiii i    +                          
+iiiiii  i    +                          
+~iiii   iV   +                          
+~ ii  iiiii  +                          
+~  i    i  > +                          
+~  i    i    +                          
+~ ri    i%%%%+                          
+~     .Q.%%  +                          
+~  i   _   i +                          
+~  i   (iiii +                          
+~  iiii:iiii #                          
+~       iiii #                          
+iiiiiii i    #                          
+~     iii    #                          
+~     i      #                          
+~     iii    #                          
+~            #                          
+~       i    #                          
+~     iiiiii #                          
+~     iii  i #                          
+~          i #                          
+~     iiiiii #                          
+~     iii    #                          
+~     iii    #                          
+g     iii    #                          
+~     iii    #                          
+~     iii    #                          
+~     iii    #                          
+~     iii    #                          
+# Q   iii    #                          
+# .(   :     #                          
+##.:   i     ###########################
+~     iii    ##+++######################
+~     iii    #++Q++#####################
+~     iii    ++QQQ++####################
+~ y   iii   ++QQQQQ++###################
+~     iii  ++QQQQQQQ++##################
+~     iii ++QQQQQQQQQ++#################
+~         +QQQQQQQQQQQ++##iiiiiiiiiiiiii
+_________ QQQQQQQQQQQQQ( i B Y G Y R B E
+y ~%  ^    
+R 48695
+0 8
+1 Demo
+2 bbrrrrrrbbrrrrbblllbbbllbblltllttllttllt
+2 brbrbrbrrrrbbbbbblblbbblllbllbllt.bbrr.b
+2 rttrrr.b..........rrrrrrr.btllllbb..rbrr
+2 .lllllltl.tllllbbbbbbrbrbrbrbbrbrbrbbbbl
+2 ltltlrbrbrrrrrbbbbltlllllbtlllllllllbbbb
+2 bbbbbbbbrrrbBrbbbbbblltttttl.rbbbbbbblbr
+2 rrrrrrrrr......t.rrrrrrrrrrrrrrrrbrrrrrr
+2 rrrrr...
+
+uuid ca0f00801fec7982a6122646f9f0c830
+
+leaderboard steps time gems

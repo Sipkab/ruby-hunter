@@ -1,0 +1,40 @@
+n Eat 45
+D 3
+C 3
+e 0
+s 0
+p 3
+M 0 Race
+N Eat 46
+a Elliot
+m 13 10
+###########%#
+>1          #
+########### #
+# ######%## #
+% [       #[#
+# ###### ## #
+# #E   0 %# #
+#_##a###### #
+~         0 %
+#%######### #
+y ~      V 
+y ~  <     
+y ~^       
+y ~    >   
+y ~      V 
+y ~  <     
+R 3385
+0 8
+1 Demo
+2 rrrrrrrrrrbbbbbbbblllllllllllllllttttttt
+2 rrrrrrrrrrr.bbblllllllllllllllll
+R 82424
+0 8
+1 Demo Cool
+2 rrrrrrrrrrbbbbbbbllllllllllllllllttttttt
+2 rrrrrrrrrrrbbllllllllllllllll
+
+uuid cdc41de06c98ea29bd807d7493590fc7
+
+leaderboard steps time

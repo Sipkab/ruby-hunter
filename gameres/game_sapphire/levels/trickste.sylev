@@ -1,0 +1,67 @@
+n Trickster
+ldeutsch n Trickser
+D 9
+C 6
+T 2000
+s 1
+p 1
+d 30
+M 0 Your Wildest Dreams
+i You consider yourself familar
+i with the game logic? Well,
+i even if you know it by heart
+i now, for this level it is time to
+i learn something entirely new.
+i 
+i You simply have to do the
+i impossible here...
+i 
+i ...three times.
+ldeutsch i Du hältst dich in der Spiellogik
+ldeutsch i für sattelfest? Nun, selbst wenn
+ldeutsch i du sie auswendig kannst, für diesen
+ldeutsch i Level wird es Zeit, etwas ganz und
+ldeutsch i gar neues zu lernen.
+ldeutsch i 
+ldeutsch i Hier mußt du einfach das Unmögliche
+ldeutsch i tun...
+ldeutsch i 
+ldeutsch i ...dreimal.
+a Juergen
+m 17 13
+#################
+#Q##     ( ##E Q#
+#...Q##  " ###QQ#
+#.#..##     ##QQ#
+#Q".%##     ##QQ#
+#++++###   ###QQ#
+#Q#QQ#&     &#QQ#
+#Q##Q#Q#+++#Q#QQ#
+#+##+###   ###QQ#
+# (* ###    ##QQ#
+"#$1#"## ^   #QQ#
+#(*$(###      ++#
+#################
+y ~ * "    
+R 92108
+0 1
+1 Nasty Tricks
+ldeutsch 1 Gemeine Tricks
+2 .........TLbRttlbbL..........r...ttrtttt
+2 tttttrrrrbr.......cbbbut......sbbbbbluls
+2 rcbbbl.mtt........btttlLrrrrRllbbbblsbur
+2 r...bLr.......rrtttttttttt...m..........
+2 l...........
+R 68090
+0 1
+1 Reinhard's attempt
+ldeutsch 1 Reinhards Versuch
+2 ....t.........bbr....lllr...............
+2 .............r....ttrttttttttrrr....brr.
+2 ...cbbbutl.r...m.bbbbrstmlcbbr.lrtcb.l..
+2 sr....ttllbb.bsbuttt.......tlllrrrrrrllb
+2 bbbbrrrrttttttttttttt.....l..........
+
+uuid 64ad7426b29239fa094a63f56770a937
+
+leaderboard steps time

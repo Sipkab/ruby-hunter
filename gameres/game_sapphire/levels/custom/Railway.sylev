@@ -1,0 +1,23 @@
+n Railway
+D 6
+M 0 Action
+i Look out for the Lorries as
+i you go through the tunnel.
+a Alexander
+f Alexander
+m 49 2
+~ 7             7                  7           #1
+~E R R R R5R $ R R R R R5R R R R R R5R R R R R5Rr
+R 21907
+0 0
+1 Very Hard
+2 b...l...r.........l.......l.........l...
+2 ....l.......l.......l.......l.....r.l.lr
+2 ..l....l......l.......l.......lr..l.....
+2 l.............ll......l..........l.L..ll
+2 rrr.rr.....ll.......l.......ll.l..l....l
+2 .....l....ll.
+
+uuid 430a016c4f15dde76ed433518a4b0552
+
+leaderboard steps time

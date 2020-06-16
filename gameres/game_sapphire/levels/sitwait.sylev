@@ -1,0 +1,59 @@
+n Sit and Wait
+ldeutsch n Abwarten und Tee trinken
+D 1
+C 1
+e 1
+T 131
+s 0
+i This level is doing the whole
+i work for you.
+i (It was fun to design it, though)
+ldeutsch i Dieser Level macht die ganze
+ldeutsch i Arbeit für dich.
+ldeutsch i (Aber das Design war spaßig)
+a Ronald
+m 38 33
+######################################
+#                     #0#            #
+#                     #0#            #
+#                     #0#            #
+#                     #0#            #
+#                     #0#            #
+#                     #0#            #
+#                     #*#            #
+#                     #0#            #
+#                     #0#            #
+#                     #0#            #
+#                     #0#            #
+#######################0##############
+#$Q$Q$$$$Q$$QQ$$$$$$Q$#0#Q$$Q$Q$$$Q$$#
+#$$Q$QQQQ$QQ$$QQQQQ$$Q#.#$QQ$QQQ$Q$Q$#
+#$Q$$$$$Q$$##Q##$Q$$Q##Q#######$Q$Q$Q#
+#QQ$QQ$Q$$##QQQ###QQ##Q.QQQQQQ##$Q$Q$#
+#$$Q$$Q$$##Q###Q#####Q. ######Q#####Q#
+#$Q$$Q$$##Q#   $+%0#Q. 0######QQQQQ#Q#
+#$Q$Q$$$#Q$# #0##%0Q. 0+.QQQ######Q#Q#
+#$$$QQQ$#Q$# # ##QQ. 0+.Q###Q#QQQQQ#Q#
+#Q$QQ$$$#Q$# #Q# .. 0+.Q$#$Q##Q#####Q#
+#$Q$QQ$Q#Q$# Q##   0+.Q$##Q####QQQQ#Q#
+#$$$Q$Q$#Q$##Q### +......#Q#######Q#Q#
+#$$QQ$$$#Q$$#Q#E1+.QQQ...#QQQQQQQQQ#Q#
+#QQ$Q$Q$#QQ$#Q####Q#################Q#
+#QQ$Q$Q$#QQ$#Q######################Q#
+#$$$Q$Q$#Q$$#QQQQ.+8      #$QQQQQ$QQ$#
+#$Q$QQQ$#Q#######Q#########Q$$Q$$$Q$$#
+#$Q$Q$$Q#QQQQQQQQ##$Q$$Q$$$$Q$$Q$$$Q$#
+#$$Q$Q$$#####Q####$Q$QQ$QQQQ$$QQQQQ$$#
+#$Q$Q$QQQQQQ$$QQQQQQQ$$Q$$$$$Q$$$Q$$$#
+######################################
+R 13260
+0 1
+1 Demo 1
+2 ........................................
+2 ........................................
+2 .....................................Rll
+2 .........
+
+uuid 6793de72dfe5284eee5d56b11bb9a49b
+
+leaderboard 

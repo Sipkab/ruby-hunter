@@ -1,0 +1,89 @@
+n Lots of Bombs II
+D 4
+C 7
+e 108
+p 300
+Time
+N Lots of Bombs III
+i This level is much easier then
+i part I. It's easy! ;)
+i 
+i (familiar with ''Sit and wait'')
+a Stimac, Marin
+m 23 56
+#######################
+#*          (?+E#0#####
+#:+##############+#####
+#Q(             +QQ####
+##+              QQ($##
+#################+##:##
+#################+##:##
+##*             (Q  $##
+##:##############+#####
+##:##############+#####
+##*              Q( $##
+#################+##:##
+#################+##:##
+##*             (Q  $##
+##:##############+#####
+##:##############+#####
+##*              Q( $##
+#################+##:##
+#################+##:##
+##*             (Q  $##
+##:##############+#####
+##:##############+#####
+##*              Q( $##
+#################+##:##
+#################+##:##
+##*             (Q  $##
+##:##############+#####
+##:##############+#####
+##*              Q( $##
+#################+##:##
+#################+##:##
+##*             (Q  $##
+##:##############+#####
+##:##############+###S#
+##*              Q( :+#
+#################+### #
+################S # # #
+################+ # # #
+###$         Q#Q+   # #
+###:##########Q#+   # #
+###$      *# ##Q+   # #
+##########:# ###+   # #
+###$      *#        # #
+###:########        # #
+###$      *#    | | # #
+##########:#   Q+|+ # #
+###$      *#   ++++ # #
+###:########    @+    #
+###$      *#    ++   |#
+##########:#         1#
+###$      *#   @      #
+###:#################Q#
+###$               (Q##
+#######################
+#######################
+#######################
+R 40137
+0 8
+1 Stimac's demo
+2 .....lllllllbrrrrr......................
+2 ..........Rllllltttr...................R
+2 ttrtrtrttttltttttRllllllllllllllLrrrrrrr
+2 rrrrrrrtttLrr.llrrRllllllllllllllllLrrrr
+2 rrrrrrrrrrtttrrRllllllllllllllllLrrrrrrr
+2 rrrrrrrtttLrrRllllllllllllllllLrrrrrrrrr
+2 rrrrrtttrrRllllllllllllllllL.rrrrrrrrrrr
+2 rrrtttLrrRllllllllllllllllLrrrrrrrrrrrrr
+2 rtttrrRllllllllllllllllLrrrrrrrrrrrrrrtt
+2 tLrrRllllllllllllllllLrrrrrrrrrrrrrrtttr
+2 rRllllllllllllllllLrrrrrrrrrrrrrrtttLrrR
+2 llllllllllllllllLrrrrrrrrrrrrrrtttrrRlll
+2 lllllllllllllltttLrrrrrrrrrrrrrrr......
+
+uuid c514563ce1c73ad0641a90dd931cc0c8
+
+leaderboard steps time

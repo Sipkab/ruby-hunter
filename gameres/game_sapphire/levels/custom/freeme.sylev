@@ -1,0 +1,40 @@
+n Free Me!
+D 4
+C 1
+E 0
+s 0
+p 0
+i The obvious method of
+i freeing the trapped
+i lorry will not work.
+i Instead, try using the
+i safes.
+a Alex
+m 15 11
+#E#############
+#%............#
+#.Q.........0.#
+#..         ..#
+#..       [ ..#
+#..    _    ..#
+#..   _7_   ..#
+#..    _    ..#
+#.. [     1 ..#
+#..         ..#
+###############
+R 40350
+0 0
+1 Demo 1
+2 ...........llllltltttttl................
+2 ...............bbbbbbbrtttttr..tltrr..br
+2 rrrrbllllllblt........lllttrr...b...lbrr
+2 ...brtllttr..............bb..lbrr...lttt
+2 ..rll.bbbb......l......rrr...trbbllllltt
+2 rtttrrrr...b..r..........bbb......rrr..l
+2 lllbrrbr..tltrllllbbrrrbrtt.......lttttr
+2 rrrr.l.bb.l..lblllbbbl.t....lbl.....lllt
+2 tttttttt........
+
+uuid 68ba217f9b82f94c58ba9dfb1dd36441
+
+leaderboard steps time

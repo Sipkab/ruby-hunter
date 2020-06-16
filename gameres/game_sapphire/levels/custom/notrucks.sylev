@@ -1,0 +1,38 @@
+n No Thru Trucks
+D 3
+C 7
+E 0
+s 0
+p 0
+M 0 Action
+i You'll need to clear a safe
+i path before you can transport
+i your cargo.
+a Alex
+m 15 12
+############%##
+..............#
+#.#########+#+#
+%.#1..........E
+#.#...  ......#
+%.#... 5..  ..#
+#.#....... 8..#
+%.#....6 .....#
+#.#....  .....#
+#.#...........#
+#.......  >  .#
+#.#############
+y 0000$00a0
+R 36444
+0 0
+1 Demo 1
+2 ....bbbbbbbllbttttttttttLrrrrrrrrrrrR.ll
+2 lllllllllbbbbbbbbbrrrrr..ttll.tt....rrbl
+2 l..ttr..rrB.rB..b....Rltt...rrrrtrrbbbl.
+2 ..bblllllb..........Btt..t.............t
+2 tt..................rrrrrbb....t..tlttrr
+2 bbr........
+
+uuid 27f59d2dbc0c72f77d93c25964f0d3d6
+
+leaderboard steps time

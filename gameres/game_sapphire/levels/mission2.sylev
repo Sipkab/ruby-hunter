@@ -1,0 +1,33 @@
+n Mission Possible II
+ldeutsch n Mission Possible II
+D 6
+C 5
+E 0
+p 0
+M 0 Mission Impossible
+N Mission Possible III
+i You made the first one?
+i Well, this time the sack
+i is even farther away from
+i the stone. Be cautious not
+i to blast it away!
+ldeutsch i Du hast den ersten geschafft?
+ldeutsch i Nun, diesmal ist der Sack noch
+ldeutsch i weiter vom Stein entfernt. Sei
+ldeutsch i vorsichtig, damit du ihn nicht
+ldeutsch i wegsprengst!
+a Juergen
+m 7 5
+#######
+#.0Q .#
+#....@#
+#1...E#
+#######
+R 8146
+0 1
+1 Demo 1
+2 ....rr....Tllttrrrr...r.b.B.b.r
+
+uuid 1282567e72d85246ce574872fb5ec0e9
+
+leaderboard steps time

@@ -1,0 +1,110 @@
+n The great collector
+a Emerald Mine
+D 4
+e 110
+s 0
+i In fact, it's not easy to collect the emeralds.
+m 64 32
+################################################################
+#!***000000*0000000*0000000**!+EEhhhhh   000+..............0...#
+#***00*0*0*00*0000000000000**0+++++++++++|0|+......0......0....#
+#|**0***0000*0*0*0*0**000****|.|*000000000*|...........00......#
+#.|0*0000*00000000000*0*00**|...|*0000000*|.....0...0......0...#
+#..|0*0000000*00000000*00*0|.0..0|0000000|...........0.......0.#
+#...|0**00000000*0**0*0000|....0..|00000|................0.....#
+#....|000*000000000000*00|.........|000|.......................#
+#.0...|000****0*0000**00|..  .. ....|.|.......0...0............#
+#......|00000*000000000|.... ..............................0...#
+#..0....|00*00*0000*00|..0.. ...... ...... ..............0..0..#
+#........|0000*000*00|... .... .. ... ...  .......0......0.....#
+#.....0...|0*0000000|.....    .   . ....    ....0...0....0.....#
+#..........|00*0**0|..0. ...... .  .      . ...................#
+#..0.....0..|*0000|......... .. ..   . . .. ........0..........#
+#............|*00|........ ..... .  ..   ... ..........0..0....#
+#.............|.|..... .  ... .. . . .. . .............0.0.....#
+#...   .. ...   . . .. .........  ....  .......................#
+#..  . .  ..     . ...   . .  . .        ..................0...#
+#... . .   .. . .     .. .   ...       .  ..... ....0..........#
+#... ..                ..... ..  ......... ..... ...........0..#
+#....  ...    .        .     .    .ccccc.   ......0............#
+#...                     . ..   .  .  .     ..... .............#
+#...                  .      ...    ...    .. .. ..............#
+#..  ..       .  ..         .             .    ................#
+#.   .     .            . .      .     .. . . .  ..............#
+# ..                 ..              .      . .................#
+# .   .. .                 .                 .  ...............#
+# . ..   .   . .    .  ..                 ..    . .  ..........#
+#          .                 . . .       .           ..........#
+#...  .    ..  .   .. . .  ..   ..  .  .    .   ............. 1#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 16250
+0 8
+1 Demo 1
+2 ..llllllllllllllllllllllllllllllt.rrrrrr
+2 rrrttttllllbblllllttrrrttrrrtllllblbbbll
+2 llllllllllllllllll.tttttl..rttttrr.t..bl
+2 ..lbbbbbbbbbb.tt.....rr....l....rr..rrr.
+2 ..................rr..ttt............l..
+2 brr...ttl..l.tl..lll............rr...ll.
+2 .....R...l.bb.r......R...l.bbb.r.....R..
+2 l.bb...l...tt.tttt..t.rr...rr....r....L.
+2 .rrrbbbbbbll.rrr.....ttttt..l.llttt..l..
+2 ...L..rrbbbrbbbbrbbb..r..bb.l....L......
+2 ...r.....tttt....tttttllltl..llll..bbbbb
+2 b.ll..l..bbbb..t..t..rb......b...r..l..t
+2 ......rr......tll...ttttttt..r..tr.r....
+2 llbbbbbb.rr..tr..t.ll.tt....ttrr........
+2 lbbb...l......l..b..l.bb..btt....ttrrrr.
+2 .lll....llbbb..lbb..r.l...ttt.rrttrr.llb
+2 b.lb.btttt..rr...rrb.t..t....r..b.t.ll..
+2 r...r...........t....R......l....lll....
+2 ....................rr.bb...............
+2 ........b.....B...tt...bb...t..r.t...t..
+2 ..bb..tt.........llblb..lbbblb..llllb.lb
+2 b.r.b.rr...l....l...trr.tr.tt..........r
+2 ttrrr..tttt..rrrr....r..lll..bllbllblbbb
+2 .lb......t.........b..tttrtrt..rrttrrr..
+2 t..l....tt..............................
+2 ......r.r......B..l..r......R...l...b.l.
+2 .....llb.bb.l.bll.bbbl.b..b..l.........l
+2 .b..l.bbbllttrr..tlt.rrrttrrtttr.lbblbbl
+2 b..b.bttttrrttttttt.rrrr..r...r..b......
+2 ......b.....B.t.....................b...
+2 ................Rtt.rrrr...........r....
+2 .bb..rbbbrbb...rrbbbrb.....lltlltlltl.t.
+2 .brr...tttt........ll..lt.....L........r
+2 ...l...L..rr...rbbbb...bbrrr..bbb...BTtt
+2 t...ltt..t.....bbbb.tttll.....L...tt....
+2 .....................l.l.....rrr.bbbbbrr
+2 r..t.l...lttlll....tt..lb.ttt.l..lb.rrt.
+2 .....ll............t........r....r..ll..
+2 .........b.rr.l....................t....
+2 .b.........bbr.brrr.bbrb.tt..l..b.....B.
+2 ..t...........L...L...L....b.....Btt..b.
+2 b..t.ltl.tl..l..B.........l...L.....t...
+2 .l...L...t...L........t..b......L......t
+2 .............t.....l......l...lll..rr...
+2 ....B...t........t....tttttttttrrrrrrrrt
+2 rrrtrr.tttrrllllllllllllllllllllllllllll
+2 rrrbbbrrbblrbrrrrrrrbbbbrbb..r...ttttt.r
+2 rrrrrtttrrrtrrr..mll......rrrrrbbbbbbbbb
+2 bbbbbbbbllllbbb..rbbbbbb.lrr..tlllt..brr
+2 .......t.ttttlltlltlltlltll..rr..rbbrbrb
+2 r....brrr.........bbbbbrrrtt..lbttll....
+2 l....tttlttllltttlllrrrrrrrllllllltll.tl
+2 llllll.llbbbrr.tll....ttrr........rrrrr.
+2 brrrrrbbbb..rrrrrrrr........rrrrttrrr..t
+2 ttttttttttt..bbbbblllbbbbbbbbbbb..bbb..t
+2 ll......................................
+2 .......lbbblltt.rr....ll.......r.....bbb
+2 brrrrrrrrrrrr.llllllllllllrrrrrrrrrrrlll
+2 llllrrrtttttttlltttlttrtt.rrtttttttttttt
+2 tttrrrrrttlllllllllll.......
+
+uuid c7e51b457c396da7267735c6b53f197a
+
+leaderboard steps time gems

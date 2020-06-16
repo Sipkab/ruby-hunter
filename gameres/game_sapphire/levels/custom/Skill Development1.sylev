@@ -1,0 +1,36 @@
+n Skill Development
+D 5
+C 5
+t 480
+s 3
+p 1
+M 0 Nobody does it Better
+i A mix of 1st, 2nd, and 3rd
+i Welcome To The Game levels.
+i This is easier than the 3rd though
+i There's a swamp timer here
+i Should have at least 2 minutes...
+i The demo provides a solution using
+i 31 moves and 32 time lapsed
+a Nic01
+f Nic01
+m 15 11
+~      %#      
+Q########Q#### 
+.#.......E...# 
+Q#...........# 
+.#....0$0$0..# 
+Q#....$0$0$..# 
+.#.1..0$0$0..# 
+Q#...........# 
+.#...........# 
+Q############# 
+.              
+R 66415
+0 8
+1 Demo 1
+2 rrtRtrrtrrBrrbbLbbll.TllttrrBtttt......
+
+uuid fb29e607892f1cfebf72a044266828af
+
+leaderboard steps time

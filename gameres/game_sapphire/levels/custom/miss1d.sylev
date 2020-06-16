@@ -1,0 +1,26 @@
+n Mission Plausible 1-D
+D 4
+C 5
+E 0
+p 0
+i This is one of the easier ones.
+i Obviously you need to use the stone
+i twice -- but how?
+a Alex
+m 5 7
+#####
+#0.1#
+#...#
+#..@E
+#***#
+#Q..#
+#&###
+R 63987
+0 8
+1 Demo 1
+2 .....b..lblr..bltrrbltt.LbbLrtll...bbBrr
+2 ttr........
+
+uuid 5458d2093c7d60d3275d3db5f6feba22
+
+leaderboard steps time

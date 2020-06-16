@@ -1,0 +1,108 @@
+n Maze
+ldeutsch n Irrgarten
+D 4
+C 2
+e 14
+E 0
+s 125
+M 0 Voyager
+i Patience, my friend.
+i Patience.
+ldeutsch i Geduld, mein Freund.
+ldeutsch i Geduld.
+a Reinhard
+m 60 50
+############################################################
+#!!!!!!#!!!!#        #      #     #               #        #
+#!1!!!!#!!!!#        #      #          #          #   *    #
+#!!!!!!#!!!!#   %           #     #    #          #   .    #
+### ##### ###        #      #     ############# ####### ####
+#           ### ########    #     #     #           #      #
+######      #    #     ### ## #####     #                  #
+#    #      #    #     #    #           #           #      #
+# *         #    #          #           #           #      #
+# .  #      #    #     #    ## ###############      #      #
+## ##########    #     ######     #          #      #      #
+#         #   *  #     #          #%      %  #      #      #
+#         #   .  #     #          #   %      #      #      #
+## ####   #      #     #          #        % ########      #
+#     #   ########### ######### #### #########   #         #
+#     #     #      #         #    #***#          #         #
+##### ########     #         #    #***#          #### ######
+#     #      #     #  ## ##  #    #***#          #         #
+#     # ## ###     #  #   #  #    #***#                    #
+#     # #    #######  # E #  #    #####          #         #
+#     # #             #   #  #    #      %       ###########
+#  %  # #          #  #####       #              #   #     #
+#     # #          #         #    #              #   #     #
+#       #          #         #    #              #   #     #
+#     ########################    #              #     %   #
+#######     #              #      #### ###########   #     #
+#    #      #          ### #      #      #      #    #     #
+#       *   #          #   ##########    #           #     #
+#    #  .   #### #######            #           #    ## ####
+#    #      #      #   #     *      #    #     #######     #
+# ###########      #   #     .      #    #     #   #   *   #
+#                  #   ## ###########    #     #   #       #
+#        #         #   #   #     #       ############# #####
+#   %    ###########   #   #             #    #    #       #
+#        #     #       #   #     #       #    #    #       #
+#                      #   ## ############    #    #       #
+#        #     #       #   #    #     #            #       #
+#        #     #### ####        #             # %  #       #
+#   *    #######      #    #    #     ######### .  ###### ##
+#   .    #    #       #    #    #     #%%#     .*.      #  #
+#        #            ########  #     #%%#    .***.     #  #
+#        #    #       #      #  #     #%%#     .*.      #  #
+##########    #       #      #  #     ######### .  ######  #
+#    #        #       #      #  #     #  #    #    #  #    #
+#    #        ##########     ##### ####  #    #    #       #
+#    #  %     #        #     #     #     #    #    #  ######
+# *  #        #     %  ## ####     #     #    #    #       #
+# .           #   *    #           #     #    #    #       #
+#    #        #   .                #     #    #            #
+############################################################
+R 30407
+0 4
+1 Demo 1
+2 ....rrrrtlllllbbrrrrrlllbbrrrrrrttlttrrr
+2 bllbrrllbbbbblllllllbbbbbbbrrrbbbbbbll..
+2 cbrrrttttttrrrbbbbrrrrrrtrrrrbbrrrrrrrrt
+2 rrrtttttttttttlttrrr.llllttttttrrrrrrrtr
+2 rrrrrrrrrrbbbbbbbbbrrtttt.rrrrrrttttlbrb
+2 bbbbbbbbbbllbbblll.blllllllllbbrb.srtttl
+2 lllbbbbbllbbbbbbrrbrrrrtrrrrrrtttrrrrr.c
+2 bbr..cbbblbbbbbrrrbbbbbbbblllllbbbbllltt
+2 tttttl.tt.blrt..srr........l.lttl..srrtt
+2 l...utll.b.t.bbbbbbbbbbbbbbrrttttttttttt
+2 tlllllllbllllllbbbbllbbbbbblllllllllblll
+2 t.l..ut.........cbbll..sr.........llllt.
+2 brrrrrrrrr.llllllrrrrrrrrrrrrrtttttttttt
+2 trrrrrrrtrrrrrrrbbbbbbbbbbbbrrrrttttrrrr
+2 rtttttttttttllltttrttttttllllbbblllllllb
+2 llllllbbbbbllllll.lllbbbbbbrllttllttttlt
+2 ttrrrrrt.lbllttltttllllllllllbbbbbblllll
+2 lllbbbbbbbbll.sr.t.....bb.ttllllbrrrtttt
+2 ttttllllllttttrrrrrrrblltlllllbbbbbbbbbb
+2 .ttttttrrrrrrbbbbrrrrrrrrrrrrbbbblllblll
+2 lbbbbb.ttllllllbb..utt.......bbbbb.utt..
+2 .....bbbblllltbrrrrrttttrrrrrrttt.rrrrrt
+2 t.bbbbbb.tttrttttttrt.bblbbbbb.llll...ll
+2 bbbb.ttttrrrrrrttttttt.blllllllllllttttr
+2 rrrrrrrttttttrrrrrrrrrrbbbrrr.llllbbbbbb
+2 bbbbrrtrrrttttrrrrrrrrrrr.tttttttllttttt
+2 rttttrrrrrrbrrrrrrrrttttttttttttrr..llll
+2 llllllrrtttttlllllllllllblllllllbbbbbrbb
+2 bb.rbbbbbbbbbbb.tlllltttttlllllltttttt.t
+2 bbbbbbblbbbbllllllllllttt.lllbbbbbbllttt
+2 ttttttllllttrttttttrrrrrrrtttt..bb.rrr..
+2 llbblllllllbbbrrllbbb.rrrbbbbbbbbbrrtttt
+2 ttrrrbbbrrrrrrrrrrrttttttttttt.trrrrrttt
+2 ttllllllltl..sr.......blllll.srr......ll
+2 lllbblbbbrrb.utlt......bbbb.utt.....bblb
+2 bbbttttrttttrrrrrrrrrrrbbbbblllllbbbbbbb
+2 brrrbbbb.........
+
+uuid e787f6cb013782a7698a7dff219f1f0a
+
+leaderboard steps time

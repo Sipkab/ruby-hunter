@@ -1,0 +1,47 @@
+n Three Choices
+ldeutsch n Drei Möglichkeiten
+D 5
+C 1
+M 0 Live and let Die
+i If you go left,
+i   you lose your horse.
+i If you go right,
+i   you lose your soul.
+i If you go straight,
+i   you die.
+i           (russian saying)
+ldeutsch i Gehst du nach links,
+ldeutsch i   verlierst du dein Pferd.
+ldeutsch i Gehst du nach rechts,
+ldeutsch i   verlierst du deine Seele.
+ldeutsch i Gehst du gradeaus,
+ldeutsch i   stirbst du.
+ldeutsch i        (Russisches Sprichwort)
+a Reinhard
+m 17 13
+#################
+#$..0........*..#
+#..........*..0.#
+#.*....+.+......#
+#....0.+u+....$.#
+#....$.+.+......#
+#0.++0++.++Q++..#
+#..............*#
+#..+++++.++E++..#
+#......+.+......#
+#.*....+.+....0.#
+#...*..+1+..*...#
+#################
+R 87108
+0 9
+1 Fourth possibility
+ldeutsch 1 Die vierte Möglichkeit
+2 ...tttt.llrrt.......Tbbb....tttttttrrrbb
+2 ...rb.rrtt...........rtt.ll.rrbbblllbrrr
+2 bllrrbbbbbllltrrttttttttllllllllbllllttl
+2 bbbbrrrrlllbbbbbbrrllttttrrrrrrrrrb.....
+2 ...
+
+uuid f3340eae1e68c351fced4040c5a02b52
+
+leaderboard steps time

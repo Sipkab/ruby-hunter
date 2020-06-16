@@ -1,0 +1,97 @@
+n Gridlock
+D 4
+C 7
+e 200
+p 0
+v 0
+M 0 Ringing
+i Seems hard...
+i It's not, really, as long as you're
+i a bit careful
+a Nic01
+m 23 40
+#.$.$.$.$.$.$.$.$.$.E.#
+# Q Q Q Q Q Q Q Q Q _ #
+# # # # # # # # # # # #
+# Q Q Q Q Q Q Q Q Q Q #
+# # # # # # # # # # # #
+# Q Q Q Q Q Q Q Q _ Q #
+# # # # # # # # # # # #
+# Q Q Q Q Q Q Q Q Q Q #
+# # # # # # # # # # # #
+# Q Q Q Q Q Q Q _ Q Q #
+# # # # # # # # # # # #
+# Q Q Q Q Q Q Q Q Q Q #
+# # # # # # # # # # # #
+# Q Q Q Q Q Q _ Q Q Q #
+# # # # # # # # # # # #
+# Q Q Q Q Q Q Q Q Q Q #
+# # # # # # # # # # # #
+# Q Q Q Q Q _ Q Q Q Q #
+# # # # # # # # # # # #
+# Q Q Q Q _ Q Q Q Q Q #
+# # # # # # # # # # # #
+E Q Q Q _ Q Q Q Q Q Q E
+& # # # # # # # # # # &
+E Q Q _ Q Q Q Q Q Q Q E
+& # # # # # # # # # # &
+& Q _ Q Q Q Q Q Q Q Q &
+& # # # # # # # # # # &
+& _ Q Q Q Q Q Q Q Q Q &
+& # # # # # # # # # # &
+&1                    &
+&                     &
+&&&Q&&&&&Q$&&$&Q&QQQ&&&
+&&QQ&&Q$Q$Q_$&$&QQQQ&&&
+&&Q&&&&QQ&$_Q&___&___&&
+&$&&Q&&&&$&_$&Q&$&&&&&&
+&&__&$&&&$&&&&&&&&___Q&
+&$&_&Q___&&QQ&Q$$&Q$&&&
+&&$&&&$$$$&&&&&Q&QQ$$$$
+&$&&Q&&&&&Q&&&&&Q&&&&&Q
+$$$Q(Q$$$Q(Q$$$Q(Q$$$Q(
+R 45703
+0 8
+1 Demo 1
+2 ..brttrttttl.rbbb..trlbbllbbl.TrRtrrrbrr
+2 ttlttrlb....bbbrrR.Blrrtrrb..lblrtt.llbb
+2 llbLBrrrrbBRtttttttl.rbbbbllllll...rrrbb
+2 bbLrRttttllltlllbrrr.....bbbbbbbrrllLttt
+2 tttlttttttttl.lbbbbbbbbrrttlrttttl.rtttt
+2 lrbbbbbbbb.t..bl...lLbbbbbbblbrBR..rr.r.
+2 ..l...tltttt..lrtrtt..rrttllbbllttrlttrr
+2 bbbbbbbb..rtttrttttttlrbbbbbbbbb.bb..bl.
+2 ..llbBtttrrttttlttttttttttttlrbbbbbbbbbb
+2 bbrrbbbbb....b..lllllbbrbbLRttt.rttttt..
+2 bbb....tttttrttrrttttttlrbbbbbbbbbbbbbbb
+2 .l...l...bbblbLttttrrrr..r.ttt....tttttr
+2 rttlrttlrbbbbbbbbbrb..lb.blb.lbLrRtt.rll
+2 l...lllt.rt...ll.brrrrrtttttttllttr.rbbb
+2 bbbbbbb......bbbLRbLRtttrtrttttttrrttlrb
+2 bbllllbblbbbrrrbrlbtrtttt.ttrrrbttttlrb.
+2 ....bbblbtllbbbbB.tttt.r..rblttttt.rbrtt
+2 lrttlrbbbbbbb...b.bbbbrlbbLltttt.r......
+2 .llr.bbllllllllbllt.rrrrrrrrrbrt.lt.rtrr
+2 rtttlrbbb..llllb.bbbbblBrrrtttt.lttrrrrr
+2 rrttrlt.bbbb...r.rrblLttllttttrlbbbbb...
+2 ...rrbbr.l....t..b.lttlllllltllbrrrrrrrr
+2 l..t.btlllllllllbllltlt.rttttttlllrttllb
+2 bbbbbbblbrrrrrrrrrrrrrrrrr.tttttttrlbbbb
+2 bb...bb.r..rrb.b..t..........l...Btlbt.b
+2 bbb...b........tbbrrttt..bb..lbbbbr.tlbl
+2 .l.bbR.llllltlbLttlllrrttrttttttrrrrt..t
+2 l.rb....b.blbbbb.tbbtllbltltrrrrtttrrrtt
+2 lrbbbbbbbb..tt......ttttrblbrttltttttttt
+2 rrrbbbbbbbblbbbbbblltttlllll.blltrtttrrr
+2 ttttlllbbbbbblbbbllllbbbrrrbrbrrrrrrrrtr
+2 lllllllllltllllltlt.l......ttttttttttttr
+2 rttlrbbbbbbbbbbbbbbbbll.llllltt.bbbbbrrr
+2 rrttrrrrrrr...rr.t.rrlllllllllttrrrrttll
+2 tttlllttttrlbbbblllbbbbbb...brbbrrrbrrrr
+2 rrrrrrrrttttttttlttllttllttttt..bbbbbbrr
+2 trrtttttttt.tttttttttttttttttttlllllllll
+2 lllllllLrrrrrrrrrrrrrrrrr.......
+
+uuid 0e4a99bd370fd68c03af7218e04d3bd8
+
+leaderboard steps time gems

@@ -1,0 +1,43 @@
+n Bags 'r Us
+D 5
+C 3
+e 245
+M 0 Take Five
+i Try to collect the
+i rubies before the funnel
+i gets damaged.
+ldeutsch i Versuch die Rubine
+ldeutsch i einzusammeln, bevor
+ldeutsch i der Tricher beschädigt
+ldeutsch i wird.
+a Alexander
+m 15 18
+###############
+#@@@@@@@@@@@@@#
+#|@@@@@@@@@@@|#
+#1|@@@@@@@@@|E#
+#  |@@@@@@@|  #
+#   |@@@@@|   #
+#    |@@@|    #
+#     |@|     #
+#      c      #
+#      .      #
+#      ?      #
+#      .      #
+#             #
+#             #
+#   _     _   #
+#   _   Q _   #
+#   _______   #
+###############
+R 51150
+0 9
+1 Demo 1
+2 .bbbbbbbbbbrrrrrRRRRRRRRRRRRRRRRRRRRRRRR
+2 RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+2 RRRRRRRRRRRRRRRRRRRRRRRRRRR.ll.rrrbblltt
+2 ttt.rrrrrrrrttttttt........
+
+uuid a7f1e06499d8505f872cac775ee15846
+
+leaderboard steps time

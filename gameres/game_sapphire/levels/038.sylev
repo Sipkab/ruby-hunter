@@ -1,0 +1,111 @@
+n Collapsing buildings
+a Emerald Mine
+D 4
+e 50
+s 0
+i You don't have to grab all possible emeralds.
+m 64 32
+################################################################
+#1 ............................................................#
+# ................00000000.....................................#
+#.................0@.00@.0.....................................#
+#...................00@000....00000............................#
+#....0@@000000....00.0@0.0....0@000............................#
+#....0000...00....0.00.0.0....00@.0............................#
+#....0@00.0@.0....0.@00@00....0@0@0............................#
+#....0..00.000....000000.0....0000....00@000@00.0.0.0.000.00...#
+#....0.0.@00.0....0000.000.....0000...@000@00@00@@0@0@0..00....#
+#....0000@0@00........................00..00000@00..@0@0..0....#
+#......000.000........................0@000.@.@00.0000.00.00...#
+#....000..00.@........................00.@.00.00.0@0@..0@000...#
+#....0.0.0.@0..........................000@00@.0....0@.0@..0...#
+#....0.@.@0000........................@0.0...0...000..0@0..0...#
+#....000000000........................000..@.@000..0.0.@.0@0...#
+#...................0000000000........00000.0..@0.0@0..0.0.0...#
+#.....................0..0.0.0........@00.@0@..000..0..0.0@0...#
+#....................@@.0.0000........0..0.00....@@.00.00.@0...#
+#...................00000.@0.0........000.@.0@@000...0@....0...#
+#...................00.0@@0000.........@.0@...00@0.0....0@00...#
+#......0000.0..........0@.0.00........0.@0..@.0.@.0.0...@0.0...#
+#......0@.000.......000000.000........00@0@00....0.0.@0@.@00...#
+#......000@.0.......0.0@.000.0........0.0....0..0@@.0..0..@0...#
+#......@@.0.0.......00.000.000........0.0.0.@000000@000.0@@0...#
+#......000000.........................@0...00...0.000@.0@00....#
+#.....................................0000@000@@0@0@00000000...#
+#..............................................................#
+#..............................................................#
+#.............................................................E#
+#............................................................E.#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 27226
+0 8
+1 Demo 1
+2 .....rrbbbbbbbbbbbbbbb..rrrrrrrrrrrr...l
+2 ...t.t.......l.......r.b.rbb.b..llll.t..
+2 ..bll........r.t....bll.....r.brrr......
+2 .tt.....bllll....r.t...R........bl......
+2 llll..lttt...bb....ttttttttttttttrrrrrrr
+2 r.....rrr.b.rb..bbb..bbbbbbbl.tlllbbll.t
+2 ll.rrr.rr.tr.tl....................b....
+2 B.l..ll.tt......bbbl........rrr.........
+2 t.rttttt..ll.b.ll.tl......t......br.....
+2 .....L.....t......................brrrr.
+2 ...............ll..tll....ttllllb..rrrrr
+2 ......rrr..tll....llbb.lbb.ll..rbr.l...b
+2 r.l...tttrrr.b.ll.trrr..lllrrrrtttttrrrr
+2 rbbbbbbbbbb.ll.tt....L...ttll....rbbb.tr
+2 rbbbllrr.rrrbbrbbbbbbbbbbb.llllllllllll.
+2 ...t...rr.....R....l..t....t....rrb..r..
+2 R.ll..llllbbbb.........rrrrrrrrrrrrrrrr.
+2 ...........ttt..rrrrrrrrrrrr.......l....
+2 rbbbbbbllllllll..ltttttt....R...........
+2 ..bbbbbbrr................rrrrr..r.rtttt
+2 ttttttttttttllllllllllllllbbbbbbbb..rrr.
+2 trrr.....b...B.tt....b.llrrr....ltt...tl
+2 l.lttl...bbb...R.t.rrtrrbb..trr.tll.....
+2 .rrbb..tr.tr...r.l...ttttrrbb.l..l.bbbb.
+2 ttttttrrrrrbbbrbbbbbbbbbbbbblllllll...tt
+2 ttt...........L..............br.........
+2 ..r.bbllrrrrrr......rtttttttttttttttt..t
+2 .lllll.ttl....lll.........Tlllll.......l
+2 ltttt..bbbbbbbb.rrrrrtttt.bbbll..rrrr.ll
+2 ll..rr.l...llltt.tt...r.ttt...rb.rr..lll
+2 ..rrtt..rr.tr.t.r....tt.bbblb..ttttrrrrr
+2 bbbbbbbbbb..b....bbll.bll.r.tl...ttt.bbb
+2 l.............rrrrrr..............bbb..t
+2 t..llllllllll....llbbrrbb.rrbbrb.rbtl..t
+2 ttllltttt...lltttlttttttt..r..r..bbrrr..
+2 ltt.bbl..........rrbbrrrttttt....ttrrrrr
+2 ....bbbbbbbbb..bt.rrrrrrr.....t...bbblll
+2 llllttt.......brr.t..bll........r..t..t.
+2 ....t...l..rr.........llbbb.......r.tttr
+2 rrrbtl.bb.trrt.l...tt..rrrrbbbbb.llt....
+2 L....brr..bbbbblllll.bllll.rrr.....r.bbb
+2 bbbbbbbbb.rrrrrrrrrrrrrrrrrrrrrrrrrrrrr.
+2 .b.....lllllllll....t....bllllllllllllll
+2 .....l....l..bbbrrrr.t...br...t....L..br
+2 r..rrrrrtt..bbrr.tt.bbrr...rrrr.llllrrrr
+2 rrrrr..tr.................l.r....tt....l
+2 .t.l......t.....r............tttttttt..l
+2 lt..rtt.lt.r....lbbbbb..rbl...ltr..l.tt.
+2 .rtttt.bbbbbllttr...r............lll....
+2 ...rrr..rrrrbbbb.l...bl..r...lttllttlllt
+2 ll.....l...........r..rl.tttt..lr..lr...
+2 ..bbbrr.....l.ll.l..tt.l..........rr....
+2 ......rr...lbbb.tttlllb.rrr...ltt..bbbrr
+2 rrrrrttt..tttttttlllllllllllllllllllllll
+2 ll.lbbbbbbbb...ll..bbbbbrr..bbbbbrr.tl..
+2 ..................rl....l.bbbbb..rrr....
+2 ...r..bbrr....t..t.....lll.......r..bt..
+2 lllll...tl..ttttt.rr..ll..........r.....
+2 .llbbbrrl.tttrrrttttttrtttttttttrrrrrrrr
+2 rrrrrrrrrrrrrrrbbbbbbbbbbbbbbbbbbbbbbbbb
+2 ........
+
+uuid f1e48af56ce6ebb7095059ca3d9264c5
+
+leaderboard steps time gems

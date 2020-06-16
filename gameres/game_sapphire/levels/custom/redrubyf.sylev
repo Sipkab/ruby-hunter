@@ -1,0 +1,32 @@
+n Red Ruby Falls
+D 4
+C 6
+p 0
+i The staircase does all the work
+i for you! The only thing it's
+i missing is a "Stop" mechanism.
+a Alex
+m 13 11
+~     ###### 
+~     # $$$# 
+~     # #####
+~     #    1#
+~     # >%d #
+~     #     #
+#######     #
+#E+++++(   |#
+########  |+#
+~      # |++#
+~      #a####
+y ~   >/ Qi
+R 63102
+0 0
+1 Demo 1
+2 ......bbb...............................
+2 .t............................l........b
+2 ll...b...l.ttttttrrR.llbbbbbblllllll....
+2 ...
+
+uuid d9db8a049ba96f425a3b11eebcaf1c16
+
+leaderboard steps time

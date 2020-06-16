@@ -1,0 +1,75 @@
+n Exterminator
+D 5
+C 4
+e 11
+p 0
+a Shark
+m 42 42
+##########################################
+#     ++ +              ++++        +   +#
+# +++ ++ ++++ +++++++++ ++++ ++++++ + + +#
+#   + +     +         + ++     5 ++ + +  #
+#++ + + + + + +++++++++ ++ ++ 8+6+  + ++ #
+#   +   + + +         + ++ ++  7 + ++ ++ #
+# +++++++++ + +++++++++ ++ ++ ++++  + ++ #
+# +   +++++ +         +    ++ +++++ + +  #
+# + + ++    + +++++++++++++++ ++++  + + +#
+#   + ++ ++ +               + ++++ ++ + +#
+#++++  +    +++++++++++++++ +  +++  + + +#
+#   + +++ +             +++ ++ ++++ + +  #
+# + + +++ +++++++++++++      + B    + ++ #
+#u+ + +++               ++++++ ++++++ ++ #
+# +   +++ ++++++++++++++++++++        +  #
+#1+++++++ +++++++++++++++++++++++++++++ +#
+#++++   + ++   +   +   +   +   +    +++ +#
+#++++ + + +++ +++ +++ +++ +++ ++ ++ +   +#
+#++++ + + ++g                    +  + +++#
+#++++ + + ++++ ++G++++++++++++++++ ++ +* #
+#++++ + +b+     +  +               +  ++ #
+#++++ + +++ + 5 ++ + +++++++++++++++ ++* #
+#++++ +   + +8+6+  +                 +++ #
+#++++ +++ + + 7 + ++++ +++++++++++++B++* #
+#++++ +++ + +++++  +*+B+++++++++++++ +++ #
+#++++ +++ +    +++ +.+ B B B B B B B ++* #
+#++++   + ++++ ++  + +++++++++++++++++++ #
+#++++++ +      ++ ++   +   +   +   +   + #
+#++++++ +++++++++    + + + + + + + + + + #
+#++++++ G   ++++++++ +   +   +   +   +   #
+#++++++ +++ +      + +++++++++++++++++++ #
+#+      + + + ++++ + +++   +   +   +   + #
+#+ ++++++ + + +*++ + +++ + + + + + + +   #
+#+        + + +.   + +   +   +   +   ++++#
+#++++++++ + + ++++++ + ++++++++++++++++E+#
+#         + +   y    + ++++++++++++   +0+#
+# +++++++++ ++++++++++ ++   +     + + Y.+#
+#         +            ++ + + + + + + + +#
+#++++++++ +++++++++++++++ + + + +   + + +#
+#++++++++ ++++   +    +++ + + + + +++ + +#
+#++++++++      +   ++     +   +   +++   +#
+##########################################
+R 24866
+0 0
+1 Demo 1
+2 ....tttt...rrbbbrrtt........tttt.t..llbb
+2 lltttt.rrttll........ttrrrrbbbbrrtt.....
+2 ......rrrrrbbbbblllbbrbbb..tt.....t.bbbb
+2 bbbbbBtttttttttrrbrrrrrrrrrrrrbrrrrtttll
+2 lllllllllllll......................ttt.b
+2 .r.......................lttt..tttrrrrr.
+2 .rrrr..r.bbbbbbbrrrttttrrttrrrrrrrbbblbb
+2 rbblbbrbbllllbbrrrrrrrtttttttttttttrrbbr
+2 bbbblbbbbrbbblbbbllbbblbbbblllllll..tt.l
+2 l.ttrrrrrrrrrr..rrrrt...trtt.lllbbl.llll
+2 llllllllllllllLrrrrbrbblbbrbblbbrrrbbbbb
+2 bblllLrrrttttttttrrbbrrttrrbbrrttrrbbrrt
+2 trrbbrrttrrbbrrbbblltllbbllttllbbllttllb
+2 bllttllbbllbbbblllllllllllttttttttll....
+2 l.bb.ll.lllbb..rrrrrrr.bblllll..lll.bbrr
+2 rrrrrrbbbrr...rr..rtrrb..rr.trrrbrr..rrt
+2 ..tttrrb.bbb.rrtttt.rrrrbbrrtttrrbbbbbrr
+2 tttt...l...rbbbbbrbllbLr.rltt..tt..lrtt.
+2 ....
+
+uuid a6ff80a9082473ef5266cb5b8372a49c
+
+leaderboard steps time gems

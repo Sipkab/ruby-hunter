@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config xmlns="bence.sipka.types.config" >
+
+    <declare-flag name="Gravity" >
+
+        <flag
+            name="LEFT"
+            value="0x01" />
+
+        <flag
+            name="CENTER_HORIZONTAL"
+            value="0x02" />
+
+        <flag
+            name="RIGHT"
+            value="0x04" />
+
+        <flag
+            name="TOP"
+            value="0x10" />
+
+        <flag
+            name="CENTER_VERTICAL"
+            value="0x20" />
+
+        <flag
+            name="BOTTOM"
+            value="0x40" />
+        <flag
+            name="BASELINE"
+            value="0x80" />
+
+        <flag
+            name="CENTER"
+            value="0x22" />
+
+        <flag
+            name="MASK_HORIZONTAL"
+            value="0x07" />
+
+        <flag
+            name="MASK_VERTICAL"
+            value="0xF0" />
+    </declare-flag>
+
+</Config>

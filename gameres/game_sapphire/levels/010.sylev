@@ -1,0 +1,81 @@
+n Red toccata
+ldeutsch n Toccata in Rot
+D 3
+C 3
+s 0
+i Sometimes it's not so trivial
+i to catch the diamonds.
+ldeutsch i Manchmal ist es gar nicht
+ldeutsch i so einfach, die Edelsteine
+ldeutsch i zu fangen.
+a Emerald Mine
+m 64 32
+################################################################
+#........ .... ..  ........ 1 ...Q............  ...Q...++......#
+# ....Q. . . .. .+ ...Q. .... .. . ....Q ...  .. .......++.....#
+#.Q . . ...Q.  . +........Q... ...Q.+...  . .Q .*. . + .Q .  ..#
+#... ...Q... . ..+ *. .....  .. +.... +. Q .... .....+..+  Q*Q #
+#Q.. QQ..    ....+.. ... .....+.... Q...Q. Q.. ...  .Q++ . ....#
+#$........ .. .. +.....Q. .. ...Q..$Q.Q... .Q ... .....+... Q .#
+#Q Q. ... . .Q. .+. .. . .+.... .. .Q ...+......... ...+. .Q.. #
+#...Q.++... .. . ++++..   +Q.+.. .... ..   ...  ..Q.. ..+..... #
+#.... .+  Q.  Q. .. ..   .+. .... Q. .... ... .. .......++.....#
+#. Q... ++ . ...Q. Q. . .Q+ .+ .  .... .. ..Q .+ . ... . .+ Q..#
+#. .  .  +.   Q Q  .. Q...+ .+ ..Q  .Q.. .... .Q.Q..+ ..+ +....#
+#. Q. ..  ++. ....Q.Q.. . +   . .. .. .. . . ..........+.+...Q.#
+#.... .. . +... ... ..   .+ .. ....... ...Q...Q . .QQ  . .. ...#
+#. .. ..Q  .++. .  .. .QQ + Q.Q+Q  ....   . ........... .Q.+.Q$#
+#.........Q .+. .Q.Q.. ...+ ...+..++++++++++.....Q.. . .Q..+..Q#
+#..Q.Q...... .++.. ..+ .Q.+ .. ..Q. ...  E+. ..... . .. ...+ ..#
+#. .... Q....  +  . +..Q... .Q + .....Q .+...    .. . +.Q.Q.+..#
+#..  .+... Q.. .   ... . . QQ.+ .. ..Q. +. .Q.**....++ +.......#
+#.....+    .+ ... .+... ....... .. Q...+ .Q...+.Q.. .++.. . +..#
+#. +..+.Q. .+.    .. . + . ..+ . Q....+ Q... ++... +... . .....#
+#.. ..+ .  +.QQ * +  Q...Q.+.. ...  *+..... .. .. .++... ...+Q.#
+#..+..+.Q  +... .. .Q.......++.+   .+. .Q.Q..++....+.Q.. ......#
+#.. +.+*.. +  QQ . ...++E + +  + . +.Q ..... +. .++. .  Q.. +. #
+#.. +.++++++. .Q..+.  +..Q....+.. + .. .... .+ ..   Q.+... +...#
+#...+ . Q.  .... .++. .. .. + ..  . Q ...Q...+  ....Q ..++.....#
+#..Q +... Q.Q+  ..  +   Q. . . .Q.. .   ..++ +. ...... ... ... #
+#. ...++..... Q . . ... .  +..Q... . .Q  .  ..  +Q .Q......... #
+#.* .  .++  Q.. + +.  Q...+ . . . .Q ...+. QQ...... . . Q.*. ..#
+#...QQ  QQQ..... ....Q..Q.Q*Q..........   ...+ +..Q.... .......#
+#...........  . ...........Q....Q ..... ..++...  .....  .......#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 36559
+0 8
+1 Demo 1
+2 .........r.r..bb.rr...l...bbbbb..rr.t..r
+2 ..r...ttttttt.....rrrrrrrrrrrrr.bbbbbb..
+2 tt..rr.bbrrr........l..l.tt..bbbrrrrbbb.
+2 l..bbbb..l..b...b.ll.b.lllll....rrrr....
+2 bbbbblll.bbbbbb.r...bbb.rrrrrr...rrrr.tt
+2 ttttttt...t.rrr.ttt..t.ll.ttt.......t...
+2 l.tt..t.rrrrrbbbbb......l...rrr.tttttttt
+2 tttt.lll.r..bb.....rr.ll...........tt..r
+2 rrr....bbbbbbbbbbbbbbbbbb...bbbbbbbbbbbl
+2 lllllllllllllllll..rrr..r.t..t.lll.ttlll
+2 ll...............b..l.bbbblllll....l..tt
+2 tttttt..r.t.rr.lll......ll...l...bb.....
+2 l..b..b..l.b.l.b..b.l.b...t.r..tt.t.ll..
+2 ......ttt.r..tt......t..bb...bbb........
+2 ..l..b...lllllll......l...l..l....r.tttt
+2 tt.l..ttt.lll..tt.......bbb.......t..t..
+2 bb.t..t.llll.t..ll.bbbbbbbb.ttttttt..t..
+2 lllllllbbbbbbbbbbbbb.r.llltttttttttttttt
+2 tttt.....t.............bbbb....b.rrrr..t
+2 ..t.rrr..rrtttt..ttttttttllllll.bbbb..b.
+2 .....l.........................L.rrrrrrr
+2 rr...........t.rrr..tttttrrrrr.bbbb.....
+2 tttttllll..b.l..bbb.lll.bbbbb........ll.
+2 bb.ll..l.l.bbb.rrr.....llll....rrrr.bb..
+2 rrrrrr.bb..rr..r........t.rrr.r..b.rr...
+2 ........l..bbbb.rr..bbb......
+
+uuid 82382b88d8911bb188a7658eb0cad10e
+
+leaderboard steps time

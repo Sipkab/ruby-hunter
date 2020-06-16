@@ -1,0 +1,55 @@
+n Four problems (2)
+a Emerald Mine
+D 6
+e 50
+s 22
+i Rooms of problems,
+i side by side.
+i
+i I had to make a little change to the original
+i Emerald Mine level.
+m 64 32
+################################################################
+#oo          .**#+++++++++++++++#%%%%%%%%%%%% # #.............u#
+#            ...#6+  *+         #             # #.............u#
+#               # + +++ +++ + + #             # #.........0... #
+#               #   + 0   + + +*#            0# #............. #
+#.              # +++ + + + + ++#            .  #..0.Q.........#
+#r..            #   +   + + 0   #   *        ## #........Q.....#
+#r$.            # + + + + + + ++#   .         # #..............#
+#+++++++G+++++++#60 0 + 0     0 #          *  # #..............#
+#         +o .* #++ + + +++++ ++#          .  # #..............#
+#++++++   G  .. # +   +   +     # *           # #.....0........#
+#*.  o+   +     # + +++++++++ + # .      *    # #..........0...#
+#..   +   +     #60   + 0   + 0 #        .    # #.Q............#
+#     +   +     # + +++ + +*+ + #    *        # #.........0....#
+#     +   ++++++#   +   + **+   #    .        # #............0.#
+#     +   +o    # +++ +++++++ ++#             # #....Q....0....#
+#     G   +     # 0     +     + #             # #......0.......#
+#     +   +     # + +++ + +++ + #             # #.........0....#
+#     +   G     #6    + 0     0 #*            # #......0.......#
+#     +   +     #++ +++++ +++++ #.         *  # #..0...........#
+#..   +   +   ..#60     +   0   #        2 .  # #......0.......#
+#*.   +   +   .*# +++ + +++ + + #             # #..............#
+#++++++G++++++++#     0 +   +   #             # #..............#
+#         +:::::# + +++++ + ++++#  * 1        # #........++++..#
+#         ++6::6#6+    +* +     #  .          # #....0...++++..#
+#       Q  +::::#++ +++++++++++ #          *  # #........+bb+..#
+#      ++0 +:::6#$+             #      *   .  # #........++++..#
+#      + 0.+::::#g# + ######### #      .      # #..............#
+#*    00 . +++++#g# + ##        #y           y# #....... ......#
+########G###############Y###################### ########R#######
+#                                                          B  E#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 3425392823
+0 8
+1 Demo
+2 lblrbbbbbbbblrbblrrbrbrrttrtrtrtt..tttttttttllllltltltltttttttttrttttttbt..btbtltltlblr..trtrtbtbtrlrlrltttttrtrtrtbtrrr.rt.rrrrrrrrrrrbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbllllllllllllllllllllllllllllllllll.llllllllllllttttl.tttrrrrrrrrrrrrrrtrttltlllllllllllrlrlrlrlllll.tl.ltltltlllll.l.l.t.t.t.t.l.lt......................r.r.r.r.t.t.lb.rlr.r.r.t.t.r.r.b.b.l.l..........l.l.......l.l.b.b.b.b.b.b.b.B.t.t....l.lt..l.b.l.b.l.b.b.b.b.t.t.t.t.tttttttr..r.trrtttrtttt.tr.r.t.t.r.r.t.t.t.r..tr.r.r.b.b.b.l.r.t.t.l.l.l.l.b.b.l.l.l..lb.b.rr.rrrbr........bbr.rbrr.rrrrrrr.rr.rrrrrtb..tb..tl.l.l.l.l.b.b.l.l.b.b.L.t.t.r.r.t.t.r.r.r.r.t.t.l.l.ttttttttttttttttttttltltltl.tttrtrtblblbl.l.r.r....t.t.l.l.lllllllb.l.b.l.b.b..l.l.b.b.l.b.b.l.........l.b.b.........r.b...........b.b.lt.t..lll.blbtbtblb.lrlrb.t.t.tt.t..r.r.r.....r.br.r.l..t.ll.b.b.l.l.b.b.b.r.t.r.r.b.b.b.b.b.b.llblllbbl.b.bbbbbbbbbbbrrrrrbb.l.bbbrbrrbrbblbllbbl.r..l.bbbbbbbrbrrrrrrrrrrrrrrrrrrrrrrrrbb.br..r.bbbll.l.blllllllllllllbbb.llbllllllllllllllllllllllllllllllt..lttbrrrtrrttt.l.t.tt.t..l.l.b.l.rl.t..r.r.lllllllllllrbrbtbtb.lr.t..r.tttrr.r.t.t.t.rt.t.t.t.l.l.l.l.l.l.b.b.b.b.B.t.t.t.t.t.t.t.t.T.b.b.b.b.r.r.r.r.r.r.br.r.r.r.l.l.t.r.rb.r.r.r.r.r.r.b.b.B.t.l.t.l.t.l.l.b.l.tt.t.t.tt.t.t..t.t.t.l.t.t.t.tt..t.r.r.t.r.r.R.l.l.b.t.b.l.l.t.r.......l.rl.t.t.t.t.t.l.l.l.l.l.L.t.t.t.t.t.r.r.r.t.r.r.r.r.r.r.r.r.R.l.l.l.l.l.l.l.l.l.l.l.l.l.b.b.b.b.B.r.b.r.b.r.r.r.r.r.b.brt.rb.l.t.t.l.l.l.l.l.l.L.r.r.r.r.r...r.bbbbbbbbbbbbbbbllbbbbbbbbbblbbbbbrrrrbbbbllbbbbbrbrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr.rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrtttttttbbbbrrrrrrrrrrrrrrtttttttttttttttt.tbtbtbtbtbtbtbtbtbtl.l.l.ltltl..tt.t.t.t.t.t.t.t.t.t.t.t.t.l.l.b........T.b.b.b.b.b.b.b.b.b.b.b.b.b.b.b.b.b.b.b.b.brl.l.l.l.l.l.l.l.........................r.t.t.b.b.b.r.b.r.T.r.l.tb.l..t.t.r.l.l.................................................................b.b.l.l..................b.r............................r.rb..trtbbbbbbbrbbbr.tb.rrtbrlrllblb.rl.brbrbrbrr.r.r.r.r.r.r.........
+
+uuid 477c541fe9b93e2868524e1356a32211
+
+leaderboard steps time gems

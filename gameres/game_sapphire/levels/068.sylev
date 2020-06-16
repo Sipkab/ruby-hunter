@@ -1,0 +1,84 @@
+n Indiana Jones
+a Emerald Mine
+D 4
+s 100
+i A nice level, where you have to get
+i through various adventures before you
+i reach the final emeralds.
+i I had to make a little change to the original
+i Emerald Mine level.
+m 64 32
+################################################################
+#...........0.................0................................#
+#.#######.....0...........0....000.0.0.................#######.#
+#*# 7  7#....0.0.0.0...0.0.....r .........0....0...0...# 7  7#.#
+#.#     #......................0.......................#     #.#
+#.#     ################################################     #.#
+#.#     G              #E0 #********#   #y             G     #.#
+#0#5   5G              # #  #******#  0 #              G5   5#.#
+#.####GG#########YY##### #   #*..*#  ## #####YY#########GG####.#
+#....#      #%  #  #   #   0  #oo#      #       . %#      #....#
+#....#!     #   #***   #  ### #oo#  0   #       .$ # !    #....#
+#0...#   !  #   #####  #  #    ..   #   #       ...#   !  #.0..#
+#....#  !   #          #   0        #   #       ...#    ! #..0.#
+#..0.#    ! #          #   #  0   0     #       ...# !    #.0..#
+#...0#! ! ! #           #  # ###  #    #        ...#  !!  #.0..#
+#....# ! !  #           #  #      #    #####    ...# !!   #...0#
+#....#      #$b        Y #        #   # Y ***   ...#  !!  #.0..#
+#0...#  !   ############..##        ##..############ ! !  #....#
+#....#!  !  #.Q......Q.#  ..###BB###..  #..Q.Q.....# !    #.0*.#
+#.00.#  !   B ..Q.Q.Q.Q#  ............  #QQ...Q.Q. B   !! #.000#
+#0...# !    B .........#  ............  #..Q...... B      #.000#
+#00..#   !  #...Q..Q...#  ............  #...QQ..Q..#      #...0#
+#....#      #.Q...Q...*#  ............  #*..Q.Q..Q.#      #....#
+#.####GG################  ............  ################GG####.#
+#.#     G                                             gG     #.#
+#.#sSss G 5                                          5 G Ssss#.#
+#.#.... ######################RRRR###################### ....#.#
+#.#     #.......0...........0........................0.#     #.#
+#.#  @  #..........00............0.00.0.....0...0......#   @ #.#
+#.#######...0...0...0.0..0...0.1 0..0.0.....00...00....#######.#
+#..........0.............................0.....................#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 55322
+0 8
+1 Demo 1
+2 ...ltlllllllltlllllbllllllllbblllllllltt
+2 ttttttrrrtttttttlltttttlttbbrrtllttttttt
+2 trrrrrrrrrrbbbrrrrrrrrrrrrrrrrrrrtrlltrr
+2 rtrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrbbbbbbbb
+2 bbbbbbl.bbbb.tllbbbbbrrr.....bbbbbbbblll
+2 llllllllllllllllltttlllllllllll.........
+2 .ttttttttt.lllrrrrrrrrrrbbbb.t.......bbr
+2 rrrrrrrrrrrrrrrr..bbbbr.trrrbll.ttll...r
+2 bbttlttttttlllttrrtltltrrttrtlllt.bbb.t.
+2 btrrtrtt...................tllllllllllll
+2 lltrrrrrbbbrrrbbbbbbllllllllllbbbllllbb.
+2 ......bbbbllllllll.....lllllllllllllllll
+2 ll.bbbll..ttll....rbbrrrttttttttltrrbrbb
+2 tttllttrrb.llttltttttrrrblbbbbrrtt..tttt
+2 lll........trrrrrrrrrbbrrrrbbbbbblllllll
+2 lrrrrrrrrrr......bbbb.bbbbllllllllllllll
+2 lltrrrrtrrtrr.....b..trr.lll......rrr...
+2 .....r.r.lll.......rr..rrrbbrrlllllllttl
+2 llllllb.bb.....r.rrrrrrrrrrrrrrrrrrrrrrr
+2 rrrrrrrrrrrrrrrrrrrrrrrrttllllltll......
+2 ...l.rrrr...llllll..rrrr......lllllllllb
+2 brrrrrrrrttrrrrrrbbbllllllllllllllllllll
+2 lltt........t........llt.ttttrrtt.......
+2 .tt.....Lbbbb..blllllll.t....t....ttr...
+2 bb..ttr..bb..b.....tttr.lbbbb.tt...ttllt
+2 ........r.t....bb...t.ttrtrrbl...rrbb..t
+2 tlll.rrrbb............r...Rllbbbbrrrbrrb
+2 rr..t......tttl.bbb....tttl.rbb...ttrrrt
+2 ..t...l.ttllbr.lllblllt...tttt....llllrb
+2 rbrbtrrttrrlbllbbbbbll.rbrrbbbblllrrllll
+2 tttttrrttlttlllllttt........
+
+uuid 76e51b49e185dd79797e95bbaf611ac0
+
+leaderboard steps time

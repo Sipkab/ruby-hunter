@@ -1,0 +1,56 @@
+n jb teamwork
+lDEUTSCH n Teamwork 1
+D 10
+t 383
+s 2
+p 0
+d 3
+Y
+A graphite
+O graphiteplus
+S Soft
+i Both men must reach the exit
+i For the first time you should
+i disable  "available movements"
+i in the editor.
+lDEUTSCH i Beide Spielfiguren müssen durch den
+lDEUTSCH i Ausgang. Sie sollten für die ersten
+lDEUTSCH i Versuche das Bewegungslimit von 383
+lDEUTSCH i im Editor abschalten.
+a Jürgen B.
+m 17 12
+L%0.. ..0     ..L
+L#.##R#######s# L
+L           Bb+ L
+L#s#+# #+ #+#s# L
+L  B    _   +#+ O
+L!y+        0 Y O
+Lo#+# #s# # #+s O
+L!+ 010         O
+LE#s#+#s#++#s+. L
+L#1 . Q         L
+L#&Q...{.@.. &r{L
+~LLLJJJLLLJJJLLL 
+y ~        
+R 26319
+0 0
+1 Demo 5
+ldeutsch 1 Demo 5
+2 .........trrrblr.......lllBtrrrrrrBrrB..
+2 rBrrrBl..rrttlllltttllttlllltrrrrrrrllll
+2 lllbllltbl.rrrr.rbblbrrr.rtllblttlbblbbr
+2 rrrrrrl.................................
+2 ...................................rtrrt
+2 tttlllllbbllllllbLtrrbbrbllsrt.......lll
+2 lLrbbrrrrrbrrtrrrsttll......bblllbbrr...
+2 rRlllltlllllttllbllb...llmtrrbbrbllsr...
+2 ......lllLrbrrrrrrrrrrbbburlmllllbLur...
+2 ......lllbbBtrrrrrrrrrrbbrrrbbutrttllrrb
+2 bbbblltllbrrllltllbrrrtrrrrrllbLtttlllll
+2 lllllttllbbbbb.rrrrr...................l
+2 rtllllrrrrBrBBrrrrrrrrr...rrrrBl.rrttlll
+2 l
+
+uuid 7509a8cae21c80a20beb54be8a860cbc
+
+leaderboard steps time

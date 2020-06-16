@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config xmlns="bence.sipka.xml.compiler.config" >
+
+    <declare-element name="Scene" >
+
+        <inherit base="LayerGroup" />
+    </declare-element>
+
+</Config>

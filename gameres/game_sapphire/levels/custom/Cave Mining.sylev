@@ -1,0 +1,53 @@
+n Cave Mining
+D 3
+C 1
+s 0
+p 0
+M 0 Downunder
+i Who doesn't like a good cave?
+i Me.
+i But this is just a game, so I
+i figured I could make a good cave
+i level anyway. Enjoy (if you want).
+a Shark
+m 22 22
+++++++++++++++++++++++
+++.+...+.+*00.0+ + + +
++..+.+.+.+0**.*+     +
++.+..+.+.+.0.*.+ +++++
++.+.++++.+****.*     +
++.+.+..+.++++++++++  +
++.+.+.....+.+.+      +
++.+.+.+++.+.+.+++    +
++.+.+.+*..+.+.+      +
++.....+++++.+.+  0   +
++.+++++++++++.+  + 0 +
++.....+.......+  + + +
++Q+++++Q+++++++  + +b+
++QQ++Q++++00+0+ ++ +++
+++QQQQQ+7++0+Q+ +   ++
++++++Q++0+Q++++++   ++
+++++++++*++#%0    +  +
+E*Q1    *   $# ++ ++++
++++B++ +*+ ###        
++!! ++  @  ++   + +   
++!  +  +++  +***+ +  @
+++++++++++++++++++++++
+R 72537
+0 0
+1 Demo 1
+2 rrrrrrrrRlllBllbbrrrrtt...rrtrrrrrttrttt
+2 tttttrttlllllTltLbR.rrrrrllllttltlbLrbbr
+2 rrrrlllltllbrrrrrrlllltlllLbrrrrrrrllllt
+2 llllbrrrrrrrr.rbbbbrbbbBttllbbbbblbblllb
+2 brrrrllttlllbbrrrrlttttrttttttllbr.rrrbl
+2 .lbbb.blbblllbbrrrr.lttlllbbrrrrlttttrrb
+2 l.lblllllblllllllllbllBrrurrrrrrrrrtrrbb
+2 rrrrrrmllllbblLttrrrrrrrbBttllttlttttttt
+2 rttttlllllllllsr.........lbllbbblLrtttrt
+2 rrrrrrrrrbbblbbbbbbbblblllllblllllllllll
+2 l.....
+
+uuid 148f658bb8d0100b0a81a213c2d8fcfd
+
+leaderboard steps time

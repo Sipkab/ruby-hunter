@@ -1,0 +1,47 @@
+n Dark Room
+ldeutsch n Dunkler Raum
+D 5
+C 1
+E 0
+s 0
+p 0
+d 2
+M 0 We built this City
+i A lot of evasive
+i action is necessary here.
+ldeutsch i Hier muss man ziemlich
+ldeutsch i oft und schnell ausweichen.
+a Alexander
+m 14 16
+##############
+#>         1%#
+########y#####
+#            #
+#         5  #
+###B#######Y##
+# Q    *i    #
+##0&   i*    #
+# #    *i  r #
+# & &  i*    #
+# &&&  *i    #
+#  iiRii*    #
+#  i7   iiGi #
+#  ig  i** i #
+#* i    i!*iE#
+##############
+y ~  <b    
+R 94399
+0 8
+1 Demo 1
+2 .lllbbbrrrbbbbbblllrttlrttlrrrttllllllll
+2 .brrrrrtt......trrrlllbbbrrrb...ttllblll
+2 lllb.rrrrlbbrlbbrll........bllbt..rttttt
+2 ll..............t.rrrrrrrrbbbbblbb.llrbr
+2 ttttrttt.tllllllllb.rb...............t.b
+2 ...........................b...........u
+2 tl..............bbbrrr.......bllllbbbblt
+2 ttttrrtttt.rrrrrrrrbbbblb.rrbbbb........
+
+uuid c12ab8ecc12758b3aa3e041384a969de
+
+leaderboard steps time

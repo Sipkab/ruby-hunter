@@ -1,0 +1,45 @@
+n Swamp III
+ldeutsch n K�se III
+D 3
+C 3
+s 20
+M 0 Imperial March
+i You know this type.
+i Be faster than the growing
+i swamp...
+ldeutsch i Du kennst diese Art von Level.
+ldeutsch i Sei schneller als der wachsende
+ldeutsch i K�se...
+a Ronald
+m 36 21
+####################################
+#    Q Q                           #
+#    .%.                     %     #
+#  1            %                  #
+#                                  #
+#                       %          #
+#         %                        #
+#                  $               #
+#                 ###         %    #
+#              %  #E#  %           #
+#       %                  *       #
+#                          #       #
+#                            %     #
+#                                  #
+#                      *           #
+#                      #           #
+#                %          %      #
+#                                  #
+#   *   *                          #
+#                                  #
+####################################
+R 3090
+0 1
+1 Demo 1
+2 .rr..Tbbbbbbbbbbbbbbbblttrrrrbbrrrrrrttr
+2 rrrrrrrtttrtrrrrttrttllllllltttllllbbbrr
+2 t..........
+
+uuid 7025bee4fb7eb02b62263264f60a7676
+
+leaderboard steps time

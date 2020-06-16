@@ -1,0 +1,37 @@
+n Impossible Slide
+D 10
+p 0
+d 30
+M 0 Action
+i It DOES seem impossible!
+i This is just like Rockslide.
+a Alexander
+m 20 20
+~              d    
+~             d     
+~            d      
+~           d       
+~          d        
+~         d         
+~        d          
+~       d           
+~      d            
+~     d             
+~    d              
+~   d               
+~  d                
+~ d                 
+~                   
+~0                  
+1#              #s  
+~                .  
+~                 @ 
+aaaaaaaaaaaaaaaaaa#E
+R 45825
+0 8
+1 Really Fast
+2 .trrrrrrrrrrrrrrrrbbr.Rlttrr.rbbbbrb
+
+uuid dabb0efb68a0629d41e70dac09394a52
+
+leaderboard steps time

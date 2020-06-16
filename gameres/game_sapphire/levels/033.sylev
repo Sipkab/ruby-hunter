@@ -1,0 +1,121 @@
+n Mass production
+ldeutsch n Massenproduktion
+D 3
+C 7
+e 120
+s 0
+i Questions of mankind:
+i   What are emeralds?
+i   Where do they come from?
+i   Is there any beer in the fridge?
+ldeutsch i Ewige Fragen der Menschen:
+ldeutsch i    Wo sind die Smaragde?
+ldeutsch i    Wo kommen sie her?
+ldeutsch i    Ist noch Bier im Kühlschrank?
+a Emerald Mine
+m 64 32
+################################################################
+#... ...................... 1 .................................#
+# .............................................................#
+#  .............. 0....... ..........................0...0.....#
+#.  ... 0.....0.......... ..0.......0... . .......... ....0....#
+#.........  .0 0...........0.0. ............0  0...............#
+#... 0.......0..*....0..00.0.... 0.0. ....0........0....0..0...#
+#....... .0.0..... . ..0.. ..0. .0...0*..0......0.... ..0.0....#
+#.......... . ..0..0... 0.....0...0..... .0.....0.0 0...00.....#
+#..0...0...... . .... ...   ..0....... 0.00.  ...0..0..........#
+#.0... .0... . ...0..0...0.*.... 0 0.. ..00..00 0..0........0..#
+#.......*... ... ....  *0...0.... .0...... .*. 0 ... *.........#
+#............ ..0.0...0..0.....  *. .0... ...0. .... .....0....#
+#0..0.. 0....0.0...... .*.000 ......0. ..0. .....  0..0.. 0....#
+#. ..0......0  . ....0 .......0....... 0.. ....0*0....0.*0.....#
+#....... ..*......0 .... .0 *.. ...*00*...0....0........0.0....#
+#...  .... ......00.0*.0 .. . ...0... ... 0..0 ...0.0.0 ....0..#
+#..... .0..0...0..... 0 ..0 .. . .0......0.............0...0...#
+#.. . 0..0.......0.........0..0...... ... ....0 .0....0.*......#
+#....... .0.0.......... . ....0. .0....*...... .........0......#
+#..... .000 .  0. ...0ccccccc .0.....0....... *..0.. ......0...#
+#........00.. ..................00..0... 0..........00.........#
+#. ......00..*..... 0..0....... ... ....0. ..0. ..0 ...0.00....#
+#. .......0. .0..0..0..  0..0..ccccccccc..0.. .. ...   . ......#
+#....... .... .  ....0....0.......0.0......0...0...cccccccccc..#
+#...0.cccccccccccccc.. ......00.0........0..0. ....0.0....0....#
+#.0.....0...0..0...... .0...0  .. .0... ...cccccc......0.0.....#
+#.....0..0.0...... ..0.0...... .. ....0.0.....0...0... .0.0....#
+#. 0. ....0.0.0 .00......0 0....00 .....00..0....0...0...0.....#
+#....0.00 ..0. .. ..0. .. ... ..0...... .......................#
+#............. ...... ....E........E.......................0...#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 72427
+0 8
+1 Demo 1
+2 ..rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrbbbb
+2 bbbbbbbbbbbbbbbbbbbbbbbbbbll.t.llb.lllll
+2 lllllllllllllllllltll.b.lllllll.t.l.t.ll
+2 bb.....R.lllllllll.t.l..l..bll.......lll
+2 lllllll.t.rrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+2 ..t..b.rrrrrrr.......rrrrrrrrrrrrrrrrrrr
+2 rr..l.bbrrrr.lllt.l.b.lbrrrrrlllllltllbb
+2 rrrrrrrrrrrrrrrtrrrt.lllllllllll...bbll.
+2 .tllbrrrrrr..trrbbrr....lttlllbrr.llbrrr
+2 rrrrttrrrrrrrt.lllllllllll.t.rrrrrrrrrrr
+2 .....t.lllllllllllbb..tttl.b.r.bbll.t.ll
+2 ...b.r.lll.bbrrrrr.llttll.ttrllll..b.r..
+2 bbbrrrrrrrrrllll.l.t.llll....t.r..t.rr..
+2 .ll..ttttll.....b......r...b...t.....lll
+2 ....rrrrrr..bbbb.......tttll..r.b.t.ll.b
+2 rr..rbb..............tttllll.b..rrrr....
+2 bbbbrrrrrrr.lllllltttll.r.b.tttr........
+2 .....ll..l...r.bb..l...br....bb.lll.....
+2 t.tttt....ll..........L...b.L..r...r.bbb
+2 lll..t..Rll.......ttt.r.b.ttt.r.ttllbbrt
+2 .lt..lll............l..bb..b..ttrrrrbb..
+2 .llll..........b.rrrr..b.l.r.b.lll..r...
+2 l.b.llll..llttrrbbl.t..t.rrrrrb..lllrrrb
+2 blllll.rrrr.ttrrrbblllllllllllll..tttll.
+2 bb.ttl.b.llt..b.ttl.b...L.b...ll..r.ttll
+2 .b..t.l.r.bb.L..t.l..L.b.L..l.r.b.lll..r
+2 t......l..L.t.t.l.......bbllllllttttrrrr
+2 rrrrrrrrrrrrrr.......t.llllllllllll....l
+2 llllll.t.rrrrrrrt.r.ttl.t.rr..r..bbbbl..
+2 rrtt.r.brrr.bllllttttttl..lbbllttttr.t..
+2 tl.r.bbbrrrrrb.....l.bbbbr..r.tt..bbbllt
+2 ttttrrt..t.l..bbbbbbbbbb..r..r.r.tttttl.
+2 .b.tttr...l.ttttl.tttr..l.tttr.l.t.ll.r.
+2 .b.ll.........brr....l...b.lll.t.rr.t.ll
+2 b.ll.b.rr..b..llb...rr.t.llrrrr.l..llllb
+2 bbrr.t.r.b.r.t.rt.rr..bll..br..r..llbl..
+2 lllbbbbbbbbbbb.tttl..bllllllllbbbbbbbrrr
+2 .b.t.r.trr..trrrrr.trrrrb..lllllllll.brr
+2 rrrrrrrrrrrbblllllllllrtltllbblllttlllll
+2 llll..t.rrrr...llllttttrrrrrtttr..l.tttt
+2 ttttr..bbbbbbbbbbbttttttttttttt..l..tttt
+2 tllb.r..rrt.rbbrrb..lll.t.bbrrrrrrrrbbbb
+2 bbbbb........b.rrrrrrrrrrrrrr...l.t.llll
+2 ll..r..l..t.....t...b.rrrrr..rt.llllll.t
+2 .rrrrr...r.t.lllll..t.rrrrr.t.llllll...t
+2 rrrrrr.t.lllll.t.rrrr.r.t.llll..t..rrrr.
+2 ...ttt.l.bbbbbbbbbbbbb...ll...l..b.....t
+2 ttttttttlll..l.b.rr.......l.bbb.r...l..l
+2 .b..b..rrr..l..b.rrr......bbllllllll.rrr
+2 ..r..r.b..b.rr..ll...bb..l.rrb...ttllbb.
+2 t.rrb.llllrr..l..bl.bblllb..b.rrrrrrrrrr
+2 ...tt....b.lllllllllbrrrrrrrr..trrrrrb.l
+2 ttlllbbb.tttlllltttlllttttrrrrrrr...r.r.
+2 bbb.rrrrrrrrr..r.t.llllllll..r.trrrrrrr.
+2 l.tlllllll.t.rrrrrrrr.t.llllllllt.rrrrrr
+2 rr.t.llllllll.trrrrrrr..rt.llllllll....t
+2 rrrrrrrrtlllllllltrrrrrrrr.l..tlllllll.t
+2 .rrrrrrrr....l..rttl...bllllllttrrrrbbrr
+2 llbbbbbb.tttt.bbbbbbbbbbb...llblllllt.t.
+2 r.llbbrbbbbbbrrrrb.rrrrb.r.lllllllll.rr.
+2 llbbrrrrrrrrrrrr.bblllllllllllrrrrbrr...
+2 ....
+
+uuid b72e07a859592006651c030ecdb16c15
+
+leaderboard steps time gems

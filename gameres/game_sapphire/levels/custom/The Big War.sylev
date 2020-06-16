@@ -1,0 +1,131 @@
+n The Big War
+D 9
+e 199
+p 0
+M 0 Winner
+i 1 vs 39.
+i 
+i You'll need a lot of bombs.
+f Alexander
+a Alexander
+m 50 20
+!!  """r R                                        
+!!  "*"" #                                        
+!" !"""Q #  ^       ^       ^                     
+!!1 """"E#      ^                  ^       ^   ^  
+!   "c"* #    ^                         ^         
+!!? Q""" #              ^                         
+########## ^       ^                              
+~                                    ^            
+~                        ^     ^           ^     ^
+~^         ^      ^                               
+~    ^                                            
+~                            ^   ^                
+~            ^   ^   ^                            
+~                       ^  ^                      
+~       ^      ^                 ^     ^          
+~                 ^                               
+~  ^    ^                                         
+~                                                 
+~^           ^             ^       ^              
+~                                                 
+y ~   @  .c
+R 1440
+0 0
+1 Demo 1
+2 lbbltttttrbbrrrttRbbrblBtrrttrblbrlbbbLR
+2 Lrtttttrrbbbbbtrbltrrrrbbbbbbbrrbbbbbsrr
+2 .....rrrlllllltttttttlltttttlllr.rrrbb.l
+2 llrsrr.........tlltllbbbrbbbbbbrbrrrblll
+2 lttttb..ttttlrtrrbcbrb..rbbb..lllllttttt
+2 ttttrbbrrbrbbbbrbblllllbbbbbrRlllltttttt
+2 tlltttb..srttlllllrbbbrrbbbbll.rrbbbbrtt
+2 ttttrtttltttblr....srbbbbbllll.rlttrrmlt
+2 tttrbbRlbbbrrrrsrrr....bttbbbcbb...b....
+2 .llttt..ttrrlblbrbbbrbrrtttrttttttrrtttt
+2 tttttcbbb.....lttttcbbb....brrrrrrrrrrtt
+2 tttrrrrrcbllll.......rtttrrrbbbbllbbbbbb
+2 bbbbbbrrrbbBttttmllltlllllllllllbbllllll
+2 ..rtttttttt..b.........cbb....lbblcbbbbb
+2 lllllttttttttrrr.rrrrrtttrrtttttrrrrrttt
+2 llll.bttrrsrrbbb.....llllttrbbbbbbbbbbbb
+2 bbblrrbbbrrrttrrrrbtttrrrrrrllllbbbrrrrr
+2 lllllttttrttttttttttttsrbb..r.....ttlllt
+2 llb....b....trbbbrrrbbbbrbbbbbbblttllll.
+2 .ll.rrrrrrbllbbbBttttttttttttttlcbb...ll
+2 ttttrrrrbbbblbbbbbbbbbbllbbrrrrrrttttrb.
+2 .mlll....ttrrrrbrb...tr.......lbbbbRlltt
+2 lllllrrttttttltttttttttttl.cbbb....b...t
+2 ttbrt.lttrrrrbbbblbbbbbr.bbrB.blb..r....
+2 rlbbrrbbbbltttllttttttttttttttrrrrbbbbbb
+2 llttllllllllllltlll.llllllllrrrrrrtbrrrr
+2 rrcbbbb....bbbbbbbbbrrrrrrrrttrmll......
+2 .ttrrbrbbbRtttrrrtrrtt..llllllllllllllll
+2 lllllllll......rrrrrrrrrrrrrrrrrrrrt..b.
+2 rr..tsrr.......r.bbllbllllttr......lbbbb
+2 bbrrrtrrrrrrrrlllllllllllllllllltttttttt
+2 tlltttttttttrrrrrrrrcbbb..........rtr...
+2 ......mltttr.blbbbbbbbrbbbb.rbllllllllll
+2 srrr....rbbbbbblllllllllllllllllllllltll
+2 lllbrttttrrrttrrrtttrrrrrrrrrrttrrtttlll
+2 ltcbbb........llbbbbbblbruttttttrltttr.r
+2 rrbbbbbbbbbbbbbllbrrrtttttttttttttttbrrr
+2 rrrrrrrrrrrrrcbbblbbbbllllllllllllllllll
+2 mll........ttrrrbrbbb....r..lbbbbRlllttt
+2 ttttttttttttttrrrrtrrrrrrrrrtrrrrmlll...
+2 .rrbrrrlltllcbbb.....bmll.....bbtmlll...
+2 ..trrrrrr..llbrbbbbbbbbbbbbbRtttttttrttt
+2 trrrrrrrrrrrrrttrrrttttttllllcbbbb......
+2 tttttllllbbl........llttrmbbbb.......rtt
+2 ttrbbbbbbbbbbbbbrrbbrbbbblLtrrrttttttttt
+2 tttrbbbrrruttt.....ttttcbbbb...llttttttr
+2 ....rbbbbbbbbbbbbbbbb.bbbRllttttrrbbttls
+2 rrr.......lllttll.lbrbbbbbRttttttttttttt
+2 tttttttbsrtrr.......lllllbbbbbbbbbbbbbbb
+2 rmlttttrrtttttlttttrbbbbbbbbbbbbbbbbbbRl
+2 llrrtttttttbrrrrrrrrrltb.mlll........rrt
+2 rbbrl.rblrbrbbblllltttttttttttttttttllll
+2 bbbbrrttttttcbbbbbbtttttllttlllllrrrr...
+2 ..llrcbll......lbbrrttcbbb.....rrrrrlllb
+2 bbbbbrrrrbllbbllltttttsrrr.....l.llllbrb
+2 bbbbbbbrtttttrmlll......trrrrbrbbbbbRlll
+2 ltlllllllllllllllllllllllttbtttttttllltt
+2 tttttttlltlllllbbrrrrttrrrrlllcbbbb.....
+2 ...tttttrbbbbbbbbbbbbbbbbbbbbrtttlllllll
+2 lllllttttttsrrr...r..rrrrrrtrrttllll....
+2 ..bbbbbcbbb......lbbrrtllmlll.ttt..rsrrr
+2 .......lllttlllbrbbbbbbrrrrrrrrrrrrrrrrr
+2 lltttmll.....r..rrrrrrtbrrtrrrrrrrrmlll.
+2 .....trrrrbrbbbbRtttttrrcbbb..rrrrrsrrr.
+2 .......ttllllllbrbbRtbrrrrttrrrtllllllrr
+2 rtttttttttttttmtlltt.bbbbrrbbbbbbbbbbbbu
+2 tttt...lltttttttttrbbrbbbrbbbbbbbbbbbbbb
+2 lttttlbuttrr....llbbbrbbbRttttllllttllll
+2 lllllllllllrrb.tttttttttbbbcbbb.....lllt
+2 ttttrrbbbbbbbbbbbbrrtttrrttlllllllllllll
+2 ll..ll.tttttttr.srrrr.....lllllllllllr.b
+2 rbbbbbbbcbbbb....ltttttrrbbbbbRrrrrrrrrr
+2 rttttrrrrrrrrrrrrrrrrrrrrrrllllllllllrrr
+2 tlllllllllllllllllllllllllllltlllllllsrr
+2 r....bbbbbttttttttttttrr.r.rrrrrrrrttttt
+2 ttlllllsrr.......lllllllllbbttllllrrrrrr
+2 rrrrlll.....rr.ll.......rrr.............
+2 ..........rrrrrrcbbbbllltttttrbbbbrbbcbb
+2 bbbbbtttttttrbbbbbbbbbbl.bbrRttttttttttt
+2 tttlltttttrbbbbbbbbbbbbbbbbbbbRttttttttt
+2 tttrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrbbb
+2 btttmlll.....rrrr...llllllllllllcbb....l
+2 llttttrrbbbbbbbbbbbbbRllllllllllllllllll
+2 llllllllllttttllttrrrrrrrrrbrrrrrrrrrrrr
+2 rrrrrrrrrrrrrrrrrrrbblllllllblllllltllll
+2 llllllllllllllllllllllllllllllttt...srrr
+2 .....lbbbbttttttttttrrrbbbbbbbbbbbbrrrrr
+2 rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrttt
+2 mlll........rlllllltlllllbutttllllllllll
+2 llllllllllllllllllltttttrr......srrr....
+2 llbblllllttrrbbbbbbbbbbbbbrrruuuuuuuuuuu
+2 usuuuuuuummccmcs..........
+
+uuid d423dd4ad3521a51ac196da6808081ff
+
+leaderboard steps time gems

@@ -1,0 +1,29 @@
+n Mission Plausible 4-D
+D 7
+C 3
+E 0
+p 0
+o 1
+M 0 Action
+i Those bombs aren't helping, and
+i neither is that robot. But maybe
+i there's a way to eliminate both
+i problems in one fell swoop.
+a Alex
+m 5 7
+0####
+@Q...
+&Q .#
+#*B.#
+#.1.#
+E b.o
+####*
+R 94806
+0 0
+1 Demo 1
+2 .........r.lB.rttt.lbb..Lr........l...bR
+2 ltttLrrbbbrB.lllm..........
+
+uuid b3b1860c71e298ed8056d20d16b5c6c0
+
+leaderboard steps time

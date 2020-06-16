@@ -1,0 +1,58 @@
+n Cleansweep
+ldeutsch n Abräumen
+D 5
+C 3
+E 0
+p 0
+d 30
+M 0 Perplexities
+i This one should be
+i fairly straight forward.
+ldeutsch i Der sollte eigentlich
+ldeutsch i ziemlich klar sein.
+a Juergen
+m 17 13
+########d########
+#$$$$$$$1$$$$$$$#
+#$$$$$$$$$$$$$$$#
+#$$$$$$$$$$$$$$$#
+#$$$$$$$$$$$$$$$#
+#$$$$$$$$$$$$$$$#
+#$$$$$$$$$$$$$$$#
+#$$$$$$$$$$$$$$$#
+#$$$$$$$$$$$$$$$#
+#$$$$$$$$$$$$$$$#
+#$$$$$$$$$$$$$$$#
+#$$$$$$$$$$$$$$$#
+########E########
+R 31188
+0 1
+1 Demo 1
+2 ..bbbbbbbbbbrttttttttttl........bbbbbbbb
+2 bbrttttttttttl........bbbbbbbbbbrrrttttt
+2 tttttlll.....bbbbbbbbbbrrrttttttttttlll.
+2 ...bbbbbbbbbbrrrttttttttttlll...bbbbbbbb
+2 bbrrrttttttttttlll.....bbbbbbbbbbrr..ttt
+2 tttttttll....bbbbbbbbbbltrrrbllltrrrbll.
+2 tr.bblllllllltrrrrrrrblllllltrrrrrrrrbll
+2 llltllblllrrrtrrblllltrrrrrrr.blllllltrr
+2 rrrrbllllltrrrrbrrrrrrrtllllllblllllllrr
+2 rrrrrrrrrlllllllll.rrb............
+R 28552
+0 9
+1 Horizontal
+ldeutsch 1 Horizontal
+2 ..lllllllbrrrrrrrt...............rrrrrrr
+2 .bllllllltt............bblllllllbrrrrrrr
+2 tttt.........bbbrrrrrrrrtbllllllltttt...
+2 ...bbbblllllllbrrrrrrrtttttt.....bbbbrrr
+2 rrrrbllllllltttttt.....bbbbbblllllllbrrr
+2 rrrrtttttttt.bbbbbbbrrrrrrtlllllltttttt.
+2 ...bbbbbbbrrrrbblllltttttttttt...bbbbbbb
+2 blllllbrrrrrttttttttt..bbbbbbbbrrrrrblll
+2 llttttttttt..bbbbbbbbbblllllll..trbrrrrr
+2 rrrrrrrrr.tl.brllllllllb.rb........
+
+uuid 1fc0e02bef8c6abbe217127ecc0a1a30
+
+leaderboard steps time

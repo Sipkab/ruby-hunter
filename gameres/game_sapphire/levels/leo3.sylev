@@ -1,0 +1,43 @@
+n Leo III
+ldeutsch n Leo III
+D 4
+C 5
+T 450
+s 0
+i This should not
+i be too hard for
+i you to solve in
+i half an hour.
+ldeutsch i Der sollte in einer halben
+ldeutsch i Stunde zu lösen sein.
+a Leo de Bruin.
+m 16 14
+##### ######### 
+#*0 #.0.# B B # 
+#1#@B |.0B 0 B# 
+#*b.#@.*| ### # 
+#####*###.0 #$# 
+#g* *#0@*#.0 ## 
+###Y##|.###y0 # 
+#    5*  Y*#Y## 
+##|.####a#.# 0 #
+#*.*   5 # ##B# 
+######G###Y 0 # 
+#E** 0 .*# B*#  
+####a#######*#  
+~          ###  
+R 17862
+0 9
+1 Demo 1
+2 .....T.brrllttrrrllbbrrllttrrbr..tt.brrb
+2 bll.Br.lttrrbr..r.r.rrrtl.rrrbb.ttllbbr.
+2 rrbr...br...br...b.l.b.B.l.ttt..l.......
+2 .......l.....t.br........ll.rrrrrr......
+2 ..............llttrl.bbrr....llllllttrll
+2 lrr...............b...bbllrrttt.........
+2 ........................................
+2 ...........b.bbrrrbb.rrlllllllll.......
+
+uuid ca83c826fdb913d619ae423d69bb4178
+
+leaderboard steps time

@@ -1,0 +1,45 @@
+n Mind-Changing Machine
+D 4
+C 1
+s 0
+p 0
+d 7
+o 1
+Y
+M 0 Jump
+i The yam-yam doesn't want to go
+i towards the swamp, so you'll have
+i to find some way to change its
+i course.
+a Shark
+m 19 16
+###################
+#                 #
+# ###d########%## #
+# # # #      # ## #
+# #     ## ### ## #
+# # # #  # #    # #
+# ##  # ## ## ### #
+# #    #      > # #
+# #  a# ##d###### #
+# # #    #   #o # #
+# # # #  # # ## # #
+# # #  # # # #  # #
+# #    #   #   ## #
+# ########a###### #
+#       1         #
+###################
+y ~E  #    
+R 62329
+0 0
+1 Demo 1
+2 ...rrrrrrrllllllllllllllttttt.........bb
+2 btttt..bbbbbttttttttttttr.r.r.....rr....
+2 ..r.rrrr...l..............rr.l...rrrrrrb
+2 bbbbbbbbbbbblllllll......r.....r........
+2 ..r....r..l.....rrrrtttttttttttttll.l...
+2 .l..............rb.
+
+uuid e4b4a5c0365416bc0fc879a76c4c9f3f
+
+leaderboard steps time

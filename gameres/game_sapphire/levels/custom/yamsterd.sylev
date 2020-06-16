@@ -1,0 +1,72 @@
+n Yamsterdam
+D 8
+C 1
+E 0
+s 0
+p 0
+Y
+i Of all the things you'd planned to
+i do today, guiding a yam-yam through
+i a maze was one of them.
+i 
+i I'm not sure why you'd want to do
+i such a thing, but here is your
+i opportunity.
+a Alex
+m 27 19
+######## ############## ###
+#1""        # #%         %#
+#"###### #### ######### ###
+#"#        #              #
+# ### ## #### ######### ###
+#^# # #  #"   #"++++Q++ +Q#
+###   #  #### #++Q++++++++#
+# #   #  #% # #+++++++++++#
+# #   ##    # #+Q++Q+++Q+"#
+#  " ######## #+++++Q+++++#
+# #  #        #Q++++++++++#
+# #  ### ######++++Q++++Q+#
+# #    # #% #"### #########
+# # #% #%#         #%    ##
+# ###### ###  ###  #      #
+~          #    #  E   [  #
+# ###### ###    #####     #
+# #    # #   %            #
+###    ###########a########
+y ~   0    
+R 64912
+0 0
+1 Demo 1
+2 ....b.tr.Rlb.Btrrrrrrrbbbbbbbrrmlttttttt
+2 rr...ll.rr.....ml........rrrmlb...t.rrrr
+2 r..mlbb..tt.rrrrmlbbr..............lttl.
+2 ..........rb.t.sr........lllsr........ll
+2 l..............................sr.......
+2 ........ll..sr............l..l.b....blll
+2 b.................bbbblbLbbbutttttrtt...
+2 .......tllsrbb...bl...rtttllrrb.........
+2 ..tllsrbbbl........l.....r..............
+2 rtttllsrbbbl.......rml...t.....br.rmbbbb
+2 b.....tttt..b.t..urtt......bbbl...bb.tt.
+2 ...cbb....b...t..bb..tt.cbb........tttll
+2 ............lbbbbbbr................lbb.
+2 ...utrr..l..r...l......lbb...........utr
+2 rrrrrt.rt.........cbb........t..........
+2 ....rtrr....mlttttt.ll...rrrrrrrtttttlll
+2 rr...rttttcbrrrrrrr.l.rrrrttrmlllllllsrr
+2 rrrrbbbbut.........bbb....u..t.......bbb
+2 lutr........lbbbb......tlsr.rr.....lllll
+2 llbrb..ut.........l.b....b....sr...ttt..
+2 rr.bbrllllllbbbbllllTlllsrbbbuttrrrrrttt
+2 trrrrr.trttt..t...trr.........mbblbbbr..
+2 ...bbbll..llll........rr..........b.....
+2 .........lllbbb..b.b....................
+2 .......................ttbbutllllbbb.rt.
+2 lttrrsrt......blllsrtt......bbllllbbbrrb
+2 rrrrrrtttcbr.......r....rttlbrbl....utr.
+2 t.c..rbbb...tttl.bblllbrtr..llttcbb.....
+2 ..ttr..crr.b...l.l....ll..r.ttll........
+
+uuid a710d74a09b04c60074bbff963f7ef25
+
+leaderboard steps time

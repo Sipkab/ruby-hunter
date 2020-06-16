@@ -1,0 +1,39 @@
+n Trapped!
+ldeutsch n Gefangen!
+D 8
+C 5
+E 0
+T 787
+p 0
+M 0 Jump
+i Think twice - three times!
+ldeutsch i Zweimal �berlegen - an drei Stellen!
+a Juergen
+m 20 12
+####################
+#Q...00..*.0# 0   E#
+#..Q..#..Q*.# #.@  #
+#00.Q.#.Q...#Y######
+#.*0. #.|...#..y..*#
+#####G#.#####...0..#
+#!.00 #.*..Q#.| .*.#
+#0.Q0 #..*.*b@#B####
+#0..QQ#..Q.+#*Q G B#
+#*Q##Q#.0...#BQY R*#
+#1*0.Q+#r..@R G B !#
+######+g############
+R 25019
+0 1
+1 Demo 1
+2 ...........RttttrrrrbbbbrbRtltttttttltll
+2 brbrltlLr...bllBrrrttrrbbbtt.t....bbbrrr
+2 rltr.ltT..r....l..tllBrrblr..bB.trbblltl
+2 lbbbbbrtlt..rrrbrR.lll...rrrb.ttlllltttr
+2 rblllbbrrrbbrblbl..Lrt.ll..ltrrrrr.bbllr
+2 rrrrrt.bltltttlbltBbBrrb..sstllttrrrbbll
+2 lbbrbllltttrrB.ll.rrtttttr..rbrltrrBr...
+2 ...
+
+uuid 9c1afdc6a3bdcfda586f79b2216ae3a7
+
+leaderboard steps time

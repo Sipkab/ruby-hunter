@@ -1,0 +1,43 @@
+n Fun with Bombing
+D 9
+C 5
+E 0
+T 500
+s 0
+p 1
+Y
+i ...and without pushing.
+i Solving this one requires that you
+i use the timebombs to manipulate
+i the movement of the stones.
+a Alex
+m 30 14
+#################             
+#        0#     ##            
+#  0    #0       ##           
+#  .0*#  0#       ##          
+#   .0#  +#        ##         
+#    |#   0         ##########
+#       & .    ++         ...#
+#       +      +0     %   ...#
+# @            +0+        ...#
+# #            +0         ...#
+#      1"  @   ++         ...#
+#@        ###     @       .<.#
+######################a@######
+~                    #####    
+y ~ 0@00E  
+R 37974
+0 0
+1 Demo 1
+2 ....rr.......ttttt.l..........sbbbb..str
+2 mtt..rr.......bbb..lb.ttttlll......llll.
+2 .b........t.......l............mu.trRtll
+2 b..b....bbbRbbBrrrrB.rrrrrtrrrrttttrrrrr
+2 bb..........cb.mbbl..s....trrb....l...rr
+2 rrrrrtttt...rrR...bb.Bttllllblll........
+2 crrrr.tt...bbbl...B..lttt..........
+
+uuid 9166ecf560963d55c7da5e72707baec2
+
+leaderboard steps time

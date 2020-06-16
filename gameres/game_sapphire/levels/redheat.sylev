@@ -1,0 +1,38 @@
+n Red Heat
+ldeutsch n Red Heat
+D 2
+C 5
+E 0
+M 0 Jump
+i This is a level
+i especially designed
+i for all Star-Trek
+i and Star-Wars fans.
+ldeutsch i Dieser Level ist
+ldeutsch i speziell f�r alle
+ldeutsch i Star-Trek und
+ldeutsch i Star-Wars-Fans.
+a Reinhard
+m 17 12
+########Q########
+#!(    Q(....Q..#
+# #..........(..#
+# .!(        Q..#
+# . ...Q .......#
+#(.   .. .QQQ ..#
+#..    . .... .Q#
+#"          (Q..#
+#..(  Q  .Q.....#
+###Q#### ....####
+#1.....+Q(   ++E#
+#################
+R 2508
+0 0
+1 Demo 1
+2 .....rrrr........................llttrll
+2 l.r.tttttrttlrbbbbb.r.brrrr.ttrrrrrr....
+2 .bbblb.llllbrrrrrrr..........
+
+uuid e38db4e9d1d8236c76c6c6d08b3d895a
+
+leaderboard steps time

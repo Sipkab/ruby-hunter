@@ -1,0 +1,91 @@
+n The circle of life
+a Emerald Mine
+D 5
+e 200
+s 200
+i The circle:
+i Yam-yams -> bugs -> diamonds
+i The original emerald mine level was played with a different
+i strategy. But this version is also very
+i interesting.
+m 64 32
+################################################################
+#     ..   ..   .. 0   .    .      .       .   .   .     ...   #
+#  000...  . 0.   ..     0. .|. .   ..|.  .. .| .|   . .  .0.. #
+# 00. 0.   .0. .  0.. .  .   | . .  ..  |..|. .  .|||..  ..000.#
+#00 . .0...000..  00 . ..  ..  0.. . ... | . ..  ...|...... . .#
+#0. .0. ..0... ..   ..... 0.. ||..||.  ...    . 0 .. |.. 0.. 0 #
+#. .0 0..0. ...    . .0.  .  |.. .. ..  . .. 0.0.. 0  |     ..0#
+#       .0     |.|... . .   . .. 0.. 0. . .0 . .0.  00 | | ....#
+# ..  0.   |   ..... .........|0..0  .   0 .  ..   .0000||  ...#
+# ..   |... ..  .  |    . .|.|0 .|.......  0.0.0 .0.  0....||. #
+#   . ....... ..^. . | 0 .| | 0 ...  . . . ..  .  .. .. .||... #
+#   |||     .... ..  .. . | .0.. | ||0...  . . .  0.. ^.  |   .#
+#..  .....0... . . .  .|.|. ... ..|  ..|..   .  ... .       .  #
+# ..   . ..    ....0 |. | |..  .. |. ..|..0.. .  ..| 0..... .. #
+#  | |^... .0..0.000.. |. .   ^...      . 0   . .0||.| || .0 00#
+#  | |  .0 .  ........| ..| .. ...... .| .....^ . |.  ...0.... #
+#...|..0.  ...    .   .....|..  . .0   |     . . |..^..0.  .. .#
+#  | ......| .00.. ^ ...  .   ...0.  . . .0.    .. . . .^ .. ..#
+#. ....  | |...   ... ..  |.|1 ..0.... ...    0.. ...... .. .00#
+#.| .^...  ..  0 . . .. .| .. ..0.. . |...0......^ .  ||...00  #
+#. .   .  ...||.  . 0. . |. |.. 0 ^ . ..| ..  . |.. .. . .0 .  #
+# .. ..0.  .|.|0 |. . ...0| . .0.. ..  ||.. . . .   |.. .0. . .#
+# .|  ..^ .. . ... .. 0 0.... |0.. . . |. .|  ^  .|...0 .. .| .#
+# . |.    .. 0 . 0 0 0 ...|.|  ..  ..     ..  . .. .. . .  ....#
+#. .| . ...0|. ....|...||..... . |  .|||... .|...||| . ^ . .|  #
+# .  |  .0 . .^...0||.|...||. . | |..  .  . ^.| ...|    .. . . #
+#   . 0.|   .  .  .  | ...|||.|. ..  ..  .   .  .. | . . ..|   #
+#.0.0  | .......  ..0.  .. . | ....|.||| .. ....|  . .  .|  ...#
+#....|. ||.| ....|  0.. .| .  ...  ...|. ..  .. .......|..  .  #
+#  ...  . |  .  .  .  .. ..  .. .. .......| .   .  . .. .. ... #
+#   .. ...... ..  .. . ... ...EE....   .... ...     ....       #
+################################################################
+y |||||||||
+y |||||||||
+y ||||/|| |
+y uuuuuuuuu
+R 51152
+0 8
+1 Demo 1
+2 .....r..r.llltlttttrrttrr......bbbbbb..t
+2 trrbb.t.rrbb....................L.r.....
+2 ..rrr..bb........ttttr...brr..r...rttttt
+2 ............l.rbbbb.t.......r.brb..b....
+2 ............t..t.tt.bbbb...........b....
+2 .....Btttttttllrrtll.....r......r.r...r.
+2 .bbb.bllllbrrrb.lllbr..br..r.lltlllbbbbr
+2 rr..t.r....bblll.b...rrrr...tllbbll.r.tr
+2 rbblltrrbbrr.....bll.r....tttttttlttt...
+2 .tttrrrtr....l.rr.bbtttll...ll..tttttrrr
+2 .........ll.bbb..llbb.ttttrtttt.ll..rbbb
+2 bbbbll.ttbbbbbbl...rrrrrtrrrrbllbrrb.lll
+2 bbbblllllll....rrrrrrrrb.lllllllll..rrrr
+2 rrr.lllllllr.b.rrrrrl.bllbrr....r.l.b.r.
+2 brr...bttl....lttttttttttt.bbbbbblllllll
+2 tllltllttttttt......llll........rbbb.bll
+2 rrrbrllllrrrbrrb.l.tllbbb.tttrrrttttttrr
+2 rbrr...b........t.llttt.rr.bb...t..bbb..
+2 .......b.Lrr..ttttlll.r..rrr....llllltt.
+2 ......t...ll.........lb...........r.....
+2 .rbbblbtt.......bb...bbbllbbblrrbrbr.brr
+2 rbbtttttrrrrrr........t.rttt..tttt.bbbbr
+2 .......lllbbbbbb..brrt.rrb.lll.l....tt..
+2 ...ll...rrbbrb.l..l.l.l..ttllbb....b.Rtt
+2 .........r.tttrtttttrtttl...bbbblbbbtttt
+2 rrtt.lbbtttrr......r.b.l..r.b..........t
+2 .llltllll...........rrrttlllbbb.lllbbrbb
+2 bbbbbbb.t.....b.r..brbbrr..bbbbrrrrr...l
+2 lll...llbrr...trrr....llllll.rrrrtr.rlll
+2 ltttllttrtttttlttttttttttrrrrrbbbr.r.b..
+2 ......llrr...llll....bb....bbbrrbbbbbbbb
+2 ..blllbbrrr..lllllb.rrrtrrtrtttllltlllll
+2 tttttllllllllltttttttttttttt....trtrrrrr
+2 trrrrrrrrrrrrlllllllllllllllllllllllllll
+2 llllllllbblllllttlllllllllllrrrrbbbbbb.r
+2 rrbbbbbbbllllbbbbbbbrrrbblbbbbrrbbblllll
+2 rrrrrrrrrrrrttrrrrbbrrrrrrrr.......
+
+uuid 93fa8c6e3a3de6f464ea099f4745df8f
+
+leaderboard steps time gems

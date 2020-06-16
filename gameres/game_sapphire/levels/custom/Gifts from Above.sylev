@@ -1,0 +1,38 @@
+n Gifts from Above
+D 4
+C 4
+p 0
+Y
+M 0 Penny Lane
+i As the sapphire drops into its
+i natural habitat, the sapphire's
+i main enemy -- the stone --
+i cautiously approaches.
+a Shark
+m 12 12
+############
+#          #
+#          #
+#.........0#
+#....1.....#
+#.........*#
+#..........#
+#    +.+   #
+#    +<+   #
+#    +++   E
+#          #
+############
+y ~^%   @@@
+y ~^%   $$$
+y ~^%   $$$
+y ~^%   $$$
+y ~^%   000
+R 38033
+0 0
+1 Demo 1
+2 ...r.b.rrrtR.trbblll.bl.Brr........bb...
+2 b.llllB.rrrrB.llllb.rrr.rtt..rbrrr.....
+
+uuid 49e9128c3f2853bdb085f4c8ef444f77
+
+leaderboard steps time

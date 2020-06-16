@@ -1,0 +1,36 @@
+n The Fall
+D 4
+N The level of the cake
+i This level is to show you
+i that an object that causes
+i an explosion from a falling
+i bomb can still survive.
+a Alexander
+f Alexander
+m 7 9
+.......
+..Q+...
+..$....
+..Q....
+..$..1.
+.......
+.......
+..E....
+#......
+R 91735
+0 8
+1 Don't Panic
+2 ..ttttllll.bbbbr....Lbbbb...
+R 1425
+0 8
+1 Run
+2 .t.l.lr.....tttllllbbb.R.tttrrrrbbbll..T
+2 bbbbb........
+R 37817
+0 0
+1 Demo 3
+2 tlLrtttlllllbbbrrrrrrbLllbbbb
+
+uuid 68488bdfe279eefa273e828c1179a918
+
+leaderboard steps time

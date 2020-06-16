@@ -1,0 +1,64 @@
+n Labyrinth III
+D 6
+C 2
+e 45
+s 0
+p 0
+M 0 Pink Panther
+i Third labyrinth-like level...
+a Shark
+m 27 27
+###########################
+#00@l.....+ B  > B #.....0#
+#.|.#.#.#.# ###B## #......#
+#0#.......#B##   #B#....*.#
+#!#####...# 7 B  7 B ..**.#
+#..*..#...#    B   #......#
+#[###.#..0#B#   ##B#..{...#
+#00000#.$*# ##B### ###B####
+#00000#{..# B  > B # B # *#
+#0000+##############B###YG#
+#000&# Q 0 B  #  E & &yG .m
+#"0&#Q #0#  B  #  &#! &##Y#
+#0&#QQ##@#|  B  # &#!!&#  #
+#&#QQ#  0 Q|  B  #&#!!&# !#
+#+QQ#0 #@#0*|  B  #&&&g#  #
+# 0#Q.  0 +++|  B ######++#
+#$# .  #@#QQ++Q  ##0.  +++#
+##      0 QQQQ#   #0.  +++#
+#  __ ##[#+###+0# #0.  ++*#
+#b         QQ# 0# #0.@a+++#
+####  ##:  #Q#$#  #######+#
+#$*: :***#0#Q#.  #Q+Q+Q+Q##
+#(*: #$$$*#QQ#a##Q+Q+Q+Q+Q#
+#*$: :___*#QQQ#QQQ+&+Q+++Q#
+#$$: :(<_#Q+++Q#+++++Q+(QQ#
+#((#1#_%_QQ+Q++& QQQ+Q++++#
+################Q######a###
+y :::+< +/ 
+R 1173
+0 0
+1 Demo 1
+2 ...........ttttttllLttrrbbttllbrrtrbbttt
+2 llbbb.rrr..r....rlllttrrrl.R..ltbrRlrlt.
+2 .br.llbbrrRlllttttRbbbb.rrrlltttttrtrrr.
+2 .ltttlrr.rrbrbrbbrbbblbllTrrtrtttlltllll
+2 bl..bbrrbbbbbrbrrrttrrrBlll...bbllllllll
+2 lr....llltLbrrrrrttttttllttttttlltttllbl
+2 blblbllttRtcbbbBtr.....str........lblrll
+2 str........lb...lstr..t.rlb.lblltttrrtrt
+2 ttrttllllTrrrrbbllllcbbbbbbrb...tr......
+2 ..lllBtttttttttttTbbbbbbbsttrr..lltltttt
+2 ttrrbbrrrrttRlLrbbbbbrBtrbbtllBrrblttttl
+2 ttllllbbrrrlllt.............tllbbbbbbbbb
+2 bbbut.........bbbBtttrttttlttttttrrrrbbr
+2 rrrttcbbbbbbltttttrttrr......rrrblrtrrbb
+2 rrttbbbrrrrtttlbbbltrrblltLbbllrblbbcbrT
+2 ...l.......stutRllsr..rbbbbllLRttttllblb
+2 urtrrrrrtRbrbbblut........bbbbutt...b...
+2 .bbbmlllbbrrt..lbbBrtrrrBttttttul.......
+2 ..bblllllbbBttl.....
+
+uuid 1a0a82ec2abad0c096a0993063bdaa30
+
+leaderboard steps time

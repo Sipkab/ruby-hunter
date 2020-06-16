@@ -1,0 +1,30 @@
+n Bridge too Far
+ldeutsch n Lange Br�cke
+D 3
+C 5
+p 0
+M 0 FF7choct
+i Seems impossible, huh?
+ldeutsch i Schaut auf den ersten
+ldeutsch i Blick unm�glich aus,
+ldeutsch i oder?
+a Alexander
+m 8 8
+########
+#  @   #
+# ### E#
+#    0 #
+#1 ### #
+#      #
+#      #
+########
+R 49794
+0 1
+1 Demo 1
+2 ......tltttrrrlllbbbr...........brrrrtt.
+2 .ll.r.rbbbrllllttrrrlllbbrr.rrBttt......
+2 t...r.b.l.
+
+uuid f66f3076e0cd48a6743cee13c2985af9
+
+leaderboard steps time

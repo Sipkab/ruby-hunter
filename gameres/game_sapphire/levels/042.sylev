@@ -1,0 +1,177 @@
+n Bag your pardon?
+a Emerald Mine
+D 5
+e 100
+s 0
+i The staircase method is a good strategy here.
+m 64 32
+################################################################
+#E................. @............. @....@.....................E#
+#..  ......@.... ... .. @ .  .....@......@ .......   .... .....#
+#. ... .@..... .  .@@.@.. .. . .@0@..  .  @..0@@ ... .@..... ..#
+#..@. .@..0@@@. ..0  @....@@.  ... .@.@@  . ....  . ...     ...#
+#. .0@.00....0. ..@0 @@ .@. ....@.@.@....@. . @ @ .  .0@@ @. ..#
+#.. +.@+0 .. @ .@..@ ... ..@.    ...@  0....@ ..+@0 0@0@..@....#
+#. @.@.@@.+ .+...@@@..@@0. @@0.@..@ .@@....00.@0@ .. @ .@ @.. .#
+#.. + @ @.@@@  +.... .@.@ .@0@.@. +0. .@ .@.. @.0 .00+.0@....@.#
+#.  0...+@..@..0. @0 @. +..@ @.... .. .@++ 0.+0 .0@0.@.@0@ @. .#
+#..@@.+. @.0@@.. ..@@.@. . @.00 . @.@.  ..0.@@.. @.0.@@ ...+ ..#
+#.. 0.@@..@ ..0. +@.... ... . ........0@@@00.. . ...@.    .....#
+# ... .0 . .@0 ...  @ +....@...0 .+0 @ 0@0  .@. ..@   .+@+@ . .#
+#..0@.@+.  .@ @.@0@...@. .+@ .@@... .  .@... . ..@.0.@@..@. ...#
+#....0...0@ .@.  .@@@@..@.0. .0@ +0.@@....+@...++... @. 0@. . .#
+#...+ +@@..@..@ @ ...@   @@.00.@   @0 .@ ...@ ...@.@. .0..  ...#
+#.. . .@ +00. .. +0.@0 .+.   @00..@..@... @...  .. @..@.@.@.. .#
+#. @@.@   . @ .....@  0 ....@.@ 0. .@@..@@.@@.@@.@... ...@... .#
+#.... +.. @@@@..00@....   +.+ ....@.+@ @.....  @@...0@.@@.+.@@.#
+#  ..@0. @ .+.@.@@0 ..@ . .@...@...@.@  .@@ . ..+.@@0...  .....#
+#..@..@. .....@ .@.@@.@.+.@  0.. . .. .@@@@. .+@.@..@.0...@@ @.#
+#.@@+...+@  @@.. . .... .00@.@ . @..@. .0. ..0@.@@.+.@.@...@...#
+#..+..0@@. @0.. ..@....+ @ ..@. ..  .@ @.0.0 .@.. ..@ .....@@..#
+#@+@... @.@@  . @ @0 @@.@..@ .@. ..0@@@@..@.. .@@@.0.+..@ @....#
+#..@. . @..0..@0  ....+.@...0.. @........@.  ...0 .+.@  @.. .. #
+# @.. ...@... .. . +@ .@@. .. ..@@ +.. ..  @ .....@+... .@ ....#
+#..@.@@.  . .@.. .+.@@  @ .  ...@... @.@. @.+ . @@ .@ @...@....#
+#.@@ .. ....@@.. @@.+ ..@... @.. .... .@..@. @..@....+.  ..@...#
+#..   .@.    ...+. ..@...@@  . @..@@..@...@@...  ... ..@..  . .#
+#..@@......@+@@.@@@...@@..@....@....@.......@@@.@.@...@.@... ..#
+#.........@....... . .. @@..@.1  .@...... .......@.............#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 92025
+0 8
+1 Demo 1
+2 .....t..l..b...l.t.ll..r...r.ttl...rrr..
+2 tt..t........b.b.llll...l...t.......b.l.
+2 .ttt.......t.l..............rr....l..bb.
+2 r.b.r..bb....L.R...tt..ll.b.ttt...ttt..r
+2 .tttr.tt...R...t...L...ttt.rr..tt..r....
+2 ......ll....bbb.r.b....t.ll.bbbbbb..b..L
+2 .tt.ll.b.l..b...B..b....R....tt.rr..r.b.
+2 .lll..rr.........t.tttttt.rrrrrr.......l
+2 .b....L...r..........b...R.....b..R.tt.l
+2 .ttlllll.bbbbbbbb.r..t..tt.rr.bbb.l..b..
+2 .L.bbblll....rr...t..bbbllt..l..tt......
+2 ..l...r....t..bbbbtt....ttlll.bb.l.ttrr.
+2 .r.bb.lll.bbtt.ll...rrrrrr..bbbbb.rrr.bb
+2 .r.....B...ll..t..lltt...rr.rr..tttlll..
+2 .l.bb.rr..bblll..t.rr....ll.bb..L.rr..tl
+2 llllrrrrrr...bb.r.....B...b...B..t...llt
+2 .l.tttlllllll.rrrrrrrrrtttt....bb.b.ll.t
+2 trr.t.lll.tt.rrrrr.....ttllbbbbbbbbbbl..
+2 bbrr.bb....L..t..l........rr.tt.r.....B.
+2 .rr...b.llrrbb.rr..ll..tttt.lll....r.t.r
+2 r.b.ll...ll.rr..rrbbblllll.r.bb..tt.ll..
+2 r.bbllbbtt........tttt.rrrrr.t.lll.rr.tt
+2 lll..b.rrr..t.ll.r.t.lllll.bbbbbbrrrrbbb
+2 ..tttt..rr..tttt..tttt.ll.rr.tt.ll.rrbbl
+2 .bbbbbbbbbbbbllb.rrbbrrbbl.bblllll.r.r.b
+2 .ttttttttt.llll..l.tt.rr..rrrrrtttt.bbbb
+2 bbbbbtt.b.rrr...................ll.tt.r.
+2 ttt...t..t..ll.b.rr.r..bbbbbbbbbbl.b.ll.
+2 ....ll.rr.ll..ttrrrrttttt...bbb.r.l....r
+2 ..b.r.ll....t..tt..t..b..r.tttt.l..r.bbb
+2 bbbbbbbll.b.....t.r.b..l...b.tt...r..ll.
+2 rrlllttttttttttlll...tttt..l...tt..rr...
+2 ..bbbbblllrrrr.tt..b.rrrr..t..bbbblll..t
+2 ..rrr.bbb.lll.ttt.r.tt.ll...t...t.ll....
+2 .rr.........l..ttt..rr........b.ll.....l
+2 l...r..t.rrr....r...l.t..t..ll.b..b..rr.
+2 ..b....t..rrb.l.bbbbbbbbbbbbbbb.llltllll
+2 llrrrrrrtttttttttrr.ll..r....r..tt...ll.
+2 .......tt.rrr....bb.lll..tt.rr.r.bbbbbbb
+2 bbbll..rbbbbbbll.r..bb.ttt..rrrttttrr.tt
+2 .l...r.ttttl.....bbbbbbbbllll..rrttrrbb.
+2 r.b..lll.r..r..l.b.lll..rr.b.ttlllbbb.ll
+2 ...ll.bb.tttt.rrrrrrr.....tttttttttttttt
+2 rrr.ll.t.r..tttt.rrttrrrrrrrrrrrrrrrrrrr
+2 bbbbbbrrbbbbllllllllrrrrrrrrbbbbbbbbbbbb
+2 bbbbbbbbllllllllllll..r.t.ll.tt..rr..b..
+2 .L..t..t.lll..l.bb.b..tt.....b.l..t...b.
+2 .L.tt..t..l..b...t.rrrrr.......ll...lll.
+2 ..l..r.t.rrrrr..t.t..r..lllll.t..r...b..
+2 l..b..ll...l.tt..rr....rr..bbbtt...rbbbr
+2 rbb..rr................bbbrr..........tt
+2 .r..b..r.r..t..t.ll.r..t...t.lll..tt.lll
+2 ...l..rrll.bbbbbb...rr...l.bb.tt...rt.rr
+2 .llllttllll.lllll..t.t.l..ll.r..b.......
+2 B...tt.l....r.bb..b...r...B..l.....t....
+2 r......rrrrrrr...ll..l.bb..B...tt.l....l
+2 .b.ll...r...............b.........b.....
+2 R....B....ttt.l.bbb....L..ttt..rrrrr.ll.
+2 .r.bb.rrr..t..rrrttlllllll...t.rrrrrrrrr
+2 rr.t.llll.t.ll..bb.l..t.lllll.tt..b.rrrr
+2 rr.t..llllll.tt..b...rrrrrrrr..tt..b.lll
+2 lllll.t.rrrrrr..r..t.lll...b.ll.t.ll...t
+2 .rrrrr...l..bbbbbbbbbbbbllll...r.bb....R
+2 ....lll.rr..l..B.tt.rrrr..rrrrrbbbbll.tt
+2 llttlllllll.ll..l.bblll..l..b.llllllllll
+2 ttl.........llll..lllllll...t..rrrrrrr..
+2 .llll..b.r...tt...lll.tt.l.ttt.r.....t..
+2 ll.bbbbbbr.r.l.bb...b.rrrr..lll..r.bb.tt
+2 ..rr.b.t..rrrrr.ll....t.llllllt.ll..l.tt
+2 .l.......r..........ll..rrll.r.ll.......
+2 .r...t..llttt..lllllll.tt.t..rrrlll.bbbb
+2 bbbbbb.tt..bb.t..t.rrr..bb.r..bbbbll....
+2 ......b.....R....b..R.......lllll....rrr
+2 .b....rrr..r..r..rr.t..r.t.r..b.r.....rr
+2 rr..............ttrr....................
+2 ...........ttll.t.ll...rr.t.ll.tt.ll...t
+2 rrrttttttttttrrttt.l..t.r.tt..b.rr..llll
+2 l.......rr.t.llllltttlllt.lllll.rrrrrrrr
+2 rrrrrrrrrrrrr...bbbbbbr..bb..ll.bbbbbbbb
+2 bbbrrbbbbbbbbbbbttt..llllltt..b.lll.l..t
+2 tt..lll.........r.bb..b.rrrrr.l.b..ll...
+2 ..r.b..b..rr.l....t...t..b..b.lll..rrrr.
+2 .l.tt.rrrrt..rr.tt.rrrr.tt.rr.r.bbbbbbbl
+2 lllltrrrrrrrrrrrrrrttttttttrrrrrrrrr..b.
+2 b..bbb.r.rr.ttt.rrrr...r..ttll..ll..tttl
+2 l..rr..bbb.ttrrrrrrr........rrbbbl.bb.ll
+2 .t.lllrrr..ttt.ll.rrrtt.rrrrbbbbrrbbbbbb
+2 bbbbbb.tt.tt......rttttt..rr....b......b
+2 .b..b.lllllltttrr..tt...t...ll........l.
+2 .t.rrr......l.l.bb.ll...rrr..t.rrrrrr.bb
+2 b.lll.tt....L.........rrr..ll.t.llltl...
+2 b.ttt..b.l..t.rr......l.l.bbbbblll..rrr.
+2 ..l.....r.bbb.r.bb..l.rr....lltt...tt.l.
+2 ...........r..bb..r.b..b...l.r....tttll.
+2 tt..l......ttttr..tt...bbb...bbbbbb.lll.
+2 r.b.ttt...ttt..t.lll..t...tt..rrr....t..
+2 ll..l.l.bb.rr.bbbbbbbb.ttrrbbll.bbtttlll
+2 .bllb.r.bbllb.tttttt...ttt..b.rr.b.ttll.
+2 rrb.llrrrrrrlllllllll.r..tt..r....lll.r.
+2 .l.tt.rr...t..tt.rrr...t...l.lll..t.l...
+2 .r.bbbbbbbbbbbbbbbbr.bbllll.rr.bb.l.tttt
+2 t.rrrrr..bbb..t...t..ll...b...b.rt.rr..r
+2 ....bb.bttttttttttttl..r.tt.l.....rrtt..
+2 ........bbb.rrrr..l..l.tt.ll.bbl.bbbbbbb
+2 bbbbbbbbb.tttttrrrrb.rrrbrrr.bbbbbb..lll
+2 ll..tt.rr....l..r.b..rrrtt.b.llll.t.rrrr
+2 rt.lllllllll.r..b.rrr....b.t.rr.bb..rrrr
+2 ..ll.b.tt.rrrbbb.tttttllllllllltttttrrrr
+2 r.ttrrb.rrrrrrtt.bb.t..t.llllll..r.t..t.
+2 ..t.rrrr.b..b.lllll..brrtt.rrb..b.ll..ll
+2 tttt..rrr..lllll.rrrr..ttt..lll.....rrr.
+2 tt.ll.bbbbbbbbbbbbbbbbbbbbbbbbbbbbb.tttt
+2 tttr.t..t.rr.lltttttt.rrrtttttt.bbbbblll
+2 l.b.l..r...ll........r.r..tttt..r....r.b
+2 bbbbbbbbbbbbbbbbbbbbtttttttttt.b..rrrlll
+2 .bbbbll..r.b.ll.ttttttttttttt.r.t...t.rr
+2 r...l..t.rr..b.bllll.bbbb..lll..t.l...r.
+2 bbbbbbbb.rrbbbbbbbbbb.ttttttttt...llllll
+2 llll.t..rrrrrr.t.lllllll..rrrr....r.r.tt
+2 .r..........bbbb..b..ll.t.ll....l..r.ll.
+2 bbbbbrrr..l..b.lll.brr.bbbb..ttt..lll...
+2 ttttttrrtt.b.t.lll..tt.t.lllr.bbbbbbbbbb
+2 bbbbb.....R..ttt..r..b.rrr..llb.rbbttttt
+2 tttttttt..rrrrrrr..lltttt.b..rr..t.l....
+2 ..r.bb.l.bbbbbbbbbbbbbtttt...t.rrr..rbbb
+2 bbbb.t..rrrbbbbrrrtttrrttttttttttrrrtttt
+2 ttttttttt....
+
+uuid 83fe18018e3b715d742019e2335ff370
+
+leaderboard steps time gems

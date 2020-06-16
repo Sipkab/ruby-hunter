@@ -1,0 +1,36 @@
+n Unease
+D 7
+C 4
+E 0
+p 0
+i This level may cause you to feel
+i unease, particularly in the sense
+i that it's not easy.
+a Alex
+m 13 11
+#############
+#1......0...#
+#.......8*..#
+#..Q....$...#
+#..7*.......#
+#..*........#
+#.......[...#
+#......[....#
+#...........#
+#..........E#
+#############
+R 42738
+0 0
+1 Demo 1
+2 .......rrrrr..........bbbb.rrrr..t...t..
+2 ........LbllTl...tttrr.....bbrrtt.......
+2 bbll..blllttt.rrrRbbbb...rr.T..lltllb...
+2 .r.lblbllll..rrrrtrtrrb...l..blllllrrrrr
+2 tltlbrblll...rrttl....l...TblTll........
+2 ..........trrrbb..........b..ll.r.trrbrr
+2 r..tlllllbrrrr..bttllllllbrrrrr.ttrrrrr.
+2 ll..bb.llbrrrrr.....
+
+uuid 8b4e448e389383296ffd22fb2d4e8c64
+
+leaderboard steps time

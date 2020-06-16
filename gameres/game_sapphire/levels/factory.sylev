@@ -1,0 +1,44 @@
+n Factory
+ldeutsch n Fabrik
+D 4
+C 7
+e 55
+T 1000
+M 0 Nightshift
+i Stones,
+i two converters
+i and patience...
+ldeutsch i Steine,
+ldeutsch i zwei Konverter
+ldeutsch i und Geduld...
+a Reinhard
+m 13 15
+#############
+#.0000000..E#
+#.000000....#
+#.000000....#
+#...........#
+#...........#
+#....c...1..#
+#...........#
+#...........#
+#.....c.....#
+#...........#
+#...........#
+#...........#
+#...........#
+#############
+R 17084
+0 1
+1 Demo 1
+2 ....bbbbbbbllltttrbbblltttlttr..trblllll
+2 tttrrrrTl...lll...........rrrrt.blt..bll
+2 .......rr.ttttlllbrrrrr....l...bbbbbbrrr
+2 bbr.R....Rrrbllbrrblltttlttllltttrrr.l.T
+2 l.rrr.ll.Tl.rrrrlllbbb...ttttrrrrR.ll...
+2 rrttrrrr.lll..rblll.rbllllllllbbbbrrrRbb
+2 rbrrbllbrrrr.ttttttttttttrr..........
+
+uuid dacf8242bbc4c7845f82247d7700f519
+
+leaderboard steps time

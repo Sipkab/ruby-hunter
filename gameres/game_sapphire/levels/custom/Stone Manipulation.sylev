@@ -1,0 +1,42 @@
+n Stone Manipulation
+D 7
+C 3
+e 4
+p 0
+d 110
+v 2
+M 850 Money for Nothing
+i Have fun manipulating the stones.
+i And if that doesn't work you can
+i just show your friends the demo,
+i and pretend that's you solving it!
+i Everybody wins!
+a Shark
+m 26 15
+##########################
+#         lm#E#       ! 0#
+# |lllm   ### #         .#
+# + ### #{###B#       * ?#
+# lm    ####     !       #
+#cm   Q{# 0#    g    10  #
+# : {{##  !#@#   |#   #:##
+# : ## b   #+Q        #( #
+# : #  &  G#+.    ?####Qi#
+# : 0  Q 0 G+.    #QQQQQQ#
+##:{#########Q############
+#Q(#   l#d#####           
+#QQQ #    l#              
+###QQ {#0 ##              
+########### ##############
+R 58971
+0 0
+1 Demo 1
+2 ...rtllllLrrrrttTbbrrbltlllbbbstttrrblll
+2 lltlllbbbstt..trbllllrbbbLrtttlllbb.bblt
+2 TllllbbrlllrrrTlll.........ltttttlrttr..
+2 ...lbbb....l.....rl.............ult.....
+2 ...bbbbbBtttrrbbbbrrrrrrrrtttttrtt.....
+
+uuid 931d11d2d4fdcdd45430451a56abdf20
+
+leaderboard steps time

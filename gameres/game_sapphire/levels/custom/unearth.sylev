@@ -1,0 +1,44 @@
+n Unearthed
+D 5
+C 3
+e 54
+E 0
+p 0
+i It looks simple, but there are
+i a number of time-critical moves
+i involved. Remember to look (and
+i think) before you leap.
+a Alex
+m 14 15
+##############
+#      1     #
+#      Q  Q  #
+# Q 00 # 000 #
+#000$& # [000#
+#0E00& + &000#
+#0000[[#&[000#
+#########.####
+#0 0000     0#
+#00000. Q   [#
+#00$$$. + | +#
+#$$$$.. + +&&#
+#$$$... +s+c #
+#$$Q...      #
+##########a###
+R 36280
+0 0
+1 Demo 1
+2 ...rb....l.r..trrrbl.l..l.bbbbb.......bl
+2 ..................lL.r...r.r....l...b...
+2 ...........rbbllb.......bbbb.L...rrl..lt
+2 tttr....rtrr.....b.l...lllbbbbrr..rr....
+2 ..l..........rrttttlllbbr....rrbbl.rtttt
+2 lllllb....bbbrrl..rl..l..ttttl..........
+2 .br.bbbl....rrr.ll......tt...lltl...bl..
+2 .B......TblTbltt..r.....tttrrrrrrr..tttt
+2 ttlllllbb...ttlllbr..trrr...bbbbR.tl....
+2 .tllb.....
+
+uuid fdd2899c08548c469f0b8de8083cd80d
+
+leaderboard steps time

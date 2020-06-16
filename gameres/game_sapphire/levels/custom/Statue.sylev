@@ -1,0 +1,31 @@
+n Statue
+D 3
+C 5
+s 0
+p 1
+d 1
+M 0 Rock Lobster
+i You need to destroy six stones and
+i a three-thing-wide structure, but
+i you only have two bombs!
+a Shark
+m 7 10
+#######
+#..1.!#
+#.###.#
+#.#Q#.#
+#.#0#.#
+#.000.#
+#.0+0.#
+### ###
+~#+++E 
+~##### 
+R 71278
+0 8
+1 Demo 1
+2 ..rrbbbbBttttllllbbbbBt.brmtt...rrbbbbb.
+2 rrrbblbbbrr.....
+
+uuid e105bd9259825bfc3843951c19ff43b4
+
+leaderboard steps time

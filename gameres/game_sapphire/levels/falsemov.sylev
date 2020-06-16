@@ -1,0 +1,70 @@
+n False Movement
+ldeutsch n Falsche Bewegung
+D 4
+C 1
+e 33
+o 1
+M 0 Tico Tico
+i Don't do any stupid things
+i with the robots.
+ldeutsch i Mache keinen Unsinn mit
+ldeutsch i den Robotern.
+a Alexander
+m 17 43
+~           #####
+~           #Q#1#
+~           #Q# #
+~           #o# #
+~         ### # #
+~         # & & #
+~         # + + #
+~         # + + #
+~         # & & #
+~         # # # #
+~         # # # #
+~         # #####
+~       ### #   #
+~       #Q# #   #
+~       #o# #   #
+~     ### # #   #
+~     # & & #   #
+~     # & & #   #
+~   ### & & #   #
+~   #Q# # # #   #
+#####0# # # #   #
+#E# &0& # # #   #
+# # &Q& #####   #
+# # &0& #       #
+# # &0& #       #
+# # &Q& #       #
+# # &o& #       #
+# # & & #       #
+# # & & #       #
+# # # # #       #
+#&# # # #       #
+#Q# #####       #
+#o# #           #
+# & #           #
+# Q #           #
+# # #           #
+& & #           #
+&Q& #           #
+&+& #           #
+# # #           #
+#!# #           #
+# # #           #
+#####           #
+y #Q##o##V#
+R 33309
+0 9
+1 Demo 1
+2 ....bbbbbbb....tt..bb.llbbttllbbbbbbbbbb
+2 ...bbbtttllbbbtttllbbbbbbbbbb....tttttt.
+2 ....lbbbbbrllbrr.bb.ttlllrbbttll.bbbb...
+2 ..........b.ttt...bb...bbbb....llbrrblll
+2 rbbtt.rrbbbtttllttttttt...cb...r........
+2 .lbbbbbbbb.tttttttttttttttttttt........
+
+uuid 16c441465b4288cb74910e44886a62f2
+
+leaderboard steps time

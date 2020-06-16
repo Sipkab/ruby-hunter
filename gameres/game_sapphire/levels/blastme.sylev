@@ -1,0 +1,120 @@
+n Blast me!
+ldeutsch n Spreng mich!
+D 7
+C 7
+E 0
+T 2000
+s 20
+p 0
+M 0 Nightshift
+i If only you had something
+i to fill up the space between
+i the boulder and the sack...
+i 
+i Actually you *have* something
+i - use your gift wisely!
+ldeutsch i Wenn man nur irgendwas h�tte,
+ldeutsch i um den Abgrund zwischen Stein
+ldeutsch i und Sack aufzuf�llen...
+ldeutsch i 
+ldeutsch i Tats�chlich *hast* du etwas
+ldeutsch i - benutze es weise!
+a Juergen
+m 17 13
+#################
+#             ""#
+#             ""#
+#             0"#
+#             #"#
+#@            ""#
+##     ^  1   ""#
+#             ""#
+#             ""#
+#             ""#
+# aaaaaaaaaaaaaa#
+#EQQQQQQQQQQQQQQ#
+#################
+y ~   /    
+R 29490
+0 0
+1 Demo 1
+2 ..rrrrtrtttltrllbbbbrrbbbllt.rrbblllllll
+2 tttttt..tl..r...........................
+2 ........................................
+2 ........................................
+2 ........................................
+2 ...........cbb...cbb.........tt.......l.
+2 ....srr..srrr....lllllmlllmll......rrrrr
+2 srrsrrr......llllmlllmll........rrrsrrsr
+2 rr.....llllmllmllll...rrrrrsrrrsrrr.....
+2 .lllmlllllmlll.....rrrrrsrrrrsrrr.......
+2 llllmllllllmll.........rrrsrrrrrsrrrr...
+2 ...llllsrrrr.....llllmlllllmlll.......rr
+2 ..mll.......rrr..ml.........rrrmlll.....
+2 ..rrr.mlll.........rrr.mlll......rrr.mll
+2 ......rrr..mll.......rrr..ml.........rr.
+2 .mll........rr..mll........rr..mll......
+2 ..rr..mll.......rr..ml.bb.......ttr..c.l
+2 l.......rrt....c...lll....rrt..clll.....
+2 .rrrt..clll.......rrt..cblll.....rr.trrr
+2 rrr............rr.srrr.....llllt.srrrr..
+2 .lllllsrrrr....llllsrrrr.....lll..srrr..
+2 ....lll..srrr.....llll.srrrr......lll...
+2 .srrr......lll..srrrr......ll.srr.......
+2 lll.srr...........ll.srr........ll.srrr.
+2 .....lll.srr.......llllllbblllll..tll..s
+2 rrrrrrrrrrrrttt.tt.ltll....srr.....lllll
+2 lbb.srr.....b.llll.tllt.srr......llllll.
+2 srr.....llllllb.srrr..blllllllltt.ll.srr
+2 bbl.srrsrttlllllllllsrr......llllllb..sr
+2 rb.....lllllltt.ll..rrrrbbb..tlllsrrbbbb
+2 l..llllll..srrr...t.ll.ll.rrrllllrrrrll.
+2 .ll.srrrrr...lll..ttt.b..bllllb.r...srrr
+2 r.....lllll..srrrrtttttll.srr.....llllll
+2 l.srr.....llllllllbburrr....llllllbb..r.
+2 .ll.ur.rr..l..urrrr.b...blll..rrbbl..srr
+2 rttttllllbbsbbbblll...stt........tll..sr
+2 .......bllll.brbbbl..bbb......
+R 2436
+0 8
+1 Demo 2
+2 ..tttttrrrrllllllb.b....l.....ttt.l.....
+2 .cbbbr..c.rrrr......llll..sr..r.....rrrr
+2 trttttlbrbbbbblbbrttttllllllllb.sr......
+2 ...llmll..........rrrsr...........llmll.
+2 .......rrrsr.........llmll.......rrrsrr.
+2 .......lllmll.......rrrsr.........llmll.
+2 r..ml..........rrsrrl.rr..l.sr.........l
+2 ll...mlml..........rrsrrsr.........llmll
+2 ml.........rrsrrrsr..........llmllllml..
+2 ........rrsrrrrsr..........llmllllmbbrr.
+2 ..lltttrsrrrrsr..........llmlllllcbrrrrr
+2 r.ttrs.rr....lllllmllllllcbrrrrrrrrttlls
+2 rr..........llmllllllcbrrrr.trrrrtrsrr..
+2 .....lllmllllllll.cbrrrrr..rrrrtt.sr....
+2 ...........ll.sr.........ll.sr.........l
+2 .sr.........lll.sr.........l..s..r......
+2 .llrsr.tt......bbll..srr........ll..sr..
+2 ........ll..sr..........ll..sr..........
+2 ll..sr..........ll..sr.........l..s.bbl.
+2 .....tt..cb.........tt...trttttllll.srr.
+2 ....lllllllb..srrr......ltllb.urrr.bb..l
+2 lllllr.utlll.srr.....lllllll.sr........l
+2 llllb.srr..b.....llllr.ut...lll.sr......
+2 ...llll.sr........lllllb..srr.b......lll
+2 lr..utlll.sr........lllll.sr.........lll
+2 lb.srr.b.....ll........tllll.srrb.......
+2 l.....t...ll.b..........l..utrrrrbb..srr
+2 bbb...lllll..sr.........ll...sr.........
+2 ll..srr........lll..sr.........ll..sr...
+2 .....lll..sr........lll..sr.........ll..
+2 sr.........ll.....cb....................
+2 ................................r..ttl.s
+2 r.........ll.srtt.srbbbllll.t.sr........
+2 .ll.cb......r.tttl.cbrr.t....lllrr.tll.s
+2 r........tttlll..r..l.srr......b.llllbrb
+2 bblbbb........
+
+uuid 039359aa3289f9e5134ebbb08868cd85
+
+leaderboard steps time

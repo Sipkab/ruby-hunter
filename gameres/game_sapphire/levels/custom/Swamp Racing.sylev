@@ -1,0 +1,58 @@
+n Swamp Racing
+D 4
+e 2
+E 0
+s 5
+M 0 FF7choct
+i Try to find a way through
+i before the swamp traps
+i you.
+a Alexander
+m 20 20
+~       i       i   
+~   iii i         E 
+iii   i i       i i 
+% ii  i ii     iii*Q
+i  ii iQ   iiiii i##
+ii  i iiiiii        
+iii   i       iiiii 
+iiiiiii      ii     
+iii       iiii  iii 
+~ i   *  ii     i   
+~ i   .   ii    i   
+~ iiii     iii  i   
+~    iiiii  ii  i   
+~*       iiii  i    
+~.         i  ii    
+~   ii   i   i      
+~  ii   ii iiiiiiii 
+~  i    iiiiiii  Ei 
+~ ii    1iiiiii iii 
+~ i   iiiiiiiii     
+R 477
+0 0
+1 Mud Maze
+2 rltttltllllltrrrrbrrrrrtrbrrttrtrtttrrtt
+2 ttrrrtrttlllllbblllbbllllllbblBtttrtttll
+2 .....ll..tt.............................
+2 ........................................
+2 ........................................
+2 ........................................
+2 ........................................
+2 ........................................
+2 ........................................
+2 ......................ttt...............
+2 ...........................tttrrttlttrrr
+2 brrttrrrrrrrbtrrr.......................
+2 ........................................
+2 ........................................
+2 ........................................
+2 ........................................
+2 ........................................
+2 ........................................
+2 ........................................
+2 .
+
+uuid b2a3421486745924a944bfcdc288f810
+
+leaderboard steps time

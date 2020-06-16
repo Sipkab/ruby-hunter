@@ -1,0 +1,140 @@
+M 0 Rooms
+D 5
+n Stone for Bag II
+e 61
+p 4
+a Alexander
+f Alexander
+i This is a sequel to the Emerald
+i Mine level Stone for Bag. Now
+i get all the bags except 1!
+m 64 32
+################################################################
+#             0       0               .                        #
+#             .       .                0         0             #
+#    0  .   0      . . 0    0    0    ..      .  .             #
+#   0.   00 .    .     .    .  . ..    .  .         0    .     #
+#   .    ..        0             .    0             .0         #
+#   .     0        . 0    .  .   0    .        0     .         #
+#  .      .0      . .         .00..   . 0      .          .    #
+#        . .0                  ...  0   .    .          00     #
+#        .  .        .              .               0   .    0 #
+#  .   .      .    .  .      .   .        . 00      .        . #
+#   00           0        00 .         0    .0  0   0   0      #
+#0  ..     . .  00.   .   ..  1   . E  .    ..  .   .  0.      #
+#.         .    ..     0      E                        .       #
+#         .   .        .              .0   0  .                #
+# .              .     .       .  .0   ...0.   .          0 0  #
+#    .                 .   .       . ..   .    .         .. .  #
+#        .                      0           .           .     0#
+#     .       .       00.       .          .    0 00          .#
+#                     .0                        . ...      .   #
+#      00              .              .                        #
+#      ..                          .              .        .   #
+#                                        .               . .   #
+#       .    .         .                                       #
+#               .             .                                #
+#      .                           .                           #
+#            .        .          .         .                   #
+#    .                   .                                     #
+#   .                                               .    .     #
+#                                                              #
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
+################################################################
+
+y ~
+y ~
+y ~
+y ~
+R 15828
+0 0
+1 Demo 1
+2 lbbbbbbbbbbbbbbbblllllllllllllllllllllll
+2 lllltttttttttttttttttttttttttrrtrrbllrbb
+2 bllllbbbbbbbbbbbbbbbbbbbbbblbrrlBttttttt
+2 tttttttttLbbbbbbbbbbbbbbbbbLttrrrbllllrt
+2 tttttttttttttttTrtlbbbbbbbbbbbbbbttttttt
+2 trtrtttttttttllbbbbbbbbbbbbbbbbbbbtttttt
+2 tttttttttttttttrttlbbbLbbbbbbbbrbtbbbbbb
+2 bbbbbbblbrBtttttttlrbbbtttttttttRttttttL
+2 bbbbbbbbbbbbbbbbbRbbrrBtlllbrBtrrrrrrrrr
+2 lllllltttttttttlttrtttttttttttttbbbbbbbb
+2 bbbbrbbblbbRbbbbbrrttlllllbbbblbrBtttttr
+2 ttttttttttttltttrttttbbbbrbbbbbbbbbbrblt
+2 lbbbblbbRbbbb.rBttttrttttttttttttttttttt
+2 tttrrrbbL.tlbLlllbbbRbRbbbbbbbbbbbbbbbbt
+2 ttttttrrttlbtlllbbbbbbbbbbbblbrBtttrtttt
+2 tttltttrtttttttttRbbb.rrrbbblllllbbbbRBb
+2 bbbbbbbbbbbbrBttrttttttttttttlttrttttttt
+2 trrbbllllbbbbblbbRBbbbbbbbbbbbbbbbrrBttt
+2 rtttttttttttttttttttrrbllttttlbbbbbbbrbR
+2 bbbbbbbbbbRbRbbbbbblBtttrRbbb.rrBttttltt
+2 tttttttttttttTrbbbbbbbbbbbbbbbbbbb.lBrrt
+2 tttttttttttttttttttttttttTrbbbbbbbbbbbbb
+2 bbbbbbbbbbbbb.lBrttttttttttttttttttttrrr
+2 bbllllbbbbbbbbbbbbbbbbblbrrBtttrtttttttt
+2 ttttTrTltttttrttttbbbbbbbblbbbbbbbbbbbbb
+2 bblbrrBtrtttttttttttttlbbbbbbbbbbbbbb.rr
+2 rBtrttttttttttttttttttttttttrrblllbbbbbb
+2 bbbbbbbbbbbbbbbbblbrBttrtttttttttttttttt
+2 ttttttttrbblrrrrrttttllllbbtlllbbbrllbbb
+2 bbbbbbbbbbbbbbbbbbtttttttttttttttttttttr
+2 rblrlbbbbbbbbbbbbbbbbbbbbbbbllBrtttttttt
+2 ttttttttttttttttrrbbbllllbbbbbbbbbbbbbbb
+2 bbbbbbrblllBrttttttttttttttttttttttttbbb
+2 bttttrrrttlbbbbbb.lllbbbbbbbbbbbbbbbbbbb
+2 rblBtrttttttttRbbbbbbblbb...rBttrttltltt
+2 ttttrrbbbb.bbbbbbbtrrrrbllBtltttttlbbbbb
+2 b.rBttttttttttttbbbbbbbbrrbbtttttttttttt
+2 tttttttttttbbbbbbbblllbrbbbbrrbtrbbbbbbb
+2 bbbbb.rBtrtttttttttttttttTrTltttttttrbbb
+2 bbbbblbbbbbbbbbbbblbbbrBtrttttttttttttrt
+2 tbbbbbbbbbbbbbbbllllBrtttttttttttttttttt
+2 ttttttttrbb.lbbbbbbbbbbbbbbbbbbbbbblbrrB
+2 trttttttttttttbbbbbbbbbtttttttttttttlttt
+2 ttbbbbbbbbbbbbbbbbbbbrttttttttttttttrttt
+2 tttttrrttrrrbbbblllllllbbbbbbblbbbbbbbbb
+2 bbbbbbbrblBrtttttttttttttttrtttttRTrbbbb
+2 b.l.lbbbbbbbbbbbbbbrblBrtttttttttttttttt
+2 tttttRbbbbbbbbbbbbbbbbbbrbbb..lBrrrrlllt
+2 ttttttttttr.lbbbbbbbbbblbrrBtrtttttttttt
+2 ttttttttttttttrb.lbbbbbbbbbbbbbbbbbbbbbb
+2 brblBrttttttttttttttttttrttttbbbbbbbrblt
+2 ttbbbrbbbbbbbbbbbbbbllBrtttttttttttttttt
+2 ttttRbbbbbbbbbbrbbbbbbbbbb..lBRttrtttttt
+2 tttttttttrttttttttttttrrrblllllbbbbbbbbb
+2 bbbrblllbbbbbbbbbbbbbrblBrtttttttttttttt
+2 ttttttttttttrrbllrrblllbbbbbbbbbbbbbbbbb
+2 bbbbrbbblBrtttttttttttttttttttrrbl.brttt
+2 tlbbbbblbbbrrTllbbbbbbbbbbbbrbllBrrBlttt
+2 tttttttttttrbbbbbbbbbbbbbb.lBrrttttttttt
+2 ttttttttttttttttbbbbbbbbbrrrbllbbblbbbbb
+2 bb.bbbbblBrtttttttttttttlbbbbbbbbbbbbb.r
+2 rBtrtttttttttttttttttttttttrbbbbrblllbbb
+2 bbbbbbbbbbbbbbblbrBtrttttttttttttttttttr
+2 rbrtbllbbbbbbbbbbbbbbbbbb.lllBrrlttttttt
+2 ttttttttttttrttttbbbbbbrbllttttttR.rrrbb
+2 bbbbbbbbbbLbb.llbbbbbbbbrBlllBrttttttttt
+2 tttttttttttrrrbblbbbbbbbbbbbbbbbbbbl..lB
+2 rttttttttttttttlbb.bbbbbbbbbbbbrBtrrtttt
+2 tttttttttttttttttttttrbbbbbbbbbbbbbbrrrb
+2 bbllTllbbbbbbbbrblBrrBrBlttttttttttrbbbb
+2 bbbbbb.lBrrtttttttttttttttttltttttrrllbb
+2 bbbbbbbbbbbbbbbbbbbbrBtrtttttttttttttttt
+2 ttttllbrrbbbbbbbbbbbbbbbbbbbbbrrBtrttttt
+2 ttttttttttttttttttttlllbrr.bbbbbbbbbbbbb
+2 bbbbbbbbbbrbbrBtrtttttttttttttttlttttbbb
+2 bbbbbbbbbbbbbbbbbrBTtrttttttttttttttttrt
+2 lltttbbrbbbbbbbbbbbbbbbbbblbrBtrtttttttt
+2 ttttlbbbbbbbbbbbbb.rrrBtrttttttttttttlbb
+2 bbbbbbbbb.bbrBtrttttltttttrbbBtttttttttt
+2 ttttttbbbbbbbbbrrbbbbbbbbbbbbttttttttttt
+2 lbbbbbbbbbbbbbb.lBrrtttttttttttttttttttl
+2 bbbbbbbbbbbbbbbbbb.rrbllllllrrBrtttttttt
+2 tttltttttbbbbbbbbbbbbbbbrbBllltllbrrrrlt
+2 rtttttttttttttttttttttttttllllllllllllll
+2 llllbbbbbbbbllllllbb.......
+
+uuid 7cb56e693fa24fa4ba6669562195b22b
+
+leaderboard steps time gems

@@ -1,0 +1,48 @@
+n Checkers
+D 6
+C 1
+e 160
+E 0
+p 1
+M 0 Dancing on the Ceiling
+i No pushing!
+a Shark
+m 15 12
+###############
+#.1"..........#
+#.(Q(Q(Q(Q....#
+#.0(Q(Q(Q(....#
+#.(0(0(0(Q....#
+#.Q(0(0(0(....#
+#.(0(0(0(0....#
+#.Q(0(0(0(....#
+#.(Q(Q(Q(0....#
+#.0(0(0(0(....#
+#E::::::::::::#
+#QQQQQQQQQQQQ*#
+R 7904
+0 0
+1 Demo 1
+2 ..............rrrrrrr....r.....b........
+2 .b..ttt..................llllllllll.bb..
+2 b....rrrrrrrrrb.llllll..........l....r..
+2 b.rrrrr......b..ll....................tt
+2 tlllllb.l..cb....br......trrr..l.BrrBlll
+2 l........cb....b......tr.....ttrrr...rrr
+2 .lll.srrrrbbbrt.llL..B...utlllbB.llB..tt
+2 .......rrrr...lbbbbllllllb.....
+R 79738
+0 0
+1 Demo 2
+2 rllbrtrrbtrrb.trrbtrrbrrrtll.....lbbbr..
+2 ...tbblr.bttttlltcbrbbbr..lttltltlrrbbbb
+2 r...tbbrtrbttltrtttlbbbbllBltltltltlltll
+2 tlllllbrrrr.trrrrrrrrbbbbbbbr.bLttr.lltt
+2 tlllllllltrrbbrbrrlb.ttlltllcb....b.....
+2 tr.lcb....b....tt.t.rrrb.tttrrrrbullll..
+2 ..rrrbbrbttrbrbl.tllltllllllbsrr.......l
+2 lbr.trrrrtrrrbbtrrbutlll.....rrbbutlllll
+2 brr.rrB..b..t.............bbRlllllb.....
+uuid b1cf11c4f8ebef60a73c2c9ec0dc1fd2
+
+leaderboard steps time

@@ -1,0 +1,60 @@
+n Emeralds in space (2)
+a Emerald Mine
+D 3
+s 50
+i Unfortunatly there is also a swamp in space.
+m 64 32
+################################################################
+# %  %  %  %  %  %  %  %  %  %  %  %  %  %  %  %  %  %  %  %  %#
+#                                                              #
+#                                                              #
+#                                                              #
+#                                                              #
+#                  *                                           #
+#                  .                                           #
+#                                                              #
+#                                                              #
+#                                  *                           #
+#                                  .                    *      #
+#                                       1               .      #
+#                *                                     ++++++++#
+#                .                                     +E!!!!E+#
+#   *                                   2              +!!!!!!+#
+#          g                                           +!!!!!!+#
+#   .      g                                         * +!!!!!!+#
+#                                                    . +!!! !!+#
+#                                                      ++++G+++#
+#                    *   *     *                               #
+#        *           .   .     .                               #
+#        .                                                     #
+#                                                              #
+#                                                              #
+#                                                              #
+#                                                              #
+#                                                              #
+#                                                              #
+#|aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|#
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 75032
+0 8
+1 Demo 1
+2 ......l.l.lrtrtr.rlrlrlr.rrrbrlrlrtr.blb
+2 lbltltltlt.t.tlrlrlrltlt.rtrtrtrtlllllll
+2 blllllllblblblrlblblblbrltllllllllllbl.l
+2 .lblllllblblblblblbllllllllltltltltltltl
+2 llblbllllltltltltltltltltltltltltl.bbbbb
+2 bbbbbbbbbbbbbrbrbrbrbrbrrrrrbtbrbrbrbrrr
+2 rrrrrrrrrbrb.brrrrrbrrrr.r.r.trrrrrr.rlr
+2 trtbtrrrrrrrrrrrrrrrrr.r.r.rrrrrrrrrrrrr
+2 rrrrrrrrrrrrrrrrrrrrrtrttttttttttlrltltl
+2 t.r.r.r.r.r.r.r.r.r.b.b.b.b.b.b.r.r.r.r.
+2 r.t.t.r.r.t.t.t.................
+
+uuid beb5a5122299a1810802dc9b9b4006d4
+
+leaderboard steps time

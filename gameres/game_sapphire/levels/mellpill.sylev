@@ -1,0 +1,74 @@
+n Mellow Pillow
+D 4
+C 5
+p 100
+M 0 We don't need Another Hero
+i You will probably need
+i one bomb and one rock
+i for each bag.
+i But how many pillows?
+ldeutsch i Du brauchst wahrscheinlich
+ldeutsch i eine Bombe und einen Stein
+ldeutsch i für jeden Sack.
+ldeutsch i Aber wie viele Polster?
+a Erik
+m 17 15
+#################
+#     0 E 0     #
+#     .   .     #
+#   Q   0   Q   #
+#   .   .   .   #
+# Q   Q   Q   Q #
+# .   .   .   . #
+#   S   S   S   #
+#   _   _   _   #
+#| | | | | | | |#
+# _   _   _   _ #
+#       1       #
+#| | | | | | | |#
+#+|@|@|@|@|@|@|+#
+#################
+R 36810
+0 1
+1 Demo 2
+2 ....rtrttrttrrbbrbb.ttttrtt.b....bbllb.r
+2 bblllrrrttttlllbblbbl.brr.trtl.b.llttrr.
+2 .bbl....rrrbblbb...t..t......ll.rrrtttll
+2 rrtttttllrr............bbbbblll.rt.lt.lb
+2 bb.tttt.bbbbl...............lblllt.rrrrb
+2 rrrtttllbb.t..ttttttt.bbbbbbbbl.....rrrb
+2 bl.bt..tt....ltttttlll....ttrr.rrbbb..bb
+2 ..bbllbbrb.tttl....rrrbllllt.ltttt.bbbbl
+2 ...........r.l.b.lllltrrrrlllttr.ttrrrbb
+2 bblbrr.t..rrrttl..l.......rr.....rbblbbb
+2 blllbt.rrrt.lllll.....ll.tltttt.bbbbl...
+2 .....rrrrbrrrtttltlbbbrbll..trttllrr....
+2 llbbllbbrb.tt..ltttrr..l.blbbbrrrllltttt
+2 ttttrrlll............bbbbbrrrrt.rtrbbb.t
+2 tttttttr..l.bbbbbbbbl.blbr.bttr..rl.tttt
+2 ttttrrtt........
+R 25790
+0 9
+1 Demo 1
+ldeutsch 1 Fewer pillows
+2 ......rt.rtttltllbbl..bbbbttttt..r...l..
+2 .bbbbllbll.ttt.lt.rbrttttt.lt.rrtr.bbbbb
+2 .tlltt.rr..r.r.bbb......bbb.ttt...bblt.r
+2 ..ltltr.ttrrttlllbbbbbbbbbblbr..B.trrttt
+2 tt.rrttt.l.l.bbbbbbbrbbl.bttrrr.....l..r
+2 rrtl....blllltttttrr.bbrbbb.tttttl....r.
+2 .....llllltrrrrr..ttr.trrbl....lbb.rbl..
+2 ..bbb......ttttt.lltttr.rbbbbbbbbbblbr..
+2 Bll..trtttrtttlbbbb.rb.ll.tl....l.t....r
+2 ..lb.....bbbrr..B.t.....rrrr.......llltt
+2 tttrrrbbrbb.......tttt.r..........lbbbbb
+2 lll..........l..ttttl.bl.brr.t..r....bl.
+2 rbbl.br..ttt..r..lbb....bbrr..B.llllllll
+2 l..t.rrrrrtllll..tl.b.rb.l..............
+2 ........l.tltttt.bbbbl..........rrtt.rrr
+2 rrrrrrrbllllllll.ttt...l...r.....b.lbllb
+2 br..Bttrrrrtttttttrtt........
+
+uuid 95be14191dc6c93a677f1a68d73dd01c
+
+leaderboard steps time

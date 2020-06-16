@@ -1,0 +1,81 @@
+n Appartement for sale (2)
+a Emerald Mine
+D 4
+s 0
+i Don't get lost in the bulk of rooms.
+i
+i I had to make a little change to the original
+i Emerald Mine level.
+m 64 32
+################################################################
+#     +     +     +     +  7  +     +     +     +     +     + E#
+#     +     +     +     +     +     +     +     +     +     +  #
+#6    +     G  g  B  *  G     +  g  +  $  B  y  +6 b  Y     +  #
+#     +     +     +  .  +     +     +  .  +     +     +     +  #
+#     +     +     +     +     +     +     +     +     +     +  #
+#++G+++++G+++++B+++++++++++++++++B+++++++++++R+++++++++++Y+++  #
+#     +     +     +     +     +     +     +     +     +     +  #
+#     +     +     +     +     +     +     +     +     +     +  #
+#     +  *  +  *  +6    +  *  +6    B  * 8R    8R     R  rr    #
+#     +  .  +  .  +     +  .  +     +  .  +     +     +     +  #
+#     +     +     +     +     +     +     +     +     +     +  #
+#++G+++++++++++B+++++G+++++G+++++++++++R+++++++++++Y+++++R+++  #
+#     +     +     +     +     +     +     +     +     +     +  #
+#     +     +     +     +     +     +     +     +     +     +  #
+#  $  +  b  +     Y     Y     Y  *  +     +6    Y     +     +  #
+#  .  +     +     +     +     +  .  +     +     +     +     +  #
+#     +     +     +     +     +     +     +     +     +     +  #
+#++G+++++Y+++++++++++Y+++++++++++++++++R+++++++++++++++++R+++  #
+#     +  7  +     +     +     +     +     +     +     +     +  #
+#     +     +     +     +     +     +     +     +     +     +  #
+#  *  G     Y     Y  y  R     R  *  R     R     R     R     +  #
+#  .  +     +     +     +     +  .  +     +     +     +     +  #
+#     +     +     +     +     +     +     +     +     +     +  #
+#++++++++G+++++B+++++++++++R+++++++++++Y+++++G+++++++++++G+++  #
+#  7  +     +     +     +     +     +     +     +  7  +     +  #
+#     +     +     +     +     +     +     +     +     +     +  #
+#  *  G     B  *  +  *  B     +6 *  Y     +  *  +     G  *  +  #
+#  .  +     +  .  +  .  +     +  .  +     +  .  +     +  .  +  #
+#     +     +     +     +     +     +     +     +     +     +  #
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++21#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 83999
+0 8
+1 Demo 1
+2 ...................t.ttttttttttttttttttt
+2 tttttttttttttttttttttl.l.lttltlllllllbbb
+2 bbb.btblblblblblbllllll.l.l.l.l.l.l.l.l.
+2 ltltltltltl.lblblblbbrbr.blrt.trtrlbl.bt
+2 lrlrlrlrltlrltltltlt...l.l......l.lll.ll
+2 lll..rrrrrrr.r.b.b.blblblblblb.b.b.b.b.b
+2 .b.....l..tbtltlt.t.tl.lb.blb..l.l.....l
+2 .l..b.bbbb.b...t.t.lrlr.r.rlrlb.blblblbl
+2 b...llllt.l.lllll.l.l.rlrlr.r.rlrltlt.r.
+2 t.tltlt...blrtrtrtrtrtrtr.r.rrrrrbbrb.l.
+2 brbrbtbtltltttltlrlrlbbb..r.trr.rrrrr.rl
+2 tltltltlt.rlr.................rlrlrlrlrl
+2 rlrlrlrlb.btltbtbtbt.tltl..t.tlt..l.lrrr
+2 rrr.rrrrrrtrtrtrt.t.l.t.t.trrrr.r.r.r.rl
+2 rlrlrlrlrlrlrlrlrlrlrllllllllll.lllllrlr
+2 lblblblblbl.ltlttttttttrtrtrtrtrtbtb.b.b
+2 .b.b.b.b.b.b.r.r.r.....rl.ltlrl.lt.tt.t.
+2 tbtbtb.r.rbrbr.rbtbtbt.t.t...b.brbrbrbrl
+2 rl.l.l.lrbrbrbrbrb.l.l.l.l.l.b.b.b.b.l.l
+2 .b.l.l.l.....................l.l.lt.t.tl
+2 tl.ll.l.t.l.l.lrlrbrrrrrrrttr.rtr.r.b.l.
+2 ltbtr.blbtbl.lrlrlr.r.rtrtrtrtrtrttttttt
+2 ttttbtbtbtb.bbbbbbbbbbbbbbbbbbbbbblblblb
+2 lblbr.r.rtrtrrbrbrb.b.brbrlrlrlr.rtrlr.r
+2 ..l.lrlr.rrr.r.rrrrrr.rrr.b.t.t.trtrtrtr
+2 lrlbl.lblbl.ltltlrlrbrb.b.b.brbr.rt.trtr
+2 trtrtrrrrrrrrrrrrrrrrrrrrrrrr.tllltbtbtb
+2 tbt.ttttttttrtrtrtrtttttttttttrttrtrtrtr
+2 .r.r.t.t.t.t.t.t.t.t.t............
+
+uuid a7e17a6287d49a388b9fd8dceb1b65f2
+
+leaderboard steps time

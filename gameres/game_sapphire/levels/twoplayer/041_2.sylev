@@ -1,0 +1,93 @@
+n Entropy (2)
+a Emerald Mine
+D 5
+e 110
+s 0
+i Find out of the chaos and don't forget the keys.
+m 64 32
+################################################################
+#E+00.....0.......0....0. ..............@..............0.....+E#
+# +......0....0...0...0..0.....0..0.00.0.....0@Q0.....0.... .+ #
+#Y+ .......0.$ ...0...00....00 0.@Q. ...$................0 ..+Y#
+# +..0Q.@.... Q.........000....00.0.@.  ......0..$@ . ...0..0+ #
+#B+*.0.0.0.....0@ .. @.$  0. ...*.... ..*0Q@..y.00.....$000..+B#
+# +..0..$.* ...0.r..0 *0..@0...0@.00@.....*0..Q.00@0...@0.0..+ #
+#G+00.@ ..0 .0000.......Q0 ... .0...$ .. .....000Q@.0...0.@.0+G#
+# +..000..0..0 . ..Q.00.  @...@.0.0.000.@@.0.0.0..@0Q .0 .0..+ #
+#R+0.. .. Q.0@...*...  0....00.0..00.@ @  0@@@..0Q..@  ..0..Q+R#
+#..Q...0.Q  ...*0. .....Q..0*.0.Q....@...0.0$0Q.@0$0Q.Q.....@..#
+#..0..0....0..Q..$0....Q@Q0..0.00.Q0.@Q.@Q.....*Q..@0 00 ..0...#
+#.....00 ..0.0*.Q$.@ ....0.0.. Q..0.00.g0 0$0.0 .   @0@.0...0..#
+#..00 0Q0.@..00@......0Q@Q* ....0..@..0. .*@00..0..00..0.00.@..#
+#..0.@ ..0... ....... **.. ..@00..$. .. .@.@..@..0.0..*00Q.....#
+#..$0....*...0$.*0.@..0..00Q....12..@.0@..0Q.Q.Q..0Q.@ @.......#
+#.... .0.. ..0.0@0Q...Q@.0 0Q 0....Q..@. ..Q.@0.Q*...0...00.0..#
+#...00.Q0 0Q0.0@..00... 0@.....@ @....@..0.Q00@.@@.Q. b.0..0.0.#
+# Q.@..b0.0..*Q.Q. 0.0 .Q*. @Q..*0 *..00.0.0.0.@0.0@0 Q00.0..0.#
+#.... @$ ...Q@0@Q0... .Q...0* @$0.. @00 ...*.0.@..Q..0.Q 00....#
+#0. ...0.....0.Q.$ 0@ .. ..0 @.0..0... 0.Q..0.....Q.Q.Q....Q...#
+#..00....0Q0.$.00.Q0.0.Q 0..0*..00....Q......00. ...  @0 ......#
+#*. .....$.*..00...Q....*.Q@.0 .. 0.. ..00 .Q......**....000 ..#
+#....Q... @.@..0@0*@.....Q..0.000.@..Q... 0 00..0 .@..0.r.0....#
+#.....0@.0.0.0$.. @..0 00.0@.0...@.*.... $......Q0QQ@@@ 0.....0#
+#.0 0...0..Q.0..0..$.y00. .0. .. ..0Q.........Q...@*0.@ .00.. .#
+#.. ........0....0.0.......0..... ...0.@Q.0.0. .@$.. ..  .0....#
+#0.0. ...0 0Q ...Q...@0.......0. .....@.0...@.0@.0.0.  . @00...#
+#.* .*$....*.0....0 ....0.. .....Q..0... .. .*@.  .@......... .#
+#......0.0............ .@..@....*..0. ..*.... ........... .....#
+#...g.......0.....0*....*....@@...........@........... @.......#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 80090
+0 8
+1 Demo 1
+2 .......rbtb.bb.b.b.blrlbbbbblb.b.bbrtrt.
+2 .tll.l.t.l.t.rlrl.bl.l.b.b.r.tlrlr.r.b.b
+2 bbb.b.lbl.l..rlb.rbbbb.r.r.t.tLl.lR..r.r
+2 .r.b.b.lblbbbrbrbrlrrtrrrrrrr...........
+2 ..l.l.r.r.r...lrll..ttlrlrl.l.t.t.t..bRr
+2 ...lb....rRr..b.bll.l.l.ltltltbtb.lbtblb
+2 lr.rtrlrltltllltllltbtbrlrlrtltltlttlttt
+2 ttttttrr..btbtb.b.b.r.r.rb.rb.b.b.b.t.t.
+2 t.ttt.t.lllb.b.brb.b.brbtb.b.b.b.r.rtrtl
+2 ...b...r...l....t......bbb.r.r.rbrrt.t.t
+2 tttt.lll.l.t.l.t.t.t.tbtbtbtbtb.b.blblb.
+2 br.rtrtltltlt.t.t.t.t.t....r.rrr.rtrrr.t
+2 tl.......b.r..llll.t.t.l.t.t.lrlrt......
+2 .............llllltlll...bl.trtrl.l..l..
+2 .b..rtrt.r.r.r.t.t.t.t.tlr..blbl..l.t.tl
+2 tl.t.tblbl.b..r.rl.l..t.tb....b.b.b.r.r.
+2 t.t...b.b.l.ll.l.l.t.t.lrltl.ll.lb.b.b..
+2 .rr.r.b.b.r.b.b...t.r.r.r.bRll.l....bl.l
+2 bbl.llbrbtbtblb.btrr.r..bl.lr.r..b.b.br.
+2 r..t..l.lrbrbrlr...b..Lr.b.brbtbtbllll.r
+2 trlr..t.tbt.ttt.t.trt.t..t...rr.r.r.t...
+2 r.t.tt..b.b.l.l.lblltlt.t.t.t.r.r.r.tR..
+2 r.t.tb...B..t.t.t.lt.t..r.t..r..b.b.b..t
+2 l...t.ltlt.t.trrrrrrtttrtrt.ltlrlrlrlblb
+2 bbbb.btrttrtrtrrrrrtrtrtrrtrr.rlrlrbbbbb
+2 .br.rlrlbbbb.b.bblblb.b..r.r.rbr.r.bbbtr
+2 ....b.bbbb.b.bblllll...tltrrr.r....brbbb
+2 bbbb.l...l.b.b.b.b.b.b.....l.b.b.b...r.l
+2 .l.t.t.t.t.t.t.ttlrlr.b...tllblbbl.lrlrt
+2 .t.t.tb.lt.t.r..tltblb.btb.b.blb.btt.ttl
+2 tltlttt.....t.l.ll.l.lbl.l.l.....tttttr.
+2 r.trtrt..l.l.ltllblbbbrr.bllltlt.lllbtbt
+2 llllbrbrbb...l.l.r.r.r..........rl.b.b.l
+2 .lll.lrbr..r.brb.l.l.tlll.l.lb.r.r.b...l
+2 .tt..l...trttttrr..l.bbbrbrb.b.t.tllbl.t
+2 br.r.b.bL......ltltlt.t.tt....b.b....r.r
+2 brb.btb.tltlrbrbrlbllll....r.rlr.r.rr.rt
+2 btbtbtbtb.l.l.lb.b.brlrltrtrrttttttt.tlt
+2 ltb.b.b...b.b.b..rtttrtrtttrtrlblblbtblr
+2 lrlrlrlrtr.bbrbrbrlblblb.b.rbrbrbrbrltlr
+2 lrlrtrtrtrtttttttttttttttttt.t.r.r.r.r.t
+2 .r.r.r.r.t.t.t.t.t.t.t.t.t.t............
+2 ..
+
+uuid 3c4ece76d7a299b741c0a217bf3f3be7
+
+leaderboard steps time gems

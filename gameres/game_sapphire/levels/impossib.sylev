@@ -1,0 +1,84 @@
+n Mission Impossible
+ldeutsch n Mission Impossible
+D 8
+C 4
+E 0
+M 0 Mission Impossible
+i Now it has been proved, that
+i this level *can* be done.
+i But designing it was very
+i much easier.
+ldeutsch i Nun ist bewiesen, daß
+ldeutsch i dieser Level lösbar ist.
+ldeutsch i Aber das Designen war
+ldeutsch i viel einfacher.
+a Reinhard
+f Juergen
+m 30 16
+##############################
+#E1""""""""""""""""""""""""""#
+############################.#
+#5 5 5 5 5 5 5 5 5 5 5 5 5 5 #
+#                            #
+#5 5 5 5 5 5 5 5 5 5 5 5 5 5 #
+#                            #
+#5 5 5 **5 5 5 5 5 **5 5 5 5 #
+#      ..          ..        #
+#5 5 5 5 5 5 5 5 5 5 5 5 5 5 #
+#                            #
+#5 5 5 5 5 5 **5 5 5 5 5 5 5 #
+#            ..              #
+#5 **5 5 5 5 5 5 5 5 5 5 5 **#
+#  ..                      ..#
+##############################
+R 18888
+0 1
+1 Demo 1
+2 ..rrrrrrrrrrrrrrrrrrrrrrrrrr............
+2 .b.um.ll........rrrr.b..........b.ut....
+2 ........ll...rr..b........b.ut..........
+2 ........................................
+2 ...bb.tt.............l.........mlll.....
+2 ...rrrrmll.........rrr.mll...r......rr.m
+2 l.........rr...ml..........rr....mll....
+2 .....rr.ll.rlllmlll......rrrrllmll......
+2 ..rrrrrrrrrr.mll........rrr.............
+2 .......ml.........rr....mll........rr..m
+2 l.........rrr..mlll......rr....mlll.....
+2 .rrrrrr..........mll.......rrr..mll.....
+2 ...rr..r....ml.........rr.ml.......rrrr.
+2 mlll........rrrr.mll.......rrrmll.......
+2 rr.mll........rrrr.mll.......rrr.mll....
+2 ....rrrmll.......rrrml.........rrmll....
+2 ..rr.r..r............mll........rrr.....
+2 ml.........rr....ml..........r.ml.......
+2 ....rrr..................r..l.......mll.
+2 .......rr..mll........rrrr...mll.......r
+2 rrr.bb..tt.ll..................rr.bbbbb.
+2 .b.ttttttl..mlll......rrrr.mll........r.
+2 r..mlll........rrr......................
+2 ...rr.r.bbbbbbbbbbbbblt.rttttttt...ttttt
+2 lll.rr.mlllllllllllllllllsr........lll.s
+2 rrr.....lll....srrr.....rrrrrrrrrrrrr..r
+2 ..bbb.tttl.l.....mll........rrrr........
+2 ........r.bbbbbbbbbbb..bblllllll.r.....l
+2 ..srr.............l...ll..l.lll..ll..l.s
+2 rr...........llllrrrrrrrrrrrrrrrtttttttt
+2 ..tttttllsrbbb...tttlllllllllllllllllrrr
+2 srr.......r..lllll...srrrr......ll..rrrs
+2 rrr....llllllllrrrrrrrrrrrrbbbllt.......
+2 .rrttcb..........................bbbbbbb
+2 bb.t...tttttt..l....trrbcbbbb.......tttt
+2 ....tttt.bbb.ll.t.ll.........l......b...
+2 ....l..b.l..bl.......L.....b..l.........
+2 s..r............t..l.l.....t.l...b......
+2 .llbblbbbbblllllllllll.tl.brrr.tt.......
+2 r.ll....t............cbb..ll.......rrr.t
+2 ttt.rtt...t..R.bbbbbbbrrrrrrrrllllmllll.
+2 .......rrrrrrrrrrrrrrrrrrrrrrttttttttttt
+2 ttllllllllllllllllllllllllllll..........
+2 ........
+
+uuid 303e12310ba9c2162532632c28880e5a
+
+leaderboard steps time

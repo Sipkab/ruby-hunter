@@ -1,0 +1,32 @@
+n Far too impossible v. Easy
+D 4
+C 3
+M 0 Bond
+i Easier Far Too Impossible for
+i you.
+i The trick is to trap the lorry
+a Nic01
+f Nic01
+m 15 12
+###############
+#E#(#.......#8#
+#.#.#.#.....#0#
+#.#.#.#......1#
+#.#.#.#.....#a#
+#.#.#.#.......#
+#.#.#.#.......#
+#.#.#.#.......#
+#.#...#.......#
+#.#####.......#
+#.............#
+###############
+R 96634
+0 8
+1 Demo 1
+2 ..llbbrrbbllbbrr....tttlllllltttttllbbbb
+2 bbbllttttttTbbbbbbrrtttttttrrbbbbbbbbbll
+2 lllltttttttttt......
+
+uuid b62cd567d3d1b0adbfee5644a69fac02
+
+leaderboard steps time

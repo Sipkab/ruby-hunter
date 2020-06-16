@@ -1,0 +1,62 @@
+n Hello II
+ldeutsch n Hello II
+D 8
+C 2
+E 0
+T 2000
+s 5000
+p 1
+M 0 Hello
+i This is actually the
+i same as "Hello" - with
+i one exception:
+i pushing is NOT possible!
+ldeutsch i Das ist eigentlich
+ldeutsch i genau das gleiche wie
+ldeutsch i "Hello" - mit nur einer
+ldeutsch i Ausnahme: Schieben ist
+ldeutsch i nicht erlaubt!
+a Ronald, Juergen
+m 50 22
+##################################################
+#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
+#%E...%.........%.........%%......%..........%.1%#
+#%..............................................%#
+#%%............................................%%#
+#%....Q*..Q*..$0$$$$..**......00........Q$......%#
+#%%...**..**..$$$$0$..Q*......QQ.......$$$$....%%#
+#%%...*Q..*Q..$$......*Q......QQ......$$..Q$....%#
+#%....**..**..$$......**......00......Q$..$$...%%#
+#%....Q*****..0$$$$$..**......QQ......$$..$$....%#
+#%%...****Q*..$$$$0$..0$......QQ......$$..Q$...%%#
+#%%%..**..**..$$......$$......00......$$..$$...%%#
+#%%...*Q..*Q..$$......$0......00......$Q..$$....%#
+#%....**..**..0$$$$$..$$$$$$..Q*$QQQ...$$$$....%%#
+#%....Q*..Q*..$$$0$$..$$$$$$..QQQQQQ....$Q....%%%#
+#%%.............................................%#
+#%.............................................%%#
+#%..............................................%#
+#%.............................................%%#
+#%%...%.....%%..............%.........%...%.%%.%%#
+#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#
+##################################################
+R 16089
+0 1
+1 Demo 1
+2 ...lbblllbl.B.lbllbl....r.Bllbbbl...rrr.
+2 T.blbbrrBr...llltttttttrrrrbbbrr..llL..b
+2 bbr...llbllltlllllllb....Ltrrrrr....llll
+2 llltttttttlllll.ll..l.r.B.llbbbl.......r
+2 ...r.bll.T..rrr.llb.Btrrbbl.....bbr.....
+2 bblt..rrrrrtlblllttttttttlllltllbltt..ll
+2 bbrrbl.br..llb.B.trbrrrrrBllblllbb..rt..
+2 bbbl...rrtrrrbltllltt.tttttttllllllllB.l
+2 lbbbll..rrrtr..ttrrrrB.llbbbl....rrtr.r.
+2 bbbrr.lllltttlll..r.b.......bbrr..llltl.
+2 .lbbbll...rrrtrrtrr.b.tllbbbl...rrtr.lll
+2 llbb.....rbbrr.......ttrrbbllllltttttttt
+2 tttllttll.............
+
+uuid 55b6b93113c87bede5fce737b8494857
+
+leaderboard steps time

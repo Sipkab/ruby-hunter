@@ -1,0 +1,35 @@
+n Find the Way Out
+ldeutsch n Finde den Rückweg
+D 4
+C 5
+E 0
+T 300
+M 0 Waterloo
+i This is a good
+i lession in tactical
+i gem/stone manipulation.
+ldeutsch i Das ist eine gute
+ldeutsch i Übung in taktischem
+ldeutsch i (Edel-)Steingebrauch.
+a Reinhard
+m 13 9
+#############
+#E1#.00.....#
+#..#.*00....#
+#..#.*00*...#
+#..#***0*0..#
+#..#**0000 .#
+#..#00..00..#
+#...........#
+#############
+R 25578
+0 1
+1 Demo 1
+2 ...bbbbbb..Lrrr...lllllllllrrtt....t....
+2 tt..rtrrr.bb..B..rr.....bbbbll.....l....
+2 l..t..l.....Rl..BBll..blltttttt..l......
+2 ....
+
+uuid b101590ad179bdccf0a87d8a5a2bb4f3
+
+leaderboard steps time

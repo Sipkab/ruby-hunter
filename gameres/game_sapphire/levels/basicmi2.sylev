@@ -1,0 +1,57 @@
+n Basic mining II
+ldeutsch n Bergbautraining II
+D 1
+C 1
+s 0
+i This level is another one for the
+i novices who are new to the game.
+i Stuff you can learn from this level:
+i - Keys are not always used.
+i - Swamp doesn't have to grow.
+i - Rubies don't need to be used for
+i   lasers.
+i Or, in conclusion:
+i Not all objects in a level
+i have to be used.
+ldeutsch i Das ist ein anderer Übungslevel
+ldeutsch i für die Neulinge im Spiel.
+ldeutsch i 
+ldeutsch i Was man hier lernen kann:
+ldeutsch i - Nicht jeder Schlüssel wird
+ldeutsch i   gebraucht.
+ldeutsch i - Käse wächst nicht immer
+ldeutsch i - Rubine müssen nicht immer für
+ldeutsch i   Laser verwendet werden.
+ldeutsch i 
+ldeutsch i Schlussfolgerung:
+ldeutsch i Es wird nicht immer jedes Teil im
+ldeutsch i Spiel benötigt.
+a Alexander
+f <Insert your name here>
+m 12 12
+#######w####
+#....(.....#
+#bE........#
+###......%.#
+#.....*...$#
+#.1.(......#
+#.....%....#
+#..........#
+#.....+....#
+#.$......*.#
+#........(.#
+############
+R 23594
+0 9
+1 Demo 1
+2 ...bbbbrttttrrr.t.b...rrrbbbbbrttttttttt
+2 ll..lt....llllll..b..r....
+R 23761
+0 1
+1 Let it be
+2 .....rrbbllbbrr...rrrrrBtttttRlbllr.l..l
+2 tttl.bbbr....tttlll.......
+
+uuid c9dc8d8ce17483779fa05744ade4457c
+
+leaderboard steps time

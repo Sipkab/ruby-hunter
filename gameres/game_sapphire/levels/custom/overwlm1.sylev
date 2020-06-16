@@ -1,0 +1,53 @@
+n Overwhelmed
+D 5
+C 1
+E 0
+T 999
+p 0
+N Overwhelmed II
+i Collecting all the gems is not too
+i difficult if you take your time.
+i The hard part is not destroying the
+i exit in the process.
+a Alex
+m 15 12
+###############
+#QQQ........Q0#
+#*...Q.0....Q.#
+#0...$$$..@.*.#
+#..0..$...Q...#
+#..Q0....**.0.#
+#*.$Q0...Q..$.#
+#Q.0**.0.....*#
+#0....0...00.*#
+#0.0..0.Q..0*$#
+#Q**.Q$1*.$Q*.#
+#######E#######
+R 94878
+0 0
+1 Demo 1
+2 .........l...r.....t....t...l..........b
+2 ll...B...r...llbl.........r.t...rrr.t.r.
+2 ....tttttl...r........ttlllbb.rrbr.....t
+2 t.l.bllll.t..Lrrrrr...lllllbb...rrr..trr
+2 rr..t..rr......b..Rl.........l.l.lllb.r.
+2 ..r......lllll..............lbb......tr.
+2 trrrbr.b.B....t....rbb......Bt..........
+2 .....tlll....llrb......trrb...lbr...trrb
+2 ......r..............ltl....rbrb.R....tl
+2 ll....B.rbrr........l..ttt....rrrrbr...r
+2 ..l..r..bb.....b..l.T...brtt...lb...ll..
+2 B..r....l..l..l...lr..b......l.b........
+2 ..
+R 44819
+0 8
+1 Speed Demo
+2 ....LttltLrttttlBL.r.rrblblttrrb..bRltl.
+2 ...lll.tll.t.Lrrrrrllblllbrrrr..rbbbb..t
+2 tttllllllbbt......b.rrrbb...lltt..r.....
+2 bbbblttrrrrrrrtttttrrrlllbbrrrbrbbbl...T
+2 brttll.blB..lllr.b.....l.b........
+
+uuid 53bb5839824cea60c6c6e304ad382959
+
+leaderboard steps time

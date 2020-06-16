@@ -1,0 +1,39 @@
+M 0 Winner
+D 1
+n Auto Laser
+e 3
+s 30
+a Alexander
+i This laser does all the
+i work for you!
+m 20 20
+*::::::::*##########
+:...    :::        #
+:.1.    :Q:        #
+:...    : :        #
+:       :(:        #
+:       :::        #
+:                  #
+:                  #
+:::::   :::    ::::#
+:Q( :   :*:    : (Q#
+:::::   :::    ::::#
+:                  #
+:                  #
+:                  #
+:            ##### #
+:       :::  #.$E# #
+*:      : :  +...# #
+#       :(:  ##### #
+#       :Q:        #
+####################
+
+R 16700
+0 8
+1 Laser
+2 .............bbbbbrrrbbbbbbrrrrrrrbbbrrr
+2 tr.........
+
+uuid 7a38ba24f353eeb4a754d2f529a380c9
+
+leaderboard 

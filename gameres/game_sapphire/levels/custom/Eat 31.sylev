@@ -1,0 +1,56 @@
+n Eat 31
+D 10
+e 0
+o 1
+w 5
+M 0 Staying Alive
+N Eat 32
+i You are on another monster chase so
+i RUN
+a Elliot
+m 14 11
+# h YY?YYy    
+# # E#V###### 
+#j# u#+#>+++# 
+# ## #+#!##+# 
+# ## #+#!Q#+# 
+#j k #+##V#++ 
+######+##0##+#
+#  8R+++ .Ro #
+#6  #####w#  #
+# r1#     ####
+##############
+y Y Y ? +V+
+y ~   ? +V+
+y ~   ? +V+
+y ~   ? +V+
+y ~   ? +V+
+y ~   ? +V+
+y ~   ? +V+
+y #########
+y ~   ?V   
+y ~   ?> ++
+y ~   ?V   
+y ~   ?  V 
+y ~   ?  V 
+y ~   ?  V+
+y ~        
+y ~        
+y ~        
+y ~        
+y ~        
+y ~        
+y ~        
+R 6424
+0 0
+1 Demo
+2 ll.tt.rr.bb.ll.tt.rr.bb.ll.tt.rr.bb.ll.t
+2 t.rr.bb.ll.tt.rr.bb.ll.tt.rr.bb.ll.tt.rr
+2 .bb.ll.tt.rrrrrrrbr...rbtbtbtbtbtbtbtbtb
+2 tbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtbtb
+2 tbtbtbtbtbtbtbtttrtttttlllllll.........l
+2 .llbbb.bbr.rrt.t.tt.....
+
+uuid 6a0a2354d076900c7bc0f6231e2a059e
+
+leaderboard steps time

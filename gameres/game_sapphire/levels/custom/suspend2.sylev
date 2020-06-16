@@ -1,0 +1,33 @@
+n Suspended Animation II
+D 7
+C 4
+s 0
+p 0
+d 2
+i You must find a way to
+i keep the lorry away from
+i the left side of the
+i screen.
+a Alex
+m 21 10
+~ #################  
+~ # d #%&         #  
+~ # 1 #  QQQQQQQQ #  
+~ #a| # QQ00000000#  
+##### #+#########0#  
+#     7   #     #0#  
+%    0    #     #0#  
+#   000   # QQQQQQ#  
+#  0000E  # 000000#  
+##a#####Q##########  
+R 97723
+0 8
+1 Demo 1
+2 ............l...r.................l...r.
+2 .................l...rrr................
+2 l...rr...............l....rr......r..bbb
+2 r...rttr....lbbbbb........
+
+uuid 23547254d99f89db8e402949843f6c3c
+
+leaderboard steps time

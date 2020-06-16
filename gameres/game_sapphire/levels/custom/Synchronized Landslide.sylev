@@ -1,0 +1,74 @@
+n Synchronized Landslide
+D 6
+C 3
+e 0
+t 40
+p 0
+M 0 Rock Lobster
+i Finding the right sequence is
+i important, but also hard! Which
+i is more important to you:
+i Importance or challenge?
+i 
+i If your answer is 'timing', then
+i you're overqualified to solve this
+i level.
+a Shark
+m 11 48
+###########
+E++#Q00000#
+####0Q0000#
+#$"#00Q000#
+#:##000Q00#
+#  #0000Q0#
+#  #000000#
+#  #00000Q#
+#  #++++++#
+#         #
+#         #
+#     "   #
+#     1   #
+#         #
+#         #
+#         #
+#         #
+#         #
+#         #
+#         #
+#         #
+#         #
+#         #
+#         #
+#         #
+#         #
+#         #
+#         #
+#         #
+#         #
+#         #
+#         #
+#         #
+#         #
+#         #
+#         #
+#         #
+#         #
+#         #
+#         #
+#         #
+#         #
+#$ (      #
+#+ +      #
+#        ##
+#         #
+#    a a  #
+####a#a#a##
+R 22047
+0 0
+1 Demo 1
+2 ..tusurmllmll.t..tt..........b.t........
+2 .......................ltttttl.....
+
+uuid 2620879031b80dad355aaf8a2f2d1bf7
+
+leaderboard steps time

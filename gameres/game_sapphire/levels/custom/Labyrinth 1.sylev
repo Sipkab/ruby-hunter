@@ -1,0 +1,54 @@
+n Labyrinth I
+D 5
+C 2
+e 21
+s 0
+p 0
+M 0 Rock Lobster
+i First labyrinth-like level...
+a Shark
+m 29 20
+#############################
+#QQQQQQ#*.0 Q# B R G6Y     .%
+#000QQQ#. B..# # #Q# #  #   #
+#0E0QQ+#Q++  Q #6#0# # #>#  #
+#000Q++("###+[R#######      #
+#QQQQQ+### #c|       #      #
+#########    # ###S# #{{{{{{#
+#0# Y G # #  # #  .k #......#
+#Q#R### # # ####B#s### (  Q #
+#(  #   . #   1#   # ########
+#+##   .%##  ### ###         
+#b# ># ##>  ##   #           
+### # . ###.%# ##            
+##   .%.  #c## #             
+#> # ######    #             
+#B####      ###              
+#    7 ####c  #              
+#######   # Q(#              
+~         #Q###              
+~         ###                
+y ....r.ccc
+y ....y.+++
+y ....g.+++
+y ~ #  #* #
+R 83534
+0 0
+1 Demo 1
+2 llblbbbBtr.......................tl.b...
+2 bBtttttllbbbLtt.....bbllTlbbblBrrbrr.ll.
+2 .................llllttrtrrtrttllblLrtrl
+2 b.llbBtrrtrrbblbbblblllbl...............
+2 ........................................
+2 ..brr.rr.rtrr.rr.rtr.rrt.tt.rr.tttr.....
+2 ...............Rlbr.l....tr.rr.rttlll.ll
+2 ltlltl.lLtrrll..bbbbbrrbRtllbbblllbbbbll
+2 llblbrrrrrtrrrlllblllllt..........brrr.r
+2 .rtrr.r.rrbbrRlttlllllbllllltrtrttrtrrtr
+2 rrttttttrrrrrttrr...rrrrrrRl........b...
+2 rb.rbblbblblLtrrttttrttlllllllllbbllllll
+2 llllll.....
+
+uuid 07d05325ccbd9a2e0bb1631e27f86251
+
+leaderboard steps time

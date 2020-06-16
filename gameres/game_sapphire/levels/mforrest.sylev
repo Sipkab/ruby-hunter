@@ -1,0 +1,39 @@
+n Magic Forrest
+ldeutsch n Zauberwald
+D 5
+C 1
+s 2
+M 0 Indy
+i This forrest really
+i grows very quickly.
+ldeutsch i Dieser Wald wächst
+ldeutsch i wirklich sehr rasch.
+a Ronald
+m 18 15
+~   iiiiiiiiii    
+~iii%%%%%%%%%%ii  
+i%%%*******%*1%%i 
+i%*****%%%*%****%i
+i%%%%*%******%**%i
+i%****%%***%*%**%i
+i%*%*%%**%***%**%i
+i%*%%%%*%%%%%%**%i
+i%**%***%%******%i
+~i%*%*E%%%**%%%%i 
+~i%*%%%%*%%****%i 
+~i%*******%%%**%i 
+~i%%%%%%*******%i 
+~ iiiiii%%%%%%%i  
+~       iiiiiii   
+R 30821
+0 8
+1 fox run
+ldeutsch 1 Fox Run
+2 ...l...........brrr..........bl.br..bl..
+2 .br..blllll.brbrrBr...bbllllltl.BTlllllt
+2 ttltttrrBrtt...llL.rrrtrrrrbbrr....bbllt
+2 ltlL..bblbbllbr........
+
+uuid cda6d30a098d6b643a858f95872bbf92
+
+leaderboard steps time

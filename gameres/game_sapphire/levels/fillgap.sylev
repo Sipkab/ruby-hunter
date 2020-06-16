@@ -1,0 +1,42 @@
+n See if you can fill the Gap!
+D 4
+C 3
+a David Polsky
+m 16 20
+################
+#..         Q  #
+#.. #0#0#0#0##Y#
+#.. .b.r.g.y.# #
+E&( .........#G#
+#............# #
+#............#R#
+#............# #
+#............#B#
+#            1 #
+#              #
+#0             #
+#00            #
+#.00           #
+#..00          #
+#@..0          #
+#.....         #
+#....          #
+#   #{#{#{#{   #
+################
+R 35386
+0 8
+1 Demo 2
+2 ..lllbbbbbbblll...blll..ll..t..lr.l.tltt
+2 .bbr...b...L.....bbrr.t..r...r.t.bl.....
+2 .rr..............trr..b..l.tttttlllllb..
+2 rrr....rrllllbbrbbrrrrrr.llllttt...r..rr
+2 .lbbbrrrrrrrr..r..........lll...lllt...l
+2 .brrrrr...rrrrrtttttttrtttt..llt.lttttr.
+2 t....L..bbbbblllttt..t..r......t..L..bbb
+2 bblllttttt..l..bbbbbltttttl..bbbbbrrrrrb
+2 rrrrrtttttlllllllllllllll......l.bbbbllt
+2 ..l........
+
+uuid 84a0df9e63c7769642cbf72be27fab96
+
+leaderboard steps time

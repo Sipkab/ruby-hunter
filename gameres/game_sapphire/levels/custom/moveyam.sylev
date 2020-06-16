@@ -1,0 +1,43 @@
+A Default
+S Default
+d 5
+T 
+D 3
+n Move the Yamyam
+e 0
+p 4
+E 
+w 30
+o 3
+s 300
+a Jorobot
+f Jorobot
+N 
+i The yam yam will help you get to the exit, but he needs a little guidance.
+m 11 17
+>         1
+~          
+~       %  
+~    %     
+~          
+~ [  [  [  
+~          
+~   #+#    
+~ [ #E# [  
+~   ###    
+~          
+~ [  [  [  
+~          
+~ %        
+~          
+~          
+~         %
+
+y ~~~~~~~Q~
+R 3995612910
+0 0
+1 Demo
+2 .rbbblllbbrrrr...llll.l.blltlllb.trrb................................l...........rrrbbb.....
+uuid b9c49af1a20353cfee4fe6d44d1bbd4b
+
+leaderboard steps time

@@ -1,0 +1,37 @@
+n Eat 26
+D 5
+C 5
+T 80
+t 95
+A GRAPHITE
+S STANDARD
+N Eat 27
+i Work it out
+a Elliot
+m 20 15
+~                   
+~ #############     
+~ #  R B R B E#     
+~ #  G Y G Y E#     
+###RY##########     
+# R  Y #            
+#B####G#            
+# B  G #            
+###BG###############
+~ #  Bg R Y R Y R  #
+~ #  Gb Y R Y R Y  #
+~ ###############RY#
+~     #1y R Y R Y  #
+~     #2r Y R Y R  #
+~     ##############
+R 39912
+0 8
+1 Demo
+2 .......r.r.rttrrbrrbrrrttrrrbbrrttrtb.r.
+2 tltttlllbbll.ttllbbllttll.bbll.lt.l.....
+2 rtb.l.lll....lrttltlrttrl.tt.t.rrrrrrrrr
+2 rrrrr.r.r.r.......
+
+uuid 87742d6d535d68dced280535e2026a17
+
+leaderboard steps time

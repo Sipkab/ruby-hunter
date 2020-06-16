@@ -1,0 +1,48 @@
+f Alexander
+n Swamp Room
+D 10
+s 2
+M 0 Only Solutions
+i You know what to do.
+i 
+i Hint: The Yam-Yam-Beast will
+i destroy some swamp.
+a Alexander
+m 15 15
+%%%%%%%%%%%%%%%
+%             %
+%             %
+%          E  %
+%             %
+% 1           %
+%             %
+%     $       %
+%     .       %
+%             %
+%             %
+%             %
+% ^           %
+%             %
+%%%%%%%%%%%%%%%
+y ~  Q>   /
+R 89590
+0 0
+1 Run for it
+2 rrrrbBrrrrrttt..........................
+2 ........................................
+2 ........................................
+2 .........
+R 89768
+0 0
+1 Closer Call
+2 rrrrbBttr...rr.rrt......................
+2 ....................
+R 1131
+0 0
+1 Fill it up
+2 rrrrbB..rr......rtttrr..................
+2 ...............
+
+uuid 4be5fe88a58bd2db1be8be94b91fb5e0
+
+leaderboard steps time

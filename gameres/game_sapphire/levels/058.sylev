@@ -1,0 +1,101 @@
+n Wanna be Lara Croft
+a Emerald Mine
+D 5
+s 0
+i First get to the weapons then do your job.
+m 64 32
+################################################################
+#.....................0.................................     ..#
+#..++++++++.0.00...++++++++.....0..0..00................ ... ..#
+#..+++++++++....00.++++++++..0..................0....... ... ..#
+#..++++++++++......+++o +++.....0.0.0......0............6... ..#
+#..+++++++++++..00.+++  +++............0........0..0.... ... ..#
+#..+++++++++++.....+++ *+++++++++++++++................. ... ..#
+#.0++++++*++++..0..+++++++++++++++   ++.....0...0.00.... ... ..#
+#..+++++ o++++.....+++++++++++++++ o ++................. ... ..#
+#..+++++++  ++..0..+++++++++++++++ * ++................. ... ..#
+#.0+++++++ +++..0..+++++++ o ++++++++++....+++++++++++.. ... ..#
+#...++++++++++..0.....++++ * ++++++++++....+++++++++++.. ...6..#
+#....+++++++++........+++++++++++++++++....++++!*!++++.. ... ..#
+#.00..........+++++++++++++++++++++++++....+++! ! !+++.. ... ..#
+#.............++++++++++++++++   ++++++....++! ! ! !++..     ..#
+#....00.00....++++++++++++++++ o*++++++....++ ! ! ! ++.........#
+#..0....0.....+++++        +++   ++++++....+++E!o!E+++.........#
+#..........++++   +   * o  ++++++++++++....++++ooo++++.........#
+#..........++++ o +++++++++++++++++++++++..+++++++++++...0.....#
+#...0...0..++++ * ++++++++++++++++++   ++..+++++++++++.........#
+#..........+++++++++++++++++++++++++ o ++......................#
+#0............++++++++++++.......+++   ++....0..........0......#
+#0..0...0.....++++++   +++.......+++   ++..0...................#
+#...0.........++++++ o*+++.0.....+++ * ++0.....0...............#
+#......0......++++++++++++..0....++++++++0...... ..............#
+#..0.............................++++++++..0......0..0.........#
+#...0.....0..................0.................................#
+#.....0..................0.....0...........1..0..0....0....0...#
+#.........0...........0..........0.0.0.........................#
+#...0.........0...0............................................#
+#..............................................................#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 29052
+0 8
+1 Demo 1
+2 ....rrtrrrttrrrrtttrrrtr..trr..tl.t.tlll
+2 tttttt..R.t...llllllll.rrt..r...bblll.r.
+2 .tt..lt......................R........rr
+2 tt.rrrrrrr.bbb.bb..blltllllll.ttt..l.t.t
+2 ........................................
+2 ......................R..............bbb
+2 bbbbbrrblll.blbbrt.rrrrbt..tbr.llllb...B
+2 ttr.b.Bttttttlllbrrlllt.rl.b.rr.r.llll.b
+2 bbbbbb......tttttttrrtttlt..bblbb.rrr.rr
+2 rr..r..trr....llbr...l..llttttrrrrrrbbb.
+2 .b..rt.rr....ltrr.tllrrr.............lll
+2 llbbbbbbbbbbb.........ttttttttllllllllll
+2 bbbbbbbbb.utttt....brrr.b..............t
+2 ..lll...rrr.bbbbbbbbbbbbbrr......tttt.bb
+2 b.............tttl.rr.lllttttttttlllbbbl
+2 bbbbbblltttt....rrttt.r......tt...rrtttt
+2 tt.....ll...rrttt..tllll...bll.......urr
+2 rr........lll..ltrr...llbbbbbb.tttt.....
+2 lllllllll.tttttlll...lrrrrrrrrrrrrbbbrrr
+2 rrrbbbbrrrrrlllbbllllbbbbbbbbbrrrbbbbbbb
+2 rrbbbbblllllttttlllllllll...tllllllllll.
+2 ........cbbbb........rr..lttt.rrbbbb....
+2 .t..tl.......t.....r..bbbb......r......r
+2 .ttt..l..bb.....tt.l.bbb..........tttllr
+2 .lllllttttr.llbllblllllttlttttt.lllttttt
+2 rrr..............utt.llllll......rrrbbb.
+2 ttt.lll.bbbbbbbbbll.t..rrttttttrrr..rrrr
+2 rbrrbrrbb......rrtt...mllll.............
+2 .....tt.lllbbbbbbbbbb..blllttttt.rtttttt
+2 .............b......bbbbbb..tttttr....rr
+2 ..rrrbrrrrrrrrrrrrt.r..mllll....rrrrrrtt
+2 .......mlbll...rrrrrttrr...mlbbblll.....
+2 ...rrrrr.ttt...bbblllllll...........llll
+2 llllll.................lt.llll.llbbbr...
+2 ...bb.......ttr..l.tttrrrrrrrbrrrrttrrrr
+2 rrrrttrrrrrrbb.tt.lll...lt...........cbl
+2 lbbll.........rrrlllllllllllllll..t.....
+2 ............rrb............llttllllll.bb
+2 b.r..bbbl.b.b..bb.r.l.t..tr..l...rttttrt
+2 ttr..ll.bbbbbb....bbbb..tttr.l..ttttttrr
+2 rrrrr.brrrrrrrrrrrrtttrrrrrr..lllltttttl
+2 ll....brrbbbbblllllllllllbblltlllttttll.
+2 ......................cbb......ttttt..cb
+2 bb.....tttttttt.r.l.b.....cbbbbb..lll...
+2 .....rrbbbbbbbbbbb..bbblllllll..ttttttrt
+2 ttt...tllttttttttttttttttttrrrrrrrrrrrrr
+2 rrrrrrrrrr.....rrrrr..llll..............
+2 srrr.....lllbb..utrrrr........rrrrrr.bbb
+2 .......llb..trrrrrrtttrrrbbbbbbb........
+2 bbbbbbrrtttttttttttttllllllllllllllllllb
+2 blbbb.tttttrrrrrrrrrrrrrrrrrrrrrrrrrbbbb
+2 bbbbbbbbbbblll.......
+
+uuid cf6c26d58e8f634dc1b3ae22dfeb7ac9
+
+leaderboard steps time

@@ -1,0 +1,44 @@
+n Sheer Luck
+D 10
+C 1
+e 3
+E 0
+s 8
+p 2
+o 2
+M 0 Rock Lobster
+i There's no way to solve this level
+i without the VCR. And even with the
+i VCR, it took me over 30 minutes to
+i find a solution.
+a Shark
+m 13 10
+#########0###
+#        +1&#
+#          Q#
+#         .|#
+#   @.#  #%##
+# s+++#  ####
+%    .#     #
+# | c.#     #
+# + o.#  %  #
+#a###E#######
+R 44192
+0 0
+1 Demo 1
+2 bB..........................lbl....rr.R.
+2 ........................................
+2 ....................lllllllllllll....lll
+2 lltlll.rrrblllbl.ltlb...........rllbb.b.
+2 tbtb..trrb.trr.rrbbLb.....
+R 24512
+0 2
+1 Suspended
+2 b..............blllllllrrrrrtrrbR.......
+2 ...............................l........
+2 ...............tllbtrrblllllllll..llllbl
+2 .l..llb.bb..tr.r.rrrr.rrbbL
+
+uuid 774aa132e50cef20ad0fac8ee1dbe8fe
+
+leaderboard steps time

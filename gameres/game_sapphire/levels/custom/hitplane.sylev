@@ -1,0 +1,41 @@
+n Hit the Plane Down
+D 4
+C 6
+e 8
+p 0
+M 0 Rooms
+i It should be so simple!
+a Alex
+m 10 23
+##########
+#0 QQQQ  #
+#|[|Q00  #
+# c#######
+# 1      #
+#        #
+#||c     #
+#        #
+#        #
+# ||c    #
+#        #
+#        #
+#  ||c   #
+#        #
+#        #
+#   ||c  #
+#        #
+#        #
+#    ||c #
+#        #
+#        #
+#     |E|#
+##########
+R 26196
+0 8
+1 Demo 1
+2 ....rrrrr.........b....r.l..bbbbbbbbbbbb
+2 ......lt...rrbbbblb........
+
+uuid 0627de2d500e15418f1b7d5429883f75
+
+leaderboard steps time

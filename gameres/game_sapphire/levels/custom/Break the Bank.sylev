@@ -1,0 +1,99 @@
+n Break the Bank
+D 5
+C 4
+s 100
+p 0
+M 0 Nightshift
+i Keep breaking it until it's broke.
+a Shark
+m 23 23
+###d###################
+#1      ..............#
+#...... ..............#
+#...... ...       ....#
+#..a... ... ..... ....#
+#...... ... .       ..#
+#...... ... . ... . ..#
+#...... ... . ... . ..#
+#..  >    . .     . ..#
+#.. ..... . ....... ..#
+#.. ..... .    ...  ..#
+#.. ..... .... ..  ...#
+#..            .  ....#
+#............... .....#
+#.          .... ..   #
+#. ........ .... .. . #
+#. .      . ....    . #
+#. . .... . ......... #
+#. .   %. . ......... #
+#. ...... .   ....... #
+#.        ... ....... #
+#............         #
+#######################
+y ~^  *    
+y ~^ *   * 
+y ~^    ***
+y *^ * * * 
+y *^* * ** 
+y ~^ ******
+y *^** ****
+y *^*******
+y $^$     $
+y *^    $$$
+y ~^ ** $$$
+y ~^ ***$$$
+y ~^ $* $$$
+y ~^* *$$$$
+y ~^    (((
+y ((((E((((
+R 55460
+0 0
+1 Demo 1
+2 ...r.................b.....bB...r..l....
+2 ..........rrrRlllttrrrr.rbbbbbb.........
+2 .......rbllllrrr....r..l.rttlttt...lllll
+2 ttrrrr.rbbbbbblbr...............tttttrrR
+2 .....lllllllttrrr.....llrr..............
+2 ........................................
+2 .........ll..l..bbrrrrrrrrrrrrrrr.b.brrb
+2 bbb..blttttttt.llllllllllllltt..........
+2 rll...rb..brbrbbbbtl.....rtl....rtttllll
+2 lttrr....r.lll.lb.brr..r.b.......l..r...
+2 ..................rl....r........lltlltt
+2 rr..llbbrrbr.........rl....t..b.rbb.B.bB
+2 .tt......ttllllttr............r....rrr..
+2 bbbbbblBttllttlltt........r..........r..
+2 ...rrrbbbb..lllTrrbbbttlLtttlllttr...rll
+2 ..........r.r.r.....................r...
+2 ......l.l...r.r....lll.....r..r.........
+2 l.l....r.r....lll.....r.............r...
+2 ...l.l.rr.ll......rrrrrrrrr.........rl..
+2 ..rrrbbbbllT....ttlltt......bbrrrbbllbb.
+2 rr.ltt.blLrtttlltt.....rrllbbrrbbblbb...
+2 .rt...tlbbb.RbRttttrttllttr.............
+2 ...................rll.....rr..l..rrrbbb
+2 bbbllblbL...tttttrrrrtrrrrrrrrrrrR.lllbl
+2 lllll.llllllllttr.......................
+2 ......................r..ll.....r.r..lll
+2 ..r......r........rrbb.bbbblT.llBttrttll
+2 ttrrrrrr................rll.....rrll....
+2 ..............................b.brrrrr..
+2 br...trrrrll.rbbbbbbb..l.bbbbb.tbBtttttt
+2 tttttbbbL.rbbbbtttttlLrbbbtttttttT.rb..l
+2 bbbb.lbbbbbrB.ll..tt.............b.....b
+2 rbb.B.rrTbllBt.l.tt...................bb
+2 rrbbLRttll......t......t.........r..bl..
+2 rbbbbrRttlltt....tt.................rb..
+2 .b....bbbbbrTR.tttttll...............r..
+2 .b.bbbbbrr.Tltttttrrr...................
+2 ..llbb..bl.rbbllbrRttttttrr.....lttttttt
+2 ttttttllLrrrbblbbbbbbbbbbbbbbbbbblLttttt
+2 ttttttttttt..lllllll................ttll
+2 tt......r...........r.rrrbbbrrtttLrrrbb.
+2 .....ll........lbbbb..tlllB....llBrrrrrr
+2 rrrbbbbbbbrr.....ttt....................
+2 ...b.....lbbbbl.lbbbbbltrtlttttrr.....
+
+uuid e4fddffd962dbeb447950d88209cab44
+
+leaderboard steps time

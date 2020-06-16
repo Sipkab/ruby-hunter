@@ -1,0 +1,35 @@
+n Outshined
+D 6
+C 5
+E 0
+p 0
+N Outshined II
+i So now you know
+i who gets mystified.
+a Alex
+m 10 10
+##########
+# Q   0  #
+# . 1 .  #
+#        #
+#  |  Q  #
+# |  b|| #
+#        #
+#  @{    #
+#|EQ|Q&||#
+##########
+R 91678
+0 0
+1 Demo 1
+2 .....brrrtt........l...lllbLrr..lbbbbll.
+2 rr......l...rbbrr...tllllb........
+R 91806
+0 8
+1 Demo 2
+2 .....brrr.ttl.....bb.....llbbbllbr....ll
+2 l...tttttt..rlbbbbbrr.....brt.....rrbb.l
+2 lltllb....
+
+uuid 2d3ea4cd773360c49640c55f3c76f71f
+
+leaderboard steps time

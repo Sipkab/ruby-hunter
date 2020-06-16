@@ -1,0 +1,66 @@
+n Persecution mania
+a Emerald Mine
+D 4
+e 13
+s 0
+i There is only one advide to give:
+i Don't have a break!
+i
+i Originally this is a two player level.
+i I made a little change so that it can be
+i also played by one player.
+m 64 32
+################################################################
+#+6+   ++++++++++++++++++++++++++++++++++++E++     *+          #
+#+ + + +                +        +++++++*   %+ +++ E+ ++++++++ #
+#+ + + + ++++++++++++++ + ++++++ ++++++++++ ++ +*  %+ +      + #
+#+ + + + +            + + +    + +       ++ ++ ++++++ + +**+ + #
+#+ +1+j+ + ++++*+++++ + + + ++ + + +++++ ++ ++        + ++++ + #
+#+ + +++ + ++++++++++ + + + ++ +   +   + ++ +++++++++++ +    + #
+#+ +     + ++++++++++ + + + ++ +++++ + + +*             + ++++ #
+#+ +++++++ +       ++ + + + ++       + + ++++++++++++++++ +    #
+#+         + +++++ ++ + + + ++++++++ + +        +         + +++#
+#+++++++++ + +   + ++ + + +      +++ + ++++++++ + +++++++++ +*.#
+#+       +*+ + + + ++ + + ++++++ +++*+        + + +         *+ #
+#+ +++++ +++ + + + ++ + +      + ++++++++++++ + + + ++++++++++ #
+#+ +   +     + + + ++ + ++ +++ + +++        + + + + +          #
+#+ + + + +++ + + + ++ + ++*+++ +   + ++++++ + + + + + ++++++++ #
+#+ + + + +++ + + + ++ + ++++++ + + + +    + + + + + + +      + #
+#+ + + +     + + + ++ + ++++++ + +*+ + ++ + + + + + + + ++ + + #
+#+ + + +++++++ + + ++ + +      + +++ + ++ + + + + + + +    + + #
+#+ + +         + +    + + ++++++ +++ + ++ + + + + + + ++++ + + #
+#+ + +++++++++*+ ++++++ + +      +++ + ++ + + + + + +    + + + #
+#+ +          ++        + + ++ +++++ + ++ + + + + + +*++ + + + #
+#+ + + ++++++ +++*+++++++ + ++ +++++ + ++ + + + + + ++++ + + + #
+#+ + + +    + +++*+++++++ +          + ++ + + + + +      + + + #
+#+ + + + ++ + ++++++++*   ++++++++++++ ++ + + + + ++++++++ + + #
+#+ + + + ++ + +*  +*  +++              ++ + + + +          + + #
+#+ + + + ++ + +++ +++ +++++++++++++++++++ + + + ++++++++ +++ + #
+#+ +   +    +                             + + + +*   +*  +++ + #
+#+ +++++ ++ +++++++++++++++++++++++++++++++ + + ++++ +++++++ + #
+#+       ++                                 + +              + #
+#++++ +++++++++++++*++++*+++++*++++*+++++++++ ++++++++++++++++ #
+#++++   *++++++++++++++++++++++++++++++++++++                  #
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 48324
+0 8
+1 Demo 1
+2 ....bbrrrrtttttrrrrrrrrrrrrrrrbbbbbbbbbb
+2 bbbbbbbbllllllbbttbttlttttttttttllbbbbbb
+2 bbbtlllllllltttttlllbbbbbbbrrrrrrrrrbbbb
+2 bbrrrrttllrrbbrrrrttllrrbbrrrrrrrrrrrrrr
+2 rrrrrrtttttttttttlllbbbbbbbbblllllllllll
+2 lltlllrrrttttttrrrrrtttttllllbb.ttlttttt
+2 tttttrrrrrrrbbbbrrttrrrrrrbbbbbrrrrrrrbb
+2 bbbbbbbbbbbbbbbbbrrrrrttlllrrrbbrrrrrrrr
+2 tttttttttttttllbbbbbbbbbllbbllrrttllllll
+2 ltttttttttttttttrrrrrrrrtttrrrtttllbltll
+2 bbbblllllllllllllrtttttlllrrrtt.......
+
+uuid 9c1cbeb6287dc4d0d7b1ea5dfdac8670
+
+leaderboard steps time

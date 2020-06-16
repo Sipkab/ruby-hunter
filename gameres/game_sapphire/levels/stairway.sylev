@@ -1,0 +1,59 @@
+n Stairway to Heaven
+ldeutsch n Die Himmelstreppe
+D 6
+C 7
+E 0
+T 1000
+s 20
+p 0
+Time
+i This one can be nasty, although it
+i is not difficult to play. For sure
+i you will have to use the bombs to
+i get to the exit - but how?
+i Just remember: A falling bomb
+i will explode if it hits something!
+i In fact the "something" may be
+i *anything* - 
+i with only one exception..
+ldeutsch i Der hier kann gemein sein, obwohl
+ldeutsch i er nicht schwer zu spielen ist.
+ldeutsch i Auf jeden Fall muss man die Bomben
+ldeutsch i benutzen, um zum Ausgang zu
+ldeutsch i kommen - aber wie?
+ldeutsch i Zur Erinnerung: Eine fallende Bombe
+ldeutsch i explodiert beim Aufprall!
+ldeutsch i Aufprallen kann sie *�berall* -
+ldeutsch i mit nur einer Ausnahme...
+a Juergen
+m 17 13
+#################
+#0...$......Q +E#
+#......*..$.. ++#
+#..Q*.*.....    #
+#.......$...    #
+#.*...Q...*     #
+#.......*..     #
+#...Q.....      #
+#$....$.*.      #
+#..*...Q.       #
+#.....*..       #
+#1..$...        #
+#################
+R 15080
+0 1
+1 Demo 1
+2 ..........ttt..t.rrtrrb..rr...lltllbrrr.
+2 ....lllll......brrrb........b.r.........
+2 r.brrrrrrttttttttll........T.lll..T.ll.b
+2 .L.tt.l...llbrrrrrrr..r...........llllll
+2 ...r....b.b....l...bbll.l.bbbb.rr...t...
+2 .l....t.ttt.r...ll..ttt...Tbbbbbbrbbrrtl
+2 l.rrrB.llllb...rrr...tr...rbbrrrrrtttttt
+2 lll.T.l.tllbrrrr...l..B..bb.R..tllbr..r.
+2 ...B.b.B.llbr..lbb.tllbrrr.r..l..tt..rtt
+2 rttrttrttr.ll..rrrrrrr.........
+
+uuid 4349abdbd6c5c111e7f9374dc051fc46
+
+leaderboard steps time

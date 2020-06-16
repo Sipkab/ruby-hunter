@@ -1,0 +1,71 @@
+n Breaking through
+ldeutsch n Durchbrechen
+D 4
+C 5
+s 0
+i Doors are missing.
+i If you don't believe it, there is
+i a way through.
+i But no single sapphire may get lost.
+ldeutsch i Es gibt keine Türen.
+ldeutsch i Auch wenn du es nicht glaubst:
+ldeutsch i Es gibt einen Weg durchzukommen.
+a Emerald Mine
+m 64 32
+################################################################
+#  SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS#
+#s           s s   s s s s   s         s  s s  s        s sss  #
+#  s sssss  s s sss    s     s  s s    s      s ss  ss     .   #
+# s  s ss  ssss  s s  s     ss ss ss  s ssss  ss  s ss s ss    #
+#  ssssss    s   ss  s sss s.  ssssss s s     s         s .  s #
+#       .s  ss sss s s  s  s ss ss ss s  ss   .  s s  s .    . #
+#     s  s    sss  ss  s ss     .  s   s          s  s      s  #
+#s  s   s   sss   s.   . . s     s s  ss    s ss  . s s     .  #
+#   .  s  s ss        s  s  s   ss    .    s s     ss   s s    #
+#     ss  ss .s  s ss       s ss . sss s  s   ssss s  sss s    #
+# s    . s  s s   s   s     s sss  s   .  .     .  .  .   s    #
+#  s  ss      .   s   sss  ss   s  s    sss s  ssss s s  ss   s#
+#    ss   s    s    ss  ss s  s  s  ss  .    s .    .    s    s#
+#   s    s      s    s ss s s ss ss s. ss  s . s   ss   s  s  .#
+#  s s  s   s   s    .  .  ss s ss. .  ss   s   s s s   ss     #
+#   s  ssssss   sss s  sss sssss   s ss  s  .  s       s .   s #
+#   s      s.  ss.  . s    . s s   ss      ss s s s  s .    s  #
+#  s     ss    s s    . sss   ss   ss s s  s    s    .s     s  #
+#  ssss  s s  s.      ss s.    . s s s     . ss  s    s s      #
+#   s .s . . s. ss    s s    ss   s. ss    s     .     s  s    #
+#  s   .s s      s  s   s s  .   ss s .ss s    s s     ss    s #
+#  s      s  s  s s s s s      s s. ss sss     ss  s   ss    s #
+# ssss    s s  s  s  ss ss  ss   s   ss sss    s ss  s  sss    #
+#  . .  ss   s  s .  ssss  s s   .       .ss     s    ss  ss   #
+# ss  s s s    s s   ss       s  s s  ss        s   s    s s   #
+# s sss   .  s  s             .   s ss  s     s            s   #
+#  s  sss s     .    s      ss     s                     s s  1#
+#  ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss#
+#                                                              #
+#EE$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 28593
+0 8
+1 Demo
+2 ...llttttttlttttttlttrtttttllbbbll.bbbbl
+2 lb.lbbbbbbbblbbbblllllllllllrrrrtttttttt
+2 trttrtttttlllbblbbbbbb..tttttt.ttrttrrbb
+2 .rbbbblbbb.....lbbbbbbbbbbllllll..rrttrt
+2 ..t.lt.llllllll..tttttbbbblltllllbbbblll
+2 lllttlt..ttttttttttt.bblltttlt...trrrrrb
+2 r..lttl...b.rbb..bllbbb..l.ttt.tllt.lll.
+2 bbbbbb...blbbblb.ttrt.ttrttttt.lltlllbbb
+2 lbblbb.ttt.rr.ttttttrttrttttttllllllllbl
+2 bbbbrbblbbbbbbbbbbbbbbbbbbbbrbbrbrrrrrrr
+2 rrrrrrrtrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+2 rrrrbrrrrrrrrrrlllllllllllllllllllllllll
+2 lllllllllllllllllllllllllllllllllllll...
+2 ...
+
+uuid 5f3a3f5a034e379ec1c77aaf3766a0c5
+
+leaderboard steps time

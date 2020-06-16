@@ -1,0 +1,162 @@
+n Pipemania
+ldeutsch n Pipemania
+D 5
+C 7
+e 59
+s 1
+p 100
+M 0 Nightshift
+i First build a pipe,
+i then let the swampy water
+i flow through it.
+ldeutsch i Bau zuerst eine R�hre,
+ldeutsch i und dann lass das Sumpfwasser
+ldeutsch i durchflie�en.
+a Erik
+m 61 45
+#############################################################
+#                                                           #
+#                                                           #
+#                   [                                       #
+#           [                                               #
+#          [   [ [                         [                #
+#        [                                                  #
+#         [   [ [                 [         [               #
+#     [     [       [      [ [           [    #######       #
+#               [         [     [  [     [  [   .h.         #
+#       # #      [         [  [   [   [    [  #######       #
+#       # #   [    #######               [                  #
+#  1   #   #    [    .k.     [ # #          [               #
+#     #     #      ####### [   # #      # #       [         #
+#    #       #                 #.#  [   # #                 #
+#    #       #              [  #u#    ###.###  [ [ [        #
+#     ## % ##            [     #.# [    .u.                 #
+#       ###                    # #  [ #######  [  [         #
+#                              # #    [                     #
+#                            [    [[         [   [ [        #
+#                              [ [  [       [               #
+#                                               # #         #
+#                                   [           # #         #
+#        [  [             [                     #.#         #
+#      [                [                       #u#         #
+#        [ [          [   [   [                 #.# [       #
+#      [    [ [             [  [                # #         #
+#                    [ [  [        [          [ # #         #
+#      # #  [                # #      [       [      [      #
+#      # # [  [####### [     # #  [ [    [         [        #
+#      #.#       .u.         # #       [      [ [ [         #
+#      #k#     #######  [    #.#####[    [            [     #
+#      #.#   [            [  #j.                  [ [       #
+#      # #                   #.##### [   [     [      [     #
+#     [# #    [        [     # #       [   #########        #
+#  [                      [  # #         [   .h.     [      #
+#    [  [               [    # # [    [    #########   [    #
+#  [   [  [                [ # #   [                        #
+#    [    [  [                           [ [                #
+#                           [         [                     #
+#.#    [                  [    [                            #
+#...     [                        [                         #
+#.#.#                  [    #.# [                           #
+##.k.                       .k.          E                  #
+#############################################################
+R 96485
+0 9
+1 Demo 2
+2 ..rrttttrrrtrb...........rr.t....rrbbbrb
+2 b.t.rrb.rb.ll.rrttt.l..t..tllbrbbbrt.rtt
+2 tlbbbbrtttttrrrblltlbbbbbttttttllbbbllrr
+2 b..lbb..r..ltrrtttttrrtttllbbbbbbttttllt
+2 ..llbrrtrbbbbttrrrrrtttllllttlbbbbrbl.tl
+2 bb..ttttllllbrtrtrb..lbb.tlbbblbbrttbb.l
+2 ..lr.ttllrrtt.lllbbttrb.tttrrr...l.bb.tl
+2 lllbbbbr.ttr.l.b.r.tttrrrrrrrrrbbbbrrrrr
+2 rrrb...t...brrbbbbl.blbbbbllttr.b.t.rbrt
+2 ttbbrttrrtttl.btttrbbbttlt.lttllbrtrbbtt
+2 trbb.rrrrbll..tllb.trb..rrrtrrtllltlbbbr
+2 rrtrrbbbl.tll.rttrrb.t.l.r.bll...bbb....
+2 r..rrrrlll...r..bbbbbbb..t.lllbb.ttl.bll
+2 bbllllttrrb..r.bbrrrt.br.trtt...rttt.b..
+2 ..ll.bl.tt.brt.brrbbbbbb.lt..ltr.br.tttt
+2 ttt......trttlb..rttr.brrrtl.tlbttlllbrr
+2 trb.rrt...tl.b.tttllbbrr..tr....b.r.bbb.
+2 trrbbblt.rttttl..b.lb.r.t........t.lt.r.
+2 .trb.tttllbbb..lbr..llbr..llbr.tttrrrrrr
+2 rrrrrrrbbbbbbbbbllllllllll...r.ttrrrbll.
+2 rb....rrtl..rrtllltlb..rrbbblll.....bbbb
+2 .llltrrbrttt.llbr....r....trrrb.r.bll.rt
+2 ll..tttllb...r..trrttllb.rrrt.ttr..rbllt
+2 lbbbb..rrrbl.tlb.rrbb.rbl.tttllbtrrttttl
+2 trrbrtt.bbbbbbbbbbbb....bl..bb...llbb.ll
+2 l.....rbbbblllbrrttrrrrrbbbbrbllrbrtrrtl
+2 llrtt.l.tlb.ttllbrtrbbrtt.r..ttlbbbrbll.
+2 t.llbll.rbl.tt.ttlb.ttll.bl.brrt.tttlllb
+2 b..trb.lbrrrlltttrblbr..rbbbbrrtrrbl...l
+2 .trtt.bbrrrrttttlbbrbl.ttttllbrtrbbb.rbb
+2 bbbbbbblllllllllllblt.bltt..llb..tttlttl
+2 lrrrbllbrbb.ltrtttr.brrblltllb..ttrr.trb
+2 brbl..tt..rtt.tlbblbr.ttrtttlbbbttll.b.l
+2 brt.rtttllbbbttlllbrrtr..lbrtrbb.ttlllll
+2 trrtrbbb...b.tlll.blttrttll.rrbllr.tlltr
+2 .llt.lllbb...b...blltr.t.rttlbb.....b.tr
+2 tttl.tlbbbbb..l..ltlbb.rr.b...tllbbb..tt
+2 rr.....rrrtrrbb..lllllttttlllbrrtrrb..tl
+2 b.tttlbbb.trrrb.ttttlbbrbblbbb.b...rbbbb
+2 llttrrb.llbbbr..ltr.brtttt.bbr.brttt.bbb
+2 lllbbbrrrr.brt.llltttrbblbr..llbrrlllllb
+2 brrrrbrt.ltrrtr.t..trrrbll..t....lll.bbr
+2 t.brrrt..tllb..lllltttrbb.lbr...brrt.rrb
+2 l.rrttrrbbll.rrblt.bbltt..brbrrtttrtlll.
+2 rt.rtttlbbrbl....rrrrr.tt...bllbbbb..lll
+2 .tlttlb.lllt.lllllllllllllllttlttttlt..r
+2 rt.....tttttlllllbb.tlbb.tltr.trbb.ttr.t
+2 rbb..rr.....llllb..trrrrrbbblbbbttlbb..t
+2 rrbb.ttttrrtl.t.l.bb..ttlb.ttl..bttlllll
+2 lbbbbbbbbbbb..trb..tlllbb.lbr..bb.tttrbb
+2 ...rr.b..b..lt..rbb.trrb.tlb.rbll.trttlt
+2 trbbbrbl.rttltttrbbbrbl.bbbrtt..tr.t..rt
+2 lltlltlb.trrrbbbllt.rb.rttrtll.rrrrbb..l
+2 l...lbltttt.rtttbbbl.ttbr..br.brrrrrrrrr
+2 rrrrrrrrbb.lllllllllllllllbltt....tbrrrr
+2 rrrrrrrrrrbrrrrrrrrrrr.ttllbrrblllllllll
+2 .tlllllllllllllttttlttlltllltt...tlllttt
+2 ttttttrrlllllttttttttttttttrrrrrrrrrrrbb
+2 bb.lll....b...lllrrrrbbrrtttrttlb.rrrrrr
+2 rrrrrrrrrrrrrbbbblllllllb.l.............
+2 lllllrrrrrrrrtrrrrrtttlbbrrbbbb.....b.r.
+2 bb.ll.r.t..b..........rr...bbbrrrllrrrrl
+2 lllltttt..blllbb.ll.tt..bbrrtttrrrbbbrrt
+2 l.rrrrbbrr.brtrrt..rrbl....t..tr.tt...l.
+2 ..b.rrrb.......b.ttl..rbb..l.......ttt.l
+2 ttlll.t..ltlltllbr..lbbbb.r....lt....ttt
+2 tttllbbr.ttttrrrrrrrrrrrrrrbbbbbllllllll
+2 b..b.....r.b...t.b..l.b.lbb.r.t..lb...ll
+2 lbbbbrrrrbbbbbbbbbbrrrtrrrrrttlb....rbll
+2 ..ltllbrr.........b..........llll.tttttt
+2 ttttlllttttrttlllll.rrrrrbbllbrr.brt.bb.
+2 ....bbbrbbbbbbrbbrrr......tt......bb....
+2 ..t.....tt........bbb.b.r....ll..tllttll
+2 bbrr.ttttttttttllllllbbbbbbb.rbbb..l.b..
+2 bb.bb..rbrrrrrrrrrrrrrtttttttttttttttttt
+2 tttttrttttttlllllllrrrrrrbblt.brbbbbbbbb
+2 bbbbbbbbbbbbbbbbbbllllllllbllllltll.bbrt
+2 tt.r.....bbrrtl..b..l..ttt.brr.trttl.b..
+2 .ll..r..t....ltr.b.rrb..brrrrrlllllttrtt
+2 lb.ttlllllllll..rrrr.lllrrr..llllttttttl
+2 lllllllbbblbbbrr.b...rbbbrbbb.t....b..b.
+2 .rrbbl.bttr.ttt.bbrrrttlb.rblllbl....lt.
+2 rr.llt.llb.r..lbrr.br.rtl.rttttttttt...t
+2 t...t.llbbllllttrttlbbb..br.bblt..rrrttr
+2 .trrbbbbbr..ltttttllbblbbbbrbbblttt...bb
+2 bbllllltttllllll.ttllt...t.lllltttlllttl
+2 lbbrrr.....r....t....rrbll...lrr..rttrrb
+2 l..r..bb.llbbrrt.t.brrrrrr..lllllbbrbbbl
+2 tttbb..blll....tlb.r.................bbl
+2 t.bbbbllll.tt...............t...b.......
+2 tr.r.tllb.rb.llb.lbr.b.rbblt...r....rrr.
+2 ....l...b.lllll....L..t....brrrrrrrrrrrr
+2 rrrrrrrrrrrrrr..t..brrrrrrrrrr...rrr....
+2 ...
+
+uuid fa2e51bf25bf1c85cecd468f0dd4432c
+
+leaderboard steps time gems

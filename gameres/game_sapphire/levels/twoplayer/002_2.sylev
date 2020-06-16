@@ -1,0 +1,87 @@
+A Default
+S Default
+d 5
+T 
+D 2
+n A Day Out  (2)
+e 30
+p 4
+E 
+w 30
+o 3
+s 0
+a Emerald Mine
+f 
+N 
+i Outside there is much to discover.
+m 64 32
+################################################################
+#*....    .      ...  .       .  .  . ..   .  . . .    .. .. ..#
+#.0 0. 0.. .0. ... .. . .... . .   .  .  .. . ..  .  . ..   . .#
+#. . ....  ..   . 0  0 *.0.... .0.. . 0..0.  . 0.....0.. 0..  .#
+#0.  ..     .  .. . . 0.. ..0.... 0 ..  ..0.. .   ...  . .0.. .#
+#. .. .   .0 . 0  . ..  .. . .$..0 .0  .  .  .0..00 .0 . 000   #
+#.  . *. 0.0. .... .   0. 0  0......    0.0  ..0   .   .   .  .#
+# ... .  ... ..0..  0.... . .     *.. .0..0. .. ..*..0.. ... . #
+#0...  00. .   .  .. .  .0.  0.. . .. 0.....       .  .....$  .#
+# ..   ... .. . .00..0 ...+++++++++0++0 . .00. .  ...   . ..   #
+# .0  0   *. 0. .. . .0.. +.. .0. 0   +. . .   0 00.. 0.0 ... .#
+#.. .  .. .  .  . .0... 00+. .. .0. . +  .....0..0 .... ..     #
+# ..0 0 .0..   . 0 .. ....+..0.00.0.  +. . ..0       . .0. .. .#
+# .   . . ... .... 0 .. .*+ ..0   ... +    00.... . . . .0  .* #
+#.*. .. ..   ... .0 .. ...+. .. .00 ..+ 0.  . . . .....   .... #
+#  . 0.. ..   0... ... .0 +0 .  . . . +  .. . .. .   . . 0... .#
+# ..  0... . .  0 .     . + . .. .   .+ 0.  ..0   *. .  ...    #
+#  .  0...0  *.  ..... .  +.  . 120.. 0...  .. .. .. .  ..0 ...#
+#. .. . .  . . 0 ..   .   +   ..EE.   +   ....0.... ... 0.  .. #
+#$  .000 0 ..  .0 . ...0  +0... ..  . +... .     . . ...000.  $#
+#.... .  .. 0. . . ..... .+   .  ... 0+...0.  ..  . 0  .. .  ..#
+#    0..0... .  ... .. ...+..   . ...0+....00. .0.  .. 00  ... #
+# .0..  ..0. ..   0 0.*...+++++0 ++++++     ....  .   .. ..    #
+#..  ....0  .   .0  .... .. . .  0. ..0.  0. 0 .. . 0.  .... ..#
+#  0 .    .  .0..   .  .  . . ....0 ..0.. ..  .0 ..   .0 .     #
+#0  . . ..    . . . ..0 .. ... ... ...  . ...  .     $ .....   #
+#0 ....  .0 ..  . . .    . .0.0......*  .0..  . . *...  ..   . #
+# .   . .   . . .. . .....0 . . . ...... ..0... ....0. .. ...  #
+#....* .. . . 0. .0  ..0 .     ...   .... ..  ..0.  ... .  . *.#
+# ....    .. . *. .. ..   ..  ...$.. . .. . .. .. . ...  ... ..#
+#..    ....             . .    . . .  .......  . .. ...   .    #
+################################################################
+
+y ~
+y ~
+y ~
+y ~
+R 21763
+0 8
+1 Demo 1
+2 ......................l.l.l.....t.t.l...
+2 ..l.t.t........l.......l...b.b.b.r.rtrtr
+2 r.rtttttrtrrrtrtrt.r.t.......b.b.l..r.r.
+2 rtrl......b.b.b.b.btb.brb.b.btbtlll.ltlt
+2 blblblblb.b.blbtrtrtrtrltltlr.rttltltlll
+2 lltltlr.rtrlrlrl.l.l.lr.rtrlrlrl.l.l.l.l
+2 bl.lrlrlrlrl...r.rtrrbrbtbrrrrbbbbbbbrbr
+2 btrtrrrrrbrbrbrbrbrrtrt.t.ll...bblr.rrtr
+2 tttrtrtrtrtrtrtrtrtttttrtrtrlrtrtrtrt.t.
+2 l.lbt.rbrbt.tlt.tbtbtblrlrlllllllllblblb
+2 lbbbbbbbbbbbbrb.l.lrlrlb.b.b.blbllllllll
+2 llllll.l.l.brbrb.t.t.l.lrltlt.t.tbrlrltl
+2 tltltttltltll.lrltltltltllltllltltllltlt
+2 ltlrltltltltlrltllltltltlrlrbrbtbtbtbtbr
+2 brbtbtbrbrbrbrlrlrbrbrlrbrbrbrbtbrbrlrlr
+2 lrlrlr.rtrlr.rtrtrtrtrlrltlrlrtrtrtrtlr.
+2 tbtbtbtbtbtbtbrbrbrbtbtbtbtbtbrbrbblblb.
+2 btb.b.b.l.l.b.b.b.b.l.b.b.b.b.b.r.r.r.r.
+2 r.b.b.b.b.r.b.b.r.r.b.b.b.b.b.b.b.b.b...
+2 ..............l.t.l.l.l.l.l.l.l.l.l.l.l.
+2 l.l.l.l.r.r.r.t.t.t.t.t.t.l.l.l.t.t.t.t.
+2 t.t.t.t.t.l.t.t.t.r.t.t.t.t.t.t.r.r.t.t.
+2 r.r.r.r.t.t.r.r.t.t.r.r.r.r.r.r.r.r.r.r.
+2 r.r.r.r.r.r.r.r.r.r.r.r.r.r.b.b.r.b.b.b.
+2 b.b.b.b.b.b.b.b.b.b.b.b.b.l.l.l.t.......
+2 ..........
+
+uuid c0f6afff686bd701f501d3c288d3d035
+
+leaderboard steps time gems

@@ -1,0 +1,75 @@
+n Stone bubbles
+a Emerald Mine
+D 5
+e 45
+s 50
+i How to get in?
+i How to get out?
+m 64 32
+################################################################
+#             ..   .         ####      .                       #
+#.    ..        . .    ..  ##    ##   . .  . . .    . .  . .   #
+#        .   ####   .  .  #        G  . .  . .  .. . ..     .  #
+#   .   .  ##!!!$##  .   #          #  .               . .     #
+# .    .  # !o!  ! #     #      0   #    .   .*  .        . .  #
+#  .  .  #  !!!!!   #   #  0    .    #   ..   ..  . ..   .     #
+#     .  #!   !o! ! #   #j .         #   ..   ..   . .   .. .  #
+# *     #!!!!!!!! !  #  #    0      u#  . . ..   .. .  .       #
+# ..  . #!Eo!$!! !!! #  #    .       #   . .   .     .      .  #
+#       #!!!!!b! !o! #.  #          #   ..   .                 #
+#       #!!!  !! !!!!#.  #          # * .  .  ####     .   .   #
+#. ..    #!  !o!!!!!#     #        #   .    ##6   ##           #
+#     .  #$!!!!!! ! # . .  ##    ##   .  . #   ##   #      ..  #
+#..       #  ! !!! Y     .   ####     .   #  ##  ##  #   .     #
+#   .      ##!!!!##        ..     ...     # #     8# #         #
+# .     .    ####     #####  .      ..   #6 # #### #  #     .  #
+#                 .  B     ##      1     # #  #$ R  #8#   ..   #
+#     .  . .      . ##+++++++#  .        # #  #y$#  # #        #
+# .  .   ..     .  #          #      . . #  R ####8#  #  *  .  #
+#  .      *  .    r#          #    .    . # #      # #   . .   #
+#       ...       #            #          #  ##  ##  #         #
+# .  .   ..   .   #            #   . .   . #6  ##  8R      .   #
+#   ..            #            #  .     ..  ##    ##     .  .  #
+#       .  .   .  #            # ..   .    .  ####             #
+# . . .  . ..      #          # .     .                .   ..  #
+#           .  .   #          #     ..   .   .       .    .    #
+#    . . .   .      #   %%   #  . .         .  ..        ...   #
+#.  .   . .    .     ##$$$g##  .      .* .  . .    .    .      #
+# .       .     ..     ####     .     ..      ..       ..      #
+#                   ..    . ..                 . . . ..        #
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 73840
+0 8
+1 Demo 1
+2 .bbbbbbbbbbbbbbbbblllllllllllllllltttlll
+2 tttttttrrrlttttrrrtrrrrrrrrrbrrrrrrrrrrr
+2 bbbbbbbbbrrrrrrrrrrrrr.t..t.....t.......
+2 l..ll.b.ll..l.t.ll.t.l.ttrr.ttttrrrrr.bb
+2 .lllb.rt.rrbblbblllllt.ll.ttt.r.tt..r.t.
+2 rr.t.rrr.b.rr.b.r.bb.r..bbb.l..bbbb.....
+2 rrrrrttttttttttttttllllllllltttttlllllll
+2 lllbbbbbbbbbblllllllllllllllllltllllllbb
+2 rrrrlllt..tlllltttlttt.bbb.tttr.t.rr.t.b
+2 .b.rbb.r.l..l.b.l.bbbrrrr.t..rtt..t.l...
+2 l.t.rr...r.l.bb..rb.rrr.t.r.l.bblbbrrbbb
+2 lbbrrrrrrl......mlll.....rrrrbbbbbbbrrb.
+2 ..srttt.....llbbbll.b.srtttt...bbbllbbbl
+2 lllrrrr.tttttttttttlllll......ttrrrrrrrr
+2 rrrrrrrrrttttrtttttttttl..b....l.l..bbbb
+2 ........r..ll.........r.r.....b.........
+2 .mll.............rrrrr.b.lbbttt......mll
+2 ............rrrr.b.ll..br.b.lll.b.rrrll.
+2 bl.rrtttttt..rttttrrrrrbbbbbbbbbbbbbllll
+2 lllllllttllllllbblllblllbbbbblllltllllll
+2 lttttttttttttlllllbbbbbbbbbbbbbbbbbbbbrr
+2 rrrtrrttttrrrrrrrrbbbbbbrrrbrrrrrrrrrrrr
+2 rrrrrrtrrtttttttttttttllllllllltllltllll
+2 llllllbllltlltllttttt.......
+
+uuid d2c717792924849700c37f729c357bbb
+
+leaderboard steps time gems

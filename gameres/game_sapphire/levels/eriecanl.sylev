@@ -1,0 +1,56 @@
+n Erie Canal
+ldeutsch n Eriekanal
+D 4
+C 7
+p 0
+d 15
+Time
+i Get your bombs and rocks
+i across the gap.
+ldeutsch i Bringe deine Bomben und
+ldeutsch i Steine unbeschadet �ber
+ldeutsch i den Kanal.
+a Alexander
+m 40 19
+########################################
+#1                d#    d              #
+#                d   Q   d             #
+#               d    .    d            #
+#              d           d           #
+#             d             d          #
+#            d               d         #
+#                                      #
+#  0 0 0 0 Q                   Q Q Q Q #
+#############      ## ##      ##########
+#                   #&                 #
+#                   #[                 #
+#                   #[                 #
+#                   #[                 #
+#                   #[                 #
+#                   #&|                #
+#                   # #                #
+#                   # #                #
+#aaaaaaaaaaaaaaaaaaa#E#aaaaaaaaaaaaaaaa#
+R 27256
+0 0
+1 Demo 1
+2 ..r.bbbbb.rrrrrrrrbbr............rrrrrrr
+2 rrl......rrbb.tttttttl....bbbbbl........
+2 ..lllllllllltllbrrr........rrrrrrrrrrr.r
+2 bbb.ttt..lllr..........lllllllll.tllllbr
+2 rrrr...rrrrrrrr..trrrrr....rrrrrrrrrb..l
+2 .............llllllllll.tlll....l.brrr..
+2 ....rbbbb.ttt.............t...rr......rr
+2 rrrrrr.trrrblll........lllllllllllll....
+2 ...llllllllllllltllbrrrrrrr.............
+2 ..rrrrrrrrrr..r.bbbbb.tttttrr.........rr
+2 rrrrrrrtrrrrblllll.....lllllllllllll....
+2 ...llllllllllllllltllbr......rrrrrrr..r.
+2 ..rrrrrrrrrrrr....bbbbbb.ttttttrr.....rr
+2 rrrrrrrrrr.trrrblllllll..............lll
+2 lllllllll...bbb..bbbbbbbb...............
+2 ...................................
+
+uuid 2ee0f8331f6e87029f3ecf718c8a0b3d
+
+leaderboard steps time

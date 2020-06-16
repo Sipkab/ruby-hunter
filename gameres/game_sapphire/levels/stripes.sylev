@@ -1,0 +1,57 @@
+n Stripes
+ldeutsch n Streifen
+D 6
+C 5
+p 0
+M 0 FF7choct
+i A nice stripe pattern waits
+i to be collected.
+ldeutsch i Ein nettes Streifenmuster
+ldeutsch i wartet darauf, eingesammelt
+ldeutsch i zu werden.
+a Alexander, Reinhard
+m 14 17
+##############
+#1..........E#
+#.(0@*$(0@*$.#
+#.$(0@*$(0@*.#
+#.*$(0@*$(0@.#
+#.@*$(0@*$(0.#
+#.0@*$(0@*$(.#
+#.(0@*$(0@*$.#
+#.$(0@*$(0@*.#
+#.*$(0@*$(0@.#
+#.@*$(0@*$(0.#
+#.0@*$(0@*$(.#
+#............#
+#ssssssssssss#
+#            #
+#aaaaaaaaaaaa#
+##############
+R 28653
+0 9
+1 Demo 1
+2 ....rrrrrr..rrrbr.br.b.b...Btt..........
+2 llttlllb..rbr.........ltll.r.b.r..tllltl
+2 llb......t.rrr.......rrbb...lr.b.r.b..r.
+2 ......Tbr......t........bbr.......t.....
+2 .bbr........L............b..L.t......l.L
+2 ..r...t....bl.t...tt.bbllrr.tt.....tll.t
+2 tllltllllb..rr..............rrbbr..br.br
+2 b.ttt.lltttlllllbb..r..........r........
+2 ....llbrr.trrblll.b.......t....r...br...
+2 l..tlllb..B..b.B.t...trrrb...lbl...L.rr.
+2 .ttrrrbll.....b.r....................b..
+2 .......L....................br..........
+2 ...br...................................
+2 .......L.............br.........L.......
+2 ..............bl..........br.........r..
+2 .t...t....................l.............
+2 tl...blt.ltltl.rrrrr.......llltllll....b
+2 bbbr..........br....L....br....r.....bll
+2 lll......rrrrrrrrrr..tttttttttttr.......
+2 .
+
+uuid bbd383c178e543676c924b70aaa86802
+
+leaderboard steps time

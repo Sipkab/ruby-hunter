@@ -1,0 +1,95 @@
+n Garbage collector
+a Emerald Mine
+D 5
+e 100
+s 0
+i A perfect timing is the key to success.
+i A hint: you don't need all diamonds.
+i Another hint: Don't waste too much diamonds.
+m 64 32
+################################################################
+################################################################
+#++    ++++    +++++++    +++++++++++    ++++    ++++++++++++++#
+#1!                                                            #
+#!!   h       h          h              h       h              #
+#!!                                                            #
+####cccccc##cccccc####ccccccc#########cccccc##cccccc########   #
+#2!                                                        #   #
+#!!                                                        #   #
+#!!  | | | | | | | | | | | | | | | | | | | | | | | |       #   #
+#                                                          #   #
+#   | | | | | | | | | | | | | | | | | | | | | | | | |      #   #
+#                                                          #   #
+#  | | | | | | | | | | | | | | | | | | | | | | | | | |     #   #
+#|aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|  #   #
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++  #   #
+#+++++    +++++++    ++    ++++++++    ++++++++++++    ++  #   #
+#E                                                         #   #
+#    h          h     h           h               h        #   #
+#                                                          #   #
+###cccccc#####cccccccccccc######cccccc##########cccccc######   #
+#E                                                             #
+#                                                              #
+#   | | | | | | | | | | | | | | | | | | | | | | | | | | |      #
+#                                                              #
+#  | | | | | | | | | | | | | | | | | | | | | | | | | | | |     #
+#                                                              #
+# | | | | | | | | | | | | | | | | | | | | | | | | | | | | |    #
+#|aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|#
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+################################################################
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 89784
+0 8
+1 Demo 1
+2 ......rbbbbrlttt..rr.....b............r.
+2 ........r...............................
+2 ......r.r.m.l.l.l................b.b....
+2 ...R.R.R.R.R.R...R.R.................r.r
+2 rrrrrrrrrrrrrrr.r...............r.......
+2 ........................................
+2 ......r.r.m.l.l.l..............l.......l
+2 ...r.r.R.R.L.......t.t...r.r.r.r........
+2 ......r.r.r.r.rrrrrrrrrrrrrrrr.b.b.l..r.
+2 ..............r.r.m.l.l.l.l......l......
+2 .l.............R...R.R...R.R.r.r.b.b.l.b
+2 ...trrrrrrrrrrrrrrrrrrrrrrrrrrrr.r.r.r.r
+2 .r.......rrrrr.l.l.l.l.l.trt.l.t........
+2 ..r...........rbr.m.l.l.l.l..b.l........
+2 .............r.....t.t.b.b.r.b.b...l...b
+2 rbrrrrrrrrrrrrrrrr.r.r.r.r.....l.l..r...
+2 .....l....................rt.....r.t.t.l
+2 .l............r.r.m.l.l.l.l..b...l.....t
+2 .............r...t.t.b.b.r.b.b.l.l......
+2 ..r.r.rrrrrrrrrrrrrrrrrrrrrrrrrrrrb.bbr.
+2 b.bbbbbbbbbbb.blblbbb.b.b.b.blbll.l.....
+2 l.l.l.lll.l.l.l.l.l.l.l...b...r.btb.....
+2 .................t......................
+2 ...........t............................
+2 ...................l.l.s.r.r.r..........
+2 ....r.............r...t.t...b.b.r.b.b.b.
+2 b......lllll.l.l.b.b.l......llllllltllll
+2 llllllllllltlll.l.l.l.r.rl.l.m.s.r.r....
+2 ..........l...r...........r.t.t...b.b.r.
+2 b.b.b.l................l.l.l.l.llbllllll
+2 llllllllltlll.l.tl..r.t.t........l...R.r
+2 .r.r...................l.l.l.l.s.r.r....
+2 ......l.l.................r.t.t.r.b.l.l.
+2 b.b.b.b....llllllllll.l.l.l.lrl.l.....r.
+2 r.r.r.r.r...............................
+2 ........................................
+2 ............llllblbl.l.s.r.r.r....r.....
+2 ..................r.t.t...b.b.r.b.b.b.l.
+2 l............l.l.lbllllllblllllllllll.l.
+2 tlt.l..t....l........................l.l
+2 .l.....s.r................t.t.r.......r.
+2 t.r.r.b.l.b.b.l.b.b.b......llllllllllltb
+2 llblbl.l..t.t.t.t.t.t.t...............
+
+uuid 2572fc02b41c5df77b1f9440afabe053
+
+leaderboard steps time gems

@@ -1,0 +1,77 @@
+n Eat 11
+D 6
+C 4
+e 100
+o 1
+w 17
+A graphite
+M 0 Rooms
+N Eat 12
+a Elliot
+m 70 24
+#################################                                     
+# ### ###########QQQQQQQQQQQQ#                                        
+# # # #     #   #QQ(((((((((Q#                                        
+# # ###         #.#:::::::::##          !!!!!!!!!!                    
+# # % R         # R         #           (((((((((!!!                  
+# # ####        #R#:::::::: #        ###:::::::::##::                 
+# # # #         # #         #        #           w#(:                 
+#m0.0l#        #### ::::::::#        # #:::::::::##!:                 
+#m0.0l#         G #         #        # #        :#!::::::::::#########
+#m0.0l#         #G#:::::::: #        # #        :Q!:!!!!!!!Q:#########
+#m0.0l#   #^    # #         #        # #  : : : :Q#:(((((((Q:"   "   "
+#m0.0l###########G# ::::::::##########!#         .#::::::::Q:.  d d  .
+#m0.0l          # G        5R +++++++++R  : o :  #         .:.       (
+#m010l          ###::::::::::::::::::::#         #:::   :::::.   d   .
+#m0^0l             *                  *#  : : :  #         :".       (
+# ###              :*                *:#         #:::   ::::!.   0   .
+#                   :*              *: R         #         :".  0d0  (
+#                    :*            *:# #:::::::::#::: : ::::!. 0d d0 .
+#                     :*          *: # R+++++++++R    :    :". d   d .
+#                      :*        *:  ########!####::: : ::::!.       .
+#                       :*      *:          ###  #    :   u:".       .
+#                        :*    *:                ############000000000
+#                         :*  *:                            #000000000
+#############################################################0000E0000
+y rrrr!rrrr
+y gggg!gggg
+R 51059
+0 0
+1 Demo
+2 tttttttttttt..bbbrrrrrrtcbb.......ttttrb
+2 rbbbbbrrrrbb.........r.tt...............
+2 ..............btcbl....r...tttrrrrrrrrtt
+2 llllllllttrrrrrrrrttlllllllllTb.....tttr
+2 rrlllttrrrrrrrrrRlllllllllbbrrrrrrrrrrbb
+2 llllllllbbrrrrrrrrbbllllllllbbrrrrrrrrrr
+2 rrrrrrrrTttttttrrrrrrrrrrrllllllllllbbbb
+2 bbrbrrrbblltbrsr..rrrtrtttRllllllllbl...
+2 ....rbbbblbbrrrrrrBrrr...........r.rrrtt
+2 r....uttt........bbbbllrttlrbbbbbBttttrt
+2 trtrrrRllllllll..rrrbrrbrrrrrrttttrrrrrr
+2 rrbbbbbButluttlllmlbbbbmlblbbbmtttrrrtrr
+2 mlbbmlb.brmlttrrrrbm.mbbmlttrtrrrrrbmbbm
+2 bmtttrrrrtrbmllrttrrr..cbbmblbmblbutttrr
+2 rbbmlbbmttttlltttlttttllllllLrrrrrrbbbrb
+2 bbbbrrrbbbrml.........rrrmlb.......rrrc.
+2 .cbl....
+R 30353
+0 2
+1 Suspended
+2 tttttttttttt.bbbbrrrrrrbb.rttt..t.......
+2 ..........................l.l..rr....mlr
+2 bllbb.....tttrrrbrrbbbbbrrrbb...rr..m.ml
+2 .........rttrrrrrrrtt.rttllllllllttrrrrr
+2 rrrttlllllllll....t.bbb.....ttrrrrrrrrrr
+2 bbltrtlllllltllllllllllttrrrrrrrrrrR.lll
+2 lllllllbbrrrrrrrrrrbbbllllllllbbrrrrrrrr
+2 bbllllllllbbrrrrrrrrrrrrrrrrrrrttttttrrr
+2 rrrr..rr..r...rllllllllllbbbb.bbbrbbbrrr
+2 rsrtt.r.....rtttt..............ltttlll.r
+2 rrbbb..rr...llllllllblll.......rrbbbblbb
+2 rrrrrrbttrrr.r.......ll.................
+2 r...
+
+uuid fd027694fd9bf51f3bf4dc72548e8d05
+
+leaderboard steps time gems

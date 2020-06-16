@@ -1,0 +1,109 @@
+n Reconfigure B
+ldeutsch n Rekonfiguration B
+D 4
+C 1
+T 2000
+s 100
+p 0
+d 12
+Y
+M 0 Dancing on the Ceiling
+N Reconfigure C
+i Reconfigure is my favorite level.
+i I decided to add a twist to it by
+i rearranging the starting order of
+i the panels. Have fun!
+a Juergen, Alex
+m 17 14
+#################
+# %  %  %  %  % #
+# ^  ^  ^  ^  ^ #
+#               #
+# %  %  %  %  % #
+# ^  ^  ^  ^  ^ #
+#               #
+# %  %  %  %  % #
+# ^  ^  ^  ^  ^ #
+#               #
+# %  %  %  %  % #
+# ^  ^  ^  ^  ^ #
+1               E
+#################
+y ..c$.0.Q.
+y ^...Q.!.*
+y 0&.|*..c0
+y **.0%!^@0
+y .$+Q.0.*.
+y .Q....d@*
+y [6.+.Q0$[
+y 0Q...[.*+
+y *.$!0.%@Q
+y 0^...@$Q|
+y &.|.0..6*
+y ..!c.Q$.&
+y .0[+*.@.^
+y $0.&*.6.@
+y .!0Q...+*
+y .*..|[$.Q
+y .@$*.&0|.
+y .Q.0.6|.$
+y +*.Qd[..c
+y &.Q0@6|.+
+R 37484
+0 0
+1 Demo 1
+2 ......rtr......t.....blbl.....rrrrr..R.l
+2 lltttrrrr......l......bbb...lrrr.tr.R.rr
+2 tr.R..rrB.....rRtlt...t.bl..L....Lrbr...
+2 lb...tttt....tt.rR.llBL.....lt...Lbrrr..
+2 .lbbl..l..l.....tttrr....ml.b...........
+2 .r..r.........l.l...blr.....l.....rbbbbl
+2 t..rrrr....ll.b....l..t..t..bb.....t..tt
+2 ttll...rrbbb..ttrrrrb.......ttrrbr.B.lt.
+2 ..........llbbrllbb.......tt......tttr..
+2 ..tcbbbb.......ltl.trr........tlltt.....
+2 ........................................
+2 ........bbbbbbttttttcbbbbbbrB..lllblL.rB
+2 .rtr..rb.lbltlbl..r.lll.B...r...trttt...
+2 Lbbbll.tt......rbbl...brr..ttttlt.l....L
+2 rbbbb.lltl.ttt..t.....ltt...............
+2 ....................lttr................
+2 rrlllbbrbbbrr..r.ttL...bbL.Lttrtbrrrtttl
+2 lllbtrrrrbbbbbbbbllllll...b....tttr..lbb
+2 rrt..blltttrr.bbblbrrbrtttltr.brtttrtlll
+2 lrrrrtttllllll....brrtrrrrbbbllllbblBll.
+2 ..tttr....mbb...r..ttt..bbbbrlbbbbBrrrrr
+2 ttttrr....rrbbrrt....blll.....ttttrrtt.b
+2 llbbbb....ttttrrrbbbllt...t.........r...
+2 ...rbbbbbblbLtttttllllll....ll.srt...LLL
+2 LLLL.rbbbbrrb.......rrr..trrrbbr........
+R 37896
+0 8
+1 Demo 2
+2 ......r.tr.t.blbl....r..rr.R..r.rRlll.tt
+2 trrrrrrrrrrr.lltTblb.b..b...tttt....bbbb
+2 ..ut.........b.rbrrrtr.rrt.r.R...rr.B..r
+2 Rtlt..t..bl.L..............Lbbbllllt....
+2 tRbbll..........lll..rr....t...brrrttr..
+2 .....trtr...tl........bb...l.tttrbb..blr
+2 bbl.L.rrrr..r....rrtt..Tblb.R.lltttr....
+2 .r.rbb...llltt.....t....tL.t..rR..ll.L..
+2 ....rbbbllll.tttl.l...llblb.bll.....rbbb
+2 bbR........rrtrRtttttt....bbb.....ttttlt
+2 .................t...b.................c
+2 rrbbbb..rr..............lllbb.Br.B..r.tt
+2 ttltttllb..l...r...................cbbbb
+2 bbllb..RRRRRRRRRR.tttttttttlttrrrrrbbbrr
+2 t....Rbbblllttttr.bbb.b.rr..tt..........
+2 .r.....t....r...llbl.ltttrlbbbrrrttt.brr
+2 .tr.....mbbbrbbbbbbbBr....b.LLLLL..ltttt
+2 tttt.bbblll...................tttrlttLt.
+2 .......blbbbbbbbbrBtbrrrrbbltllttttrt..r
+2 .bbbbbbL.ttttttt..t...............rrt..b
+2 llbbbbb...ttt.Rbllll.....lllt.rtrrtrrr.r
+2 r.utr.rrrbbblll.rr..bbbbbb..lllLrrrrbr..
+2 ......
+
+uuid 65560e4112e2007b1067c53dbf8e10c0
+
+leaderboard steps time gems

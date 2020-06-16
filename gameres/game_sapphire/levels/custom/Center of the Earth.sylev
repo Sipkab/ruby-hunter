@@ -1,0 +1,307 @@
+n Center of the Earth
+D 9
+C 2
+e 1999
+T 8000
+t 7000
+s 0
+p 0
+d 300
+v 2
+o 1
+w 25
+Y
+A graphite
+M 0 Nightshift
+i This could be the largest level
+i ever made, or at least one of 'em.
+i (100 by 100) You need 1999 gems,
+i not 999 like it might look, and
+i remember not to trust monkeys who
+i are eating bananas!
+i 
+i This level took over four hours to
+i solve, even with the VCR. Have fun!
+a Shark
+m 99 99
+###################################################################################################
+#1        Q    *{*{***********************************************************0          *        #
+#        *0*  ******###########################################################***       .        #
+#       Q*Q*Q .######Q... Y$$$$$$$$$# 0*#d#  #$ * #####   Y G R B # * #0. Q**  #####  @           #
+#      ****####    Q#.....#########$# #.#    ##R#B# 5 # # #######@# # #*  ####     0####$@.       #
+#0000000###+    #%+|#..788#$$$$$$$$$# # #    #  5 # #   7 #0     .# #B#. _#0  #####*   0###@      #
+#000000#*d#7####QQ  #...88#$######### # # |  # 8#     #####.   *  # # #   #@+  #  #s###* 0.#@     #
+#00000##++###QQQ+###0#...8#$$$$$$$$$# # # #0 #    ####$$$$#    .  # #G# +[#0+  #  # #00##|0.#@    #
+#0000#$# QQQQ+###...Q#....#########$# # # #. # ###$$$$$++$#       B #.###B#@   #   ##|.  #|0 #    #
+#0000#0# +#+##...QQQ0#8..Q#$$$$$$$$$# # # #  #$$$$$++++$$$#       # #   # Q+   #     #    #|.#    #
+#0000#0#  #B..QQQ...0#.Q.*#$######### # # # 0#+++++$$$$$++#...0 .|# .#  #.Q+         +     #0#@   #
+#000#** # #..*....0..*.*.*#$$$$$ ** # # # # .#$$$$$$++++Q0#.....|## *## #.Q+     #.Q # @   #*.#   #
+#000#.. R ########################% # # # #  #$+++++$$$$$$# .|. # R #$$ &################  #|0#   #
+#000#Y### #******Q*******Q#7  ****  # # # #0 #$$$$$$$++++$# | . #* # $###     Q#  ..Q.. #a@## #   #
+#000# **# #********Y******###Y####### # # #. #+++++++$$$$$#|     #Y#.#0      __#m_m0.    #R B #@  #
+#00#**$*# #.**Q***Y***Q**.#    QQQQQ# # # #  ########Y#####    |Q  #*#__     Q # +&|.    # ##* #  #
+#00#****G G ******Q****** #...#.....# # # # 0#  5         #   |||. #*#      ___#  &..   *#*0#|.#  #
+#00###### ###############B#0..#.....# # # # .# #### 8#0*#6#   # |+a#.#      _y B      @ .#.0Q# #  #
+#00#0000# #*****Q***Q***Q #*..#._...# # # #  #   7    ..  #  B#   |# #   _____ #|a|a|a#  #.0*# #  #
+#00#0000# #***Q*Q*Q*Q*Q*Q*#*..#...._# # # #0 #  5         #|  #  |#  #    Q _& ########  #.0*# #@ #
+#0#00000# #***Q***Q***Q***#*..#....#  # # #. # #*         #  |#a|#  #  ______  #++0++0+  #.0Q#* # #
+#0#00000# #Y###############*..#..._# |      $# 7#          #######00#Q        &#++@++@+  #.0#!|*# #
+#0#00000# # 0$$$0$$$0$$$**#*..#.._.#  ### #G##         ..##  **** **#__+       #++! +*  |#.0# B*#Q#
+#0#00000# #$0$0$0$0$0$0$**#*.......#|   ##+&+#     .#####*Q*######$*#         _#     . |##.0.##*#.#
+#0#00000# #$$$0$$$0$$$0$**#*........#s#*#+###+  .###******0#*     #*#  _____  # #        #.0  #*#.#
+#0#00000# ###############Y#*........# #.#+#"##Q##****######(## #  #*#0 _____  # #a||a|a  #.0.*#*#0#
+#0#00000# #**(((Q(((Q(((Q #*........#a# #+##QQ#***###   Q#*.QQ0    # _        # #######{{#.0 *#.# #
+#0#00000# #**(Q(Q(Q(Q(Q(Q(#.........###**#++##**##      . ::###    #Q_        # #     #....*.*# # #
+#0#00000# #**(Q(((Q(((Q(((#   &       #***###**#         0   #Q    #   _   _  # #     #0*0#####R# #
+#0#00000# #Y###############           #****$#*#    $     .   #.    #__       _#7# 0+  #### G B  # #
+#0#00000# # #***#  *0 #***#           #*****#*#   ..           Q   #     &   ##+  +%  %#%Q&###### #
+#0#00000# # #*#*#$0#$$#*#*# &  &      #*****#*#  0           # .   #   Q   & #.#QQQQ##+5*##     # #
+#0#00000# # #*#*#0$#**#*#*#           #*****#.# *###   0 _  (#_    #_ ___ ___# #"...++ ##   ### # #
+#0#00000# # #*#*#$0#$$#*#*#          #******# #+# 5 #  .   $$# _{  #_  &     # ####.6  #  ##    # #
+#0#00000# #*#*#*#..#**#*#*#  &  &####*******#  &Q8!6:* 0   ####### #_        #  0  #++#  #   #### #
+#0#00000# #*#*#*#QQ#$$(*#R# ######  ***l****###&# 7 #####&|   ***  #         #  #000##  #  ## R # #
+#0#00000# #***#****#*QQ#$ #      #c#*******#m        $   #*#B#######         #k|#...   #  # G #B# #
+#0#+++++################Y##@###*#Q #&########.######R#R# #.#+QQQQQ0# _ [   _ # ########  # *##  # #
+#0#QQQQQ#SS#$#*#.......   #.* **#QsQ#       G .0.0.00.0Y{  G ******#_     _# # # B      # *# $0l# #
+#0#Q++###**#$#*#..........###G###Q Q# ###### {........|#########***#     _#  #!#G####### *#  #### #
+#0#QQQQQ#  #$#*#.%...%....#.....##Q## #((((#R#....... #*       *#**#     #  _### $ R $ B*#  |0*0# #
+#0###++Q#((#$#*#.........%#*****#&+&# #((((# !        #: ####  :#**#_   _# _#+++#########  |0000# #
+#0#QQQQQ##.#.#*#..........#00000#c c# #(((|###a@a@a@@a# #Q   #  #**#&   ## #+###+       * *00*00# #
+#0#Q++###  # #*#........j.#00000#   # #((((Y  #########*:+   Q#(#**#    #& #+#"#&*############0## #
+#0#QQQQQ# |#B#$#.j........#00000#   # ####+#           #8_._..(Q####   _#&Q#+#:###QQ*Q*#      .*# #
+#0###++Q#  # #$#.....j....#00000#  _# #  #:#           # #a..###.  #  _##+###*(0*Q*.*.*.      #.# #
+#0#QQQQQ#| #B#.#..........#00000#  #  #                # #|.&# BoR #._## Y 0#****.*.*.*.      # # #
+#0#Q++###  # # #|c|aBc||c|#0000#  _# #                 Y+ (  **:& R. YQ    .#0Q$*Q*Q*Q*#  @@@@#B# #
+#0#QQQQQ# |#B# ## ##  ## ##000#  _#  #                 ##%############QQQQQ #0#################+# #
+#0###++Q#  # #G#          #00#  _# !#                  #  $   G  * B #.#### ###Q       Q      Q # #
+#0#QQQQQ#| #B# #          #00# _## #                   # #####d#####R#    QQQQQ(QQQQQQQ(QQQQQQ(Q# #
+#0#Q++###  # #G#          #00# #. Y               Q    # #     G   # #### #####:#######:####+#:Q# #
+#0#QQQQQ# |#B# #          #00# #o#                .    # #     # # #  * #                   G  ## #
+#0###++Q#  # #G#          #00# #.#    #       _        # #     #*#0#### G 0                     # #
+#0#QQQQQ#| #B# #          #00# #*#   #Q#       #&&     # #    Q#*#+#$   # .    +@l     +@l    +@l #
+#0#Q++###  # #G####Y#######++#  ##  #Q&   (   :7#      #$# |######+############################## #
+#0#QQQQQ# |#B# #### #######+Q#_  #   #Q#  !!   #&     ## # # 0     $$*       $ *   *   *   .0#**# #
+#0###++Q#  # #G##   ##"####++Q#_  #   #  !!   #      # * # # .     ...       . .   .   .   .*#..# #
+#0#QQQQQ#| #B# ## ##"###"## ++Q#_  #         &       #*|## #                               .0#**# #
+#0#Q++###  # #G## #########  ++Q#_  #     0         ##*#  $#  Q* @$                        .0#..# #
+#0#QQQQQ# |#B# ##   !##"###   ++Q#_  #    .0       #0# # ####+####:###{ ###### ### ### ###G##   # #
+#0###++Q#  # #G############    ++Q#_  ######|c|####0*#*# # 5   5 # #0.##......############Q## ### #
+#0#QQQQQ#| #B# ####"##"#!##  0 Q++Q#_  #Q0& # #*000**#*# *8#6 8#6* #......0.0.#QQQQQQQQQQ00Y R G# #
+#0#Q++###  # #G##"#Q####!##  . . ++Q#_ #_0# # #******# # # 7   7 # G ....######|..........0#Y G # #
+#0#QQQQQ# |#B# ######"##!##       ++Q#  +0#*#S#**#####*# ##*#c#*## #....@#    ##          .# B B# #
+#0###++Q#  # #G##Q######!##        ++# #+0#*$$ *#     *#   *   *   #0...##R#B#*G & & & & & #  R # #
+#0#QQQQQ#| #B# ##"######!##   0    !!#  +0##B##Y# ###########c####:...@@# 0   *################## #
+#0#Q++###  # #G####"#"#Q###  Q.Q   ###   0#  Y  # # @     0 B R... .@####.|####  SS         !!  # #
+#0#QQQQQ# |#B# ############ &# &[ #  ##c#Q#$ #0.# # .   ...##c####:## G # B B #  ..       ##### # #
+#0###++Q#  R Y #####+#########B###* Y## Q#&#G#| # #  @      # QQQ0(0#R#R#####B#       +   #     # #
+#0#QQQQQ# ######    G#QQQQ#  0  0*##00#sQ#$# ## # #  .      #QQQQ0"0# # $$Q$$Q#      +[+  # ##### #
+#0#Q++### #          #....#  . Q0|#!00# Q#$#*# o#0#       [#QQQQQ0"0# #$$$$$$$#           # #  .# #
+#0#QQQQQ* #    R     #    #  Q..|#*+*0#QQ#*###Y##.#      [#QQ###Q00Q# #$$$$$$$#      +[+  # # #.# #
+#0#####Q.##   0 0    #    # 0|  #**+*0####.     # #a|a| [#QQ#*$*#QQQ# #$$$$Q$$#       +   # # #.# #
+#0#$$(#+ #    . .    #    #@|#Ya####|.#    ###### ##### #Q##**#**##Q# #$$$$$$$#           # # #.# #
+#0#...##R# @* {@{    #    #*#00#      # ###Q    # #      # **#Q#** #  #$00000$#           # # #.# #
+#0#    #*#*######### G    #.00*# Q Q  #    *### # #      # ###.###**# #$$$$$$$#          #& # #.# #
+#U#Q0  #* B #*G      ##   #a00Q# ###########&*# # #      # #0+Q++Q# # #Q$$$$$$#          # #  #.# #
+#U#*.  #Y#  #######YY#"#  ##00##B ****..m  #*#  # #  a** # #*+Q++"# # #$$$$$Q$#    |a|a|a#(# #..# #
+#UE#*    #######*R ._ #   # +| ! ##...#m  # *  #*.# ###### #g+Q+++# B #$$$$$$$# |#########Q# #.#  #
+#U*#_  QQ#.......#    && #         Q #m  {  ###*.G  #.Q.##R###+################  R B  ..$#0# #.# *#
+#U*#   ..#.#(((|(######a##*############ {#R##d#0|  ##0*0#   #    #0.....#   0*#a#   ###.# &# #.# .#
+#U*# *   #.#(Q(Q(#        #             ## #  #0# # B.*..   #    #*..$. B  00$##  0     #*#  #.#0 #
+#U*#Q_  _#.#(|(|(#        ## ######### {## #  #.# 0##0*0#   #    #.....0# **$$#  0. 0   #*# #..#. #
+#U**#  +##.#(Q(Q(#        #  #  0 0  # #.*.#$ #   .*#0!0#          ....*#.c||c#  &% .   #!# #.#   #
+#UU*#  ++#.#(|(|(#      0 #  #  .0.0  # *Q*#.##| ############   ##s###### * *0#       8#* # #.# | #
+#0U*#  ++G B(Q(((# Q @ @. #  #  ++..  ( .*.#  #$ #000l      #@@@#    * 0#$**$.#        #*#  #.#   #
+#0U*#&############+########          #######B#####*|###### ######R###|.|#0$** B*a|   ### # #..#| |#
+#0U**#********####   #$#  #  #       # 0000 0    #* ** 0 # #*.... ..0#.##########&###    # #.#    #
+#0UU*#*######*****##  #  *#  #@     _#*0000##| | #s####|$#*#....0....#.#Q(            ###  #.###  #
+#00U*#**#****####* *#   #*#  #+a   _ #.....  # #  *0   #$#*#.........#.#0*:::::::*####    #..#    #
+#00U**#**###*****##**# ##*#_       l######## # # # |#| #*#*#..0......# #**     Q # Q   ###..#  ####
+#00UU**#** *####***#**#***# {#######   wo  # # # #0#   #$#*#.........#B########0*  ####....#!   #0!
+#000UU**###*****##*##***#*#$#w. o      o   # #   #*#  |#*#*#.........#         ####*  ..###*### #+#
+#0000UU****####**#***###**##  . o      oo  S #{# #.B   .$#*#.......###  ####   B R *####000.  #   #
+#00000UUUU*****#Y###*****#    . o      wo  . #b# B ##|  *#............      @@@#####    000.   ## #
+#000000U0UUUUU**  00###### ############################################{#######    0 QQ*000. @    #
+#0000000000000000000000000 R R R R R R R R R R R R R R R R R R R R r * *  * Q 0 @ _.*$$Q.00. #.@* #
+#########################################################################a#a#a### ##########a######
+y +0++@++* 
+y +0++@++! 
+y ~        
+R 35943
+0 0
+1 Demo 1
+2 rrrrrrrrbblbL.t...trrrBllbbRttrrrrrrTrrT
+2 rrtrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+2 rrrrrrrrrrrrrrrrrrrrrrrrbLrrtrrrbbrrrtrr
+2 bBl.l.l.lttllllbrrbr.r.rrbr.r.rb.rb.rb.r
+2 .bbbrbb.bbrbbb.bbrb.....bbbbbbbbbbbbbbbb
+2 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+2 bbbbbbbbbblbbbbllbblLrrbbrrbbllltllbrrrr
+2 .rttcblBllb.........r.rrtttttRbbbblllllt
+2 tlTbbbrtrttllllsrb........llllBlllbbrRlt
+2 lbltlblrtllbl.ll.lllllllllllllllllllllll
+2 lllllllttrrrttRbrrrrrrrrrtrrrrbrrtttttll
+2 llllttrrrrrrrrrrrbbbbbllbBtrrtttttllr.ll
+2 lttTbbrrl.rrrbbrrBllbbbbbrtTrrrbrrtttttT
+2 bbbbl..rttttttllllllTr......lttrrrrrrrrb
+2 bbbbbbbbrrrrrrrrrrrrttttttttlllllbllbbll
+2 Lrrrr.llllbBtrrblrrrrrrbBlllllltttlLbbl.
+2 .br.r.r.r.r.rttrrTbblBlbblTlb.rrrrrrtt..
+2 ...rrrrrlllllbblllltttrrbl.llbbrrrrrtt..
+2 ....rrrrrllllbblllllllllllttbbl.rrrrrrrr
+2 rrrtt......rrrrrrlllllbbrrrrrrR.ltrrrrrt
+2 rrrrrtrrrtrtrtttrttttrtttttrtttttttllbbb
+2 bbblbbbbblbbbblbbblblllblllr......llblLr
+2 ......lltlllllllLTr.....lttrrrrrrrrBrrrr
+2 trrrtttrtttcb.........tttRb.....t....rtt
+2 tttrtttttttrrrrttlllllllbbbbllmlbbr.blsr
+2 rtt.l.l.l.bbbbbb.ltttttttttlllbbbbbbbbbb
+2 rRllbbrrrrrrRbblllltllbrBllbrrtrrrblbbb.
+2 ltllllbblltTlll.rTbrr.ltLbLr.lltLrrbrrtr
+2 ................tt.Rlbbbllllttlttrrrrtll
+2 llllbbltTrrbltllllTbr.lllrrrrtrrblllllll
+2 .llllllttlllBt.brr.....llbBrtrrrttttttrr
+2 trtrrbrbrrbsbbbr........lttlll.llt..bbbl
+2 Lrbbb......bbbbLRtttttttrrrrrrtttttttttt
+2 rbrRlbrlBrBbBrB.rB.TrtrTBbl.lBrrrbbBlTll
+2 lllTbtrrrrrrbblLbrbttllbBlTBlBT.bbl..tRT
+2 lBrrrrbrrtttttttttttllttrtrrbrrtrtrrTrrr
+2 rTllbllLrrrrrrtTl.l.b...rrrrtlTlttlr.rrr
+2 rrblbrtttrtttTrTbbbllbbbltrtlllttttrTbb.
+2 lttrbblllttLbb...llBllttLbb...llBllttLbb
+2 ...llBttLbb.l.l.l.l.l...ltllllltrrrrrbbl
+2 BtlllllbltllblrRttlLbbrrrrrrRl..tt......
+2 .bb......lllll.r......rrtttrtttttllbbBtt
+2 lllllbbbbbbbbllbbbRbbbrrrTrrrrTrrrtttLbr
+2 rrrrtrtrrbll.llbbBlBtrrtrrrtrrbllll.l.bb
+2 .lllbbrRlllbRlllllbbbbttttllbblllbbbbttl
+2 lllttttrbb...rbbb.r.rbbbttttttttrrbllbbb
+2 bbbbbl....rtttrtrtRllbbbbbbbRltlllbbblbl
+2 bbbrRllbbLttlTrr....lllttttrtrtttttttbbb
+2 bbbbb..tttttttttttttttrrrrrttttttttrrttt
+2 tttttrrrrrrrrrrbbrrrbbllLrrtrtttlllTrrrb
+2 ...bb................r.....r......r.lBrr
+2 .....rlBrr....BrrrrrrrrrrrrrttrRllllllll
+2 lllllllllrrrrrrrrrrrrrtrrrrrrttttL.l.r.l
+2 .r.l.r.L.l.r.lr.ll..llllrbbbrrR..ltttrrr
+2 ttLbbllllllbllTbBllBtTbllBTllTlBlL.Lrr..
+2 .b.lLttttrrtrrrrrrrrrttrtrtRblblbl...rtr
+2 trtrrtrtlblblblblblllllltrrrrrrtrtrtrtrr
+2 trrrttllllbllblblblbllllL.rtllt........l
+2 r.....llbblbbBtttttttcbb........tt...bb.
+2 .................................tttrrrr
+2 rtrrrbrRltlllllbbrrb.rrll...............
+2 ...............................t........
+2 .....ttr.r...rb.rrtrrtrrrttttttttltttttL
+2 bbbbbrbblT..rttltttttlttttLbbbl..rtttltT
+2 brbbbl...rtttltttlTrbbbrbbbl....rtttlttt
+2 ltlTrbrbbbrbbbl.....rtttltttltltllLsr...
+2 ......llltlllL..ltllllltllll.llbrtllbr.r
+2 .bbbbbBtt.....br.b..rb.r.r.r.rtrrrbrlttr
+2 rbrrrrbltttlbbl...rbr...rr.r.bbbbbbbbb.b
+2 bbrrTbbrTblllt.rTlbllBr..ltttllltTlb.Rll
+2 tTbl.RtrrrrrtrttttttRllllstrtTLb..bblllT
+2 rrrRllllllLtbllttbbl..rllllbbbbrrrrbbbbb
+2 bbbbbbbblbbr.....llllbbttlllttttttrttlbr
+2 bb.bbbl..brltr..bbbbbbbbblblbBtt...rtttt
+2 trttttttttrrttttlltttrrtrtlttllbbrttbblb
+2 bbbbbl..rbrlbbbblbrrrllttrbbttrbblblbbbb
+2 bbbrtttttllbbrbbbbrb..lBtltttttttttrtttt
+2 ttttttttttttrtrttlbbl..rrb.rrrrrbbbbbbbb
+2 bblbbbbbbllbbb..rrbb.blblbb....bblbb.ttr
+2 ttttrtrtttltttrttttttttttttrttttllttttrr
+2 btlbblbbrtbrbbbbbbbbblllbrblbrtttrtttttr
+2 ttttltllbrr.rbbbbbbbbblblbbt....bbbbbbRl
+2 bblllltttttttttttttrrttlttrbbttrbbr..llt
+2 llbbbbbbbbbbbbbrbrbltltttttttttttrrttl.l
+2 bbbbbbbbbbbbblbbbbbbb......bbbblTbblltLr
+2 bllbllltttrBRttlbrrrblr....b.....b....br
+2 rrtrBlblllLtttrrrrttlttRllllllLrrrrrrbbr
+2 bblllbbbllllllbbbllllllllllbbbbbbblLtmtu
+2 rrbutll..bbbbbbbBrbrtttttllllLrrrrbbbbbr
+2 rrrrttttrtrttllBsrrtt..llllbbrrbbbbbbbll
+2 l..llltlttltttttttttttrrrtttlBllltttrrrb
+2 lbblLTrrrbbblllllbbbbbllllblttrtrttrtttt
+2 ttttrrrrrrrrbbtrBlbbLrBrrrrrrttlBr.lb.bB
+2 ttlBr.bblBtttLbbblllltttRbbbrrtTrb.lBttt
+2 rrrtrrrrbull.......rrrbbrrtTbrrrrrBrrblb
+2 rblbrblttttttllllltrrrrrrttttttlllLrblll
+2 rrBlbbrttlllbbblllttrtlbltrrttlblllltlbb
+2 btttlllbblbBrrtrrrrrrbbbblTrttttttTlllbb
+2 bbbb.....r.r.r.rBttttrrrrrrrrttttttllr..
+2 ....lllLrbblllLrrrrbbbblllllbbbBlllllttt
+2 llllllbbbbbBtllttttttrtrtrrtrrrtrrrrrTll
+2 ......rrrtrtrrrrrrrbrt.lrbbBtttttrtttttt
+2 rtrrRtttllttttllbbbbbbbrblblBrttttlllllb
+2 blLrrttrrrtttlbbLbbb.l.l.lttttlLbbbrbbLr
+2 bBrttllllbrrrrbb.blbb.bbLttttrrttttttttt
+2 rrttlll.lll.bblltllbb..llttllLblbbbbrrrr
+2 trrrrtrrrbbllbllllblllllbbrrrrrrtrrrrrbb
+2 llllblllllllbbbbbbbrrrrtrrrrt....ttTbbbr
+2 tllbrtr......ttTbbrb.l.l.l.l.lb..l.l...r
+2 ..........llbL......tll..tr.rr.ttLrbrbbl
+2 llbllllbblr..lBttttRlllltttttttttttttttt
+2 ttl.lbbbbbbbbbbbbbbbb.blb.br.brrbbbbrbrb
+2 rbl.blblttrrlbblb.lb.lbLRtrrrrtrtrtrbbbb
+2 llTrRblltlblllBtllbbbbbbbbbbblblblblbbbb
+2 bbrbrbrbrbrbrbrbrbbbbBttrrrttrrbbbrrrrtt
+2 TrBrrrrtTlBrtlblllblbbbllbLbbtttrrB.b...
+2 bbblblllltttTbbbblllbbrrrRl.....rrtrrrrb
+2 bblbllttRbblblbbbLbblltlbllllblllllllttt
+2 ttl................rrrrrrrrrrlllllllllbb
+2 bbbrrrrrrtTblllllltttttl................
+2 .rrrrrrrrrrlllllllllbbbbbrrrtttrblbbllll
+2 .............rr.rttrrrlllbbbBtlltttttl..
+2 ...........rrrrrrrrrrr.......rttrttlllll
+2 lrbrblllltllbllllBrrrstrrb.........lr..t
+2 ll.lLr...llttttrttttlbr.tr.rRllbb.bbbbll
+2 ltTbrrbbbrrrtttrrrrrTlllbrltllbrr.rlt...
+2 rr.rBttttlLbbutttlbLtrbbbb.llLrrbbbllllb
+2 blllltttrrttttttttllrrtrrrrrRlllltttcbbr
+2 bllllBrtttlttrbbbbb.rrbr.Rttttttttcblllt
+2 t......ttt.................lbrt..b...tll
+2 bl......rr...LtltttttttttttttrtttttlLrrr
+2 ttllllttttttttttttttttttrrbbbbbbbbbbtrtt
+2 rbbrbtttttttrtrttrtTl...bblbblttrttlbbbb
+2 bbbbbbttttttttttrrTlbbbblbbbbb.rtttrTllt
+2 .brrbblltttttrrbbbbbrbllltlbrrbbbblttttb
+2 bltltttrtttrttrtTrbbbbbtlbbbbrbl.....llb
+2 bbbbbbbRltttttttlttrtrtttttttrtrbbbbbbbb
+2 ll..ltlbbblBtttrrrttttttTbbbbbbbrbbbbbbb
+2 bblllBtltttttttttttttttrtt....trrrrrrttl
+2 lllllllttrrrrrrrrttllllllllttrrrrrrrrttl
+2 lllllllllllblbbrbrbrbbrbll..............
+2 ll.lmt....l......lbllllllttllbbLbblltlB.
+2 rTlbbblb.rtrBrTbrrtttrrrrrlbllblLbLrrrtr
+2 TBrBtrtrrrrrrbRBllllblbrrTrrTrrbbbl.lttR
+2 llbbl.lttRllbbl.lttRllbBlBTlTbbbbr.rt.Lt
+2 rrbLbr.rt.LtrrbLbrrt.LtrbrtrrblbLrbBt...
+2 .....bbblTlltlbltlbltlbltlbltlBTlTBlTbbb
+2 bbbbbrrttttttrrbbbbbbrrRll.....rrttTbr..
+2 LLtlttttrrrbRb..bbbr..L..TlBrrrtttttrrbb
+2 bbblbbbbBll.bbrrbbrt.Lbbll......ttrrtllt
+2 llltTbbbBttrrrbbrrtttllltblbbbrbrtt.....
+2 ..............ll.lbbbttttr.bbrr..bblLrtl
+2 lltttttlLbllbBtrrbblblbRltRbbrrr......tt
+2 tllLrrrbbbbbbbbbrrrrrTbltlbllllltllTbr.r
+2 rbbllbbbrrRlltttrrut..........bbbb...bbb
+2 blbbbbbrrbblbbblltlttlllbbrBrlttrrrbblbl
+2 B.tl.bllblrtllrrrrrrrrrrbbrrttttTbbbbbrb
+2 bb....lllllttrtttllllllllllbbbrtllttttrt
+2 ttrrtttttttttttttttttTbbbbbbbbbbbbbbbbbr
+2 ttttttttttttttttttttTbbbbbbbbbbbbbbbbbbb
+2 blllttrttlttrttlttrttlttrttlttrttlttrttl
+2 ttrttL.LTbblbbrbblbbrbblbbrbblbbrbblbbrb
+2 blbbrbblbbbbblbbbbbblllbbrbbbbbLtttttttt
+2 ttltlbl..rrbbbbbrbrrTlll......rbbblBtttr
+2 ttttlLbbblb.rr......lbb.bbBttrrtrtlrttlt
+2 llltLttttLbbbbbrbbbbbbbrrrrttttttrrbbbbb
+2 blttttttrrr.l.bbbbbbrtrTBrBTrTb.Lttttttt
+2 rrtrrrtttttTrbbbbbbbbr.....lbbbbrrblbltl
+2 bltlblr....llbbrrbrbrrtrrbbbbblblllltllt
+2 tlltlllltllLrrbrrrrbrrbbrrbrrrrtrttllbll
+2 tltltlltlllltlllllllbbrbrbrrrbrrrrbrbllt
+2 lllltllltltltltttlttttlttttt.....
+
+uuid 60d288f3f7c8a3aa680ea02aff2bb996
+
+leaderboard steps time gems

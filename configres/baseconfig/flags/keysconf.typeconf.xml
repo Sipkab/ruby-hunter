@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config xmlns="bence.sipka.types.config" >
+
+    <declare-flag name="KeyModifiers" >
+        <flag name="LEFT_CTRL"			value="0x001" />
+        <flag name="RIGHT_CTRL" 		value="0x002" />
+        <flag name="CTRL"				value="0x004" />
+        
+        <flag name="LEFT_SHIFT"			value="0x008" />
+ 		<flag name="RIGHT_SHIFT"		value="0x010" />
+        <flag name="SHIFT"				value="0x020" />
+        
+        <flag name="LEFT_ALT"			value="0x040" />
+        <flag name="RIGHT_ALT"			value="0x080" />
+        <flag name="ALT"				value="0x100" />
+        
+        <flag name="CAPSLOCK"			value="0x200" />
+        <flag name="NUMLOCK"			value="0x400" />
+        <flag name="SCROLLLOCK"			value="0x800" />
+        
+        <flag name="CTRL_ON_BOOL_MASK"	value="0x007" />
+        <flag name="SHIFT_ON_BOOL_MASK"	value="0x038" />
+        <flag name="ALT_ON_BOOL_MASK"	value="0x1C0" />
+    </declare-flag>
+
+</Config>

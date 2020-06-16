@@ -1,0 +1,28 @@
+n Acid
+ldeutsch n Säure
+D 0
+m 10 5
+E.0000000i
+1.0000000i
+..0000000i
+..***.***i
+iiii|a|iii
+R 27151
+0 0
+1 Demo 1
+2 ....bbrrrrr...B..rrr....................
+2 ......ll..tttlllllll..........
+R 21224
+0 8
+1 Demo 2
+2 ..bbbrrrrrrrR...........lltttlllllll....
+2 ...
+R 21837
+0 8
+1 Demo 3
+2 ....b.brrrrrrrr....l.....l..l..l.lltttll
+2 llllll......
+
+uuid 0f9e202f668f1d4f9c1630e078de43c5
+
+leaderboard steps time

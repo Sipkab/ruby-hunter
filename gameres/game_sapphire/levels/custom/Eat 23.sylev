@@ -1,0 +1,31 @@
+n Eat 23
+D 2
+C 3
+A DEFAULT
+S VOICE
+M 0 Race
+N Eat 24
+i run
+a Elliot
+m 22 12
+m0          #m        
+########### ## #####  
+1.........# ## #...#  
+#########.# ## #.#.#  
+..........# ## #.#.#  
+.########## ## #.#.#  
+.##         l# #.#.#  
+.## ########## #.#.#  
+.#m            #.#.#  
+.#############{#.#.#  
+.............###.#.#  
+############.....#.EQ 
+R 64371
+0 8
+1 Demo
+2 rrrrrrrrrbblllllllllbbbbbbrrrrrrrrrrrrbr
+2 rrrtttttttttrrbbbbbbbbbrrrrr....
+
+uuid 96760086af240fc27558a52bc68e0ed9
+
+leaderboard 

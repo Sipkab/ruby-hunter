@@ -1,0 +1,35 @@
+n Kill the Yamyam and Run
+D 4
+C 4
+s 0
+p 0
+M 0 Tico Tico
+i Aerial assaults work best...
+a Shark
+m 8 11
+# ######
+#  1   #
+# 0    #
+# +    #
+#^     #
+#      #
+#      #
+#      #
+#    . #
+# ###E##
+#a######
+y ~   %>   
+y ~   %>   
+y ~   %>   
+y ~   %>   
+y @(  :0 !0
+R 62628
+0 0
+1 Demo 1
+2 ..b..................lr..t.r..l.rrrbbbbb
+2 lll....l....rttrr.l.tttr..mlbbbbbbb..r..
+2 ...lt..rtttttRbbrbbbbb.....
+
+uuid 726480589ac5bdf4446787f9fea0de9c
+
+leaderboard steps time

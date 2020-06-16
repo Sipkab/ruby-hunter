@@ -1,0 +1,51 @@
+n Elevated Labyrinth
+D 3
+C 1
+s 0
+p 0
+M 0 Dancing on the Ceiling
+i The room is filled with blood!!!
+i Wait, those are just rubies. Might
+i as well take them before they drop
+i into the abyss and turn lethal...
+a Shark
+m 12 25
+##########E#
+#{{({{({{({#
+#{(((((((({#
+#(({{({({((#
+#{((({{({{{#
+#{{({1(({({#
+#(((({{((((#
+#{({{({({({#
+#(({(({({({#
+#(({{((({((#
+#{(({{{{{({#
+#{(((((((({#
+#(({{({({{{#
+#{{({((((((#
+#((((({(({{#
+#{{{{{{{{{{#
+#          #
+#          #
+#          #
+#          #
+#          #
+# %  %  %  #
+# >  >  >  >
+#          %
+############
+y ~  +>+ % 
+R 65669
+0 0
+1 Demo 1
+2 ...rrbbbbll.....t.L..t....b..l..rtttrrb.
+2 .b..b.Bttrr.T.R..bbbbbll..bbbrtrr...lttt
+2 tR.ttt.ltlttllt...brr.llttrr.brr..T.bR.l
+2 lltllll.R..bL.brR.bbR.lL.bblbr..brbrrrrb
+2 bll......T...bllll.bbbb..brR...tttt.rrtt
+2 tllLrtttt.rtttttttLrrrrrrt.....
+
+uuid 6ccfcee92c37f4eec84d0a245c886e0d
+
+leaderboard steps time

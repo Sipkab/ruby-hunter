@@ -1,0 +1,42 @@
+n EAT 45
+D 4
+C 3
+e 0
+s 0
+p 3
+M 0 RACE
+N EAT 46
+i You must overcome your
+i limmitations in strength.
+a Elliot
+m 13 10
+###########%#
+>1          #
+########### #
+# ######%## #
+% [       #[#
+# ###### ## #
+# #E   0 %# #
+#_##a###### #
+~         0 %
+#%######### #
+y ~      V 
+y ~  <     
+y ~^       
+y ~    >   
+y ~      V 
+y ~  <     
+R 3385
+0 8
+1 Demo
+2 rrrrrrrrrrbbbbbbbblllllllllllllllttttttt
+2 rrrrrrrrrrr.bbblllllllllllllllll
+R 82424
+0 8
+1 Demo Cool
+2 rrrrrrrrrrbbbbbbbllllllllllllllllttttttt
+2 rrrrrrrrrrrbbllllllllllllllll
+
+uuid 190cefb677a12dac1c59292176d0d327
+
+leaderboard steps time

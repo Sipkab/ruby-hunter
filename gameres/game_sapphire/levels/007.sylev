@@ -1,0 +1,75 @@
+n Lorries 'n doors
+ldeutsch n Wagerl und T�ren
+D 3
+C 4
+e 36
+s 0
+i Together they let you through.
+ldeutsch i In der Kombination lassen
+ldeutsch i sie dich passieren.
+a Emerald Mine
+m 64 32
+################################################################
+#   +|E0000000000000000000000E|+  #*6*6*6*6*6*.#        #      #
+#    +|$$$$$$$$$$$$$$$$$$$$$$|+   #6...........#        #      #
+#     +|$$$$$$$$$$$$$$$$$$$$|+    #*...........#        +      #
+#      +|$$$$$$$$$$$$$$$$$$|+     #6...........#        %      #
+#       +|$$$$$$$$$$$$$$$$|+      #*...1.. ....#        +      #
+#        +|$$$$$$$$$$$$$$|+       #6...........+        #      #
+#         +|$$$$$$$$$$$$|+        #*...........%        #      #
+#          +|$$$$$$$$$$|+         #6...........+        #      #
+#           +|$$$$$$$$|+          #*6*6*6......#        #      #
+#            +|$$$$$$|+           ########################+%+###
+#             +|$$$$|+            #     #        #   #         #
+#              +|00|+             #     #        +   +         #
+#                ..               +     #        %   %         #
+#                cc               %     #        +   +         #
+#                                 +     #        #   #         #
+#                                 #     #  ##+%+######         #
+#                                 #     #  #         #         #
+#                                 #     #  #         #         #
+#                                 ##+%+#####         ###########
+#                                 #        #         +         #
+#                                 #        #         %         #
+#                                 #        #         +         #
+#                                 #        ###########         #
+#        ssssssssssssssssss       #        #         #         #
+#                                 ###+%+####         #         #
+#       #|aaaaaaaaaaaaaaaa|#      #        #         +         #
+#        ++++++++++++++++++       #        +         %         #
+#                                 #        %         +         #
+#                                 #        +         #         #
+#                                 #        #         #         #
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 7687
+0 8
+1 Demo 1
+2 ..rrrrrrrbb.tttttt..bbbbl..tt..t........
+2 ........Tbbll..t.t.............TBbb....l
+2 l..t.t.............Tbbb.ll.tt....t......
+2 ....................Tbb..l..l..t......t.
+2 ............Tbb.........ttt...........l.
+2 ...................Lrrbbb....l.t....l...
+2 ..................Lrr...b.b.l.l.........
+2 ...........Lrr....b...b.l.....l........L
+2 rr............llll....b..........Bttrrr.
+2 ..l..b......b................Btt....r..r
+2 .b....b..........B.tt...bbbb.....l.t.llt
+2 ttttttrrrr....rrrrrr....bbbbb.rrrrrrrrtr
+2 r.......r..........bbbbr..r.bbb..lltlll.
+2 .......b..l..lt..bl.l..l.......bbb....ll
+2 ..bbbrrrrrbbbrrrrrrrrrrrbbbbbbbbbbllllll
+2 lltttlllllllllllll.rr.......llll..ttt...
+2 ttt..ttt...llttttttlllllllllllllllll....
+2 ...........tllllllbbbbbbbbbb....lll.....
+2 ........................................
+2 ...........rrrrrrrrrrrrr....llllllllllll
+2 ....rrrrrtttttttltttrttttttttttllllllttt
+2 llllll.......
+
+uuid deca245a36db7ee6b8d940668b890975
+leaderboard steps time gems

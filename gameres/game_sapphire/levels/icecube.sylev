@@ -1,0 +1,68 @@
+n Ice Cube
+ldeutsch n Eisw�rfel
+D 5
+C 5
+e 66
+p 0
+M 0 Crystal
+i You have to get
+i only 22 sapphires
+i out of the cube.
+ldeutsch i Du musst nur 22 Saphire
+ldeutsch i aus dem Eisw�rfel rauskriegen.
+a Alexander
+m 13 10
+#############
+#0$0$0$0$. E#
+#$0$0$0$0.  #
+#0$0$0$0$. !#
+#$0$0$0$0. !#
+#0$0$0$0$. !#
+#$0$0$0$0. !#
+#0$0$0$0$. !#
+#$0$0$0$01 !#
+#############
+R 9933
+0 8
+1 Get 66
+2 ....rrrttttt......l.tt.ll...r...r.bb....
+2 l.......L............rrtt.l.ttlll.......
+2 ..L..........B....rrr...bbbb...l......L.
+2 ..........r...bb..l.....................
+2 ..Brrr...bb...l.........................
+2 ........tttttttt.ll..l..........srr.....
+2 ..........llll........ll...r...B........
+2 ..................................rrrrr.
+2 bbbbbbbb....L.rttt.........tt.lllll.B...
+2 ...tt................l...............b..
+2 ........l.........................srr...
+2 ..........llllt.ll.rr..b........B.......
+2 ...rr................t.lll.....l........
+2 .r.......srr..............lllll.b......r
+2 rrrrr...........ll..b.....B.......rr....
+2 ........rrr...................bbb......L
+2 .tt...........b......t.lll....b..L......
+2 ...............................ttt....ll
+2 llll...r....srrr........lllll.bb..tt.rr.
+2 .bbb......................rrrrr.....llll
+2 ttll.bb.rrrrrrr.......llll..B..l..B.rr..
+2 B...........rr..........................
+2 uttt..........ll.b..r.bbbb..tt...lllbbrr
+2 ...l..b.................................
+2 ....t....................srrr...........
+2 ..llllll.b.ttt..rr.bbb.r.......B....t...
+2 ...rrrrrrrtttttt......
+R 11843
+0 0
+1 Demo 2
+2 rrttttttltlLrbblLrttlllLBrrrbbbblLrtttLb
+2 bLbbblLrttttllltlltlrrrrlllbrrbulll.....
+2 ...bLBtlltlrrrrrrrrbbbbblsttllllrr.lbbrb
+2 bttttllbrlull.........bBlrrrttlllllrrrrr
+2 bbb...mtl..........rrbbBttllrbull.......
+2 ..bLBtllrrrbbrrml.........rbBrrBRrrrrrtt
+2 ttttt........
+
+uuid 25c965b28855257bdb8e76f2a8cd9d2d
+
+leaderboard steps time gems

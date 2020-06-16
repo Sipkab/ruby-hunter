@@ -1,0 +1,35 @@
+n Blockade Pattern
+D 3
+C 2
+p 0
+M 0 Only Solutions
+i What's the best way to get through
+i a huge pile of stones?
+a Shark
+m 15 15
+###############
+#0000000000000#
+1**00000000000#
+#0*00000000000#
+#0*00000*00000#
+#**0000***00**E
+#*00000****0*0#
+#*0**00*00*0*0#
+#*0***0*0**0*0#
+#***0*0*0*00*0#
+#0000*0*0**0*0#
+#0****0*00*0*0#
+#0******00***0#
+#0000000000000#
+###############
+R 35894
+0 0
+1 Demo 1
+2 rrbbblbbbbrrttrbrbbblllbrrrrrtttt...t...
+2 ..t....Tr.....B...t......r....brbbl..bbr
+2 ..bbrr..tt..t...t...t..t..tr.b.R.trr....
+2 .
+
+uuid 773a6a10250324bb0f5f601af14ba5ed
+
+leaderboard steps time

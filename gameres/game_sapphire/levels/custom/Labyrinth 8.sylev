@@ -1,0 +1,88 @@
+n Labyrinth VIII
+D 9
+C 2
+e 215
+T 651
+t 553
+s 1
+p 0
+d 413
+v 11
+Y
+M 850 Money for Nothing
+i Optimal time-critical sequence.
+i Love it or hate it (you'll probably
+i pick the last one).
+i 
+i You have to reach the exit twice,
+i including the time you have to stop
+i the dispenser from dropping a rock
+i on a bomb by the exit... and it
+i goes on like that.
+a Shark
+m 40 40
+#############S################b##dm     
+##S##########+######S########$+##+  +c  
+#                   . 0     :: ##?      
+#S        #      ###  #0       ##+   c  
+#10       # 0    #   l#m       ##c      
+########s####:##s#s####s###    ##    c  
+#      #      #     $$$ $ #Q(* ##|      
+#  r  $#      #     +++ +B####B##m   c  
+#$+++$$##Q(  *#Q&*             ##++{    
+###############&#m             ##    c  
+#  "          ################ ##       
+#  !        + %++++++++++++++#B##    c  
+#   +++     +QQQQQQQQQQQQQQQQ+ ##       
+#####R###########################    c  
+##### ###########################       
+#   #R#     k      k      k    ##    c  
+#6   8# ###################### ##       
+#     R h      h      h      h ##    c  
+##############################R##       
+# $$$$$$                     B ##  + |  
+#$g.....$                   ( < #  + +  
+#G###############################  + +  
+#    ####      0     R + + yG  ##  + +  
+# 0   ###      +     # + +    B##  + +  
+###.@  ##            # & &     ##  + +  
+####.@  ##S....   ...# + +    R##  +c+  
+#####.@.G "   0      # + +     ##  + +  
+###&&##a## ####:####@#########Y##  + +  
+##&..QQQ##Q(   *#@@###******$$ ##  + +  
+##&.".Q.#########@@@@@.........##  + +  
+##&...Q.         ccccccccccccc.##  + +  
+###&&.Q _        ..............##  + +  
+####Y############################  + +  
+#... #..........#........     d##  +c+  
+#.***#*...*#***.#....$...    . ##  + +  
+#.*..#**..*#*..*#.....$..(   .Q##  + +  
+#.**.#*.*.*#*..*#$$$$$$$..   ..##  + +  
+#.*..#*..**#*..*#.....$..    .Q+#+++ +  
+#.***.*...*#***......$..m    .E#     +  
+###############################Q   (Q+  
+y <%>Q"QQ?Q
+R 88593
+0 0
+1 Demo 1
+2 ....r.r.r.r.r.rttrrrrbb...r.....r.r.rttr
+2 rrrrrr.rrrrrbrrrt...tTLbbbbblLrbllllltll
+2 lllllllbblBrrBrrrrrrrrrrrrrbbbllllllllll
+2 llllllllltlllllllmllb........rttttLrTrrr
+2 Tllbbbbrb..............bb..r.ttrrrrrrrrr
+2 rrrrrrrrrrrr.rr.bbblBlllllllllllllllllll
+2 lBllllllblbbrrbr.Rb.rbrrrs....rtrrrrrrrr
+2 rtttrbcb.........trrcb.........t.rrrtttr
+2 rbbbbbbllllllllllllllllllltlllLr....b.ll
+2 llllT.rbbbbbbrrrrrrtttttrrrrrbbbbbrrrrrr
+2 rtttrrrrrrrrt.lllllllllbbllllbbllllltttt
+2 tllllbbbbbRllllttttttltLttrrrrttrrrburrr
+2 .......r....r.r.r.rtrmllllllllbbbrrrrRll
+2 llttrrrrrrrrrrBttttrrrrbrrtrrrbbbllbllll
+2 lLrrrrrrrbblllllllllllll.r.lllllllllllll
+2 lbbllbbRbbrrrrtttrrrttrrrrbrrbbbbrrrrrrr
+2 rtTrrrrrrbr
+
+uuid 0cd501cb83f207ce0f36e0db1bb58687
+
+leaderboard steps time

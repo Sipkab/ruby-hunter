@@ -1,0 +1,34 @@
+n Drain
+ldeutsch n Abfluss
+D 3
+C 5
+E 0
+p 0
+M 0 Staying Alive
+i It seems to be full.
+ldeutsch i Es schaut ziemlich voll aus.
+a Alexander
+m 13 13
+#############
+#1          #
+# _QQQQQQ_E #
+# _$QQQQQ_! #
+# _QQQQQQ_  #
+# _QQQQQQ_  #
+# _QQQQQQ_  #
+# _QQQQQQ_  #
+# ________  #
+#           #
+#           #
+#aaaaaaaaaaa#
+#############
+R 17163
+0 9
+1 Demo 1
+2 ...rr.rrrrrrrrbbl.rttllllllllll.b...urrr
+2 r..........llbb....ttrrrrrrrr....l..b...
+2 .....
+
+uuid 2cb5a939e67176f5d3c6fd10c8c892d0
+
+leaderboard steps time

@@ -1,0 +1,45 @@
+n Few Lorries
+D 5
+C 3
+p 0
+M 0 Ringing
+i Nothing Special.
+i Just don't get killed by the
+i lorries on your way
+a Nic01
+f Nic01
+m 23 23
+#######################
+############E##########
+##10    #    6       ##
+##000  8#  R   5     ##
+#####+### 7    R R6  ##
+##     r#            ##
+##R######            ##
+##      ############R##
+##           #       ##
+## R R R8R R #######R##
+##           #       ##
+## R R R R6R6# RR6RR6##
+##           #       ##
+###R########## RR6RR6##
+###          #       ##
+##            #   RR6##
+## 8R R8R R8R ###    ##
+##            R # RR6##
+##  R R6R6R R # #    ##
+##            # # RR6##
+###          ## R    ##
+#######################
+#######################
+R 1376
+0 8
+1 Demo 1
+2 .rrl..rrrrrbbbrRllllbbbrrbbblll...bblbbb
+2 brbr..rrrrrrrrtrttrbbb......r.rr...ttttt
+2 rt.t.ttttlllllbbblllt.....l.......t..trt
+2 .......
+
+uuid 8dcb0f01feb0121626927bf63769c997
+
+leaderboard steps time

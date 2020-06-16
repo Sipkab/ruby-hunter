@@ -1,0 +1,48 @@
+n Building a Castle
+D 4
+C 1
+E 0
+s 2
+p 0
+d 15
+Y
+A graphite
+O graphiteplus
+S soft
+M 0 Granite
+i And what a glorious castle it is.
+i But what's hidden in the vault?
+a Alex
+m 21 20
+~S     ...0...      Q
+~.      ..>..       .
+~        ...         
+~         .       [  
+~HH               fff
+~                    
+~                    
+~  AiAiAiA AiAiAiA   
+~   A A A 1 A A A    
+~   FA A XsZ A AF_   
+~   FC+DTT TTC+DF    
+~   FC+DT   TC+DF    
+~   FA AT  TTA AF    
+~   FC+DT   TC+DF    
+~   FC+DTT  TC+DF UU 
+~   FA AT   TA AF    
+~   FC+DT  TTC+DF    
+a|a|FC+DT   TC+DFa|aQ
+JJJJFA ATT  TA AFJJJJ
+LKLKFC+DT   TC+DFKLKE
+y AcA /    
+R 71976
+0 8
+1 Demo 1
+2 ..tttttrt.L..rrrrrrbrtrrtll..bblbbbrbblb
+2 bb..rrrbbl..ttttttttlllllllllllllllltttt
+2 lllbb.rrrrbblbrrrrrr...............rrrrr
+2 rrrrrrbbb..bbbbr..rb....bbbbb........
+
+uuid f3a6ba6d4c6125f7b95341568198bef6
+
+leaderboard steps time

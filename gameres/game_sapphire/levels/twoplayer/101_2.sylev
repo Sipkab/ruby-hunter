@@ -1,0 +1,55 @@
+n Event horizont (2)
+D 7
+e 148
+s 0
+i Everything beyond this level is not relevant.
+i 
+i I made this level a bit more difficult than the
+i original version by increasing the number of emeralds
+i to collect.
+a Emerald Mine
+m 64 32
+################################################################
+#E .   S ..   E#                                               #
+#  .   .  @..  #####B#############G##########R##########Y##### #
+#    @ .S...   # #      |. ##@.#.... . #   #|... | # .. .    # #
+#   @S  @ |.@ .# ...|.  .. #. ..  |. . #|.. .#.. . #. ..# ...# #
+#  . @ |S0 .  s#.|. .|..  .#    .. ..  #* ..  ||.0 #.   |....# #
+# .| !  . .|. ##. | s  @ ! #...g!@@    #   | . Q.| #  S.    .# #
+# . .S.#.@|*  |##b. @0 |@..#!@|. 0!#^ |#.@S.  $! . # |.| |  .# #
+#.. o@^@*@  .S|# .| |  |@ .#@..0. s . .#||Q!|*S0..|#.!S.@ Q .# #
+#     | S.. #.|#@ S S*.. @ # .   .! ..0#r |.0.@^| ##.@|. |. ## #
+# s  .#@0Q.S   # .! .  @ 0.#  ** . S.s # S.|| @.|0 # sy  .. ## #
+#.|0. *.@S!^@QQ#s  0@..  @##|60S  ..!.|#!. ...S#*  #. ... .  # #
+# Q @|| s# o |.#Q0 *|0.@.$0#0. ..@s. !o#0||..s|..|@#Q|.|S !.|# #
+# .S.0 | ..0   #|.  .@s  ||# .. @|Q  $0#| |s .Q#| .#  *|6.|..# #
+# ..#..|  .| @ ##|@ *| |0.!# .  Q |!0. #0# .  Qu r.#|.S@0 |.## #
+#  .@|Q .  ..*.#s.! @.^0o@.# . 00.   0*#Q |   .0*  #. ##  .. # #
+# 0s ..*#0 0|@ #...   .#  .# .  0 .$.||#|!||| 0.^. #y.! s. |.# #
+# | # 00  !..0|#... |0.S@@b#|g|!@ ^s#| #.0.#*S...||#.. 0 *.#|# #
+#   ##@ .@ @o* #  Q  *. Qs.#0.|..|   .*#..@   $  Q #Q|| !.@|.# #
+#  .Q.S0  .|Q# #  .0@Q ..0*#..  |. . S #|.  . 0o .Q#o*|. #.. # #
+# .o.|0# .* s| # 0.|u 6 . .#| ! Q0| 0.^#Q@0 S ! *@|#| . S.Q..# #
+# .|0@.0u| |  @#^  @@|. @  #s. *.00 ..##.@.|0@.. !@#@0  @.@.|# #
+#   . .@ Q! ..S#0 #. . 0S!^#0.   @.0@  #    |  .  .# 0 .# 0  # #
+#  . #s@@.0 .* #s*|...| s..# |  0 S|S .# s.0.# s@||# !   |!. # #
+# . . 0#0..@ 0!#| !.   #.@ #0. ...|@.@!#o. 6| | . .# . 0 .0|.# #
+#.   @ .$.  S. #. #.$|@0.S.#@|.  o     #... |S .S. # . .  .. # #
+#  . |@.S| . #.#.*.. +.+...#0 S|.+.+ . #0   +.|   @# ...+.+ .# #
+# ........|..  #s . |+..@  # . ..+.... #  ..+.... |#  | +.|. # #
+#.     . ... | #     + +.  #     + +.. #   .+ +..  #   .+ +. # #
+########B#############G###########R##########Y########### #### #
+#              B           G           R                1 2    #
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 3423113215
+0 8
+1 Demo
+2 .lrtttttttttrlttl.tttllttllttlltttttlltttttttttt.r.rt.r.t.r.t.t.b.b.l.l.b.b.b.b.blbbbbbbbrb.b.t.t.r.r.b.b.r.r.b.b.r.b.b.b.b.l.b.l.l.l.l.lbl.l.l.l.l.l.l.t..l.b.b.b.b.r.b.l.b.b.b.b.b.b.L.t.t.t.t.t.r.r.r.b.r.b.r.r.b.b.b.r.t.t.t.t.t.l.t.t.t.r.........l.l.l.b.l.l.l.l.l.l.b.l.b.r.l.t.t.l.t.t.t.t.t.t.t.t.l.t.t.t.t.R.b.b.b.rt.r.r.t.r.r.b.b.R.t..r.r.r.r.l.l.l.r.b.b.l.l.l.l.l.l.b.b.t.t.r.r.r.r.t.r.l.b.b.b.b.b.r.l.t.b.b.l.b.l.b.b.l.b.l.b.b.b.b.l.b.....r.l.t.r.r.r.l.l.l.l.r.b.b.r.b.b.l.L.r.t.t.l.t.t.t.r.r.b.r.l.t.t.l.t.t.t.t.b.b.b.b.b.r.r.b.r.r.t.t.t.t.t.b.b.r.t.t.l.t.l.t.l.t.t.r.t.t.l.t.l.t.l.t.t.s.r.........r.b.b.b.br.l.l.l.l.b.b.r.r.r.r.r.r.rbrbrb.l.l.b.b.b.b.b.l.b.b.t.t.r.r.b.r.r.t.r.r.r.b.b.l.l.l.rr.r.r.r.l.r.r.t.t.t.t.t.l.t.t.l.l.b.b..l.l.l.t.l.lbb.b.ll.l.l.b.t.r.t.r.t.r.r.r.t..t.t.t.t.r.r.r.rb.t.l..l.r.t.bt..r.r.rb.b...b.r...b.b.b.R.t.t.t.r.t.t.tltltlllt.lblblrlrbbbbrrbbrrbbbbbbbbblbllllllllllllllllllllltltl.tr.r.l.l.l.l.tr.r.tttr..t.rrrrrtt.tr.t.t.l.r..t.rrr...tl..t.l.l.r.t.t.r.l.r.l.b.b.l.l.r.r.b.c.l.bb.........tttt.tt.ttt.t.t.l.....b.r.r.l.l...l.t.t.l.l..t.t.tr.r.r.bbbbbbbbbbbb.....R.b.r.l.tt.tttttt.tt..ll..r.b.b.tr.b.t.l.t.t.l.t.l.l.b.r.t.r.r..tl.l..lrlrl.bb.l.l.l.l.l.b.r.t.r.r.r.r.r.t.t.b.r..cl.b.b.b..bb.r.r.r.b.b.b.b.b.b.R.t.l.t.t.ltttttttllttttttttttttllttllbr.brrbbrbbbbbbb.........tt..b.bb.t.b.t.l.r.l.....s.b.r...r............t..l.l.T.B.l..lltllr.r.t.t.t.t.t.r.r.r.R.l..r.t.t.t.t.t.r.rrr.r.rBr.rllllbbbbbbbbr.r.T.l.l.t.t.......b.b.r.r.b.b.............t.t.t.t.b.b.b.R.t.t.t.r.r.t.t.t.l..t.tb..tt.r.t.t.l.l.b.l.r.t.r.r.b.b.b.b.b.l.l.l.b.b.l.l.llll.b.b.l.lt.l.t.b.b..l.l.ll.tl.t.r....b.t.....b.r.r.r.r.b.s.r.t.....................l.l.l..r.r.b.b.r.b.t.ts.b.b..b.b.u.t.t.............b.b.b.t.....r.r.b.b.b.l.b.b.l.l.b...Lu.r..r.t.r.r.trr.rt.bbbbbbbbbb.l.tt.t.t.l.l.l.l.b.b.R.t.t.r..r.t.rr.r..r.lt..lt.t.t.t.t.t.l.t.l.t.t.r.t.t.T.b.b.l.l...b.....r.t..tR.......r.t.R.b.l.b....L.t.b.tb.b.r.b.b.b.b.l.l.b.b.b..l.lt.t.r.t.t.b.l.l.l.t.T.r.b.r.r.r.ttttr..t.t.t.t.t.l.l.r.t.t.t.l.l.T.l.l.t.T.b.r.r.r.r.r.r.t.r.r.l.....l.t.t.t.r.R.l.l.l.b.t.r.t.b.r.b.b.l.r.b.b.l.l.l.l.l.t.b.r.r.rtrlrtrttlttttttltttlt.tttltltltl.b.r.r.t.r.r.b.b.l.b.b.r.r......b.l.r.t.l.l.t..l.l.t.c.b.lb..bllrrrrttrr............tttt..............b.b.b.b.b.b.l.r..l.b.b.b.b.bbb.lrsrrbbbbbbtt.btb.l.l.l.t.t.l.tt.t.l.t.t.l.t.t.t.b.b.b.b.l.l.b.r.r.r.r.r.b.b.bbbbbbbbbb.rrr.srr............b.l..l.b.l.b.r.rb.brl.b.b..r.b.b.b.b.b.bb.b.llbbbbbb.ll.bbllllllllllllllllllt..l.tt..trr.trrbbr..rr..r.r.lt.t.t.t..t.r.b.b.l.l.tl.b.b.l.b.l..t.t.t.trtttrt.b.L.b.L.t.l.t.l.t.l.t.l.t.l.b.l.t.b.b.b.l.b.b.b.r.b.b.r.r.l.t.....l.t.r.......r.r.b.b.r.rb..r.t.r.b.b..L.b.L..rttt.t.t.llllb.l.l..l.t.l.l.bl.t.l.l.l.b.t.t.t.t.l.r..l.l.t.t.t.t.tr..l.lllrr..l.l.t.t.t.T.b.b.b.b.r.b.b.b.b.b.l.L.r.t.tttrtrtttttr.t.l.ttt.r.r.l.t.t.r.........r.l.R.Rr.t..t.b.t.b.c.l.........l.....r.r.r.r.r.rttttttl.r.r.r.r.r.r.r.t.t.t.l.t.t.t.l.l.l.b.b.l.t.b.t.t.b.b.l.r.r.r.b.t.t.r.r.b.b.b.b.l.l.b.l.r.b.b.l.l.l.t.t.t.R.b.b.b.b.b.l.b.b.t.....b.b.b.b.b.b.b.b.R.t.t.r.r.B.t.t.t.t.ttt.tltl.t.t.t.l.l.l.t.t.Rb.b.t.t.t.tbtbl..mt..t.t.t.l.t.b.t.r.r.b.b.br.r..brrrrt.r.t.r.t.r.b..r.b.b.ll.b.......rr.b.l.b.b.b.b.b.b.r.b.b.b..llt..r.tl.l.l...B.r.r.b.b.b.l.r.l.b.l.r.l.l.l.t.t.R.b.R.b.b.t.t.t.b.b.t.r.t..b.b.t.t.l.l.l.l.l.l.l.t.t.t.t.b.b.b.r.b.b.b.b.t.....l.t.t.t.t.t.t.l.t.tt.t.t.l.t.r.t.b.b.b.r..b.b.rr.r.b.b.b.l.l.l.b.b.b.l.L....L.r.r.b.b.b.b.b.l.b.b.b.b.b.l.L.r.t.r.r.rrrb.r.b.b.b.b.b.b.b.b.b.r.r.r.bbrrbbbbbbbllllllllllllllllllllltt.ll.tt.rt.t.b.rrb..b.t.r.t.r.b.b.L.l.lr.t.t.l.l.r.b.b.l.r.t.t.l.l.b.u.r.r.b...............b.l.b.B.l.B.l.t.l.l.b.l.l.B.r.t.r.t.t.L.r.r..b.t.t.r.t.t.t.l.t.r.b.b.L.b.t.t.t.t.t.t.t.T.b.b.bl.l.l.l.t.t.t.r.r.r.t.L...t.....t.l.l.l.r.t.t.t.l.l.b.b.b.r.r.t.t.t.t.t.l.L.r.b.....b.L..lt.t.t.t.t.b.l.l.b.s...........r...........t.r.t.l.b.b.l.b.b.b.b..l.t.l.l.l...l...r.r.l.t.l.l.r.r.r.l.l.l.b.l.b.b.R.t.t.r.r.rt.t.t.t.l.t.l.t.t.t.r.t.r.r.b.b.b.b.b.l.l.r.l.t.T.b.r.u.t.......r...l.l.l.l.b.b.b.L.t.r.r.t.r.t.r.r.r.b.b.r.R...l..r.r.r.r.t.tt.t.r.t.t.t.t.r.l.l.l.b.l.l.l.b.b.b.b.b.b.b.b.b.b.b.b.b.b.b.t..b.b.b.b.b.b.b.b.l.l.l.s.r.r.t.t.t.t.tr.r.r.r.r.r.r.t.ttttttttttL...l.L.r..b..bbbbLbbbtbtbbbbb.b.b.l.b.............R.t.r.t.t.t.t.t.t.t.l.l.l.l.l.t.t.t.t.l.l.r.r.b.b.b.r.r.b.r.r.r.t.t.tttt.l.l.t.t.c.b.r.r.........l.l.B.r.r.b.L...l..lB..Brr..b..bb.b..bb.bbbbllr..rtttuttl.............b.b.b..b.b.l.b.b.t.l.l.t.t.l.r.bb...b.b.r.b.b.....L.b.b.l.b.t.t.t.t.t..t.r.r.rl.ttttb.l..l.ll.t.l.t.l.t.r.b.b.b.r..t.l.br.l..t.r.r.b.b.b.b.b.bt.t.l.b............l..b.b.b.r.b.L.R.B.tttttttt.t.t.t.t.t.t.t.l.l.t.b.b.b.r.t.t.t.ll.t.t.l.t.t.l.l.t.t.r.t.t.b.r.r.r..b.b.b.b.lllb.bblbbbb.b.bbblbbbbbbbbbrbbrblblbbbbrbrbrbbbbrrrrrrtrrrbbbbbbbbrbbbbllll.r.b..b.l.l.t.l.lbbbl.llbl.lllllllllllllllllllllltlr..l.trrrr.lt.t.b.b.l.r.r.r.t.r.l.b.R.t.r.r.l.l.t.t.t.r.t.R.l.t.l.t.b.r.b.b.b..l.l.l.l.l.t.l.b.r.r.r.t.r.t.b.l.b.r.r.l.l.l.lt.b.b.b.r.r.r.t.t.t.b.b.b.l.l.l.t.t.t.t.r.t.r.b.r.b..r.r.r.r.r.r.r.t.t.tt.b..b.b.r.r.r.t.tt.l.l.b.l.b.l.l.L.t.L...b.r...r.t.t.t.b.b.t.r....t.t.lllt..t.bl..l.rr.l.t.t.r..t.b.l.......r.c.l.b.l...........b.tb.b.l.b.b.r.r.b.r.r.l.l.b.b.r.b.t.l.t.t.t.t.t.l.t..l.t.t.l.t.t.b.b.b.r.b.r.t.l.l.tl.t..b.r.r.tb.l...r.r.r.l.b.b.l.b.l.r..b.b.b.b.b.r.B.t.t.t.t.tt.r.t.t.t.R.l.L.r.r.R.b...R.l.b.t.t.r.t.t.t.t.R.b.b.b.b.b.l..l.tt.t.r.t.t.t.t.t.l.r.t.t.l.l.l.t.l.t.t.L...t.l.l.r.t.t.t.l.l.b.r.r.b.b.b.r.b.b.b.b.b.b.l.b.b.b.r.r.r.r.r.r.t.l.t.t.t.t.r.b.b.b.b.......b.l.t.t.t.l.l.l.b..lt.r.r.r.t.t.l.l.t.t.r.r.r.r.b.b.r.b.b.b.b.b.r.b.b.b.b.b.l.b.r.t.t.t.t.t.l.l.b.r.r.r.b.b.b.b..l.b.b.r.b.b.bl.l.l.r.r.r...........r.b.b.b.b....L.b.Lt.t.t.t.t..t.t.t.t.l.t.br.t.r.t.t.t.t.t.t.r.t.r.b.l.l.l.t.t.l.t.t.l.l.r.r.r.l.b.l.l.l.b.b.b.b..r.b.b.bl.l.t.b.b.b.b.r...L...r.l.t.t.t.r.t.t.l.r.b.b.r.b.r.l.t.l.r.b.r.r.r.r.t.l.t.l.t.t.t.r.r.r.r.b.b.l.l.l.b.l.b.b.b.b.r.b.l.b.b.b.t.t.t.t.t.t.t.t.l.l.l.l.l.b...t.b.b.b.r.r.r.B.r.r.r.b.b.b.l.b.b.b.l.l.t.t.b.t.r.r.r.b.b.b.b.b.l.b.b.b.r..r..b..b.L.t.l.L.t.t.l.b.l.l.l.t.m.l.................r.r.r.r.tt.l.l..bl.r.r.b.l.l..l.l.t.bt.l.b.b.b.l.l.b.b.r..t.t.r.r.t.r.r.r.b.b.b.bR.R.b.R.t.l.t.t.t..t.t.tl.l.r.r.r.r.r.t.t.t.t.c.r.b.b.l.b.b.b.b.r.......................L.t.t.r.t.r.t.r.r.t.t.l..l.l.l.l.l.l.l.l.t.t.t.t.t.t.r.t.t.t.l.t.b........t.l.l.t.t.l.l.t.l.t.l.l.t.l.t.l.b.b.b.b.R.t.t.t..t.r.....b.....t.r.rr.r.b.r.b.r.r.r.r..t.r.r.r.rt.r.t.t.t.r.r.r.r.b.b.L..r.r.b.b.b.b.b.b.l.b.b.b.b.r.b.r.r.l.u.l.l.......l.b.b.b.r.b.r.t.t.r.l.r.r.c.b.b.l.t.t.t.r.t.t.R.r.r.ll.l.l...r....t.R.b.R.b.b.b.r.R.l.t.t.t.t.l.t.ttltlttlttrttttttttrlttttttttrlrlrtrltttttltltttltltltttttl.l.l.l........
+
+uuid 2a4535309da98f75e3bd76da9eb49738
+
+leaderboard steps time gems

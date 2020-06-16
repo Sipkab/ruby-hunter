@@ -1,0 +1,37 @@
+n Super Converter
+D 5
+C 5
+e 48
+p 1
+M 0 Jump
+i Convert the items...how many times?
+a Shark
+m 15 12
+###############
+#.Q..Q..Q..Q..#
+#.0..0..0..0..#
+#.*..*..*..*..#
+#&.&&.&&.&&.&.#
+#.............E
+#.c..c..c..c.1#
+#.............#
+#|c||c||c||c|.#
+#.............#
+#.............#
+###############
+R 48364
+0 0
+1 Demo 1
+2 bbbbl..lllllllllllTrrtrbrrtrbrrtrbrrtrtt
+2 l..lllllllllllttrrbrtrrbrtrrbrtrrbrttttT
+2 bbbl.....lt.brbbLrbblLrt.......bb..lll..
+2 ...rrrtttllllttlt...brbbL.....rrr.l...lt
+2 tll...rrrrrbbbbllllllb.RRRRRrrrrrrtttlll
+2 ttlllllt..brbbL...rrrrrrrbblllllllll....
+2 .R.R.rbrrrrtrrrrttllllllllllt........tl.
+2 .t..brbbL..rrrrrrrrrrbbllllllllll.L.....
+2 ..llbrrrrrrtrrrrrrttttr.....
+
+uuid 53bd670b4c5d6550d34847d5b4273ca5
+
+leaderboard steps time

@@ -1,0 +1,56 @@
+n Strange
+ldeutsch n Seltsam
+D 5
+C 7
+e 9
+Y
+M 0 Live and let Die
+i What's this?
+i No emeralds?
+ldeutsch i Was ist das?
+ldeutsch i Keine Smaragde?
+a Reinhard
+m 10 10
+##########
+#E..00000#
+#1..00000#
+#........#
+#...>....#
+#........#
+#........#
+#........#
+#........#
+##########
+y ....c....
+R 29343
+0 0
+1 Demo 1
+2 ....r.r.tl.bbbbbrrrrrr.tt.ll...Lrrbbllll
+2 lltt.bt.....................R....t.R..r.
+2 ....l.b.rrrrr........r..b..t.llllll..bbb
+2 b.rrrrrrrt.llllll.ttt.rr..t..l......b...
+2 .rrrrrrr...ll..l..tll.b.rrrrrrrr...lllll
+2 bbbbrrrrrrllllllttttrrrrrr.t...bllll....
+2 .llbbbbrrrrrr.tllllllttt.rrrr..ll.tttrrr
+2 ..lll..bbbrrr...t.rttllll.bbb.rrrrr.llll
+2 lbbbbrrrrrrlllllltttt.rrrr.t.r..ttlllb..
+2 bbrrrrrrlllttrr.bbrrrlllllbbbbrrrrrr.ltt
+2 tttttlllllll............
+R 49277
+0 8
+1 Demo 2
+ldeutsch 1 Demo 2
+2 ....bbbb..b..t......b....t........rrrrrr
+2 r...B.t.t.ll....Lrrbbllllllltttrr.......
+2 ....R...b....rrrrrr.rrr..r..........rbb.
+2 ttt..blll...........r...................
+2 ....t.rrttllllllbbblbbbbrrrrrrr.l..R.R.R
+2 .llllllttrrrrrr..l...rt.bl......r.lrr.ll
+2 llllbbrrrrrrrlllrrrlllllll.rttt.r.l.brrr
+2 rrr..lll.tl.brrrr.lllbbrrrr.l.R.lllttttr
+2 r.rrr.ll.bbrrr.lllttt..tr.bbb..tr.b..brr
+2 .bb.R.R.tttttttlllllll.......
+
+uuid 254f02d566feef76f65a16a7e831ad4e
+
+leaderboard steps time

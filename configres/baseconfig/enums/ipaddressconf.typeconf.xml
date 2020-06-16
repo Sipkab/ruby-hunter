@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config xmlns="bence.sipka.types.config" >
+
+    <declare-flag name="NetworkAddressType" >
+        <flag name="IPV4" value="0x01" />
+        <flag name="IPV6" value="0x02" />
+        <flag name="MASK_IP_VERSION" value="0x0F" />
+
+        <flag name="PROTOCOL_UDP_TCP" value="0x10" />
+        <flag name="MASK_PROTOCOL" value="0xF0" />
+    </declare-flag>
+
+</Config>

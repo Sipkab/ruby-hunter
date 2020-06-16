@@ -1,0 +1,41 @@
+n 4 Rooms
+D 5
+i 
+a Dudeman
+f Dudeman David Nestor
+m 45 15
+###############                              
+#$0Q.b# B $0$$#                              
+#.0...# #$$$$$#                              
+#.0.(.# #$$$$$#                              
+#0....# #$$$$$#                              
+#. 0.+R #$$g$$###############                
+##R#### ######+QQQQQQQQQQQQQ#                
+#!     1     Y ************E#                
+###G### #0###################                
+#7 .  # #r..0.#                              
+#*** 0# #.....#                              
+#****.# #@....#                              
+#***0 G #000.0#                              
+#**y00# .....(#                              
+###############                              
+R 91997
+0 2
+1 Suspended
+2 .bbbbbb...rrrrr.Rtlltt.L....ltr..llbbB.t
+2 tttlll..lllll.rt.t....srbl.trr...l....l.
+2 .ttllt...rrrrbbbbb...Lrr.bbb.tttttttr..
+R 91997
+0 0
+1 Dude Demo
+2 .bbbbbb...rrrrr.Rtlltt.L....ltr..llbbB.t
+2 tttlll..lllll.rt.t....srbl.trr...l....l.
+2 .ttllt...rrrrbbbbb...Lrr.bbb.tttttttr...
+2 .r.br.bbl....lttrrrrblllbl.b.rrrr..LT.tt
+2 ttlllllbbbbbbbbbbbl..t.l.....lbbl...L.R.
+2 L......R.L.............L.R....T.Lttttrtr
+2 rrrrrrrrrrrrrrrrrrrrrrr......
+
+uuid 98adc90401ff6c87c108d4bcb9172941
+
+leaderboard steps time

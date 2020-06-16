@@ -1,0 +1,42 @@
+n London Bridge II
+ldeutsch n Die Br�cke von London II
+D 4
+C 1
+e 2
+E 0
+M 0 Oxygene4
+i Don't drop your valueables
+i in the river Thames.
+ldeutsch i Lass deine Wertsachen nicht
+ldeutsch i in die Themse fallen.
+a Reinhard
+m 20 11
+####################
+#                  #
+#                  #
+#                  #
+#                  #
+# @ @           0 1#
+#++++++[    [++++++#
+#..++          ++..#
+#..E            +..#
+#..+            +..#
+####aaaaaaaaaaaa####
+R 5869
+0 1
+1 Demo 1
+2 ...tlllllllllllllllbrrrr.trrrrrrbbbr.bll
+2 lllb.ltt.t..t.rtttlllb.r.b.b.b.lb.rr.r.b
+2 r.tt.lltt.r.r.r.r.b.lb.rr.br.t..t.l..ltt
+2 .r.r.r.l.bt.r...b.lb.rrrr.b.rtt.t.t.lltt
+2 r..b.l.b.rrr.b.rt..lltt.r...rr...l..bb.r
+2 .b.llllll.b.ltt.rrrrr.t.lllllllll.ttllll
+2 llllb.rrrrrr.r.r.r.r.r..bbl.brrr.r.br.tt
+2 .ll.tt.r..b.l.b.rr.b.r.t.ll.tt.r...bbb.l
+2 .brr..ttl.tt.r..lb.rr.trbb...b.tttrrrb.l
+2 l..trrrrb.lllll...l..bbl.bllllllll......
+2 ........
+
+uuid dbbd66c3e38288fd9f859d32d8cb46fc
+
+leaderboard steps time

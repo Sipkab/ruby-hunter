@@ -1,0 +1,322 @@
+n Legend of Zelda
+D 8
+C 2
+e 128
+s 1
+p 0
+Y
+M 0 FF7choct
+i It's dangerous to go alone!
+i 
+i Then again, you don't really
+i have a choice in the matter.
+i 
+i Some hints: You definitely
+i don't need all the gems; all
+i yam-yams contain the same
+i prize; and you should grab
+i keys whenever possible.
+a Alex
+m 124 122
+############    ############    ############    ############dddd############    #####EE#####    ############    ############
+# rrrrrrrr #    # +    00> #    #       0  #    #Q00000000Q#dddd#  .0>>0.  #    #&&      &&#    #+++0++++++#    #  0 .0Q0Qg#
+# r@rr0r@r #    # +   *|0++#    #  [    .  #    #*00000000*#dddd#  .0>>0.  #    #&        &#    #+>o0   $  #    #  .  .0Q0b#
+# rrrrrrrr ###### + ++++.. ######     c    ######S0QQQQQQ0S##dd##  .0>>0.  ######     *    ######+++*+++B++######      .0QQ#
+# rrQrrrrr  .  +  R$ 0 + +  .  +     # #    #  # 0000000000 +00B   .0>>0.   B  B     ***    #  #    .       .  +        .00#
+# rrrrrrQr  .  +  ++ + + +  .  +      #     #  # 0QQQ00QQQ0 +..B   .0>>0.   B  B    *****   #  #   +++      .  +         .Q#
+# rrrrrrrr ###### +o +   + ######          ######000....000######  .0>>0.  ######  ******* ######          ###### Q       0#
+# rrrrQrrr #    # ++++++++ #    #          #    #00.QQQQ.00#    #  .0>>0.  #    #  iiiiiii #    # ++++++++ #    # &Q     00#
+# r@rrrrrr #    #          #    #          #    #$........$#    #  .0>>0.  #    #          #    #          #    #a+&Q   000#
+#####  #####    #####  #####    #####  #####    #####  #####    #####ii#####    #####" #####    #####  #####    #####  #####
+~   #..#            #..#            #BB#            #++#            ####            ####            #..#            #..#    
+~   #  #            #  #            #  #            #  #            #  #            #  #            #  #            #a #    
+~   #  #            #  #            #  #            #  #            #  #            #  #            #  #            #  #    
+~   #  #            #  #            #  #            #  #            #  #            #  #            #  #            #  #    
+~   #  #            #  #            #  #            #  #            #  #            #  #            #  #            # a#    
+~   #++#            #++#            #BB#            #++#            ####            ####            #++#            #++#    
+#####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####
+#b  B      #    #         w#    # 0      0 #    #   0  0   #    # d      d #    #Q        Q#    #          #    #0 +    + 0#
+# 5  ++    #    #  ......  #    # .      . #    # & .  .   #    #          #"   #.        .#    # b6    8!6#    #|0+    +0|#
+# & 5  ++  ######  .oooo.  ######          ###### &        ######   [[[[   ######          ###### 7        ###### Q      Q #
+#   & 5  +  .  +   .o.$o.   +  .  +ssssss+  B  B    ..5     B  B            B  B            .  +            +  .  [      [ #
+#B    & 5   .  +   .o*.o.   +  .  +> >   +  B  B     7..    B  B    [[[[    B  B         5  .  +            +  .           #
+# ++    &  ######  .oooo.  ###### +   < <+ ######        & ######          ###### &      & ###### *6    8* ######          #
+#   ++     #    #  ......  #    # ++++++++ #    #        & #    #          #    # 7        #    #8.      .6#    #          #
+#          #    #          #    #          #    #          #    # a      a #    #! 0    0 !#    #          #    #          #
+#####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####
+~   #..#            #..#            #BG#            #BB#            #BB#            #++#            #..#            #..#    
+~   #  #            #a #            #  #            #  #            #  #            #a #            #  #            #a #    
+~   #  #            #  #            #  #            #  #            #  #            #  #            #  #            #  #    
+~   #  #            #  #            #  #            #  #            #  #            #  #            #  #            #  #    
+~   #  #            # a#            #  #            #  #            #  #            # a#            #  #            # a#    
+~   #++#            #++#            #GB#            #BB#            #BB#            #++#            #++#            #++#    
+#####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####
+#          #    #          #    #       @ *#    # [ [ [ [ !#    #       0  #    #!        !#    #0        0#    # Q        #
+# [  [  [  #    #   .....  #    #      @. .#    #   [ [ [  #    # ++    ++ #    #  5       #    #00      00#    # ........ #
+#  [0 [0 [ ######   .QQQ.  ######      ..  ######[ [  [  [[###### +      + ######  &6  8&  ######0.      .0######          #
+#   [ ![    .  +    .QuQ.   Y  G      ...   Y  G [  [  [    Y  G            Y  G        7   Y  G .        . .  + 0         #
+# [  [  [   .  +    .QQQ.   G  Y    0....   G  Y [ [ [[ [[[ G  Y            G  Y        5   G  Y         5  .  + Q         #
+#  [0 [0 [ ######   .....  ######   .....  ###### [    [ [ ###### +    > + ###### 8&    &6 ###### &6    8& ######0..      Q#
+#   [  [   #    #          #    #  aaaa    #    # [[[[[[ [ #    # ++    ++ #    #  7       #    # 7        #    #.!0     0g#
+#          #    #          #    #          #    # [ [   [  #    #          #    #!        !#    #*Q      Qb#    #!000   0ry#
+#####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####
+~   #..#            #..#            #GG#            #BG#            #..#            #BB#            #GG#            #..#    
+~   #a #            #  #            #a #            #  #            #  #            #  #            #  #            #  #    
+~   #  #            #  #            #  #            #  #            #  #            #  #            #  #            #  #    
+~   #  #            #  #            #  #            #  #            #  #            #  #            #  #            #  #    
+~   # a#            #  #            # a#            #  #            #  #            #  #            #  #            #  #    
+~   #++#            #++#            #GG#            #GB#            #++#            #BB#            #GG#            #++#    
+#####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####
+#!+%+  +%+!#    # Q      Q #    #          #    #Q.       @#    #          #    #0+      * #    #      +0+ #    # Q        #
+# + +  + + #    # ..     ..#    #  .Q.@.0. #    #0.      .0#    # ..0..Q.. #    #$+      . #    #      +*+ #    # .     5  #
+#   +    R ######          ###### .Q.Q. .  ######..      ..###### .... +.. ######0+     . .######       .+ ######       &  #
+#++ +  +  + G  Y          a .  +   . .Q.Q.  G  G            G  Y  ..++a+ .  B  B ..         B  B        s+  G  Y           #
+#   +  + +  Y  G            .  +  .@.Q.Q.   G  G            Y  G  ..+!!+ .  B  B            B  B            Y  G           #
+# + +  + + ######Q0      Q0######  . .0.0. ######          ###### ..++++ . ######  5       ######      QsQ ######          #
+#*+    +   #    #Q*0    00Q#    # . . . .  #    #          #    # Q..... . #    # &&    .^.#    #     Q+ QQ#    #         *#
+#o+a   +a  #    #0*00  00Qg#    #          #    #         >#    # ........ #    #        . #    #     +Q$QQ#    #&Q      *o#
+#####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####
+~   #..#            #..#            #GG#            #..#            #..#            #BB#            #YY#            #..#    
+~   #a #            #  #            #a #            #  #            #  #            #  #            #a #            #  #    
+~   #  #            #  #            #  #            #  #            #  #            #  #            #  #            #  #    
+~   #  #            #  #            #  #            #  #            #  #            #  #            #  #            #  #    
+~   # a#            #  #            # a#            #  #            #  #            #  #            # a#            #  #    
+~   #++#            #++#            #GG#            #++#            #++#            #BB#            #YY#            #++#    
+#####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####
+# 0      0 #    #          #    #          #    #          #    #          #    #  +     + #    # [      0 #    #  0    0  #
+# ...  ... #    #      0Q  #    #     0    #    # @     @  #    #          #    # + +   + +#    # [[[[[[[[ #    #  +    +  #
+# .o.  .>. ######.     .. .######   ...    ###### .     +  ######  8+     0######  VQ   Q  ###### [[ [ [ [ ###### +   <  + #
+# .*.  ...  G  G            G  G            +  .     +6     Y  R   +6     . .  .    +   +   R  Y  [ [y   [  .  +  0+    +0 #
+# ...  .*.  G  G          . G  G  .         +  .            R  Y         +  .  .            Y  R  [ [[[[ [  .  +  .+    +. #
+# .>.  .o. ###### .      .Q######+*+   ... ######        0 ######        + ######        ^ ###### [      [ ###### +  >   + #
+# ...  ... #    #.      .>Q#    #+{+       #    #   0    . #    #        + #    # + +   + +#    # [[[[[[[[ #    #  +    +  #
+#          #    # .    .QQQ#    #$o+      @#    #....  ++++#    #      + 0$#    #  +     + #    # [      [^#    #          #
+#####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####
+~   #GG#            #GG#            #..#            #  #            #YR#            #YY#            #RY#            #YY#    
+~   #  #            #  #            #a #            #a #            #  #            #  #            #  #            #  #    
+~   #  #            #  #            #  #            #  #            #  #            #  #            #  #            #  #    
+~   #  #            #  #            #  #            #  #            #  #            #  #            #  #            #  #    
+~   #  #            #  #            # a#            # a#            #  #            #  #            #  #            #  #    
+~   #GG#            #GG#            #..#            #..#            #RY#            #YY#            #RY#            #YY#    
+#####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####
+# +%+  +%+ #    #..........#    #          #    #!        !#    # 0     |Q #    #          #    #S        S#    #          #
+#++ +  + ++#    #.QQ.QQ.QQ.#    # @6     @6#    #          #    # ...  | |.#    # 0      Q #    #S        S#    #        Q #
+#*        !######.QQ.QQ.QQ.###### ..    .. ######  &6   &6 ######       ^  ###### .....  [ ######S        S######    _   + #
+#++      ++ .  . .00.00.00. .  .            R  R            .  +            +  .            .  . 0        0 Y  R           #
+#           .  . ..*0**0*.. .  .            R  R            .  +     ..     +  .    a       .  . .        . R  Y   5       #
+#++      ++######.QQ.QQ.QQ.###### .06   0.6######  &6   &6 ###### &        ######a   a     ######*0      0*######  &     _ #
+#          #    #.QQ.QQ.QQ.#    #  .    .  #    #          #    # 7    + | #    # a   a    #    #*00    00*#    #          #
+#* a    a *#    #..........#    #          #    #*        *#    #*      |Q #    #  a   a   #    #$000  000$#    #&         #
+#####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####
+~   #RR#            #..#            #RR#            #RR#            #..#            #..#            #RR#            #RR#    
+~   #  #            #a #            #  #            #  #            #  #            #  #            #  #            #  #    
+~   #  #            #  #            #  #            #  #            #  #            #  #            #  #            #  #    
+~   #  #            #  #            #  #            #  #            #  #            #  #            #  #            #  #    
+~   #  #            # a#            #  #            #  #            #  #            #  #            #  #            #  #    
+~   #RR#            #++#            #RR#            #RR#            #++#            #++#            #RR#            #RR#    
+#####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####
+#d        d#    #0        0#    #0.      .V#    # 5    00  #    # 0      0 #    #   Q      #    #   0      #    #   d  d  d#
+#      5   #    #.0.    .0.#    #.        .#    # +   .QQ. #    # .      . #    #   .      #    #   .    Q #    #          #
+#  ......  ###### .      . ######          ######      ..  ######          ######          ######        [ ######   |  |  |#
+#  .  > .   .  .            R  R            R  R            .  +            +  .            .  +            .  .   |  |  | #
+#  .    .   .  .            R  R            R  R            .  +   |.  .|   +  . 0          .  +  Q         .  .  |  |     #
+#  ......  ######s        s######          ###### 5      c ###### |    > | ######*0       Y###### [     0  ######   |  |[  #
+#   7      #    # +      +0#    #$        *#    # +        #    #  |.  .|  #    #y00     Y #    #       .  #    #     |    #
+#a        a#    #$+ Q  Q +r#    #%(      $o#    #       0  #    #          #    #o000   Y $#    #          #    #a a a    *#
+#####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####
+~   #..#            #RR#            #..#            #..#            #..#            #..#            #RR#            #RR#    
+~   #  #            #a #            #  #            #a #            #  #            #  #            #  #            #  #    
+~   #  #            #  #            #  #            #  #            #  #            #  #            #  #            #  #    
+~   #  #            #  #            #  #            #  #            #  #            #  #            #  #            #  #    
+~   #  #            # a#            #  #            # a#            #  #            #  #            #  #            #  #    
+~   #..#            #RR#            #..#            #..#            #++#            #++#            #RR#            #RR#    
+#####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####    #####  #####
+#*         #    #          #    #          #    #      0   #    #          #    #d         #    #  d       #    #         r#
+#.      5  #    #  [    [  #    #  +    +  #    #  .....   #    #  ...*5   #    #  [    [  #    # d      5 #    #  5    5  #
+#  +    +  ###### [  0Q  [ ###### &      + ######          ######  .  .... ###### [      [ ######d       + ######  +    +  #
+#  7        .  .     ..     .  .            .  .            .  .  ..     .  .  .            .  .       5    .  .           #
+#  5        .  .     Q0     .  .            .  .            .  .  .  ...*.  .  .            .  .       +    .  .   5    k  #
+#  +6   +  ###### [  ..  [ ###### +      + ######    k     ######8.* .6... ###### [     >[ ######  a 5     ######  +    +  #
+#       7  #    #  [    [  #    #  +    &  #    #  ######  #    # ....     #    #  [    [  #    # a  +   ! #    #         *#
+#$         #    #          #    #    1     #    #     h    #    #          #    #a         #    #a*        #    #        *$#
+############    ############    #####ii#####    ############    ############    ############    ############    ############
+y ~   !    
+R 48822
+0 0
+1 Demo 1
+2 ....ttt..lllllllllllll..r.lbbrblltttrrbb
+2 rblltlllltll.brtrblbr......ltttlttltttrr
+2 bbbbbblbrttrrbrrttl...bblbl.lrr.ttrrtttt
+2 trbbbbrbllttttrrbbrblllll.blltrllltttrrt
+2 rbbbblbrttr..R..l...bb....b.....brl..ttt
+2 lllllltlll....ltttlll..llllll.bb..bbbbbr
+2 rrrrrrrr.........t..ttrt...........ltttl
+2 lllttttttttttrrttrtttllllll.lbbbR.brbbrr
+2 bbr.................t.trrtttll.rtttllllb
+2 bblLrtrbrrrrttttr....br.bbrrrrbrrrrrrrbb
+2 b.lrrr....ttttrrrttbbrbllll.ttlblllllllt
+2 t.bbbl.r.ttrrr..bb...ll..bblB.rrrrrrrrrB
+2 .llllbbbblbbbbbb..tttttrtttttttrrrrrrrrr
+2 ........tt.r.t.lbbbbbr...rrrrrrttrrrrrrr
+2 trtrrrr.brrrtt.bbllltttr.rrrbbbbbbbl.trt
+2 tttll.bllbbbbbbbbblbbbb.lllbbrrrrrrttlll
+2 lb........tl.....bbb...b.bRllbrbltttrrrr
+2 ttttttbbbbb.......tttt...tttrtttttttttr.
+2 .....r......tt.......bb..........t..tl.l
+2 bbbb..lbbbbbb..rttr...lbbbblbbbbbbrrbbrr
+2 rrrrrr............b.rrrrBrtrrTrrB.l.....
+2 .L.brrTrrrrtrrr....rrt.bb.......brrr...t
+2 ......................ll.b.lbLtrrtttltl.
+2 ..rrrrbbrrrrrrrbrrrt..r..........rrrtrt.
+2 ..l.bbbbbbll........rrrrrrrtr.....ttrrrr
+2 .r............rrbbbrrrr......rrrrr.T..tt
+2 ..tttttlllltttttttrrrR.ltttrtt...lrbbtt.
+2 ...lrb.tlrbt..lrbbltt..bllbbbblbbbr.llll
+2 lbbbllllllltttlllltttttttttt..tttrr.b.tr
+2 bbbbtllb....r..bbrlllllllltttrbttt.lbbbb
+2 brtrrrttttttlbbbbbb..bltttlll.....sr....
+2 ......llllllllllllllll..............l..r
+2 rr...lllB.b.Btr..........rrrrrbbbrR.llbb
+2 bbbb.tttttttttttttl.bllllbbllll..sr..r..
+2 lb..lllllttttlbbb.ltllbbr...............
+2 ............lll..brrrtttttllllbbblll.srr
+2 tttl.blll.bblllllllllltttltttttt..trrrrt
+2 ttrrrr..t....ml........lltttlllltl.bllll
+2 bbbbbbbrrrrbr.trrrrtttrrrrrrrbbbrrrrbbbb
+2 bb.ttttrtt..t...t..rtttll.....llllttrrr.
+2 ..bbbrrbb..................r.tttrrr..tbb
+2 r..........lll.bbb.....lttttrrrbr..ml.b.
+2 ......rrrrrrrrrrtrrrrrrr...tt..lbbbbt..r
+2 .bb.l..blttttlllllllttrrrrr.rbbbb.bblbbb
+2 bbb.ttttttrtttrrrrrrrr..r....t......r.r.
+2 .................llll.rrr.r..ll..r..bbr.
+2 lbBtrrrrrrtrrrr.........lllll.rrbbBtt...
+2 ..rrr..t.r.rtttrrrbbrrrbbrrrbllbltttrrrt
+2 tllbllllrrbbbbr....ll.bllllrrrrbbbbbbb..
+2 b..llllbblllllllllllttttttt..bbbbbbrrrbr
+2 brrrrrtrrtttrrbrrttttttttttttttttttttt.r
+2 .ltlllltttttttr........r.....r.bbltllbbr
+2 ....rl..rrrr.lbbbbrrrrrtttttttll..llll.r
+2 bbbbbrrt...llltllll.srbr.ttttttllllll...
+2 .lb...............lblll.rttlllrrr..ll..t
+2 ttrrr.rbb....bbbbbblllllbbbbbbbb.ttttttt
+2 trrrrttlttllttt.....bbbll.rb.lbb.t.lb...
+2 ....t.rt.......rt.rtttlttttrttltttttt...
+2 ...rrrt.bllb........brrrrrrrrtrrr.ltttrb
+2 .trrrt..bbbbbbbbllllrrrrbbbbbb..tttttttt
+2 lltllltllbllllllll..rrtt.bbrrrrrrrtrrttt
+2 rrrrrtmbll......rrtttttttttttttt.llllttr
+2 rrrrr.llbbbrrr..........................
+2 ttrrb.....bbbbbbtt..lllllll....bl.B.....
+2 ........rrr...ttllttt.l.bbbll..sr.......
+2 ..lllll.......b..lllllttRt....t..bb.l.bb
+2 bbrrrBlltt......ltt.llllLrrr...ll.......
+2 bbbrbbbbbbbbbbbblll.rrlllllllllttll...bb
+2 ..rR...llttlll...t....cb..r.......ttlllB
+2 rrbbblll.rtt....trrbbb..bb...ll....tt...
+2 .......tt...............................
+2 ...........r.....rbbbbbbblrrrbbbbbbbbbbb
+2 ....ttlrrrrlllbbrrrR.llllL.rrrrrrrrrrrll
+2 lllllllllllllllllllbbb.ttttllbbbllbbbbbb
+2 bb.ttttttttlblllltttllllll.r..l.tllttr.r
+2 rbbbb.lbl...lltllllltt...ttrlbrbbbbb.rlt
+2 .....rtrrblbl..ll.ttt..llll.sr..........
+2 lllllllllll.................tttrrbbb.rrr
+2 bbbr.llllbbbblbb.....bbrb..bbbb..bbbbbbb
+2 bbbbbbbbbllllBttttttrrrtttttttttltrttttt
+2 tt..b...bbblll..lbbbb.tllllll....llLrrr.
+2 ...ll....ll....lll..bbbrbbbb.ttttttttlll
+2 llllllllblllltt.........rrrllbbbbrrbltll
+2 ll...l.llllB.r....rrrbbbbbbbbbtttttttttt
+2 ttttttttttttttttt....b.bbbblllltttttttr.
+2 ........bRlbbbbbbrrrrttttlL.rr....b.r.lb
+2 bbrrrrtttttttl.bLrbb....llT....llllb.Lrb
+2 ....lLrtrrtrBrrrrrrrrrrrrr..............
+2 ........rbb.Rll.tt...rr..rrT...Bllllllll
+2 lTbbrrrrblllBrrrrrtttr.......rrtlL.....b
+2 lltrbbbbbL.tttrrrrrrrrB....rrr.lllltttt.
+2 ..rrrrttttrttt..lllllttttl..r...l.s.bbbb
+2 ..rr........ll.lttttttrrtrrb..tlllb..b.l
+2 brbbbttttttrrrb....lblr....b.b...t....bb
+2 ...Rttllbr..b...bbrrr..l.ttt...bbbrrrrrt
+2 ttttttlllbtllbr..Brtrrb.lbl...t...lB.ll.
+2 bbbb.......rbbb..tttt.rlllllllllllll.t..
+2 .ll.....rr............trttl.llllbbbllll.
+2 .....tttrr.rbbb.......bbbbllrrrbbb.bbb.t
+2 ttttttttlllllllll......bbl.ltttr........
+2 lr.lr.ltrtT.b...llll....rbbbbbbbbbbl.b..
+2 .trttttttttttttt..bbbr.rbbbbrrttrrrrrrrr
+2 rrrrrrrrrrrrrrrrrrrrrrrrrr.l.t.....rrrrr
+2 ttt.ll...rb...lB...rr...ll.bb.t..rr.l..l
+2 ....Ltt.rbbblLrrrrrrttrbl..bbbbbrtttttRb
+2 bbbb.Rlllbbb.ttttttrrrrrrrrr......b..rrb
+2 r...b.ltt.tttrr.l.l.lbbblb.rbrlt...rrrbb
+2 .......ttttR.bb..rrrtttttt..bbbrrrrrrrrr
+2 rrrrrrrrrrrrrrrrrrbrrrrrrrrrrrrrrrbbbRll
+2 ltttttttbl.trttttttttttllb.rttrttttttbbb
+2 b.lllllbllllllbblll..ltttllllllll.b....t
+2 ......l.ltttlllltlbllll.........b.bbl..l
+2 .bll..l..ttttl.....................l.lbb
+2 llbbllbrbbrbb.ttttttt..b...llllllllllttr
+2 tblbllblll.bbll.ttt...b..b....ut........
+2 ..bllllll..l..b....tt...lll.rr...rbbbb..
+2 .rblt................t..t.ttllttrbbbblll
+2 trrrrrttllbblllllbrrrrrrrrbb...lbl.rrtll
+2 lblbbbbl.rttttlllltttllllll..l.tttt.bbbb
+2 bblll......Tbbbl..tttttr.bR.bbbbbbbbbbbb
+2 bbbbbbbbbbl.ttttttttttttttttttttttrrrttt
+2 llltltltrblllblsr..b......lllllllll..bbl
+2 rtttlbbb..ttllbblbrtttrrrrttl..ttllbrtrb
+2 bbbbttttlbb..rtttlllllbrbbrbrrtrblbb....
+2 ..utllttr...lbbb.....rtr..l..llrttlbbtll
+2 bblbrlltttrtrbbb...ttrrbb....b....r.ttrr
+2 rr.lllllttttrbbbbbttttttrrbltlbbbbblbb..
+2 utrrb..tllt.lllbrtt.trlbbbrrrrbBtlllb..r
+2 .....Btr.b..lttttttt.cb.........tttttttt
+2 ttllllttt.b.bbrrr..rrrrrrttttttt..bbbbrr
+2 rr..mlt.b......rrrrrrbbbrrr.bBt.Tllltttt
+2 tttrrrrrrrrbbbrr...mlb........rrrrrrrrtt
+2 ttrbbl.rrrrrrrrrttlbb....t.......brbbbl.
+2 ....L...b..lbl.lllllltttttrrrrrrrr.....r
+2 .l......rbrrrrr...tbbbbbrrrrbbrt.trrrrtt
+2 tttt........l..lblltt.....r....rrbbbbbbb
+2 b....rtttttttlllll..............lr.lllbb
+2 bbbbbbBrrrrtttLtrTrrrbrrrrrttrrrr.rrrbb.
+2 .....ll.brrrltrrbbb.tlllblltrrtrbblllt.r
+2 ttlbblbrrr.rrrllllllttrrrtrblbr....rrrll
+2 ttrttlbbblbr...br.rmltt..b....b...l..ttr
+2 tttrr.....lbblbbbbrR..llttttrrtt.lllbrbr
+2 tltrr.lbb.rrrrrr.rrtrrttr....l.bbllbbbbb
+2 rrrrr....tt.brrrrrbttttt......tl.......l
+2 llllll.........Lrrr..bbbbbbllLrrrrtrrblt
+2 ttrrrrrr.m.tl.......rr.b.r......rl......
+2 t...r.rtrTrrrr..b........tttt...cb..l...
+2 ...tttttttttt.llllttttrrrr........lllbbr
+2 rrrrrrrtrrrr.ml...t..b..rrrrrr..lbrlb...
+2 ...rrrrrrrtt....ltttlt..rb..brbl.....ttt
+2 rrrR....rblllbbbr.r...lTlllbbbbr.blttbrb
+2 bbblbutrttlttll.t..rrrbbbbbb..bbb..b.bb.
+2 b.b.bbbbblttttttrrr......t.rbbblt..b...b
+2 bR.tttll...blbl.bl.........llttt...rrttl
+2 bbbrt.blr..bbL.tttttrrtttttrtttttttttttl
+2 llllblllllllllllbblllll.ttrr......ll..bb
+2 bbrrrrbbbbbbbbb....tttttttttl...rllllttt
+2 t......bbbbrrrrbbbbbbbbbll.rrbbbbbl.l...
+2 lbrrrbrrrrtlb.Rllllllltttlllllllllll.bll
+2 lltllllllllllllltttllbblllllllllltttt.cb
+2 llllb.ttrrrrtttttt.cbr........tttt...t..
+2 .l.r......rrr......r..llllllll..llll...r
+2 rrrrrbbbbbbbbbbbbbbbbbbbbbbbbbb..b......
+2 lbllt.rtrbb.trrbll.r...l....blBttt.rbrtt
+2 ttrtttttttttttttttttttttttttttrrrrr.mltt
+2 Rbbb....rrr..rrrrrtttr.blbb...tttr......
+2 mlbb...........rrrrrtTbbbbBrrrrttrrrrrrr
+2 rrrrrrbllllll.rrrrrrbbrbblllll.sr...r...
+2 ...llbbllllllllbbbbbbbl.ut...........bbb
+2 bblllll..lllll......blttrtlrllrrrrrbrrrr
+2 rtttttttrrrrttrrrrtttttttttut...........
+2 .
+
+uuid e44875445966b10805298ccf163144dd
+
+leaderboard steps time gems

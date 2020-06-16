@@ -1,0 +1,32 @@
+n Rescue me
+ldeutsch n Rette mich
+D 1
+C 1
+M 0 Calm
+i I hope you will
+i rescue your trapped
+i friend before
+i leaving the mine.
+ldeutsch i Ich hoffe, du wirst deinen
+ldeutsch i Freund befreien bevor du
+ldeutsch i die Mine verl�sst.
+a Reinhard
+m 10 8
+##########
+#      2E#
+#       E#
+#        #
+#   *    #
+#  *0*   #
+# 00100  #
+##########
+R 2135
+0 8
+1 Demo 1
+2 .........b.b.b.l.l.l.l...b.t.r.r...b....
+2 .....l.l..........tttttttt..r.r.rrrrrr.r
+2 .r................
+
+uuid 57459b4860aa952da2c38e9f2a2e1eaa
+
+leaderboard steps time

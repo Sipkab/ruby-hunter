@@ -1,0 +1,49 @@
+n Sidelined
+D 6
+C 6
+E 0
+s 0
+p 0
+M 0 Tico Tico
+i If you were hoping to see some
+i dancing rocks, you picked the right
+i level to play.
+i 
+i Now, go ahead and figure out how
+i to make them dance.
+a Alex
+m 20 16
+####################
+#0...........@....0#
+#0.....@...........#
+#..................#
+#...........1...@..#
+#a|................#
+#  5     5 ........#
+#  +68+68+6....... #
+#  7  7     ...@.. #
+#            ..... #
+#             .... #
+#           %  ...^#
+#               ..b#
+#                ..#
+#E@               .#
+###a#a#a#a#a#a#a#a##
+y | BV  %  
+R 54757
+0 0
+1 Demo 1
+2 .....rrrtrrbr..tlllbrrtrtl....rbb.l.tllb
+2 ..ll..lt..llllllllll..rtrrrrrblllll.rrrr
+2 rrrrttr.lbbrrrttll..bbllllllltlll.Trrrbl
+2 r..tllbL...rrrrrrrr...rr.....rrbbbb.tttt
+2 rrbl..lbb.......llb....rtrrbl.b.........
+2 .......t..l...tllbr.ltt.rr..rbbbbblt.b..
+2 br.r..........Rlllttt..Lrrb..l.r.bbrrrB.
+2 llll..llbbbllllll.................l.....
+2 ............lttt...tlrb..........llbbbl.
+2 .......
+
+uuid 9c803c8139bcd4b834c8a39e2fc7e673
+
+leaderboard steps time

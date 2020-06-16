@@ -1,0 +1,42 @@
+n Nitroglizerine
+ldeutsch n Nitroglyzerin
+D 2
+C 6
+E 0
+M 0 Downunder
+i You know the blast of
+i a single time bomb.
+i Do you also know what
+i happens if a whole
+i box of bombs explodes?
+ldeutsch i Du kennst die Explosion
+ldeutsch i einer einzelnen Zeitbombe.
+ldeutsch i Weiﬂt du auch, was passiert
+ldeutsch i wenn eine ganze Kiste mit
+ldeutsch i Bomben explodiert?
+a Reinhard
+m 19 14
+###################
+#"...............E#
+#.................#
+#..."......"......#
+#.................#
+#......"..........#
+#.".........."."..#
+#####.............#
+#   #"............#
+# $*#.............#
+#$**#..........1..#
+#***#........"....#
+#$*$#............"#
+###################
+R 3511
+0 0
+1 Demo 1
+2 ...llblttlltlllll..tt..l.l.....srrr.t...
+2 ....lllttlllttbbbbbbbbrrbllbrrbllttttttt
+2 rrrrrrrrrrttrrrrrrtt..........
+
+uuid f04e9de1b2c1683e960e7adb3f5a3b64
+
+leaderboard steps time

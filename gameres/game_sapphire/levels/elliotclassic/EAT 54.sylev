@@ -1,0 +1,62 @@
+n EAT 54
+D 5
+C 7
+s 0
+p 0
+N EAT 55
+i Use the pillows to force the Yam in
+i certain directions.
+lDEUTSCH i 
+a Elliot
+m 25 22
+#########################
+#########################
+######$E$E$E$E$E$EV######
+######.#.#.#.#.#.#.######
+######+#+#+#+#+#+#+######
+#%%%%%%%%%%%%%%%%%% %%%%#
+#%%                   %%#
+#%%                   %%#
+#%%               1!  %%#
+#%%                   %%#
+#%%                   %%#
+#%%                   %%#
+#%%             _ _   %%#
+#%%              _    %%#
+#%%                   %%#
+#%%                   %%#
+#%%%%%%%%%%%%%%%%%%%%%%%#
+#%%%%%%%%%%%%%%%%%%%%%%%#
+#%#%#%#%#%#%#%#%#%#%#%#%#
+#%#%#%#%#%#%#%#%#%#%#%#%#
+#########################
+#########################
+y ~     V  
+R 23465
+0 8
+1 Demo 2
+2 ...rtttucbbbbb......ttt..ttltt.Tbbbbr...
+2 ..............bbbbblltltrrrblbl.........
+2 .ltltrrrblbl............ltt..bltrrrblbl.
+2 .......ltltrrrblbl........ltltrrrblbl...
+2 .......ltltrrrblbl........ltltrrrblbl...
+2 ......ltltrrrblbl..........ltltrrrblbl..
+2 ........ltlt.rrrblbl................lt.l
+2 .trrrbl..bblllltttr..b.rttrbb..rrrrtttrr
+2 rrrtttrlttttbbbllttt.bbblltttbbbllttt.bb
+2 bllttt.bbllblltttrr.......
+R 23575
+0 0
+1 Demo 3 (fast)
+2 rtttcbbbbbbbbllltttttbbbbbrttttbbbrttttr
+2 tttlttTbbrbbbl.............ltlrbrrtlbl..
+2 .ltlrbrrtlbl.ltlrbrrtlbl.ltlrbrrtlbl....
+2 ...ltlrbrrtlbl..ltlrbrrtlbl.ltlrbrrtlbl.
+2 ltlrbrrtlbl.ltlrbrrtlbl...ltlrbrrtlbl...
+2 ................ltlrbrrtlbl......ltlrtrr
+2 ttttTbbrrttTbbllllttTbbrrrrrrttTbbrrttTb
+2 brrttTtr......
+
+uuid d400f1a0e1fb7e6955968a5d5bebe7ab
+
+leaderboard steps time

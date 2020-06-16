@@ -1,0 +1,53 @@
+n Firework
+ldeutsch n Feuerwerk
+D 7
+C 3
+p 0
+d 4
+M 0 FF7choct
+i This is again one of those
+i levels where you don't know
+i how to start.
+i The essential thing here is
+i to find a way to blast open
+i the embedded emerald using
+i a ruby laser.
+ldeutsch i Das ist wieder einer dieser
+ldeutsch i Levels, wo man nicht wei�, wie
+ldeutsch i man anfangen soll.
+ldeutsch i Am wichtigsten ist hier
+ldeutsch i einen Weg zu finden, wie man
+ldeutsch i den eingemauerten Smaragd
+ldeutsch i freischie�en kann.
+a Ronald
+m 8 16
+~  #####
+#### dQ#
+#   Q..#
+# Q....#
+# #....#
+# 1..@a#
+# #@+u+#
+# .# + #
+#@.# # #
+#(.# # #
+#:.# # #
+# .# E #
+# .# & #
+#      #
+#*  * *#
+########
+R 13636
+0 8
+1 Demo 1
+2 .....lbbrbbbbbltrttttlttr.rtrrR......tt.
+2 ...lbb..rrr.ll..bl..B.......l.lbbrbbbbbb
+2 bbBrrblrrRlltltttttltttrrtrttlr.bb......
+2 ................rBlttrrRllll.rrb..bbbrRl
+2 tllbbbrbbbbbrrrR.l..Tl.rrl.blltttttttltt
+2 rrttlllbbb.....bbbbrbbbbbLrrrRttt.......
+2 .
+
+uuid 35506ffd269d3ca149c50450dc7cff94
+
+leaderboard steps time

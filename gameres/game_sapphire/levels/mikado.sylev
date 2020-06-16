@@ -1,0 +1,32 @@
+n Mikado
+ldeutsch n Mikado
+D 3
+C 5
+e 27
+E 0
+p 0
+M 0 Waterloo
+i You should be careful
+i when playing mikado!
+ldeutsch i Du solltest beim Mikadospielen
+ldeutsch i sehr vorsichtig sein!
+a Ronald
+m 12 9
+############
+#          #
+# 1  QQ    #
+#   0000   #
+#.*$****$*.#
+# ........ #
+E cccccccc E
+#          #
+############
+R 14665
+0 1
+1 Demo 1
+2 .....lbbbR.rrTrrrrrTrrbbllll.R.l.RllLllt
+2 l..........
+
+uuid 398c4ade74a16f56b9c27d8b493d7bb3
+
+leaderboard steps time

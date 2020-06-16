@@ -1,0 +1,33 @@
+n Cover the Swamp
+D 5
+C 3
+s 0
+p 0
+M 0 Indy
+i Remember, swamps are unhealthy for
+i most living things...except swamp
+i monsters, but they're not in this
+i game. Yet.
+a Shark
+m 13 10
+$$$E#S##   # 
+$(SS6.  # # #
+$%..   # #  #
+$#       0  #
+#        10 #
+# Ss     ## #
+#           #
+#%     0   % 
+~ #%#  .@ +# 
+~  # ###%##  
+R 63444
+0 0
+1 Demo 1
+2 .rtl.lbbbllbrbrtrbltt.....ttt.rrbl.lllll
+2 lttrtRb.l.Lbb.l....rrrrrt..b............
+2 ........................ttlt...tllllllbb
+2 t.rr.bbrttttt.....
+
+uuid 0a401623bf2b82088689d55a4c87c5f0
+
+leaderboard steps time

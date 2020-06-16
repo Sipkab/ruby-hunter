@@ -1,0 +1,51 @@
+n Bomb Stack
+D 7
+e 5
+p 20
+M 0 Oxygene4
+i Get the stone across before
+i the bomb goes off!
+a Alexander
+f Alexander
+m 20 25
+####################
+#Q                 #
+#++                #
+#?+                #
+#++                #
+#    Q             #
+#_  +++            #
+#  _ ?             #
+# _ +++            #
+#                  #
+#_                 #
+# _                #
+#   _              #
+#  _               #
+# _                #
+#                  #
+#             0    #
+#  [iii[[[[   [    #
+#      #    ?  1   #
+# ################ #
+#   #  #           #
+#   #  #           #
+#   #E #           #
+# ( :  +           #
+# ##################
+R 28213
+0 8
+1 Stone Pusher
+2 ..tt.lllllllllllll....rr.rrbbllrr......l
+2 llbbbbr.bltttttttrrrrrrrrrrrrrrrrrbbbbbb
+2 blllllllllllllt........
+R 12759
+0 8
+1 Fearless
+2 ..tt..lllllllllllllllb.trrrbbllr.ll.btrl
+2 bbbbbRtttttttrrrrrrrrrrrrbrbrrrrbbbbblll
+2 llllllllllt.....
+
+uuid d5b8f6a9cd20af28ecdca392beeaaa86
+
+leaderboard steps time

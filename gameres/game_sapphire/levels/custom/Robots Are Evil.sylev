@@ -1,0 +1,30 @@
+n Robots Are Evil
+D 8
+C 3
+T 50
+p 0
+o 1
+M 0 Jump
+i No time to think!
+a Shark
+m 7 7
+E&#####
+#(0  .#
+#1(o $#
+#!(..(@
+#!r. $R
+###..R 
+#######
+R 16362
+0 0
+1 Demo 1
+2 ...c.brsTbrtrtTlbbr.tlllbbRtllttttll....
+2 .
+R 72541
+0 8
+1 Demo 2
+2 .....cbrsTbrtrtTlbbrtlllbbRtllttttl.....
+
+uuid d14b3defe6c520989b69e8a8d3e08dd4
+
+leaderboard steps time

@@ -1,0 +1,168 @@
+n Treasure Hunt II
+D 10
+C 2
+e 30
+s 0
+p 0
+w 1
+M 0 Penny Lane
+i This is the no Yam-Yam
+i version of Treasure Hunt.
+a Alexander
+m 126 94
+~1    #        #     #              ssssssssssssssssss                                                                        
+~   # # ###    #    ##              s                sssssssss                                                                
+#####     #    #    #  ###          s  sssssss               s                                                                
+~     # ### ####   #   # ##  ssssssss ss      ssssssssss     s                                                                
+~     # ##  #     ###  #  #ss           ssss           sss   s   %%%%%                                                        
+~  ####  ## #     #  ###  Y                 s            s   s   %   %                                                        
+~  #      # #             #ssssssssss        ss          s   s   %   %                                                        
+~  #      # #    ##    #  #          sssssss   sss       s   s   %% %%% %%%%%%                                                
+~  #      # #    #     #  #                s     ss      ss ssss  %    %      %                                               
+~  ######## #    ### ###  #                s       ss   s      s%%      %      %                                              
+~  #      # #   ## # #    #:::::::::::::::::::::    s   s      s        %      %%                                             
+## # #### # #   #  # #   ##       ++++++       :     s  s               %       %                                             
+~# #    ### #  ##  # #####7#++ ++++    +++     :      s s      s      % %       %                                             
+~# #     ## #  #     ##0cs## +++         +++   :      s ssssssss   %%%%        %                                              
+~#      ##     #    #*#0@##                ++  :     ss :      %%%%%  %%%    %%%                                              
+~###   #########    ###0*# +                +  :  sss   :    %%%         %% %%             %%%%%                              
+~   ####    # #####  ##### +                +  : ss     :  %%%  %%        % %            %%%   %%                             
+~ :              :+   +    +     +++++      +  :  s     :  %     %      %%%  %          %%      %%                            
+:::           +++++  +  ++ + +++++aQ0+      +  : s      :  %   % %%%  %%%     %         %        %                wwww        
+~    :  ::    +     +  ++  +++   ++dQ+      +  : sss    : %%  %%    %%%    %%  %       %    %    %               w b w        
+~   ::   ::  :+    ++  ++         ++0+      +  :   s    : %   %           %% %  %%%   %   %%     %               w   ww       
+~         ::   +  ++   ++  +       ++++    +   :   ss   :%%   %%         %%   %    %% % %%       %                w  ww       
+~          ::  ++     ++   ++      ++ +    ++  :    s   :    % %% %%%%%%%     %%%    %  %%     %%                wwRww        
+~   :  +++   :  +++ +++     ++      +     +++  :    s   :   %%  %   %           %%%      %%%%%%%                ww   ww       
+::::: ++  ++:   ++   +       ++       +++++    :    s    :%%  %%    %              %%          %                w   ww        
+:     +    ++   ++++ +   ++++++     +++        :    ssss :   %%    %                %          %               ww   w         
+~ :::+      ++     !++++++         +++       ::        s :  %     %%                %       % %%%              ww   w         
+~    +       ++++++++    + +++    ++        ::         s :  %%%%%%                  %   %%%%   %%               w   w         
+~    +        ++      +  +   ++ +++         :          s :                          %   %    %%%                w   w         
+~    ++               +   +  ++   ++        :          ss:                          %% %% %%%                 wwwww ww        
+~     ++       +     ++  +  ++     ++       :          ss:                           %%%% %                 ww       www      
+~      +++     ++++  +   + ++       ++      :         ss :                              % %%                w           w     
+~     :  ++++   +  + ++    +         +      ::      sss  :                              %  %%              ww            w    
+~    ::   + ++   + +  ++++++        ++:      :     ss    :                              %    %%           %w             ww   
+~         +  ++ +  ++       ++     ++ ::     :   ss      :                             %  %%  %%%%%%%%%%%% w              w   
+~   :     ++  ++             +++++++    ::   :  ss       :                     %      %   %%%                             ww  
+~  ::      +   ++          +         +   :   :  s       :                    %%%%% %%%    % %%%%           ww              w  
+~ ::       +     ++       +++++++++:+     :  :  s      ::                %%%%    %%%     %      %%%%     %%%w              w  
+:::        +      +++++ +++        +:      : :  s      :               %%%             %%           %%%%%%www              w  
+~      ::::+            +            :     : :  ss     :              %              %%%             wwwwww                w  
+~   ::::    ++++++ +  + +             ::   : :   s    :               %        %%%%%%                 w                   ww  
+~   :             +  ++ +                  : :   s    :               %       %                       ww                  w   
+~   :  :  ::     +  + + +   ::::::    ::::::::   s    :               %       %                         www             ww    
+~   ::::       ++  +  + +:: :     :: :     s     s   :                %%       %                          wwwwwwwwww wwww     
+~      :      :+  +   + + : :      : :     s     s  ::                 %%       %                        wwwwwww  w     wwwwww
+: ::::::    : :+ +    +++ : : :    : :     s     s  :                   %%%     %%                       w     wwww     B B Ew
+:        ::::  ++         : :  :   : :     s     s ::                     %%     %%%                    w               wwwwww
+:       ::               :: :   :  : :      s    ss:                        %      %                    ww       w     ww     
+:         ::::: ::::::::::  :   :::: :      ss     s::                      ####Y####                    wwww    www ww       
+: :        :G:           :  :      : :       ss     s ::                    #  # # r#                       wwwwww w   w      
+:: :      ::0:   :      :          : :        sss    s :                    #  #Y#  #                             w    w      
+~ [:: :::::06::::::     ::  :::: : : :          ss   ss::                   #**# #**#                             w    w      
+~: :  :    ss      :        :  :  :: :            s   s :                   #**#+#**#                             w *  w      
+~: :  :     s       :::::::::  :  :: ::::::::::::: s  s ::                  #*******#                             w . ww      
+~: :  :     ss              :  :  :: ::          : ss  s :                  #*******#                             w   w       
+~: :  :      s                 :::::             :  s  s :                  #*******#                             w   w       
+~: :  :      ssssssss              :             :  s  s :                  #########                             wwwww       
+~: :  :              s             ::::::::::::::: ss  s :                                                                    
+~: :  :      s       ss                           ss   s :                                                                    
+~: :  :      s       s s ssss          ssssssssssss   ss :                                                                    
+~:    :      s      ss ss  ys         s             sss ::                                                                    
+~::   :     sss    ss       s        ss       sssssss  ::                                                                     
+~ :::::     s sssss s  s    s        s   sssss      ::::                                                                      
+~       sss s       s  s   ss        s  s       :::::                                                                         
+ssssssss         sss   s  ss         s  s       :                                                                             
+~  s            ss    s  sss        s   s       :                                                                             
+~  ss      ss ss      sss|wdss s    s   s       :                                                                             
+~   sssssss s  ss        sss  s s   s   s       :                                                                             
+~        s  s   s     s     s   s  ss   s       :                                                                             
+~    s   s  s   s    s       s   s s    s       :                                                                             
+~    s     s    s    s       s   s s    s       :                                                                             
+~ssss   ss     ss    s        s  s s    s       :                                                                             
+ss s    s  ss ss    ss        s  s s     s      :                                                                             
+s  ss   ss  ss      s         s  s s     s      :                                                                             
+s   s    ss       sss sssssssss  s  s    s      :                                                                             
+~   ss   sssssssss               s  s    s      :                                                                             
+~    sssss        ssssssssss sssss  s  s s  ss  :                                                                             
+~                          s   ss   s  s ss sss ::                                                                            
+~  ::::                  sss    ss  s  s  sss s ::                                                                            
+:::    :::            sss        ss s  s      s  :                                                                            
+~         ::         ss           s s  ssss sss  :                                                                            
+~           ::       s           s  s  s  sss    :                                                                            
+~            ::      ss          s s   s         :                                                                            
+~             ::      ss      sss ss  ss         :                                                                            
+~              :        s ssss  ss   ss         ::                                                                            
+~               :      s   ssssss  ss           :                                                                             
+~                :     s          s             :                                                                             
+~                 :    s   ssss   s            :                                                                              
+~                 ::   sssss   ssss           ::                                                                              
+~                   :                      :::                                                                                
+~                   ::  ::::::        ::::::                                                                                  
+~                     ::      ::  ::::                                                                                        
+~                              :: :                                                                                           
+~                               ::                                                                                            
+R 2914
+0 0
+1 Treasure Found
+2 rrrrbbrrttrrrrbbbbbbbbbbbbbbrrttttttttrr
+2 rrrrrbbbbbbblbbbbbbllbbbrrrrrtrrtttrtrrr
+2 bbbrrrrrbbbbbbbbbbttttlllllbbrbblbbllltt
+2 tttlllbbbblbbbbbrbbrrrrrrrbrrrrrrrrtrrrr
+2 bbbbrbblllllllllllllbbbbbbbbbbbllllllttt
+2 tlllllllttrttltltttlllllbbbllllllltttttr
+2 rttrrtttttlltttttlllttrttrrrrtttrrttttrr
+2 rrrbbbrrbbbbbrrrrrrllllllltttttttllltttt
+2 llllllbbbbbblbbllllbbbbbbbbbrrrrrbbbbbbl
+2 llllllbbbrbbbbbrrrrbbbbbbbbbbbbblllttttt
+2 ttttllbbbbbbbbbbbbrrrrrrrtttttrrrbbrbbbb
+2 rrbbbbbbblllbttlllrrrbbbrbrrrrrtrlblrtrr
+2 ttttttrrrttttttrrrrrrTllllllbbbbbbrrrbbb
+2 bbblllbbrrrrrrrrlbbbbbbbblllbbbrrrrrrrrt
+2 rtrrttrtttttttttttttttrtttttrtrrrrtrrrrr
+2 rrrtrrttttttltlttlltltttttttlltttttttttt
+2 trrtttttttttttttttttttttltlllltttlllllll
+2 tttttrrrrrrrrrrrrrrbrrrrrrrrrbbbblbbbbbr
+2 rrrrrrrrrrrbbrrrbbrbbbblblbllllllllbbbtt
+2 rrrrrtrrrttrrrrbrbrbrbrrbrbrrrrtttrrtrll
+2 blbbbbbbbrttrrrrrrbblblllbbbbbbblblbllbl
+2 llllllllbbbbbbbrrbbrrbbu..........bbbbrr
+2 ttttrbbbblllllttlbbRbrrrrrrblllllllttrrr
+2 ttttttllltttttttrrrrrrtrrtrrrtrttttrbrrb
+2 rbrrrrrrrrrrrrrrtrrrrrrttttrrttttttttttt
+2 bbbbbrbbbbbbbbbbbbbbbbbbrbbbbbbbbbbbtttt
+2 tttllllrrrrrtrrrrr......
+R 8259
+0 8
+1 Curvin' Through
+2 .rrrrbbrrttrrrrbbbbbbbbbbbbbbrrrtttttttt
+2 rrrrrrbbbbbbblbbbbbbllbbbrrrrtttrrtrrtrr
+2 rbbbrrrrrrbbbbbbblbbbttttlllllbbrbblbbll
+2 ltttttllbblbbb.rbrbbbrrrrllbbtttt.rrrrbr
+2 brrrrrrrrtrrrbbbrbbblllllllllllllbbbbbbb
+2 bbbbllllltttlllllllttlltttlllllbblllllll
+2 ttttttrrrt.rrtttttllltttttlttttrrrrttttr
+2 rtt.rtrrrrrbbbrrbbbbbrrrrRlllltttttllttt
+2 lllllllllbbbbrrbbbllllbbbbbbbbbrrrrbbbbb
+2 llllbbbbbbbbrrrrbbbbbbbbbbbbbllltttttttt
+2 tllbbbbbbbbbbbbrrrrrrrttrrrrbbbrrbbbbbbb
+2 lllbbrbrrrrrttrrtttttrrrttttttrrrrrrTLll
+2 llllbbbbbb.rrrbbbbbblllbbrrrrrrrbbbbbbbb
+2 lllbbbrrrrrrrrtrtrrttrttttttttttttttttrt
+2 tttrrtrrrtrrrrrrrrtrrtttttttlltttllllttt
+2 tttttttttttttttttttrtttttttttttttttttttl
+2 lllttllllllltttttrrrrrrrrrrbrrrrrrrrrrrr
+2 bbbbbbbbbrrrrrrrrrrrrbbrrrrbbbbbrrbrbrbr
+2 rrbrrbr.bbbbrr.ttrrrrrrbblbblllbbbbbbbbl
+2 llbblllllllllbbbbbbbbbrrrbbcut..b......b
+2 bbbrrttttr.bbbblllllttl.bbRbrrrrrrblllll
+2 Lrrttttttttlllttttttttrrrrrrrrrttrrrtttr
+2 rrb.rbbrrrrrrrrrrrrrrrrrrrrrrttttttttttt
+2 ttttbbbbbbbbbbbbbbbbbbbbbrbbbbbbbbbbbttt
+2 ttttrrrrrlrr....
+
+uuid 8858f27b386b3d75cce0b6856904fca3
+
+leaderboard steps time

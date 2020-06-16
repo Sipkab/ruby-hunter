@@ -1,0 +1,34 @@
+n Hot Potatoes
+D 4
+C 3
+p 0
+M 0 Live and let Die
+i Can you push two bombs at once, on
+i top of eachother, without either
+i going off?
+i 
+i You better hope so.
+a Shark
+m 15 12
+###############
+#   Q         #
+#  +++        #
+#  +?+        #
+#  +++        #
+#             #
+#             #
+####         E#
+# 2Q         &#
+####         ##
+#1_          ##
+###############
+R 62165
+0 0
+1 Demo 1
+2 r.r................................rrrrr
+2 rrrrrrrrrrrr..tt..t.....l.......t.trrbrr
+2 rtb.b...........
+
+uuid a7f6a530bbac0a568a57e1ddd0423846
+
+leaderboard steps time

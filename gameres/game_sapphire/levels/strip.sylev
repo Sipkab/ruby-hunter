@@ -1,0 +1,37 @@
+n Strip Mining
+ldeutsch n Tagbau
+D 4
+C 5
+E 0
+M 0 Downunder
+i This level contains
+i just one bomb.
+i Use it with caution.
+ldeutsch i Dieser Level enthält
+ldeutsch i nur eine Bombe.
+ldeutsch i Vorsichtig benutzen!
+a Ronald
+m 15 10
+###############
+#.E   G  R  B #
+############# #
+#1.....000..#Y#
+#...........#.#
+#...0.....Q.#.#
+#.000.........#
+#00000000000..#
+#00ry*g**b000.#
+###############
+R 11356
+0 1
+1 Demo 1
+2 ....brrrrr..b...........................
+2 ...................................r....
+2 ...b.....t.....rr........b..t.t.rr..b.ll
+2 llrr........llb.l.bb.r....R..l.l..l..l..
+2 ..L..rr.tttrrrrrbrrttttllllllll.........
+2 .
+
+uuid bee47d08ed267781e20161cadfdc4478
+
+leaderboard steps time

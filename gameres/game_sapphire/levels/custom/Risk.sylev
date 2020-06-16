@@ -1,0 +1,45 @@
+n Risk
+D 4
+C 3
+E 0
+p 0
+M 0 3
+i There are so many ways to solve
+i this level, it's amazing that this
+i level was not solved on the first
+i attempt by 100% of the people who
+i tried it (aka. just me).
+a Shark
+m 10 13
+######S###
+##    *Ql#
+## 1B ####
+## b  *Ql#
+## 0  ####
+##|.  *Ql#
+##    ####
+##    *Ql#
+##    ####
+##    *Ql#
+E(0000####
+#QQQQQQQQ#
+##########
+R 59115
+0 0
+1 Demo 1
+2 ....b..rrbbbbbbRtt..RttRttRttRlrrbl.....
+2 ...br.bb.Lt..........bbbbbbllll.....
+R 98055
+0 0
+1 Demo 2
+2 brllbrbbbrrrbbRttRttRttRttRb.....bbbbbbb
+2 b..llllll.....
+R 98225
+0 0
+1 Demo 3
+2 ...brbb.Lttrtt.Rb.l.....l.rrb.bbbbbbllrr
+2 RttRb..tttRttRllll..bbbbbbb.ll.....
+
+uuid 76d8d01104b360c7138cc5b5b3252fc2
+
+leaderboard steps time

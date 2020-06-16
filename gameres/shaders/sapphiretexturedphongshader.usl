@@ -1,0 +1,77 @@
+shader SapphireTexturedPhongShader {
+	vertex {
+		uniform ShaderUniform{
+			@fp_precision=high mat4 u_m;
+			@fp_precision=high mat4 u_mit;
+		}
+		uniform UState{
+			@fp_precision=high mat4 u_v;
+			@fp_precision=high mat4 u_vit;
+			@fp_precision=high mat4 u_p;
+		
+			@fp_precision=medium float4 u_lightpos;
+		}
+	
+		@fp_precision=high   in float4 a_position;
+		@fp_precision=high   in float2 a_texcoord;
+		@fp_precision=medium in float4 a_normal;
+		
+		@fp_precision=medium out float3 v_normal;
+		@fp_precision=medium out float3 v_view;
+		@fp_precision=medium out float3 v_light;
+		
+		out vertex_position opos;
+		@fp_precision=high	out float2 o_texcoord = a_texcoord;
+		
+		float4 mvmult = a_position * u_m * u_v;
+		float4 lpos = u_lightpos * u_v;
+		
+		opos = mvmult * u_p;
+		
+		@fp_precision=medium
+		float4 normalmult = a_normal * u_vit * u_mit;
+		
+		v_normal = normalmult.xyz;
+		v_view = 0.0 - mvmult.xyz;
+		v_light = lpos.xyz * mvmult.w - mvmult.xyz * lpos.w;
+		
+		@fp_precision=medium
+		out depth o_depth;
+	}
+	fragment {
+		uniform UMaterial{
+			@fp_precision=medium	float4 u_colormultiply;
+			@fp_precision=medium	float4 u_ambientcolor;
+			@fp_precision=medium	float4 u_specularcolor;
+			@fp_precision=high		float  u_specularexponent;
+			@fp_precision=medium	texture2D u_texture;
+		}
+		uniform UFragmentLighting{
+			@fp_precision=medium	float4 u_ambientlighting;
+		}
+		@fp_precision=medium	in float3 v_normal;
+		@fp_precision=medium	in float3 v_view;
+		@fp_precision=medium	in float3 v_light;
+		@fp_precision=high		in float2 o_texcoord;
+		
+		out fragment_color ocolor;
+		
+		@fp_precision=medium float3 N = normalize(v_normal);
+		@fp_precision=medium float3 V = normalize(v_view);
+		@fp_precision=medium float3 L = normalize(v_light);
+		@fp_precision=medium float3 H = normalize(V + L);
+		@fp_precision=medium float NL = max(dot(N, L), 0.0);
+		@fp_precision=medium float NH = max(dot(N, H), 0.0);
+		float4 diffusecolor = sample(u_texture, o_texcoord);
+		ocolor = u_colormultiply * float4(u_ambientlighting.rgb * (
+				u_ambientcolor.rgb * diffusecolor.rgb +
+				diffusecolor.rgb * NL + 
+				u_specularcolor.rgb * pow(NH, u_specularexponent)
+			), diffusecolor.a);
+		@fp_precision=medium
+		in depth o_depth;
+		if (o_depth > 0.5) {
+			ocolor.rgb = ocolor.rgb * (1.0 - (o_depth - 0.5) * 2.0);
+		}
+	}
+}

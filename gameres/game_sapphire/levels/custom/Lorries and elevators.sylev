@@ -1,0 +1,47 @@
+n Lorries and elevators
+D 2
+s 0
+p 0
+a David polsky
+m 17 14
+#################
+#######E  #######
+##1...#7  #...!##
+##..###..###...##
+##..#$ ...$#...##
+##d.#$%..%$#...##
+##..###..###...##
+##.............##
+##.............##
+##[............##
+##.............##
+##a.....{......##
+#################
+#################
+R 88502
+0 2
+1 Suspended
+2 .....rbbbbbbbrrrrrBrrrrrrtttttttbbb..bbb
+2 blllllllllllt.crr...........rrrbllltlltt
+2 tLbbb.....L.......rrb......ll...rrrr.tt.
+2 Rt.R..
+R 86337
+0 0
+1 Demo 1
+2 ...r.bbbbbbrrrrrbbrrrrrrttttttttbbbbbbbl
+2 lllltllllll...srr...........lllttLbbb...
+2 Lrrrrrblll.............l..l..rrrrttt.R.t
+2 .Rt.R..t.r....Tll......rrrrbtlllllbtrrtt
+2 t........
+R 86337
+0 0
+1 Demo 2
+2 ...r.bbbbbbrrrrrbbrrrrrrttttttttbbbbbbbl
+2 lllltllllll...srr.............rrbllllltt
+2 tL.bbb....L..r.......................rrr
+2 rbllll.rrr.ttt.R.t.R.t.R.t.R...........t
+2 .R.....bbr.trrBlllllBrrttt........
+
+uuid 8d1c80479223429c8609a8c94061a52e
+
+leaderboard steps time

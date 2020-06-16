@@ -1,0 +1,168 @@
+n Reconfigure II v2
+ldeutsch n Rekonfiguration II v2
+D 8
+C 3
+e 55
+T 2800
+s 100
+p 0
+d 12
+Y
+M 0 Calm
+i As an added challenge, all gems
+i (including bags) are now embedded,
+i and the Yam-Yams have a different
+i surprise when you destroy them.
+a Alex, Juergen
+m 17 14
+#################
+# %  %  %  %  % #
+# ^  ^  ^  ^  ^ #
+#               #
+# %  %  %  %  % #
+# ^  ^  ^  ^  ^ #
+#               #
+# %  %  %  %  % #
+# ^  ^  ^  ^  ^ #
+#               #
+# %  %  %  %  % #
+# ^  ^  ^  ^  ^ #
+1               E
+#################
+y 0Q...[.&+
+y 0^...@&Q|
+y &.|.0..6&
+y ..!c.Q&.&
+y .0[+&.[.^
+y &0.&&.6.[
+y .!0Q...+&
+y .&..|[&.Q
+y .[&&.&0d.
+y .Q.0.6|.&
+y +&.Qd[..c
+y &.Q0[6|.+
+y ..c&.0.Q.
+y ^...Q.!.&
+y 0&.|&..c0
+y &&.0%!^[0
+y .&+Q.0.&.
+y .Q....d[&
+y [6.+.Q0&[
+y &.&!0.%[Q
+y &0>..Q/[!
+R 41649
+0 0
+1 Demo 1
+2 ......r..tRbl.....rrt..rR..trTlll....r..
+2 b.t.rttt.rrllbbll..sbb..l...tbl.....rtr.
+2 .....ttt....tt.br..ltLbr.....llbbbb...r.
+2 ....tttrr..r.Rll......bbblb..rbLr..r...t
+2 rrrttlll....b.ll.rr..............rrr...t
+2 l.t.l.rb.rbl.b.......tt...r.bBt...r...bb
+2 brBllllltt.cbr..........trrbl...tllblB.t
+2 ....rrrrrbr.b.l.tttr..cb.tr.Rltcb.....ll
+2 ..ttr...ttt.r.lbbbb.....ttttrrbll.......
+2 ....rr...rttt.bbbll...b...rr.....bbl.llb
+2 rbb.L..r.....r..ttt....t..r.l...r.Rll...
+2 ...rrrr.tttt.bbbll.......rrttt....cbbll.
+2 ...bb....R.R.R.R...trrttttlt..t..l......
+2 ..........rbbl..........................
+2 rttt....bbbllblL......lb..bb......bltttt
+2 ..b.bb..rrr.ltttt..bbbb......ttttrrrt...
+2 .....................blll...............
+2 r........rrr..bbbb....ll....tl.ttlll....
+2 ....ltl.sbr.........r......llllbbbb.rrbB
+2 lllbtrrtttttt...ll....t...........rbbbb.
+2 .ttt....t..rbb......tl...t....bb..ll....
+2 .l.rrtt...................bblltbr.......
+2 .lttt....bbbrr.....bb.ll.....ltltrrrr.br
+2 trtl..rbb...l..tt.l...t.......bbl.....tb
+2 ll..........rrrtttlrbbbllltttrlb.rlbbrrr
+2 ttt..lrb.lllllll.lbblbbbbbb..brT.......t
+2 rrtrrtttttt.rbrrt..r.................lbl
+2 llllt...t..bl..l....L....l..............
+2 bbb..tt.........t.......................
+2 ........r...............................
+2 ..........................l.............
+2 cbbr....lb....b..l..r..rbbbrrttrrrrrr...
+2 .bbrttt.brbruttttttllttlltrbbbblllttttrl
+2 bllblrrrbbbbbbbrrrrbbrrr.........llltttt
+2 tllllll..utrr..tllLbbbbbll..r..........t
+2 t......bbl.bl.tttttttt.cbbbbb...rr.t.bbl
+2 .b.....l.ttttttrTbbbbbbrrrr.t..rrrrrrb.b
+2 ..rbrr........
+R 66087
+0 0
+1 Demo 2
+2 ........rt....Rbl.......rr.t.rr.....R.lt
+2 .r..rbll..tTlll.....rrbb.llrrtrtr.br...l
+2 llltl.....rbrr.........rBll........ml...
+2 .......rrB..rtrbr......ltl......brrrml..
+2 ..........r..b...ut..........lllb...l.rb
+2 ltrrrbllrrrrr.....lttrtt.....lttbbrr.ttR
+2 l.r..bb.ll.r.lb.lb....b......ttttll..rrr
+2 rtrtlbbb...srtt.......l.bblbb......B....
+2 .r.rR.B.l.tlllbrl..bb...............rrlt
+2 t.lttr..bb....rbltllttt..l.T.rrr.tt.....
+2 bl..bllt.brrtcbbb..........rbl....ttl...
+2 ............tttttrr.lttrbbbbbbbbbltt....
+2 ...t......bbbrrblt.bllrttl..lbb....lt..t
+2 rrttll.trtt........ut.........bbbbl..btt
+2 tttrt.bbrrbbbrrrtttrr.cblbllll.b........
+2 .bbll...b...l...........................
+2 .....ll..srrbLttttttttl...cbb.tttt..t.Lb
+2 bcbrrrrrrrrttttR.bbbbr.B....b..ulllb....
+2 ...rrbrrrbttttt..bbl.rtttTll.r.lbbbbbrbb
+2 .r.......B.b.Bttlll.........tllbb..lbb..
+2 ....tttttrrttrr..ttlbbbbrbt...llllbbbbbR
+2 ..tRlllltttttl..........................
+2 ............................rrrbbbbbbblt
+2 tttttLb....lll.b.bblbbutrrrrrrr.bbR..R..
+2 .....R...........R.lllllLrrrrr.R..RRRRRR
+2 RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+2 RRRRRRRRRRRRRRRRRRRRRR.ttttrrttrrbbllrrt
+2 lblllbbbbR.R..R..Rttttrrrt.lbllllllttttr
+2 blbrrrr.llllblltrrrrtrbb..lbrrlll..ltttt
+2 tlrbbbbrrrrcbbbbR..R..R...R.R.Rttttrrrrr
+2 rbbbbr.......
+R 18876
+0 0
+1 Alex
+2 .......rtRbl....r.Rtttr..brbR..trTrr....
+2 .lttTrr.................................
+2 .......lr.......t.b.mlt.......brrblbbb.l
+2 Lr...tttt...trr...bbbrrttRtt.rbll..l....
+2 rrr.rb.......bB..tt....llr..rbbbbB..l.tl
+2 ltlll.......ttrr..t..........tt.....l.sb
+2 bbb........l.ttt.......bbbb..l.bbr....Bl
+2 ttttttttl.....l.....rrr..r......ltT...b.
+2 lblll..rbbb...bbb...brrrrrl...tttttttttl
+2 ..bbbbblll...Lr.bbbbrrbrrlltll..........
+2 .ttttttll.lbLtrr....lllbbrttrrrrrbbbb...
+2 .......bbll....l......Bttttttrrrbb.rblt.
+2 ......rrrrrbr.Rlt......rbb.ltl.lllllttt.
+2 bbb...rrrrrtttTbbllltttttr..mbbbbR..bbbb
+2 ......b......R.l.........rtt....tttrrrrt
+2 tlbblltlttr...t...........rrtrlblb..l.lb
+2 bbbb.......l.................ttt..bb....
+2 ............t...b.......................
+2 ........................................
+2 ........................................
+2 ........................................
+2 .............b...r......................
+2 ....................b...................
+2 ...l.........................r...lt..tt.
+2 rr...bbrr..l....rr...tt....t.bRttr..br.l
+2 .ll..bb.tr..brrrttbbbll.utttrttlrbbrbl..
+2 .blbb..l..l......lblbb....llb.uttr.....l
+2 bbb.urr........bR.R..Rttttrrrrrbbll.ttll
+2 ..tttlbb..b.t.bb.tt.bbbbbR.R..Rtttttllll
+2 llBrrrrrrtrrrr.tr.tl.l.l.l.l.l.lrrrttlll
+2 rrrbbbbl..llbbllbbbbRLR..R...R.....ttttr
+2 rrttttrrttlsbbbbbbbbb...RBtttll.r.lbblrt
+2 t.lllbbbbR.R..Rttrrrr.l.r.ttllbblbbbRttr
+2 rrrrbrbr........
+
+uuid b8838e67f28839ee645ef58f20b341b2
+
+leaderboard steps time gems

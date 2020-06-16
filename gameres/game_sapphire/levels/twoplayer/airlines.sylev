@@ -1,0 +1,45 @@
+n Austrian Airlines
+ldeutsch n Austrian Airlines
+D 5
+C 6
+E 0
+p 0
+M 0 Nobody does it Better
+i Welcome on board of the
+i dinner flight 107 to vienna.
+i This is your captain,
+i I hope you enjoy your
+i journey.
+ldeutsch i Willkommen an Bord des
+ldeutsch i Flugs 107 nach Wien.
+ldeutsch i Hier spricht der Kapitän,
+ldeutsch i Ich wünsche ihnen eine
+ldeutsch i angenehme Reise.
+a Reinhard
+m 15 10
+###############
+#            1E
+#            2E
+#...0         #
+#...#       #.#
+#..#       #..#
+#.#       #..@#
+##       #..@.#
+#    5 5#..@..#
+###############
+R 8560
+0 1
+1 Demo 1
+2 ..........llllll..bbbbbb..l......l......
+2 ...l.....r.....................l.l.ll.l.
+2 l.l.t.t.l.l.l..l.t....b...r.....r.......
+2 ..rrrrrrrrrrrrrr....t...r.r.b.b.b.l.b.l.
+2 b.l.b.l.b.l.r.t.r.t.r.t.r.t.t.t..tl.l.l.
+2 lr....blb...llll......t.t.t..........t.t
+2 ..........rrrrrrrr......................
+2 ...........b.brbrbrb.b.l.b.b.l.r.r.t.t.t
+2 .t.t.trtrr...b.r................
+
+uuid bce0ee393731cd8f687f0f89d6bdb9fe
+
+leaderboard steps time

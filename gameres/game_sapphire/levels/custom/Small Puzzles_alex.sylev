@@ -1,0 +1,43 @@
+n Small Puzzles (Alex)
+D 5
+p 0
+d 30
+o 6
+Time
+i Small but tricky.
+i Speed required.
+a Alexander
+f Alexander
+m 42 16
+~  ###################################    
+~  #SSS  SSSSSSSSSSSSSSSSS           #    
+~###...  .................       [   #    
+~#Q#   Q  Q                  [       #    
+~#$#  ssssssssssss    sssg        *  #    
+~# #Y##dddddddddddd###           $** #    
+~# # #              ###### ##G############
+~#  R 0                R # #     R       #
+##R# ##            .@ c# # #     R o    o#
+# r  ##ssssssssssss.## # # #     R       #
+# 1**##ssssssssssss.#  R &#&     R       #
+#$$$(##SSSSSSSSSSSS.#  # R Y     R       #
+######################R#c###c    R       #
+~                    # y # #     R o     #
+~                    ##### #     R       E
+~                          ###############
+R 47804
+0 0
+1 Puzzles
+2 TrRbRlLtttrr............................
+2 .....................r..rrrrrrrrrrrrrbr.
+2 rtrrbbblbbRttrtttllllltllllllllllllblllb
+2 rrttttrrrtrrbrrrrrrrrll.....rrrrrrrrrrrr
+2 rtrrbllllllllllllbttl..brtllbr.rrrrrrrrr
+2 rrrrrrrrbbLRtttllllltlbrbllllllllllltllb
+2 rtrbrtrRlllblllllllltllbrrrrrrrrrrrrrrrr
+2 r.rbbrrrrbbbbbbbb..LtttllltlbbrRlttrbrrr
+2 rrrttttr..l..........bbbbbbbrrrrrrrr.
+
+uuid 8c37fa2c4e5fe0f806cfb9fdf3be3adf
+
+leaderboard steps time

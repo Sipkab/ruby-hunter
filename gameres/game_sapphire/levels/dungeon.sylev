@@ -1,0 +1,102 @@
+n Dungeon
+ldeutsch n Verlies
+D 5
+C 2
+s 0
+p 0
+o 2
+w 500
+M 0 Indy
+i Lots of rooms.
+i Lots of monsters.
+i Lots of tricks.
+ldeutsch i Viele Räume.
+ldeutsch i Viele Monster.
+ldeutsch i Viele Tricks.
+a Bruce & Alexander
+m 50 19
+++                  +++++++++++++++++++++++++++++ 
+E+++++++++++++++++++++ Y R R Y Y Y  + G + S     + 
++          B ! o     +Y R r R Y Y+ ++ + + . +++++ 
+++++++++++++Q+++++++++ Y R R   Y + +gG+ + + +     
++o7     R Q . R  Y Y  Y Y Y Y Y Y+ +  + + + +     
++w+++++G++++++++++Y+++++++ Y Y Y + + ++ + + +     
++   +S+   7              +Y Y Y Y+^+ +* Y + +     
++   % Y                  + Y Y Y + +o++++B+ +     
++ +++ +++++___ ++++++++  +Y Y Y Y+ +  w+ $+V+     
++ |1| +   ++ +++++   ++  + Y Y Y + + +++B++ ++++++
++ +++ +    + +$+++   +   +++++++++ + +    + + 7  +
++    <+    + +++++   +   +%       .+ +    + +    +
++++++++    +  *+++   + * ++R++++++++.+    + +    +
+~          +++++++   +++++   ++     .+    + +    +
+~                        +   R  ++++ +    + +    +
+~                        ++++++++  +w+    + +b 5 +
+~                                  +++++++++++++++
+~                                         +*+     
+~                                         +++     
+y ~     *y*
+y +++* B+G+
+y G RY8GR Y
+R 11081
+0 1
+1 2 Chaotic 4 Me
+2 ..................................tllbbB
+2 ttrrrrbBtt.................rrrrrrrrrrrrr
+2 rr..r.rbrb.....bbb.L.....ttttttlllllltrr
+2 rrrrtlbltTbrtrblllllllllLrrrrrrrrrtrtr..
+2 ....................rbbbbbbbbbblllllllbb
+2 rrrtrrrrrbBtTl..rtttttrRlttttTrttrbbbbbL
+2 rttttR...................rlbbbbl........
+2 .................................r...t..
+2 ..tttrrbbbbbbbbbbbbbbBtl..............rt
+2 rBllltttttrtltttttlbblbbbbbbbbblllllblll
+2 ttLrrrrrrttttttttttllblbllllllll........
+2 ...........lttlbbbbblllllllllltTrrrbrrtt
+2 rrllbbrrrrlllll....................r..rr
+2 rrrl.....rrrrbbBllbbbrRlttttttltrlbl...r
+2 tttrtlllllllllsr.........llltl...
+R 38488
+0 1
+1 Demo 2
+2 ........................................
+2 .......................tllbbBttrrrrbBttr
+2 rrrrrrrrrrrrrrrrrbbbbbL....ttttttllllllt
+2 rrrrrrtlbbltttbbrtrblllllllllLrr.....rrl
+2 lrrrrrrrtrtrrl..........................
+2 .....rrbbbbbbbbbblllllllbbrrrtrrrrrbBtTl
+2 ll.rrrtttttrRlttttTrttrbbbbbLrrttttRr...
+2 ......rlbbbbl...........................
+2 .....................rttttrrbbbbbbbbbbbb
+2 bBbBtlltr...........r.rBllltttttrtlttttt
+2 lbbblbbbbbbbbblllllblllttLrrrrrrtttttttt
+2 ttlblbllltrrblllllllllltbbblllbllllllltT
+2 rrbrrr.t..blll.rr..............rt.......
+2 .trrllbrbrrrrll....rrrrbbBllbbbrRltttttt
+2 rtltltrtRl..........llllllllsrr.......ll
+2 lltl......
+R 18765
+0 1
+1 Demo 3
+2 ........................................
+2 ..trrbbttllllbbbttt.rrrrt..rrrrrrrrrrrr.
+2 .tttrrrr.rr..bb......tt...tlbbbltttt.bb.
+2 rr.tttr.....r...l........rrr.l..........
+2 .....rrr.l...............rrr.bbbbbbbbbbl
+2 llllllbbrrrtrrr...rrbb.tl.r...Tll.......
+2 ............rrttttttttttbrttrbbbbblrrttt
+2 trl.........................r....rbbbbbb
+2 bbb.....ttttttttttrr.......llbbbbbbbbbbb
+2 bbbbb.ttl.....r.t.....r.Bl.bllttttttrtt.
+2 bltttttlbblbbbbbbbbblllllbllltt.lrrrrrrr
+2 ttttttttttll...b..lbllllllll......l.....
+2 .....l..rr..............l......l...bblll
+2 lblllllltt.brrr..r.........rtt...b......
+2 .t.rr..r.bblbrrr.ll...rrrbbbtllbbbrrlltt
+2 ttrtttt..t..Tb..r.......l.ttll..rrbbbbrr
+2 rrrrrrrrbbbbbbtttttlllllllllll....t.ltrt
+2 ttlllllllll.............................
+2 .........srr......llllltl........
+
+uuid d89a325fc8b45c0aefe14be4fc5f71
+
+leaderboard steps time

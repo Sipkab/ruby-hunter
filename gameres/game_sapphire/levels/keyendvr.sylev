@@ -1,0 +1,50 @@
+n Key Endeavor
+ldeutsch n Schlüsselvergnügen
+D 2
+C 1
+i Get the keys,
+i collect all the gems.
+ldeutsch i Sammle alle Schlüssel
+ldeutsch i und dann die Edelsteine.
+a Linda
+m 25 25
+#########################
+#..         1         ..#
+#..*    0 * . * 0    *..#
+#...    .........    ...#
+#...        .        ...#
+#....       .       ....#
+#..... @ *((.((* @ .....#
+####...................y#
+#$ #...$..(...*...#######
+## #............*...b.(.#
+##B#.r..............#####
+##......(......(.....G *#
+#....................####
+#........$........$.....#
+#$.*.........*..*.......#
+###########.............#
+#     Y *.#...........g.#
+# . #######........##R###
+# .$...............## .##
+# ##.......b.......#($(##
+#(##$..............######
+# ########..............#
+# ##(....#........*.....#
+#*## * B ..............E#
+#########################
+R 24090
+0 9
+1 Nonstop
+2 ..llb.rrrrrrrrrrrrllllllllllllllllllllbb
+2 bbrrrtrrbrrrrrrrrtrrbbrrrrrrllllllbbllll
+2 llllllllbrttrrb.lrrrrrrrrrrrrrrrllllbbll
+2 llllllllllllllttlrrbbbrrrrbrrrrrrrrrrrrr
+2 rrbbbr.llbr.b..llblrrltttllttttrrrlllbbb
+2 llllllllllllllllllrrrrrrrrrrbbbbblllllll
+2 BttlllbbbbBttttttrrrrrr.rlllllbbrrrrrrrb
+2 bbbblllllrrrrrrrrrrrrrTrrrrrr
+
+uuid 815db421df540ab11f16758b16bb63ab
+
+leaderboard steps time

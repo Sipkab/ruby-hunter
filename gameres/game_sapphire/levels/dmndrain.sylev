@@ -1,0 +1,48 @@
+n Diamond rain
+ldeutsch n Diamantregen
+D 2
+C 3
+T 700
+M 0 Staying Alive
+i Go for cover,
+i diamonds are hard.
+ldeutsch i In Deckung!
+ldeutsch i Diamanten sind hart.
+a Michi
+m 22 22
+######################
+#$$$$$$$ $$$$$$$$$$$$#
+#$$ $$$ $$$y$ $$$$$$ #
+#$$$$$$$  $$$$$ $$$$$#
+#$$$b$$$$$r$$$$$$$$$$#
+#  $$$ $$$$$ $$.$$$$$#
+#$$$$$ $$$$$$$$$$$$$$#
+#$$$$$$$$ $$$$ $$$$$$#
+#$$ $$$$$$$$$$$$$$  $#
+#$$$$ $$$$$$$$$$$$$$$#
+#                    #
+#                    #
+#                    #
+#                    #
+#                    #
+#                    #
+#                    #
+#                    #
+#                    #
+########     _       #
+#E Y R B            1#
+######################
+R 15489
+0 0
+1 Demo 1
+2 .lllllll......rrrrrrrttttttllllllltltb.l
+2 llllltlltllllbrrrbbbblllttrrrrrtbrrrrrrr
+2 brrrrrbrrbllltllllltlllllllllllbrrrrrrrr
+2 rrbllllllllllbrrrrrrrrrrrtrrrrbllL.rrrrr
+2 rbbltlbltlbltbllt.rblllltlllbrR.tttttttt
+2 ttttttttllllLTrrrrrrttrrrrbbbbbbbbblbbbb
+2 bblbblblbblllllllll........
+
+uuid b090c1e7fe2ee9cc31f37f5805c1e588
+
+leaderboard steps time

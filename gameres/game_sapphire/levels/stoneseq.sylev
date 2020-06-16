@@ -1,0 +1,60 @@
+n Stone Sequences
+ldeutsch n Zugfolgen mit Steinen
+D 8
+C 3
+p 0
+Y
+M 0 FF7choct
+i Think first, think twice
+i and run the rest of the way.
+ldeutsch i Erst denken, zweimal denken
+ldeutsch i und den Rest des Weges laufen.
+a Ronald
+m 17 27
+#################
+00.!!! #$+...00.#
+00.### ###.Q....#
+00.#  1  #.Q* ..#
+00.# 0 ..####.. #
+00.#0.0  #  E.  #
+00.#0+Q+|# ##0. #
+000#|++ ##0#000 #
+#*.##| @##.0##. #
+###0$##.0#0!.#$ #
+#  ..  .0#.0 ##E#
+# #cc###0#.######
+#  ..!!!.#     >#
+###++### #      #
+#        #      #
+#   |#  ## >    #
+#  @#   ##.######
+# @#   #$#  .000#
+#c#   #$$#  .000#
+# #  #$$$#  .000#
+#.+  #$$$   .000#
+#Q###########0.0#
+#++#0.0..0....Q.#
+#$*#..0@....#..0#
+#**#.0.0.@0.#.0.#
+#$*....0*..@#...#
+#################
+y ~        
+R 5380
+0 1
+1 Demo 1
+2 .ttllllb.urr.....lllllbbb.utl....bbbbbbb
+2 b.rbbuttlbb..bbbbbb.rbbLtttttttrrrrbbllb
+2 rbrrtl..bbbbbbrbbllllllbbrrrrrrrbbllll..
+2 ...srbblsttllllll....lbbl.brttrrtrrbbbll
+2 bbbl...stt........bblll..Trrr...lllbbbrb
+2 lbrr..r.T.rr.l.........r.lt.r..blt..l..r
+2 ..trr.r.R....trrbr.Bltllbrr.lbbrR.....ll
+2 tt.blllt.Lb.Lrrrrrrttrrbbbrrtltrtlt.....
+2 ..rtllllllllllt..r..R.rblrrrttt.........
+2 ...........tttttttrtltrlltttrmbb........
+2 ttrrrrtttrllbltrrbbbllrtttlltllbrlbttrrr
+2 blblrtt..lllLrrrrrrrbbbbbbbbLb.....
+
+uuid 6c921352fdd8d943ff15192f49b2e56e
+
+leaderboard steps time

@@ -1,0 +1,40 @@
+n Triangle
+ldeutsch n Dreieck
+D 2
+C 3
+M 0 Just do it
+i Not much to do wrong here.
+i Collect the gems quickly
+i and get out before the
+i swamp fills up the area.
+ldeutsch i Hier gibt es nicht viel, was
+ldeutsch i du falsch machen kannst.
+ldeutsch i Sammle die Edelsteine rasch
+ldeutsch i ein und hau ab bevor der Sumpf
+ldeutsch i die ganze Gegend anfüllt.
+a Anica
+m 15 14
+###############
+#E.....$...../#
+#.....$y$.....#
+#....$*$*$....#
+#...$*$b$*$...#
+#..$*$*$*$*$..#
+#.$*$*$*$*$*$.#
+#.............#
+#_..***.......#
+#.....***.....#
+#Y......***..B#
+# _.......**_ #
+#*_.1._....._*#
+###############
+R 28846
+0 8
+1 Demo 1
+2 ..ttttllttrtrtrtrtrurbb.rllblrrrrbrlllll
+2 lblrrrrrrrrrbbbbB.lltlbll..bRtlltlltllll
+2 blbb.rtttrttttttttl........
+
+uuid a3c0aa8cd5c58e02b291bfbd2c02e16a
+
+leaderboard steps time

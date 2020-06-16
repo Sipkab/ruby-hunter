@@ -1,0 +1,66 @@
+n The Machine II
+ldeutsch n Die Maschine II
+D 8
+C 7
+E 0
+M 0 Nightshift
+i Timing is essential here.
+i You can also build some kind of
+i remote control to simultaneously
+i ignite the two fuses.
+ldeutsch i Timing ist hier wichtig.
+ldeutsch i Man kann auch eine Art
+ldeutsch i von Fernsteuerung bauen,
+ldeutsch i um beide Explosionsketten
+ldeutsch i gleichzeitig zu starten.
+a Ronald
+m 35 25
+###################################
+#1.............*.....0....0.......#
+#....0.....$.................$..*.#
+#.$.....0.........................#
+#..........................0......#
+#..0....0......................0..#
+#.............0$.0................#
+#..*...0...............0..........#
+#....0........0...............0...#
+#...0.0...........0..$...0......0.#
+#.....................$...........#
+#..0.......*.0..$...........0..$..#
+#.....0............*....0.........#
+#.................................#
+#   #Q###################Q#       #
+#   #QQQQQQQQ#  #  QQQQQQQ#       #
+#    #######Q# Q# Q##Q#####       #
+#          #Q#*+#Q##Q##           #
+#          #Q#+#Q# #Q##           #
+#          ##Q  #  #QQQ#          #
+#    E       #     ###Q#          #
+#            #QQQQQQQQQ#          #
+#            #+#########          #
+#                                 #
+###################################
+R 16301
+0 1
+1 Demo 1
+2 .rrrrrbrrrrrrrRllllllltllbrrrrrrrrrrbbrl
+2 llllllrrrrrrrrrblllllltllbrrrrrrrrrrrbll
+2 llllllllrr.Brrrrrrrrrrrrrrblltl..Bllbrrr
+2 rrrblllltllbrrrrrrrrblltllbrrrrrblllllrr
+2 rrrrrbllltllbrrrrrrrrrlbbtttttttllltttrr
+2 rrrrrrrrrttrrrb.trrrrlllbrrrrrllllllr.l.
+2 bbL.ttrrrrrrrrrrrrrrRlllllllllllllllll.b
+2 bll....btrrrrrrrrrtrrblllllllllllllllbB.
+2 .t.brrrrrrrrrrrrtrrblllllllllllllllllllr
+2 bbrrrtrrbllllllllr.lbrrrrrrrrrtrrbllllll
+2 llllllllbrrrtrrbllllrrllbrrrrrrrrrrrllll
+2 Bllllllllllbrrrrtrrblllllll.rbbtttttttll
+2 llltttlttllllbb..LR..lllllllllbbbbbb.llb
+2 bbll..b.r..bbbbbrrrrrrr.bbrbbrrbrRr.llll
+2 llllttttttllll..tttttrrrrrrrrrttrrrrbbrr
+2 r.llRrrRllltttttttttllb..rrrrlllllllllll
+2 bbbbllbbllbbbbbbbbbbrrrr
+
+uuid f20b7df5d17578168d5268cbeaa1ffe1
+
+leaderboard steps time

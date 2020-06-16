@@ -1,0 +1,38 @@
+n Street Paver
+D 4
+C 3
+e 5
+s 0
+p 0
+M 0 FF7choct
+i Clear the road!
+lDEUTSCH i 
+a Shark
+m 27 15
+###############            
+#0...........1#            
+#......0......#            
+#.............#            
+#.0...........#            
+#.............#############
+#......0......+.         %#
+#*............+         < #
+#.............+.          #
+#.............#############
+#...........c.#            
+#.............#            
+#.............#            
+#.............E            
+###############            
+y +++V/++++
+R 20405
+0 0
+1 Demo 1
+2 rrblllllbbbbbbbrtrbrtrbrbbllbrrbllttrrtt
+2 llllllttlttrttlbbbbbb.r.r.r.r.rlllllllll
+2 ttttltttrbbbbL.bblT.brrrrrrrrrrlllllltll
+2 llbrrrrrrrrrr.bbbrblrrr.....
+
+uuid a4b45c15a0b37a3b398dbb595fe64dc4
+
+leaderboard steps time

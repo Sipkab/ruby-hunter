@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config xmlns="bence.sipka.types.config" >
+<!-- 
+    <declare-flag name="TextureOptions" >
+
+        <flag
+            name="RENDER_TARGET"
+            value="0x01" />
+
+        <flag
+            name="RENDER_MULTIPLE"
+            value="0x03" />
+
+        <flag
+            name="RENDER_WITH_DEPTH_BUFFER"
+            value="0x05" />
+    </declare-flag>
+ -->
+</Config>

@@ -1,0 +1,54 @@
+n Tower
+D 4
+p 0
+Time
+f Alexander
+i A dissolving tower.
+a Alexander
+m 10 30
+~   Q &   
+E  R#     
+~   Q     
+~  R#     
+~   Q     
+~  R#     
+~   Q     
+~  R#     
+~   Q     
+~  R#     
+~   Q     
+~  R#     
+~   Q     
+~  R#     
+~   Q     
+~  R#     
+~   Q     
+~  R#     
+~   Q     
+~  R#     
+~   Q     
+~  R#     
+~   Q     
+~  R#     
+~   Q     
+~  R#     
+~   Q     
+~  R#     
+1r  Q     
+~   #     
+R 4216
+0 0
+1 Demo 1
+2 rrrrltrltrltrltrltrltrltrltrltrltrlt.rlt
+2 rltrltrl......rrrbbbbbbbbbbbbbbbbbbbbbbb
+2 bbbbbBllltttttttttttttlllt......
+R 6551
+0 0
+1 Demo 2
+2 rrrrltrltrltrltrltrltrltrltrltrltrltrltr
+2 ltrltrl....bbbbbbbbbbbbbbr.......rb.....
+2 ...Rtlltttttttttttttlllt......
+
+uuid 5a2e0647beef7b4c200e9b0eda642a16
+
+leaderboard steps time

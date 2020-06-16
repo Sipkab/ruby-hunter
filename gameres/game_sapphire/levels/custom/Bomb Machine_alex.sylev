@@ -1,0 +1,36 @@
+n Bomb Machine (Alex)
+D 4
+e 7
+s 0
+M 0 Bomb
+i Get the emeralds. Get
+i out.
+a Alexander
+m 20 15
+_   % #        %   _
+|_    #           _|
+~|_   #          _| 
+~ |_^ #        ^_|  
+~  |_          _|   
+~   |_        _|    
+~    |_      _|     
+~     |_    _|      
+~      |_  _|       
+~       |  |        
+~     1            E
+~       &+&+        
+~       +&+&        
+~       ++&+        
+~       &+++        
+y ~%$  + ^Q
+R 1491
+0 8
+1 Grab 'n' Go
+2 ...rb......t.b..lr.....rrrrrtrrrr.....ll
+2 llbbLrrrrrrtttttttrrt...................
+2 ..............l.bbbbbbbbbb.lLttttrrr....
+2 .
+
+uuid 5801829e2fd7e4202683b9374ce1a692
+
+leaderboard steps time gems

@@ -1,0 +1,63 @@
+n Tiptoe Through The Mine Field
+D 5
+C 3
+p 0
+M 0 Stars
+i Well, this is actually LOW security
+i So, it's easier than you think
+a Nic01
+f Nic01
+m 27 36
+###########################
+###########################
+###########################
+####QQQQQQQQQQQQQQQQQQQ####
+####...................####
+#### #################.Q###
+###m0.QQQ...00......Q#.Q###
+######Q..QQ....QQQQQ0#.Q###
+"""#E#Q..Q.QQQQ.Q...0#.Q###
+""#Q.#Q.Q.*....*.QQ.0#.Q###
+""#Q.#Q..**.$$.**...0#.Q###
+""#Q.#Q.Q..*QQ*..QQ..#.Q###
+""#Q.#Q...**..**...Q.#.Q###
+""#Q.#.**.*.QQ.*.**..#.Q###
+""#Q.#Q.*...QQ...*.QQ#.Q###
+""#Q.#.Q.Q.Q..Q.Q...m#.Q###
+""#Q.#..QQ...QQ...Q.Q#.Q###
+""#Q.#.Q.Q..Q..Q.QQ.m#.Q###
+""#Q.#QQQ..Q....Q...Q#.Q###
+""#Q.#...............#.Q###
+""#Q.########.########.Q###
+""#Q.#.Q .Q ..#...#1##.Q###
+""#Q.#..Q .Q .#QQ(QQ##.Q###
+""#!.#..QQ QQ #Q..# ##.Q###
+""#Q.#.########Q..# ##.Q###
+""#Q.#..Q......QQ(Q ##.Q###
+""#Q.#....############.Q###
+""#Q.#################.Q###
+""#Q.QQQQQQQQQQQQQQQQQ.####
+""#Q...................####
+""#+################## ####
+QQQQ#######################
+######                   ##
+## ###                   ##
+###########################
+###########################
+R 64871
+0 8
+1 Demo 1
+2 ..lbbbbbbbbbl....lTllllllllbllltttttrbbl
+2 bb...tttttrrtrrrrrrrrttlLrrr..r.....llll
+2 ll.rt.r........rtrrrbr....r.trttlbb.trtt
+2 ltlbbbllt.......l.b.ltbrtrtttlttlLrrTRll
+2 lllTL.rbblbllLBrrrtrrrrr...lllllblllrr..
+2 .lltlttRttRtRltl...rrrrrrbrltllllllltt..
+2 ...bbrr..lllllttRbb.tttttrrrrrrrrrrrrrrr
+2 rrr......bbbbbbbbbbbbbbbbbbbbbbbbbllllll
+2 lllllllllllltttttt.l...bcb..rttttttttttt
+2 tttttttttt......
+
+uuid 10992e87e05b749f998396137130e8c8
+
+leaderboard steps time

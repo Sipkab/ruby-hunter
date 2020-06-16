@@ -1,0 +1,57 @@
+n Transfixed (Shark)
+D 6
+C 3
+e 7
+p 0
+d 64
+i It's like a balance that never
+i ends, only it does.
+a Shark
+m 14 35
+############  
+#.....0....#  
+#......(...#  
+#....Q.....#  
+#..QQ?Q .Q.#  
+#..Q... .Q.#  
+#..QQQ.$.Q.#  
+#..Q....QQ.#  
+#..Q..Q..Q.#  
+#QQQQQ..QQ.#  
+#Q..... .Q.#  
+#Q..QQ( QQ.#  
+#Q..Q.. ...#  
+#Q..Q.. ...#  
+#Q.Q.#  #  #  
+#Q..Q#cc#  #  
+#Q.QQ#  #  #  
+#Q..Q#  #  #  
+#QQQ.#cc#  #  
+#.Q.Q#  #  #  
+######  #  ###
+##  2#cc#  ##d
+#  ###  #  #  
+#    #  ####  
+###  #cc# 1#Q#
+#    #  ## #(#
+# ## #  #  #(#
+#    #  : ::$#
+#  # #  #  ###
+##        +#  
+#######:####  
+~   #++"+#    
+~   #++++#    
+~   #E+&+#    
+~   ######    
+R 94280
+0 0
+1 Demo 1
+2 blbllbbbbrbrlblbTb.b.b.brr.r.T..........
+2 .......................................l
+2 l.r.rrllllrrrrllllrrrrllllrrrrllllrrrrll
+2 llrrrrllllrrrrllllrrr.........l.brbbbbbb
+2 lRllbb..l...........
+
+uuid a92478fdd04f5c04b84a68652a156873
+
+leaderboard steps time

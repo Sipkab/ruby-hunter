@@ -1,0 +1,38 @@
+n Slow Go
+D 5
+C 2
+e 2
+p 0
+M 0 Staying Alive
+i Go slow.
+a Shark
+m 15 13
+###############
+#       #     #
+#8+ # +   + # #
+#   # 7 # 7 #1#
+## ############
+#   # k     # #
+# + # + # +6# #
+# 7 E   #   * #
+# ########### #
+# 5 #   # 5 * #
+# + # +6  + # #
+#       #   # #
+###############
+R 35735
+0 0
+1 Demo 1
+2 tt....ll.ll.bb..t.lltllllllbb.r.bbl.bb.b
+2 b.bb.rrrrrrt..rrbrr.ttrrtt.......lltt.ll
+2 lrb...brrttllllbblll.....
+R 31869
+0 0
+1 Demo 1
+2 ...tt..l..lllb...l.lt.llllllbb..rb.blbbb
+2 ..bbb.rrrrrr.tr.rbrr..ttrrt......t......
+2 ......ll.ttllllbbllll........
+
+uuid baebde9ecd0711eb03923251caedc95a
+
+leaderboard steps time

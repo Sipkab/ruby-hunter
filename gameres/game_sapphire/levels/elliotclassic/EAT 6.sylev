@@ -1,0 +1,43 @@
+n EAT 6
+D 4
+p 0
+A graphite
+M 0 Under the Sea
+N EAT 7
+i A simple timing trick is required
+i to get all the stone through the
+i converter. Get to the bag in time
+i to push it under the stone that the
+i YamYam will spawwn.
+lDEUTSCH i 
+a Elliot
+m 17 13
+m0+          :(! 
+m0+          :(! 
+m0+          :(! 
+m0+          :(! 
+!0+          :(? 
+1..   y     c:#  
+1###########     
+#+++++    #y ##  
+~++>?+    #   #  
+~+++++  ### | #  
+##s###### Y #####
+~         #####  
+E  @             
+y +++|>?+++
+y ++++>?+++
+y ++++>?+++
+y ++++>?+++
+y 0  +(? # 
+R 69291
+0 8
+1 Demo
+2 ..tr.......rrrrrrrrrrrrl..r....r....ml..
+2 .....rrrrbbblbbblbbllllll.r.l.lrrrrrrrtt
+2 rtttrrbtrrtrrr.bbbbrrttbbtttttllllbrblll
+2 blllbblbbllbllllllllll.tlbblbb.......
+
+uuid 03548d09982b9958245acc31c22e2873
+
+leaderboard steps time

@@ -1,0 +1,41 @@
+n Nuclear Power Plant
+ldeutsch n Atomkraftwerk
+D 4
+C 6
+e 69
+M 0 Downunder
+i The worst possible scenario
+i for this type of reactor
+i is a nuclear meltdown.
+i In this case however, you
+i probably want this to happen.
+ldeutsch i Das schlimmstmögliche Szenario
+ldeutsch i für diesen Reaktortyp ist eine
+ldeutsch i Kernschmelze.
+ldeutsch i Hier allerdings möchte man
+ldeutsch i womöglich genau das.
+a Reinhard
+m 20 12
+####################
+#*$(...Q.........1E#
+#...........Q...Q..#
+#..Q....#:#........#
+#......#(((#.......#
+#.Q...#(((((#......#
+#.....:(("((:..Q...#
+#.....#(((((#......#
+#...Q..#(((#...Q...#
+#.......#+#........#
+#..................#
+####################
+R 25614
+0 0
+1 Demo 1
+2 ..lllllllblllll....bbbbll.rrtttl.rbbbbbb
+2 blllltttttttr..r.bb.tttl.tl.b..rr..bb..l
+2 lbb.r.ltt........rrbbbrrbbbrrrrttltltrrr
+2 r.lbrlblbbrrrrrrrrrttttttttt..........
+
+uuid 1c466b384024ba524166217fe4b88dca
+
+leaderboard steps time

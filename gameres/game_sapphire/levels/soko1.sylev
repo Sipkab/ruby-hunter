@@ -1,0 +1,62 @@
+n Soko I
+ldeutsch n Soko I
+D 6
+C 5
+s 0
+p 0
+Y
+A GRAPHITE
+O ALT-SET1
+S SOFT
+i It should be fairly obvious
+i where to place the safes.
+i For conversion you have
+i one rock, an elevator and
+i a time bomb.
+ldeutsch i Wo die Safes hinmüssen, ist wohl
+ldeutsch i klar - oder ? Für die Umwandlung
+ldeutsch i gibt es eine Zeitbombe, einen
+ldeutsch i Stein und einen Aufzug.
+a Jürgen B.
+m 16 12
+++0...+..+++++..
+<+.  +         .
+(QQ  +  +A++++ .
+:++   + +H++++[#
+<.+ C +  H     .
+(.+ K  [#+[[+  .
+:++ C+      QQ .
+:.K K+#1#+ [++ @
+<.K K++ K+     +
+:.+ ++# #+ ++  #
++++++!0....aaaE#
++++++++{++a#####
+y ~   %<   
+R 36018
+0 0
+1 Ausweichmanöver
+ldeutsch 1 Evasive action
+2 trrrbbrrrrttttttrttlblllllllbbbblbrrlbbb
+2 brrrttrrrrttttttrtllllllltlbbbbblbrbbbbr
+2 rrttttrblbrrrbrtttttllllbtrbtrrrttrtllll
+2 llltlbbbbbllttllttlrr.....bb.lbbb.......
+2 .............tlllrtttlrrbbrrrrr...r....r
+2 ....rbbblbrr.tltbblltttltrrrtrbrbblllrbb
+2 lltttltrrrrtrbllllbbbbllbbr..rttttttttlt
+2 trrbbbbrrrlbtllbbrrrrrbrtlllttltrrtrbbtl
+2 lbrrtrrbbbrltttllbblbrrlttr.br..bbttrbbt
+2 tllbbltttlllbrrtrbbbrtrrbltllllbbbrrrrrt
+2 trtlllltlbbtrrbll....btrtrrrblllb.l..lll
+2 bbrrrllr...tttttrtllllrrrrrrrbbbbbllllbl
+2 tttttr.tlrrrrrbbbbblttrtlllllllrrrrrrbbb
+2 lttrtlllltttllbb...utttrr..bbbbbbbl.....
+2 .l..rrbb..l.rttttttttttll.......bbbbb.t.
+2 bl...btt.rtr.lltttr.bbb...r..blbbbbbbllt
+2 tr.l..r..rtttttltttrrrrrbbbbbbbbbbll....
+2 ..........lttttttttltt.r.......bbbrr.lbr
+2 bbbbllttrllttttttrbbbbrrrr.bbbbbbrtrrrrr
+2 b.........
+
+uuid 21e66256197d2fc59ab605ded32947bb
+
+leaderboard steps time

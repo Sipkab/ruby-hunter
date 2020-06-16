@@ -1,0 +1,34 @@
+n The level of the cake
+ldeutsch n Der Kuchenlevel
+D 7
+C 1
+p 0
+M 0 Take Five
+i Eat the cake piece by piece.
+ldeutsch i Iss den Kuchen Stück für Stück.
+a Anica, Ronald
+f A lucky Ronald
+m 12 6
+############
+#  .Q.Q.Q..#
+#  .$.$.$..#
+#1 .Q.Q.Q..#
+#E .$.$.$..#
+############
+R 46109
+0 8
+1 The first bit
+ldeutsch 1 Das erste Bißchen
+2 ..rrt..T.......bb.ltttttrrrb............
+2 ....bb.l..............LrttrrTbbLr..L.lll
+2 llll........
+R 85725
+0 8
+1 Second bite
+ldeutsch 1 Zweiter Bissen
+2 ...rttr.b.bl......rt.trr..b.bl.....r.ttr
+2 r..bbl....rtrr.bl..b...llllllll.......
+
+uuid be211eade903c26030fd075e7c4925b2
+
+leaderboard steps time

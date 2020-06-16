@@ -1,0 +1,161 @@
+n YamYam Cage
+D 3
+e 8
+s 50
+p 9
+i Crush the Yam-Yams with
+i your rocks.
+a Alexander
+f Alexander
+m 15 15
+10""   +   +   
+~+    0  0    +
+~+  0 +0 +  0  
+~   +  +   0+ 0
+~ 0        +  +
+~0+   +     0 0
+~+  +    +  + +
+~  + +         
+~              
+ss+sssss+sss+ss
+~              
+<+     + + V +>
++   +   +      
+~     ^ ^^ +V++
+>  +   +     +E
+y %%%%%%%%%
+y %%%%%%%%%
+y QQQQQQQQQ
+y 000   @@@
+y _________
+y ///%.%///
+y #%## ##^#
+y &&&&?&&&&
+R 40270
+0 8
+1 The Crusher
+2 ..bbbrrtttrllb..l.........bbbbrrr..l.rrt
+2 t...r.t.rrrr...lrrrr.r.bbbbbb..b.lllltt.
+2 ........tt..........r..lbbbbb...b.r.RB..
+2 b.RLll.b.R.Bl.B.Bbb.L..rttt.rr..rr.utll.
+2 .........rrr.utl..t........b............
+2 b.....bbbrrrruttt..t..tr.lbbb.bbbr..b.ut
+2 tt.....r..bbbbutt.....r..bbbbbb
+R 39016
+0 8
+1 Swamp Danger
+2 .bbbrrtttrlll.rrbbbb.....t.llb.r...r.ttr
+2 r.rrtrrrrrr.rrrrblllrrbbbll..r..........
+2 llll.lll..t.mlllll...............r.llbbb
+2 r....r.t.cbllttttt..bbbbrrrtrrtrrrrrrrrr
+2 rllllllbbb...t.rr..b.ll.r.......ttt..rrr
+2 ..mllll...................rrrrrrrbbr.mll
+2 ll........................rrrrtt.r.mlll.
+2 ..................bbb.llltttttbbbbblllt.
+2 b.r.srtttttttl.......l..b.............bb
+2 bb..bb.tt.r.......bb.llllll.............
+2 .......................................t
+2 ttrrrrrr.l.l....rr.b.b..lll..mlltt....t.
+2 ...b...b...rrrbbb..t.ll.b.r...t.....tt..
+2 ..r......bbrrrrr....llllrrrr.tt......mll
+2 lll.....lltttttrrrrrrbbr.bbb.....b.b...l
+2 .............l.r.....lllll.rrrr...r.....
+2 ............r..tttttl.srbb......b...r.l.
+2 .ll.ttttbbbbrrr.l.bbbbbb...b.tt..t...r..
+2 r............................lllrr...ll.
+2 ....b..l.srtttt......lllllllbbbtutttl...
+2 ..bbbbb.uttt.rr..r...r.m...ll.b......r.t
+2 ttttlllb.rtrrbb.....b..ll.............rr
+2 r....b.....B.R.tttrrr..l.bbblllbbbbllbbr
+2 rrb..t.lltttttttrrttrrrrbbbbbrrrbbb.utt.
+2 ......bbbbbb.tt.l.srttt.....lll.sr.bbbb.
+2 .t.ll.rs..rtt...bbblllmsrrr....l.llllbbb
+2 tttrrrrr.bbbb.utttt.......bbbb.r..sr
+R 8860
+0 8
+1 Demo 3
+2 ..lbbbrrrtttll.rrbbb.b....t..llbrrttrrrr
+2 t.rrr..rrrrl.bbbbbb.r.b....lllllrrrttl..
+2 .......b..llllmlllttt....b...b.rrrrrrr.l
+2 llbb.utrrr......bllbbtu.ttt..........bbb
+2 bbutttt.....bbbbbbbbbtttttt.rrrrr....r..
+2 ....ll..r....llll..l..bbb.L..L..L.ll..lt
+2 t.srrbbbbbttttrrrrb.l....b.urrrrrr.bb.l.
+2 mlll......rrrrr.b..c
+R 9438
+0 8
+1 Demo 4
+2 .bbbrrrtttlllrrrllbbrrrllbllb.rrr.ttrrrr
+2 bttrrrrrrrrrrrblll.r.r.bbbll...r..b....b
+2 ...lllllllbll.mlllt......r.....r..l.ml.t
+2 tt..bb.r.l.bb....ttttttt.rrrrrr.ll......
+2 ..b...r.rrrrrbbbbbbbb..b.tuttt.........b
+2 bbb.....utt..........bb...uttt.........t
+2 ......bbr.mll...........rrrr.r...b......
+2 .t.........mlll.........................
+2 .....lllbbbbbb.l.b.b.mll........rrrr.mll
+2 l........t.bbrrrrrb.tt.r.R.R..rrrrt.ltt.
+2 rr..mll....................B.r.B.b..r..L
+2 ...l.B.l.r.b.l...r.uttrs.ttuttt......bbb
+2 ..bbbb.b....bbbb
+R 85235
+0 8
+1 Swamper
+2 bbbrrrtttllrbbblbrttrrrtrr.rrbbrrttrrrbl
+2 .llbbbbblllblll.srr.t....r.......rblllll
+2 rll.l.r.ssrrrr.....llllllb.utrrrr...blll
+2 bbbb.ut.r.utrr.....rr.l.tlllllbbbbblttt.
+2 rblbb.utt.....rl.rttl.srbbblbb.mll..t...
+2 ..csrtttt.rbbbbbttttttll...srrr....l...l
+2 lrbbbllll..srrr........bb.ull.....bbrrrb
+2 Rtr..b.mltuttt...bbbbll.srrrrrrrlBrtrrb.
+2 uttr.mllcbbrbrrsr
+R 3396
+0 8
+1 Pileup
+2 bbbrrrtttllrrbbrllblbrtttrrr.rl.rrrtrrbr
+2 rrbl..llbbbbbbtlllb....rr....tr....t..bb
+2 .......rr.mllluttt.......lbb....bb.t.bt.
+2 rrlllbllt..crrrrtr...lbbbbbtttrr.mllll.r
+2 rrbbbtttlll..srttll......rb..srrr......l
+2 lrrr.ll.lllb..r.r.b......uttt...rrr.b..b
+2 .utll.......rrbbbl.b.uttrrrr..lllbbbb.Rr
+2 .uttr.uttrttlllbbbbbbb.rrtrlllllllbbbbrb
+2 bt.mllltt..rrrtttrrrrrrbb...B.utttrbr.ll
+2 lrrbbbb.mllt......r.rbb.srutllll...rrbbb
+2 l.sssc
+R 6780
+0 8
+1 14 Emeralds
+2 bbbrrrtttllrrbbrllblb.rtttrrrr..rrtrrbrr
+2 rbl.l..llbbbb..b.lllb.rrrlltt....rb..b.l
+2 .uttrrrr.bbbllllbb..uttttr.....bbbbbb...
+2 ....tlllbllbblbtttrrrr.bb.rrrrbtllbll.rr
+2 rt.r.utrtttr..ll.r.bbbbb.....uttrrr...bb
+2 .l..mllttutt.ttllbbbbbbbbrrrrrssb
+R 6856
+0 8
+1 The Great Escape
+2 .bbbrrrtttllrrbbrllblbrtttr..rrr.r..rrbb
+2 rrttrrrbl.llbbbbb.lll.b..t.b.r.r..t.t...
+2 .t..lbbbbbttttt...ullll.......rrrr.mllll
+2 l......rrr..........b.rrrrbbb..sr.turrbr
+2 rrbbb...............ll....srtt..t....bb.
+2 .b.tl.ll.srttt.......bb...b..b..lll..sr.
+2 bb..srtttt.llllllllrrb.utt.......l.bbbbr
+2 ..uttt.....l.bbbbb.uttlll...............
+2 ............................rrrrr..b..r.
+2 bb..L.R..ml.bll..b.R.trrrrrrb.uttt......
+2 .bb.rrb.utttt.mbbblbbbbrrr
+R 70875
+0 8
+1 Swamp Plug
+2 bbbrrrrtttllrrbbrllblbrtttrrrr.rrtrrbrrr
+2 bl...llbbb.ll..l...r...............bbb.r
+2 bllll.....l...r.srrr.....l..lll.b..lllll
+2 l..b.rrr.l.b.L..ttrrrr.bbbbb.L.t.rrrrr..
+2 ....trrb.utt..r...mlbbbbrsss
+
+uuid 72d1c36b4ea9aef8eb941e6486153b1b
+
+leaderboard steps time gems

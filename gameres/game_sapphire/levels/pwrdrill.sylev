@@ -1,0 +1,46 @@
+n Power Drill
+ldeutsch n Powerbohrer
+D 5
+C 4
+E 0
+s 0
+M 0 Nightshift
+i This wall is made of
+i pure concrete.
+i What you need is
+i POWER!
+ldeutsch i Diese Mauer besteht
+ldeutsch i aus reinem Beton.
+ldeutsch i Was du brauchst ist
+ldeutsch i POWER!
+a Reinhard
+m 17 17
+#################
+#E.....*.......<#
+#1...*......... #
+#...........*.. #
+#......+++..... #
+#..(..+++++.....#
+#....+++++++....#
+#...+++...+++...#
+#...+++.$.+++...#
+#...+++...+++...#
+#....+++++++....#
+#..*..+++++.....#
+#......+++......#
+#......(.....*..#
+#...............#
+#...............#
+#################
+y ~   >%   
+R 26493
+0 1
+1 Demo 1
+2 .....rrrrtrrrrrrrbbbbrrrbbbbbbbbbbllllll
+2 ll.t...lll...tttl...tttttttttrrrrrrbrrrr
+2 bbbbbbbbbbllll.......ll.B...tttttr.ltttt
+2 ttllllll.t...........
+
+uuid 1cf232c237e01e332d2c8ca8892f1d8d
+
+leaderboard steps time

@@ -1,0 +1,49 @@
+n Crusher III
+ldeutsch n Zermalmer III
+D 7
+C 5
+p 0
+i As opposed to Crusher II,
+i now you have much less
+i stones.
+i Use them with care.
+ldeutsch i Im Gegensatz zu Zermalmer II
+ldeutsch i hat man hier viel weniger
+ldeutsch i Steine.
+ldeutsch i Sei vorsichtig damit.
+a Ronald
+m 23 9
+~ ######               
+###    ############### 
+#   00    1          # 
+#  .0000000000000000.# 
+#   ..................#
+#   Q*.Q*.Q*.Q*.Q*.Q..#
+#E.[[[[[[[[[[[[[[[[[[.#
+#######################
+~                      
+R 5656
+0 1
+1 Demo 1
+2 ..rrrrrrrrrrbb......r.b.B.l.t......l....
+2 l.l...........l.....rbr.rrr..r..l.......
+2 l.r..Bltllb.rbr...rlltlltll....l........
+2 ............rbr.rrrr....tll..r.brbl.....
+2 ........l.r.Bltllb..rbr..Rltlltll.......
+2 ...l...rbr.rrr..r...l...lr.Bltllb.rbr..R
+2 llttllll....l.......................L...
+2 .....rbr.rrrr...tlllll........lttll.rrbb
+2 ...............rrrrrrbltllb..t.rrblr...l
+2 tllb..rtrrrb.l..tllbrl.Brtrrb.lbl.....t.
+2 ..............l.tll....brr...brltl.tll..
+2 ....l..............R.................l..
+2 ...rbr.rrrr..tlll...llll..ttr..rrbb..rrr
+2 ..rb.....l....lr.B.tlllb........t.......
+2 .........b...l....trrr..ll.......lb...lr
+2 ...B.......r.t.b.......rbr...t..........
+2 bR.tlltllllb.rbr...t.rbr.R.llll.........
+2 ........
+
+uuid 0e6366d35cf1a58ff7e274fb48879a60
+
+leaderboard steps time

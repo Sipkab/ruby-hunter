@@ -1,0 +1,65 @@
+n Danger Field
+D 4
+e 63
+p 0
+M 0 Staying Alive
+i If you misplace a bomb,
+i run for it!
+a Alexander
+m 25 25
+"""""""""""""""""""""""""
+"""""""""""""""""""""""""
+""""""Q""""""""""""""""""
+""1" """"""""""""""""""""
+"""""""""""""""""""""""""
+"""""""""""""""""""""""""
+""""""""""""""Q""""""""""
+""""""""""""""""" """""""
+"""""""""""""""""""""""""
+""""""""""""""""""&"&""""
+"""""Q""""""""""""&"&""""
+"""" """""""""""""&&&""""
+"""""""""&"&"""""""""""""
+"""""""""&"&"""""ccccc"""
+"""""""""&&&"""""""""""""
+"""""""""""""""""""""""""
+"&"&""""ccccc""""""""""""
+"&"&"""""""""""""""""""""
+"&&&"""""""""""""""""""""
+"""""""""""""""""""""""""
+ccccc""""""""""""""""""""
+"""""""""""""""""""""""""
+""""""""""""""""""""""###
+""""""""""""""""""""""#++
+""""""""""""""""""""""#+E
+R 10481
+0 0
+1 Demo 1
+2 trrrtrrbrrrrrrrrrrrrbbbbbbbbttllbbbbrrrr
+2 ttttltllrbbtllbbbblbbrrrrrrrttlbbbllllll
+2 rtlttrttttrrttttttlllllllllllltllbrrrrrr
+2 rrrrrrrr..rbbb.bb...bbbbbtllblbbrrrrbRll
+2 lltttrtttttrrtlllltlllllbrrrlllllllllllb
+2 bbbbbbbbbBtllbbbbrrrrttttLbbbbrbblllllbr
+2 rrrrtttlttttllttttttrrrrbrrrrbbbttrbrbbb
+2 blllltttbbblbbrrrrrrrttlbbbllllltlttrrrr
+2 rttttlltlllltllbrrrrrblbbbblbbr....rrrbR
+2 llLtllttrrtttttllllltlltttrrrrrrrrrrrtrr
+2 bllllllllllllllbbbbbbbbbllb....rrrrbbbrb
+2 bllllbLrrrrrrrrrrrrrrrrrrrttrrrrtlllllbb
+2 bbbrtrbTtttrrtrttttbbbbmll...ll.sssssscc
+2 cc............
+R 10693
+0 0
+1 Demo 2
+2 rbbbbbbbbbbblbbbutLRll.....rrrrbbbbrbbll
+2 lllrrrrrttllllltttrrrrbbbrbblllllrrrrrtt
+2 llttttttrrrrrbbrrrrttttllbbutllbbblbbbrr
+2 rrrrttbbllllllrrrrrrttlttttrrrrrbrrrrttt
+2 tllbbutllbbbblbrbrrrrrr.llllll.rrrrrbbbb
+2 bbrrrtllllbbbbbrtttrrmll.........lllllls
+2 sssssssssccc..............
+
+uuid b4ea98b2327b3c5f26062d0c9baa7a2a
+
+leaderboard steps time

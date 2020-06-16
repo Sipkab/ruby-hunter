@@ -1,0 +1,33 @@
+n Laser Mastermind
+D 6
+C 5
+e 35
+p 0
+d 1
+M 0 Axel F
+i Isn't it great when everything
+i falls right into place?
+a Shark
+m 24 12
+~            ########d##
+~            #    !  . #
+~            # [       #
+~            #    [ [  #
+$(QQQ(Q(Q((" :1[ (    +E
+(##Q##########   [# [  #
+QQ##QQQQQQQQQ#         #
+##Q ########Q# c ccc   #
+~ #Q        Q#|        #
+~ #Q#      #Q# |       #
+~  #QQQQQQQQQ#  |   |  #
+~   #################a##
+R 64596
+0 0
+1 Demo 1
+2 rbrtlltttrbrrbrtrbtrrblrbblttttRlllllbbr
+2 bbltrttrrbbutlll..b.....rbbbbbLbrbrrttrr
+2 rttttr.....
+
+uuid 08206b168367ce0bda6040790bb440a6
+
+leaderboard steps time

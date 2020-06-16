@@ -1,0 +1,52 @@
+n Safes Alive!
+D 4
+C 3
+p 0
+M 0 Rock Lobster
+i Blast as many safes as you can!
+i Unfortunately, due to downsizing
+i in the safe department, you'll
+i have to open all of them.
+a Shark
+m 26 21
+##########################
+#Q(Q(Q(Q(#       .0.0.   #
+#00000000# 1  !  0.0.0   #
+#Q(Q(Q(Q(#       .0.0.   #
+#00000000#       0.0.0   #
+#Q(Q(Q(Q(#       .0.0.   #
+#00000000#       0.0.0   #
+#Q(Q(Q(Q(#       .....   #
+#++++++++#               #
+# ! ! !! #               #
+# ! ! !  #        [[     #
+#  ! !  Q#           [   #
+#   !  QQ        [  [    #
+#   ! QQQ:    [ [        #
+#   !!!!!#          [    #
+#        :    [  [       #
+#        #     [      [  #
+#        :  [    [  [    #
+#        #               #
+#        :         [     E
+##########################
+R 15210
+0 0
+1 Demo 1
+2 ..rrrbbbbbbbbbrbbbbrb..r.bbrrrrttlbb.rrr
+2 ttlt.bllltlbbbttttlbblbrrrlllbllllltrrrr
+2 rrrllllttrblbrrrlllltttrlttrrbbbblbrrttt
+2 rrrtrbtrtltlbbbtttrttr.bbbrblttttllbbb.t
+2 ttlbbbbbtttlbbbttllbrrltlllbrrrlltlllll.
+2 ..srrrrrrrrrr.....ttttttbllLtrtl..tbbllb
+2 bbbbbbb....r.bb.rRllbbR.B.t.rrtrrrbbLBt.
+2 .tltttttttlttttttltbbbblbbbbbbbbbbb.trrr
+2 t.tttttttttttlbbbbbbbbbbbb...r...b...b..
+2 L......r.tlllblr...l.LBtrrrblbl.Lrrttrrr
+2 blrrbr.tttttttllllllllllllllllbbbbbbbltl
+2 bltl.bltllbrrrrrrrttttttrrtrrrrrrrrrrrrr
+2 rrrbbbbbbbr.....
+
+uuid 474775d3f3e7d188930168f805381d07
+
+leaderboard steps time

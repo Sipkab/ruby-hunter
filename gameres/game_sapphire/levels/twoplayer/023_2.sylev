@@ -1,0 +1,75 @@
+n First law of gravity (2)
+a Emerald Mine
+D 4
+e 66
+s 0
+i The lay states:
+i "Boulders don't fall up"
+m 64 32
+################################################################
+#.............................0..0.............................#
+#..............................................................#
+#..............................................................#
+#..............................................................#
+#..............................................................#
+#..............................................................#
+#..............................................................#
+#..............................................................#
+#..............................................................#
+#..............................................................#
+#..............................................................#
+#.........................sss......sss.........................#
+#.........................s s......s s.........................#
+#.........................s^s......s^s.........................#
+#....................sss..sss......sss..sss....................#
+#....................s^s................s^s....................#
+#....................s s................s s....................#
+#...............sss..sss................sss..sss...............#
+#...............s s..........................s s...............#
+#...............s^s..........................s^s...............#
+#..........sss..sss..........................sss..sss..........#
+#..........s^s....................................s^s..........#
+#..........s s....................................s s..........#
+#.....sss..sss....................................sss..sss.....#
+#.....s s..............................................s s.....#
+#.....s^s......................12......................s^s.....#
+#sss..sss.....................ssss.....................sss..sss#
+#s^s..........................s^^s..........................s^s#
+#s s..........................E  E..........................s s#
+#sss..........................ssss..........................sss#
+################################################################
+y 000******
+y 000******
+y 000******
+y 000******
+R 74292
+0 8
+1 Demo 1
+2 ..........tttttttttttttttttttttttttttttt
+2 ttttttttttttttt.t.t....t.t.r.r.rbrl.lb.b
+2 .b.blblbbbbbbbb.btbtbtbtbt.ttttttttttltl
+2 tltltbtrrrrrrrrbbblblblblb.llllbbbb.b.b.
+2 lbbbbbbbbrbrb....r.ltltl...tbtbt.r.rbrlr
+2 lb....l.b..rt.r.rbrlt..r.rtrrbrtrtrtblbl
+2 blblll.l..t.r..l.b..t..blrlrlrlrlrlrlrll
+2 rlrlrbbbblrlrt.ttttrlrlrlrlrlrlrlrlbbbbb
+2 .r.rbrlblt.tlt.lbltl.lrlrlrltltbtbrbrrrr
+2 rrb.blblbtbrlr.rtrtrrr.rlrlllllllblbllll
+2 ltltlrlrrrrrrrbrbrrrrbtblblr.r.r.bttltlt
+2 llllllblll.l.lbl.bbblblr.r.rl.bl.lttrrrr
+2 rr.rtr.rtrrrrlrlrlbbbl.l.lblb.lb.rtr.r.t
+2 tr.rlrlrlrlblblrlrrrrbrtbtbtrlrltltlllll
+2 llll.blblblrbrlrl.bl.l.trrbr.rlrlrlr.rbr
+2 .rtrrlrl.btbtbrbrlrlrlrtbtbrbrbrlb.btttt
+2 .tlrlrlrlrlrlblblrlr.rrbrt.t.trl.lblblrl
+2 rltllllb.b.b.rtrlrllllllltbrlr.rbrbrlrlr
+2 llbl.ltbrbrlrl.ttrtrrrrbrbrbbbbrbrbrlr.r
+2 t.t.t.l.l.lll.l.l.l.l.lRr.r.rl.lblblrlrl
+2 .ltlllllllllblblblblllllll.l.l.l.l.l.l.l
+2 ......Tt.....l.l..r.....R.....l.t.t.r.r.
+2 r.r.r.r.r.r.r.r.r.b.r.r.r.r.r.r.r.r.r.r.
+2 r.r.r.r.r.r.r.r.r.r.............
+
+uuid 64e5fed705c8fb8af8ac5f68ab81066e
+
+leaderboard steps time gems

@@ -1,0 +1,126 @@
+n Stone bubbles (2)
+a Emerald Mine
+D 5
+e 45
+s 50
+i How to get in?
+i How to get out?
+m 64 32
+################################################################
+#             ..   .         ####      .                       #
+#.    ..        . .    ..  ##    ##   . .  . . .    . .  . .   #
+#        .   ####   .  .  #        G  . .  . .  .. . ..     .  #
+#   .   .  ##!!!$##  .   #          #  .               . .     #
+# .    .  # !o!  ! #     #      0   #    .   .*  .        . .  #
+#  .  .  #  !!!!!   #   #  0    .    #   ..   ..  . ..   .     #
+#     .  #!   !o! ! #   #j .         #   ..   ..   . .   .. .  #
+# *     #!!!!!!!! !  #  #    0      u#  . . ..   .. .  .       #
+# ..  . #!Eo!$!! !!! #  #    .       #   . .   .     .      .  #
+#       #!!!!!b! !o! #.  #          #   ..   .                 #
+#       #!!!  !! !!!!#.  #          # * .  .  ####     .   .   #
+#. ..    #!  !o!!!!!#     #        #   .    ##6   ##           #
+#     .  #$!!!!!! ! # . .  ##    ##   .  . #   ##   #      ..  #
+#..       #  ! !!! Y     .   ####     .   #  ##  ##  #   .     #
+#   .      ##!!!!##        ..     ...     # #     8# #         #
+# .     .    ####     #####  .      ..   #6 # #### #  #     .  #
+#                 .  B     ##      1     # #  #$ R  #8#   ..   #
+#     .  . .      . ##+++++++#  .   2    # #  #y$#  # #        #
+# .  .   ..     .  #          #      . . #  R ####8#  #  *  .  #
+#  .      *  .    r#          #    .    . # #      # #   . .   #
+#       ...       #            #          #  ##  ##  #         #
+# .  .   ..   .   #            #   . .   . #6  ##  8R      .   #
+#   ..            #            #  .     ..  ##    ##     .  .  #
+#       .  .   .  #            # ..   .    .  ####             #
+# . . .  . ..      #          # .     .                .   ..  #
+#           .  .   #          #     ..   .   .       .    .    #
+#    . . .   .      #   %%   #  . .         .  ..        ...   #
+#.  .   . .    .     ##$$$g##  .      .* .  . .    .    .      #
+# .       .     ..     ####     .     ..      ..       ..      #
+#                   ..    . ..                 . . . ..        #
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 16671
+0 8
+1 Demo 1
+2 ..........r.r....l.l.lr....ttttltltlt.t.
+2 .lrlrlrl.trlrl.l.ltltl.l.lt.tbtb.b.ltl.b
+2 .brbrrr.rtrrrbrbrlrbrbrbrbrbrbrrrbrbbrbr
+2 bbbbbrbrbrbrbrbrbrbrbr.rbt.tltlrltltlr.r
+2 ttttttttttttt.t.tttttttttttrtrtrtrtrtrlr
+2 lrlrlrlblblllblblblblblblblblblblblrlrlr
+2 .r.rrrrrrrrrrrbrbrbtbtb.brb.btbtb.b.b.b.
+2 b.b.b.b.b.b.b.b.b.b.b.b.b.b.b.b.b.r.r.rl
+2 r.r.rlrlr.rbr.rlrlrlr.rtr.r.rlrlr.rtr.ll
+2 l.ltltlrlrltltltltl.lrlrl.l.l.lrl.lrl.l.
+2 lrl.l.lblbl.ll.l.l...b...r....l.ltl.l.l.
+2 l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.....
+2 ..t.t.t.t.t.t.t.t.t.t.tr....lblblbl.l.l.
+2 l.lll.l.lllll.lllll.l.ltl.l.lllll.ltl.l.
+2 ltl.ltl.lrl.ltltlrlrltlr.rlr.tltlrbrbrbb
+2 bbbrbrb.bbb.brbbbbb.r.rrr.rbrbrbr.r.rlr.
+2 rbrbrbrbr.r.r.t.t.tbtb.b..lllllll.l.l.t.
+2 t.t.tltltltltlttltllllllllllltltltltlttt
+2 ttttttttt.tttt.t.ttt.tbtr.......tb.b.btb
+2 tbtltltltlt....br.r.r.rlrlrlrb.bbbb.blbl
+2 bllllllt.lblblbtblblblblblblr.r..l.l....
+2 ...t.......l...b...l...l...l...b...r...l
+2 .l.l.l...t.....l.....t...l.l.l..........
+2 .t.............t.................r...l.l
+2 .....r.r.........r...........r...t...r..
+2 .......l...b.....t...t...t.........t...l
+2 .....l.l.....r.r.....r...b.b.b.....b...l
+2 ...b.b.b...r...b..brbrbrb.btb.b.btbtbtb.
+2 b.btbtb.b.r.r.rrr.rtrtrtrtr.rlr.rlr.rtr.
+2 rrr.rbr.rrr.rbrbrbr.r.rbr.r.rlr.rbrbrbrb
+2 .bb.brlrlrlrl.l..b.blbl.lll.lbl.lrlrl.l.
+2 lrlrlrlrl.l.l.l.l.l.l.l.l.l.l.l.l.l.l.l.
+2 l.lmlllllllllll.....rrrrrrr.rrrrrbrb.b.b
+2 .br............l...r.......u.t.t........
+2 .........b.b.b.b.l.l.....u.t.t.t........
+2 ...b.b.b.b.b.b.l.....u.t.t.t.t.t.....b.b
+2 .b.b.b.b.b.r...........u.t.t.t..........
+2 ...b.b.b.b.r.r...b.........u.t.t.t.t....
+2 .....b.b.b.b.b.b.b...l.l.r.r.r.r.l...t.t
+2 .t.tltltltlt.ttttttttltltltltlt.t.tlt.tb
+2 tbrbr.r.r.b.b.blrlrlrlrlrlrlrl.l..r..tt.
+2 t..t..tr.rrrrrrrtrtr.rrrrrrrrtrrrt.r.rbr
+2 bt.rrrrrrrrrrrrrrrrrrrrr.r.rtrtrtrtr.ttt
+2 tt.tr.rtrtrtrt.tbt.t.llll.lt..blb.b.b.b.
+2 b.b.b.b.b.b.b.b.b.b...t.t.t.t.t.t.t.t.t.
+2 t.t.t.t.t.......t.t.t.t.t.t.t.t.t...l.l.
+2 l...l...................................
+2 .................................l.l...b
+2 .b.b.....b...l.l...........b.......t....
+2 .t......................................
+2 ...b.b.b.b.b.b.............t.t.t........
+2 .b..b.b.b...r.b........t.t....b.b.b.b..b
+2 ...l.................................l.r
+2 .r.........r.....l...t.t.t.......b.l.l.l
+2 ...............l........................
+2 ........................................
+2 .r.r.........................r.r........
+2 ...t.......r............................
+2 .......r.r..............................
+2 .....................l.l...........l....
+2 ...b.b.btbtlt.tbtb.b...t...l.l.l.l...t..
+2 .r.....r.....b...l.r.r.r.t.t.t.t..b.brbr
+2 .r.r...b.b.........u.t.l.l.l............
+2 ...........r.r.r...b.b.b...l.l...r...b..
+2 .l.l.l...b...t.t.l.l.l.l...b...t...l.r.r
+2 .r.t.t.t.t.trt.t.t.r.r.r.r.r.r.r.b.brr.r
+2 .b.b.b.b..b.b.b.b.bbbbbbbbbbbbbbbbbbbbbb
+2 bbbbbbbbbbbbbbbbblblbllllllllllllllllblb
+2 llllllllllllllllllllllllllltltlttttttttt
+2 ttttttttttttttttrrrrrrrrttttttttt.......
+2 ..l...............b.b.......lbl.l.lll...
+2 ...............c.brlrl.blblblbl...r.r.rt
+2 rtrtrtrtt.tr....tr.....t..l...lt..l..lll
+2 .....l.....bl.....l.llllll..tt...lll..t.
+2 tttltlt.t..t.t.t.t.t..............
+
+uuid cdc85ee75f272678ff945786c15d13bf
+
+leaderboard steps time gems

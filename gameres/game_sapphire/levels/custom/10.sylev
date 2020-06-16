@@ -1,0 +1,115 @@
+n Brain Exercise
+D 5
+C 5
+e 28
+p 0
+d 6
+w 40
+O alt-set1
+S standard
+i Let's do a little puzzle...
+a Nic01
+f Nic01
+m 35 62
+###################################
+###################################
+#######   +      ##################
+#######    +++ + ##################
+#######  Q    0 ###################
+#######  .Q  0. ###################
+########+++ +++######        ######
+#######  [[  ++#####  [[[[   ######
+####### [ ! [        [_    [ ######
+#######[ __  [         [[[[_ ######
+####### [   [ + + +          ######
+########## _ +[ [ [+     ##########
+##########_    _ _       ##########
+##########   +[ _ [+  [  ##########
+##########  _  _ _       ##########
+########## _ +[ [ [+     ##########
+##########_   + + +      ##########
+##### R  R    [ [        ##########
+##### ####    [ [        ##########
+#####R###           Qb   ##########
+#####  R Q          #B   ##########
+##########               ##########
+##########           B     ########
+##########             Q10 ########
+##########             #B##########
+########!++#s#           ##########
+##########++ #          B##########
+########$+(QQ#{+         ##########
+#########+:#:### #####_ AR ########
+#########r:":### #########R########
+######    :Q:   R            ######
+######    :Q: R   #G########Y######
+######   R:Q: ##R## 0.Q# _   ######
+######   R:Q: #. @#..Q.# _ __######
+######   R:Q: #...#.0.Q# 5   #   ##
+######   R:Q: #.0.#....#__6_ # Q ##
+######    :Q: #...#...0#   _ #___##
+######    QQQ #...#...Q#Y#####   ##
+######    +++ #|..#Q.0.# _   # Q ##
+######    &&& #:|.#...Q#Y_ __#___##
+######    ccc :: .#....# _6  #   ##
+###*::        ::  #....# _6  #   ##
+###:######+  ::: :w   o#   _ # _ ##
+###:##  E#!+ ::: :#....#####Y  _ ##
+###:##   #(++::: :wo   # _ #   _ ##
+###*::   :+++::: :#....#   # _   ##
+######da #   #:: :w   o#   #( # _##
+##:i:#   #Q g#:: :#....# ^ #: #  ##
+$::>+# da#######s:wo   #^_^Y  #  ##
+:++++#         #  #....#Y###:#   ##
+:# d #aa       #| #++++#     #   ##
+:#   # +       ## #++++#     ## _##
+:#   # aaaaaaaaa#V#++++#####+ Q  ##
+:#   # ddddddddd#+#++y #    ++#  ##
+:#   #          #######0+++++#  ###
+:#   Y                 .     #  Q##
+:#   ##aaaaaaaaa#######s####### ###
+:#    #d  !::::::::::::s##   #   ##
+::    :  : :c:::::::::+ ##   _   ##
+$:      cc:c:ccccccccc(^##   #   ##
+##aaaaaaaaa########################
+###################################
+y ~(  V Q%Q
+y ~        
+y ~% (>%   
+y ~%  ^ Q Q
+R 13812
+0 8
+1 Demo 1
+2 ttttllltllllttttllttrrbbbbbbbbbblbrrrttr
+2 rtlrbblllllllllblttltrrrrrrrrtrbbbbblbrr
+2 ..rrtrbtrtlrbbllllllltllttllllrrr.trtttt
+2 ttttttrtrbbbbbbbbbbbblbrrrrrtrbblbrttrrt
+2 trrblllrbblllllltlllttll.....lllblLrb.bl
+2 Lrttttttttttrtl.tlt..b...bbbbb..rtbttltb
+2 brbbbltttttrttlttrbbbrblt..tttt.....rtlt
+2 ttllbrtrbbbbbbbbbbttttttttttttttltllbrbr
+2 l....rrbbbbbbbbbbbbblbbbbbbbbbblbbbblbbb
+2 bbbr....cbb.....tttt.trrsrbbb..llll..rrb
+2 rBtrttttttttttrrbblTbbbrbrbBtttttllbrBbr
+2 bbbbblbbbbbb........t..bbttttttrtttllltt
+2 ttttllbbbbbbbbbblllbbbbbbrRtlttrtrttrttt
+2 tttttttrrrtrrb..bbbbbrbb..b.rBtlt..bbbbB
+2 ttttttt.rl.bl.bb..bbbbbbBtttttttttttltrb
+2 bbbbb..brbbbbbbbBttttttttttt.bbbbbbbbbrb
+2 bbbbbbBttttttttl..rttl....bbrtttttbbbbbb
+2 bbbbbbbbll......rbbBBbBrtttttttttttttttt
+2 t..bllttttltrrrrrrrrr..............b.ll.
+2 bbbbllb............bbbrrtrrbbr.rbrrttttl
+2 l....brlbbbrr..tltlttrbttlttbbrrllttrblb
+2 bbbl.rtttbbbl.rttttr..brb..tllbbbbrblttt
+2 ttrrbltlbbbttr.ltttrtrttbblbblbb.t.bb...
+2 b.l..bbbbLtrrbbbbbbbll..r...lllbbbllllll
+2 llllll..lltlllllllllllblbbbrbr..rrtrtrlr
+2 rllbl.bllttlttrtttcbb......rttttrttl....
+2 .llttrrttl...rbb.....ll..bbrrbblbbbbl...
+2 ....t....b....ttttrrttl....llttrrttttt..
+2 ....
+
+uuid 2d83b4a17481094ccc11dc47157a7238
+
+leaderboard steps time gems

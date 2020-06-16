@@ -1,0 +1,42 @@
+n Bug Puree
+D 5
+C 6
+e 29
+p 0
+i Killing the bug is the easy part.
+i The hard part is planning ahead.
+a Alex
+m 15 17
+###############
+#.....000.....#
+#.............#
+#.............#
+#.............#
+#......u....1.#
+#.............#
+#.............#
+#.............#
+#.............#
+#.............#
+#.............#
+#......c......#
+#.............#
+#.............#
+#.............E
+###############
+R 70493
+0 0
+1 Demo 1
+2 ...ttlllll......rt.bl.rrr..llbttlrbb....
+2 ..Ltt.....b..rrtrrbbb...............bbbb
+2 ..lllll..tt.brbr.......l.....r.........r
+2 rrtttttt.l.blbbbbbr..bb.lll.rrtr.bll.r..
+2 .ttttttttll.tl.l...lltrrrbll.blbbbbbbbbr
+2 ...r....tlllbrr.........lbb.rrrrrbllllbr
+2 rrrttllllltttrr...rB.l.......llbbbr.bbrr
+2 ttllltttrrrrr.tttlllbbbl....b.rtrrrbl...
+2 .bbblllbrrr...rrrrrrrr
+
+uuid d4bf7745733c4b5a7322d61054ff166e
+
+leaderboard steps time

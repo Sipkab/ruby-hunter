@@ -1,0 +1,33 @@
+n Basic mining
+ldeutsch n Bergbautraining
+D 1
+C 1
+i Conditions are very good in this mine:
+i All gems are embedded in soft but solid earth.
+i Just go on and collect everything you need.
+ldeutsch i Die Bedingung sind sehr gut in dieser Mine:
+ldeutsch i Alle Edelsteine sind in weichem aber
+ldeutsch i solidem Erdreich gelagert.
+a Reinhard
+m 17 11
+~++++++++    ++++
+++.*.++.++++++..E
++........*...*..+
++.*..*..........+
++......*.*.....++
++..............+ 
++..*.......*..++ 
++*............+  
++....*..*....*+  
+++.......1++++   
+~++++++++++      
+R 71931
+0 8
+1 Demo 1
+ldeutsch 1 Demo 1
+2 ...tlllllltt.bllttttr.ttrr.bbrrrbrrttrrr
+2 rbbbbbbllttttttrrrrtr........
+
+uuid 0b3befc8526d69d5dc0b21311930fcb2
+
+leaderboard steps time

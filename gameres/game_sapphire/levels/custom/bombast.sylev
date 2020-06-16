@@ -1,0 +1,118 @@
+n Bombast
+D 8
+C 3
+E 0
+p 0
+i I'll admit that this level was
+i designed mostly at random. That
+i doesn't get you off the hook
+i from having to solve it, though.
+a Alex
+m 27 27
+###########################
+#.**.......Q**..Q...0...Q.#
+#0QQ..Q..Q....Q**..Q*Q..*Q#
+#.....*..**.Q..Q.Q..Q*..Q.#
+#Q..Q.Q*..Q..*....Q....0.*#
+#0..0...Q...*Q..*..*.Q....#
+#*.Q....*Q.*Q..Q.Q..Q*Q.Q*#
+#0..0Q........Q0Q...*...*Q#
+#Q..Q...Q*Q.Q..*Q.Q...Q...#
+#..*Q.Q...*.0Q....*Q...Q..#
+#*Q*..*Q..Q.Q..*Q..*.Q*.Q*#
+#.Q..Q........Q..Q.Q..Q..Q#
+#0..Q*Q..Q...*Q.*Q...*.*.*#
+#...*....*.Q*1*.....Q..Q.Q#
+#Q..Q..Q*Q...*.Q..Q.*Q..0.#
+#Q0..Q**Q*Q*...0Q..*Q...**#
+#**Q.*Q......Q....Q...Q..Q#
+#*.Q.*..Q.QQ.0.Q.Q*Q0.*...#
+#......Q*..*Q...0...**..00#
+#Q..QQ..0.Q.*.Q.Q.Q..Q.Q*.#
+#Q*..*..Q.0...0.*.*..Q....#
+#...Q*Q.....Q...QQ..Q...Q.#
+#.Q......Q..0............*#
+#.....0Q.*0Q*.Q..0.0.QQ..Q#
+#Q000..Q..Q0..*.Q*..Q**Q.*#
+#*..*Q.*.*Q.*.Q0**Q...0.*Q#
+#############E#############
+R 17756
+0 0
+1 Demo 1
+2 ...L.BT...r..bbllt......rrrrbb.......tt.
+2 .tllttrt..bl..........b....bbbllL.r....t
+2 ttrtrt..........bl..........bbbbll..br..
+2 .bb...blltlll...........................
+2 bllbl.B........rrr..................b.bt
+2 rrbl.B...rrrb.rtrrBllbr.........b..t....
+2 ll.rbbl.......r.tttllll.......bbbllltltt
+2 ...r...........rrrrrrr..................
+2 .............llllllllllttl.r.b.llbrtrrr.
+2 ...bbblB.llblrtr........ttttllttttr.....
+2 bbbrr......lltttt.ttL..lttt...bbbr......
+2 ..................tl..r.ttrt..bl...bb...
+2 ....bbbb..bbb.tR..brrrrrrrrrrttttlbL..tt
+2 .bbbbbbbbrr...lllttrttttttt.............
+2 ......bbbbbblllllllltttlttttttrt....l.t.
+2 ............b.L..bbbbbbbbbbbbbbll....ttt
+2 ttttt.bttttttttttt....tTr...ltttrr...llb
+2 b...tt....rrr.brtrrbl...b.rB.t......llbl
+2 rrr.t..........bb.......ttrtrr.bl.br..t.
+2 ......b.r..bb.BR...........bl...rtttlttl
+2 llbbbbbrrr......lbb.....................
+2 ..bbl..r........tttt..t.llttt..rtr......
+2 r....bbb....rr.R........lll.......rrrttt
+2 r.........lb.trrR..llbbbb.rrrr..........
+2 ........................................
+2 ........llllbblllbbb.......t..r.........
+2 ......r.T....bl...................br.brb
+2 bbbbbbbbbbb.llbr.....trtttttttttttt.....
+2 ......trtr.lbbbbbbbbbb.......tttttttttt.
+2 .ll..............bbbbbbbbbbb.ttttttttt..
+2 ..Ltttlllbbb......r.........b..t....rbB.
+2 lb.BL..bBttttrbbbbbbb.ttlL..tllL....r..b
+2 bbllltt.brrtt..bbbbbb.rtttttttt..rtttttl
+2 ...bbb..b..........bb..lltr..l......l..L
+2 trrrt..bll..ttrtt.lLrttttlrrrr..bbbbbbbb
+2 bbbbbbbbb....................rrrtttttttt
+2 ttttltttt...rr..l.bbbr..bbbbbbbblbbbbr..
+2 .....ttttt...bbbbbrr......rrbrb.........
+2 .l............lttttl.......r...bbb......
+2 ...............................lllbbrtrr
+2 .b.tllbrrbb.Ltt........brltt.r...ttttT..
+2 bbbbbbb....ttttttrrtr...t......rll......
+2 ....b...rr..tt..rrtR.bl.....lbb..b...ll.
+2 ....tll...rr..b...................tt..t.
+2 .rtr...........llt.....tlt...........b..
+2 .t.......brbbbbb....b...................
+2 ..................t..ttt..t.t...........
+2 .......bb.tt..................ltl..t..t.
+2 ....l..................ltll.............
+2 lTlbbbbbbbbbbbb....bbblbr.trr...tttttttt
+2 tttttttt.....t....ltt.bbrRl......tr...tt
+2 tt..Lbbbbbbbbbbblbbbbbbbb............ttt
+2 tttttttttttttt.r.........bbrbbbbbbbbbbbb
+2 b..bbtttttttttttttttttl..r..b.b.rrt.....
+2 .......................blbbbb.rrbb.rbl..
+2 ............lblrR.b..lbbbbbb.ttt...b.ttt
+2 tttrrrrb....lblr.bb..ll.bb.b..tt.rrr...b
+2 ..tlllbbbb.........tt.....rll...........
+2 ..tttrrrrrr.......Rl.....brbr.bbB...tttl
+2 llbbbbrbr..b..B.r.ltl..tlll.b...lbb.rrtr
+2 rtrt.lttrttttt...t.....bllllttttt..t....
+2 ........ttl..trTl...rR.ltt..brr........b
+2 ..........l........................bbbbb
+2 ............br.b.r..bb.lllttttttr.......
+2 ttt...............t....l...........b.llt
+2 ttttr.R.lb..t.r.........................
+2 ....lbbbbb..rrtrrrrrr.tbb.t.l.......l...
+2 ....br.....b.tlt...rr..bbbbb..t......ttt
+2 .......ltllllbbbrrr..lbb.t...b..r.bbrr..
+2 ......llttttttt.....bbbrtttl............
+2 .........................ttt.Rtl...lll.r
+2 r.lBrrrbbll.bblTlbbbbbbbbbbbbbbbbbbbbttt
+2 bbbllllllb........
+
+uuid c9cf2e7e5fca92f5a0ce1c6dc0fb75c8
+
+leaderboard steps time

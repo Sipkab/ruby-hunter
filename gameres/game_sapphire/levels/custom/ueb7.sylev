@@ -1,0 +1,71 @@
+n jb puzzle 1
+lDEUTSCH n Nicht explodieren...
+D 10
+e 42
+t 349
+s 0
+p 0
+d 25
+A graphite
+O graphiteplus
+S soft
+lDEUTSCH i Die Aussicht auf unendlich viele
+lDEUTSCH i Smaragde nützt hier wenig.  Die
+lDEUTSCH i Frage ist: Wie sammle ich die er-
+lDEUTSCH i forderliche Menge ein, ohne das
+lDEUTSCH i Bewegungslimit zu überschreiten.
+a Jürgen B.
+m 17 11
+~ TTT     TSTT   
+~ T..TTTTT... TT 
+~TA..[..1.......T
+T%A.s..$0s.A .@.A
+T.A.s.(c{%bQA000A
+A.d.!.Ah.._CD...A
+A.  s.A|..@@A...A
+O.#...Q.........A
+O ....A.sBa.7..A 
+CD...@    E#&CD  
+~A&+++++###      
+R 59018
+0 0
+1 Demo 2
+ldeutsch 1 Demo 2
+2 .......LrrbBtRllbllTblbLbbblbltttttttrrr
+2 rrrrbut..........bbbblbbllbbllttrlbbltll
+2 ltttTbr.l..............rl...............
+2 .......r.l......................rlbbrrl.
+2 .rBr.lttll.......r.lbbrrrllltt..........
+2 ...rlbbrrr.llltt............rlbbrrrr.lll
+2 ltt.........rlbbrrrrlllltt............rl
+2 bbrrtrrrrrtTrtttt.......................
+2 ...................Lb.....rrrbbl.l..ltt.
+2 ....lbbLrrrrrBr...Br...llll........llttl
+2 bbLrrrtttTbbbrll.lltt.......lbbLrrrbl...
+2 lttt...lbbLbbrrr...Btt....bbbrrt........
+2 ........................................
+2 ........................................
+2 .rrt....llbblbBttlllllllbrr..trrtttttlbb
+2 bLbblllllbrrrrt..rrtttttlbbbLbbblllllllt
+2 ttLbrlbbrrrrrrt..rrtttttlbbbLbbrbr....tl
+2 bbbLbbrbrbblltttLlltttLbllllltttbbllllll
+2 ...........................r...bbrrrr..b
+2 bbrrt........Rll...lb........rrrbbl....l
+2 ltt....lbbLrrrrrbbr..bLtl...Lrr...lllblt
+2 r.lt.l.....lttt.lbbLtttrrrTbbbbbl..rBlll
+2 lll.................brr.t.rrtttttlbbbLbb
+2 lllllblltttLrr........................bb
+2 brrrr.t..rtttrttlbbbLbbrbr....bbbrrrr...
+2 .brrt..rrttttt..........................
+2 l......lbbbLb...ll.b.ttt...........L...r
+2 rrbbl.l.....l.tt...lbbLrrrrrbbr......bL.
+2 tl..L.l........................rtrt.rlbb
+2 rr.lltt.....rr..l.....................rl
+2 bbrr..r..r.r.l.......................r.l
+2 bbrrlb.r.lbbrrlbllltllltttTbrl..........
+2 ...........rl......................rlbbr
+2 r.llltlltt
+
+uuid 9f58ae73f03abd2746d90199ad53f34a
+
+leaderboard steps time gems

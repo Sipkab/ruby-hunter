@@ -1,0 +1,61 @@
+n Fortune Bombs
+D 5
+E 0
+s 0
+p 0
+M 0 Bomb
+i You'll see..
+a Alexander
+m 15 25
+~ 0   0    0  0
+~ . . ..   .  .
+~  .^..>.   .  
+~.  .  .  0.V. 
+.<.   0   . .  
+~.    .   0  0 
+~         . .. 
+~0     0   .^. 
+~.    S.    .  
+~              
+~ +          + 
+~      +       
+~  +        +  
+E          +   
+1       +      
+~             +
+~    +         
+~       +      
+~ +            
+aaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaa
+y ~/ /V/ / 
+y ~     ###
+y ~/ /V/ / 
+y ~     ###
+y ~/ /V/ / 
+y ***      
+y ~/ /V/ / 
+y ~   * ###
+y ~/ /V/ / 
+y ~* *$*   
+R 33442
+0 0
+1 Bomb Of Fortune
+2 rrrrr..rrtrrttttttrbbrrrrttttlbLt.llt.bb
+2 bll..tttttttrrbllbbbblbllllltttltltbrb..
+2 .........Bt.............Tll....l.b......
+2 brrrrbbbbbbrrrrrrtttltttttrr.Rllbbb....b
+2 bbbbb..tr.rrRllllllllttttrrrrrttllbblltt
+2 tTbbbrrrrttttttlll.lbbbbbbbbttllrbbbbb..
+2 ..rbbbtttttttrtrtt.....tllbr............
+2 ..bbbbbbb..t..ttttrrrb........tbbLbb....
+2 ....tlllbbbbbllllbbb...R..rtttrrtttllllb
+2 b.
+
+uuid f3bbec89b74dba9e4726fa4fadb07938
+
+leaderboard steps time

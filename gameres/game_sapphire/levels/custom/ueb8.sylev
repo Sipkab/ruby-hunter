@@ -1,0 +1,56 @@
+n jb puzzle 2
+lDEUTSCH n Uebung 8
+D 10
+E 0
+p 0
+Y
+A graphite
+O graphiteplus
+S Soft
+lDEUTSCH i Neben etwas genauerer Kenntnis der
+lDEUTSCH i  "S.Y.-Physik" ist "Hellseherei"
+lDEUTSCH i gefordert. Also Abspeichern und
+lDEUTSCH i schauen.
+a Jürgen B.
+m 17 11
+~TTTTTTTTTTTTTTT 
+TT  0        .  T
+TT  T       .<#sT
+T    a    & ##   
+T   Q     @   @  
+##T T     s   #_T
+#O          ! # T
+#O            #  
+#O 1             
+## {            #
+~##Aaaaaaaaaaaa# 
+y ~   E    
+R 83318
+0 0
+1 Demo 1
+ldeutsch 1 Demo 1
+2 rrrrrrrrrrtttt.trtr...rblbbbrbllllbltttl
+2 lttrrbblbbrrtlllllllbltrrttttttll......r
+2 rbbbbbllrrtttttlllrrrbbbllrrrrrttrrRllll
+2 lbblltlltt..............................
+2 r.......................................
+2 ...rrrrrrlbbblllbbbllltrrrrrrtrblbrrbrrr
+2 ttttrlllltttrrRlbbbrrb.........lbbllllll
+2 ltt.....tlltlttrbbbrrrtttlllllbblb..r..r
+2 .Bbbrrttl...........llttttr.............
+2 ..rrrrrrrrrrr...lllbbbbbbbrrrrBllllllttt
+2 ttt....t..............cbb.........tttr..
+2 .............lllllllllllltttrtttttcb....
+2 ......ltttl..tb......t.rtttrrr.l....bbbr
+2 slllllbblblltrrrrrrtrblbrrbrrrtttlbbllll
+2 llltttlltltt..rbbrbrrtttlllllbblb..r...r
+2 .Bbbrrttl..llttt...rrrrrrrrrrRllllbbllbl
+2 llltttr..............rrrrrrrrrrr......rr
+2 scr..rr.......rr.......trrttrttttll.....
+2 ..............l......rrrrrbbbbbrrrttrrrt
+2 rrblbbbrbllllbltttllttrrbblb...brrtlllll
+2 ll.rbrrtr......
+
+uuid ab65a0e9a0aa980dd89b5e7a96545d98
+
+leaderboard steps time

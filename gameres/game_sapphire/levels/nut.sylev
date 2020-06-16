@@ -1,0 +1,59 @@
+n Nut
+ldeutsch n Nuss
+D 6
+C 7
+E 0
+T 800
+s 60
+p 0
+M 0 Drive
+i Crack the nut and get
+i the treasures from inside.
+ldeutsch i Knack die Nuss und hol
+ldeutsch i dir die Sch�tze im Innern.
+a Ronald
+m 44 23
+############################################
+#...........Q.............#................#
+#....Q.....### ...........#................#
+#.............#...........#..!...%.........#
+#..Q..0+..+...............#..........*.....#
+##########+...............#.........$$$....#
+#.........................#................#
+#..... ..............................Q.....#
+#.....1............................ ++++...#
+#.................................  .+Q....#
+#.........................##################
+#.Q......++++++++++.......#                 
+#......++++++++++++++.....#   iiii ii   ii  
+#.....++++++++++++++++....#  iiiii ii   ii  
+#....++++++++++++++++++...# iii    iii iii  
+#....+++++++++*++++++++...# iii     iiiii   
+#....++++++++***+++++++...#  iiii    iiii   
+#....+++++++++E++++++++...#    iii    ii    
+#.....+++++++++++++++++...#    iii    ii    
+#......++++++++++++++.....# iiiii    iii    
+#........++++++++++.......# iiii     iii    
+#.........................#                 
+###########################                 
+R 28574
+0 1
+1 Demo 1
+2 ...trrrrrrrrrrrrrrrrrrrrrrrttttbbbbrrrrr
+2 rrttr.t.brlllbbbb.r...mtttrrrbllllllllll
+2 lllllllllllllr.bbrrrrrrrrrrrrrrrrrrrttrr
+2 rrrbblllllllllllllllllllllll..ttt.lllll.
+2 ..tttll........t.ll..bb.tt...ll.t.llb.rr
+2 rr.......rrr.t.r.l.bbrrr.brrtttlllll....
+2 ..l.bb..b.rrbbb.ll....................bb
+2 b.ttt.rr.trrr.b.llllrr......lll.bbbbllll
+2 lll.t....llbrrrrrrrrrr.ttt......r..t.rtt
+2 ttlllllllb.rrrrrrrrr.bbb.l........lbbbbb
+2 ..r.................tt.....ttttt....tlll
+2 lllll.t.llb.rrrrrrrrrrr..bbbb.....bbb.r.
+2 tt.rr.t.rrb.lllll......bbbbbrbblrrl.b...
+2 ...........
+
+uuid cd33ac936d902254425a15f2510e04fa
+
+leaderboard steps time

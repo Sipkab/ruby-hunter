@@ -1,0 +1,73 @@
+n Swamp-Breaker
+ldeutsch n Käsefresser
+D 4
+C 4
+E 0
+s 200
+M 0 Don't you forget about me
+i The swamp can be annoying
+i in various ways.
+i Sometimes it troubles you
+i with its pure existence.
+ldeutsch i Der Käse kann einem auf
+ldeutsch i vielfältige Art und Weise
+ldeutsch i auf die Nerven gehen.
+ldeutsch i Manchmal stört er allein
+ldeutsch i durch sein Vorhandensein.
+a Ronald
+m 28 25
+############################
+#!!!!!!!!!!!!!#%%%%%%%%%%%*#
+#!!!!!!!!!!!!!#%%%%*%%%%%%%#
+#!!!!!!!!!!!!1#%%%%%%%%%%%%#
+#"""""""""""""#%%%%%%%%%%%%#
+############# #%%%##########
+#%%%%%%%%%%%# ##%%%%%%%%%%%#
+#%%%%%%%%%%%#  0%%%%%%%%*%%#
+#%%%%%%%%%%%####%%%%%%%%%%%#
+#%%%%%*%%%%%%%%%%%*%%%%%%%%#
+#%%%%%%%%%%%%%%%%%%%%%%%%%%#
+#%%%%%%%%%%%%%%%%%%%%%%%%%%#
+#%%%%%%%%%%%%%%%%%%%%%%%%%%#
+#*%%%%%%%%%%%%%%%%%%%%%%%%%#
+#%%%%%%%%%%%%%%%%%%%%%%%%%%#
+#%%%%%%%%%%%%%*%%%%%%%%%%%%#
+#%%%%%%%%%%%%%%%%%%%%%%%%%%#
+#%%%%%%%%%%%%%%%%%%%%%%%%%%#
+#%%%%%%%%%%%%%%%%%%%%%%%%%%#
+#%%%%%%%%%%%%%%%%%%*%%%%%%%#
+#%%%%%%%%%%%%%%%%%%%%%%%%%%#
+#%%%*%%%%%%%%%%%%%%%%%%%%%%#
+#%%%%%%%%%%%%%%%%%%%%%%%%%%#
+#%%%%%%%%%%%%%%%%%%%%%%%%%E#
+############################
+R 18089
+0 1
+1 Demo 1
+2 .....blllllllllllltrrrrrrrrrrrrbbbbr.mtt
+2 ......bbbbrrmlt.....brrrrrrmll.......rrr
+2 rt.c..mll.....rrrrbb.uttlt....cbbrrsmltt
+2 .tttr.mlbbbbrrrrsmllbbutttttbrt.rrsmlbbb
+2 rrrrscblllllbbsrttttrrrrmllllttttrrrsmll
+2 bbbbrrrrrrrlllllllbbbbbllsrtttttttttrrrr
+2 r.mllb.....rrrrrtml.........rrrt.cbl....
+2 ....ttrr.ml........rrrrtRlllbbblllllbbbb
+2 bbblllbb.srt........bllbb.uttr...ll.cbbb
+2 rrttbbmltttttl.cbrrbbbbrr.mlttttttlllmrr
+2 .ll.srbbbbbrrrbbrr.mlttllltttttlll.srrbb
+2 bbbrrrbbbrrr.mllttlltttttlllllt.sr......
+2 ..llllmsr.......llllllsr..........lllb.r
+2 rll.sr.........lll..sr........llll..sr..
+2 ......llll..srr...l...blllLrrrtrrrrrrrrr
+2 bbbbrrbbbrrrr.mlllttttllbb.uttttlllltlll
+2 llbb.urr.......lllbbbuttr....lbbbbbl.srt
+2 t.....bblb.lt.b.utttt.c.rbbbbb.mltt.srtt
+2 .bbbbbl.srtt.mlt.b.bbb.sttt....lbbbbbBTt
+2 ttttttttrrrrrrtrsrbbbrbbbsrbbbrrrr.mll..
+2 l....srrrrb.mltllbb.urrrrr.cb.mltllb.urr
+2 rrrrbb.mltllb.u.rrrrr.mllbbl...srrrrt.m.
+2 bb.ll.rr.urr..cb.........
+
+uuid 4f4e9a00c1511a1543edbf15736ba8af
+
+leaderboard steps time

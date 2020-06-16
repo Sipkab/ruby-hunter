@@ -1,0 +1,41 @@
+n Money rules the world II
+ldeutsch n Geld regiert die Welt II
+D 5
+C 3
+e 496
+Y
+Time
+i Here you really have to
+i fight for your money.
+ldeutsch i Hier musst du wirklich
+ldeutsch i um dein Geld k�mpfen.
+a Reinhard
+m 13 13
+#############
+E1((((((((((#
+#(((((kkkk((#
+#((((k((((k(#
+#(((k(((((((#
+#(hhkhhhhh((#
+#(((k(((((((#
+#(hhkhhhhh((#
+#(((k(((((((#
+#((((k((((k(#
+#(((((kkkk((#
+#(((((((((((#
+#############
+R 75072
+0 1
+1 Get more gems
+ldeutsch 1 Get more gems
+2 ......r..rr..ll..rbll.b.r.l..Bttrr....b.
+2 ..B.r..............Rltll......bbbtrrtrtr
+2 r.....lllll........rrrrrrrrrrblllllllbrr
+2 rrrrrbllllllllllbrrrrrrrrrrbllllllllllbr
+2 rrrrrrrrrbllllllllllbrrrrrrrrrrbllllllll
+2 llbrrrrrrrrrrttttttttttlllllllllll......
+2 .
+
+uuid 99471b19407eff06a47075abd25041ed
+
+leaderboard steps time gems

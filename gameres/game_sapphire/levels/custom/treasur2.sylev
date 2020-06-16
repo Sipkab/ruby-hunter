@@ -1,0 +1,37 @@
+n Treasure II
+ldeutsch n Sch�tze II
+D 5
+C 3
+E 0
+p 0
+M 0 Money for Nothing
+i What's the easiest way to
+i make an SY player angry?
+i Just add some lorries to
+i an otherwise-simple level.
+a Reinhard, Alex
+m 16 10
+################
+#              #
+#      0       #
+#     ***      #
+#    *$*$$     #
+#   *$$*7*$    #
+#  $$*7$$$**   #
+# ******$$*$* 1#
+#*$5***$**5*$$E#
+################
+R 44879
+0 8
+1 Demo 1
+2 ..ttttlllltllllbblB....l........bbl...l.
+2 ...trrbl.....trrttrrrrbtllB.rrrbbrb....r
+2 .brB.tttllll.....Lrr..blll.L.brr..lBrrbr
+2 B..l...Lrb....l..lltl....t...Lrttrrbbbbl
+2 l...lltlTB.lTLB.l..tllbtrrb....Brtttrrrr
+2 rrrrbbbbllllll...lllllLrrrrttt...trrrr..
+2 tttrrrrbbbbbbbb.......
+
+uuid 37bc42d488b87ab493e3bb0a3a60a8d3
+
+leaderboard steps time

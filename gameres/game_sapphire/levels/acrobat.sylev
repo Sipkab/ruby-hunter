@@ -1,0 +1,37 @@
+n Acrobatica
+ldeutsch n Akrobatica
+D 9
+C 3
+E 0
+p 0
+M 0 Your Wildest Dreams
+i Is classical stone-balancing
+i already too easy for you?
+i Here comes a game that
+i will make you think...
+ldeutsch i Ist das klassiche Balancieren
+ldeutsch i schon zu leicht für dich?
+ldeutsch i Hier kommt ein Spiel das dich
+ldeutsch i grübeln läßt...
+a Juergen
+m 16 5
+################
+#       0      #
+#..... "1 .....#
+#       0      #
+#@############E#
+R 3106
+0 1
+1 Demo 1
+2 ....R.......lb.s..t..trrbbl.l.m...t.tllb
+2 b.r.r.r.st....trrbbl.l.l.l.mt....tllbb.r
+2 .r.r.r.r.st....trrbbl.l.l.l.l.l.mt....tl
+2 lbb.r.r.r.r.r.r.r.st....trrbbl.l.l.l.l.l
+2 .l.l.mt....tllbLbr.r.r.r.r.r.r.r.r.st...
+2 .trrbbl.l.l.l.l.l.l.l.l.l.lttll........b
+2 ..ut.rr.......llbbb.trrrrrrrrrrrrrb.....
+2 ..................................
+
+uuid 7f73287a3a9f7cebe91218c1d7b3ac67
+
+leaderboard steps time

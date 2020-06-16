@@ -1,0 +1,32 @@
+n Mission Possible VI
+ldeutsch n Mission Possible VI
+D 6
+C 5
+E 0
+p 0
+M 0 Mission Impossible
+N Mission Possible VII
+i No need to hurry this time!
+i Things should be allright if
+i you manage to get out of the
+i explosion...
+ldeutsch i Diesmal kein Grund zur Eile!
+ldeutsch i Wenn du es schaffst, aus der
+ldeutsch i Explosion rauszukommen, sollte
+ldeutsch i alles in Ordnung sein...
+a Juergen
+m 7 5
+#######
+#E!00.#
+#0@1#.#
+# .Q..#
+#######
+R 6922
+0 1
+1 Demo 1
+2 ..........ltt.....r.bb.r...stt....llbbbb
+2 L.ttll..........
+
+uuid 868ecd7fefa0981a2adc3662a0ca0444
+
+leaderboard steps time

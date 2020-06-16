@@ -1,0 +1,44 @@
+n Crazy Eight
+D 5
+C 5
+E 0
+T 888
+p 0
+d 15
+i Here you *really* need to
+i optimize your use of bombs.
+a Alex
+m 14 12
+~ ##########  
+~##..Q.....#  
+~#.[.......###
+##......[..00#
+#.1.........|#
+#.[......[..##
+#....[......# 
+##..........# 
+~#...._...[.# 
+~#.[....[.### 
+~##.E....##   
+~ ########    
+R 58941
+0 0
+1 Demo 1
+2 ...............rbb.....brrrrrrr.........
+2 tt.bllt.rtrbb..ll....b.............br..b
+2 tllbbrt..ltr....lb....llltllbrrrrr.brt..
+2 llll.tt...rrrtltllbrrrrr..llllllllttrb.l
+2 brrtrblb..rrr..r...llllt..rttt..l.rttlbb
+2 bb..lbrrrr.r..................ttt.ll...r
+2 rbrrtlllll.tlb..rbrrtllll.brrrrr........
+2 .llbbbbbrttt..t....................rrrr.
+2 ..ttttllll...rrrrbb..llllb..lbrrrr..l..t
+2 .rtt.bblltr..brt............lllll.tt..rr
+2 rr.......r.....bbbb..........b....rr..t.
+2 b......llt.......r......t..Rbbr..b.lr...
+2 ....l..tllll..rrrrbbL.tllllbbblt.ttrrr..
+2 bb..lbl....l.rtrrrlbl..tlll.b..........
+
+uuid 43cab7e80454788271b4e459d4420665
+
+leaderboard steps time

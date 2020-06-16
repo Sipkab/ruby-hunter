@@ -1,0 +1,34 @@
+n Cream Filling
+D 2
+C 5
+E 0
+i You will need to fill the
+i space somehow if you wish
+i to move the stone over to
+i the bag.
+a Alex
+m 15 12
+###############
+#....*****....#
+#.............#
+#....QQQQQ....#
+#.............#
+#......$......#
+#.............#
+#.0.........1.#
+#...++   ++...#
+#...+++ ++E...#
+#...+++++++.@.#
+###############
+R 23411
+0 8
+1 Demo 1
+2 ........llllll..trr.......rr..ttl..rrr..
+2 ..............bbbbbl.b.trr.....tt.llllll
+2 lttll.....r..bbll..tllb....rrrrrrrrrrrr.
+2 ......lllbll.rb...ttrrrrrbbb...tll......
+2 ..
+
+uuid 48428b0877fae2a58bd004679d7b10e0
+
+leaderboard steps time

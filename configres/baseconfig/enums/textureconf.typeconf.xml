@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config xmlns="bence.sipka.types.config" >
+
+    <declare-enum name="ColorFormat" >
+
+        <enum name="NONE" />
+
+        <enum name="RGBA_8888" />
+
+        <enum name="RGB_888" />
+
+        <enum name="RGB_565" />
+
+        <enum name="RGBA_4444" />
+
+        <enum name="A_8" />
+    </declare-enum>
+
+</Config>

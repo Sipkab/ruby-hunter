@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config xmlns="bence.sipka.xml.compiler.config" >
+
+    <declare-element name="Font" >
+
+        <declare-attribute
+            name="texture"
+            type="resourcereference" />
+
+        <declare-attribute
+            name="size"
+            type="float" />
+
+        <declare-attribute
+            name="ascent"
+            type="float" />
+
+        <declare-attribute
+            name="descent"
+            type="float" />
+
+        <declare-attribute
+            name="leading"
+            type="float" />
+    </declare-element>
+
+    <declare-element name="Char" >
+
+        <declare-attribute
+            name="id"
+            type="int" />
+
+        <declare-attribute
+            name="xoffset"
+            type="float" />
+
+        <declare-attribute
+            name="x"
+            type="float" />
+
+        <declare-attribute
+            name="y"
+            type="float" />
+
+        <declare-attribute
+            name="w"
+            type="float" />
+
+        <declare-attribute
+            name="h"
+            type="float" />
+
+        <declare-attribute
+            name="xadvance"
+            type="float" />
+
+        <declare-attribute
+            name="baseline"
+            type="float" />
+    </declare-element>
+
+</Config>

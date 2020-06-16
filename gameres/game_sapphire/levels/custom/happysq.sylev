@@ -1,0 +1,72 @@
+n Happy Square
+D 8
+C 5
+e 116
+p 0
+M 0 Tico Tico
+i You may waste up to two bags and
+i one sapphire.
+a Alex
+m 17 20
+#################
+#...............#
+#.......1.......#
+#...............#
+#...............#
+#....$0@0$0@....#
+#....0@0$0@0....#
+#....@0$0@0$....#
+#....0@0$0@0....#
+#....$0@0$0@....#
+#....0@0$0@0....#
+#....@0$0@0$....#
+#...............#
+#...............#
+#...............#
+#...............#
+#....ccccccc....#
+#...............#
+#...............#
+########E########
+R 99304
+0 0
+1 Demo 1
+2 ....bb..rbtrrr........bbbRl..r..........
+2 ..........br.......rr..bbbbbbbllllllllll
+2 llllbbbrrrtrbrtrbrtrbrtrbrtrrr.ttttttttt
+2 ....bblll.Tr.......Tr...r.t......L.bb...
+2 .b........ll....................r.t.....
+2 ....bbbr.blll.rrrtttttt.......ll...r..bb
+2 ........tt......................bbb.....
+2 ........ttttttttlllllllllbl............l
+2 bb.......r.bl...........................
+2 ...b..r...R..B....l..........ttt....r...
+2 ........trrr...trrrrrrbbbbbrbbb.........
+2 ...........lbb.rtttttttttlll...ltlllbrb.
+2 trrrrrbbbb..brbbbbbrb..ltll.....lrrrtttt
+2 tttttllllllb..rrrrrrrbbbbbbbbblt.b...ltr
+2 rrbbbbllllltrrrrrtttttttttttllllll......
+2 .........ltllb.rrrrrrrrrbbbbbbbbrb.lll..
+2 trr....ttttttttlllllll.....rrrrrrrbbbbbb
+2 bll.rtt..L.r.bb.r.bl..lr...............t
+2 ..rbbbblllll.rrbllt.rrrrrttt............
+2 ...ll.bltrrrblll...rtttt...........bbbbr
+2 rbbllllbltrrrrrtttttt........lttttlllltl
+2 llbrtlllbrrtrrrrrbbbrbbbrbbbllttrttttttl
+2 ltllllbr.r..rrrrbbbbrbbbbblltrtttttttlll
+2 llbr.rrrrrbbbbbbblltrttttttllllbr.rrrrbb
+2 bbbbllr.ltttrbbb..l...ltrrbll.rrrrbbllll
+2 llbrrrrrrtttttttlll......lbbbbr....l..tt
+2 t....bbb....rrrrbbblllltrrrrtt.lllltt...
+2 b.lltrt....l.bbbl....l..lll.rrrrrtrrrrrr
+2 bbblllllllbrrtrBrrrrttllllllttttt.......
+2 .....tttlllll.blb.lbbRttrrrr..rrrb..bbbb
+2 bblllllltttt.bbbbl..rr.tllbrrllttttlbbbb
+2 .rrr...l.r..lllbbrrrbrrtllllltttrrttt...
+2 .R.tt..b.trrrlllbbbblbbrr..rrr.ttttr....
+2 lbbblttr.....lbb.lttr...lll.rbbbll.b.rrb
+2 rrr.blll.rrrrr..r...llb........
+
+uuid 83365c839a7e681eebedf45d616aa399
+
+leaderboard steps time gems

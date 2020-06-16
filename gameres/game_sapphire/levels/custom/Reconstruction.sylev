@@ -1,0 +1,40 @@
+n Reconstruction
+D 5
+C 5
+E 0
+p 0
+M 0 Voyager
+i Another bridge-building endeavor.
+i Yay!
+a Shark
+m 15 12
+###############
+#...$...*..$..#
+#Q.......(...*#
+#0.(.$.......@#
+#$............#
+#sSsss(ssss$s.#
+#.(......*....#
+#..  $.....(.s#
+###a*$.$..(.**#
+#1...........$#
+#.@...E.. ....#
+###############
+R 2521
+0 0
+1 Demo 1
+2 ...rr......r...B..r....L......B.rr..B.r.
+2 ..rtTbr...Br.............brR....ltrbl...
+2 ....ttr.....ttb....ll.........t....llbbl
+2 ltr..tb....lltl..l...b............rrrrrr
+2 rrrr..trtt.....l..rb...ttttllllllllll...
+2 l.rb.tll..rb.....rbrrrrrrT.......brR....
+2 lllllll..t..l...br....tltllb.rrrrrrrrrrr
+2 rrrrrr..llbb..llllltbb..lllllt..brrrrr.t
+2 rrrrrrRb......brb...bt..lllllll....tllbl
+2 llb....trrrtrrblllbl.Lrrrtrrbrrrr..r..ll
+2 lllllll.....
+
+uuid 0ae904f5dd403f0d5564061524f3bc1f
+
+leaderboard steps time

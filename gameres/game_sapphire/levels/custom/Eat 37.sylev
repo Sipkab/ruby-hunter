@@ -1,0 +1,43 @@
+n Eat 37
+D 8
+C 3
+A GRAPHITE
+M 0 Nightshift
+N Eat 38
+a Elliot
+m 17 17
+#################
+#*  # * # * #   #
+#.  R . R . R E #
+#  5#  5#  5#  5#
+##R###R###R###R##
+#   # 1r#   #   #
+#*  R   R   R  *#
+#. 5#*8*#*8*# 8.#
+##R###R###R###R##
+#   #   #   #   #
+#*  R   R   R  *#
+#. 5#*8*#*8*# 8.#
+##R###R###R###R##
+#   #   #   #   #
+#   R * R * R   #
+#* 5# .5# .5# 8*#
+#################
+R 94819
+0 0
+1 Demo
+2 .r...bblL...bl..rr...bblL...bbr....rrltr
+2 tLltt...rrbBrl.bllttrrbrbrbl..rrbBbl..lt
+2 tr...rbbllttbtrrbb.lltt.rtRbrbblltt..rtR
+2 lttr....rbbllttrtbrbblltt.rtRbrbblltt.rt
+2 Rlt..lblltt.r.tlttRb.lLb.l.lt.lbllttrrbb
+2 l.....lttrrbbl....lttrrbbl....ltttrrbblb
+2 tlttrrbbl.blBrr..bbl....blBrr..bbl....br
+2 .....bblltt.r.....rbbllttr.rbbll..ttrtlt
+2 tr....rbbllttrrbb.ll.tt.rtlttrrb.....r..
+2 tr..trtr...trrb....rt.rr.bb.ll.tt.rr.bb.
+2 lttblbtrr.b.rrrrtrTltltbrr
+
+uuid 2919703a5fd4aa4db5e3967d3e55c667
+
+leaderboard steps time

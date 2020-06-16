@@ -1,0 +1,84 @@
+n Appartement for sale
+ldeutsch n Wohnung zu verkaufen
+D 4
+C 2
+s 0
+i Don't get lost in the bulk of rooms.
+ldeutsch i Verirre dich nicht in all
+ldeutsch i den Räumen.
+a Emerald Mine
+m 64 32
+################################################################
+#     +     +     +     +  7  +     +     +     +     +     + E#
+#     +     +     +     +     +     +     +     +     +     +  #
+#6    +     G     B  *  G     +  g  +  $  B     +6 b  Y     +  #
+#     +     +     +  .  +     +     +  .  +     +     +     +  #
+#     +     +     +     +     +     +     +     +     +     +  #
+#++G+++++G+++++B+++++++++++++++++B+++++++++++R+++++++++++Y+++  #
+#     +     +     +     +     +     +     +     +     +     +  #
+#     +     +     +     +     +     +     +     +     +     +  #
+#     +  *  +  *  +6    +  *  +6    B  * 8R    8R     R   r    #
+#     +  .  +  .  +     +  .  +     +  .  +     +     +     +  #
+#     +     +     +     +     +     +     +     +     +     +  #
+#++G+++++++++++B+++++G+++++G+++++++++++R+++++++++++Y+++++R+++  #
+#     +     +     +     +     +     +     +     +     +     +  #
+#     +     +     +     +     +     +     +     +     +     +  #
+#  $  +     +     Y     Y     Y  *  +     +6    Y     +     +  #
+#  .  +     +     +     +     +  .  +     +     +     +     +  #
+#     +     +     +     +     +     +     +     +     +     +  #
+#++G+++++Y+++++++++++Y+++++++++++++++++R+++++++++++++++++R+++  #
+#     +  7  +     +     +     +     +     +     +     +     +  #
+#     +     +     +     +     +     +     +     +     +     +  #
+#  *  G     Y     Y  y  R     R  *  R     R     R     R     +  #
+#  .  +     +     +     +     +  .  +     +     +     +     +  #
+#     +     +     +     +     +     +     +     +     +     +  #
+#++++++++G+++++B+++++++++++R+++++++++++Y+++++G+++++++++++G+++  #
+#  7  +     +     +     +     +     +     +     +  7  +     +  #
+#     +     +     +     +     +     +     +     +     +     +  #
+#  *  G     B  *  +  *  B     +6 *  Y     +  *  +     G  *  +  #
+#  .  +     +  .  +  .  +     +  .  +     +  .  +     +  .  +  #
+#     +     +     +     +     +     +     +     +     +     +  #
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 1#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 29605
+0 8
+1 Demo 1
+2 ....ttlltttttttttttttttttttlllllllllll..
+2 ...ll......bllltl.r.......lllb.rll.brbbb
+2 bb..bbllblllbb...llttlllllllllllllll....
+2 ........rrrrrrrrrrrrbbbbb.tttt.lltllll.l
+2 lllll....l......ll....tttttt.bbb........
+2 ......bb..brrrrrrrrrtttrtttlllrr.rrrrrrr
+2 rrrrbbllttllllllll.bbbbrrbrrrbbb.tttrrrr
+2 rrrrrbbbrbbb..ll....lllb.t......rrrrrrtt
+2 ltttrrrrrrrr...llllllllttttttt...ttt....
+2 .............rrrr.r....tttt..b..........
+2 .bbb..rrrrrrrrrrtttttllllll.r...rrrr.bbr
+2 bbbbbbbbbbbbbbbb.ltttt.bblllllllllllllll
+2 lllr.llllllllllllrrrrrbbbbblllllb.trrrrr
+2 tttttllllllllll.bbbbbb.ttttbbblllllrrrrr
+2 ttttt..llll...l..........lll.rr.rrrrrrrr
+2 rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrtttt.ttt
+2 ttllltllllllllll........lll.........llll
+2 l......tttttt.bbbbb.r.br....ll.....rrrrr
+2 ...........rrrrr.....tttttlllllb.t..rrrr
+2 .bbrbb.b.rrrrrrrrrrbbbbbbbbbbllrrbbbbbbb
+2 .tttttttlllllllllllbbbrbbbb.ttttttllllll
+2 ll.lllllllbbbbbllllrrrrtttttllllllllllbb
+2 bbbllllll..llll.rrrrrtt.............ttt.
+2 lllllb.ttttttttttttt...................t
+2 ...bbbb.ttt..bbbbbbbbbbbbb..t.r..r....rr
+2 r........rrrrrl..llll.ttttt.bbb.bbrrrrrr
+2 rrrrtttttlllllttttttttttlllllbbbbbb.tttt
+2 ttrrrrrrrrrrb.....tr..llllllbbbbbbbbbbrr
+2 rrrrrrr.ttrttt.bbbbbbrrtrr.lllllllllbbbb
+2 brrrrrrrrrrrrrrrrrrrrrrrrrrrrrrttttttttt
+2 trrrrtttttrtttt.......
+
+uuid 66d0a0a4d1d745c88a62d11cd1e16e96
+
+leaderboard steps time

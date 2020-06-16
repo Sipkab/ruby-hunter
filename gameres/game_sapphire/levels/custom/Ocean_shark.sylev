@@ -1,0 +1,42 @@
+n Ocean
+D 8
+C 5
+e 259
+E 9
+p 0
+M 0 Downunder
+i Who knew there were so many rocks
+i at the bottom of the sea?
+a Shark
+m 12 13
+######E#####
+#0******0*1#
+#**0*******#
+#$$$$$$$$$$#
+#0$$$$$$$$0#
+#$$$$$$$$$$#
+#$$$$$$$0$$#
+#$$$$$$$$$$#
+#$$0$$0$$$$#
+#$$$$$$$$0$#
+#$$$$0$$$$$#
+#0$$$$$$$$$#
+############
+R 1722
+0 0
+1 Demo 1
+2 ...lblbbblbbrbbbbrtrB....t.....L..L..L..
+2 .......t...t......t.......T..t.........t
+2 ltllll....bb.bl...........Tbr...........
+2 ......r....r..ttt........l..ltll.b....l.
+2 .......bl....bbbbbr..........Br......R..
+2 ............L..............L.B....L.....
+2 ...........L..t...........br............
+2 .........t...l.........t......l.......lb
+2 Brtr.trrrrrT.lbbl.LB.....l..t.l....rr...
+2 ...trrr...bbbl.....rr..T.l.rtll.B.l..b.B
+2 .l....bll.....Ltrtttttttttrt.....
+
+uuid 10e7779b10d16baa036cace2e6bf731b
+
+leaderboard steps time gems

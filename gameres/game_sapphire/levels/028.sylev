@@ -1,0 +1,72 @@
+n The meaning of life
+a Emerald Mine
+D 5
+e 15
+s 50
+i Why can't life be easier?
+i One emerald, one exit, no robots, no lorries.
+m 64 32
+################################################################
+#  .....  .......   ......+E...................................#
+#    .     7   .    .   8.+....................................#
+#    .....   .....5 .    .+++..................................#
+#   6.8  .....8  ......  .+ ++++++++++++++++++++++++++++++++++.#
+#    .   . 7 .   .   8.. .+o+.+.+.+.+.....++...................#
+#.....   .   .   ..    ...+o+.+.+.+.++....++++++++++++++++++++.#
+#.   .....   .    .    . ..........0   ..0                     #
+#.   .   .......  ......6.+o++++++++++ +++++++++++++++++++++++ #
+#.   .    .    .  .  .   .+o+       ::::     :::       :::::: :#
+#... .    .   .....  .   .+ +                                  #
+# 8...    .  ..  .   .   .+++                                  #
+#    ..  ..  .   .   .   .+                                    #
+#     .5 .7  .   .5  .   .+                                    #
+#..........  . 5 .....   .+                                    #
+#.+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+#...+/  +/  +/  +/  +/  +/  +/  +/  +/  +/  +/  +/  +/  +/  +/ #
+#...+...+...+...+...+...+...+...+...+...+...+...+...+...+...+..#
+#...+...+...+...+...+...+...+...+...+...+...+...+...+   +  *+1 #
+#...+...+...+...+...+...+...+...+...+...+   +   +   +   +   +  #
+#...+...+...+...+...+...+...+   +   +   +   +   +   +   +   +  #
+#...+...+...+...+   +   +   +   +   +   +   +   +   +   +   +  #
+#...+   +   +   +   +   +   +   +   +   +   +   +   +   +   +  #
+#...                                                           #
+#..++   +   +   +   +   +   +   +   +   +   +   +   +   +   +  #
+#...+   +   +   +   +   +   +   +   +   +   +   +   +   +   +  #
+#...+   +   +   +   +   +   +   +   +   +   +   +   +   +   +  #
+#...+ * +   +   +   +   + * +   +   +   +   +   +   +   +   +  #
+#...+   +   +   +*  +   +   +   +   +   +   +   + * +   +   +  #
+#...+   + * +   +   +  *+   +   +   + * + * +   +   +   +   +  #
+#...+   +   +  *+   +   +   + * + * +   +   + * +   + * +   + $#
+################################################################
+y ~        
+y ~        
+y ~        
+y ~        
+R 71068
+0 8
+1 Demo 1
+2 ....bbbbblbblbbbbbbb.tttttttrrrbbbbbbbtt
+2 tttttlllllllbbbbbblll.brrtttttttllllbbbb
+2 bbblltttttttllbbbbbbbblltttttttlbblbbbbb
+2 bbllttttttttllbllbbbbbbbllttttttlltlllbb
+2 bbbbb.tttttttlllbbbbbbblltttttttllbbbbbb
+2 blltttttttllbbbbbbblltttttttllbbbbbbbllt
+2 ttttttllbbbbbbblltttttttllbbbbbbbllttttt
+2 ttllbbbbbbblltttttttll.......ttttttt.ll.
+2 .t................T.bbbbb...............
+2 ....tttttt..t..rrr..t......b.r.....R.lll
+2 lt..t....................b..b.rrrrrr..r.
+2 ............R.ttt.......................
+2 .....bbb.rrr..b.llllllllllrrrrrrrr.rr..r
+2 .R.tttt......bbbbrrr..r.t....R.tt.......
+2 .......bbb.rrr..r..R.ttt..........bbbrrr
+2 r..tttttt..t...............T.bbbbbbbllll
+2 tttt................bbbbrrrrttttttttttt.
+2 bbbbb..t...tttt.......bbbb....ttttttt...
+2 bbbbbbrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+2 rrrrrrrrrrrrrttttlllllllllllllllllllllll
+2 ttlllllllllllll.......
+
+uuid 2b41e32b0cfd9aea9b0fb769819fa0f3
+
+leaderboard steps time gems

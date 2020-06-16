@@ -1,0 +1,122 @@
+compile(
+	out javac,
+){
+	$javac = saker.java.compile(
+		[
+			util/src/,
+			types/src/,
+			sources/src/,
+			shader_translator/src/,
+			resources/src/,
+			user/src/,
+			assets/src/,
+			log/src/,
+			xml_compiler/src/,
+			render/src/,
+			project/src/,
+			platform/src/,
+			audio/src/,
+		],
+		ClassPath: saker.java.classpath.bundle(nest.dependency.resolve(
+			[
+				saker.build-api,
+				sipka.syntax.parser-lib,
+				saker.nest-api,
+				saker.windows-api,
+			],
+			Filters: nest.dependency.filter.compile(CompileTransitive: false)
+		)),
+		Identifier: sipka.rubyhunter,
+	)
+}
+export(
+	in compile = compile()	
+	
+	out bundlepaths = [
+		$jar[Path],
+	]
+){
+	$jar = saker.jar.create(
+		Resources: [
+			{
+				Directory: $compile[javac][ClassDirectory],
+				Resources: **,
+			},
+			{
+				Directory: shader_translator/resources,
+				Resources: **,
+				TargetDirectory: shader_translator/,
+			},
+			{
+				Directory: sources/resources/,
+				Resources: **,
+				TargetDirectory: sources/,
+			},
+			{
+				Directory: types/resources/,
+				Resources: **,
+				TargetDirectory: types/,
+			},
+			{
+				Directory: resources/resources/,
+				Resources: **,
+				TargetDirectory: resources/,
+			},
+			{
+				Directory: user/resources/,
+				Resources: **,
+				TargetDirectory: user/,
+			},
+			{
+				Directory: assets/resources/,
+				Resources: **,
+				TargetDirectory: assets/,
+			},
+			{
+				Directory: log/resources/,
+				Resources: **,
+				TargetDirectory: log/,
+			},
+			{
+				Directory: xml_compiler/resources/,
+				Resources: **,
+				TargetDirectory: xml_compiler/,
+			},
+			{
+				Directory: render/resources/,
+				Resources: **,
+				TargetDirectory: render/,
+			},
+			{
+				Directory: project/resources/,
+				Resources: **,
+				TargetDirectory: project/,
+			},
+			{
+				Directory: platform/resources/,
+				Resources: **,
+				TargetDirectory: platform/,
+			},
+			{
+				Directory: audio/resources/,
+				Resources: **,
+				TargetDirectory: audio/,
+			},
+			{
+				Directory: bundle-resources/,
+				Resources: **,
+			}
+		],
+		Manifest: {
+			MainAttributes: {
+				Nest-Bundle-Format-Version: 1,
+				Nest-Bundle-Identifier: "sipka.rubyhunter-v0.0.1",
+			},
+		},
+	)
+}
+install(
+	out export = export()
+){
+	nest.local.install($export[bundlepaths])
+}

@@ -1,0 +1,25 @@
+n Mission Plausible 3-C
+D 6
+C 5
+E 0
+p 0
+i You need to use one of the bombs
+i to open the safe. But which?
+a Alex
+m 5 7
+0.###
+| 1!#
+# [ #
+EQ  #
+#+ Q#
+#+ +#
+##+##
+R 80288
+0 0
+1 Demo 1
+2 ....rb.............l..bbb..utttl......bb
+2 .ttTrbbbb..Lttll......
+
+uuid 0dda9cf9b205833592e473cb12503400
+
+leaderboard steps time

@@ -1,0 +1,66 @@
+n Laser II
+ldeutsch n Laser II
+D 6
+C 5
+s 0
+p 0
+w 60
+A GRAPHITE
+S SOFT
+i The exit is blocked with
+i stone walls here.
+i It seems that you need some
+i kind of laser to finish the game.
+ldeutsch i Der Ausgang ist hier durch
+ldeutsch i Mauern blockiert.
+ldeutsch i Anscheinend brauchst du so 
+ldeutsch i etwas wie einen Laser um
+ldeutsch i das Spiel zu lösen.
+a Jürgen B.
+m 22 20
+######################
+#   Q(     :Eo$   +*:#
+#  .#.  Q.::::::::++ #
+#  .#.+y%+ + + +Q+:  #
+#+ .#..++.+.+* *..:  #
+#+ 0#.........*...:  #
+#+ .#.        $   :  #
+#+ 0#........&*...:  #
+#+ .#.      1 0   :  #
+#+ .#. _0.. . . .  : #
+#+ .+   0 00  :     Y#
+#  .#+0.0..00    0   #
+# 0.# :d.0.0.0 0 .0###
+# .#.  ......0a00+0# #
+# .#.   ###w#######  #
+# .#.     o#         #
+#0.Q o o o #         #
+#0{00   00 #         #
+#0000000000#         #
+######################
+y ~        
+R 17815
+0 0
+1 Demo 1
+ldeutsch 1 Demo 1
+2 tbbbrbblbl...blllLrtrrrrllltbl.rrrrllllt
+2 tlrrtlltllbrrrrrrtrbblbrrbrttblltttrrbbr
+2 brllllblttlttrttrrrrtbbtllllbblbbrtttbll
+2 ttrrrrtrl.rrblllltllbrtrbbbbblbrrrrbrtlt
+2 rlbllltttttrrrrrbt...bbblbbbrttrtlblttrt
+2 tlttbbr.lllrrbbbbrbllllblttttrrrrttllllb
+2 brbllblttrrttllllltllbbbbrrtttl......lb.
+2 bbblllblbbbbrbttltttrtrrrbbbblbbl....llt
+2 ttttrrblrttrrrtrrblbrb.rlbllrr..llrr.llr
+2 rttll.rrrrrtttttlbbrbllllltlttttttbbbbbb
+2 rr.llbrbllltlbrbblltrttttttttttrr.llbbbb
+2 bbbrlbb..rr.rtttttttttrrrrbllbtl.lbbbbbb
+2 b......bllttttbbbbl.rrllbbbtrt..ltrrrrrr
+2 rrbrttttltrrtrl.rrbltlbbbblbrllllllllltt
+2 ttltttlttrrr.rbbbbbbb..rb...bbrrrrr.rbtt
+2 ttrrrrbbbrrrrttltttttttllllLrrrrbbbb....
+2 .............rttlttlllllll...........
+
+uuid 7593b0347457e5d401afac34d5d94beb
+
+leaderboard steps time

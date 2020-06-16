@@ -1,0 +1,31 @@
+n Bomb Balancing
+D 3
+C 6
+p 0
+M 0 Dancing on the Ceiling
+i For every explosion, there is an
+i equal but opposite counter-
+i explosion. Remember that, it might
+i come in handy eventually... (but it
+i almost definately won't)
+a Shark
+m 17 10
+########E########
+#!     1       "#
+#  +++ +++ +++  #
+# +*Q*+*Q*+*Q*+ #
+# +*|*+*Q*+*0*+ #
+# +***+***+*$*+ #
+# +++++++++++++ #
+#  QQQ QQQ QQQ  #
+# ............. #
+#################
+R 19597
+0 0
+1 Demo 1
+2 rrrrrrrRllmlmlllmlmlLb.......rbbbrrtttrr
+2 bcbrstttrrbbcrsttttlllllt.....
+
+uuid 9650f3b86f93f11a6ba022d6e53378f9
+
+leaderboard steps time

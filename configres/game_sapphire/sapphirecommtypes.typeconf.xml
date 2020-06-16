@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config xmlns="bence.sipka.types.config" >
+
+    <declare-enum name="SapphireComm" backing-type="uint16">
+	    <enum name="MIN"						value="1" />
+        <enum name="Login"						value="1" />
+        <enum name="UpgradeStream" 				value="2" />
+        <enum name="UploadLevel"				value="3" />
+        <enum name="Error" 						value="4" />
+        <enum name="GetLevels"					value="5" />
+        <enum name="DownloadLevel"				value="6" />
+        <enum name="RateLevel"					value="7" />
+        <enum name="SendMessage"				value="8" />
+        <enum name="LevelDetailsChanged"		value="9" />
+        <enum name="QuerySingleLevel"			value="10" />
+        <enum name="CommunityNotifications"		value="11" />
+        <enum name="DiscussionMessagesChanged"	value="12" />
+        <enum name="UserStateChanged"			value="13" />
+        <enum name="QueryMessages"				value="14" />
+        <enum name="UpdatePlayerData"			value="15" />
+        <enum name="RegistrationToken"			value="16" />
+        <enum name="RegistrationTokenReceived"	value="17" />
+        <enum name="Information"				value="19" />
+        <enum name="Terminate"					value="20" />
+        <enum name="TerminateOk"				value="21" />
+        <enum name="LevelRemoved"				value="22" />
+        <enum name="ReportLevel"				value="23" />
+        <enum name="PingRequest"				value="24" />
+        <enum name="PingResponse"				value="25" />
+        <enum name="LevelProgress"				value="26" />
+        <enum name="LevelProgressRemoteChanged"	value="27" />
+        <enum name="LinkAccRequest"				value="28" />
+        <enum name="LinkAccIdentifier"			value="29" />
+        <enum name="LinkResult"					value="30" />
+        <enum name="LinkCancel"					value="31" />
+        <enum name="GetStatistics"				value="32" />
+        <enum name="GetLeaderboard"				value="33" />
+        <enum name="GetPlayerDemo"				value="34" />
+        <enum name="MAX"						value="34" />
+    </declare-enum>
+    
+    <declare-enum name="SapphireCommError" backing-type="uint16">
+        <enum name="NoError" 			value="0"/>
+        <enum name="ServerError" 		value="1"/>
+        <enum name="InvalidName"		value="2"/>
+        <enum name="InvalidUserId"		value="3"/>
+        <enum name="LevelReadFailed"	value="4"/>
+        <enum name="LevelDemoRemoved"	value="5"/>
+        <enum name="LevelAlreadyExists"	value="6"/>
+        <enum name="LevelInvalidDemo"	value="7"/>
+        <enum name="LevelNoDemo"		value="8"/>
+        <enum name="InvalidRating"		value="9"/>
+        <enum name="ValueOutOfBounds"	value="10"/>
+        <enum name="Spam"				value="11"/>
+		<enum name="InvalidOperation"	value="12"/>
+		<enum name="Terminated"			value="13"/>
+		<enum name="NewerVersion"		value="14"/>
+		<enum name="SameHardware"		value="15"/>
+		<enum name="AlreadyLinked"		value="16"/>
+		<enum name="NoStatsYet"			value="17"/>
+		<enum name="NotFound"			value="18"/>
+    </declare-enum>
+    
+	<declare-enum name="SapphireCommunityInformation" backing-type="uint16">
+	    <enum name="NoInformation"				value="0"/>
+	    <enum name="NewVersionRequired"			value="1"/>
+	    <enum name="Maintenance"				value="2"/>
+	</declare-enum>
+	
+	<declare-enum name="SapphireLevelCommProgress" backing-type="uint16">
+	    <enum name="Unknown"			value="0"/>
+	    <enum name="Seen"				value="1"/>
+	    <enum name="Finished"			value="2"/>
+	    <enum name="Seen_NoSteps"		value="3"/>
+	    <enum name="Finished_NoSteps"	value="4"/>
+	    <enum name="TimePlayed"			value="5"/>
+	    <enum name="IdOverride"			value="6"/>
+	    <enum name="COMM_COUNT"			value="7"/>
+	</declare-enum>
+</Config>

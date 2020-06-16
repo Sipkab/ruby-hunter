@@ -1,0 +1,41 @@
+n House
+ldeutsch n Hochhaus
+D 7
+C 1
+E 0
+p 0
+M 0 Rooms
+i Use the elevator to
+i move down faster than
+i the stones.
+ldeutsch i Benutze den Lift,
+ldeutsch i damit du schneller
+ldeutsch i bist als die Steine.
+a Ronald
+m 9 17
+#########
+##!!1bE##
+####B####
+## 0 0 ##
+## #B# ##
+## # # ##
+## #B# ##
+## 0 0 ##
+#  #B#  #
+#  # #  #
+#  #B#  #
+#  # #  #
+#  #B#  #
+#  B B  #
+#  # #  #
+#@$# #$@#
+#########
+R 22084
+0 1
+1 Demo 1
+2 ..r.llLrblrbblrbbbls.tttttrlbbrlbbbrmllb
+2 blrttrrrrbbrtttttttltttttlltrr..........
+
+uuid 048f2b2477f1bd1a280b4514725b2619
+
+leaderboard steps time
