@@ -247,3 +247,108 @@ compile_win32(
 compile_win32_steam() {
 	compilewin32(steamavailable: true)
 }
+
+compile_android(
+	in resources = resources(platformname: android)
+) {
+
+	$javac = saker.java.compile(
+		SourceDirectories: [
+			src/rhfw/android_java/,
+		] + $aapt2link[JavaSourceDirectories],
+		BootClassPath: saker.android.classpath.platform(),
+		SDKs: {
+			AndroidBuildTools: saker.android.sdk.buildtools(),
+			AndroidPlatform: saker.android.sdk.platform(),
+		},
+	)
+	$d8 = saker.android.d8($javac)
+	
+	$aapt2compile = saker.android.aapt2.compile(
+		Input: android/res,
+	)
+	
+	$aapt2link = saker.android.aapt2.link(
+		$aapt2compile, 
+		Manifest: android/AndroidManifest.xml,
+		MinSDKVersion: 9,
+		TargetSDKVersion: 25,
+	)
+	
+	$includedirs = [
+		3rdparty/,
+		src/userapp/,
+		src/rhfw/,
+	] + $resources[sourcedirs]
+	
+	$macros = {
+		HAVE_UNISTD_H: null,
+	}
+	
+	$libmainmap = foreach $abi in [armeabi-v7a, arm64-v8a, x86, x86_64] 
+			with $preset, $thirdpartycompile, $compile, $link {
+		$preset = saker.android.ndk.clang.preset(
+			ABI: $abi,
+			API: 21,
+			Release: !$resources[debug],
+			StaticStdLib: true,
+			Libraries: [
+				OpenSLES,
+				EGL,
+				android,
+				log,
+			]
+		)
+	
+		$thirdpartycompile = saker.clang.compile(
+			{
+				Files: [3rdparty/**/*.cpp, 3rdparty/**/*.c],
+				IncludeDirectories: 3rdparty/,
+				MacroDefinitions: $macros,
+			},
+			Identifier: "3rdparty-{ $abi }",
+			CompilerOptions: $preset,
+		)
+		$compile = saker.clang.compile(
+			{
+				Files: [
+					src/userapp/**/*.cpp,
+					src/rhfw/framework/**/*.cpp,
+					src/rhfw/androidplatform/**/*.cpp,
+					src/rhfw/opengles20/**/*.cpp,
+					src/rhfw/opensles_android/**/*.cpp,
+				] + foreach $dir in $resources[sourcedirs] : ["{$dir}/**/*.cpp"],
+				IncludeDirectories: $includedirs,
+				MacroDefinitions: $macros,
+			},
+			Identifier: "main-{ $abi }",
+			CompilerOptions: $preset,
+		)
+		
+		$link = saker.clang.link(
+			[
+				$compile, 
+				$thirdpartycompile
+			],
+			LinkerOptions: $preset,
+		)
+	}: {
+		$abi: $resources[debug] ? $link[OutputPath] : saker.android.ndk.strip($link[OutputPath])[Path]
+	}
+	
+	
+	$apk = saker.apk.create(
+		Resources: $aapt2link,
+		Classes: $d8,
+		Libraries: {
+			libmain.so: $libmainmap
+		},
+		Assets: $resources[assetgen][AssetsDirectoryPath]
+	)
+	
+	saker.apk.sign($apk)
+}
+
+compile_ci() {
+	include("compile_{ std.param.exec(ci.platform) }")
+}

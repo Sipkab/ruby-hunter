@@ -23,8 +23,15 @@ resources:
     
 jobs:
 - job:
+  matrix:
+    win32:
+      imageName: 'windows-latest'
+      ci_target: 'win32'
+    win_android:
+      imageName: 'windows-latest'
+      ci_target: 'android'
   pool:
-    vmImage: 'windows-latest'
+    vmImage: $(imageName)
   steps:
   - checkout: self
     path: s/ruby-hunter
@@ -62,7 +69,8 @@ jobs:
     displayName: 'Install sipka.rubyhunter'
     workingDirectory: ruby-hunter
     
-  - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_compile_win32.trace compile_win32
+  - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_compile_win32.trace -Uci.platform=$(ci_target) compile_ci
     displayName: 'Compile win32'
     workingDirectory: ruby-hunter
     condition: eq( variables['Agent.OS'], 'Windows_NT' )
+  
