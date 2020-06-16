@@ -48,11 +48,11 @@ jobs:
     workingDirectory: saker.apple
     condition: eq( variables['Agent.OS'], 'Darwin' )
   
-  - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_install.trace install
+  - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_install.trace install sipka.rubyhunter/saker.build
     displayName: 'Install sipka.rubyhunter'
     workingDirectory: ruby-hunter
     
-  - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_compile_win32.trace install
-    displayName: 'Compile win32 sipka.rubyhunter'
+  - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_compile_win32.trace compile_win32
+    displayName: 'Compile win32'
     workingDirectory: ruby-hunter
     condition: eq( variables['Agent.OS'], 'Windows_NT' )
