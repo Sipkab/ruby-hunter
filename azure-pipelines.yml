@@ -15,6 +15,11 @@ resources:
     type: github
     name: 'sakerbuild/saker.android'
     endpoint: Sipkab
+  - repository: repo_saker_msvc
+    type: github
+    name: 'sakerbuild/saker.msvc'
+    endpoint: Sipkab
+    ref: refs/heads/dep-saker.windows
     
 jobs:
 - job:
@@ -30,6 +35,8 @@ jobs:
     condition: eq( variables['Agent.OS'], 'Darwin' )
   - checkout: repo_saker_android
     path: s/saker.android
+  - checkout: repo_saker_msvc
+    path: s/saker.msvc
     
   - script: curl -L https://api.nest.saker.build/bundle/download/saker.build-v$(curl -s https://mirror.nest.saker.build/badges/saker.build/latest.txt) -o saker.build.jar
     displayName: 'Download saker.build'
@@ -40,6 +47,9 @@ jobs:
   - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_install.trace install
     displayName: 'Install saker.windows'
     workingDirectory: saker.windows
+  - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_install.trace install
+    displayName: 'Install saker.msvc'
+    workingDirectory: saker.msvc
   - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_install.trace install
     displayName: 'Install saker.android'
     workingDirectory: saker.android
