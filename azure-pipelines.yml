@@ -23,13 +23,14 @@ resources:
     
 jobs:
 - job:
-  matrix:
-    win32:
-      imageName: 'windows-latest'
-      ci_target: 'win32'
-    win_android:
-      imageName: 'windows-latest'
-      ci_target: 'android'
+  strategy:
+    matrix:
+      win32:
+        imageName: 'windows-latest'
+        ci_target: 'win32'
+      win_android:
+        imageName: 'windows-latest'
+        ci_target: 'android'
   pool:
     vmImage: $(imageName)
   steps:
