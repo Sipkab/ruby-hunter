@@ -349,6 +349,75 @@ compile_android(
 	saker.apk.sign($apk)
 }
 
+compile_winstore(
+	in resources = resources(platformname: winstore),
+	
+	out link,
+	out resources,
+){
+	
+	$includedirs = [
+		3rdparty/,
+		src/userapp/,
+		src/rhfw/,
+	] + $resources[sourcedirs]
+	
+	$compileroptions = [
+		{
+			SimpleCompilerParameters: [
+				"/Z7",
+				"/MDd",
+			],
+			MacroDefinitions: {
+				_CRT_SECURE_NO_WARNINGS: "",
+				_HAS_EXCEPTIONS: "0",
+			}
+		},
+	]
+	$linkeroptions = [
+		{
+			SimpleLinkerParameters: [
+				"/DEBUG",
+			],
+		}
+	]
+	
+	$thidpartycompile = saker.msvc.ccompile(
+		{
+			Files: [3rdparty/**/*.cpp, 3rdparty/**/*.c],
+			IncludeDirectories: 3rdparty/,
+		},
+		CompilerOptions: [ saker.msvc.coptions.preset(uap) ] + $compileroptions,
+		Identifier: 3rdparty-winstore
+	)
+	$maincompile = saker.msvc.ccompile(
+		[
+			{
+				Files: [
+					src/userapp/**/*.cpp,
+					src/rhfw/framework/**/*.cpp,
+					src/rhfw/winstoreplatform/**/*.cpp,
+					src/rhfw/winsock/**/*.cpp,
+					src/rhfw/xaudio2/**/*.cpp,
+					src/rhfw/directx11/**/*.cpp,
+				] + foreach $dir in $resources[sourcedirs] : ["{$dir}/**/*.cpp"],
+				IncludeDirectories: $includedirs,
+			},
+		],
+		CompilerOptions: [ saker.msvc.coptions.preset(uap) ] + $compileroptions,
+		Identifier: main-winstore
+	)
+	$link = saker.msvc.clink(
+		Input:[
+			$thidpartycompile,
+			$maincompile,
+		],
+		LinkerOptions: [ saker.msvc.coptions.preset(uap) ] + $linkeroptions,
+		BinaryName: static(NAME)
+	)
+}
+
+
 compile_ci() {
 	include("compile_{ std.param.exec(ci.platform) }")
 }

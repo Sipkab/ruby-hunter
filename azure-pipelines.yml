@@ -28,8 +28,17 @@ jobs:
       win32:
         imageName: 'windows-latest'
         ci_target: 'win32'
+      winstore:
+        imageName: 'windows-latest'
+        ci_target: 'winstore'
       win_android:
         imageName: 'windows-latest'
+        ci_target: 'android'
+      mac_android:
+        imageName: 'macos-latest'
+        ci_target: 'android'
+      ubuntu_android:
+        imageName: 'ubuntu-latest'
         ci_target: 'android'
   pool:
     vmImage: $(imageName)
@@ -64,14 +73,14 @@ jobs:
   - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_install.trace install
     displayName: 'Install saker.apple'
     workingDirectory: saker.apple
-    condition: eq( variables['Agent.OS'], 'Darwin' )
+    condition: and(succeeded(), eq( variables['Agent.OS'], 'Darwin' ))
   
   - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_install.trace install sipka.rubyhunter/saker.build
     displayName: 'Install sipka.rubyhunter'
     workingDirectory: ruby-hunter
     
   - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_compile_win32.trace -Uci.platform=$(ci_target) compile_ci
-    displayName: 'Compile win32'
+    displayName: 'Compile $(ci_target)'
     workingDirectory: ruby-hunter
-    condition: eq( variables['Agent.OS'], 'Windows_NT' )
+    condition: and(succeeded(), eq( variables['Agent.OS'], 'Windows_NT' ))
   
