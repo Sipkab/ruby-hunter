@@ -727,14 +727,14 @@ compile_server_linux(
 		3rdparty/,
 		src/userapp/,
 		src/rhfw/,
-		src/sapphireserver/,
+		src/server/,
 	] + $resources[sourcedirs]
 	
 	$compile = saker.clang.compile(
 		[
 			{
 				Files: [
-					src/sapphireserver/**/*.cpp,
+					src/server/**/*.cpp,
 					src/userapp/sapphire/common/**/*.cpp,
 					src/userapp/sapphire/level/**/*.cpp,
 					src/userapp/sapphire/private/**/*.cpp,
@@ -746,7 +746,6 @@ compile_server_linux(
 					src/rhfw/linuxplatform/threading/**/*.cpp,
 					src/rhfw/linuxplatform/storage/**/*.cpp,
 					src/rhfw/linuxplatform/network/**/*.cpp,
-					src/rhfw/sapphireserver/**/*.cpp
 					"{$resources[types][SourceDirectory]}/**/*.cpp",
 					"{$resources[projectconfig][SourceDirectory]}/**/*.cpp",
 					"{$resources[log][SourceDirectory]}/**/*.cpp",
