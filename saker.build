@@ -716,3 +716,75 @@ export_ios(
 		Output: "{ $compileios[resources][appname] }.app",
 	)
 }
+
+compile_server_linux(
+	in resources = resources(platformname: linux, appname: "{ static(NAME) } Server")
+	
+	out resources,
+	out exepath,
+) {
+	$includedirs = [
+		3rdparty/,
+		src/userapp/,
+		src/rhfw/,
+		src/sapphireserver/,
+	] + $resources[sourcedirs]
+	
+	$compile = saker.clang.compile(
+		[
+			{
+				Files: [
+					src/sapphireserver/**/*.cpp,
+					src/userapp/sapphire/common/**/*.cpp,
+					src/userapp/sapphire/level/**/*.cpp,
+					src/userapp/sapphire/private/**/*.cpp,
+					src/userapp/util/**/*.cpp,
+					src/rhfw/framework/io/network/**/*.cpp,
+					src/rhfw/framework/io/files/**/*.cpp,
+					src/rhfw/framework/utils/**/*.cpp,
+					src/rhfw/linuxplatform/random/**/*.cpp,
+					src/rhfw/linuxplatform/threading/**/*.cpp,
+					src/rhfw/linuxplatform/storage/**/*.cpp,
+					src/rhfw/linuxplatform/network/**/*.cpp,
+					src/rhfw/sapphireserver/**/*.cpp
+					"{$resources[types][SourceDirectory]}/**/*.cpp",
+					"{$resources[projectconfig][SourceDirectory]}/**/*.cpp",
+					"{$resources[log][SourceDirectory]}/**/*.cpp",
+					"{$resources[platform][SourceDirectory]}/**/*.cpp",
+					"{$resources[assetcompile][SourceDirectory]}/**/*.cpp",
+					"{$resources[rescompile][SourceDirectory]}/**/*.cpp",
+				],
+				IncludeDirectories: $includedirs,
+			},
+		],
+		Identifier: linux-server
+	)
+	$link = saker.clang.link(
+		$compile,
+		SimpleParameters: [
+			-lstdc++,
+			-pthread,
+		]
+	)
+	$exepath = $link[OutputPath]
+}
+export_server_linux(
+	in compileserverlinux = compile_server_linux()
+) {
+	std.dir.prepare(
+		Output: rh-server,
+		Contents: [
+			{
+				Directory: $compileserverlinux[resources][assetgen][AssetsDirectoryPath],
+				Wildcard: **/*,
+				TargetDirectory: assets,
+			},
+			{
+				Files: $compileserverlinux[exepath],
+				Remap: {
+					".*": "rh-server.exe",
+				}
+			}
+		]
+	)
+}

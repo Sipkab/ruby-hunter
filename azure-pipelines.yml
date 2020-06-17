@@ -31,10 +31,10 @@ jobs:
       winstore:
         imageName: 'windows-latest'
         ci_target: 'winstore'
-      win_android:
+      android_win:
         imageName: 'windows-latest'
         ci_target: 'android'
-      mac_android:
+      android_mac:
         imageName: 'macos-latest'
         ci_target: 'android'
       macosx:
@@ -43,9 +43,12 @@ jobs:
       ios:
         imageName: 'macos-latest'
         ci_target: 'ios'
-      ubuntu_android:
+      android_ubuntu:
         imageName: 'ubuntu-latest'
         ci_target: 'android'
+      server_linux:
+        imageName: 'ubuntu-latest'
+        ci_target: 'server_linux'
   pool:
     vmImage: $(imageName)
   steps:
@@ -55,7 +58,7 @@ jobs:
     path: s/saker.windows
   - checkout: repo_saker_apple
     path: s/saker.apple
-    condition: eq( variables['Agent.OS'], 'Darwin' )
+    condition: and(succeeded(), eq( variables['Agent.OS'], 'Darwin' ))
   - checkout: repo_saker_android
     path: s/saker.android
   - checkout: repo_saker_msvc
@@ -63,10 +66,10 @@ jobs:
     
   - script: curl -L https://api.nest.saker.build/bundle/download/saker.build-v$(curl -s https://mirror.nest.saker.build/badges/saker.build/latest.txt) -o saker.build.jar
     displayName: 'Download saker.build'
-    condition: or( eq( variables['Agent.OS'], 'Linux' ), eq( variables['Agent.OS'], 'Darwin' ) )
+    condition: and(succeeded(), or( eq( variables['Agent.OS'], 'Linux' ), eq( variables['Agent.OS'], 'Darwin' ) ))
   - script: powershell $ProgressPreference='silentlyContinue';Invoke-WebRequest "https://api.nest.saker.build/bundle/download/saker.build-v$((Invoke-WebRequest "https://mirror.nest.saker.build/badges/saker.build/latest.txt" -UseBasicParsing).Content)" -OutFile saker.build.jar
     displayName: 'Download saker.build'
-    condition: eq( variables['Agent.OS'], 'Windows_NT' )
+    condition: and(succeeded(), eq( variables['Agent.OS'], 'Windows_NT' ))
   - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_install.trace install
     displayName: 'Install saker.windows'
     workingDirectory: saker.windows
