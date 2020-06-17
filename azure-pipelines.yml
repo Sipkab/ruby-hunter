@@ -79,8 +79,7 @@ jobs:
     displayName: 'Install sipka.rubyhunter'
     workingDirectory: ruby-hunter
     
-  - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_compile_win32.trace -Uci.platform=$(ci_target) compile_ci
-    displayName: 'Compile $(ci_target)'
+  - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_compile_win32.trace export_$(ci_target)
+    displayName: 'Export $(ci_target)'
     workingDirectory: ruby-hunter
-    condition: and(succeeded(), eq( variables['Agent.OS'], 'Windows_NT' ))
   

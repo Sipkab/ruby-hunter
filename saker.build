@@ -243,6 +243,26 @@ compile_win32(
 		BinaryName: $resources[appname],
 	)
 }
+export_win32(
+	in compilewin32 = compile_win32()
+) {
+	std.dir.prepare(
+		Output: ruby-hunter,
+		Contents: [
+			{
+				Directory: $compilewin32[resources][assetgen][AssetsDirectoryPath],
+				Wildcard: **/*,
+				TargetDirectory: assets,
+			},
+			{
+				Files: $compilewin32[link][OutputPath],
+				Remap: {
+					".*": "Ruby Hunter.exe",
+				}
+			}
+		] + ($compilewin32[resources][debug] && $compilewin32[steamavailable] ? [steam/windows/steam_appid.txt] : [])
+	)
+}
 
 compile_win32_steam() {
 	compilewin32(steamavailable: true)
@@ -250,6 +270,11 @@ compile_win32_steam() {
 
 compile_android(
 	in resources = resources(platformname: android)
+	
+	out resources,
+	out libmainmap,
+	out aapt2link,
+	out d8,
 ) {
 
 	$javac = saker.java.compile(
@@ -335,15 +360,17 @@ compile_android(
 	}: {
 		$abi: $resources[debug] ? $link[OutputPath] : saker.android.ndk.strip($link[OutputPath])[Path]
 	}
-	
-	
+}
+export_android(
+	in compileandroid = compile_android()
+) {
 	$apk = saker.apk.create(
-		Resources: $aapt2link,
-		Classes: $d8,
+		Resources: $compileandroid[aapt2link],
+		Classes: $compileandroid[d8],
 		Libraries: {
-			libmain.so: $libmainmap
+			libmain.so: $compileandroid[libmainmap]
 		},
-		Assets: $resources[assetgen][AssetsDirectoryPath]
+		Assets: $compileandroid[resources][assetgen][AssetsDirectoryPath]
 	)
 	
 	saker.apk.sign($apk)
@@ -416,8 +443,43 @@ compile_winstore(
 		BinaryName: static(NAME)
 	)
 }
-
-
-compile_ci() {
-	include("compile_{ std.param.exec(ci.platform) }")
+export_winstore(
+	in compilewinstore = compilewinstore()
+) {
+	$link = $compilewinstore[link]
+	$resources = $compilewinstore[resources]
+	
+	$prepared = saker.appx.prepare(
+		AppxManifest: saker.appx.manifest.patch(
+			winstore/AppxManifest.xml,
+			ProcessorArchitecture: x64,
+		)[Path], 
+		Contents: [
+			$compilewinstore[link][OutputPath],
+			$compilewinstore[link][OutputWinmdPath],
+			{
+				Directory: $resources[assetgen][AssetsDirectoryPath],
+				Wildcard: **,
+				TargetDirectory: assets,
+			},
+			{
+				Directory: winstore/logo/,
+				Wildcard: **,
+				TargetDirectory: logo,
+			}
+		]
+	)
+	
+	###
+	$register = saker.appx.register(
+		$prepared,
+		AllowReinstall: true,
+	)
+	#saker.appx.launch($register)
+	###
+	
+	$pack = saker.appx.package($prepared)
+	$bundle = saker.appx.bundle({
+		$pack[Path]: null
+	})
 }
