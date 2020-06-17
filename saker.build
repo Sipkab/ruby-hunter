@@ -597,3 +597,122 @@ export_macosx(
 		Output: "{ $compilemacosx[resources][appname] }.app",
 	)
 }
+
+compile_ios(
+	in resources = resources(platformname: ios),
+	out resources,
+	out exepath,
+	out plist,
+) {
+	$preset = saker.apple.preset(
+		iphoneos,
+		Architecture: armv7,
+		PlatformVersionMin: "7.0",
+		Frameworks: [
+			OpenAL,
+			# for EGL functions
+			OpenGLES,
+			UIKit,
+			# for random generation
+			Security,
+			# for time functions
+			QuartzCore,
+		],
+		Libraries: [
+			c++,
+		],
+		DeviceFamily: [
+			iPhone,
+			iPad,
+		]
+	)
+	$compileroptions = [
+		$preset,
+		{
+			SimpleCompilerParameters: [
+				"-fno-rtti",
+				"-fno-exceptions",
+			],
+			MacroDefinitions: {
+				HAVE_UNISTD_H: null,
+			}
+		},
+	]
+	$linkeroptions = [
+		$preset,
+	]
+	$includedirs = [
+		3rdparty/,
+		src/userapp/,
+		src/rhfw/,
+	] + $resources[sourcedirs]
+	
+	$thirdpartycompile = saker.clang.compile(
+		{
+			Files: [3rdparty/**/*.cpp, 3rdparty/**/*.c],
+			IncludeDirectories: 3rdparty/,
+		},
+		CompilerOptions: $compileroptions,
+		Identifier: "3rdparty-ios"
+	)
+	
+	$maincompile = saker.clang.compile(
+		{
+			Files: [
+				src/userapp/**/*.cpp,
+				src/userapp/**/*.mm,
+				src/rhfw/framework/**/*.cpp,
+				src/rhfw/appleplatform/**/*.cpp,
+				src/rhfw/appleplatform/**/*.mm,
+				src/rhfw/iosplatform/**/*.cpp,
+				src/rhfw/iosplatform/**/*.mm,
+				src/rhfw/openal/**/*.cpp,
+				src/rhfw/opengles20/**/*.cpp,
+			] + foreach $dir in $resources[sourcedirs] : ["{$dir}/**/*.cpp", "{$dir}/**/*.mm"],
+			IncludeDirectories: $includedirs,
+		},
+		CompilerOptions: $compileroptions,
+		Identifier: "main-ios"
+	)
+	
+	$link = saker.clang.link(
+		Input:[
+			$thirdpartycompile,
+			$maincompile,
+		],
+		Identifier: "main-ios",
+		LinkerOptions: $linkeroptions,
+		BinaryName: "Ruby Hunter"
+	)
+	
+	$plist = saker.plist.insert(
+			ios/Info.plist, 
+			Output: iphoneos/Info.plist, 
+			Values: $preset[InfoPlistValues],
+			SDKs: $link[SDKs],
+		)[Path]
+	$exepath = saker.apple.lipo($link[OutputPath])[Path]
+	
+}
+export_ios(
+	in compileios = compile_ios()
+){
+	$bundle = saker.iphoneos.bundle.create(
+		[
+			$compileios[exepath],
+			icons/iphoneos/*.png,
+			{
+				Directory: $compileios[resources][assetgen][AssetsDirectoryPath],
+				Wildcard: **,
+				TargetDirectory: assets,
+			},
+			{
+				Files: saker.plist.convert($compileios[plist], Format: binary)[Path],
+				Remap: {
+					".*": "Info.plist",
+				},
+			}
+		],
+		Output: "{ $compilemacosx[resources][appname] }.app",
+	)
+}

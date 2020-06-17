@@ -40,6 +40,9 @@ jobs:
       macosx:
         imageName: 'macos-latest'
         ci_target: 'macosx'
+      ios:
+        imageName: 'macos-latest'
+        ci_target: 'ios'
       ubuntu_android:
         imageName: 'ubuntu-latest'
         ci_target: 'android'
