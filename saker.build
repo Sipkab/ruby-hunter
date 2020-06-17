@@ -444,7 +444,7 @@ compile_winstore(
 	)
 }
 export_winstore(
-	in compilewinstore = compilewinstore()
+	in compilewinstore = compile_winstore()
 ) {
 	$link = $compilewinstore[link]
 	$resources = $compilewinstore[resources]
@@ -482,4 +482,118 @@ export_winstore(
 	$bundle = saker.appx.bundle({
 		$pack[Path]: null
 	})
+}
+
+compile_macosx(
+	in resources = resources(platformname: macosx),
+	in steamavailable = false,
+	
+	out resources,
+	out exepath,
+	out plist,
+) {
+	$preset = saker.apple.preset(
+		macosx,
+		PlatformVersionMin: "10.9",
+		Frameworks: [
+			OpenAL,
+			Cocoa,
+		],
+		Libraries: [
+			c++,
+		]
+	)
+	$compileroptions = [
+		$preset,
+		{
+			SimpleCompilerParameters: [
+				"-fno-rtti",
+				"-fno-exceptions",
+			],
+			MacroDefinitions: {
+				HAVE_UNISTD_H: null,
+			}
+		},
+	]
+	$linkeroptions = [
+		$preset,
+	]
+	$includedirs = [
+		3rdparty/,
+		src/userapp/,
+		src/rhfw/,
+	] + $resources[sourcedirs]
+	
+	$thirdpartycompile = saker.clang.compile(
+		{
+			Files: [3rdparty/**/*.cpp, 3rdparty/**/*.c],
+			IncludeDirectories: 3rdparty/,
+		},
+		CompilerOptions: $compileroptions,
+		Identifier: "3rdparty-maxosx{ $steamavailable ? "-steam" : "" }"
+	)
+	
+	$maincompile = saker.clang.compile(
+		{
+			Files: [
+				src/userapp/**/*.cpp,
+				src/userapp/**/*.mm,
+				src/rhfw/framework/**/*.cpp,
+				src/rhfw/appleplatform/**/*.cpp,
+				src/rhfw/appleplatform/**/*.mm,
+				src/rhfw/macosxplatform/**/*.cpp,
+				src/rhfw/macosxplatform/**/*.mm,
+				src/rhfw/openal/**/*.cpp,
+				src/rhfw/opengl30/**/*.cpp,
+			] + foreach $dir in $resources[sourcedirs] : ["{$dir}/**/*.cpp", "{$dir}/**/*.mm"],
+			IncludeDirectories: $includedirs,
+		},
+		CompilerOptions: $compileroptions,
+		Identifier: "main-macosx{ $steamavailable ? "-steam" : "" }"
+	)
+	
+	$link = saker.clang.link(
+		Input:[
+			$thirdpartycompile,
+			$maincompile,
+		],
+		Identifier: "main-macosx{ $steamavailable ? "-steam" : "" }",
+		LinkerOptions: $linkeroptions,
+		BinaryName: $resources[appname],
+	)
+	
+	$stripped = saker.apple.strip($link[OutputPath])
+	
+	$plist = saker.plist.insert(
+			macosx/Info.plist, 
+			Output: macos/Info.plist, 
+			Values: $preset[InfoPlistValues],
+			SDKs: $link[SDKs],
+		)[Path]
+	# TODO run lipo if necessary
+	$exepath = $resources[debug] ? $link[OutputPath] : $stripped[Path]
+}
+export_macosx(
+	in compilemacosx = compile_macosx()
+){
+	saker.macos.bundle.create(
+		MacOS: $compilemacosx[exepath],
+		Resources: [
+			icons/macosx/AppIcon.icns,
+			{
+				Directory: $compilemacosx[resources][assetgen][AssetsDirectoryPath],
+				Wildcard: **,
+				TargetDirectory: assets,
+			},
+		],
+		Contents: [
+			{
+				Files: saker.plist.convert($compilemacosx[plist], Format: binary)[Path],
+				Remap: {
+					".*": "Info.plist",
+				},
+			}
+		],
+		Output: "{ $compilemacosx[resources][appname] }.app",
+	)
 }
