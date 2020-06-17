@@ -691,7 +691,7 @@ compile_ios(
 			Values: $preset[InfoPlistValues],
 			SDKs: $link[SDKs],
 		)[Path]
-	$exepath = saker.apple.lipo($link[OutputPath])[Path]
+	$exepath = saker.apple.lipo.create($link[OutputPath])[Path]
 	
 }
 export_ios(
@@ -713,6 +713,6 @@ export_ios(
 				},
 			}
 		],
-		Output: "{ $compilemacosx[resources][appname] }.app",
+		Output: "{ $compileios[resources][appname] }.app",
 	)
 }
