@@ -710,7 +710,12 @@ int main(int argc, char* argv[]) {
 
 	MSG msg;
 
-	while (GetMessage(&msg, NULL, 0, 0)) {
+	for (BOOL ret; (ret = GetMessage(&msg, NULL, 0, 0)) != 0;) {
+		if (ret == -1) {
+			//some error happened
+			THROW() << "GetMessage returned -1. Last error: " << GetLastError();
+			break;
+		}
 		if (msg.message == WM_USER_EXECUTE) {
 			(*((WinMessageRunnable*) msg.lParam))();
 		} else {
