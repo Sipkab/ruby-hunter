@@ -506,6 +506,7 @@ compile_macosx(
 	in resources = resources(platformname: macosx),
 	in steamavailable = false,
 	
+	out steamavailable,
 	out resources,
 	out exepath,
 	out plist,
