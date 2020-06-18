@@ -8,7 +8,7 @@ static(SapphireDiffuseToAmbientFactors) = [
 static(NAME) = "Ruby Hunter"
 resources(
 	in platformname,
-	in debug = true,
+	in debug = !std.param.exec(rh.release, Default: false),
 	in appname = static(NAME),
 	
 	out projectconfig,
@@ -148,8 +148,10 @@ compile_win32(
 	out link,
 ){
 
+	$preset = saker.msvc.coptions.preset([win32, "optimize-{ $resources[debug] ? debug : release }"])
+
 	$compileroptions = [
-		saker.msvc.coptions.preset(win32),
+		$preset,
 		{
 			SimpleCompilerParameters: [
 				"/Z7",
@@ -169,7 +171,7 @@ compile_win32(
 		}
 	]
 	$linkeroptions = [
-		saker.msvc.coptions.preset(win32),
+		$preset,
 		{
 			SimpleLinkerParameters: [
 				/DEBUG,
@@ -297,7 +299,10 @@ compile_android(
 			AndroidPlatform: saker.android.sdk.platform(),
 		},
 	)
-	$d8 = saker.android.d8($javac)
+	$d8 = saker.android.d8(
+		$javac,
+		Release: !$resources[debug], 
+	)
 	
 	$aapt2compile = saker.android.aapt2.compile(
 		Input: android/res,
@@ -332,7 +337,7 @@ compile_android(
 				EGL,
 				android,
 				log,
-			]
+			],
 		)
 	
 		$thirdpartycompile = saker.clang.compile(
@@ -399,8 +404,10 @@ compile_winstore(
 		src/rhfw/,
 	] + $resources[sourcedirs]
 	
+	$preset = saker.msvc.coptions.preset([uap, "optimize-{ $resources[debug] ? debug : release }"])
+	
 	$compileroptions = [
-		saker.msvc.coptions.preset(uap),
+		$preset,
 		{
 			SimpleCompilerParameters: [
 				"/Z7",
@@ -413,7 +420,7 @@ compile_winstore(
 		},
 	]
 	$linkeroptions = [
-		saker.msvc.coptions.preset(uap),
+		$preset,
 		{
 			SimpleLinkerParameters: [
 				"/DEBUG",
@@ -520,7 +527,8 @@ compile_macosx(
 		],
 		Libraries: [
 			c++,
-		]
+		],
+		Release: !$resources[debug],
 	)
 	$compileroptions = [
 		$preset,
@@ -662,7 +670,8 @@ compile_ios(
 		DeviceFamily: [
 			iPhone,
 			iPad,
-		]
+		],
+		Release: !$resources[debug],
 	)
 	$compileroptions = [
 		$preset,
@@ -792,6 +801,14 @@ compile_server_linux(
 					"{$resources[rescompile][SourceDirectory]}/**/*.cpp",
 				],
 				IncludeDirectories: $includedirs,
+				SimpleParameters: [
+					# always have debugging info. its okay for release builds as well
+					-g
+				] + ($resources[debug] ? [ 
+					-O0 
+				] : [
+					-Os
+				])
 			},
 		],
 		Identifier: linux-server
