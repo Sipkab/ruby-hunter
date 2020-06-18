@@ -146,7 +146,7 @@ compile_win32(
 	out steamavailable,
 	out resources,
 	out link,
-){
+) {
 
 	$preset = saker.msvc.coptions.preset([win32, "optimize-{ $resources[debug] ? debug : release }"])
 
@@ -396,7 +396,7 @@ compile_winstore(
 	
 	out link,
 	out resources,
-){
+) {
 	
 	$includedirs = [
 		3rdparty/,
@@ -411,7 +411,7 @@ compile_winstore(
 		{
 			SimpleCompilerParameters: [
 				"/Z7",
-				"/MDd",
+				$resources[debug] ? "/MDd" : "/MD",
 			],
 			MacroDefinitions: {
 				_CRT_SECURE_NO_WARNINGS: "",
@@ -493,7 +493,7 @@ export_winstore(
 }
 run_winstore(
 	in exportwinstore = export_winstore()
-){
+) {
 	$register = saker.appx.register(
 		$exportwinstore[prepared],
 		AllowReinstall: true,
@@ -609,7 +609,7 @@ compile_macosx(
 }
 export_macosx(
 	in compilemacosx = compile_macosx()
-){
+) {
 	saker.macos.bundle.create(
 		MacOS: [
 			$compilemacosx[exepath]
@@ -743,7 +743,7 @@ compile_ios(
 }
 export_ios(
 	in compileios = compile_ios()
-){
+) {
 	$bundle = saker.iphoneos.bundle.create(
 		[
 			$compileios[exepath],
@@ -823,9 +823,10 @@ compile_server_linux(
 	$exepath = $link[OutputPath]
 }
 export_server_linux(
-	in compileserverlinux = compile_server_linux()
+	in compileserverlinux = compile_server_linux(),
+	out prepare
 ) {
-	std.dir.prepare(
+	$prepare = std.dir.prepare(
 		Output: rh-server,
 		Contents: [
 			{
@@ -836,8 +837,21 @@ export_server_linux(
 			{
 				Files: $compileserverlinux[exepath],
 				Remap: {
-					".*": "rh-server.exe",
+					".*": "rh-server",
 				}
+			}
+		]
+	)
+}
+archive_server_linux(
+	in export = export_server_linux()
+) {
+	saker.zip.create(
+		Output: rh-server.zip,
+		Resources: [
+			{
+				Directory: $export[prepare][OutputPath],
+				Resources: **,
 			}
 		]
 	)
