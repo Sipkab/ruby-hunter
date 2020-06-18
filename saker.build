@@ -605,9 +605,9 @@ export_macosx(
 		MacOS: [
 			$compilemacosx[exepath]
 		] + (
-			$compilewin32[resources][debug] && $compilewin32[steamavailable] ? [3rdparty/steam_lib/steam_appid.txt] : []
+			$compilemacosx[resources][debug] && $compilemacosx[steamavailable] ? [3rdparty/steam_lib/steam_appid.txt] : []
 		) + (
-			$compilewin32[steamavailable] ? [
+			$compilemacosx[steamavailable] ? [
 				3rdparty/steam_lib/osx32/libsteam_api.dylib
 			] : []
 		),
