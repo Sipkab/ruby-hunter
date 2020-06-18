@@ -28,6 +28,9 @@ jobs:
       win32:
         imageName: 'windows-latest'
         ci_target: 'win32'
+      win32_steam:
+        imageName: 'windows-latest'
+        ci_target: 'win32_steam'
       winstore:
         imageName: 'windows-latest'
         ci_target: 'winstore'
@@ -40,6 +43,9 @@ jobs:
       macosx:
         imageName: 'macos-latest'
         ci_target: 'macosx'
+      macosx_steam:
+        imageName: 'macos-latest'
+        ci_target: 'macosx_steam'
       ios:
         imageName: 'macos-latest'
         ci_target: 'ios'

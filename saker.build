@@ -179,7 +179,7 @@ compile_win32(
 		{
 			Identifier: steam,
 			Architecture: x86,
-			LibraryPath: 3rdparty/steam_lib/,
+			LibraryPath: 3rdparty/steam_lib/windows/,
 			SimpleLinkerParameters: [
 				"steam_api.lib"
 			]
@@ -187,7 +187,7 @@ compile_win32(
 		{
 			Identifier: steam,
 			Architecture: x64,
-			LibraryPath: 3rdparty/steam_lib/,
+			LibraryPath: 3rdparty/steam_lib/windows/,
 			SimpleLinkerParameters: [
 				"steam_api64.lib"
 			]
@@ -257,15 +257,25 @@ export_win32(
 			{
 				Files: $compilewin32[link][OutputPath],
 				Remap: {
-					".*": "Ruby Hunter.exe",
+					".*": "{$compilewin32[resources][appname]}.exe",
 				}
 			}
-		] + ($compilewin32[resources][debug] && $compilewin32[steamavailable] ? [steam/windows/steam_appid.txt] : [])
+		] + (
+			$compilewin32[resources][debug] && $compilewin32[steamavailable] ? [3rdparty/steam_lib/steam_appid.txt] : []
+		) + (
+			$compilewin32[steamavailable] ? [
+				$compilewin32[link][Architecture] == x86 ? 
+					3rdparty/steam_lib/windows/steam_api.dll : 
+					3rdparty/steam_lib/windows/steam_api64.dll
+			] : []
+		)
 	)
 }
-
 compile_win32_steam() {
 	compilewin32(steamavailable: true)
+}
+export_win32_steam() {
+	export_win32(compilewin32: compile_win32(steamavailable: true))
 }
 
 compile_android(
@@ -390,6 +400,7 @@ compile_winstore(
 	] + $resources[sourcedirs]
 	
 	$compileroptions = [
+		saker.msvc.coptions.preset(uap),
 		{
 			SimpleCompilerParameters: [
 				"/Z7",
@@ -402,6 +413,7 @@ compile_winstore(
 		},
 	]
 	$linkeroptions = [
+		saker.msvc.coptions.preset(uap),
 		{
 			SimpleLinkerParameters: [
 				"/DEBUG",
@@ -414,7 +426,7 @@ compile_winstore(
 			Files: [3rdparty/**/*.cpp, 3rdparty/**/*.c],
 			IncludeDirectories: 3rdparty/,
 		},
-		CompilerOptions: [ saker.msvc.coptions.preset(uap) ] + $compileroptions,
+		CompilerOptions: $compileroptions,
 		Identifier: 3rdparty-winstore
 	)
 	$maincompile = saker.msvc.ccompile(
@@ -431,7 +443,7 @@ compile_winstore(
 				IncludeDirectories: $includedirs,
 			},
 		],
-		CompilerOptions: [ saker.msvc.coptions.preset(uap) ] + $compileroptions,
+		CompilerOptions: $compileroptions,
 		Identifier: main-winstore
 	)
 	$link = saker.msvc.clink(
@@ -439,12 +451,14 @@ compile_winstore(
 			$thidpartycompile,
 			$maincompile,
 		],
-		LinkerOptions: [ saker.msvc.coptions.preset(uap) ] + $linkeroptions,
+		LinkerOptions: $linkeroptions,
 		BinaryName: static(NAME)
 	)
 }
 export_winstore(
 	in compilewinstore = compile_winstore()
+	
+	out prepared,
 ) {
 	$link = $compilewinstore[link]
 	$resources = $compilewinstore[resources]
@@ -469,18 +483,22 @@ export_winstore(
 			}
 		]
 	)
-	
-	###
+}
+run_winstore(
+	in exportwinstore = export_winstore()
+){
 	$register = saker.appx.register(
-		$prepared,
+		$exportwinstore[prepared],
 		AllowReinstall: true,
 	)
-	#saker.appx.launch($register)
-	###
-	
-	$pack = saker.appx.package($prepared)
+	saker.appx.launch($register)
+}
+bundle_winstore(
+	in exportwinstore = export_winstore()
+) {
+	$pack = saker.appx.package($exportwinstore[prepared])
 	$bundle = saker.appx.bundle({
-		$pack[Path]: null
+		$pack[Path]: ""
 	})
 }
 
@@ -517,6 +535,13 @@ compile_macosx(
 	]
 	$linkeroptions = [
 		$preset,
+		{
+			LibraryPath: 3rdparty/steam_lib/osx32/,
+			SimpleLinkerParameters: [
+				-lsteam_api
+			],
+			Identifier: steam
+		}
 	]
 	$includedirs = [
 		3rdparty/,
@@ -577,7 +602,15 @@ export_macosx(
 	in compilemacosx = compile_macosx()
 ){
 	saker.macos.bundle.create(
-		MacOS: $compilemacosx[exepath],
+		MacOS: [
+			$compilemacosx[exepath]
+		] + (
+			$compilewin32[resources][debug] && $compilewin32[steamavailable] ? [3rdparty/steam_lib/steam_appid.txt] : []
+		) + (
+			$compilewin32[steamavailable] ? [
+				3rdparty/steam_lib/osx32/libsteam_api.dylib
+			] : []
+		),
 		Resources: [
 			icons/macosx/AppIcon.icns,
 			{
@@ -596,6 +629,10 @@ export_macosx(
 		],
 		Output: "{ $compilemacosx[resources][appname] }.app",
 	)
+}
+export_macosx_steam(
+) {
+	export_macosx(compilemacosx: compile_macosx(steamavailable: true))
 }
 
 compile_ios(
@@ -682,7 +719,7 @@ compile_ios(
 		],
 		Identifier: "main-ios",
 		LinkerOptions: $linkeroptions,
-		BinaryName: "Ruby Hunter"
+		BinaryName: $resources[appname],
 	)
 	
 	$plist = saker.plist.insert(
