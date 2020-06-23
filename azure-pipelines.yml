@@ -103,6 +103,6 @@ jobs:
     condition: always()
     displayName: 'Publish export trace'
     inputs:
-      pathtoPublish: build/build_export.trace
+      pathtoPublish: ruby-hunter/build/build_export.trace
       artifactName: 'export_trace_$(imageName)_$(ci_target)'
   
