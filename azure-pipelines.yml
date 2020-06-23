@@ -85,9 +85,7 @@ jobs:
   - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_install.trace install
     displayName: 'Install saker.android'
     workingDirectory: saker.android
-  - script: |
-      sed -i.bak '/Nest-ClassPath-Supported-Repository-Versions/d' saker.build
-      java -jar ../saker.build.jar -bd build -trace pwd://build/build_install.trace install
+  - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_install.trace install
     displayName: 'Install saker.apple'
     workingDirectory: saker.apple
     condition: and(succeeded(), eq( variables['Agent.OS'], 'Darwin' ))
