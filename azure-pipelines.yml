@@ -96,7 +96,13 @@ jobs:
     displayName: 'Install sipka.rubyhunter'
     workingDirectory: ruby-hunter
     
-  - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_compile_win32.trace export_$(ci_target)
+  - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_export.trace export_$(ci_target)
     displayName: 'Export $(ci_target)'
     workingDirectory: ruby-hunter
+  - task: PublishBuildArtifacts@1
+    condition: always()
+    displayName: 'Publish export trace'
+    inputs:
+      pathtoPublish: build/build_export.trace
+      artifactName: 'export_trace_$(imageName)_$(ci_target)'
   

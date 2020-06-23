@@ -645,9 +645,12 @@ static void startPingerThread() {
 						exitthread = AcceptorSocket == nullptr;
 						if(!exitthread) {
 							LOGI() << "Pinging all clients automatically";
+							int count = 0;
 							for (auto&& c : ClientConnections.objects()) {
 								c.sendPingRequestOrDisconnect();
+								++count;
 							}
+							LOGI() << "Pinged: " << count;
 						}
 						sem.post();
 					});

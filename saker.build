@@ -249,7 +249,7 @@ export_win32(
 	in compilewin32 = compile_win32()
 ) {
 	std.dir.prepare(
-		Output: ruby-hunter,
+		Output: "ruby-hunter-{ $compilewin32[link][Architecture] }",
 		Contents: [
 			{
 				Directory: $compilewin32[resources][assetgen][AssetsDirectoryPath],
@@ -473,7 +473,7 @@ export_winstore(
 	$prepared = saker.appx.prepare(
 		AppxManifest: saker.appx.manifest.patch(
 			winstore/AppxManifest.xml,
-			ProcessorArchitecture: x64,
+			ProcessorArchitecture: $compilewinstore[link][Architecture],
 		)[Path], 
 		Contents: [
 			$compilewinstore[link][OutputPath],
@@ -600,7 +600,7 @@ compile_macosx(
 	
 	$plist = saker.plist.insert(
 			macosx/Info.plist, 
-			Output: macos/Info.plist, 
+			Output: macosx/Info.plist, 
 			Values: $preset[InfoPlistValues],
 			SDKs: $link[SDKs],
 		)[Path]
@@ -723,7 +723,7 @@ compile_ios(
 	)
 	
 	$link = saker.clang.link(
-		Input:[
+		Input: [
 			$thirdpartycompile,
 			$maincompile,
 		],
