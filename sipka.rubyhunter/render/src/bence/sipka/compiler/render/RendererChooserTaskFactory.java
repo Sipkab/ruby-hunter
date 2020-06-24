@@ -24,27 +24,17 @@ import java.util.Collections;
 import java.util.Locale;
 import java.util.Map;
 import java.util.NavigableMap;
-import java.util.TreeMap;
-import java.util.stream.Collectors;
 
-import bence.sipka.compiler.source.SourceModularFile;
-import bence.sipka.compiler.source.TemplatedSource;
-import bence.sipka.compiler.source.TemplatedSourceModularFile;
 import bence.sipka.compiler.types.TypeDeclaration;
-import bence.sipka.compiler.types.enums.EnumType;
-import bence.sipka.utils.BundleContentAccess;
-import bence.sipka.utils.BundleContentAccess.BundleResourceSupplier;
-import saker.build.file.DirectoryVisitPredicate;
-import saker.build.file.SakerDirectory;
+import bence.sipka.utils.RHFrontendParameterizableTask;
 import saker.build.file.path.SakerPath;
-import saker.build.file.provider.SakerPathFiles;
 import saker.build.runtime.execution.ExecutionContext;
 import saker.build.task.ParameterizableTask;
 import saker.build.task.TaskContext;
+import saker.build.task.identifier.TaskIdentifier;
+import saker.build.task.utils.TaskBuilderResult;
 import saker.build.task.utils.annot.SakerInput;
-import saker.build.task.utils.dependencies.EqualityTaskOutputChangeDetector;
 import saker.build.thirdparty.saker.util.ImmutableUtils;
-import saker.build.thirdparty.saker.util.ObjectUtils;
 import saker.build.thirdparty.saker.util.io.SerialUtils;
 import saker.nest.utils.FrontendTaskFactory;
 
@@ -52,8 +42,6 @@ public class RendererChooserTaskFactory extends FrontendTaskFactory<Object> {
 	private static final long serialVersionUID = 1L;
 
 	public static final String TASK_NAME = "sipka.rh.renderer.choose";
-
-	public static final BundleResourceSupplier descriptor = BundleContentAccess.getBundleResourceSupplier("render");
 
 	public static class Output implements Externalizable {
 		private static final long serialVersionUID = 1L;
@@ -126,77 +114,20 @@ public class RendererChooserTaskFactory extends FrontendTaskFactory<Object> {
 
 	@Override
 	public ParameterizableTask<? extends Object> createTask(ExecutionContext executioncontext) {
-		return new ParameterizableTask<Object>() {
-			@SakerInput(value = { "RenderAPI" }, required = true)
+		return new RHFrontendParameterizableTask() {
+			@SakerInput(value = { "", "RenderAPI" }, required = true)
 			public Collection<String> renderapi = Collections.emptyList();
+
 			@SakerInput(value = { "PlatformName" })
 			public String platformNameOption;
 
 			@Override
-			public Object run(TaskContext taskcontext) throws Exception {
-				SakerDirectory buildDirectory = SakerPathFiles.requireBuildDirectory(taskcontext)
-						.getDirectoryCreate(TASK_NAME);
-
-				NavigableMap<String, TypeDeclaration> typeDeclarations = new TreeMap<>();
-				EnumType renderenum = new EnumType("RenderConfig");
-
-				renderapi = ImmutableUtils.makeImmutableNavigableSet(renderapi);
-
-				SakerDirectory sourcedir = buildDirectory;
-				if (!ObjectUtils.isNullOrEmpty(platformNameOption)) {
-					sourcedir = sourcedir.getDirectoryCreate(platformNameOption);
-				}
-				sourcedir.clear();
-
-				SakerDirectory gendir = sourcedir.getDirectoryCreate("gen");
-
-				int idx = 0;
-				for (String api : renderapi) {
-					String enumname;
-					switch (api.toLowerCase(Locale.ENGLISH)) {
-						case "opengles20": {
-							enumname = "OpenGlEs20";
-							if ("ios".equalsIgnoreCase(platformNameOption)) {
-								sourcedir.getDirectoryCreate("KHR")
-										.add(new TemplatedSourceModularFile("khrplatform.h", new TemplatedSource(
-												descriptor::getInputStream, "opengl_registry/ios/KHR/khrplatform.h")));
-							}
-							break;
-						}
-						case "opengl30": {
-							enumname = "OpenGl30";
-							break;
-						}
-						case "directx11": {
-							enumname = "DirectX11";
-							break;
-						}
-						default: {
-							throw new UnsupportedOperationException(api);
-						}
-					}
-					renderenum.add(enumname, idx++);
-				}
-
-				typeDeclarations.put(renderenum.getName(), renderenum);
-
-				gendir.add(new TemplatedSourceModularFile("renderers.h",
-						new TemplatedSource(descriptor::getInputStream, "gen/renderers.h").setThis(renderapi)));
-				SourceModularFile rendererscpp = new TemplatedSourceModularFile("renderers.cpp",
-						new TemplatedSource(descriptor::getInputStream, "gen/renderers.cpp")
-								.setThis(renderenum.getValues().entrySet().stream()
-										.sorted((a, b) -> Integer.compare(a.getValue(), b.getValue()))
-										.map(e -> e.getKey()).collect(Collectors.toList())));
-				gendir.add(rendererscpp);
-
-				taskcontext.getTaskUtilities().reportOutputFileDependency(null,
-						SakerPathFiles.toFileContentMap(sourcedir.getFilesRecursiveByPath(sourcedir.getSakerPath(),
-								DirectoryVisitPredicate.everything())));
-				sourcedir.synchronize();
-
-				Output result = new Output(typeDeclarations, sourcedir.getSakerPath());
-				taskcontext.reportSelfTaskOutputChangeDetector(new EqualityTaskOutputChangeDetector(result));
-				return result;
+			protected TaskBuilderResult<?> createWorkerTask(TaskContext taskcontext) {
+				RendererChooserWorkerTaskFactory workertask = new RendererChooserWorkerTaskFactory(
+						platformNameOption.toLowerCase(Locale.ENGLISH),
+						ImmutableUtils.makeImmutableNavigableSet(renderapi));
+				return TaskBuilderResult.create(
+						TaskIdentifier.builder(RendererChooserWorkerTaskFactory.class.getName()).build(), workertask);
 			}
 		};
 	}

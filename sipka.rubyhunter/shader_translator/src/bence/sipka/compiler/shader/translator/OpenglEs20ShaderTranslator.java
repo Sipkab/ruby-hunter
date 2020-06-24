@@ -30,7 +30,7 @@ import java.util.Set;
 import java.util.regex.Pattern;
 
 import bence.sipka.compiler.shader.ShaderCollection;
-import bence.sipka.compiler.shader.ShaderCompilerTaskFactory;
+import bence.sipka.compiler.shader.ShaderCompilerWorkerTaskFactory;
 import bence.sipka.compiler.shader.ShaderProgram;
 import bence.sipka.compiler.shader.ShaderResource;
 import bence.sipka.compiler.shader.elements.AttributeDeclaration;
@@ -51,7 +51,7 @@ import bence.sipka.compiler.shader.statement.expression.FunctionCallStatement;
 import bence.sipka.compiler.shader.statement.expression.IntegerLiteral;
 import bence.sipka.compiler.shader.statement.expression.ParenthesesStatement;
 import bence.sipka.compiler.shader.statement.expression.VariableExpression;
-import bence.sipka.compiler.source.SourceModularFile;
+import bence.sipka.compiler.source.SourceSakerFile;
 import bence.sipka.compiler.source.SourceTemplateTranslator.TranslationHandler;
 import bence.sipka.compiler.source.TemplatedSource;
 import saker.build.file.SakerDirectory;
@@ -60,7 +60,6 @@ import saker.build.file.SakerFileBase;
 import saker.build.file.content.ContentDescriptor;
 import saker.build.file.content.SerializableContentDescriptor;
 import saker.build.file.path.SakerPath;
-import saker.build.file.path.WildcardPath;
 import saker.build.task.TaskContext;
 import saker.build.thirdparty.saker.util.io.ByteArrayRegion;
 import saker.build.thirdparty.saker.util.io.UnsyncByteArrayOutputStream;
@@ -133,7 +132,7 @@ public class OpenglEs20ShaderTranslator extends ShaderTranslator {
 			// operator.getResourcesDirectory().addFile(asset, FileState.OVERRIDDEN);
 			if (shader.getReferenceCount() > 0) {
 				// write class header
-				SourceModularFile shaderClassFile = getShaderClassFile(shader,
+				SourceSakerFile shaderClassFile = getShaderClassFile(shader,
 						shader.getClassUrl().getExactClassName() + ".h", glslfile, glslassetpath);
 				shadergendir.add(shaderClassFile);
 			}
@@ -141,7 +140,7 @@ public class OpenglEs20ShaderTranslator extends ShaderTranslator {
 		for (ShaderProgram prog : shaders.getPrograms()) {
 			if (prog.isCompleteProgram()) {
 				prog.validate();
-				SourceModularFile programClassFile = getProgramClassFile(prog, prog.getName() + ".h");
+				SourceSakerFile programClassFile = getProgramClassFile(prog, prog.getName() + ".h");
 				shadergendir.add(programClassFile);
 			}
 		}
@@ -257,7 +256,7 @@ public class OpenglEs20ShaderTranslator extends ShaderTranslator {
 				+ "_impl{};}");
 	}
 
-	private SourceModularFile getShaderClassFile(ShaderResource shader, String name, SakerFile asset,
+	private SourceSakerFile getShaderClassFile(ShaderResource shader, String name, SakerFile asset,
 			SakerPath glslPath) throws IOException {
 		String classname = shader.getClassUrl().getExactClassName();
 
@@ -269,7 +268,7 @@ public class OpenglEs20ShaderTranslator extends ShaderTranslator {
 		valmap.put("shader_resource_h_classname", classname);
 		valmap.put("shader_resource_h_assetfileid", assetid);
 
-		TemplatedSource source = new TemplatedSource(ShaderCompilerTaskFactory.descriptor::getInputStream,
+		TemplatedSource source = new TemplatedSource(ShaderCompilerWorkerTaskFactory.descriptor::getInputStream,
 				"gen/shader/" + getUniqueName().toLowerCase() + "/template_shader_resource.h").setValueMap(valmap)
 						.setHandler(new TranslationHandler() {
 							@Override
@@ -297,7 +296,7 @@ public class OpenglEs20ShaderTranslator extends ShaderTranslator {
 								}
 							}
 						});
-		SourceModularFile result = new SourceModularFile(name, source);
+		SourceSakerFile result = new SourceSakerFile(name, source);
 		result.setContentDescriptor(new SerializableContentDescriptor(shader));
 		return result;
 	}
@@ -318,7 +317,7 @@ public class OpenglEs20ShaderTranslator extends ShaderTranslator {
 		return result;
 	}
 
-	private SourceModularFile getProgramClassFile(ShaderProgram prog, String name) {
+	private SourceSakerFile getProgramClassFile(ShaderProgram prog, String name) {
 		final ShaderResource vertexShader = prog.getVertexShader();
 		final ShaderResource fragmentShader = prog.getFragmentShader();
 
@@ -330,7 +329,7 @@ public class OpenglEs20ShaderTranslator extends ShaderTranslator {
 		valmap.put("shader_program_h_vertexshadertype", vertexShader.getClassUrl().getExactClassName());
 		valmap.put("shader_program_h_fragmentshadertype", fragmentShader.getClassUrl().getExactClassName());
 
-		TemplatedSource source = new TemplatedSource(ShaderCompilerTaskFactory.descriptor::getInputStream,
+		TemplatedSource source = new TemplatedSource(ShaderCompilerWorkerTaskFactory.descriptor::getInputStream,
 				"gen/shader/" + getUniqueName().toLowerCase() + "/template_shader_program.h").setValueMap(valmap)
 						.setHandler(new TranslationHandler() {
 							Set<String> uniformNames = prog.getUniformNames();
@@ -458,7 +457,7 @@ public class OpenglEs20ShaderTranslator extends ShaderTranslator {
 								}
 							}
 						});
-		SourceModularFile result = new SourceModularFile(name, source);
+		SourceSakerFile result = new SourceSakerFile(name, source);
 		result.setContentDescriptor(new SerializableContentDescriptor(prog));
 		return result;
 	}

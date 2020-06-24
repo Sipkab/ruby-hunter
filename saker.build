@@ -131,9 +131,7 @@ resources(
 	
 	$renderer = sipka.rh.renderer.choose(RenderAPI: $renderapi, PlatformName: $platformname)
 	
-	$projectconfig = sipka.rh.project.configure(Debug: $debug, ApplicationName: {
-		Default: $appname
-	})
+	$projectconfig = sipka.rh.project.configure(Debug: $debug, ApplicationName: $appname)
 	
 	$platform = sipka.rh.platform.choose($platformname)
 	
@@ -596,8 +594,6 @@ compile_macosx(
 		BinaryName: $resources[appname],
 	)
 	
-	$stripped = saker.apple.strip($link[OutputPath])
-	
 	$plist = saker.plist.insert(
 			macosx/Info.plist, 
 			Output: macosx/Info.plist, 
@@ -605,7 +601,7 @@ compile_macosx(
 			SDKs: $link[SDKs],
 		)[Path]
 	# TODO run lipo if necessary
-	$exepath = $resources[debug] ? $link[OutputPath] : $stripped[Path]
+	$exepath = $resources[debug] ? $link[OutputPath] : saker.apple.strip($link[OutputPath])[Path]
 }
 export_macosx(
 	in compilemacosx = compile_macosx()

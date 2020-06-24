@@ -49,7 +49,7 @@ public class AssetTypeDeclaration extends EnumType {
 	@Override
 	public String toSourceString() {
 		try {
-			return new TemplatedSource(AssetsCompilerTaskFactory.descriptor::getInputStream,
+			return new TemplatedSource(AssetsCompilerWorkerTaskFactory.descriptor::getInputStream,
 					"assets_tostring.template.cpp").setThis(this).getAsString();
 		} catch (IOException e) {
 			throw new UncheckedIOException(e);

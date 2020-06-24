@@ -45,9 +45,11 @@ public class ObjectData implements Serializable {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + ((faces == null) ? 0 : faces.hashCode());
+		result = prime * result + ((fileName == null) ? 0 : fileName.hashCode());
 		result = prime * result + id;
 		result = prime * result + ((normals == null) ? 0 : normals.hashCode());
 		result = prime * result + ((origin == null) ? 0 : origin.hashCode());
+		result = prime * result + ((path == null) ? 0 : path.hashCode());
 		result = prime * result + ((textcoords == null) ? 0 : textcoords.hashCode());
 		result = prime * result + ((vertices == null) ? 0 : vertices.hashCode());
 		return result;
@@ -67,6 +69,11 @@ public class ObjectData implements Serializable {
 				return false;
 		} else if (!faces.equals(other.faces))
 			return false;
+		if (fileName == null) {
+			if (other.fileName != null)
+				return false;
+		} else if (!fileName.equals(other.fileName))
+			return false;
 		if (id != other.id)
 			return false;
 		if (normals == null) {
@@ -78,6 +85,11 @@ public class ObjectData implements Serializable {
 			if (other.origin != null)
 				return false;
 		} else if (!origin.equals(other.origin))
+			return false;
+		if (path == null) {
+			if (other.path != null)
+				return false;
+		} else if (!path.equals(other.path))
 			return false;
 		if (textcoords == null) {
 			if (other.textcoords != null)

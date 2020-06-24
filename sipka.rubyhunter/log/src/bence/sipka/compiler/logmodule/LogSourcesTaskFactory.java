@@ -19,24 +19,19 @@ import java.io.Externalizable;
 import java.io.IOException;
 import java.io.ObjectInput;
 import java.io.ObjectOutput;
-import java.util.Map;
+import java.util.NavigableMap;
 
-import bence.sipka.compiler.source.TemplatedSource;
-import bence.sipka.compiler.source.TemplatedSourceModularFile;
-import bence.sipka.compiler.types.TypeDeclaration;
 import bence.sipka.compiler.types.TypesTaskFactory;
-import bence.sipka.utils.BundleContentAccess;
-import bence.sipka.utils.BundleContentAccess.BundleResourceSupplier;
-import saker.build.file.DirectoryVisitPredicate;
-import saker.build.file.SakerDirectory;
+import bence.sipka.utils.RHFrontendParameterizableTask;
 import saker.build.file.path.SakerPath;
-import saker.build.file.provider.SakerPathFiles;
 import saker.build.runtime.execution.ExecutionContext;
 import saker.build.task.ParameterizableTask;
 import saker.build.task.TaskContext;
+import saker.build.task.exception.TaskParameterException;
+import saker.build.task.identifier.TaskIdentifier;
+import saker.build.task.utils.TaskBuilderResult;
 import saker.build.task.utils.annot.DataContext;
 import saker.build.task.utils.annot.SakerInput;
-import saker.build.task.utils.dependencies.EqualityTaskOutputChangeDetector;
 import saker.build.thirdparty.saker.util.io.SerialUtils;
 import saker.nest.utils.FrontendTaskFactory;
 
@@ -44,8 +39,6 @@ public class LogSourcesTaskFactory extends FrontendTaskFactory<Object> {
 	private static final long serialVersionUID = 1L;
 
 	public static final String TASK_NAME = "sipka.rh.log.sources";
-
-	public static final BundleResourceSupplier descriptor = BundleContentAccess.getBundleResourceSupplier("log");
 
 	public static class Output implements Externalizable {
 		private static final long serialVersionUID = 1L;
@@ -104,104 +97,30 @@ public class LogSourcesTaskFactory extends FrontendTaskFactory<Object> {
 
 	@Override
 	public ParameterizableTask<? extends Object> createTask(ExecutionContext executioncontext) {
-		return new ParameterizableTask<Object>() {
-
+		return new RHFrontendParameterizableTask() {
 			@DataContext
 			public LogSourceData logData = new LogSourceData();
 
-			@SakerInput("PlatformName")
-			public String PlatformName;
-
-			@SakerInput(value = "Types", required = true)
+			@SakerInput(value = "Types")
 			public TypesTaskFactory.Output types;
 
 			@Override
-			public Object run(TaskContext taskcontext) throws Exception {
+			protected TaskBuilderResult<?> createWorkerTask(TaskContext taskcontext) {
+				return TaskBuilderResult.create(
+						TaskIdentifier.builder(LogSourcesWorkerTaskFactory.class.getName()).build(),
+						new LogSourcesWorkerTaskFactory(logData));
+			}
+
+			@Override
+			public void initParameters(TaskContext taskcontext,
+					NavigableMap<String, ? extends TaskIdentifier> parameters) throws TaskParameterException {
+				super.initParameters(taskcontext, parameters);
 				if (logData.enabled == null) {
 					logData.enabled = logData.Debug;
 				}
 				logData.typeDeclarations = types.getTypeDeclarations();
 
-				SakerDirectory outputDirectory = SakerPathFiles.requireBuildDirectory(taskcontext)
-						.getDirectoryCreate(TASK_NAME);
-				outputDirectory.clear();
-
-				SakerDirectory gendir = outputDirectory.getDirectoryCreate("gen");
-				gendir.add(new TemplatedSourceModularFile("log.h", new TemplatedSource(descriptor::getInputStream,
-						logData.enabled ? "gen/log.h" : "gen/log_release.h")).setThis(logData));
-				gendir.add(new TemplatedSourceModularFile("log.cpp",
-						new TemplatedSource(descriptor::getInputStream, "gen/log.cpp")).setThis(logData));
-
-				if ("ios".equalsIgnoreCase(PlatformName) || "macosx".equalsIgnoreCase(PlatformName)) {
-					TemplatedSourceModularFile logmm = new TemplatedSourceModularFile("log.mm",
-							new TemplatedSource(descriptor::getInputStream, "gen/log.mm")).setThis(logData);
-					gendir.add(logmm);
-				}
-
-				taskcontext.getTaskUtilities().reportOutputFileDependency(null,
-						SakerPathFiles.toFileContentMap(outputDirectory.getFilesRecursiveByPath(
-								outputDirectory.getSakerPath(), DirectoryVisitPredicate.everything())));
-				outputDirectory.synchronize();
-
-				Output result = new Output(outputDirectory.getSakerPath());
-				taskcontext.reportSelfTaskOutputChangeDetector(new EqualityTaskOutputChangeDetector(result));
-				return result;
 			}
 		};
-	}
-
-	public static class LogSourceData implements Externalizable {
-		private static final long serialVersionUID = 1L;
-
-		@SakerInput(value = "Debug")
-		public boolean Debug = false;
-
-		@SakerInput(value = "DebugNew")
-		public boolean debugNew = false;
-
-		@SakerInput(value = "SupportDebugNew")
-		public boolean supportDebugNew = false;
-
-		@SakerInput(value = "Enabled")
-		public Boolean enabled = null;
-
-		@SakerInput(value = "LogDebugNew")
-		public boolean logDebugNew = true;
-
-		public Map<String, TypeDeclaration> typeDeclarations;
-
-		/**
-		 * For {@link Externalizable}.
-		 */
-		public LogSourceData() {
-		}
-
-		@Override
-		public void writeExternal(ObjectOutput out) throws IOException {
-			out.writeBoolean(Debug);
-			out.writeBoolean(debugNew);
-			out.writeBoolean(supportDebugNew);
-			out.writeBoolean(enabled);
-			out.writeBoolean(logDebugNew);
-			SerialUtils.writeExternalMap(out, typeDeclarations);
-		}
-
-		@Override
-		public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
-			Debug = in.readBoolean();
-			debugNew = in.readBoolean();
-			supportDebugNew = in.readBoolean();
-			enabled = in.readBoolean();
-			logDebugNew = in.readBoolean();
-			typeDeclarations = SerialUtils.readExternalImmutableNavigableMap(in);
-		}
-
-		@Override
-		public String toString() {
-			return "LogSourceData [Debug=" + Debug + ", debugNew=" + debugNew + ", supportDebugNew=" + supportDebugNew
-					+ ", " + (enabled != null ? "enabled=" + enabled + ", " : "") + "logDebugNew=" + logDebugNew + ", "
-					+ (typeDeclarations != null ? "typeDeclarations=" + typeDeclarations : "") + "]";
-		}
-
 	}
 }

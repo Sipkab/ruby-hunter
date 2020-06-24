@@ -20,7 +20,7 @@ import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 
 public class Element {
-	TextureModularFile resultTexture;
+	TextureSakerFile resultTexture;
 	BufferedImage image;
 	Rectangle imagePos;
 	Rectangle2D.Float resultPos;

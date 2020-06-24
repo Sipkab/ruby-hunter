@@ -19,6 +19,7 @@ import java.io.Externalizable;
 import java.io.IOException;
 import java.io.ObjectInput;
 import java.io.ObjectOutput;
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashSet;
@@ -26,19 +27,17 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.NavigableMap;
-import java.util.TreeMap;
+import java.util.Set;
 
-import bence.sipka.utils.BundleContentAccess;
-import bence.sipka.utils.BundleContentAccess.BundleResourceSupplier;
-import saker.build.file.SakerDirectory;
-import saker.build.file.SakerFile;
+import bence.sipka.utils.RHFrontendParameterizableTask;
 import saker.build.file.path.SakerPath;
 import saker.build.file.path.WildcardPath;
-import saker.build.file.provider.SakerPathFiles;
 import saker.build.runtime.execution.ExecutionContext;
 import saker.build.task.ParameterizableTask;
 import saker.build.task.TaskContext;
 import saker.build.task.dependencies.FileCollectionStrategy;
+import saker.build.task.identifier.TaskIdentifier;
+import saker.build.task.utils.TaskBuilderResult;
 import saker.build.task.utils.annot.SakerInput;
 import saker.build.task.utils.dependencies.WildcardFileCollectionStrategy;
 import saker.build.thirdparty.saker.util.ImmutableUtils;
@@ -50,8 +49,6 @@ public class AssetsAllocatorTaskFactory extends FrontendTaskFactory<Object> {
 	private static final long serialVersionUID = 1L;
 
 	public static final String TASK_NAME = "sipka.rh.assets.allocate";
-
-	public static final BundleResourceSupplier descriptor = BundleContentAccess.getBundleResourceSupplier("assets");
 
 	public static class Output implements Externalizable {
 		private static final long serialVersionUID = 1L;
@@ -81,12 +78,36 @@ public class AssetsAllocatorTaskFactory extends FrontendTaskFactory<Object> {
 		public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
 			assetIdentifiers = SerialUtils.readExternalSortedImmutableNavigableMap(in);
 		}
+
+		@Override
+		public int hashCode() {
+			final int prime = 31;
+			int result = 1;
+			result = prime * result + ((assetIdentifiers == null) ? 0 : assetIdentifiers.hashCode());
+			return result;
+		}
+
+		@Override
+		public boolean equals(Object obj) {
+			if (this == obj)
+				return true;
+			if (obj == null)
+				return false;
+			if (getClass() != obj.getClass())
+				return false;
+			Output other = (Output) obj;
+			if (assetIdentifiers == null) {
+				if (other.assetIdentifiers != null)
+					return false;
+			} else if (!assetIdentifiers.equals(other.assetIdentifiers))
+				return false;
+			return true;
+		}
 	}
 
 	@Override
 	public ParameterizableTask<? extends Object> createTask(ExecutionContext executioncontext) {
-		return new ParameterizableTask<Object>() {
-
+		return new RHFrontendParameterizableTask() {
 			@SakerInput(value = "ExternalAssets")
 			public List<Map<String, SakerPath>> externalAssetsOption = Collections.emptyList();
 
@@ -94,65 +115,17 @@ public class AssetsAllocatorTaskFactory extends FrontendTaskFactory<Object> {
 			public Collection<WildcardPath> inputOption = Collections.emptyList();
 
 			@Override
-			public Object run(TaskContext taskcontext) throws Exception {
-				NavigableMap<String, Integer> assetIdentifiersMap = new TreeMap<>();
-
-				Collection<FileCollectionStrategy> collectionstrategies = new LinkedHashSet<>();
+			protected TaskBuilderResult<?> createWorkerTask(TaskContext taskcontext) {
+				Set<FileCollectionStrategy> collectionstrategies = new LinkedHashSet<>();
 				for (WildcardPath wc : inputOption) {
 					collectionstrategies.add(WildcardFileCollectionStrategy.create(wc));
 				}
-				externalAssetsOption = ObjectUtils.cloneArrayList(externalAssetsOption, ObjectUtils::cloneTreeMap);
+				ArrayList<Map<String, SakerPath>> externalassets = ObjectUtils.cloneArrayList(externalAssetsOption,
+						ObjectUtils::cloneTreeMap);
 
-				NavigableMap<SakerPath, SakerFile> inputfiles = taskcontext.getTaskUtilities()
-						.collectFilesReportInputFileAndAdditionDependency(null, collectionstrategies);
-
-				NavigableMap<String, SakerPath> allmappings = new TreeMap<>();
-
-				SakerPath workingdirpath = taskcontext.getTaskWorkingDirectoryPath();
-				for (Entry<SakerPath, SakerFile> entry : inputfiles.entrySet()) {
-					if (entry.getValue() instanceof SakerDirectory) {
-						continue;
-					}
-					String assetid = workingdirpath.relativize(entry.getKey()).toString();
-					allmappings.put(assetid, entry.getKey());
-				}
-
-				for (Map<String, SakerPath> assetmap : externalAssetsOption) {
-					for (Entry<String, SakerPath> entry : assetmap.entrySet()) {
-						SakerPath assetpath = entry.getValue();
-						SakerPathFiles.requireAbsolutePath(assetpath);
-
-						SakerPath prev = allmappings.put(entry.getKey(), assetpath);
-						if (prev != null && !prev.equals(assetpath)) {
-							throw new IllegalArgumentException("Asset name mismatch on: " + entry.getKey() + " with "
-									+ prev + " and " + assetpath);
-						}
-					}
-				}
-
-				NavigableMap<String, Entry<SakerPath, Integer>> assetentrymap = new TreeMap<>();
-
-				NavigableMap<Integer, SakerPath> identifierpaths = new TreeMap<>();
-				NavigableMap<SakerPath, Integer> pathidentifiers = new TreeMap<>();
-				int idx = 0;
-				for (Entry<String, SakerPath> entry : allmappings.entrySet()) {
-					String assetname = entry.getKey();
-					SakerPath assetpath = entry.getValue();
-
-					int assetid;
-					Integer presentidx = pathidentifiers.get(assetpath);
-					if (presentidx != null) {
-						assetid = presentidx;
-					} else {
-						assetid = idx++;
-						pathidentifiers.put(assetpath, assetid);
-					}
-
-					assetIdentifiersMap.put(assetname, assetid);
-					identifierpaths.put(assetid, assetpath);
-					assetentrymap.put(assetname, ImmutableUtils.makeImmutableMapEntry(assetpath, assetid));
-				}
-				return new Output(assetentrymap);
+				return TaskBuilderResult.create(
+						TaskIdentifier.builder(AssetsAllocatorWorkerTaskFactory.class.getName()).build(),
+						new AssetsAllocatorWorkerTaskFactory(externalassets, collectionstrategies));
 			}
 		};
 	}

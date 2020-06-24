@@ -15,21 +15,13 @@
  */
 package bence.sipka.user.obj3d;
 
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.TreeMap;
-
 import bence.sipka.compiler.asset.AssetsAllocatorTaskFactory;
-import bence.sipka.user.obj3d.ObjectCollection.DuplicateObjectData;
-import saker.build.file.ByteArraySakerFile;
-import saker.build.file.DirectoryVisitPredicate;
-import saker.build.file.SakerDirectory;
-import saker.build.file.SakerFile;
-import saker.build.file.path.SakerPath;
-import saker.build.file.provider.SakerPathFiles;
+import bence.sipka.utils.RHFrontendParameterizableTask;
 import saker.build.runtime.execution.ExecutionContext;
 import saker.build.task.ParameterizableTask;
 import saker.build.task.TaskContext;
+import saker.build.task.identifier.TaskIdentifier;
+import saker.build.task.utils.TaskBuilderResult;
 import saker.build.task.utils.annot.SakerInput;
 import saker.nest.utils.FrontendTaskFactory;
 
@@ -40,7 +32,7 @@ public class ObjectLinkerTaskFactory extends FrontendTaskFactory<Object> {
 
 	@Override
 	public ParameterizableTask<? extends Object> createTask(ExecutionContext executioncontext) {
-		return new ParameterizableTask<Object>() {
+		return new RHFrontendParameterizableTask() {
 
 			@SakerInput(value = { "", "Translated" }, required = true)
 			public ObjectTranslatorTaskFactory.Output translaterOutputOption;
@@ -49,43 +41,10 @@ public class ObjectLinkerTaskFactory extends FrontendTaskFactory<Object> {
 			public AssetsAllocatorTaskFactory.Output assetsOption;
 
 			@Override
-			public Object run(TaskContext taskcontext) throws Exception {
-				SakerDirectory genDirectory = SakerPathFiles.requireBuildDirectory(taskcontext)
-						.getDirectoryCreate(TASK_NAME);
-				genDirectory.clear();
-
-				Map<String, Entry<SakerPath, Integer>> assetsIdentifierMap = assetsOption.getAssetIdentifiers();
-				Map<String, Integer> simpleAssetsIdentifierMap = new TreeMap<>();
-
-				for (Entry<String, Entry<SakerPath, Integer>> entry : assetsIdentifierMap.entrySet()) {
-					simpleAssetsIdentifierMap.put(entry.getKey(), entry.getValue().getValue());
-				}
-
-				ObjectCollection objcoll = translaterOutputOption.getObjectCollection();
-				ObjectConfiguration objconfig = new ObjectConfiguration(objcoll,
-						taskcontext.getTaskWorkingDirectoryPath(), simpleAssetsIdentifierMap);
-				byte[] data = objconfig.getBytes();
-
-				for (ObjectData objdata : objcoll.objects) {
-					String meshfilename = objdata.fileName + ".mesh";
-					genDirectory.add(new ObjectModularFile(meshfilename, objconfig, objdata));
-				}
-
-				for (DuplicateObjectData dd : objcoll.duplicateDatas) {
-					genDirectory.add(
-							new DuplicatObjectModularFile(dd.fileName, objconfig, dd.objectData, dd.materialLibrary));
-				}
-
-				SakerFile objcollfile = new ByteArraySakerFile("objects_3d_collection", data);
-				genDirectory.add(objcollfile);
-
-				taskcontext.getTaskUtilities().reportOutputFileDependency(null,
-						SakerPathFiles.toFileContentMap(genDirectory.getFilesRecursiveByPath(
-								genDirectory.getSakerPath(), DirectoryVisitPredicate.everything())));
-				genDirectory.synchronize();
-
-				// TODO Auto-generated method stub
-				return null;
+			protected TaskBuilderResult<?> createWorkerTask(TaskContext taskcontext) {
+				return TaskBuilderResult.create(
+						TaskIdentifier.builder(ObjectLinkerWorkerTaskFactory.class.getName()).build(),
+						new ObjectLinkerWorkerTaskFactory(translaterOutputOption, assetsOption));
 			}
 		};
 	}

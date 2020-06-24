@@ -83,7 +83,7 @@ public class ResourceReferenceType extends TypeDeclaration {
 	@Override
 	public String toSourceString() {
 		try {
-			return new TemplatedSource(ResourceCompilerTaskFactory.descriptor::getInputStream,
+			return new TemplatedSource(ResourceCompilerWorkerTaskFactory.descriptor::getInputStream,
 					"resources_tostring.template.cpp").setThis(this).getAsString();
 		} catch (IOException e) {
 			throw new UncheckedIOException(e);

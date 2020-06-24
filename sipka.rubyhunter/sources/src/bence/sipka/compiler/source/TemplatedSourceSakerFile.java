@@ -20,18 +20,18 @@ import java.util.Map;
 import saker.build.file.content.ContentDescriptor;
 import saker.build.file.content.SerializableContentDescriptor;
 
-public class TemplatedSourceModularFile extends SourceModularFile {
+public class TemplatedSourceSakerFile extends SourceSakerFile {
 
-	public TemplatedSourceModularFile(String name, TemplatedSource source) {
+	public TemplatedSourceSakerFile(String name, TemplatedSource source) {
 		super(name, source);
 	}
 
-	public TemplatedSourceModularFile setThis(Object dependency) {
+	public TemplatedSourceSakerFile setThis(Object dependency) {
 		((TemplatedSource) source).setThis(dependency);
 		return this;
 	}
 
-	public TemplatedSourceModularFile setValueMap(Map<String, Object> valuemap) {
+	public TemplatedSourceSakerFile setValueMap(Map<String, Object> valuemap) {
 		((TemplatedSource) source).setValueMap(valuemap);
 		return this;
 	}

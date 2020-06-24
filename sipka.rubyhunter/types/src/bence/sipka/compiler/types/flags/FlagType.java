@@ -25,7 +25,7 @@ import java.util.NavigableMap;
 
 import bence.sipka.compiler.source.TemplatedSource;
 import bence.sipka.compiler.types.TypeDeclaration;
-import bence.sipka.compiler.types.TypesTaskFactory;
+import bence.sipka.compiler.types.TypesWorkerTaskFactory;
 import bence.sipka.compiler.types.builtin.IntegerType;
 import saker.build.thirdparty.saker.util.io.SerialUtils;
 
@@ -82,7 +82,7 @@ public class FlagType extends TypeDeclaration {
 	@Override
 	public String toSourceDefinition() {
 		try {
-			return new TemplatedSource(TypesTaskFactory.descriptor::getInputStream, "flag.template.cpp").setThis(this)
+			return new TemplatedSource(TypesWorkerTaskFactory.descriptor::getInputStream, "flag.template.cpp").setThis(this)
 					.getAsString();
 		} catch (IOException e) {
 			throw new UncheckedIOException(e);
@@ -92,7 +92,7 @@ public class FlagType extends TypeDeclaration {
 	@Override
 	public String toSourceString() {
 		try {
-			return new TemplatedSource(TypesTaskFactory.descriptor::getInputStream, "flag_tostring.template.cpp")
+			return new TemplatedSource(TypesWorkerTaskFactory.descriptor::getInputStream, "flag_tostring.template.cpp")
 					.setThis(this).getAsString();
 		} catch (IOException e) {
 			throw new UncheckedIOException(e);

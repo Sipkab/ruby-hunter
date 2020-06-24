@@ -2,3 +2,5 @@ sipka.syntax.parser-lib
 	classpath: [0)
 saker.windows-api
 	classpath: [0)
+saker.standard
+	classpath: [0)
