@@ -1,9 +1,9 @@
 static(SapphireDiffuseToAmbientFactors) = [
 		[".*sapphire\\.mtl"						, 0.45],
-	 	[".*?led.*sapphire\\.mtl"				, 1.0],
-	 	["laser.*sapphire\\.mtl"				, 0.9],
-	 	["converter_ring\\.sapphire\\.mtl"		, 1.0],
-	 	["converter_lightning\\.sapphire\\.mtl"	, 0.8]
+		[".*?led.*sapphire\\.mtl"				, 1.0],
+		["laser.*sapphire\\.mtl"				, 0.9],
+		["converter_ring\\.sapphire\\.mtl"		, 1.0],
+		["converter_lightning\\.sapphire\\.mtl"	, 0.8]
 	]
 static(NAME) = "Ruby Hunter"
 resources(

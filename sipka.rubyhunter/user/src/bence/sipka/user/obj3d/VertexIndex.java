@@ -15,19 +15,33 @@
  */
 package bence.sipka.user.obj3d;
 
-import java.io.Serializable;
+import java.io.Externalizable;
+import java.io.IOException;
+import java.io.ObjectInput;
+import java.io.ObjectOutput;
 
-public class VertexIndex implements Serializable {
+public class VertexIndex implements Externalizable {
 	private static final long serialVersionUID = 1L;
 
 	int posIndex = -1;
 	int textureIndex = -1;
 	int normalIndex = -1;
 
+	public VertexIndex() {
+	}
+
 	@Override
-	public String toString() {
-		return "VertexIndex [posIndex=" + posIndex + ", textureIndex=" + textureIndex + ", normalIndex="
-				+ normalIndex + "]";
+	public void writeExternal(ObjectOutput out) throws IOException {
+		out.writeInt(posIndex);
+		out.writeInt(textureIndex);
+		out.writeInt(normalIndex);
+	}
+
+	@Override
+	public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
+		posIndex = in.readInt();
+		textureIndex = in.readInt();
+		normalIndex = in.readInt();
 	}
 
 	@Override
@@ -56,6 +70,12 @@ public class VertexIndex implements Serializable {
 		if (textureIndex != other.textureIndex)
 			return false;
 		return true;
+	}
+
+	@Override
+	public String toString() {
+		return "VertexIndex [posIndex=" + posIndex + ", textureIndex=" + textureIndex + ", normalIndex=" + normalIndex
+				+ "]";
 	}
 
 }

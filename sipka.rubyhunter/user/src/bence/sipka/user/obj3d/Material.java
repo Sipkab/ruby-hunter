@@ -15,11 +15,15 @@
  */
 package bence.sipka.user.obj3d;
 
-import java.io.Serializable;
+import java.io.Externalizable;
+import java.io.IOException;
+import java.io.ObjectInput;
+import java.io.ObjectOutput;
 
 import saker.build.file.path.SakerPath;
+import saker.build.thirdparty.saker.util.io.SerialUtils;
 
-public class Material implements Serializable {
+public class Material implements Externalizable {
 	private static final long serialVersionUID = 1L;
 
 	String name;
@@ -29,6 +33,12 @@ public class Material implements Serializable {
 	Vector specularColor;
 	Float specularExponent;
 	Float transparency;
+
+	/**
+	 * For {@link Externalizable}.
+	 */
+	public Material() {
+	}
 
 	public Material(String name) {
 		this.name = name;
@@ -67,6 +77,28 @@ public class Material implements Serializable {
 
 	public Float getSpecularExponent() {
 		return specularExponent;
+	}
+
+	@Override
+	public void writeExternal(ObjectOutput out) throws IOException {
+		out.writeObject(name);
+		out.writeObject(texture);
+		out.writeObject(diffuseColor);
+		out.writeObject(ambientColor);
+		out.writeObject(specularColor);
+		out.writeObject(specularExponent);
+		out.writeObject(transparency);
+	}
+
+	@Override
+	public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
+		name = SerialUtils.readExternalObject(in);
+		texture = SerialUtils.readExternalObject(in);
+		diffuseColor = SerialUtils.readExternalObject(in);
+		ambientColor = SerialUtils.readExternalObject(in);
+		specularColor = SerialUtils.readExternalObject(in);
+		specularExponent = SerialUtils.readExternalObject(in);
+		transparency = SerialUtils.readExternalObject(in);
 	}
 
 	@Override

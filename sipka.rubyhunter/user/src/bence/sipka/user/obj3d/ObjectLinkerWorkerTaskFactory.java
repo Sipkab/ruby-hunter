@@ -21,6 +21,7 @@ import saker.build.runtime.execution.ExecutionContext;
 import saker.build.task.Task;
 import saker.build.task.TaskContext;
 import saker.build.task.TaskFactory;
+import saker.build.thirdparty.saker.util.io.ByteArrayRegion;
 import saker.build.thirdparty.saker.util.io.SerialUtils;
 import saker.build.trace.BuildTrace;
 
@@ -73,9 +74,8 @@ public class ObjectLinkerWorkerTaskFactory implements TaskFactory<Object>, Task<
 		}
 
 		ObjectCollection objcoll = translaterOutputOption.getObjectCollection();
-		ObjectConfiguration objconfig = new ObjectConfiguration(objcoll, taskcontext.getTaskWorkingDirectoryPath(),
-				simpleAssetsIdentifierMap);
-		byte[] data = objconfig.getBytes();
+		ObjectConfiguration objconfig = new ObjectConfiguration(objcoll);
+		ByteArrayRegion data = objconfig.getBytes(taskcontext.getTaskWorkingDirectoryPath(), simpleAssetsIdentifierMap);
 
 		for (ObjectData objdata : objcoll.objects) {
 			String meshfilename = objdata.fileName + ".mesh";
@@ -83,7 +83,8 @@ public class ObjectLinkerWorkerTaskFactory implements TaskFactory<Object>, Task<
 		}
 
 		for (DuplicateObjectData dd : objcoll.duplicateDatas) {
-			genDirectory.add(new DuplicatObjectModularFile(dd.fileName, objconfig, dd.objectData, dd.materialLibrary));
+			genDirectory.add(new DuplicatObjectModularFile(dd.fileName, objconfig, dd.objectDataId, dd.objectDataOrigin,
+					dd.materialLibrary));
 		}
 
 		SakerFile objcollfile = new ByteArraySakerFile("objects_3d_collection", data);

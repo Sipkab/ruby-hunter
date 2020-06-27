@@ -15,43 +15,51 @@
  */
 package bence.sipka.user.obj3d;
 
+import java.io.Externalizable;
 import java.io.IOException;
-import java.io.Serializable;
+import java.io.ObjectInput;
+import java.io.ObjectOutput;
 import java.io.UncheckedIOException;
 import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.NavigableMap;
+import java.util.TreeMap;
 import java.util.stream.Collectors;
 
 import bence.sipka.compiler.types.builtin.FloatType;
 import bence.sipka.compiler.types.builtin.IntegerType;
 import saker.build.file.path.SakerPath;
+import saker.build.thirdparty.saker.util.io.ByteArrayRegion;
+import saker.build.thirdparty.saker.util.io.SerialUtils;
 import saker.build.thirdparty.saker.util.io.UnsyncByteArrayOutputStream;
 
-public class ObjectConfiguration implements Serializable {
+public class ObjectConfiguration implements Externalizable {
 	private static final long serialVersionUID = 1L;
 
 	private ObjectCollection objectCollection;
-	private byte[] bytes;
 
-	Map<Integer, ObjectDescriptor> descriptors = new HashMap<>();
+	NavigableMap<Integer, ObjectDescriptor> descriptors = new TreeMap<>();
 	List<Material> colorMaterials = new ArrayList<>();
 	List<Material> textureMaterials = new ArrayList<>();
 
-	public ObjectConfiguration(ObjectCollection objectCollection, SakerPath workingDirectoryPath,
-			Map<String, Integer> assetsIdentifierMap) {
+	/**
+	 * For {@link Externalizable}.
+	 */
+	public ObjectConfiguration() {
+	}
+
+	public ObjectConfiguration(ObjectCollection objectCollection) {
 		this.objectCollection = objectCollection;
 		this.colorMaterials.addAll(objectCollection.colorMaterials);
 		this.textureMaterials.addAll(objectCollection.textureMaterials);
-		bytes = init(workingDirectoryPath, assetsIdentifierMap);
 	}
 
-	public byte[] getBytes() {
-		return bytes;
+	public ByteArrayRegion getBytes(SakerPath workingDirectoryPath, Map<String, Integer> assetsIdentifierMap) {
+		return init(workingDirectoryPath, assetsIdentifierMap);
 	}
 
 	public ObjectDescriptor getDescriptor(int id) {
@@ -69,8 +77,8 @@ public class ObjectConfiguration implements Serializable {
 
 	}
 
-	private byte[] init(SakerPath workingDirectoryPath, Map<String, Integer> assetsIdentifierMap) {
-		byte[] data;
+	private ByteArrayRegion init(SakerPath workingDirectoryPath, Map<String, Integer> assetsIdentifierMap) {
+		ByteArrayRegion data;
 		List<ObjectFace> faces = objectCollection.objects.stream()
 				.flatMap(o -> o.faces.stream().map(f -> new ObjectFace(o, f))).collect(Collectors.toList());
 		Map<Material, List<ObjectFace>> matfaces = faces.stream().collect(Collectors.groupingBy(f -> f.face.material));
@@ -188,10 +196,69 @@ public class ObjectConfiguration implements Serializable {
 				}
 			}
 
-			data = baos.toByteArray();
+			data = baos.toByteArrayRegion();
 		} catch (IOException e) {
 			throw new UncheckedIOException(e);
 		}
 		return data;
+	}
+
+	@Override
+	public void writeExternal(ObjectOutput out) throws IOException {
+		out.writeObject(objectCollection);
+		SerialUtils.writeExternalMap(out, descriptors);
+		SerialUtils.writeExternalCollection(out, colorMaterials);
+		SerialUtils.writeExternalCollection(out, textureMaterials);
+	}
+
+	@Override
+	public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
+		objectCollection = SerialUtils.readExternalObject(in);
+		descriptors = SerialUtils.readExternalSortedImmutableNavigableMap(in);
+		colorMaterials = SerialUtils.readExternalImmutableList(in);
+		textureMaterials = SerialUtils.readExternalImmutableList(in);
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((colorMaterials == null) ? 0 : colorMaterials.hashCode());
+		result = prime * result + ((descriptors == null) ? 0 : descriptors.hashCode());
+		result = prime * result + ((objectCollection == null) ? 0 : objectCollection.hashCode());
+		result = prime * result + ((textureMaterials == null) ? 0 : textureMaterials.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		ObjectConfiguration other = (ObjectConfiguration) obj;
+		if (colorMaterials == null) {
+			if (other.colorMaterials != null)
+				return false;
+		} else if (!colorMaterials.equals(other.colorMaterials))
+			return false;
+		if (descriptors == null) {
+			if (other.descriptors != null)
+				return false;
+		} else if (!descriptors.equals(other.descriptors))
+			return false;
+		if (objectCollection == null) {
+			if (other.objectCollection != null)
+				return false;
+		} else if (!objectCollection.equals(other.objectCollection))
+			return false;
+		if (textureMaterials == null) {
+			if (other.textureMaterials != null)
+				return false;
+		} else if (!textureMaterials.equals(other.textureMaterials))
+			return false;
+		return true;
 	}
 }

@@ -1,6 +1,5 @@
 package bence.sipka.opengl.registry;
 
-import java.io.ByteArrayOutputStream;
 import java.io.Externalizable;
 import java.io.IOException;
 import java.io.InputStream;
@@ -8,9 +7,9 @@ import java.io.ObjectInput;
 import java.io.ObjectOutput;
 import java.io.OutputStream;
 import java.io.PrintStream;
-import java.io.Serializable;
 import java.io.UncheckedIOException;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -50,6 +49,7 @@ import saker.build.task.TaskContext;
 import saker.build.task.TaskFactory;
 import saker.build.task.utils.dependencies.EqualityTaskOutputChangeDetector;
 import saker.build.thirdparty.saker.util.io.SerialUtils;
+import saker.build.thirdparty.saker.util.io.UnsyncByteArrayOutputStream;
 import saker.build.trace.BuildTrace;
 
 public class OpenGlRegistryParserWorkerTaskFactory implements TaskFactory<OpenGlRegistryParserTaskFactory.Output>,
@@ -119,14 +119,25 @@ public class OpenGlRegistryParserWorkerTaskFactory implements TaskFactory<OpenGl
 		SakerLog.log().verbose()
 				.println("Generate OpenGL glue with: " + gendata.feature + " profile: " + gendata.profile);
 
-		SakerFile header = gendata.getGlGlueHeaderFile("glglue.h");
+		RegistryGenerator generator = new RegistryGenerator(gendata);
+		SakerFile header = gendata.getGlGlueHeaderFile("glglue.h", generator);
 		SakerFile platformheader = new ByteArraySakerFile("glglue_platform.h",
 				descriptor.getBytes("opengl_registry/" + platformName + "/glglue_platform.h"));
-		SakerFile glueclassheader = new TemplatedSourceSakerFile("glglueclass.h",
-				new TemplatedSource(
-						() -> descriptor.getInputStream("opengl_registry/" + platformName + "/glglueclass.h"))
-								.setThis(gendata));
-		SakerFile gluecpp = gendata.getGlGlueSourceFile("glglue.cpp");
+		TemplatedSource glglueclasssource = new TemplatedSource(
+				() -> descriptor.getInputStream("opengl_registry/" + platformName + "/glglueclass.h"))
+						.setThis(generator);
+		SakerFile glueclassheader = new SakerFileBase("glglueclass.h") {
+			@Override
+			public void writeToStreamImpl(OutputStream os) throws IOException, NullPointerException {
+				glglueclasssource.write(os);
+			}
+
+			@Override
+			public ContentDescriptor getContentDescriptor() {
+				return new SerializableContentDescriptor(gendata);
+			}
+		};
+		SakerFile gluecpp = gendata.getGlGlueSourceFile("glglue.cpp", generator);
 
 		glgluedir.add(header);
 		glgluedir.add(platformheader);
@@ -140,6 +151,100 @@ public class OpenGlRegistryParserWorkerTaskFactory implements TaskFactory<OpenGl
 		Output result = new Output(buildDirectory.getSakerPath());
 		taskcontext.reportSelfTaskOutputChangeDetector(new EqualityTaskOutputChangeDetector(result));
 		return result;
+	}
+
+	private static byte[] getGlGlueHeaderBytes(RegistryGenerator generator) throws IOException {
+		Registry reg = generator.getRegistry();
+		try (UnsyncByteArrayOutputStream baos = new UnsyncByteArrayOutputStream();
+				PrintStream out = new PrintStream(baos)) {
+			try (InputStream headeris = descriptor.getInputStream("opengl_registry/glglue.h")) {
+				Map<String, Object> valmap = new HashMap<>();
+				valmap.put("types", generator.types);
+				valmap.put("extensions", generator.extensions);
+				valmap.put("commands", generator.commands);
+				valmap.put("features", generator.features);
+				valmap.put("registry", reg);
+				SourceTemplateTranslator.translate(headeris, out, valmap, new TranslationHandler() {
+					@Override
+					public void replaceKey(String key, OutputStream os) throws IOException {
+						PrintStream out = new PrintStream(os);
+						switch (key) {
+							case "glglue_enums": {
+								for (Group group : reg.groups.values()) {
+									boolean had = false;
+									for (String enumname : (Iterable<String>) group.enums.stream().sorted()::iterator) {
+										if (generator.enums.remove(enumname)) {
+											if (!had) {
+												had = true;
+												out.println("/**");
+												out.println(" * " + group.name);
+												if (group.comment != null) {
+													out.println(" * " + group.comment);
+												}
+												out.println(" */");
+											}
+											EnumValue val = reg.getEnumValue(enumname, generator.ft.api);
+											if (val.alias != null) {
+												out.println("/* Alias: " + val.alias + " - " + val.name + " */");
+											}
+											out.println("#define " + val.name + " " + val.value);
+										}
+									}
+									if (had) {
+										out.println("/**");
+										out.println(" * End of group: ");
+										out.println(" * " + group.name);
+										out.println(" */");
+										out.println();
+									}
+								}
+								for (String enumname : (Iterable<String>) generator.enums.stream().sorted()::iterator) {
+									EnumValue val = reg.getEnumValue(enumname, generator.ft.api);
+									if (val.alias != null) {
+										out.println("/* Alias: " + val.alias + " - " + val.name + " */");
+									}
+									out.println("#define " + val.name + " " + val.value);
+								}
+								break;
+							}
+							case "glglue_commands": {
+								for (Feature f : generator.features) {
+									out.println("/**");
+									out.println(" * " + f.name);
+									if (f.comment != null) {
+										out.println(" * " + f.comment);
+									}
+									out.println(" */");
+									for (RequireDefinition req : f.requires) {
+										for (String cmdstr : req.commands) {
+											Command cmd = reg.commands.get(cmdstr);
+											if (generator.commands.contains(cmd)) {
+												out.println("typedef " + cmd.untilname + " (" + Registry.APIENTRY_DEFINE
+														+ " * GLPROTO_" + cmd.name + ") (" + cmd.getParametersString()
+														+ ");");
+											}
+										}
+									}
+									out.println("/**");
+									out.println(" * End of feature api: ");
+									out.println(" * " + f.name);
+									out.println(" */");
+									out.println();
+								}
+								break;
+							}
+							default: {
+								TranslationHandler.super.replaceKey(key, out);
+								break;
+							}
+						}
+					}
+				}, null);
+			}
+			return baos.toByteArray();
+		} catch (IOException e) {
+			throw new UncheckedIOException(e);
+		}
 	}
 
 	@Override
@@ -201,29 +306,34 @@ public class OpenGlRegistryParserWorkerTaskFactory implements TaskFactory<OpenGl
 		return true;
 	}
 
-	public static class GenerateData implements Serializable {
-		private static final long serialVersionUID = 1L;
+	protected static Comparator<? super Feature> featureNameComparator() {
+		return (o1, o2) -> o1.name.compareTo(o2.name);
+	}
 
-		private String feature;
+	protected static Comparator<? super Command> commandNameComparator() {
+		return (o1, o2) -> o1.name.compareTo(o2.name);
+	}
 
-		private String profile = "";
+	protected static Comparator<? super Extension> extensionNameComparator() {
+		return (o1, o2) -> o1.name.compareTo(o2.name);
+	}
 
-		private String platformNameOption;
+	private static class RegistryGenerator {
+		protected GenerateData data;
 
-		private transient Registry reg;
-		private transient Set<Feature> features = new TreeSet<>((o1, o2) -> o1.name.compareTo(o2.name));
-		private transient Set<Command> commands = new TreeSet<>((o1, o2) -> o1.name.compareTo(o2.name));
-		private transient Set<String> enums = new TreeSet<>();
-		private transient List<Type> types = new ArrayList<>();
-		private transient List<RequireDefinition> requires = new ArrayList<>();
-		private transient List<RemoveDefinition> removes = new ArrayList<>();
-		private transient Set<Extension> extensions = new TreeSet<>((o1, o2) -> o1.name.compareTo(o2.name));
-		private transient Feature ft;
+		protected transient Registry reg;
+		protected transient Set<Feature> features = new TreeSet<>(featureNameComparator());
+		protected transient Set<Command> commands = new TreeSet<>(commandNameComparator());
+		protected transient Set<String> enums = new TreeSet<>();
+		protected transient List<Type> types = new ArrayList<>();
+		protected transient List<RequireDefinition> requires = new ArrayList<>();
+		protected transient List<RemoveDefinition> removes = new ArrayList<>();
+		protected transient Set<Extension> extensions = new TreeSet<>(extensionNameComparator());
 
-		public GenerateData(String feature, String profile, String platformName) {
-			this.feature = feature;
-			this.profile = profile;
-			this.platformNameOption = platformName;
+		protected transient Feature ft;
+
+		public RegistryGenerator(GenerateData data) {
+			this.data = data;
 		}
 
 		public synchronized Registry getRegistry() throws IOException {
@@ -239,9 +349,9 @@ public class OpenGlRegistryParserWorkerTaskFactory implements TaskFactory<OpenGl
 					}
 
 					reg = new Registry(doc.getFirstChild());
-					ft = reg.features.get(feature);
+					ft = reg.features.get(data.feature);
 					if (ft == null) {
-						throw new RuntimeException("No feature with name: " + feature);
+						throw new RuntimeException("No feature with name: " + data.feature);
 					}
 					for (Entry<String, Feature> entry : reg.features.entrySet()) {
 						if (entry.getValue().api.equals(ft.api) && entry.getKey().compareTo(ft.name) <= 0) {
@@ -251,13 +361,13 @@ public class OpenGlRegistryParserWorkerTaskFactory implements TaskFactory<OpenGl
 					}
 					for (Feature f : features) {
 						for (RequireDefinition req : f.requires) {
-							if (req.profile != null && !req.profile.equals(profile))
+							if (req.profile != null && !req.profile.equals(data.profile))
 								continue;
 							requires.add(req);
 						}
 
 						for (RemoveDefinition rem : f.removes) {
-							if (rem.profile != null && !rem.profile.equals(profile))
+							if (rem.profile != null && !rem.profile.equals(data.profile))
 								continue;
 							removes.add(rem);
 						}
@@ -267,12 +377,12 @@ public class OpenGlRegistryParserWorkerTaskFactory implements TaskFactory<OpenGl
 							// println("Using extension: " + ext.name);
 							extensions.add(ext);
 							for (RequireDefinition req : ext.requires) {
-								if (req.profile != null && !req.profile.equals(profile))
+								if (req.profile != null && !req.profile.equals(data.profile))
 									continue;
 								requires.add(req);
 							}
 							for (RemoveDefinition rem : ext.removes) {
-								if (rem.profile != null && !rem.profile.equals(profile))
+								if (rem.profile != null && !rem.profile.equals(data.profile))
 									continue;
 								removes.add(rem);
 							}
@@ -343,154 +453,92 @@ public class OpenGlRegistryParserWorkerTaskFactory implements TaskFactory<OpenGl
 			}
 			return reg;
 		}
+	}
 
-		private byte[] getGlGlueHeaderBytes() {
-			Registry reg;
-			try {
-				reg = getRegistry();
-			} catch (IOException e1) {
-				throw new UncheckedIOException(e1);
-			}
-			try (ByteArrayOutputStream baos = new ByteArrayOutputStream();
-					PrintStream out = new PrintStream(baos)) {
-				try (InputStream headeris = descriptor.getInputStream("opengl_registry/glglue.h")) {
-					Map<String, Object> valmap = new HashMap<>();
-					valmap.put("types", types);
-					valmap.put("extensions", extensions);
-					valmap.put("commands", commands);
-					valmap.put("features", features);
-					valmap.put("registry", reg);
-					SourceTemplateTranslator.translate(headeris, out, valmap, new TranslationHandler() {
-						@Override
-						public void replaceKey(String key, OutputStream os) throws IOException {
-							PrintStream out = new PrintStream(os);
-							switch (key) {
-								case "glglue_enums": {
-									for (Group group : reg.groups.values()) {
-										boolean had = false;
-										for (String enumname : (Iterable<String>) group.enums.stream()
-												.sorted()::iterator) {
-											if (enums.remove(enumname)) {
-												if (!had) {
-													had = true;
-													out.println("/**");
-													out.println(" * " + group.name);
-													if (group.comment != null) {
-														out.println(" * " + group.comment);
-													}
-													out.println(" */");
-												}
-												EnumValue val = reg.getEnumValue(enumname, ft.api);
-												if (val.alias != null) {
-													out.println("/* Alias: " + val.alias + " - " + val.name + " */");
-												}
-												out.println("#define " + val.name + " " + val.value);
-											}
-										}
-										if (had) {
-											out.println("/**");
-											out.println(" * End of group: ");
-											out.println(" * " + group.name);
-											out.println(" */");
-											out.println();
-										}
-									}
-									for (String enumname : (Iterable<String>) enums.stream().sorted()::iterator) {
-										EnumValue val = reg.getEnumValue(enumname, ft.api);
-										if (val.alias != null) {
-											out.println("/* Alias: " + val.alias + " - " + val.name + " */");
-										}
-										out.println("#define " + val.name + " " + val.value);
-									}
-									break;
-								}
-								case "glglue_commands": {
-									for (Feature f : features) {
-										out.println("/**");
-										out.println(" * " + f.name);
-										if (f.comment != null) {
-											out.println(" * " + f.comment);
-										}
-										out.println(" */");
-										for (RequireDefinition req : f.requires) {
-											for (String cmdstr : req.commands) {
-												Command cmd = reg.commands.get(cmdstr);
-												if (commands.contains(cmd)) {
-													out.println("typedef " + cmd.untilname + " ("
-															+ Registry.APIENTRY_DEFINE + " * GLPROTO_" + cmd.name
-															+ ") (" + cmd.getParametersString() + ");");
-												}
-											}
-										}
-										out.println("/**");
-										out.println(" * End of feature api: ");
-										out.println(" * " + f.name);
-										out.println(" */");
-										out.println();
-									}
-									break;
-								}
-								default: {
-									TranslationHandler.super.replaceKey(key, out);
-									break;
-								}
-							}
-						}
-					}, null);
-				}
+	public static class GenerateData implements Externalizable {
+		private static final long serialVersionUID = 1L;
+
+		private String feature;
+
+		private String profile = "";
+
+		private String platformNameOption;
+
+		/**
+		 * For {@link Externalizable}.
+		 */
+		public GenerateData() {
+		}
+
+		public GenerateData(String feature, String profile, String platformName) {
+			this.feature = feature;
+			this.profile = profile;
+			this.platformNameOption = platformName;
+		}
+
+		private byte[] getGlGlueSourceBytes(RegistryGenerator generator) {
+			try (UnsyncByteArrayOutputStream baos = new UnsyncByteArrayOutputStream()) {
+				writeGlGlueSourceBytes(baos, generator);
 				return baos.toByteArray();
 			} catch (IOException e) {
 				throw new UncheckedIOException(e);
 			}
 		}
 
-		private byte[] getGlGlueSourceBytes() {
-			try (ByteArrayOutputStream baos = new ByteArrayOutputStream()) {
-				writeGlGlueSourceBytes(baos);
-				return baos.toByteArray();
-			} catch (IOException e) {
-				throw new UncheckedIOException(e);
-			}
-		}
-
-		private void writeGlGlueSourceBytes(OutputStream os) throws IOException {
-			Registry reg = getRegistry();
+		private void writeGlGlueSourceBytes(OutputStream os, RegistryGenerator generator) throws IOException {
+			Registry reg = generator.getRegistry();
 			try (InputStream cppis = descriptor
 					.getInputStream("opengl_registry/" + platformNameOption + "/glglue.cpp")) {
 				Map<String, Object> valmap = new HashMap<>();
 				valmap.put("registry", reg);
-				valmap.put("features", features);
-				valmap.put("commands", commands);
+				valmap.put("features", generator.features);
+				valmap.put("commands", generator.commands);
 				SourceTemplateTranslator.translate(cppis, os, valmap, null, null);
 			}
 		}
 
-		public SakerFile getGlGlueSourceFile(String name) {
+		public SakerFile getGlGlueSourceFile(String name, RegistryGenerator generator) {
+			SerializableContentDescriptor cd = new SerializableContentDescriptor(GenerateData.this);
 			return new SakerFileBase(name) {
 				@Override
 				public ContentDescriptor getContentDescriptor() {
-					return new SerializableContentDescriptor(GenerateData.this);
+					return cd;
 				}
 
 				@Override
 				public void writeToStreamImpl(OutputStream os) throws IOException {
-					writeGlGlueSourceBytes(os);
+					writeGlGlueSourceBytes(os, generator);
 				}
 			};
 		}
 
-		public SakerFile getGlGlueHeaderFile(String name) {
+		public SakerFile getGlGlueHeaderFile(String name, RegistryGenerator generator) {
+			SerializableContentDescriptor cd = new SerializableContentDescriptor(GenerateData.this);
 			return new SakerFileBase(name) {
 				@Override
 				public ContentDescriptor getContentDescriptor() {
-					return new SerializableContentDescriptor(GenerateData.this);
+					return cd;
 				}
 
 				@Override
 				public void writeToStreamImpl(OutputStream os) throws IOException {
-					os.write(getGlGlueHeaderBytes());
+					os.write(getGlGlueHeaderBytes(generator));
 				}
 			};
+		}
+
+		@Override
+		public void writeExternal(ObjectOutput out) throws IOException {
+			out.writeObject(feature);
+			out.writeObject(profile);
+			out.writeObject(platformNameOption);
+		}
+
+		@Override
+		public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
+			feature = SerialUtils.readExternalObject(in);
+			profile = SerialUtils.readExternalObject(in);
+			platformNameOption = SerialUtils.readExternalObject(in);
 		}
 
 		@Override

@@ -15,6 +15,7 @@
  */
 package bence.sipka.compiler.asset;
 
+import java.io.Externalizable;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.io.UncheckedIOException;
@@ -26,6 +27,12 @@ import bence.sipka.compiler.types.enums.EnumType;
 
 public class AssetTypeDeclaration extends EnumType {
 	private static final long serialVersionUID = 1L;
+
+	/**
+	 * For {@link Externalizable}.
+	 */
+	public AssetTypeDeclaration() {
+	}
 
 	public AssetTypeDeclaration(NavigableMap<String, Integer> values) {
 		super("RAssetFile", values);

@@ -15,29 +15,64 @@
  */
 package bence.sipka.user.obj3d;
 
-import java.io.Serializable;
+import java.io.Externalizable;
+import java.io.IOException;
+import java.io.ObjectInput;
+import java.io.ObjectOutput;
 import java.util.ArrayList;
 import java.util.List;
 
 import saker.build.file.path.SakerPath;
+import saker.build.thirdparty.saker.util.io.SerialUtils;
 
-public class ObjectData implements Serializable {
+public class ObjectData implements Externalizable {
 	private static final long serialVersionUID = 1L;
 
 	SakerPath path;
-	final String fileName;
-	final int id;
-	Vector origin = new Vector(0, 0, 0, 1);
+	String fileName;
+	int id;
+	Vector origin;
 
 	List<Vector> vertices = new ArrayList<>();
 	List<Vector> textcoords = new ArrayList<>();
 	List<Vector> normals = new ArrayList<>();
 	List<Face> faces = new ArrayList<>();
 
+	/**
+	 * For {@link Externalizable}.
+	 */
+	public ObjectData() {
+	}
+
 	public ObjectData(int id, SakerPath path) {
 		this.path = path;
 		this.fileName = path.getFileName();
 		this.id = id;
+		this.origin = new Vector(0, 0, 0, 1);
+	}
+
+	@Override
+	public void writeExternal(ObjectOutput out) throws IOException {
+		out.writeObject(path);
+		out.writeObject(fileName);
+		out.writeInt(id);
+		out.writeObject(origin);
+		SerialUtils.writeExternalCollection(out, vertices);
+		SerialUtils.writeExternalCollection(out, textcoords);
+		SerialUtils.writeExternalCollection(out, normals);
+		SerialUtils.writeExternalCollection(out, faces);
+	}
+
+	@Override
+	public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
+		path = SerialUtils.readExternalObject(in);
+		fileName = SerialUtils.readExternalObject(in);
+		id = in.readInt();
+		origin = SerialUtils.readExternalObject(in);
+		vertices = SerialUtils.readExternalImmutableList(in);
+		textcoords = SerialUtils.readExternalImmutableList(in);
+		normals = SerialUtils.readExternalImmutableList(in);
+		faces = SerialUtils.readExternalImmutableList(in);
 	}
 
 	@Override

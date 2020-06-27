@@ -15,26 +15,53 @@
  */
 package bence.sipka.user.obj3d;
 
-import java.io.Serializable;
+import java.io.Externalizable;
+import java.io.IOException;
+import java.io.ObjectInput;
+import java.io.ObjectOutput;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ObjectDescriptor implements Serializable {
+import saker.build.thirdparty.saker.util.io.SerialUtils;
+
+public class ObjectDescriptor implements Externalizable {
 	private static final long serialVersionUID = 1L;
 
-	static class TriangleRegion implements Serializable {
+	static class TriangleRegion implements Externalizable {
 		private static final long serialVersionUID = 1L;
 
-		public final Material material;
-		public final int materialIndex;
-		public final int vertexStartIndex;
-		public final int vertexCount;
+		public Material material;
+		public int materialIndex;
+		public int vertexStartIndex;
+		public int vertexCount;
+
+		/**
+		 * For {@link Externalizable}.
+		 */
+		public TriangleRegion() {
+		}
 
 		public TriangleRegion(Material material, int materialIndex, int vertexStartIndex, int vertexCount) {
 			this.material = material;
 			this.materialIndex = materialIndex;
 			this.vertexStartIndex = vertexStartIndex;
 			this.vertexCount = vertexCount;
+		}
+
+		@Override
+		public void writeExternal(ObjectOutput out) throws IOException {
+			out.writeObject(material);
+			out.writeInt(materialIndex);
+			out.writeInt(vertexStartIndex);
+			out.writeInt(vertexCount);
+		}
+
+		@Override
+		public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
+			material = SerialUtils.readExternalObject(in);
+			materialIndex = in.readInt();
+			vertexStartIndex = in.readInt();
+			vertexCount = in.readInt();
 		}
 
 		@Override
@@ -76,6 +103,23 @@ public class ObjectDescriptor implements Serializable {
 	List<ObjectDescriptor.TriangleRegion> triangles = new ArrayList<>();
 	int colored = 0;
 	int textured = 0;
+
+	public ObjectDescriptor() {
+	}
+
+	@Override
+	public void writeExternal(ObjectOutput out) throws IOException {
+		SerialUtils.writeExternalCollection(out, triangles);
+		out.writeInt(colored);
+		out.writeInt(textured);
+	}
+
+	@Override
+	public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
+		triangles = SerialUtils.readExternalImmutableList(in);
+		colored = in.readInt();
+		textured = in.readInt();
+	}
 
 	@Override
 	public int hashCode() {

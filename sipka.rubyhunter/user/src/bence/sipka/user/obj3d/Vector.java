@@ -15,13 +15,15 @@
  */
 package bence.sipka.user.obj3d;
 
+import java.io.Externalizable;
 import java.io.IOException;
+import java.io.ObjectInput;
+import java.io.ObjectOutput;
 import java.io.OutputStream;
-import java.io.Serializable;
 
 import bence.sipka.compiler.types.builtin.FloatType;
 
-public class Vector implements Serializable {
+public class Vector implements Externalizable {
 	private static final long serialVersionUID = 1L;
 
 	public float x = 0.0f;
@@ -105,8 +107,19 @@ public class Vector implements Serializable {
 	}
 
 	@Override
-	public String toString() {
-		return "Vector [" + x + ", " + y + ", " + z + ", " + w + "]";
+	public void writeExternal(ObjectOutput out) throws IOException {
+		out.writeFloat(x);
+		out.writeFloat(y);
+		out.writeFloat(z);
+		out.writeFloat(w);
+	}
+
+	@Override
+	public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
+		x = in.readFloat();
+		y = in.readFloat();
+		z = in.readFloat();
+		w = in.readFloat();
 	}
 
 	@Override
@@ -138,6 +151,11 @@ public class Vector implements Serializable {
 		if (Float.floatToIntBits(z) != Float.floatToIntBits(other.z))
 			return false;
 		return true;
+	}
+
+	@Override
+	public String toString() {
+		return "Vector [" + x + ", " + y + ", " + z + ", " + w + "]";
 	}
 
 }
