@@ -3,10 +3,6 @@ trigger:
 
 resources:
   repositories:
-  - repository: repo_saker_windows
-    type: github
-    name: 'sakerbuild/saker.windows'
-    endpoint: Sipkab
   - repository: repo_saker_apple
     type: github
     name: 'sakerbuild/saker.apple'
@@ -15,11 +11,6 @@ resources:
     type: github
     name: 'sakerbuild/saker.android'
     endpoint: Sipkab
-  - repository: repo_saker_msvc
-    type: github
-    name: 'sakerbuild/saker.msvc'
-    endpoint: Sipkab
-    ref: refs/heads/dep-saker.windows
     
 jobs:
 - job:
@@ -60,15 +51,11 @@ jobs:
   steps:
   - checkout: self
     path: s/ruby-hunter
-  - checkout: repo_saker_windows
-    path: s/saker.windows
   - checkout: repo_saker_apple
     path: s/saker.apple
     condition: and(succeeded(), eq( variables['Agent.OS'], 'Darwin' ))
   - checkout: repo_saker_android
     path: s/saker.android
-  - checkout: repo_saker_msvc
-    path: s/saker.msvc
     
   - script: curl -L https://api.nest.saker.build/bundle/download/saker.build-v$(curl -s https://mirror.nest.saker.build/badges/saker.build/latest.txt) -o saker.build.jar
     displayName: 'Download saker.build'
@@ -76,12 +63,6 @@ jobs:
   - script: powershell $ProgressPreference='silentlyContinue';Invoke-WebRequest "https://api.nest.saker.build/bundle/download/saker.build-v$((Invoke-WebRequest "https://mirror.nest.saker.build/badges/saker.build/latest.txt" -UseBasicParsing).Content)" -OutFile saker.build.jar
     displayName: 'Download saker.build'
     condition: and(succeeded(), eq( variables['Agent.OS'], 'Windows_NT' ))
-  - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_install.trace install
-    displayName: 'Install saker.windows'
-    workingDirectory: saker.windows
-  - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_install.trace install
-    displayName: 'Install saker.msvc'
-    workingDirectory: saker.msvc
   - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_install.trace install
     displayName: 'Install saker.android'
     workingDirectory: saker.android
