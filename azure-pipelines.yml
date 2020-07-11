@@ -38,9 +38,6 @@ jobs:
   pool:
     vmImage: $(imageName)
   steps:
-  - checkout: self
-    path: s/ruby-hunter
-    
   - script: curl -L https://api.nest.saker.build/bundle/download/saker.build-v$(curl -s https://mirror.nest.saker.build/badges/saker.build/latest.txt) -o saker.build.jar
     displayName: 'Download saker.build'
     condition: and(succeeded(), or( eq( variables['Agent.OS'], 'Linux' ), eq( variables['Agent.OS'], 'Darwin' ) ))
@@ -48,17 +45,15 @@ jobs:
     displayName: 'Download saker.build'
     condition: and(succeeded(), eq( variables['Agent.OS'], 'Windows_NT' ))
   
-  - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_install.trace install sipka.rubyhunter/saker.build
+  - script: java -jar saker.build.jar -bd build -trace pwd://build/build_install.trace install sipka.rubyhunter/saker.build
     displayName: 'Install sipka.rubyhunter'
-    workingDirectory: ruby-hunter
     
-  - script: java -jar ../saker.build.jar -bd build -trace pwd://build/build_export.trace export_$(ci_target)
+  - script: java -jar saker.build.jar -bd build -trace pwd://build/build_export.trace export_$(ci_target)
     displayName: 'Export $(ci_target)'
-    workingDirectory: ruby-hunter
   - task: PublishBuildArtifacts@1
     condition: always()
     displayName: 'Publish export trace'
     inputs:
-      pathtoPublish: ruby-hunter/build/build_export.trace
+      pathtoPublish: build/build_export.trace
       artifactName: 'export_trace_$(imageName)_$(ci_target)'
   
