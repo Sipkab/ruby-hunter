@@ -63,7 +63,7 @@ resources(
 	} else if $platformname == linux {
 		$renderapi = [opengl30]
 		$audioapi = openal
-		$glregistry = sipka.gl.registry.parse(Feature: GL_ES_VERSION_2_0, Directory: opengles20, PlatformName: $platformname)
+		$glregistry = sipka.gl.registry.parse(Feature: GL_VERSION_3_0, Directory: opengl30, PlatformName: $platformname)
 	} else {
 		abort("Unknown platform: {$platformname}")
 	}
@@ -247,7 +247,13 @@ export_win32(
 	in compilewin32 = compile_win32()
 ) {
 	std.dir.prepare(
-		Output: "ruby-hunter-{ $compilewin32[link][Architecture] }",
+		Output: "ruby-hunter-{ 
+				$compilewin32[link][Architecture] 
+			}{ 
+				$compilewin32[steamavailable] ? "-steam" : "" 
+			}{
+				$compilewin32[resources][debug] ? "-debug" : ""
+			}",
 		Contents: [
 			{
 				Directory: $compilewin32[resources][assetgen][AssetsDirectoryPath],
@@ -376,6 +382,8 @@ compile_android(
 }
 export_android(
 	in compileandroid = compile_android()
+	
+	out apk
 ) {
 	$apk = saker.apk.create(
 		Resources: $compileandroid[aapt2link],
@@ -385,12 +393,16 @@ export_android(
 		},
 		Assets: $compileandroid[resources][assetgen][AssetsDirectoryPath]
 	)
-	
-	saker.apk.sign($apk)
+}
+debug_export_android(
+	in export = export_android()
+) {
+	saker.apk.sign($export[apk])
 }
 
 compile_winstore(
 	in resources = resources(platformname: winstore),
+	in architecture = x64
 	
 	out link,
 	out resources,
@@ -431,13 +443,14 @@ compile_winstore(
 		}
 	]
 	
-	$thidpartycompile = saker.msvc.ccompile(
+	$thirdpartycompile = saker.msvc.ccompile(
 		{
 			Files: [3rdparty/**/*.cpp, 3rdparty/**/*.c],
 			IncludeDirectories: 3rdparty/,
 		},
 		CompilerOptions: $compileroptions,
-		Identifier: 3rdparty-winstore
+		Architecture: $architecture,
+		Identifier: "3rdparty-winstore-{ $architecture }",
 	)
 	$maincompile = saker.msvc.ccompile(
 		[
@@ -454,15 +467,17 @@ compile_winstore(
 			},
 		],
 		CompilerOptions: $compileroptions,
-		Identifier: main-winstore
+		Architecture: $architecture,
+		Identifier: "main-winstore-{ $architecture }"
 	)
 	$link = saker.msvc.clink(
 		Input:[
-			$thidpartycompile,
+			$thirdpartycompile,
 			$maincompile,
 		],
+		Architecture: $architecture,
 		LinkerOptions: $linkeroptions,
-		BinaryName: static(NAME)
+		BinaryName: $resources[appname]
 	)
 }
 export_winstore(
@@ -613,8 +628,10 @@ compile_macosx(
 }
 export_macosx(
 	in compilemacosx = compile_macosx()
+	
+	out bundle
 ) {
-	saker.macos.bundle.create(
+	$bundle = saker.macos.bundle.create(
 		MacOS: [
 			$compilemacosx[exepath]
 		] + (
@@ -747,6 +764,8 @@ compile_ios(
 }
 export_ios(
 	in compileios = compile_ios()
+	
+	out bundle
 ) {
 	$bundle = saker.iphoneos.bundle.create(
 		[
@@ -822,7 +841,8 @@ compile_server_linux(
 		SimpleParameters: [
 			-lstdc++,
 			-pthread,
-		]
+		],
+		BinaryName: rh-server
 	)
 	$exepath = $link[OutputPath]
 }
@@ -838,12 +858,7 @@ export_server_linux(
 				Wildcard: **/*,
 				TargetDirectory: assets,
 			},
-			{
-				Files: $compileserverlinux[exepath],
-				Remap: {
-					".*": "rh-server",
-				}
-			}
+			$compileserverlinux[exepath]
 		]
 	)
 }
