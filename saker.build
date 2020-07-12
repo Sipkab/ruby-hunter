@@ -422,6 +422,11 @@ compile_winstore(
 		{
 			SimpleLinkerParameters: [
 				"/DEBUG",
+				#the c option presets doesn't contain WindowsApp.lib yet
+				# we also need to add vccorlib.lib before it to avoid
+				#vccorlib_lib_should_be_specified_before_msvcrt_lib_to_linker error
+				"vccorlib.lib",
+				"WindowsApp.lib",
 			],
 		}
 	]
@@ -500,6 +505,9 @@ run_winstore(
 }
 bundle_winstore(
 	in exportwinstore = export_winstore()
+	
+	out bundle
+	out pack
 ) {
 	$pack = saker.appx.package($exportwinstore[prepared])
 	$bundle = saker.appx.bundle({
