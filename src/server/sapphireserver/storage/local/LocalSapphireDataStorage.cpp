@@ -35,6 +35,7 @@
 #include <time.h>
 
 #include <gen/assets.h>
+#include <sapphireserver/servermain.h>
 
 #define FILENAME_HARDWARE_PROGRESS "progress"
 #define FILENAME_ASSOCIATED_HARDWARES "associated"
@@ -144,7 +145,7 @@ LocalSapphireDataStorage::LocalSapphireDataStorage() {
 	hardwareDirectory.create();
 	demosDirectory.create();
 
-	LOGI()<< "Loading community levels...";
+	postLogEvent("Loading community levels...");
 	auto&& levelspath = levelsDirectory.getPath();
 	for (auto&& file : levelsDirectory.enumerate()) {
 		if (!file.isDirectory()) {
@@ -160,7 +161,7 @@ LocalSapphireDataStorage::LocalSapphireDataStorage() {
 			}
 		}
 	}
-	LOGI()<< "Loading users...";
+	postLogEvent("Loading users...");
 	auto&& userspath = usersDirectory.getPath();
 	for (auto&& dir : usersDirectory.enumerate()) {
 		if (dir.isDirectory()) {
@@ -173,7 +174,7 @@ LocalSapphireDataStorage::LocalSapphireDataStorage() {
 			}
 		}
 	}
-	LOGI()<< "Loading hardwares...";
+	postLogEvent("Loading hardwares...");
 	auto&& hardwarepath = hardwareDirectory.getPath();
 	for (auto&& dir : hardwareDirectory.enumerate()) {
 		if (dir.isDirectory()) {
@@ -188,7 +189,7 @@ LocalSapphireDataStorage::LocalSapphireDataStorage() {
 		}
 	}
 
-	LOGI()<< "Loading demos to statistics and leaderboards...";
+	postLogEvent("Loading builtin level demos to statistics and leaderboards...");
 	for (auto&& a : builtinAssets) {
 		AssetFileDescriptor fd { a->asset };
 		Level l;
@@ -196,6 +197,7 @@ LocalSapphireDataStorage::LocalSapphireDataStorage() {
 			initLevelData(l);
 		}
 	}
+	postLogEvent("Loading user level demos to statistics and leaderboards...");
 	for (auto&& l : descriptors) {
 		Level level;
 		if (level.loadLevel(l->getFileDescriptor())) {
@@ -203,7 +205,7 @@ LocalSapphireDataStorage::LocalSapphireDataStorage() {
 		}
 	}
 
-	LOGI()<< "Loading messages...";
+	postLogEvent("Loading messages...");
 	const unsigned int MAX_MESSAGES_FILE_READ_COUNT = 2;
 	int messagesformat[MAX_MESSAGES_FILE_READ_COUNT] = { 1, 1 };
 	int messagesindexes[MAX_MESSAGES_FILE_READ_COUNT] = { -1, -1 };
@@ -223,7 +225,7 @@ LocalSapphireDataStorage::LocalSapphireDataStorage() {
 		}
 	}
 	messagesFileIndex = 0;
-	LOGI()<< "Loading messages 2...";
+	postLogEvent("Loading messages 2...");
 	while (true) {
 		char buf[64];
 		sprintf(buf, MESSAGES_FILE_FORMAT_2_FILENAME, messagesFileIndex);

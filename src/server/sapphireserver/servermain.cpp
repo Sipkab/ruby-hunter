@@ -118,17 +118,17 @@ public:
 static LinkedList<MaintenanceTask> MaintenanceTasks;
 
 static void writeLogEvent(const FixedString& log) {
+	char buffer[256];
+	time_t rawtime;
+
+	time(&rawtime);
+	struct tm * timeinfo;
+	timeinfo = gmtime(&rawtime);
+	int dlen = sprintf(buffer, "%d.%02d.%02d %02d:%02d:%02d\t", 1900 + timeinfo->tm_year, timeinfo->tm_mon + 1, timeinfo->tm_mday,
+			timeinfo->tm_hour, timeinfo->tm_min, timeinfo->tm_sec);
+
+	printf("Log event: %s\t%s\n", buffer, (const char*) log);
 	if (LogFileOutput != nullptr) {
-		char buffer[256];
-		time_t rawtime;
-
-		time(&rawtime);
-		struct tm * timeinfo;
-		timeinfo = gmtime(&rawtime);
-		int dlen = sprintf(buffer, "%d.%02d.%02d %02d:%02d:%02d\t", 1900 + timeinfo->tm_year, timeinfo->tm_mon + 1, timeinfo->tm_mday,
-				timeinfo->tm_hour, timeinfo->tm_min, timeinfo->tm_sec);
-
-		printf("Log event: %s\t%s\n", buffer, (const char*) log);
 		LogFileOutput->write(buffer, dlen);
 		LogFileOutput->write((const char*) log, log.length());
 		LogFileOutput->write("\r\n", 2);
@@ -730,12 +730,14 @@ int main(int argc, char* argv[]) {
 		}
 
 		LOGI() << "Opened log file";
-		postServerLogEvent("Starting server");
+		postServerLogEvent("Initializing server");
 
 		MainRandomContext = Resource<RandomContext> { new ResourceBlock(new RandomContext()) };
 		MainRandomContext.load();
 		MainRandomer = MainRandomContext->createRandomer();
 		DataStorage = new LocalSapphireDataStorage();
+
+		postServerLogEvent("Storage ready");
 
 		LOGI() << "Initializing socket";
 
@@ -750,6 +752,8 @@ int main(int argc, char* argv[]) {
 
 		startControlThread();
 		startPingerThread();
+
+		postServerLogEvent("Threads started");
 
 		LOGI() << "Listening on address: " << addr;
 
