@@ -52,10 +52,7 @@ public class ShaderProgram implements Serializable {
 			fragmentShader = shaders.getShaderResourceForUri(name + ".fragment", ShaderResource.TYPE_FRAGMENT);
 			fragmentShader.define(shaders, fragment, this);
 		}
-	}
-
-	public void setClassUrl(ClassUrl classUrl) {
-		this.classUrl = classUrl;
+		this.classUrl = new ClassUrl(name, "gen/shader/" + name + ".h");
 	}
 
 	public ClassUrl getClassUrl() {

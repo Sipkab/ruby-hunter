@@ -67,7 +67,7 @@ namespace rhfw {
 		@replace:shader_program_h_public_members@
 		@foreach uniform in program.getUniforms() :
 		virtual void set(@uniform.getName()@& u) override {
-			static_cast<@translator.getUniqueName()@@uniform.getParentShader().getClassUrl().getExactClassName()@::@uniform.getName()@_impl&>(u).set();
+			static_cast<@translator.getUniqueName()@@uniform.getClassUrl().getExactClassName()@::@uniform.getName()@_impl&>(u).set();
 		}
 		@
 

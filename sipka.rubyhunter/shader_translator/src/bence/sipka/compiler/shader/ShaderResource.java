@@ -21,6 +21,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Objects;
 import java.util.Stack;
 import java.util.regex.Pattern;
 
@@ -67,10 +68,8 @@ public class ShaderResource implements Serializable {
 	public ShaderResource(String uri, int type) {
 		this.uri = uri;
 		this.type = type;
-	}
-
-	public void setClassUrl(ClassUrl classUrl) {
-		this.classUrl = classUrl;
+		String cname = uri.replace(".", "_");
+		this.classUrl = new ClassUrl(cname, "gen/shader/" + cname + ".h");
 	}
 
 	public ClassUrl getClassUrl() {
@@ -349,9 +348,11 @@ public class ShaderResource implements Serializable {
 
 	private void takeShaderVariables(Stack<VariableDeclaration> varstack, ModifiableStatement root,
 			ShaderCollection shaders) {
+		ClassUrl classurl = getClassUrl();
+		Objects.requireNonNull(classurl, "thisclassurl");
 		for (ModifiableStatement unistm; (unistm = root.getChildNamed("uniform_var")) != null; root
 				.removeChild(unistm)) {
-			UniformDeclaration unidecl = new UniformDeclaration(unistm.getChildValue("uniform_name"), this);
+			UniformDeclaration unidecl = new UniformDeclaration(unistm.getChildValue("uniform_name"), classurl);
 			for (ModifiableStatement varstm : unistm.getChildrenNamed("variable")) {
 				VariableDeclaration decl = new VariableDeclaration(
 						resolveType(shaders, varstm.getChildValue("var_type")), varstm.getChildValue("var_name"));

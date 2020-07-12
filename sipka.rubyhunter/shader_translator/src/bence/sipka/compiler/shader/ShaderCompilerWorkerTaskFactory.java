@@ -217,15 +217,7 @@ public class ShaderCompilerWorkerTaskFactory implements TaskFactory<ShaderCompil
 		return new Output(cppoutdir.getSakerPath(), typeDeclarations, applicationAssets);
 	}
 
-	private void calculateShaderResourceUri(ShaderResource res) {
-		if (res.getClassUrl() != null)
-			return;
-
-		String cname = res.getUri().replace(".", "_");
-		res.setClassUrl(new ClassUrl(cname, "gen/shader/" + cname + ".h"));
-	}
-
-	private void writeShaderResourceHeader(ShaderResource res, SakerDirectory shaderGenSourcesDir) {
+	private static void writeShaderResourceHeader(ShaderResource res, SakerDirectory shaderGenSourcesDir) {
 		Map<String, Object> vals = new HashMap<>();
 		vals.put("shader_resource_base_classname", res.getClassUrl().getExactClassName());
 		vals.put("shader", res);
@@ -234,13 +226,11 @@ public class ShaderCompilerWorkerTaskFactory implements TaskFactory<ShaderCompil
 						.setValueMap(vals));
 	}
 
-	private void translateShaders(SakerDirectory shaderGenSourcesDir, ShaderCollection shaders) {
+	private static void translateShaders(SakerDirectory shaderGenSourcesDir, ShaderCollection shaders) {
 		for (ShaderProgram prog : shaders.getPrograms()) {
-			prog.setClassUrl(new ClassUrl(prog.getName(), "gen/shader/" + prog.getName() + ".h"));
 			prog.addShaderReferences();
 		}
 		for (ShaderResource shadres : shaders.getShaders()) {
-			calculateShaderResourceUri(shadres);
 			writeShaderResourceHeader(shadres, shaderGenSourcesDir);
 		}
 		for (ShaderProgram prog : shaders.getPrograms()) {

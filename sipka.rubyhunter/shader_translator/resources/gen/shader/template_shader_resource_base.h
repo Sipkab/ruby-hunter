@@ -25,7 +25,7 @@ public:
 
 	class @uniform.getName()@ : public ShareableResource, public @uniform.getName()@_value {
 	public:
-		friend class @uniform.getParentShader().getClassUrl().getExactClassName()@;
+		friend class @uniform.getClassUrl().getExactClassName()@;
 		@uniform.getName()@& operator=(const @uniform.getName()@_value& v) {
 			@uniform.getName()@_value::operator=(v);
 			return *this;

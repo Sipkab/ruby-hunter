@@ -392,10 +392,10 @@ public class OpenglEs20ShaderTranslator extends ShaderTranslator {
 												out.println(glTypeToUniformSetFunction(m.getType().getDeclaredName(),
 														"uniform_" + m.getName(),
 														"static_cast<" + getUniqueName()
-																+ u.getParentShader().getClassUrl().getExactClassName()
-																+ "::" + u.getName() + "_impl&>(u)." + m.getName())
+																+ u.getClassUrl().getExactClassName() + "::"
+																+ u.getName() + "_impl&>(u)." + m.getName())
 														+ ";");
-												out.println("CHECK_GL_ERROR()");
+												out.println("CHECK_GL_ERROR();");
 											}
 											out.println("}");
 

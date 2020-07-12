@@ -636,6 +636,7 @@ public class DirectX11ShaderTranslator extends ShaderTranslator {
 		valmap.put("shader_resource_h_shaderfilename", classname + ".cso");
 		valmap.put("shader_resource_h_comptr_type",
 				shader.getType() == ShaderResource.TYPE_FRAGMENT ? "PixelShader" : "VertexShader");
+		valmap.put("shader", shader);
 
 		TemplatedSource source = new TemplatedSource(ShaderCompilerWorkerTaskFactory.descriptor::getInputStream,
 				"gen/shader/" + getUniqueName().toLowerCase() + "/template_shader_resource.h").setValueMap(valmap)
@@ -766,7 +767,7 @@ public class DirectX11ShaderTranslator extends ShaderTranslator {
 											out.println("}");
 											out.println("void set() {");
 											out.println(assertions);
-											String pplprefix = getShaderPipelineSetPrefix(u.getParentShader());
+											String pplprefix = getShaderPipelineSetPrefix(shader);
 											if (internalMembers.length() > 0) {
 												final int cbufferslot = cbuffercounter++;
 												out.println(

@@ -19,18 +19,23 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-import bence.sipka.compiler.shader.ShaderResource;
+import bence.sipka.compiler.shader.ClassUrl;
 
 public class UniformDeclaration implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	private final String name;
 	private final List<VariableDeclaration> members = new ArrayList<>();
-	private final ShaderResource parentShader;
 
-	public UniformDeclaration(String name, ShaderResource parentShader) {
+	private ClassUrl classUrl;
+
+	public UniformDeclaration(String name, ClassUrl classurl) {
 		this.name = name;
-		this.parentShader = parentShader;
+		this.classUrl = classurl;
+	}
+
+	public ClassUrl getClassUrl() {
+		return classUrl;
 	}
 
 	public void addMember(VariableDeclaration member) {
@@ -45,17 +50,13 @@ public class UniformDeclaration implements Serializable {
 		return members;
 	}
 
-	public ShaderResource getParentShader() {
-		return parentShader;
-	}
-
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
+		result = prime * result + ((classUrl == null) ? 0 : classUrl.hashCode());
 		result = prime * result + ((members == null) ? 0 : members.hashCode());
 		result = prime * result + ((name == null) ? 0 : name.hashCode());
-		result = prime * result + ((parentShader == null) ? 0 : parentShader.hashCode());
 		return result;
 	}
 
@@ -68,6 +69,11 @@ public class UniformDeclaration implements Serializable {
 		if (getClass() != obj.getClass())
 			return false;
 		UniformDeclaration other = (UniformDeclaration) obj;
+		if (classUrl == null) {
+			if (other.classUrl != null)
+				return false;
+		} else if (!classUrl.equals(other.classUrl))
+			return false;
 		if (members == null) {
 			if (other.members != null)
 				return false;
