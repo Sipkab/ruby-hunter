@@ -112,17 +112,6 @@
 
 #define SAPPHIREMUSIC_UNSPECIFIED ((SapphireMusic)0xFFFFFFFF)
 
-//#define SAPPHIRE_STEAM_API_AVAILABLE 1
-
-#define SAPPHIRE_FULL_VERSION_FEATURES_STRING \
-	"- Full level editor access\n" \
-	"- Level sharing\n" \
-	"- Game discussion\n" \
-	"- Link devices\n" \
-	"- Level statistics\n" \
-	"- Leaderboards"
-#define SAPPHIRE_DIALOG_REGISTER_RESTORE "Register/Restore"
-
 //put // at the start of the next line to turn on screenshot mode
 /*
  #define SAPPHIRE_SCREENSHOT_MODE 1
