@@ -710,23 +710,7 @@ static Size2UI getMaxPagesForSize(const Size2F& minsize, const Rectangle& rect, 
 }
 
 bool DifficultySelectorLayer::showLockedLevelDialog(SapphireUILayer* parent, SapphireDifficulty difficulty) {
-	SapphireScene::LevelPlayPermission outperm;
-	if (!static_cast<SapphireScene*>(parent->getScene())->isAllowedToPlay(difficulty, &outperm)) {
-		DialogLayer* dialog = new DialogLayer(parent);
-		dialog->setColors(difficulty);
-		//TODO "Info"?
-		dialog->setTitle("Info");
-		dialog->addDialogItem(
-				new TextDialogItem(
-						FixedString { "To play " } + difficultyToString(difficulty) + " levels, finish "
-								+ numberToString(outperm.completeCount) + " " + difficultyToString(outperm.required) + " levels first."));
-		dialog->addDialogItem(new EmptyDialogItem(0.5f));
-		dialog->addDialogItem(new CommandDialogItem("Okay", [dialog] {
-			dialog->dismiss();
-		}));
-		dialog->showDialog(parent->getScene());
-		return true;
-	}
+	//no longer used
 	return false;
 }
 void DifficultySelectorLayer::onSelectDifficulty(int id) {

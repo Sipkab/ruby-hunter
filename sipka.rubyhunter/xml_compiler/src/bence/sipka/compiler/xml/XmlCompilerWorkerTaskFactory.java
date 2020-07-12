@@ -202,7 +202,8 @@ public class XmlCompilerWorkerTaskFactory
 		String searchname = isEmbedded(nodename) ? nodename.substring(nodename.indexOf('.') + 1) : nodename;
 		ElementDeclaration dynamictype = output.xmlelements.get(searchname);
 		if (dynamictype == null)
-			throw new RuntimeException("Failed to find declared element with name: " + searchname);
+			throw new RuntimeException(
+					"Failed to find declared element with name: " + searchname + " in " + output.xmlelements.keySet());
 		ElementDeclaration statictype = getStaticTypeFor(n, dynamictype);
 
 		final int childcount = countValidChildren(children);

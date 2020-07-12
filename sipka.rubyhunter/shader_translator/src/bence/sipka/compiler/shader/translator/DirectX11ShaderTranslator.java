@@ -58,6 +58,7 @@ import bence.sipka.compiler.source.SourceWritable;
 import bence.sipka.compiler.source.TemplatedSource;
 import saker.build.file.SakerDirectory;
 import saker.build.file.SakerFile;
+import saker.build.file.content.MultiContentDescriptor;
 import saker.build.file.content.SerializableContentDescriptor;
 import saker.build.file.path.SakerPath;
 import saker.build.file.provider.LocalFileProvider;
@@ -118,7 +119,8 @@ public class DirectX11ShaderTranslator extends ShaderTranslator {
 				}
 			});
 			this.shader = shader;
-			setContentDescriptor(new SerializableContentDescriptor(shader));
+			setContentDescriptor(MultiContentDescriptor.create(new SerializableContentDescriptor(shader),
+					new SerializableContentDescriptor("directx11")));
 		}
 
 		public ShaderResource getShader() {

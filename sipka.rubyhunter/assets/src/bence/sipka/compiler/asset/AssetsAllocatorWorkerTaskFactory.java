@@ -17,9 +17,11 @@ import bence.sipka.utils.BundleContentAccess;
 import bence.sipka.utils.BundleContentAccess.BundleResourceSupplier;
 import saker.build.file.SakerDirectory;
 import saker.build.file.SakerFile;
+import saker.build.file.content.ContentDescriptor;
 import saker.build.file.path.SakerPath;
 import saker.build.file.provider.SakerPathFiles;
 import saker.build.runtime.execution.ExecutionContext;
+import saker.build.task.CommonTaskContentDescriptors;
 import saker.build.task.Task;
 import saker.build.task.TaskContext;
 import saker.build.task.TaskFactory;
@@ -71,18 +73,22 @@ public class AssetsAllocatorWorkerTaskFactory implements TaskFactory<AssetsAlloc
 		NavigableMap<String, Integer> assetIdentifiersMap = new TreeMap<>();
 
 		NavigableMap<SakerPath, SakerFile> inputfiles = taskcontext.getTaskUtilities()
-				.collectFilesReportInputFileAndAdditionDependency(null, inputOption);
+				.collectFilesReportAdditionDependency(null, inputOption);
+		NavigableMap<SakerPath, ContentDescriptor> inputdeps = new TreeMap<>();
 
 		NavigableMap<String, SakerPath> allmappings = new TreeMap<>();
 
 		SakerPath workingdirpath = taskcontext.getTaskWorkingDirectoryPath();
 		for (Entry<SakerPath, SakerFile> entry : inputfiles.entrySet()) {
 			if (entry.getValue() instanceof SakerDirectory) {
+				inputdeps.put(entry.getKey(), CommonTaskContentDescriptors.IS_DIRECTORY);
 				continue;
 			}
+			inputdeps.put(entry.getKey(), CommonTaskContentDescriptors.IS_FILE);
 			String assetid = workingdirpath.relativize(entry.getKey()).toString();
 			allmappings.put(assetid, entry.getKey());
 		}
+		taskcontext.getTaskUtilities().reportInputFileDependency(null, inputdeps);
 
 		for (Map<String, SakerPath> assetmap : externalAssetsOption) {
 			for (Entry<String, SakerPath> entry : assetmap.entrySet()) {

@@ -73,6 +73,8 @@ public class AssetsGenerateWorkerTaskFactory implements TaskFactory<AssetsGenera
 			if (f == null) {
 				throw new FileNotFoundException(entry.getValue().toString());
 			}
+			
+			taskcontext.reportInputFileDependency(null, entry.getValue(), f.getContentDescriptor());
 
 			String assetname = entry.getKey();
 			allmappings.put(assetname, f);

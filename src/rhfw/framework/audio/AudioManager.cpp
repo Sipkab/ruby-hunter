@@ -94,6 +94,7 @@ SoundPlayerToken AudioManager::playSingle(SoundClip& clip, float volumegain) {
 }
 
 void AudioManager::onSoundPlayerStopped(SoundPlayer& player) {
+	LOGTRACE();
 	player.removeLinkFromList();
 	stoppedPlayers.addToEnd(player);
 }

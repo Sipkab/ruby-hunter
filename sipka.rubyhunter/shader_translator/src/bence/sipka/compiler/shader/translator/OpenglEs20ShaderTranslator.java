@@ -58,6 +58,7 @@ import saker.build.file.SakerDirectory;
 import saker.build.file.SakerFile;
 import saker.build.file.SakerFileBase;
 import saker.build.file.content.ContentDescriptor;
+import saker.build.file.content.MultiContentDescriptor;
 import saker.build.file.content.SerializableContentDescriptor;
 import saker.build.file.path.SakerPath;
 import saker.build.task.TaskContext;
@@ -96,7 +97,8 @@ public class OpenglEs20ShaderTranslator extends ShaderTranslator {
 					getUniqueName().toUpperCase() + "_SHADER_" + shader.getUri() + "_" + getUniqueName() + ".glsl") {
 				@Override
 				public ContentDescriptor getContentDescriptor() {
-					return shader.getDefiningProgram().getDefiningFileContentDescriptor();
+					return MultiContentDescriptor.create(new SerializableContentDescriptor(shader),
+							new SerializableContentDescriptor("opengles20"));
 				}
 
 				@Override
@@ -256,8 +258,8 @@ public class OpenglEs20ShaderTranslator extends ShaderTranslator {
 				+ "_impl{};}");
 	}
 
-	private SourceSakerFile getShaderClassFile(ShaderResource shader, String name, SakerFile asset,
-			SakerPath glslPath) throws IOException {
+	private SourceSakerFile getShaderClassFile(ShaderResource shader, String name, SakerFile asset, SakerPath glslPath)
+			throws IOException {
 		String classname = shader.getClassUrl().getExactClassName();
 
 		String assetid = glslPath.toString().replace('.', '_').replaceAll("[/\\\\]", "::");

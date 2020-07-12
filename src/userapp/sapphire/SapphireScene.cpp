@@ -1174,6 +1174,8 @@ unsigned int SapphireScene::getMusicIndexForName(const FixedString& name) const 
 void SapphireScene::onPlayerStopped() {
 	//background music stopped, rerandom and play new
 	if (audioManagerLoaded) {
+		audio::SoundPlayerToken::StoppedListener::unsubscribe();
+
 		backgroundMusic.free();
 		auto* audiofd = randomNewMusicAudio();
 		backgroundMusic->setDescriptor(audiofd);
@@ -2172,17 +2174,7 @@ SapphireDifficulty SapphireScene::getUserDifficultyColor() {
 }
 
 SapphireDifficulty SapphireScene::getMaxAllowedDifficulty() {
-#if RHFW_DEBUG || SAPPHIRE_SCREENSHOT_MODE
 	return SapphireDifficulty::M_A_D_;
-#else
-	//from tutorial to mad
-	for (unsigned int i = 0; i < (unsigned int) SapphireDifficulty::_count_of_entries - 1; ++i) {
-		if (getFinishedLevelCount((SapphireDifficulty) i) < 3) {
-			return (SapphireDifficulty) i;
-		}
-	}
-	return SapphireDifficulty::M_A_D_;
-#endif
 }
 bool SapphireScene::isAllowedToPlay(SapphireDifficulty diff, LevelPlayPermission* outperm) {
 #if RHFW_DEBUG || SAPPHIRE_SCREENSHOT_MODE
