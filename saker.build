@@ -1,0 +1,854 @@
+static(SapphireDiffuseToAmbientFactors) = [
+		[".*sapphire\\.mtl"						, 0.45],
+		[".*?led.*sapphire\\.mtl"				, 1.0],
+		["laser.*sapphire\\.mtl"				, 0.9],
+		["converter_ring\\.sapphire\\.mtl"		, 1.0],
+		["converter_lightning\\.sapphire\\.mtl"	, 0.8]
+	]
+static(NAME) = "Ruby Hunter"
+resources(
+	in platformname,
+	in debug = !std.param.exec(rh.release, Default: false),
+	in appname = static(NAME),
+	
+	out projectconfig,
+	out types,
+	out log,
+	out platform,
+	out xmlcompile,
+	out assetcompile
+	out renderer,
+	out rescompile,
+	out shadercompile,
+	out audio,	
+	out glregistry,
+	out assetgen,
+	out debug,
+	
+	out appname,
+	
+	out sourcedirs = [
+		$types[SourceDirectory],
+		$projectconfig[SourceDirectory],
+		$log[SourceDirectory],
+		$platform[SourceDirectory],
+		$xmlcompile[SourceDirectory],
+		$assetcompile[SourceDirectory],
+		$renderer[SourceDirectory],
+		$rescompile[SourceDirectory],
+		$shadercompile[SourceDirectory],
+		$audio[SourceDirectory],
+	] + ($glregistry == null ? [] : [ $glregistry[SourceDirectory] ]),
+) {
+	if $platformname == android {
+		$renderapi = [opengles20]
+		$audioapi = opensles10_android
+		$glregistry = sipka.gl.registry.parse(Feature: GL_ES_VERSION_2_0, Directory: opengles20, PlatformName: $platformname)
+	} else if $platformname == win32 {
+		$renderapi = [opengl30, directx11]
+		$audioapi = xaudio2
+		$glregistry = sipka.gl.registry.parse(Feature: GL_VERSION_3_0, Directory: opengl30, PlatformName: $platformname)
+	} else if $platformname == winstore {
+		$renderapi = [directx11]
+		$audioapi = xaudio2
+		$glregistry = null;
+	} else if $platformname == macosx {
+		$renderapi = [opengl30]
+		$audioapi = openal
+		$glregistry = sipka.gl.registry.parse(Feature: GL_VERSION_3_0, Directory: opengl30, PlatformName: $platformname)
+	} else if $platformname == ios {
+		$renderapi = [opengles20]
+		$audioapi = openal
+		$glregistry = sipka.gl.registry.parse(Feature: GL_ES_VERSION_2_0, Directory: opengles20, PlatformName: $platformname)
+	} else if $platformname == linux {
+		$renderapi = [opengl30]
+		$audioapi = openal
+		$glregistry = sipka.gl.registry.parse(Feature: GL_ES_VERSION_2_0, Directory: opengles20, PlatformName: $platformname)
+	} else {
+		abort("Unknown platform: {$platformname}")
+	}
+	
+	$levelconvert = sipka.rh.level.convert(Levels: gameres/game_sapphire/levels/**/*.sylev)
+	$fontconvert = sipka.rh.font.convert(
+		Input: gameres/**/*.ttf, 
+		MinCodePoint: 0, 
+		MaxCodePoint: 255,
+		Debug: $debug,
+	)
+	$shadercompile = sipka.unishader.compile(RenderAPI: $renderapi, Input: gameres/shaders/**/*.usl)
+	$mat = sipka.rh.mat3d.translate(
+		Input: gameres/**/*.mtl, 
+		DiffuseToAmbientFactors: static(SapphireDiffuseToAmbientFactors)
+	)
+	$objtranslate = sipka.rh.obj3d.translate(
+		Input: gameres/**/*.obj,
+		Materials: $mat,
+	)
+	
+	$textureconvert = sipka.rh.texture.convert(gameres/**/*.sapp.png)
+	
+	$assetallocate = sipka.rh.assets.allocate(
+		Input: [
+			gameres/**/*.png,
+			gameres/**/*.ogg,
+			gameres/**/*.wav,
+			gameres/**/*.txt,
+		],
+		ExternalAssets: [
+			$objtranslate[Assets],
+			$levelconvert[Assets],
+			$xmlparse[Assets],
+			$fontconvert[Assets],
+			$textureconvert[Assets],
+			$shadercompile[Assets],
+		]
+	)
+	$assetcompile = sipka.rh.assets.compile($assetallocate)
+	
+	$rescompile = sipka.rh.resources.compile(gameres/**/*.xml, Assets: $assetcompile)
+	
+	$types = sipka.rh.types.parse(
+		Input: configres/**/*.xml,
+		ExternalTypes: [
+			$assetcompile[TypeDeclarations],
+			$rescompile[TypeDeclarations],
+			$renderer[TypeDeclarations],
+			$shadercompile[TypeDeclarations],
+			$audio[TypeDeclarations],
+		]
+	)
+	
+	$xmlparse = sipka.rh.xml.parse(
+		Configurations: [configres/**/*.xml], 
+		Input: [gameres/**/*.xml] + $textureconvert[Xmls] + $fontconvert[Xmls]
+	)
+	$xmlcompile = sipka.rh.xml.compile($xmlparse, Types: $types)
+	
+	$obj3dlink = sipka.rh.obj3d.link(Translated: $objtranslate, Assets: $assetallocate)
+	$assetgen = sipka.rh.assets.generate($assetcompile, With: [$obj3dlink, $xmlcompile])
+	
+	$log = sipka.rh.log.sources(Debug: $debug, Types: $types, PlatformName: $platformname)
+	
+	$renderer = sipka.rh.renderer.choose(RenderAPI: $renderapi, PlatformName: $platformname)
+	
+	$projectconfig = sipka.rh.project.configure(Debug: $debug, ApplicationName: $appname)
+	
+	$platform = sipka.rh.platform.choose($platformname)
+	
+	$audio = sipka.rh.audio.choose($audioapi, PlatformName: $platformname)
+}
+compile_win32(
+	in resources = resources(platformname: win32),
+	in steamavailable = false
+	
+	out steamavailable,
+	out resources,
+	out link,
+) {
+
+	$preset = saker.msvc.coptions.preset([win32, "optimize-{ $resources[debug] ? debug : release }"])
+
+	$compileroptions = [
+		$preset,
+		{
+			SimpleCompilerParameters: [
+				"/Z7",
+				# no rtti
+				"/GR-",
+			],
+			MacroDefinitions: {
+				_CRT_SECURE_NO_WARNINGS: "",
+				_HAS_EXCEPTIONS: "0",
+			}
+		},
+		{
+			Identifier: steam,
+			MacroDefinitions: {
+				SAPPHIRE_STEAM_API_AVAILABLE: 1
+			},
+		}
+	]
+	$linkeroptions = [
+		$preset,
+		{
+			SimpleLinkerParameters: [
+				/DEBUG,
+				"/ENTRY:mainCRTStartup",
+			]
+		},
+		{
+			Identifier: steam,
+			Architecture: x86,
+			LibraryPath: 3rdparty/steam_lib/windows/,
+			SimpleLinkerParameters: [
+				"steam_api.lib"
+			]
+		},
+		{
+			Identifier: steam,
+			Architecture: x64,
+			LibraryPath: 3rdparty/steam_lib/windows/,
+			SimpleLinkerParameters: [
+				"steam_api64.lib"
+			]
+		}
+	]
+	
+	$thirdpartycompile = saker.msvc.ccompile(
+		{
+			Files: [3rdparty/**/*.cpp, 3rdparty/**/*.c],
+			IncludeDirectories: 3rdparty/
+		},
+		CompilerOptions: $compileroptions,
+		Identifier: "3rdparty-win32{ $steamavailable ? "-steam" : "" }"
+	)
+	$includedirs = [
+		3rdparty/,
+		src/userapp/,
+		src/rhfw/,
+	] + $resources[sourcedirs]
+	
+	$maincompile = saker.msvc.ccompile(
+		[
+			{
+				Files: [
+					src/userapp/**/*.cpp,
+					src/rhfw/framework/**/*.cpp,
+					src/rhfw/win32platform/**/*.cpp,
+					src/rhfw/winsock/**/*.cpp,
+					src/rhfw/xinput/**/*.cpp,
+					src/rhfw/xaudio2/**/*.cpp,
+					src/rhfw/directx11/**/*.cpp,
+					src/rhfw/opengl30/**/*.cpp,
+					src/rhfw/directinput/**/*.cpp,
+				] + foreach $dir in $resources[sourcedirs] : ["{$dir}/**/*.cpp"],
+				IncludeDirectories: $includedirs,
+				MacroDefinitions: {
+					_WIN32_WINNT: "0x0601",
+				}
+			},
+		],
+		CompilerOptions: $compileroptions,
+		Identifier: "main-win32{ $steamavailable ? "-steam" : "" }"
+	)
+	
+	$link = saker.msvc.clink(
+		Input:[
+			$thirdpartycompile,
+			$maincompile,
+			icons/win32/resources.res,
+		],
+		Identifier: "main-win32{ $steamavailable ? "-steam" : "" }",
+		LinkerOptions: $linkeroptions,
+		BinaryName: $resources[appname],
+	)
+}
+export_win32(
+	in compilewin32 = compile_win32()
+) {
+	std.dir.prepare(
+		Output: "ruby-hunter-{ $compilewin32[link][Architecture] }",
+		Contents: [
+			{
+				Directory: $compilewin32[resources][assetgen][AssetsDirectoryPath],
+				Wildcard: **/*,
+				TargetDirectory: assets,
+			},
+			{
+				Files: $compilewin32[link][OutputPath],
+				Remap: {
+					".*": "{$compilewin32[resources][appname]}.exe",
+				}
+			}
+		] + (
+			$compilewin32[resources][debug] && $compilewin32[steamavailable] ? [3rdparty/steam_lib/steam_appid.txt] : []
+		) + (
+			$compilewin32[steamavailable] ? [
+				$compilewin32[link][Architecture] == x86 ? 
+					3rdparty/steam_lib/windows/steam_api.dll : 
+					3rdparty/steam_lib/windows/steam_api64.dll
+			] : []
+		)
+	)
+}
+compile_win32_steam() {
+	compilewin32(steamavailable: true)
+}
+export_win32_steam() {
+	export_win32(compilewin32: compile_win32(steamavailable: true))
+}
+
+compile_android(
+	in resources = resources(platformname: android)
+	
+	out resources,
+	out libmainmap,
+	out aapt2link,
+	out d8,
+) {
+
+	$javac = saker.java.compile(
+		SourceDirectories: [
+			src/rhfw/android_java/,
+		] + $aapt2link[JavaSourceDirectories],
+		BootClassPath: saker.android.classpath.platform(),
+		SDKs: {
+			AndroidBuildTools: saker.android.sdk.buildtools(),
+			AndroidPlatform: saker.android.sdk.platform(),
+		},
+	)
+	$d8 = saker.android.d8(
+		$javac,
+		Release: !$resources[debug], 
+	)
+	
+	$aapt2compile = saker.android.aapt2.compile(
+		Input: android/res,
+	)
+	
+	$aapt2link = saker.android.aapt2.link(
+		$aapt2compile, 
+		Manifest: android/AndroidManifest.xml,
+		MinSDKVersion: 9,
+		TargetSDKVersion: 25,
+	)
+	
+	$includedirs = [
+		3rdparty/,
+		src/userapp/,
+		src/rhfw/,
+	] + $resources[sourcedirs]
+	
+	$macros = {
+		HAVE_UNISTD_H: null,
+	}
+	
+	$libmainmap = foreach $abi in [armeabi-v7a, arm64-v8a, x86, x86_64] 
+			with $preset, $thirdpartycompile, $compile, $link {
+		$preset = saker.android.ndk.clang.preset(
+			ABI: $abi,
+			API: 21,
+			Release: !$resources[debug],
+			StaticStdLib: true,
+			Libraries: [
+				OpenSLES,
+				EGL,
+				android,
+				log,
+			],
+		)
+	
+		$thirdpartycompile = saker.clang.compile(
+			{
+				Files: [3rdparty/**/*.cpp, 3rdparty/**/*.c],
+				IncludeDirectories: 3rdparty/,
+				MacroDefinitions: $macros,
+			},
+			Identifier: "3rdparty-{ $abi }",
+			CompilerOptions: $preset,
+		)
+		$compile = saker.clang.compile(
+			{
+				Files: [
+					src/userapp/**/*.cpp,
+					src/rhfw/framework/**/*.cpp,
+					src/rhfw/androidplatform/**/*.cpp,
+					src/rhfw/opengles20/**/*.cpp,
+					src/rhfw/opensles_android/**/*.cpp,
+				] + foreach $dir in $resources[sourcedirs] : ["{$dir}/**/*.cpp"],
+				IncludeDirectories: $includedirs,
+				MacroDefinitions: $macros,
+			},
+			Identifier: "main-{ $abi }",
+			CompilerOptions: $preset,
+		)
+		
+		$link = saker.clang.link(
+			[
+				$compile, 
+				$thirdpartycompile
+			],
+			LinkerOptions: $preset,
+		)
+	}: {
+		$abi: $resources[debug] ? $link[OutputPath] : saker.android.ndk.strip($link[OutputPath])[Path]
+	}
+}
+export_android(
+	in compileandroid = compile_android()
+) {
+	$apk = saker.apk.create(
+		Resources: $compileandroid[aapt2link],
+		Classes: $compileandroid[d8],
+		Libraries: {
+			libmain.so: $compileandroid[libmainmap]
+		},
+		Assets: $compileandroid[resources][assetgen][AssetsDirectoryPath]
+	)
+	
+	saker.apk.sign($apk)
+}
+
+compile_winstore(
+	in resources = resources(platformname: winstore),
+	
+	out link,
+	out resources,
+) {
+	
+	$includedirs = [
+		3rdparty/,
+		src/userapp/,
+		src/rhfw/,
+	] + $resources[sourcedirs]
+	
+	$preset = saker.msvc.coptions.preset([uap, "optimize-{ $resources[debug] ? debug : release }"])
+	
+	$compileroptions = [
+		$preset,
+		{
+			SimpleCompilerParameters: [
+				"/Z7",
+				$resources[debug] ? "/MDd" : "/MD",
+			],
+			MacroDefinitions: {
+				_CRT_SECURE_NO_WARNINGS: "",
+				_HAS_EXCEPTIONS: "0",
+			}
+		},
+	]
+	$linkeroptions = [
+		$preset,
+		{
+			SimpleLinkerParameters: [
+				"/DEBUG",
+			],
+		}
+	]
+	
+	$thidpartycompile = saker.msvc.ccompile(
+		{
+			Files: [3rdparty/**/*.cpp, 3rdparty/**/*.c],
+			IncludeDirectories: 3rdparty/,
+		},
+		CompilerOptions: $compileroptions,
+		Identifier: 3rdparty-winstore
+	)
+	$maincompile = saker.msvc.ccompile(
+		[
+			{
+				Files: [
+					src/userapp/**/*.cpp,
+					src/rhfw/framework/**/*.cpp,
+					src/rhfw/winstoreplatform/**/*.cpp,
+					src/rhfw/winsock/**/*.cpp,
+					src/rhfw/xaudio2/**/*.cpp,
+					src/rhfw/directx11/**/*.cpp,
+				] + foreach $dir in $resources[sourcedirs] : ["{$dir}/**/*.cpp"],
+				IncludeDirectories: $includedirs,
+			},
+		],
+		CompilerOptions: $compileroptions,
+		Identifier: main-winstore
+	)
+	$link = saker.msvc.clink(
+		Input:[
+			$thidpartycompile,
+			$maincompile,
+		],
+		LinkerOptions: $linkeroptions,
+		BinaryName: static(NAME)
+	)
+}
+export_winstore(
+	in compilewinstore = compile_winstore()
+	
+	out prepared,
+) {
+	$link = $compilewinstore[link]
+	$resources = $compilewinstore[resources]
+	
+	$prepared = saker.appx.prepare(
+		AppxManifest: saker.appx.manifest.patch(
+			winstore/AppxManifest.xml,
+			ProcessorArchitecture: $compilewinstore[link][Architecture],
+		)[Path], 
+		Contents: [
+			$compilewinstore[link][OutputPath],
+			$compilewinstore[link][OutputWinmdPath],
+			{
+				Directory: $resources[assetgen][AssetsDirectoryPath],
+				Wildcard: **,
+				TargetDirectory: assets,
+			},
+			{
+				Directory: winstore/logo/,
+				Wildcard: **,
+				TargetDirectory: logo,
+			}
+		]
+	)
+}
+run_winstore(
+	in exportwinstore = export_winstore()
+) {
+	$register = saker.appx.register(
+		$exportwinstore[prepared],
+		AllowReinstall: true,
+	)
+	saker.appx.launch($register)
+}
+bundle_winstore(
+	in exportwinstore = export_winstore()
+) {
+	$pack = saker.appx.package($exportwinstore[prepared])
+	$bundle = saker.appx.bundle({
+		$pack[Path]: ""
+	})
+}
+
+compile_macosx(
+	in resources = resources(platformname: macosx),
+	in steamavailable = false,
+	
+	out steamavailable,
+	out resources,
+	out exepath,
+	out plist,
+) {
+	$preset = saker.apple.preset(
+		macosx,
+		PlatformVersionMin: "10.9",
+		Frameworks: [
+			OpenAL,
+			Cocoa,
+		],
+		Libraries: [
+			c++,
+		],
+		Release: !$resources[debug],
+	)
+	$compileroptions = [
+		$preset,
+		{
+			SimpleCompilerParameters: [
+				"-fno-rtti",
+				"-fno-exceptions",
+			],
+			MacroDefinitions: {
+				HAVE_UNISTD_H: null,
+			}
+		},
+	]
+	$linkeroptions = [
+		$preset,
+		{
+			LibraryPath: 3rdparty/steam_lib/osx32/,
+			SimpleLinkerParameters: [
+				-lsteam_api
+			],
+			Identifier: steam
+		}
+	]
+	$includedirs = [
+		3rdparty/,
+		src/userapp/,
+		src/rhfw/,
+	] + $resources[sourcedirs]
+	
+	$thirdpartycompile = saker.clang.compile(
+		{
+			Files: [3rdparty/**/*.cpp, 3rdparty/**/*.c],
+			IncludeDirectories: 3rdparty/,
+		},
+		CompilerOptions: $compileroptions,
+		Identifier: "3rdparty-maxosx{ $steamavailable ? "-steam" : "" }"
+	)
+	
+	$maincompile = saker.clang.compile(
+		{
+			Files: [
+				src/userapp/**/*.cpp,
+				src/userapp/**/*.mm,
+				src/rhfw/framework/**/*.cpp,
+				src/rhfw/appleplatform/**/*.cpp,
+				src/rhfw/appleplatform/**/*.mm,
+				src/rhfw/macosxplatform/**/*.cpp,
+				src/rhfw/macosxplatform/**/*.mm,
+				src/rhfw/openal/**/*.cpp,
+				src/rhfw/opengl30/**/*.cpp,
+			] + foreach $dir in $resources[sourcedirs] : ["{$dir}/**/*.cpp", "{$dir}/**/*.mm"],
+			IncludeDirectories: $includedirs,
+		},
+		CompilerOptions: $compileroptions,
+		Identifier: "main-macosx{ $steamavailable ? "-steam" : "" }"
+	)
+	
+	$link = saker.clang.link(
+		Input:[
+			$thirdpartycompile,
+			$maincompile,
+		],
+		Identifier: "main-macosx{ $steamavailable ? "-steam" : "" }",
+		LinkerOptions: $linkeroptions,
+		BinaryName: $resources[appname],
+	)
+	
+	$plist = saker.plist.insert(
+			macosx/Info.plist, 
+			Output: macosx/Info.plist, 
+			Values: $preset[InfoPlistValues],
+			SDKs: $link[SDKs],
+		)[Path]
+	# TODO run lipo if necessary
+	$exepath = $resources[debug] ? $link[OutputPath] : saker.apple.strip($link[OutputPath])[Path]
+}
+export_macosx(
+	in compilemacosx = compile_macosx()
+) {
+	saker.macos.bundle.create(
+		MacOS: [
+			$compilemacosx[exepath]
+		] + (
+			$compilemacosx[resources][debug] && $compilemacosx[steamavailable] ? [3rdparty/steam_lib/steam_appid.txt] : []
+		) + (
+			$compilemacosx[steamavailable] ? [
+				3rdparty/steam_lib/osx32/libsteam_api.dylib
+			] : []
+		),
+		Resources: [
+			icons/macosx/AppIcon.icns,
+			{
+				Directory: $compilemacosx[resources][assetgen][AssetsDirectoryPath],
+				Wildcard: **,
+				TargetDirectory: assets,
+			},
+		],
+		Contents: [
+			{
+				Files: saker.plist.convert($compilemacosx[plist], Format: binary)[Path],
+				Remap: {
+					".*": "Info.plist",
+				},
+			}
+		],
+		Output: "{ $compilemacosx[resources][appname] }.app",
+	)
+}
+export_macosx_steam(
+) {
+	export_macosx(compilemacosx: compile_macosx(steamavailable: true))
+}
+
+compile_ios(
+	in resources = resources(platformname: ios),
+	out resources,
+	out exepath,
+	out plist,
+) {
+	$preset = saker.apple.preset(
+		iphoneos,
+		Architecture: armv7,
+		PlatformVersionMin: "7.0",
+		Frameworks: [
+			OpenAL,
+			# for EGL functions
+			OpenGLES,
+			UIKit,
+			# for random generation
+			Security,
+			# for time functions
+			QuartzCore,
+		],
+		Libraries: [
+			c++,
+		],
+		DeviceFamily: [
+			iPhone,
+			iPad,
+		],
+		Release: !$resources[debug],
+	)
+	$compileroptions = [
+		$preset,
+		{
+			SimpleCompilerParameters: [
+				"-fno-rtti",
+				"-fno-exceptions",
+			],
+			MacroDefinitions: {
+				HAVE_UNISTD_H: null,
+			}
+		},
+	]
+	$linkeroptions = [
+		$preset,
+	]
+	$includedirs = [
+		3rdparty/,
+		src/userapp/,
+		src/rhfw/,
+	] + $resources[sourcedirs]
+	
+	$thirdpartycompile = saker.clang.compile(
+		{
+			Files: [3rdparty/**/*.cpp, 3rdparty/**/*.c],
+			IncludeDirectories: 3rdparty/,
+		},
+		CompilerOptions: $compileroptions,
+		Identifier: "3rdparty-ios"
+	)
+	
+	$maincompile = saker.clang.compile(
+		{
+			Files: [
+				src/userapp/**/*.cpp,
+				src/userapp/**/*.mm,
+				src/rhfw/framework/**/*.cpp,
+				src/rhfw/appleplatform/**/*.cpp,
+				src/rhfw/appleplatform/**/*.mm,
+				src/rhfw/iosplatform/**/*.cpp,
+				src/rhfw/iosplatform/**/*.mm,
+				src/rhfw/openal/**/*.cpp,
+				src/rhfw/opengles20/**/*.cpp,
+			] + foreach $dir in $resources[sourcedirs] : ["{$dir}/**/*.cpp", "{$dir}/**/*.mm"],
+			IncludeDirectories: $includedirs,
+		},
+		CompilerOptions: $compileroptions,
+		Identifier: "main-ios"
+	)
+	
+	$link = saker.clang.link(
+		Input: [
+			$thirdpartycompile,
+			$maincompile,
+		],
+		Identifier: "main-ios",
+		LinkerOptions: $linkeroptions,
+		BinaryName: $resources[appname],
+	)
+	
+	$plist = saker.plist.insert(
+			ios/Info.plist, 
+			Output: iphoneos/Info.plist, 
+			Values: $preset[InfoPlistValues],
+			SDKs: $link[SDKs],
+		)[Path]
+	$exepath = saker.apple.lipo.create($link[OutputPath])[Path]
+	
+}
+export_ios(
+	in compileios = compile_ios()
+) {
+	$bundle = saker.iphoneos.bundle.create(
+		[
+			$compileios[exepath],
+			icons/iphoneos/*.png,
+			{
+				Directory: $compileios[resources][assetgen][AssetsDirectoryPath],
+				Wildcard: **,
+				TargetDirectory: assets,
+			},
+			{
+				Files: saker.plist.convert($compileios[plist], Format: binary)[Path],
+				Remap: {
+					".*": "Info.plist",
+				},
+			}
+		],
+		Output: "{ $compileios[resources][appname] }.app",
+	)
+}
+
+compile_server_linux(
+	in resources = resources(platformname: linux, appname: "{ static(NAME) } Server")
+	
+	out resources,
+	out exepath,
+) {
+	$includedirs = [
+		3rdparty/,
+		src/userapp/,
+		src/rhfw/,
+		src/server/,
+	] + $resources[sourcedirs]
+	
+	$compile = saker.clang.compile(
+		[
+			{
+				Files: [
+					src/server/**/*.cpp,
+					src/userapp/sapphire/common/**/*.cpp,
+					src/userapp/sapphire/level/**/*.cpp,
+					src/userapp/sapphire/private/**/*.cpp,
+					src/userapp/util/**/*.cpp,
+					src/rhfw/framework/io/network/**/*.cpp,
+					src/rhfw/framework/io/files/**/*.cpp,
+					src/rhfw/framework/utils/**/*.cpp,
+					src/rhfw/linuxplatform/random/**/*.cpp,
+					src/rhfw/linuxplatform/threading/**/*.cpp,
+					src/rhfw/linuxplatform/storage/**/*.cpp,
+					src/rhfw/linuxplatform/network/**/*.cpp,
+					"{$resources[types][SourceDirectory]}/**/*.cpp",
+					"{$resources[projectconfig][SourceDirectory]}/**/*.cpp",
+					"{$resources[log][SourceDirectory]}/**/*.cpp",
+					"{$resources[platform][SourceDirectory]}/**/*.cpp",
+					"{$resources[assetcompile][SourceDirectory]}/**/*.cpp",
+					"{$resources[rescompile][SourceDirectory]}/**/*.cpp",
+				],
+				IncludeDirectories: $includedirs,
+				SimpleParameters: [
+					# always have debugging info. its okay for release builds as well
+					-g
+				] + ($resources[debug] ? [ 
+					-O0 
+				] : [
+					-Os
+				])
+			},
+		],
+		Identifier: linux-server
+	)
+	$link = saker.clang.link(
+		$compile,
+		SimpleParameters: [
+			-lstdc++,
+			-pthread,
+		]
+	)
+	$exepath = $link[OutputPath]
+}
+export_server_linux(
+	in compileserverlinux = compile_server_linux(),
+	out prepare
+) {
+	$prepare = std.dir.prepare(
+		Output: rh-server,
+		Contents: [
+			{
+				Directory: $compileserverlinux[resources][assetgen][AssetsDirectoryPath],
+				Wildcard: **/*,
+				TargetDirectory: assets,
+			},
+			{
+				Files: $compileserverlinux[exepath],
+				Remap: {
+					".*": "rh-server",
+				}
+			}
+		]
+	)
+}
+archive_server_linux(
+	in export = export_server_linux()
+) {
+	saker.zip.create(
+		Output: rh-server.zip,
+		Resources: [
+			{
+				Directory: $export[prepare][OutputPath],
+				Resources: **,
+			}
+		]
+	)
+}

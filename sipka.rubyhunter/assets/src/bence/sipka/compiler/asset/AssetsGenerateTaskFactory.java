@@ -16,29 +16,24 @@
 package bence.sipka.compiler.asset;
 
 import java.io.Externalizable;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.ObjectInput;
 import java.io.ObjectOutput;
 import java.util.Collection;
-import java.util.Map.Entry;
 import java.util.NavigableMap;
-import java.util.TreeMap;
 
 import bence.sipka.utils.BundleContentAccess;
 import bence.sipka.utils.BundleContentAccess.BundleResourceSupplier;
-import saker.build.file.DelegateSakerFile;
-import saker.build.file.DirectoryVisitPredicate;
-import saker.build.file.SakerDirectory;
-import saker.build.file.SakerFile;
+import bence.sipka.utils.RHFrontendParameterizableTask;
 import saker.build.file.path.SakerPath;
-import saker.build.file.provider.SakerPathFiles;
 import saker.build.runtime.execution.ExecutionContext;
 import saker.build.task.ParameterizableTask;
 import saker.build.task.TaskContext;
+import saker.build.task.exception.TaskParameterException;
+import saker.build.task.identifier.TaskIdentifier;
 import saker.build.task.utils.StructuredTaskResult;
+import saker.build.task.utils.TaskBuilderResult;
 import saker.build.task.utils.annot.SakerInput;
-import saker.build.task.utils.dependencies.EqualityTaskOutputChangeDetector;
 import saker.build.thirdparty.saker.util.io.SerialUtils;
 import saker.nest.utils.FrontendTaskFactory;
 
@@ -106,15 +101,23 @@ public class AssetsGenerateTaskFactory extends FrontendTaskFactory<Object> {
 
 	@Override
 	public ParameterizableTask<? extends Object> createTask(ExecutionContext executioncontext) {
-		return new ParameterizableTask<Object>() {
-
+		return new RHFrontendParameterizableTask() {
 			@SakerInput(value = { "", "Input" }, required = true)
 			public AssetsCompilerTaskFactory.Output inputOption;
 			@SakerInput(value = "With")
 			public Collection<Object> withOption;
 
 			@Override
-			public Object run(TaskContext taskcontext) throws Exception {
+			protected TaskBuilderResult<?> createWorkerTask(TaskContext taskcontext) {
+				return TaskBuilderResult.create(
+						TaskIdentifier.builder(AssetsGenerateWorkerTaskFactory.class.getName()).build(),
+						new AssetsGenerateWorkerTaskFactory(inputOption));
+			}
+
+			@Override
+			public void initParameters(TaskContext taskcontext,
+					NavigableMap<String, ? extends TaskIdentifier> parameters) throws TaskParameterException {
+				super.initParameters(taskcontext, parameters);
 				//just to retrieve all items
 				if (withOption != null) {
 					for (Object o : withOption) {
@@ -123,37 +126,6 @@ public class AssetsGenerateTaskFactory extends FrontendTaskFactory<Object> {
 						}
 					}
 				}
-
-				SakerDirectory outputDirectory = SakerPathFiles.requireBuildDirectory(taskcontext)
-						.getDirectoryCreate(TASK_NAME);
-				outputDirectory.clear();
-				SakerDirectory assetsdir = outputDirectory.getDirectoryCreate("assets");
-				SakerDirectory assetsresdir = assetsdir.getDirectoryCreate("res");
-
-				NavigableMap<String, Integer> assetIdentifiersMap = inputOption.getAssetIdentifiers();
-
-				NavigableMap<String, SakerFile> allmappings = new TreeMap<>();
-
-				for (Entry<String, SakerPath> entry : inputOption.getAssetFiles().entrySet()) {
-					SakerFile f = taskcontext.getTaskUtilities().resolveFileAtPath(entry.getValue());
-					if (f == null) {
-						throw new FileNotFoundException(entry.getValue().toString());
-					}
-
-					String assetname = entry.getKey();
-					allmappings.put(assetname, f);
-					assetsresdir.add(
-							new DelegateSakerFile(Integer.toHexString(assetIdentifiersMap.get(entry.getKey())), f));
-				}
-
-				taskcontext.getTaskUtilities().reportOutputFileDependency(null,
-						SakerPathFiles.toFileContentMap(outputDirectory.getFilesRecursiveByPath(
-								outputDirectory.getSakerPath(), DirectoryVisitPredicate.everything())));
-				outputDirectory.synchronize();
-
-				Output result = new Output(assetsdir.getSakerPath());
-				taskcontext.reportSelfTaskOutputChangeDetector(new EqualityTaskOutputChangeDetector(result));
-				return result;
 			}
 		};
 	}

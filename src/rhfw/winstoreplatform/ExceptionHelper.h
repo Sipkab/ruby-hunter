@@ -13,7 +13,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-﻿#ifndef WINDOWS_EXCEPTION_HELPER_H_
+#ifndef WINDOWS_EXCEPTION_HELPER_H_
 #define WINDOWS_EXCEPTION_HELPER_H_
 
 #include <gen/configuration.h>

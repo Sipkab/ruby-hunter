@@ -15,22 +15,30 @@
  */
 package bence.sipka.user.obj3d;
 
-import java.io.Serializable;
+import java.io.Externalizable;
+import java.io.IOException;
+import java.io.ObjectInput;
+import java.io.ObjectOutput;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class Face implements Iterable<Vertex>, Serializable {
+import saker.build.thirdparty.saker.util.io.SerialUtils;
+
+public class Face implements Externalizable {
 	private static final long serialVersionUID = 1L;
 
-	transient ObjectData obj;
-	int objectId;
 	Material material;
 	List<VertexIndex> vertices = new ArrayList<>();
 
-	public Face(ObjectData obj) {
-		this.obj = obj;
-		this.objectId = obj.id;
+	/**
+	 * For {@link Externalizable}.
+	 */
+	public Face() {
+	}
+
+	public Face(Material material) {
+		this.material = material;
 	}
 
 	public Material getMaterial() {
@@ -42,9 +50,20 @@ public class Face implements Iterable<Vertex>, Serializable {
 		return "Face [vertices=" + vertices + "]";
 	}
 
-	@Override
-	public Iterator<Vertex> iterator() {
+	public Iterator<Vertex> vertexIterator(ObjectData obj) {
 		return vertices.stream().map(i -> new Vertex(i, obj)).iterator();
+	}
+
+	@Override
+	public void writeExternal(ObjectOutput out) throws IOException {
+		out.writeObject(material);
+		SerialUtils.writeExternalCollection(out, vertices);
+	}
+
+	@Override
+	public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
+		material = SerialUtils.readExternalObject(in);
+		vertices = SerialUtils.readExternalImmutableList(in);
 	}
 
 	@Override
@@ -52,7 +71,6 @@ public class Face implements Iterable<Vertex>, Serializable {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + ((material == null) ? 0 : material.hashCode());
-		result = prime * result + objectId;
 		result = prime * result + ((vertices == null) ? 0 : vertices.hashCode());
 		return result;
 	}
@@ -70,8 +88,6 @@ public class Face implements Iterable<Vertex>, Serializable {
 			if (other.material != null)
 				return false;
 		} else if (!material.equals(other.material))
-			return false;
-		if (objectId != other.objectId)
 			return false;
 		if (vertices == null) {
 			if (other.vertices != null)

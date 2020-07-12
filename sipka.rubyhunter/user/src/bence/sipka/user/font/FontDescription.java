@@ -26,7 +26,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.stream.Collectors;
 
-import bence.sipka.user.font.FontConverterTaskFactory.FontPackFailedException;
+import bence.sipka.user.font.FontConverterWorkerTaskFactory.FontPackFailedException;
 
 public class FontDescription {
 	private Collection<CharRect> characters = null;
@@ -98,7 +98,7 @@ public class FontDescription {
 		g.setBackground(new Color(0, 0, 0, 0));
 		g.clearRect(0, 0, imgdim, imgdim);
 
-		FontConverterTaskFactory.setupGraphics(g, font);
+		FontConverterWorkerTaskFactory.setupGraphics(g, font);
 
 		g.drawString(chstr, halfdim, halfdim);
 
@@ -244,7 +244,7 @@ public class FontDescription {
 			initialize();
 			BufferedImage nimg = new BufferedImage(imageDimension, imageDimension, BufferedImage.TYPE_INT_ARGB);
 			Graphics2D g = nimg.createGraphics();
-			FontConverterTaskFactory.setupGraphics(g, usedFont);
+			FontConverterWorkerTaskFactory.setupGraphics(g, usedFont);
 			drawCharacters(g);
 			g.dispose();
 			return nimg;

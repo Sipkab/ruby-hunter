@@ -23,6 +23,7 @@ compile(
 				sipka.syntax.parser-lib,
 				saker.nest-api,
 				saker.windows-api,
+				saker.standard,
 			],
 			Filters: nest.dependency.filter.compile(CompileTransitive: false)
 		)),

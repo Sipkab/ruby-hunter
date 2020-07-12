@@ -19,22 +19,16 @@ import java.io.Externalizable;
 import java.io.IOException;
 import java.io.ObjectInput;
 import java.io.ObjectOutput;
-import java.util.Map.Entry;
 import java.util.NavigableMap;
-import java.util.TreeMap;
 
-import bence.sipka.compiler.source.TemplatedSource;
-import bence.sipka.compiler.source.TemplatedSourceModularFile;
 import bence.sipka.compiler.types.TypeDeclaration;
-import bence.sipka.utils.BundleContentAccess;
-import bence.sipka.utils.BundleContentAccess.BundleResourceSupplier;
-import saker.build.file.DirectoryVisitPredicate;
-import saker.build.file.SakerDirectory;
+import bence.sipka.utils.RHFrontendParameterizableTask;
 import saker.build.file.path.SakerPath;
-import saker.build.file.provider.SakerPathFiles;
 import saker.build.runtime.execution.ExecutionContext;
 import saker.build.task.ParameterizableTask;
 import saker.build.task.TaskContext;
+import saker.build.task.identifier.TaskIdentifier;
+import saker.build.task.utils.TaskBuilderResult;
 import saker.build.task.utils.annot.SakerInput;
 import saker.build.thirdparty.saker.util.ImmutableUtils;
 import saker.build.thirdparty.saker.util.io.SerialUtils;
@@ -44,8 +38,6 @@ public class AssetsCompilerTaskFactory extends FrontendTaskFactory<Object> {
 	private static final long serialVersionUID = 1L;
 
 	public static final String TASK_NAME = "sipka.rh.assets.compile";
-
-	public static final BundleResourceSupplier descriptor = BundleContentAccess.getBundleResourceSupplier("assets");
 
 	public static class Output implements Externalizable {
 		private static final long serialVersionUID = 1L;
@@ -104,53 +96,62 @@ public class AssetsCompilerTaskFactory extends FrontendTaskFactory<Object> {
 			assetIdentifiers = SerialUtils.readExternalSortedImmutableNavigableMap(in);
 			assetFiles = SerialUtils.readExternalSortedImmutableNavigableMap(in);
 		}
+
+		@Override
+		public int hashCode() {
+			final int prime = 31;
+			int result = 1;
+			result = prime * result + ((assetFiles == null) ? 0 : assetFiles.hashCode());
+			result = prime * result + ((assetIdentifiers == null) ? 0 : assetIdentifiers.hashCode());
+			result = prime * result + ((sourceDirectory == null) ? 0 : sourceDirectory.hashCode());
+			result = prime * result + ((typeDeclarations == null) ? 0 : typeDeclarations.hashCode());
+			return result;
+		}
+
+		@Override
+		public boolean equals(Object obj) {
+			if (this == obj)
+				return true;
+			if (obj == null)
+				return false;
+			if (getClass() != obj.getClass())
+				return false;
+			Output other = (Output) obj;
+			if (assetFiles == null) {
+				if (other.assetFiles != null)
+					return false;
+			} else if (!assetFiles.equals(other.assetFiles))
+				return false;
+			if (assetIdentifiers == null) {
+				if (other.assetIdentifiers != null)
+					return false;
+			} else if (!assetIdentifiers.equals(other.assetIdentifiers))
+				return false;
+			if (sourceDirectory == null) {
+				if (other.sourceDirectory != null)
+					return false;
+			} else if (!sourceDirectory.equals(other.sourceDirectory))
+				return false;
+			if (typeDeclarations == null) {
+				if (other.typeDeclarations != null)
+					return false;
+			} else if (!typeDeclarations.equals(other.typeDeclarations))
+				return false;
+			return true;
+		}
 	}
 
 	@Override
 	public ParameterizableTask<? extends Object> createTask(ExecutionContext executioncontext) {
-		return new ParameterizableTask<Object>() {
-
+		return new RHFrontendParameterizableTask() {
 			@SakerInput(value = { "", "Input" }, required = true)
 			public AssetsAllocatorTaskFactory.Output inputOption;
 
 			@Override
-			public Object run(TaskContext taskcontext) throws Exception {
-				SakerDirectory outputDirectory = SakerPathFiles.requireBuildDirectory(taskcontext)
-						.getDirectoryCreate(TASK_NAME);
-				outputDirectory.clear();
-				SakerDirectory sourcesdir = outputDirectory.getDirectoryCreate("sources");
-				SakerDirectory gendir = sourcesdir.getDirectoryCreate("gen");
-
-				NavigableMap<String, Integer> assetIdentifiersMap = new TreeMap<>();
-
-				NavigableMap<String, SakerPath> allmappings = new TreeMap<>();
-				for (Entry<String, Entry<SakerPath, Integer>> entry : inputOption.getAssetIdentifiers().entrySet()) {
-					int assetid = entry.getValue().getValue();
-					String assetname = entry.getKey();
-					assetIdentifiersMap.put(assetname, assetid);
-					allmappings.put(assetname, entry.getValue().getKey());
-				}
-
-				int idx = 0;
-				for (Entry<String, ?> entry : allmappings.entrySet()) {
-					String assetname = entry.getKey();
-					int assetid = idx++;
-					assetIdentifiersMap.put(assetname, assetid);
-				}
-
-				gendir.add(new TemplatedSourceModularFile("assets.h",
-						new TemplatedSource(descriptor::getInputStream, "gen/assets.h")).setThis(assetIdentifiersMap));
-
-				taskcontext.getTaskUtilities().reportOutputFileDependency(null,
-						SakerPathFiles.toFileContentMap(outputDirectory.getFilesRecursiveByPath(
-								outputDirectory.getSakerPath(), DirectoryVisitPredicate.everything())));
-				outputDirectory.synchronize();
-
-				NavigableMap<String, TypeDeclaration> typeDeclarations = new TreeMap<>();
-				AssetTypeDeclaration assettype = new AssetTypeDeclaration(assetIdentifiersMap);
-				typeDeclarations.put(assettype.getName(), assettype);
-
-				return new Output(assetIdentifiersMap, typeDeclarations, allmappings, sourcesdir.getSakerPath());
+			protected TaskBuilderResult<?> createWorkerTask(TaskContext taskcontext) {
+				return TaskBuilderResult.create(
+						TaskIdentifier.builder(AssetsCompilerWorkerTaskFactory.class.getName()).build(),
+						new AssetsCompilerWorkerTaskFactory(inputOption));
 			}
 		};
 	}

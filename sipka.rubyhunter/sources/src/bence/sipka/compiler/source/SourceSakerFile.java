@@ -23,12 +23,12 @@ import saker.build.file.SakerFileBase;
 import saker.build.file.content.ContentDescriptor;
 import saker.build.file.content.HashContentDescriptor;
 
-public class SourceModularFile extends SakerFileBase {
+public class SourceSakerFile extends SakerFileBase {
 	protected final SourceWritable source;
 	private String headerComment = null;
 	private ContentDescriptor contentDescriptor;
 
-	public SourceModularFile(String name, SourceWritable source) {
+	public SourceSakerFile(String name, SourceWritable source) {
 		super(name);
 		if (name.endsWith(".c") || name.endsWith(".cpp") || name.endsWith(".java")) {
 			headerComment = "/* Auto-generated file, do not modify */\n";
@@ -36,7 +36,7 @@ public class SourceModularFile extends SakerFileBase {
 		this.source = source;
 	}
 
-	public SourceModularFile setHeaderComment(String headerComment) {
+	public SourceSakerFile setHeaderComment(String headerComment) {
 		this.headerComment = headerComment;
 		return this;
 	}

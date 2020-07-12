@@ -128,7 +128,7 @@ static void writeLogEvent(const FixedString& log) {
 		int dlen = sprintf(buffer, "%d.%02d.%02d %02d:%02d:%02d\t", 1900 + timeinfo->tm_year, timeinfo->tm_mon + 1, timeinfo->tm_mday,
 				timeinfo->tm_hour, timeinfo->tm_min, timeinfo->tm_sec);
 
-		LOGI() << "Log event: " << buffer << "\t" << log;
+		printf("Log event: %s\t%s\n", buffer, (const char*) log);
 		LogFileOutput->write(buffer, dlen);
 		LogFileOutput->write((const char*) log, log.length());
 		LogFileOutput->write("\r\n", 2);
@@ -645,9 +645,12 @@ static void startPingerThread() {
 						exitthread = AcceptorSocket == nullptr;
 						if(!exitthread) {
 							LOGI() << "Pinging all clients automatically";
+							int count = 0;
 							for (auto&& c : ClientConnections.objects()) {
 								c.sendPingRequestOrDisconnect();
+								++count;
 							}
+							LOGI() << "Pinged: " << count;
 						}
 						sem.post();
 					});

@@ -28,7 +28,7 @@ import java.util.stream.Collectors;
 
 import bence.sipka.compiler.source.TemplatedSource;
 import bence.sipka.compiler.types.TypeDeclaration;
-import bence.sipka.compiler.types.TypesTaskFactory;
+import bence.sipka.compiler.types.TypesWorkerTaskFactory;
 import bence.sipka.compiler.types.builtin.IntegerType;
 import saker.build.thirdparty.saker.util.io.SerialUtils;
 
@@ -89,8 +89,8 @@ public class EnumType extends TypeDeclaration {
 	@Override
 	public String toSourceDefinition() {
 		try {
-			return new TemplatedSource(TypesTaskFactory.descriptor::getInputStream, "enum.template.cpp").setThis(this)
-					.getAsString();
+			return new TemplatedSource(TypesWorkerTaskFactory.descriptor::getInputStream, "enum.template.cpp")
+					.setThis(this).getAsString();
 		} catch (IOException e) {
 			throw new UncheckedIOException(e);
 		}
@@ -104,7 +104,7 @@ public class EnumType extends TypeDeclaration {
 	@Override
 	public String toSourceString() {
 		try {
-			return new TemplatedSource(TypesTaskFactory.descriptor::getInputStream, "enum_tostring.template.cpp")
+			return new TemplatedSource(TypesWorkerTaskFactory.descriptor::getInputStream, "enum_tostring.template.cpp")
 					.setThis(this).getAsString();
 		} catch (IOException e) {
 			throw new UncheckedIOException(e);

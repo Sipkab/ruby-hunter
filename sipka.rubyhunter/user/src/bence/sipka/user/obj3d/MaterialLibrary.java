@@ -15,13 +15,19 @@
  */
 package bence.sipka.user.obj3d;
 
+import java.io.Externalizable;
+import java.io.IOException;
+import java.io.ObjectInput;
+import java.io.ObjectOutput;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class MaterialLibrary implements Serializable {
+import saker.build.thirdparty.saker.util.io.SerialUtils;
+
+public class MaterialLibrary implements Externalizable {
 	private static final long serialVersionUID = 1L;
 
 	List<Material> materials = new ArrayList<>();
@@ -54,6 +60,16 @@ public class MaterialLibrary implements Serializable {
 
 	public Collection<Material> getTextureds() {
 		return materials.stream().filter(Material::hasTexture).collect(Collectors.toList());
+	}
+
+	@Override
+	public void writeExternal(ObjectOutput out) throws IOException {
+		SerialUtils.writeExternalCollection(out, materials);
+	}
+
+	@Override
+	public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
+		materials = SerialUtils.readExternalImmutableList(in);
 	}
 
 	@Override

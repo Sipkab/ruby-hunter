@@ -20,6 +20,7 @@ import java.io.OutputStream;
 import java.util.Arrays;
 
 import bence.sipka.compiler.types.builtin.IntegerType;
+import saker.build.exception.InvalidPathFormatException;
 import saker.build.file.SakerFileBase;
 import saker.build.file.content.ContentDescriptor;
 import saker.build.file.content.MultiContentDescriptor;
@@ -27,25 +28,28 @@ import saker.build.file.content.SerializableContentDescriptor;
 
 public class DuplicatObjectModularFile extends SakerFileBase {
 	private ObjectConfiguration coll;
-	private ObjectData data;
+	private int objectDataId;
+	private Vector objectDataOrigin;
 	private MaterialLibrary matlib;
 
 	private ContentDescriptor contents;
 
-	public DuplicatObjectModularFile(String filename, ObjectConfiguration coll, ObjectData data,
-			MaterialLibrary matlib) {
-		super(filename);
+	public DuplicatObjectModularFile(String name, ObjectConfiguration coll, int objectDataId, Vector objectDataOrigin,
+			MaterialLibrary matlib) throws NullPointerException, InvalidPathFormatException {
+		super(name);
 		this.coll = coll;
-		this.data = data;
+		this.objectDataId = objectDataId;
+		this.objectDataOrigin = objectDataOrigin;
 		this.matlib = matlib;
 		this.contents = MultiContentDescriptor.create(Arrays.asList(new SerializableContentDescriptor(coll),
-				new SerializableContentDescriptor(data), new SerializableContentDescriptor(matlib)));
+				new SerializableContentDescriptor(objectDataId), new SerializableContentDescriptor(objectDataOrigin),
+				new SerializableContentDescriptor(matlib)));
 	}
 
 	@Override
 	public void writeToStreamImpl(OutputStream os) throws IOException {
-		ObjectDescriptor desc = coll.getDescriptor(data.id);
-		data.origin.normalizeW().serializeXYZ(os);
+		ObjectDescriptor desc = coll.getDescriptor(objectDataId);
+		objectDataOrigin.normalizeW().serializeXYZ(os);
 		IntegerType.INSTANCE.serialize(desc.colored, os);
 		IntegerType.INSTANCE.serialize(desc.textured, os);
 		for (ObjectDescriptor.TriangleRegion tri : desc.triangles) {

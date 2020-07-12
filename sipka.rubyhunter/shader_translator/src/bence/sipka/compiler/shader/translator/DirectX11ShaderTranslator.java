@@ -31,7 +31,7 @@ import java.util.NavigableMap;
 
 import bence.sipka.compiler.shader.SeparatorBuffer;
 import bence.sipka.compiler.shader.ShaderCollection;
-import bence.sipka.compiler.shader.ShaderCompilerTaskFactory;
+import bence.sipka.compiler.shader.ShaderCompilerWorkerTaskFactory;
 import bence.sipka.compiler.shader.ShaderProgram;
 import bence.sipka.compiler.shader.ShaderResource;
 import bence.sipka.compiler.shader.elements.FunctionDeclaration;
@@ -52,7 +52,7 @@ import bence.sipka.compiler.shader.statement.expression.FunctionCallStatement;
 import bence.sipka.compiler.shader.statement.expression.IntegerLiteral;
 import bence.sipka.compiler.shader.statement.expression.ParenthesesStatement;
 import bence.sipka.compiler.shader.statement.expression.VariableExpression;
-import bence.sipka.compiler.source.SourceModularFile;
+import bence.sipka.compiler.source.SourceSakerFile;
 import bence.sipka.compiler.source.SourceTemplateTranslator.TranslationHandler;
 import bence.sipka.compiler.source.SourceWritable;
 import bence.sipka.compiler.source.TemplatedSource;
@@ -107,7 +107,7 @@ public class DirectX11ShaderTranslator extends ShaderTranslator {
 //		}
 //	}
 
-	private class HlslSourceModularFile extends SourceModularFile {
+	private class HlslSourceModularFile extends SourceSakerFile {
 		private ShaderResource shader;
 
 		public HlslSourceModularFile(String name, ShaderResource shader) {
@@ -212,7 +212,7 @@ public class DirectX11ShaderTranslator extends ShaderTranslator {
 			syncassets.put(assetname, outputcsosakerfile.getSakerPath());
 
 			// write class header
-			SourceModularFile shaderClassFile = getShaderHeaderClassFile(hlsl.getShader(), classname + ".h",
+			SourceSakerFile shaderClassFile = getShaderHeaderClassFile(hlsl.getShader(), classname + ".h",
 					csoassetpath);
 			shadergendir.add(shaderClassFile);
 		});
@@ -258,7 +258,7 @@ public class DirectX11ShaderTranslator extends ShaderTranslator {
 			if (prog.isCompleteProgram()) {
 				// TODO
 				// prog.validate();
-				SourceModularFile programClassFile = getProgramClassFile(prog, prog.getName() + ".h");
+				SourceSakerFile programClassFile = getProgramClassFile(prog, prog.getName() + ".h");
 				shadergendir.add(programClassFile);
 			}
 		}
@@ -624,7 +624,7 @@ public class DirectX11ShaderTranslator extends ShaderTranslator {
 		}
 	}
 
-	private SourceModularFile getShaderHeaderClassFile(ShaderResource shader, String name, SakerPath csofilepath) {
+	private SourceSakerFile getShaderHeaderClassFile(ShaderResource shader, String name, SakerPath csofilepath) {
 		String classname = shader.getClassUrl().getExactClassName();
 
 		Map<String, Object> valmap = new HashMap<>();
@@ -635,7 +635,7 @@ public class DirectX11ShaderTranslator extends ShaderTranslator {
 		valmap.put("shader_resource_h_comptr_type",
 				shader.getType() == ShaderResource.TYPE_FRAGMENT ? "PixelShader" : "VertexShader");
 
-		TemplatedSource source = new TemplatedSource(ShaderCompilerTaskFactory.descriptor::getInputStream,
+		TemplatedSource source = new TemplatedSource(ShaderCompilerWorkerTaskFactory.descriptor::getInputStream,
 				"gen/shader/" + getUniqueName().toLowerCase() + "/template_shader_resource.h").setValueMap(valmap)
 						.setHandler(new TranslationHandler() {
 							@Override
@@ -803,12 +803,12 @@ public class DirectX11ShaderTranslator extends ShaderTranslator {
 								}
 							}
 						});
-		SourceModularFile result = new SourceModularFile(name, source);
+		SourceSakerFile result = new SourceSakerFile(name, source);
 		result.setContentDescriptor(new SerializableContentDescriptor(shader));
 		return result;
 	}
 
-	private SourceModularFile getProgramClassFile(ShaderProgram prog, String name) {
+	private SourceSakerFile getProgramClassFile(ShaderProgram prog, String name) {
 		final ShaderResource vertexShader = prog.getVertexShader();
 		final ShaderResource fragmentShader = prog.getFragmentShader();
 
@@ -829,7 +829,7 @@ public class DirectX11ShaderTranslator extends ShaderTranslator {
 		TypeDeclaration texture2d = shaders.resolveType("texture2D");
 		TypeDeclaration texture3d = shaders.resolveType("texture3D");
 
-		TemplatedSource source = new TemplatedSource(ShaderCompilerTaskFactory.descriptor::getInputStream,
+		TemplatedSource source = new TemplatedSource(ShaderCompilerWorkerTaskFactory.descriptor::getInputStream,
 				"gen/shader/" + getUniqueName().toLowerCase() + "/template_shader_program.h").setValueMap(valmap)
 						.setHandler(new TranslationHandler() {
 							@Override
@@ -1116,7 +1116,7 @@ public class DirectX11ShaderTranslator extends ShaderTranslator {
 							}
 						});
 
-		SourceModularFile result = new SourceModularFile(name, source);
+		SourceSakerFile result = new SourceSakerFile(name, source);
 		result.setContentDescriptor(new SerializableContentDescriptor(prog));
 		return result;
 	}

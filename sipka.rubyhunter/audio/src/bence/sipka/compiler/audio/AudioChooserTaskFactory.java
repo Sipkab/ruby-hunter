@@ -20,28 +20,18 @@ import java.io.IOException;
 import java.io.ObjectInput;
 import java.io.ObjectOutput;
 import java.util.List;
-import java.util.Locale;
 import java.util.Map;
 import java.util.NavigableMap;
-import java.util.Objects;
-import java.util.TreeMap;
 
-import bence.sipka.compiler.source.TemplatedSource;
-import bence.sipka.compiler.source.TemplatedSourceModularFile;
 import bence.sipka.compiler.types.TypeDeclaration;
-import bence.sipka.compiler.types.enums.EnumType;
-import bence.sipka.utils.BundleContentAccess;
-import bence.sipka.utils.BundleContentAccess.BundleResourceSupplier;
-import saker.build.file.ByteArraySakerFile;
-import saker.build.file.DirectoryVisitPredicate;
-import saker.build.file.SakerDirectory;
+import bence.sipka.utils.RHFrontendParameterizableTask;
 import saker.build.file.path.SakerPath;
-import saker.build.file.provider.SakerPathFiles;
 import saker.build.runtime.execution.ExecutionContext;
 import saker.build.task.ParameterizableTask;
 import saker.build.task.TaskContext;
+import saker.build.task.identifier.TaskIdentifier;
+import saker.build.task.utils.TaskBuilderResult;
 import saker.build.task.utils.annot.SakerInput;
-import saker.build.task.utils.dependencies.EqualityTaskOutputChangeDetector;
 import saker.build.thirdparty.saker.util.ImmutableUtils;
 import saker.build.thirdparty.saker.util.io.SerialUtils;
 import saker.nest.utils.FrontendTaskFactory;
@@ -50,12 +40,6 @@ public class AudioChooserTaskFactory extends FrontendTaskFactory<Object> {
 	private static final long serialVersionUID = 1L;
 
 	public static final String TASK_NAME = "sipka.rh.audio.choose";
-
-	public static final BundleResourceSupplier descriptor = BundleContentAccess.getBundleResourceSupplier("audio");
-	public static final BundleResourceSupplier descriptor_xaudio2_sdk_pre2_8 = BundleContentAccess
-			.getBundleResourceSupplier("audio/xaudio2_sdk_pre2_8");
-
-	public static final String TYPE_NAME_AUDIO_ENUM = "AudioConfig";
 
 	public static class Output implements Externalizable {
 		private static final long serialVersionUID = 1L;
@@ -128,8 +112,7 @@ public class AudioChooserTaskFactory extends FrontendTaskFactory<Object> {
 
 	@Override
 	public ParameterizableTask<? extends Object> createTask(ExecutionContext executioncontext) {
-		return new ParameterizableTask<Object>() {
-
+		return new RHFrontendParameterizableTask() {
 			@SakerInput(value = { "", "AudioAPI" }, required = true)
 			public List<String> audioApiOption;
 
@@ -137,75 +120,10 @@ public class AudioChooserTaskFactory extends FrontendTaskFactory<Object> {
 			public String platform;
 
 			@Override
-			public Object run(TaskContext taskcontext) throws Exception {
-				SakerDirectory buildDirectory = SakerPathFiles.requireBuildDirectory(taskcontext)
-						.getDirectoryCreate(TASK_NAME);
-
-				NavigableMap<String, TypeDeclaration> typeDeclarations = new TreeMap<>();
-				EnumType audioenum = new EnumType(TYPE_NAME_AUDIO_ENUM);
-				typeDeclarations.put(audioenum.getName(), audioenum);
-
-				for (String audioapi : audioApiOption) {
-					switch (audioapi.toLowerCase(Locale.ENGLISH)) {
-						case "xaudio2": {
-							audioenum.add("XAudio2", audioenum.getCount());
-							SakerDirectory xaudiodir = buildDirectory.getDirectoryCreate("xaudio2_sdk_pre2_8");
-							for (String en : descriptor_xaudio2_sdk_pre2_8.getEntries()) {
-								xaudiodir.add(new ByteArraySakerFile(en, descriptor_xaudio2_sdk_pre2_8.getBytes(en)));
-							}
-							break;
-						}
-						case "opensles10_android": {
-							audioenum.add("OpenSLES10Android", audioenum.getCount());
-							break;
-						}
-						case "openal": {
-							SakerDirectory openalgluedir = buildDirectory.getDirectoryCreate("openalglue");
-							audioenum.add("OpenAL10", audioenum.getCount());
-
-							Objects.requireNonNull(platform, "platform name");
-							String pldir;
-							switch (platform.toLowerCase(Locale.ENGLISH)) {
-								case "ios":
-								case "macosx":
-								case "macos": {
-									pldir = "apple";
-									break;
-								}
-								case "linux": {
-									pldir = "linux";
-									break;
-								}
-								default: {
-									throw new UnsupportedOperationException(platform);
-								}
-							}
-
-							openalgluedir.add(new ByteArraySakerFile("openalglue.h",
-									descriptor.getBytes("openalglue/" + pldir + "/openalglue/openalglue.h")));
-							break;
-						}
-						default: {
-							throw new UnsupportedOperationException(audioapi);
-						}
-					}
-				}
-
-				SakerDirectory gendir = buildDirectory.getDirectoryCreate("gen");
-				gendir.add(new TemplatedSourceModularFile("audiomanagers.h",
-						new TemplatedSource(descriptor::getInputStream, "gen/audiomanagers.h")));
-				TemplatedSourceModularFile audiomanagerscpp = new TemplatedSourceModularFile("audiomanagers.cpp",
-						new TemplatedSource(descriptor::getInputStream, "gen/audiomanagers.cpp")).setThis(audioenum);
-				gendir.add(audiomanagerscpp);
-
-				taskcontext.getTaskUtilities().reportOutputFileDependency(null,
-						SakerPathFiles.toFileContentMap(buildDirectory.getFilesRecursiveByPath(
-								buildDirectory.getSakerPath(), DirectoryVisitPredicate.everything())));
-				buildDirectory.synchronize();
-
-				Output result = new Output(typeDeclarations, buildDirectory.getSakerPath());
-				taskcontext.reportSelfTaskOutputChangeDetector(new EqualityTaskOutputChangeDetector(result));
-				return result;
+			protected TaskBuilderResult<?> createWorkerTask(TaskContext taskcontext) {
+				return TaskBuilderResult.create(
+						TaskIdentifier.builder(AudioChooserWorkerTaskFactory.class.getName()).build(), new AudioChooserWorkerTaskFactory(platform,
+								ImmutableUtils.makeImmutableList(audioApiOption)));
 			}
 		};
 	}

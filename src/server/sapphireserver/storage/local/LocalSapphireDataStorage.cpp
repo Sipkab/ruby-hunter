@@ -801,6 +801,7 @@ SapphireStorageError LocalSapphireDataStorage::removeLevel(const SapphireUUID& l
 		}
 		descriptors.remove(index);
 	}
+	//TODO don't remove the file but move it to some other location
 	desc->getFileDescriptor().remove();
 	delete desc;
 

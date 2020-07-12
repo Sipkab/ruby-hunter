@@ -19,7 +19,6 @@ import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.io.UncheckedIOException;
-import java.util.function.Supplier;
 
 import javax.imageio.ImageIO;
 
@@ -27,19 +26,14 @@ import saker.build.file.SakerFileBase;
 import saker.build.file.content.ContentDescriptor;
 import saker.build.file.content.HashContentDescriptor;
 
-public class ImageModularFile extends SakerFileBase {
-	private Supplier<BufferedImage> image;
+public class ImageSakerFile extends SakerFileBase {
+	private BufferedImage image;
 
 	protected BufferedImage getImage() {
-		return image.get();
+		return image;
 	}
 
-	public ImageModularFile(String filename, BufferedImage img) {
-		super(filename);
-		this.image = () -> img;
-	}
-
-	public ImageModularFile(String filename, Supplier<BufferedImage> img) {
+	public ImageSakerFile(String filename, BufferedImage img) {
 		super(filename);
 		this.image = img;
 	}

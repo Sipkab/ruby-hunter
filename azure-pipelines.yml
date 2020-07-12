@@ -1,0 +1,59 @@
+trigger:
+- master
+
+jobs:
+- job:
+  strategy:
+    matrix:
+      win32:
+        imageName: 'windows-latest'
+        ci_target: 'win32'
+      win32_steam:
+        imageName: 'windows-latest'
+        ci_target: 'win32_steam'
+      winstore:
+        imageName: 'windows-latest'
+        ci_target: 'winstore'
+      android_win:
+        imageName: 'windows-latest'
+        ci_target: 'android'
+      android_mac:
+        imageName: 'macos-latest'
+        ci_target: 'android'
+      macosx:
+        imageName: 'macos-latest'
+        ci_target: 'macosx'
+      macosx_steam:
+        imageName: 'macos-latest'
+        ci_target: 'macosx_steam'
+      ios:
+        imageName: 'macos-latest'
+        ci_target: 'ios'
+      android_ubuntu:
+        imageName: 'ubuntu-latest'
+        ci_target: 'android'
+      server_linux:
+        imageName: 'ubuntu-latest'
+        ci_target: 'server_linux'
+  pool:
+    vmImage: $(imageName)
+  steps:
+  - script: curl -L https://api.nest.saker.build/bundle/download/saker.build-v$(curl -s https://mirror.nest.saker.build/badges/saker.build/latest.txt) -o saker.build.jar
+    displayName: 'Download saker.build'
+    condition: and(succeeded(), or( eq( variables['Agent.OS'], 'Linux' ), eq( variables['Agent.OS'], 'Darwin' ) ))
+  - script: powershell $ProgressPreference='silentlyContinue';Invoke-WebRequest "https://api.nest.saker.build/bundle/download/saker.build-v$((Invoke-WebRequest "https://mirror.nest.saker.build/badges/saker.build/latest.txt" -UseBasicParsing).Content)" -OutFile saker.build.jar
+    displayName: 'Download saker.build'
+    condition: and(succeeded(), eq( variables['Agent.OS'], 'Windows_NT' ))
+  
+  - script: java -jar saker.build.jar -bd build -trace pwd://build/build_install.trace install sipka.rubyhunter/saker.build
+    displayName: 'Install sipka.rubyhunter'
+    
+  - script: java -jar saker.build.jar -bd build -trace pwd://build/build_export.trace export_$(ci_target)
+    displayName: 'Export $(ci_target)'
+  - task: PublishBuildArtifacts@1
+    condition: always()
+    displayName: 'Publish export trace'
+    inputs:
+      pathtoPublish: build/build_export.trace
+      artifactName: 'export_trace_$(imageName)_$(ci_target)'
+  

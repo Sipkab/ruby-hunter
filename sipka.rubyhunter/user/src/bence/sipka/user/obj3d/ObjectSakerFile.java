@@ -25,13 +25,13 @@ import saker.build.file.content.ContentDescriptor;
 import saker.build.file.content.MultiContentDescriptor;
 import saker.build.file.content.SerializableContentDescriptor;
 
-public class ObjectModularFile extends SakerFileBase {
+public class ObjectSakerFile extends SakerFileBase {
 	private ObjectConfiguration coll;
 	private ObjectData data;
 
 	private ContentDescriptor contents;
 
-	public ObjectModularFile(String filename, ObjectConfiguration coll, ObjectData data) {
+	public ObjectSakerFile(String filename, ObjectConfiguration coll, ObjectData data) {
 		super(filename);
 		this.coll = coll;
 		this.data = data;
