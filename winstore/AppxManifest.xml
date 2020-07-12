@@ -8,7 +8,7 @@
 	<Identity
 		Name="35679BenceSipka.SapphireYours"
 		Publisher="CN=70D4ED09-B539-4467-B1D2-451A06449F1B"
-		Version="4.0.3.0" />
+		Version="5.0.0.0" />
 	<Properties>
 		<DisplayName>Ruby Hunter</DisplayName>
 		<PublisherDisplayName>Bence Sipka</PublisherDisplayName>

@@ -8,28 +8,28 @@ Boulder Dash,
 Emerald Mine)
 
 
-Version 4.1.0
+Version 5.0.0
 
 
 !Original game logic by
 Reinhard Grafl
-Jürgen Wallner
+Jï¿½rgen Wallner
 
 
 !Game levels
 Ronald Grafl
 Reinhard Grafl
-Jürgen Wallner
+Jï¿½rgen Wallner
 Michi Wallner
 Leo de Bruin
 Erik Eckstein
 Alexander Hill
-Jürgen Bonhagen
+Jï¿½rgen Bonhagen
 Anica Grafl
 Bence Sipka
 
 !Original game music by
-Jürgen Wallner
+Jï¿½rgen Wallner
 
 !Level editor
 Bence Sipka
