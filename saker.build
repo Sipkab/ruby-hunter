@@ -1,9 +1,9 @@
 static(SapphireDiffuseToAmbientFactors) = [
-		[".*sapphire\\.mtl"						, 0.45],
-		[".*?led.*sapphire\\.mtl"				, 1.0],
-		["laser.*sapphire\\.mtl"				, 0.9],
-		["converter_ring\\.sapphire\\.mtl"		, 1.0],
-		["converter_lightning\\.sapphire\\.mtl"	, 0.8]
+		[".*sapphire\\.mtl"                     , 0.45],
+		[".*?led.*sapphire\\.mtl"               , 1.0],
+		["laser.*sapphire\\.mtl"                , 0.9],
+		["converter_ring\\.sapphire\\.mtl"      , 1.0],
+		["converter_lightning\\.sapphire\\.mtl" , 0.8]
 	]
 static(NAME) = "Ruby Hunter"
 resources(
@@ -434,11 +434,6 @@ compile_winstore(
 		{
 			SimpleLinkerParameters: [
 				"/DEBUG",
-				#the c option presets doesn't contain WindowsApp.lib yet
-				# we also need to add vccorlib.lib before it to avoid
-				#vccorlib_lib_should_be_specified_before_msvcrt_lib_to_linker error
-				"vccorlib.lib",
-				"WindowsApp.lib",
 			],
 		}
 	]
@@ -472,8 +467,11 @@ compile_winstore(
 	)
 	$link = saker.msvc.clink(
 		Input:[
-			$thirdpartycompile,
+			# the main compilation should be before the third party object files
+			# otherwise vccorlib_lib_should_be_specified_before_msvcrt_lib_to_linker error is thrown
+			# by the linker
 			$maincompile,
+			$thirdpartycompile,
 		],
 		Architecture: $architecture,
 		LinkerOptions: $linkeroptions,
