@@ -148,45 +148,50 @@ LocalSapphireDataStorage::LocalSapphireDataStorage() {
 	postLogEvent("Loading community levels...");
 	auto&& levelspath = levelsDirectory.getPath();
 	for (auto&& file : levelsDirectory.enumerate()) {
-		if (!file.isDirectory()) {
-			StorageFileDescriptor fd { levelspath + file };
-			StorageSapphireLevelDescriptor desc;
-			if (StorageSapphireLevelDescriptor::make(&desc, fd)) {
-				desc.initDate(fd);
+		if (file.isDirectory()) {
+			continue;
+		}
+		StorageFileDescriptor fd { levelspath + file };
+		StorageSapphireLevelDescriptor desc;
+		if (StorageSapphireLevelDescriptor::make(&desc, fd)) {
+			desc.initDate(fd);
 
-				desc.serverSideAvailable = true;
-				desc.setFileDescriptor(new StorageFileDescriptor(util::move(fd)));
-				descriptors.add(new StorageSapphireLevelDescriptor(util::move(desc)));
-
-			}
+			desc.serverSideAvailable = true;
+			desc.setFileDescriptor(new StorageFileDescriptor(util::move(fd)));
+			descriptors.add(new StorageSapphireLevelDescriptor(util::move(desc)));
+		} else {
+			postLogEvent("Failed to make community level descriptor.");
 		}
 	}
 	postLogEvent("Loading users...");
 	auto&& userspath = usersDirectory.getPath();
 	for (auto&& dir : usersDirectory.enumerate()) {
-		if (dir.isDirectory()) {
-			StorageSapphireUser* user = new StorageSapphireUser();
-			StorageDirectoryDescriptor userdir { userspath + dir };
-			if (!loadUser(userdir, user)) {
-				delete user;
-			} else {
-				users.setSorted(user, StorageSapphireUser::compare);
-			}
+		if(!dir.isDirectory()){
+			continue;
+		}
+		StorageSapphireUser* user = new StorageSapphireUser();
+		StorageDirectoryDescriptor userdir { userspath + dir };
+		if (!loadUser(userdir, user)) {
+			postLogEvent("Failed to load user.");
+			delete user;
+		} else {
+			users.setSorted(user, StorageSapphireUser::compare);
 		}
 	}
 	postLogEvent("Loading hardwares...");
 	auto&& hardwarepath = hardwareDirectory.getPath();
 	for (auto&& dir : hardwareDirectory.enumerate()) {
-		if (dir.isDirectory()) {
-			StorageUserHardware* hardware = new StorageUserHardware();
-			if (!SapphireUUID::fromString(&hardware->hardwareUUID, ((FilePath) dir).getURI())) {
-				delete hardware;
-				continue;
-			}
-			hardware->loadProgress(hardwarepath + dir);
-
-			hardwares.setSorted(hardware, StorageUserHardware::compare);
+		if (!dir.isDirectory()) {
+			continue;
 		}
+		StorageUserHardware* hardware = new StorageUserHardware();
+		if (!SapphireUUID::fromString(&hardware->hardwareUUID, ((FilePath) dir).getURI())) {
+			delete hardware;
+			continue;
+		}
+		hardware->loadProgress(hardwarepath + dir);
+
+		hardwares.setSorted(hardware, StorageUserHardware::compare);
 	}
 
 	postLogEvent("Loading builtin level demos to statistics and leaderboards...");
@@ -195,6 +200,10 @@ LocalSapphireDataStorage::LocalSapphireDataStorage() {
 		Level l;
 		if (l.loadLevel(fd)) {
 			initLevelData(l);
+		} else {
+			char buf[256];
+			sprintf(buf, "Failed to load level: %u", a->asset);
+			postLogEvent(buf);
 		}
 	}
 	postLogEvent("Loading user level demos to statistics and leaderboards...");
@@ -202,6 +211,8 @@ LocalSapphireDataStorage::LocalSapphireDataStorage() {
 		Level level;
 		if (level.loadLevel(l->getFileDescriptor())) {
 			initLevelData(level);
+		} else {
+			postLogEvent(FixedString { "Failed to load level: " } + l->uuid);
 		}
 	}
 
@@ -305,8 +316,16 @@ void LocalSapphireDataStorage::initLevelData(const Level& level) {
 		played.setRandomSeed(randomseed);
 		DemoPlayer::playMovesUntilSuccess(steps, steps.length() / played.getPlayerCount(), played);
 		ASSERT(played.isSuccessfullyOver());
+		if (!played.isSuccessfullyOver()) {
+			postLogEvent(FixedString { "Level demo is not successful: " } + uuid.asString());
+			continue;
+		}
 		auto* user = findUserLocked(userid);
 		ASSERT(user != nullptr) << "referenced user is missing from demo file";
+		if (user == nullptr) {
+			postLogEvent(FixedString { "User not found from demo file: " } + userid.asString());
+			continue;
+		}
 
 		foundstats->addStats(played.getStatistics());
 		applyLeaderboardData(user, foundstats, played.getStatistics(), foundstats->demoId, played.getTurn());

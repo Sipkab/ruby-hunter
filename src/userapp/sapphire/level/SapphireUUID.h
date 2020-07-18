@@ -126,44 +126,44 @@ public:
 
 	operator bool() const {
 		//not all zero
-			return compare(SapphireUUID {}) != 0;
-		}
-		bool operator !() const {
-			return !((bool) *this);
-		}
+		return compare(SapphireUUID {}) != 0;
+	}
+	bool operator !() const {
+		return !((bool) *this);
+	}
 
-		unsigned char* getData() {
-			return data;
-		}
-		const unsigned char* getData() const {
-			return data;
-		}
+	unsigned char* getData() {
+		return data;
+	}
+	const unsigned char* getData() const {
+		return data;
+	}
 
-		FixedString asString() const {
-			uint8 buffer[16 * 2];
-			for (unsigned int i = 0; i < 16; ++i) {
-				uint8 c = data[i];
-				uint8 hi = c >> 4;
-				uint8 lo = c & 0x0F;
-				buffer[i * 2] = hi >= 10 ? hi + 'a' - 10 : hi + '0';
-				buffer[i * 2 + 1] = lo >= 10 ? lo + 'a' - 10 : lo + '0';
-			}
-			return FixedString {buffer, sizeof(buffer)};
+	FixedString asString() const {
+		uint8 buffer[16 * 2];
+		for (unsigned int i = 0; i < 16; ++i) {
+			uint8 c = data[i];
+			uint8 hi = c >> 4;
+			uint8 lo = c & 0x0F;
+			buffer[i * 2] = hi >= 10 ? hi + 'a' - 10 : hi + '0';
+			buffer[i * 2 + 1] = lo >= 10 ? lo + 'a' - 10 : lo + '0';
 		}
+		return FixedString {buffer, sizeof(buffer)};
+	}
 
-		/**
-		 * Data is converted as-is, no byte order is specified
-		 */
-		uint64 lower64bit() const {
-			return *reinterpret_cast<const uint64*>(data + 8);
-		}
-		/**
-		 * Data is converted as-is, no byte order is specified
-		 */
-		uint64 higher64bit() const {
-			return *reinterpret_cast<const uint64*>(data);
-		}
-	};
+	/**
+	 * Data is converted as-is, no byte order is specified
+	 */
+	uint64 lower64bit() const {
+		return *reinterpret_cast<const uint64*>(data + 8);
+	}
+	/**
+	 * Data is converted as-is, no byte order is specified
+	 */
+	uint64 higher64bit() const {
+		return *reinterpret_cast<const uint64*>(data);
+	}
+};
 
 }
 // namespace userapp
