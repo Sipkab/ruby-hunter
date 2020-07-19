@@ -534,13 +534,20 @@ bundle_winstore(
 		$exportwinstore = export_winstore(architecture: $arch)
 		
 		$pack = saker.appx.package($exportwinstore[prepared])
-		
-		$path = $pack[Path]
+
+		if static(RH.RELEASE) {
+			$path = include(Path: private/private.build, Target: sign_appx, input: $pack)[signed][Path]
+		} else {
+			$path = $pack[Path]
+		}
 	}: { 
 		$path: "" 
 	}
 	
 	$bundle = saker.appx.bundle(Mappings: $mappings)
+	if static(RH.RELEASE) {
+		include(Path: private/private.build, Target: sign_appx, input: $bundle)
+	}
 }
 
 compile_macosx(
