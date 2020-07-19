@@ -148,7 +148,12 @@ static __inline void vorbis_fpu_restore(vorbis_fpu_control fpu){
 
 /* Optimized code path for x86_64 builds. Uses SSE2 intrinsics. This can be
    done safely because all x86_64 CPUs supports SSE2. */
-#if (defined(_MSC_VER) && defined(_WIN64)) || (defined(__GNUC__) && defined (__x86_64__))
+
+/* defined(_M_IX86) || defined(_M_X64) was added by Bence Sipka
+   When compiling for ARM64, emmintrin.h will report an error
+      "This header is specific to X86 and X64 targets"
+   So additional conditions were added to avoid this */
+#if (defined(_MSC_VER) && defined(_WIN64) && (defined(_M_IX86) || defined(_M_X64))) || (defined(__GNUC__) && defined (__x86_64__))
 #  define VORBIS_FPU_CONTROL
 
 typedef ogg_int16_t vorbis_fpu_control;
