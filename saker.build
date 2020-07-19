@@ -286,7 +286,13 @@ compile_win32_steam() {
 	compilewin32(steamavailable: true)
 }
 export_win32_steam() {
-	export_win32(compilewin32: compile_win32(steamavailable: true))
+	export_win32_steam_x64()
+}
+export_win32_steam_x64() {
+	export_win32(compilewin32: compile_win32(steamavailable: true, architecture: x64))
+}
+export_win32_steam_x86() {
+	export_win32(compilewin32: compile_win32(steamavailable: true, architecture: x86))
 }
 
 compile_android(
@@ -582,6 +588,12 @@ compile_macosx(
 				HAVE_UNISTD_H: null,
 			}
 		},
+		{
+			Identifier: steam,
+			MacroDefinitions: {
+				SAPPHIRE_STEAM_API_AVAILABLE: 1
+			},
+		}
 	]
 	$linkeroptions = [
 		$preset,

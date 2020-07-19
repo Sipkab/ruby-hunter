@@ -445,29 +445,29 @@ private:
 	virtual void onTimeChanged(const core::time_millis& time, const core::time_millis& previous) override;
 
 #if defined(SAPPHIRE_STEAM_API_AVAILABLE)
-				class SteamCallbackTimeListener: public TimeListener {
-				public:
-					SteamCallbackTimeListener() {
-						core::GlobalMonotonicTimeListener::addListenerToEnd(*this);
-					}
-					virtual void onTimeChanged(const core::time_millis& time, const core::time_millis& previous) override {
-						SteamAPI_RunCallbacks();
-					}
-				}steamCallbackListener;
-				ArrayList<SapphireSteamAchievement> steamAchievements;
-				bool appBorrowed = false;
+	class SteamCallbackTimeListener: public TimeListener {
+	public:
+		SteamCallbackTimeListener() {
+			core::GlobalMonotonicTimeListener::addListenerToEnd(*this);
+		}
+		virtual void onTimeChanged(const core::time_millis& time, const core::time_millis& previous) override {
+			SteamAPI_RunCallbacks();
+		}
+	} steamCallbackListener;
+	ArrayList<SapphireSteamAchievement> steamAchievements;
+	bool appBorrowed = false;
 
-				STEAM_CALLBACK(SapphireScene, onGameRichPresenceJoinRequested, GameRichPresenceJoinRequested_t);
-				STEAM_CALLBACK(SapphireScene, onUserStatsReceived, UserStatsReceived_t);
-				void prepareSteamAchievements();
+	STEAM_CALLBACK(SapphireScene, onGameRichPresenceJoinRequested, GameRichPresenceJoinRequested_t);
+	STEAM_CALLBACK(SapphireScene, onUserStatsReceived, UserStatsReceived_t);
+	void prepareSteamAchievements();
 
-				template<typename FunctionType, typename... Args>
-				bool iterateAchievements(FunctionType func, ISteamUserStats* stats, Args&&... args);
-				template<typename FunctionType, typename... Args>
-				bool iterateAchievementsStore(FunctionType func, ISteamUserStats* stats, Args&&... args);
-				void callUserProgressChangedAchievements() {
-					if(auto* stats = SteamUserStats()) {
-						iterateAchievementsStore(&SapphireSteamAchievement::onUserProgressScoreChanged, stats, this, getUserProgressScore());
+	template<typename FunctionType, typename... Args>
+	bool iterateAchievements(FunctionType func, ISteamUserStats* stats, Args&&... args);
+	template<typename FunctionType, typename... Args>
+	bool iterateAchievementsStore(FunctionType func, ISteamUserStats* stats, Args&&... args);
+	void callUserProgressChangedAchievements() {
+		if(auto* stats = SteamUserStats()) {
+			iterateAchievementsStore(&SapphireSteamAchievement::onUserProgressScoreChanged, stats, this, getUserProgressScore());
 		}
 	}
 	template<typename... Args>
