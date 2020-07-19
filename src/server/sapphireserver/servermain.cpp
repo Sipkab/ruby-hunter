@@ -313,7 +313,7 @@ static bool handleControlConnection(TCPConnection& socket, Semaphore& sem) {
 		LOGI() << "Control command: " << buffer << " len: " << nlindex;
 		if (BufferStartsWithLine("?") || BufferStartsWithLine("help")) {
 			socket.writeString("> Commands: shutdown, logoff|bye|exit, onlineusers, subuser, unsubuser, sublog, unsublog, archivelog, "
-					"entermaintenance, queueentermaintenance, exitmaintenance, ismaintenance, removelevel <uuid>.\r\n");
+					"entermaintenance, queueentermaintenance, exitmaintenance, ismaintenance, removelevel <uuid>, getleaderboard <uuid>.\r\n");
 		} else if (BufferStartsWithLine("shutdown")) {
 			socket.writeString("> Exiting.\r\n");
 			MainWorkerThread.post([&] {
@@ -486,6 +486,48 @@ static bool handleControlConnection(TCPConnection& socket, Semaphore& sem) {
 				socket.writeString("> Maintenance mode active.\r\n");
 			} else {
 				socket.writeString("> Maintenance mode inactive.\r\n");
+			}
+		} else if (BufferStartsWithWord("getleaderboard")) {
+			SapphireUUID leveluuid;
+			if (SapphireUUID::fromString(&leveluuid, buffer + sizeof("getleaderboard"), bufcount - sizeof("getleaderboard"))) {
+				struct {
+					const char* name;
+					SapphireLeaderboards type;
+				}leaderboardtypes[] = {
+					{ "MostGems", SapphireLeaderboards::MostGems },
+					{ "LeastSteps", SapphireLeaderboards::LeastSteps },
+					{ "LeastTime", SapphireLeaderboards::LeastTime },
+				};
+				for(auto&& lb : leaderboardtypes) {
+
+					ArrayList<SapphireDataStorage::LeaderboardEntry> outentries;
+					int outuserindex;
+					uint32 outuserscore;
+					int32 outuserposition;
+					PlayerDemoId outuserdemoid;
+					uint32 outtotalcount;
+					SapphireUUID userid {};
+
+					char buffer[512];
+					unsigned int len;
+					outtotalcount = 0;
+					auto error = DataStorage->getLeaderboard(leveluuid, userid, lb.type,
+							50, &outentries, &outuserindex, &outuserscore, &outuserposition, &outuserdemoid, &outtotalcount);
+					if (error == SapphireStorageError::SUCCESS) {
+						len = sprintf(buffer, "Leaderboard %s (%u)\r\n", lb.name, outtotalcount);
+						socket.write(buffer, len);
+						unsigned int i = 1;
+						for (auto&& e : outentries) {
+							len = sprintf(buffer, "%u %s: %d\r\n", i++, (const char*)e->userName, e->score);
+							socket.write(buffer, len);
+						}
+					} else {
+						len = sprintf(buffer, "Leaderboard %s not found\r\n", lb.name);
+						socket.write(buffer, len);
+					}
+				}
+			} else {
+				socket.writeString("> Invalid UUID format.\r\n");
 			}
 		} else if (BufferStartsWithWord("removelevel")) {
 			SapphireUUID leveluuid;

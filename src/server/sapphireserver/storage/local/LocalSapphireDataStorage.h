@@ -234,6 +234,16 @@ class LocalSapphireDataStorage: public SapphireDataStorage {
 			return associatedHardwares.get(idx);
 		}
 	};
+	class StorageUserPosition {
+	public:
+		StorageSapphireUser* user = nullptr;
+		int index = -1;
+		StorageUserPosition() {
+		}
+		StorageUserPosition(StorageSapphireUser* user, int index)
+				: user(user), index(index) {
+		}
+	};
 	class StorageLeaderboardEntry {
 	public:
 		static int comparatorLeastSteps(StorageLeaderboardEntry* l, StorageLeaderboardEntry* r) {
@@ -252,19 +262,10 @@ class LocalSapphireDataStorage: public SapphireDataStorage {
 		StorageSapphireUser* user;
 		uint32 score;
 		PlayerDemoId demoId;
+		StorageUserPosition* position = nullptr;
 
 		StorageLeaderboardEntry(StorageSapphireUser* user, uint32 score, PlayerDemoId demoid)
 				: user(user), score(score), demoId(demoid) {
-		}
-	};
-	class StorageUserPosition {
-	public:
-		StorageSapphireUser* user = nullptr;
-		int index = -1;
-		StorageUserPosition() {
-		}
-		StorageUserPosition(StorageSapphireUser* user, int index)
-				: user(user), index(index) {
 		}
 	};
 	class StorageLeaderboard {
@@ -308,11 +309,24 @@ class LocalSapphireDataStorage: public SapphireDataStorage {
 				if (gotpos->index < toinsertindex) {
 					--toinsertindex;
 				}
+				entry->position = gotpos;
 				entries.add(toinsertindex, entry);
 				gotpos->index = toinsertindex;
+
+				unsigned int size = entries.size();
+				for (unsigned int i = toinsertindex + 1; i < size; ++i) {
+					entries[i].position->index = i;
+				}
 			} else {
 				int insertedindex = entries.setSorted(entry, util::forward<Comparator>(comparator));
-				userPositions.add(-(userindex + 1), new StorageUserPosition(entry->user, insertedindex));
+				auto userpos = new StorageUserPosition(entry->user, insertedindex);
+				entry->position = userpos;
+				userPositions.add(-(userindex + 1), userpos);
+
+				unsigned int size = entries.size();
+				for (unsigned int i = insertedindex + 1; i < size; ++i) {
+					entries[i].position->index = i;
+				}
 			}
 		}
 	};

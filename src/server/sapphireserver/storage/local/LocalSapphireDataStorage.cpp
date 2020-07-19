@@ -1211,10 +1211,13 @@ SapphireStorageError LocalSapphireDataStorage::getLevelStatistics(const Sapphire
 void LocalSapphireDataStorage::applyLeaderboardData(StorageSapphireUser* user, StorageLevelStatistics* foundstats,
 		const LevelStatistics& stats, PlayerDemoId demoid, unsigned int demotime) {
 	foundstats->getLeaderboard(SapphireLeaderboards::MostGems).addEntry(
-			new StorageLeaderboardEntry(user, stats.getCollectedGemWorth(), demoid), StorageLeaderboardEntry::comparatorMostGems);
-	foundstats->getLeaderboard(SapphireLeaderboards::LeastSteps).addEntry(new StorageLeaderboardEntry(user, stats.moveCount, demoid),
+			new StorageLeaderboardEntry(user, stats.getCollectedGemWorth(), demoid),
+			StorageLeaderboardEntry::comparatorMostGems);
+	foundstats->getLeaderboard(SapphireLeaderboards::LeastSteps).addEntry(
+			new StorageLeaderboardEntry(user, stats.moveCount, demoid),
 			StorageLeaderboardEntry::comparatorLeastSteps);
-	foundstats->getLeaderboard(SapphireLeaderboards::LeastTime).addEntry(new StorageLeaderboardEntry(user, demotime, demoid),
+	foundstats->getLeaderboard(SapphireLeaderboards::LeastTime).addEntry(
+			new StorageLeaderboardEntry(user, demotime, demoid),
 			StorageLeaderboardEntry::comparatorLeastTime);
 }
 LocalSapphireDataStorage::StorageLevelStatistics* LocalSapphireDataStorage::findStatistics(const SapphireUUID& leveluuid) {
