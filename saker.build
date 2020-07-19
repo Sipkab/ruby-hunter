@@ -6,9 +6,10 @@ static(SapphireDiffuseToAmbientFactors) = [
 		["converter_lightning\\.sapphire\\.mtl" , 0.8]
 	]
 static(NAME) = "Ruby Hunter"
+static(RH.RELEASE) = std.param.exec(rh.release, Default: false)
 resources(
 	in platformname,
-	in debug = !std.param.exec(rh.release, Default: false),
+	in debug = !static(RH.RELEASE),
 	in appname = static(NAME),
 	
 	out projectconfig,
@@ -139,7 +140,8 @@ resources(
 }
 compile_win32(
 	in resources = resources(platformname: win32),
-	in steamavailable = false
+	in steamavailable = false,
+	in architecture = x64,
 	
 	out steamavailable,
 	out resources,
@@ -199,8 +201,9 @@ compile_win32(
 			Files: [3rdparty/**/*.cpp, 3rdparty/**/*.c],
 			IncludeDirectories: 3rdparty/
 		},
+		Architecture: $architecture,
 		CompilerOptions: $compileroptions,
-		Identifier: "3rdparty-win32{ $steamavailable ? "-steam" : "" }"
+		Identifier: "3rdparty-win32{ $steamavailable ? "-steam" : "" }",
 	)
 	$includedirs = [
 		3rdparty/,
@@ -228,6 +231,7 @@ compile_win32(
 				}
 			},
 		],
+		Architecture: $architecture,
 		CompilerOptions: $compileroptions,
 		Identifier: "main-win32{ $steamavailable ? "-steam" : "" }"
 	)
@@ -238,6 +242,7 @@ compile_win32(
 			$maincompile,
 			icons/win32/resources.res,
 		],
+		Architecture: $architecture,
 		Identifier: "main-win32{ $steamavailable ? "-steam" : "" }",
 		LinkerOptions: $linkeroptions,
 		BinaryName: $resources[appname],
@@ -479,16 +484,19 @@ compile_winstore(
 	)
 }
 export_winstore(
-	in compilewinstore = compile_winstore()
+	in architecture = x64
+	in compilewinstore = compile_winstore(architecture: $architecture)
 	
 	out prepared,
+	out compilewinstore,
 ) {
 	$link = $compilewinstore[link]
 	$resources = $compilewinstore[resources]
 	
 	$prepared = saker.appx.prepare(
 		AppxManifest: saker.appx.manifest.patch(
-			winstore/AppxManifest.xml,
+			Output: "winstore/{$compilewinstore[link][Architecture]}/AppxManifest.xml"
+			AppxManifest: winstore/AppxManifest.xml,
 			ProcessorArchitecture: $compilewinstore[link][Architecture],
 		)[Path], 
 		Contents: [
@@ -517,15 +525,22 @@ run_winstore(
 	saker.appx.launch($register)
 }
 bundle_winstore(
-	in exportwinstore = export_winstore()
-	
+	in architectures = [x64, x86, arm, arm64]
 	out bundle
-	out pack
 ) {
-	$pack = saker.appx.package($exportwinstore[prepared])
-	$bundle = saker.appx.bundle({
-		$pack[Path]: ""
-	})
+	$mappings = foreach $arch in $architectures 
+		with $exportwinstore, $pack, $path {
+		
+		$exportwinstore = export_winstore(architecture: $arch)
+		
+		$pack = saker.appx.package($exportwinstore[prepared])
+		
+		$path = $pack[Path]
+	}: { 
+		$path: "" 
+	}
+	
+	$bundle = saker.appx.bundle(Mappings: $mappings)
 }
 
 compile_macosx(

@@ -7,34 +7,34 @@ jobs:
     matrix:
       win32:
         imageName: 'windows-latest'
-        ci_target: 'win32'
+        ci_target: 'export_win32'
       win32_steam:
         imageName: 'windows-latest'
-        ci_target: 'win32_steam'
+        ci_target: 'export_win32_steam'
       winstore:
         imageName: 'windows-latest'
-        ci_target: 'winstore'
+        ci_target: 'bundle_winstore'
       android_win:
         imageName: 'windows-latest'
-        ci_target: 'android'
+        ci_target: 'export_android'
       android_mac:
         imageName: 'macos-latest'
-        ci_target: 'android'
+        ci_target: 'export_android'
       macosx:
         imageName: 'macos-latest'
-        ci_target: 'macosx'
+        ci_target: 'export_macosx'
       macosx_steam:
         imageName: 'macos-latest'
-        ci_target: 'macosx_steam'
+        ci_target: 'export_macosx_steam'
       ios:
         imageName: 'macos-latest'
-        ci_target: 'ios'
+        ci_target: 'export_ios'
       android_ubuntu:
         imageName: 'ubuntu-latest'
-        ci_target: 'android'
+        ci_target: 'export_android'
       server_linux:
         imageName: 'ubuntu-latest'
-        ci_target: 'server_linux'
+        ci_target: 'export_server_linux'
   pool:
     vmImage: $(imageName)
   steps:
@@ -48,12 +48,12 @@ jobs:
   - script: java -jar saker.build.jar -bd build -trace pwd://build/build_install.trace install sipka.rubyhunter/saker.build
     displayName: 'Install sipka.rubyhunter'
     
-  - script: java -jar saker.build.jar -bd build -trace pwd://build/build_export.trace export_$(ci_target)
-    displayName: 'Export $(ci_target)'
+  - script: java -jar saker.build.jar -bd build -trace pwd://build/build_export.trace $(ci_target)
+    displayName: 'Run $(ci_target)'
   - task: PublishBuildArtifacts@1
     condition: always()
     displayName: 'Publish export trace'
     inputs:
       pathtoPublish: build/build_export.trace
-      artifactName: 'export_trace_$(imageName)_$(ci_target)'
+      artifactName: 'trace_$(imageName)_$(ci_target)'
   
