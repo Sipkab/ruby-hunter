@@ -1115,9 +1115,10 @@ void SapphireScene::commitTimePlayedOnLevel(const SapphireLevelDescriptor* desc,
 	if (desc->state < LevelState::UNFINISHED) {
 		updateLevelState(desc, LevelState::UNFINISHED);
 	}
-	getConnection().notifyLevelProgress(localProgressSynchId, desc->uuid, nullptr, 0, SapphireLevelCommProgress::TimePlayed);
-	++localProgressSynchId;
-	writeTimeLevelProgress(desc->uuid, time);
+	//no need to keep track of the time played
+//	getConnection().notifyLevelProgress(localProgressSynchId, desc->uuid, nullptr, 0, SapphireLevelCommProgress::TimePlayed);
+//	++localProgressSynchId;
+//	writeTimeLevelProgress(desc->uuid, time);
 	const_cast<SapphireLevelDescriptor*>(desc)->timePlayed += time;
 }
 void SapphireScene::appendLevelState(const SapphireUUID& level, LevelState state) {
