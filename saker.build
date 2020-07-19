@@ -321,7 +321,7 @@ compile_android(
 		$aapt2compile, 
 		Manifest: android/AndroidManifest.xml,
 		MinSDKVersion: 9,
-		TargetSDKVersion: 25,
+		TargetSDKVersion: 28,
 	)
 	
 	$includedirs = [
