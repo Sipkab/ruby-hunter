@@ -16,7 +16,7 @@
 /*
  * ScrollGestureDetector.h
  *
- *  Created on: 2015 �pr. 6
+ *  Created on: 2015 apr. 6
  *      Author: sipka
  */
 

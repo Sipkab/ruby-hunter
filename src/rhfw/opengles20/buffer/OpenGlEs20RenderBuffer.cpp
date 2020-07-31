@@ -16,7 +16,7 @@
 /*
  * OpenGlEs20RenderBuffer.cpp
  *
- *  Created on: 2015 �pr. 21
+ *  Created on: 2015 apr. 21
  *      Author: sipka
  */
 
