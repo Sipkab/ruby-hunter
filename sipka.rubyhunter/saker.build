@@ -28,6 +28,8 @@ compile(
 			Filters: nest.dependency.filter.compile(CompileTransitive: false)
 		)),
 		Identifier: sipka.rubyhunter,
+		SourceVersion: RELEASE_8,
+		TargetVersion: RELEASE_8,
 	)
 }
 export(

@@ -318,7 +318,7 @@ public class OpenGlRegistryParserWorkerTaskFactory implements TaskFactory<OpenGl
 		return (o1, o2) -> o1.name.compareTo(o2.name);
 	}
 
-	private static class RegistryGenerator {
+	public static class RegistryGenerator {
 		protected GenerateData data;
 
 		protected transient Registry reg;

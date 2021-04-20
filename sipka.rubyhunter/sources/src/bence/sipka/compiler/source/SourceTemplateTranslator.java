@@ -22,6 +22,7 @@ import java.io.OutputStream;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
+import java.lang.reflect.Modifier;
 import java.lang.reflect.Parameter;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -34,6 +35,7 @@ import java.util.stream.Collectors;
 
 import bence.sipka.utils.BundleContentAccess;
 import bence.sipka.utils.BundleContentAccess.BundleResourceSupplier;
+import saker.build.thirdparty.saker.util.ReflectUtils;
 import sipka.syntax.parser.model.ParseFailedException;
 import sipka.syntax.parser.model.rule.Language;
 import sipka.syntax.parser.model.statement.Statement;
@@ -193,6 +195,24 @@ public class SourceTemplateTranslator {
 		if (res == null) {
 			throw new NoSuchMethodException(
 					"No method: " + name + " in class: " + clazz + " for args: " + Arrays.toString(args));
+		}
+		if (!Modifier.isPublic(res.getModifiers()) || !Modifier.isPublic(res.getDeclaringClass().getModifiers())) {
+			Class<?>[] paramtypes = res.getParameterTypes();
+			for (Class<?> type : ReflectUtils.getAllInheritedTypes(clazz)) {
+				if (!Modifier.isPublic(type.getModifiers())) {
+					continue;
+				}
+				Method found;
+				try {
+					found = type.getMethod(name, paramtypes);
+				} catch (NoSuchMethodException e) {
+					continue;
+				}
+				if (Modifier.isPublic(found.getModifiers())) {
+					//found a public method on a public type
+					return found;
+				}
+			}
 		}
 		return res;
 	}
@@ -411,6 +431,10 @@ public class SourceTemplateTranslator {
 	}
 
 	private static Object evaluateUnaryOperator(Object o, String operator) throws TranslationFailedException {
+		if (!(o instanceof Boolean)) {
+			throw new TranslationFailedException(
+					"Failed to handle unary operator: " + operator + " on non boolean value: " + o);
+		}
 		switch (operator) {
 			case "!": {
 				return !(Boolean) o;
@@ -515,27 +539,48 @@ public class SourceTemplateTranslator {
 						if (objectclass == null) {
 							throw new TranslationFailedException("Unknown class for statement: " + child);
 						}
-						String scopename = itemscope.getValue();
-						Statement methodcall = itemscope.firstScope("methodcall");
-						if (methodcall != null) {
-							// method
-							Object[] args = methodcall.scopeTo("argument").stream()
-									.map((i) -> evaluateExpression(i.firstScope("expression"), varstack)).toArray();
-							Method method = searchMethod(scopename, objectclass, args);
-							method.setAccessible(true);
-							result = method.invoke(result, args);
-							objectclass = result == null ? method.getReturnType() : result.getClass();
-						} else {
-							// field
-							try {
-								Field field = searchField(objectclass, scopename);
-								field.setAccessible(true);
-								result = field.get(result);
-								objectclass = result == null ? field.getType() : result.getClass();
-							} catch (NoSuchFieldException e) {
-								throw new NoSuchFieldException(
-										"No field " + e.getMessage() + " in class: " + objectclass);
+						Exception accessibleexc = null;
+						try {
+							String scopename = itemscope.getValue();
+							Statement methodcall = itemscope.firstScope("methodcall");
+							if (methodcall != null) {
+								// method
+								Object[] args = methodcall.scopeTo("argument").stream()
+										.map((i) -> evaluateExpression(i.firstScope("expression"), varstack)).toArray();
+								Method method = searchMethod(scopename, objectclass, args);
+								if (!Modifier.isPublic(method.getModifiers())) {
+									try {
+										method.setAccessible(true);
+									} catch (Exception e) {
+										accessibleexc = e;
+									}
+								}
+								result = method.invoke(result, args);
+								objectclass = result == null ? method.getReturnType() : result.getClass();
+							} else {
+								// field
+								try {
+									Field field = searchField(objectclass, scopename);
+									if (!Modifier.isPublic(field.getModifiers())) {
+										field.setAccessible(true);
+										try {
+											field.setAccessible(true);
+										} catch (Exception e) {
+											accessibleexc = e;
+										}
+									}
+									result = field.get(result);
+									objectclass = result == null ? field.getType() : result.getClass();
+								} catch (NoSuchFieldException e) {
+									throw new NoSuchFieldException(
+											"No field " + e.getMessage() + " in class: " + objectclass);
+								}
 							}
+						} catch (Exception e) {
+							if (accessibleexc != null) {
+								e.addSuppressed(accessibleexc);
+							}
+							throw e;
 						}
 					}
 
