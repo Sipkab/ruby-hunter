@@ -7,6 +7,9 @@ import java.io.InputStreamReader;
 import java.io.ObjectInput;
 import java.io.ObjectOutput;
 import java.io.OutputStream;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -30,7 +33,9 @@ import saker.build.task.TaskContext;
 import saker.build.task.TaskFactory;
 import saker.build.task.dependencies.FileCollectionStrategy;
 import saker.build.task.utils.dependencies.EqualityTaskOutputChangeDetector;
+import saker.build.thirdparty.saker.util.io.ByteArrayRegion;
 import saker.build.thirdparty.saker.util.io.SerialUtils;
+import saker.build.thirdparty.saker.util.io.UnsyncByteArrayInputStream;
 import saker.build.thirdparty.saker.util.io.UnsyncByteArrayOutputStream;
 import saker.build.trace.BuildTrace;
 
@@ -156,6 +161,8 @@ public class SapphireLevelConverterWorkerTaskFactory implements TaskFactory<Sapp
 				UnsyncByteArrayOutputStream descriptionos = new UnsyncByteArrayOutputStream();
 				UnsyncByteArrayOutputStream yamyamos = new UnsyncByteArrayOutputStream();) {
 
+			ByteArrayRegion filebytes = file.getBytes();
+
 			// VERSION
 			IntegerType.INSTANCE.serialize(SAPPHIRE_RELEASE_VERSION, headeros);
 
@@ -169,7 +176,8 @@ public class SapphireLevelConverterWorkerTaskFactory implements TaskFactory<Sapp
 			String demotitle = null;
 
 			int playercount = 1;
-			try (BufferedReader reader = new BufferedReader(new InputStreamReader(file.openInputStream()))) {
+			try (BufferedReader reader = new BufferedReader(
+					new InputStreamReader(new UnsyncByteArrayInputStream(filebytes)))) {
 				for (String line; (line = reader.readLine()) != null;) {
 					if (line.length() == 0)
 						continue;
@@ -419,11 +427,11 @@ public class SapphireLevelConverterWorkerTaskFactory implements TaskFactory<Sapp
 				}
 			}
 			synchronized (cc.levelNames) {
-				if (cc.levelNames.containsKey(title)) {
-					throw new RuntimeException("Level with name already exists: " + title + " as "
-							+ cc.levelNames.get(title) + " " + file);
+				SakerFile prev = cc.levelNames.putIfAbsent(title, file);
+				if (prev != null) {
+					throw new RuntimeException(
+							"Level with name already exists: " + title + " as " + prev + " and " + file);
 				}
-				cc.levelNames.put(title, file);
 			}
 
 			if (difficulty < 0 || difficulty > 10) {
@@ -437,21 +445,39 @@ public class SapphireLevelConverterWorkerTaskFactory implements TaskFactory<Sapp
 				category = CATEGORY_NONE;
 			}
 			if (uuidbytes == null) {
-				throw new IllegalArgumentException("Missing level uuid: " + file);
+				try {
+					MessageDigest digest = MessageDigest.getInstance("SHA-256");
+					digest.update(filebytes.getArray(), filebytes.getOffset(), filebytes.getLength());
+					uuidbytes = Arrays.copyOf(digest.digest(), 16);
+				} catch (NoSuchAlgorithmException e) {
+					throw new RuntimeException("Failed to get SHA-256 hash of level for UUID generation.", e);
+				}
+				SakerLog.warning().path(file.getSakerPath()).println(
+						"No uuid found in: " + file + " generated one using SHA-256: " + uuidBytesToString(uuidbytes));
 			}
 			if (uuidbytes.length < 16) {
+				SakerLog.warning().path(file.getSakerPath())
+						.println("Level uuid is too short: " + uuidbytes.length + " < " + 16);
 				byte[] nbytes = new byte[16];
 				System.arraycopy(uuidbytes, 0, nbytes, 16 - uuidbytes.length, uuidbytes.length);
 				uuidbytes = nbytes;
+			} else if (uuidbytes.length > 16) {
+				SakerLog.warning().path(file.getSakerPath())
+						.println("Level uuid is too long: " + uuidbytes.length + " > " + 16);
+				uuidbytes = Arrays.copyOf(uuidbytes, 16);
 			}
-			String uuidstring = uuidBytesToString(uuidbytes);
 			if (!leaderboard) {
-				SakerLog.error().path(file.getSakerPath()).println("No leaderboard data found for: " + file);
-				throw new RuntimeException("No leaderboard data found for: " + file);
+				SakerLog.warning().path(file.getSakerPath()).println("No leaderboard data found for: " + file);
 			}
 
+			String uuidmapval = title + "\t" + DIFFICULTY_MAP[difficulty] + "\t" + CATEGORY_MAP[category];
+			String uuidstring = uuidBytesToString(uuidbytes);
 			synchronized (cc.uuidMap) {
-				cc.uuidMap.put(uuidstring, title + "\t" + DIFFICULTY_MAP[difficulty] + "\t" + CATEGORY_MAP[category]);
+				String prev = cc.uuidMap.putIfAbsent(uuidstring, uuidmapval);
+				if (prev != null) {
+					throw new IllegalArgumentException(
+							"Duplicate maps with UUID: " + uuidstring + " as: " + uuidmapval + " and " + prev);
+				}
 			}
 
 			os.write(SAPPHIRE_CMD_END_OF_FILE);
@@ -566,15 +592,15 @@ public class SapphireLevelConverterWorkerTaskFactory implements TaskFactory<Sapp
 	}
 
 	private static class ConverterContext {
-		Map<String, String> uuidMap = new HashMap<>();
+		Map<String, String> uuidMap = new TreeMap<>();
 		int warnedLeaderboards = 40;
 
 		Map<String, SakerFile> musicFiles = new TreeMap<>();
 		Map<String, String> musicNames = new TreeMap<>();
 		Map<String, Integer> musicCounts = new TreeMap<>();
 
-		Map<String, SakerFile> convertedMaps = new HashMap<>();
-		Map<String, SakerFile> levelNames = new HashMap<>();
+		Map<String, SakerFile> convertedMaps = new TreeMap<>();
+		Map<String, SakerFile> levelNames = new TreeMap<>();
 
 		int unnamedId = 1;
 	}
