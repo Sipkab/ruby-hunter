@@ -53,6 +53,21 @@ public:
 		//move
 		return static_cast<FixedString&&>(res);
 	}
+	static FixedString toString( int value) {
+		char* buf = new char[16];
+		int wr = snprintf(buf, 16, "%d", value);
+		return make(buf, wr);
+	}
+	static FixedString toString(unsigned int value) {
+		char* buf = new char[16];
+		int wr = snprintf(buf, 16, "%u", value);
+		return make(buf, wr);
+	}
+	static FixedString toString(long long value) {
+		char* buf = new char[32];
+		int wr = snprintf(buf, 32, "%lld", value);
+		return make(buf, wr);
+	}
 	/*template<typename CharType, unsigned int n>
 	 FixedString(const CharType (&str)[n])
 	 : FixedString { str, n - 1 } {
