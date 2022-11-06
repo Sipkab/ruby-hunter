@@ -160,7 +160,7 @@ LocalSapphireDataStorage::LocalSapphireDataStorage() {
 			desc.setFileDescriptor(new StorageFileDescriptor(util::move(fd)));
 			descriptors.add(new StorageSapphireLevelDescriptor(util::move(desc)));
 		} else {
-			postLogEvent("Failed to make community level descriptor.");
+			postLogEvent(FixedString {"Failed to make community level descriptor of file: "} + (const char*)file);
 		}
 	}
 	postLogEvent("Loading users...");
@@ -292,49 +292,106 @@ void LocalSapphireDataStorage::initLevelData(const Level& level) {
 	auto&& uuid = level.getInfo().uuid;
 
 	StorageFileDescriptor dfd { demosDirectory.getPath() + (const char*) uuid.asString() };
-	auto&& istream = EndianInputStream<Endianness::Big>::wrap(dfd.openInputStream());
+	if (!dfd.exists()) {
+		//no demos file, ignore
+		return;
+	}
+	postLogEvent(FixedString { "Load level demos: " } + uuid.asString() + " : " + level.getInfo().title);
 
-	SapphireUUID userid;
-	uint32 randomseed;
-	FixedString steps;
+	bool fixdemofile = false;
+	long long pos = 0;
+	long long size = dfd.size();
+	{
+		auto&& istream = EndianInputStream<Endianness::Big>::wrap(dfd.openInputStream());
 
-	auto* foundstats = findStatisticsLocked(uuid);
+		SapphireUUID userid;
+		uint32 randomseed;
+		FixedString steps;
 
-	while (true) {
-		auto pos = istream.getPosition();
-		if (!istream.deserialize<SapphireUUID>(userid) || !istream.deserialize<uint32>(randomseed)
-				|| !istream.deserialize<FixedString>(steps)) {
-			break;
+		auto* foundstats = findStatisticsLocked(uuid);
+
+		unsigned int democount = 0;
+		unsigned int unsuccessfulcount = 0;
+
+		for (;;++democount) {
+			pos = istream.getPosition();
+			if (!istream.deserialize<SapphireUUID>(userid)
+					|| !istream.deserialize<uint32>(randomseed) || !istream.deserialize<FixedString>(steps)) {
+				//end of stream probably
+				if (size != pos) {
+					postLogEvent(FixedString { "Failed to deserialize demo data: " } + uuid.asString() + " at demo index: " + FixedString::toString(democount) + " file pos: " + FixedString::toString(pos) + " file size: " + FixedString::toString(size));
+
+					//probably some write failed last time, when the server ran out of space
+					//fix the descriptor by removing the trailing
+					//do it below after we close the stream
+					fixdemofile = true;
+				}
+				break;
+			}
+
+			//only add the statistics when at least one demo is successfully loaded
+			if (foundstats == nullptr) {
+				foundstats = new StorageLevelStatistics(uuid);
+				statistics.setSorted(foundstats, StorageLevelStatistics::compareStats);
+			}
+
+			Level played = level;
+			played.setRandomSeed(randomseed);
+			DemoPlayer::playMovesUntilSuccess(steps, steps.length() / played.getPlayerCount(), played);
+			ASSERT(played.isSuccessfullyOver());
+			if (!played.isSuccessfullyOver()) {
+				postLogEvent(FixedString { "Level demo is not successful: " } + uuid.asString() + " by " + userid.asString() + " at demo index: " + FixedString::toString(democount) + " file pos: " + FixedString::toString(pos));
+				++unsuccessfulcount;
+				continue;
+			}
+			auto* user = findUserLocked(userid);
+			ASSERT(user != nullptr) << "referenced user is missing from demo file";
+			if (user == nullptr) {
+				postLogEvent(FixedString { "User not found from demo file: " } + userid.asString());
+			}
+
+			foundstats->addStats(played.getStatistics());
+			if (user != nullptr) {
+				//the user might've not been found, don't apply the leaderboard then
+				applyLeaderboardData(user, foundstats, played.getStatistics(), foundstats->demoId, played.getTurn());
+			}
+
+			if (foundstats->demoId % StorageLevelStatistics::DEMO_OFFSET_PARTITION == 0) {
+				foundstats->playerDemoOffsets.add(new uint64(pos));
+			}
+
+			foundstats->demoId++;
 		}
-		//only add the statistics when at least one demo is successfully loaded
-		if (foundstats == nullptr) {
-			foundstats = new StorageLevelStatistics(uuid);
-			statistics.setSorted(foundstats, StorageLevelStatistics::compareStats);
-		}
 
-		Level played = level;
-		played.setRandomSeed(randomseed);
-		DemoPlayer::playMovesUntilSuccess(steps, steps.length() / played.getPlayerCount(), played);
-		ASSERT(played.isSuccessfullyOver());
-		if (!played.isSuccessfullyOver()) {
-			postLogEvent(FixedString { "Level demo is not successful: " } + uuid.asString());
-			continue;
+		postLogEvent(FixedString { "Level demo loading done: " } + uuid.asString() + " DemoCount: " + FixedString::toString(democount) + " Unsuccessful: " + FixedString::toString(unsuccessfulcount));
+	}
+	if (fixdemofile) {
+		postLogEvent(FixedString { "Fixing demo file: " } + uuid.asString());
+		StorageFileDescriptor backupfd { demosDirectory.getPath() + (const char*) (uuid.asString() + "_backup_" + FixedString::toString(size)) };
+		if (!dfd.move(backupfd)) {
+			postLogEvent(FixedString { "Failed to move demo file for repair: " } + uuid.asString());
+		} else {
+			{
+				auto&& istream = EndianInputStream<Endianness::Big>::wrap(backupfd.openInputStream());
+				auto&& ostream = EndianOutputStream<Endianness::Big>::wrap(dfd.openOutputStream());
+				char buffer[4096];
+				for (long long copied = 0; copied < pos;) {
+					long long remain = pos - copied;
+					unsigned int rc = (unsigned int) (sizeof(buffer) < remain ? sizeof(buffer) : remain);
+					int read = istream.read(buffer, rc);
+					if (read <= 0) {
+						postLogEvent(FixedString { "Failed to read bytes for demo repair: " } + uuid.asString() + " to read: " + FixedString::toString(rc) + " actually read: " + FixedString::toString(read));
+						break;
+					}
+					ostream.write(buffer, read);
+					copied += read;
+				}
+			}
+			long long nsize = dfd.size();
+			if (nsize != pos) {
+				postLogEvent(FixedString { "Failed to repair demo data: " } + uuid.asString() + " from pos: " + FixedString::toString(pos) + " new file size: " + FixedString::toString(nsize));
+			}
 		}
-		auto* user = findUserLocked(userid);
-		ASSERT(user != nullptr) << "referenced user is missing from demo file";
-		if (user == nullptr) {
-			postLogEvent(FixedString { "User not found from demo file: " } + userid.asString());
-			continue;
-		}
-
-		foundstats->addStats(played.getStatistics());
-		applyLeaderboardData(user, foundstats, played.getStatistics(), foundstats->demoId, played.getTurn());
-
-		if (foundstats->demoId % StorageLevelStatistics::DEMO_OFFSET_PARTITION == 0) {
-			foundstats->playerDemoOffsets.add(new uint64(pos));
-		}
-
-		foundstats->demoId++;
 	}
 
 }
@@ -1168,7 +1225,15 @@ void LocalSapphireDataStorage::StorageUserHardware::loadProgress(FileDescriptor&
 	auto&& istream = EndianInputStream<Endianness::Big>::wrap(fd.openInputStream());
 	SapphireUUID uuid;
 	SapphireLevelProgress progress;
-	while (istream.deserialize<SapphireUUID>(uuid) && istream.deserialize<uint32>(reinterpret_cast<uint32&>(progress))) {
+	long long pos = 0;
+	while (true) {
+		pos = istream.getPosition();
+		if (!istream.deserialize<SapphireUUID>(uuid) || !istream.deserialize<uint32>(reinterpret_cast<uint32&>(progress))) {
+			if (istream.getPosition() != pos) {
+				postLogEvent(FixedString { "Failed to deserialize hardware progress data." });
+			}
+			break;
+		}
 		if (progress == SapphireLevelProgress::LEVEL_FINISHED) {
 			finishedLevels.setSorted(new SapphireUUID(uuid), compareUUIDPtrs);
 		} else {
