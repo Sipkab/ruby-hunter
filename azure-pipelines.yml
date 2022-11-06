@@ -47,7 +47,13 @@ jobs:
   
   - script: java -jar saker.build.jar -bd build -trace pwd://build/build_install.trace install sipka.rubyhunter/saker.build
     displayName: 'Install sipka.rubyhunter'
-    
+  - task: PublishBuildArtifacts@1
+    condition: always()
+    displayName: 'Publish install trace'
+    inputs:
+      pathtoPublish: build/build_install.trace
+      artifactName: 'trace_install_$(imageName)_$(ci_target)'
+  
   - script: java -jar saker.build.jar -bd build -trace pwd://build/build_export.trace $(ci_target)
     displayName: 'Run $(ci_target)'
   - task: PublishBuildArtifacts@1
@@ -55,5 +61,5 @@ jobs:
     displayName: 'Publish export trace'
     inputs:
       pathtoPublish: build/build_export.trace
-      artifactName: 'trace_$(imageName)_$(ci_target)'
+      artifactName: 'trace_export_$(imageName)_$(ci_target)'
   
