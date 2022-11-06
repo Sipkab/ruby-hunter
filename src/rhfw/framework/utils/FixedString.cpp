@@ -40,7 +40,12 @@ CREATE_ENDIAN_DESERIALIZE_FUNCTION(FixedString, is, outdata){
 	char* array = new char[len + 1];
 	int read = is.read(array, len);
 	WARN(read < len) << "Failed to read full string: length: " << len << " read: " << read;
-	if(read >= 0) {
+	if (len != read) {
+		//failed to fully read the string, consider it as read failure
+		delete[] array;
+		return false;
+	}
+	if (read >= 0) {
 		array[read] = 0;
 		outdata = FixedString::make(array, read);
 		return true;
