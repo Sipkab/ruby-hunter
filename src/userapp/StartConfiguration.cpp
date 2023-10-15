@@ -82,7 +82,7 @@ void StartConfiguration::load(FileDescriptor& fd) {
 				stream.skip(sizeof("server=") - 1);
 				char buf[256];
 				unsigned int l = 0;
-				while (l < sizeof(buf) - 1 && stream.read(buf + l, 1) == 1 && buf[l] >= 32 && buf[l] <= 129) {
+				while (l < sizeof(buf) - 1 && stream.read(buf + l, 1) == 1 && buf[l] >= 32 && buf[l] <= 126) {
 					++l;
 				}
 				//the last read is '\n'
