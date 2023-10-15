@@ -244,7 +244,6 @@ public class MainNativeActivity extends NativeActivity {
 		super.onWindowFocusChanged(hasFocus);
 		if (hasFocus && imeVisible) {
 			requestKeyboard();
-			// showAdPopup();
 		}
 	}
 
@@ -315,20 +314,6 @@ public class MainNativeActivity extends NativeActivity {
 	// imm.showSoftInput(getWindow().getDecorView(), InputMethodManager.SHOW_IMPLICIT);
 	// return true;
 	// }
-
-	private void showAdPopup() {
-		View view = new View(MainNativeActivity.this);
-		view.setBackgroundColor(Color.WHITE);
-
-		WindowManager wm = (WindowManager) getSystemService(WINDOW_SERVICE);
-		WindowManager.LayoutParams params = new WindowManager.LayoutParams();
-		params.width = 720;
-		params.height = 200;
-		params.gravity = Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL;
-		params.flags = WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE;
-		wm.addView(view, params);
-
-	}
 
 	/**
 	 * Called from native side, when the activity pointer is available.
