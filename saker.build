@@ -303,7 +303,8 @@ compile_android(
 	out aapt2link,
 	out d8,
 ) {
-
+	# Set --release parameter as otherwise compilation woudln't work on JDK >= 9. 
+	# Set release to 7, as Android likes old Java, and we don't need new features anyway
 	$javac = saker.java.compile(
 		SourceDirectories: [
 			src/rhfw/android_java/,
@@ -313,6 +314,10 @@ compile_android(
 			AndroidBuildTools: saker.android.sdk.buildtools(),
 			AndroidPlatform: saker.android.sdk.platform(),
 		},
+		Parameters: [
+			--release,
+			7,
+		]
 	)
 	$d8 = saker.android.d8(
 		$javac,
