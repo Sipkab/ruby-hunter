@@ -128,7 +128,7 @@ template<typename T> class __internal_tostring_t<const T*> {
 public:
 	static _tostring_type tostring(const T* value) {
 		char buf[64];
-		sprintf(buf, "%p", value);
+		snprintf(buf, sizeof(buf), "%p", value);
 		return buf;
 	}
 };
@@ -136,7 +136,7 @@ template<typename T> class __internal_tostring_t<T*> {
 public:
 	static _tostring_type tostring(const T* value) {
 		char buf[64];
-		sprintf(buf, "%p", value);
+		snprintf(buf, sizeof(buf), "%p", value);
 		return buf;
 	}
 };
@@ -202,7 +202,7 @@ template<> class __internal_tostring_t<unsigned char> {
 public:
 	static _tostring_type tostring(unsigned char value) {
 		char buf[4];
-		sprintf(buf, "%c", value);
+		snprintf(buf, sizeof(buf), "%c", value);
 		return buf;
 	}
 };
@@ -210,7 +210,7 @@ template<> class __internal_tostring_t<char> {
 public:
 	static _tostring_type tostring(char value) {
 		char buf[4];
-		sprintf(buf, "%c", value);
+		snprintf(buf, sizeof(buf), "%c", value);
 		return buf;
 	}
 };
@@ -218,7 +218,7 @@ template<> class __internal_tostring_t<signed char> {
 public:
 	static _tostring_type tostring(signed char value) {
 		char buf[4];
-		sprintf(buf, "%c", value);
+		snprintf(buf, sizeof(buf), "%c", value);
 		return buf;
 	}
 };
@@ -226,7 +226,7 @@ template<> class __internal_tostring_t<unsigned short> {
 public:
 	static _tostring_type tostring(unsigned short value) {
 		char buf[16];
-		sprintf(buf, "%hu", value);
+		snprintf(buf, sizeof(buf), "%hu", value);
 		return buf;
 	}
 };
@@ -234,7 +234,7 @@ template<> class __internal_tostring_t<short> {
 public:
 	static _tostring_type tostring(short value) {
 		char buf[16];
-		sprintf(buf, "%hd", value);
+		snprintf(buf, sizeof(buf), "%hd", value);
 		return buf;
 	}
 };
@@ -242,7 +242,7 @@ template<> class __internal_tostring_t<unsigned int> {
 public:
 	static _tostring_type tostring(unsigned int value) {
 		char buf[32];
-		sprintf(buf, "%u", value);
+		snprintf(buf, sizeof(buf), "%u", value);
 		return buf;
 	}
 };
@@ -250,7 +250,7 @@ template<> class __internal_tostring_t<int> {
 public:
 	static _tostring_type tostring(int value) {
 		char buf[32];
-		sprintf(buf, "%d", value);
+		snprintf(buf, sizeof(buf), "%d", value);
 		return buf;
 	}
 };
@@ -258,7 +258,7 @@ template<> class __internal_tostring_t<unsigned long> {
 public:
 	static _tostring_type tostring(unsigned long value) {
 		char buf[64];
-		sprintf(buf, "%lu", value);
+		snprintf(buf, sizeof(buf), "%lu", value);
 		return buf;
 	}
 };
@@ -266,7 +266,7 @@ template<> class __internal_tostring_t<long> {
 public:
 	static _tostring_type tostring(long value) {
 		char buf[64];
-		sprintf(buf, "%ld", value);
+		snprintf(buf, sizeof(buf), "%ld", value);
 		return buf;
 	}
 };
@@ -274,7 +274,7 @@ template<> class __internal_tostring_t<unsigned long long> {
 public:
 	static _tostring_type tostring(unsigned long long value) {
 		char buf[64];
-		sprintf(buf, "%llu", value);
+		snprintf(buf, sizeof(buf), "%llu", value);
 		return buf;
 	}
 };
@@ -282,7 +282,7 @@ template<> class __internal_tostring_t<long long> {
 public:
 	static _tostring_type tostring(long long value) {
 		char buf[64];
-		sprintf(buf, "%lld", value);
+		snprintf(buf, sizeof(buf), "%lld", value);
 		return buf;
 	}
 };
@@ -291,7 +291,7 @@ template<> class __internal_tostring_t<float> {
 public:
 	static _tostring_type tostring(float value) {
 		char buf[64];
-		sprintf(buf, "%f", value);
+		snprintf(buf, sizeof(buf), "%f", value);
 		return buf;
 	}
 };
@@ -299,7 +299,7 @@ template<> class __internal_tostring_t<double> {
 public:
 	static _tostring_type tostring(double value) {
 		char buf[64];
-		sprintf(buf, "%f", value);
+		snprintf(buf, sizeof(buf), "%f", value);
 		return buf;
 	}
 };
