@@ -41,6 +41,7 @@ resources(
 		$audio[SourceDirectory],
 	] + ($glregistry == null ? [] : [ $glregistry[SourceDirectory] ]),
 ) {
+	print("Generate resources for Debug={$debug} AppName={$appname}")
 	if $platformname == android {
 		$renderapi = [opengles20]
 		$audioapi = opensles10_android
@@ -413,7 +414,8 @@ export_android(
 debug_export_android(
 	in export = export_android()
 ) {
-	saker.apk.sign($export[apk])
+	$apk = saker.apk.sign($export[apk])
+	print("APK: {$apk[Path]}")
 }
 
 compile_winstore(
