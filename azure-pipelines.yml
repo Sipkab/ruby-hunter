@@ -38,6 +38,11 @@ jobs:
   pool:
     vmImage: $(imageName)
   steps:
+  - task: JavaToolInstaller@0
+    inputs:
+      versionSpec: '11'
+      jdkArchitectureOption: 'x64'
+      jdkSourceOption: 'PreInstalled'
   - script: curl -L https://api.nest.saker.build/bundle/download/saker.build-v$(curl -s https://mirror.nest.saker.build/badges/saker.build/latest.txt) -o saker.build.jar
     displayName: 'Download saker.build'
     condition: and(succeeded(), or( eq( variables['Agent.OS'], 'Linux' ), eq( variables['Agent.OS'], 'Darwin' ) ))
