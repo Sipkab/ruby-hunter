@@ -333,7 +333,7 @@ compile_android(
 		$aapt2compile, 
 		Manifest: android/AndroidManifest.xml,
 		MinSDKVersion: 9,
-		TargetSDKVersion: 28,
+		TargetSDKVersion: 29,
 	)
 	
 	$includedirs = [
@@ -402,7 +402,7 @@ export_android(
 	
 	out apk
 ) {
-	$apk = saker.apk.create(
+	$createdapk = saker.apk.create(
 		Resources: $compileandroid[aapt2link],
 		Classes: $compileandroid[d8],
 		Libraries: {
@@ -410,6 +410,10 @@ export_android(
 		},
 		Assets: $compileandroid[resources][assetgen][AssetsDirectoryPath]
 	)
+	
+	# android 30+ requires during install:
+	#    Targeting R+ (version 30 and above) requires the resources.arsc of installed APKs to be stored uncompressed and aligned on a 4-byte boundary
+	$apk = saker.android.zipalign($createdapk)
 }
 debug_export_android(
 	in export = export_android()
