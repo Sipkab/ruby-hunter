@@ -26,7 +26,6 @@ import android.app.NativeActivity;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
 import android.hardware.display.DisplayManager;
 import android.hardware.display.DisplayManager.DisplayListener;
 import android.net.Uri;
@@ -37,14 +36,13 @@ import android.os.Looper;
 import android.os.Message;
 import android.text.InputType;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.util.SparseArray;
 import android.view.Display;
-import android.view.Gravity;
 import android.view.KeyCharacterMap;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.WindowManager;
 import android.view.inputmethod.BaseInputConnection;
 import android.view.inputmethod.CompletionInfo;
 import android.view.inputmethod.CorrectionInfo;
@@ -165,6 +163,8 @@ public class MainNativeActivity extends NativeActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		Log.i("MainNativeActivity", "onCreate(): enter");
+		
 		applicationInstance = getApplication();
 		defaultDisplay = getWindowManager().getDefaultDisplay();
 		DisplayMetrics dm = getResources().getDisplayMetrics();
@@ -180,36 +180,47 @@ public class MainNativeActivity extends NativeActivity {
 
 		addContentView(keyboardView, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 
+		Log.i("MainNativeActivity", "onCreate(): exit");
 	}
 
 	@Override
 	protected void onStart() {
+		Log.i("MainNativeActivity", "onStart(): enter");
 		super.onStart();
 		handler.sendEmptyMessage(MSG_DRAW);
+		Log.i("MainNativeActivity", "onStart(): exit");
 	}
 
 	@Override
 	protected void onResume() {
+		Log.i("MainNativeActivity", "onResume(): enter");
 		super.onResume();
+		Log.i("MainNativeActivity", "onResume(): exit");
 	}
 
 	@Override
 	protected void onPause() {
+		Log.i("MainNativeActivity", "onPause(): enter");
 		super.onPause();
+		Log.i("MainNativeActivity", "onPause(): exit");
 	}
 
 	@Override
 	protected void onStop() {
+		Log.i("MainNativeActivity", "onStop(): enter");
 		handler.removeMessages(MSG_DRAW);
 		super.onStop();
+		Log.i("MainNativeActivity", "onStop(): exit");
 	}
 
 	@Override
 	protected void onDestroy() {
+		Log.i("MainNativeActivity", "onDestroy(): enter");
 		super.onDestroy();
 		imm = null;
 		unicodeKeyBuffer = null;
 		charmap = null;
+		Log.i("MainNativeActivity", "onDestroy(): exit");
 	}
 
 	@Override
@@ -243,6 +254,7 @@ public class MainNativeActivity extends NativeActivity {
 	public void onWindowFocusChanged(boolean hasFocus) {
 		super.onWindowFocusChanged(hasFocus);
 		if (hasFocus && imeVisible) {
+			Log.i("MainNativeActivity", "onWindowFocusChanged(): " + "requesting keyboard again");
 			requestKeyboard();
 		}
 	}
@@ -250,34 +262,50 @@ public class MainNativeActivity extends NativeActivity {
 	private void requestKeyboard() {
 		imeVisible = true;
 
-		imm.showSoftInput(keyboardView, InputMethodManager.SHOW_FORCED);
+		keyboardView.requestFocus();
+		boolean res = imm.showSoftInput(keyboardView, InputMethodManager.SHOW_FORCED);
+		Log.i("MainNativeActivity", "requestKeyboard().showSoftInput: " + res);
 	}
 
-	public void requestKeyboard(int type) {
-		int ntype;
-		switch (type) {
-			case 0: {
-				ntype = DEFAULT_INPUT_TYPE;
-				break;
-			}
-			case 1: {
-				ntype = InputType.TYPE_CLASS_NUMBER;
-				break;
-			}
-			default: {
-				throw new RuntimeException("Invalid type: " + type);
-			}
+	//called by native code
+	public void requestKeyboard(final int type) {
+		try {
+			runOnUiThread(new Runnable() {
+				@Override
+				public void run() {
+					int ntype;
+					switch (type) {
+						case 0: {
+							ntype = DEFAULT_INPUT_TYPE;
+							break;
+						}
+						case 1: {
+							ntype = InputType.TYPE_CLASS_NUMBER;
+							break;
+						}
+						default: {
+							throw new RuntimeException("Invalid type: " + type);
+						}
+					}
+					if (ntype != keyboardView.inputType) {
+						keyboardView.inputType = ntype;
+						imm.restartInput(keyboardView);
+					}
+					requestKeyboard();
+				}
+			});
+		} catch (Exception e) {
+			Log.e("MainNativeActivity", "requestKeyboard(): failed", e);
+			e.printStackTrace();
+			//print the exception, don't let it get back to native code
 		}
-		if (ntype != keyboardView.inputType) {
-			keyboardView.inputType = ntype;
-			imm.restartInput(keyboardView);
-		}
-		requestKeyboard();
 	}
 
 	public void dismissKeyboard() {
 		imeVisible = false;
-		imm.hideSoftInputFromWindow(keyboardView.getWindowToken(), 0);
+		boolean res = imm.hideSoftInputFromWindow(keyboardView.getWindowToken(), 0);
+		
+		Log.i("MainNativeActivity", "dismissKeyboard().hideSoftInputFromWindow: " + res);
 	}
 
 	public final int getUnicodeFromKey(int keycode, int metastate, int deviceid) {
