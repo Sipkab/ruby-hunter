@@ -599,8 +599,8 @@ public:
 				if(selected < 0) {
 					setSelectedIndex(lastSelected);
 				} else {
-					if(selected == levelsCount) {
-						if(loadMoreVisible == LOADMORE_VISIBLE) {
+					if (levelsCount == 0 || selected == levelsCount) {
+						if (loadMoreVisible == LOADMORE_VISIBLE) {
 							loadMoreLevels();
 						}
 					} else {
@@ -753,8 +753,10 @@ public:
 				}
 				if(touchRow >= 0
 						&& !(!rect.isInside(touchpos) || touchpos.y() <= rowHeight || (unsigned int)((scroll + touchpos.y() - rect.top) / rowHeight) - 1 != touchRow)) {
-					if(touchRow == levelsCount && loadMoreVisible == LOADMORE_VISIBLE) {
-						loadMoreLevels();
+					if (levelsCount == 0 || touchRow == levelsCount) {
+						if (loadMoreVisible == LOADMORE_VISIBLE) {
+							loadMoreLevels();
+						}
 					} else {
 						selectLevel(touchRow);
 					}
@@ -816,7 +818,7 @@ public:
 	}
 
 	void loadMoreLevels() {
-		ASSERT(loadMoreVisible == LOADMORE_VISIBLE);
+		ASSERT(loadMoreVisible == LOADMORE_VISIBLE) << loadMoreVisible;
 		loadMoreVisible = LOADMORE_LOADING;
 		scene->getConnection().requestLevels();
 
