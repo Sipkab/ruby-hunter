@@ -43,6 +43,7 @@ import android.view.KeyCharacterMap;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowInsets;
 import android.view.inputmethod.BaseInputConnection;
 import android.view.inputmethod.CompletionInfo;
 import android.view.inputmethod.CorrectionInfo;
@@ -123,6 +124,12 @@ public class MainNativeActivity extends NativeActivity {
 				}
 			};
 		}
+
+		@Override
+		public WindowInsets onApplyWindowInsets(WindowInsets insets) {
+			Log.i("MainNativeActivity.SoftKeyboardView", "onApplyWindowInsets(): " + insets);
+			return super.onApplyWindowInsets(insets);
+		}
 	}
 
 	private static final int MSG_DRAW = 0;
@@ -169,6 +176,7 @@ public class MainNativeActivity extends NativeActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		Log.i("MainNativeActivity", "onCreate(): enter");
+		Log.v("MainNativeActivity", "onCreate(): API level: " + android.os.Build.VERSION.SDK_INT);
 
 		handler = new DrawHandler(Looper.myLooper(), this);
 
@@ -187,6 +195,20 @@ public class MainNativeActivity extends NativeActivity {
 
 		addContentView(keyboardView,
 				new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+
+		if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.R) {
+			//starting at API version R (30) apply a window insets listener
+			//that consumes the inset request for ime type
+			//this is because the app performs its own insetting internally
+			//and if the Android applies its own as well, then the content is offsetted twice
+			//which makes it go out of bounds
+			//we were able to test this on devices with API 28 and 33
+			View decorview = getWindow().getDecorView();
+			Log.i("MainNativeActivity", "onCreate(): decorview: " + decorview);
+
+			ImeIgnoreInsetsListener insetlistener = new ImeIgnoreInsetsListener();
+			decorview.setOnApplyWindowInsetsListener(insetlistener);
+		}
 
 		Log.i("MainNativeActivity", "onCreate(): exit");
 	}
@@ -493,4 +515,15 @@ public class MainNativeActivity extends NativeActivity {
 		}
 	}
 
+	private static final class ImeIgnoreInsetsListener implements View.OnApplyWindowInsetsListener {
+		@Override
+		public WindowInsets onApplyWindowInsets(View v, WindowInsets insets) {
+			Log.i("MainNativeActivity.ImeIgnoreInsetsListener", "onApplyWindowInsets(): " + insets);
+			if (insets.isVisible(WindowInsets.Type.ime())) {
+				Log.i("MainNativeActivity.ImeIgnoreInsetsListener", "onApplyWindowInsets(): " + "ignore ime insetting");
+				return WindowInsets.CONSUMED;
+			}
+			return insets;
+		}
+	}
 }
