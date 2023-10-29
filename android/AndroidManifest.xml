@@ -19,7 +19,8 @@
 			android:name="bence.sipka.graphics.framework.MainNativeActivity"
 			android:configChanges="keyboard|keyboardHidden|screenSize|orientation"
 			android:screenOrientation="sensorLandscape"
-			android:label="@string/application_name">
+			android:label="@string/application_name"
+			android:exported="true">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 
