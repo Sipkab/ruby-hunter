@@ -53,8 +53,8 @@ import android.view.inputmethod.InputMethodManager;
 
 @TargetApi(Build.VERSION_CODES.GINGERBREAD)
 public class MainNativeActivity extends NativeActivity {
-	private static final int DEFAULT_INPUT_TYPE = InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD | InputType.TYPE_CLASS_TEXT
-			| InputType.TYPE_TEXT_FLAG_NO_SUGGESTIONS;
+	private static final int DEFAULT_INPUT_TYPE = InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD
+			| InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_FLAG_NO_SUGGESTIONS;
 
 	private static class SoftKeyboardView extends View {
 		private int inputType = DEFAULT_INPUT_TYPE;
@@ -93,28 +93,32 @@ public class MainNativeActivity extends NativeActivity {
 				@Override
 				public boolean commitCompletion(CompletionInfo text) {
 					// TODO Auto-generated method stub
-					System.out.println("MainNativeActivity.SoftKeyboardView.onCreateInputConnection(...).new BaseInputConnection() {...}.commitCompletion()");
+					System.out.println(
+							"MainNativeActivity.SoftKeyboardView.onCreateInputConnection(...).new BaseInputConnection() {...}.commitCompletion()");
 					return super.commitCompletion(text);
 				}
 
 				@Override
 				public boolean commitContent(InputContentInfo inputContentInfo, int flags, Bundle opts) {
 					// TODO Auto-generated method stub
-					System.out.println("MainNativeActivity.SoftKeyboardView.onCreateInputConnection(...).new BaseInputConnection() {...}.commitContent()");
+					System.out.println(
+							"MainNativeActivity.SoftKeyboardView.onCreateInputConnection(...).new BaseInputConnection() {...}.commitContent()");
 					return super.commitContent(inputContentInfo, flags, opts);
 				}
 
 				@Override
 				public boolean commitCorrection(CorrectionInfo correctionInfo) {
 					// TODO Auto-generated method stub
-					System.out.println("MainNativeActivity.SoftKeyboardView.onCreateInputConnection(...).new BaseInputConnection() {...}.commitCorrection()");
+					System.out.println(
+							"MainNativeActivity.SoftKeyboardView.onCreateInputConnection(...).new BaseInputConnection() {...}.commitCorrection()");
 					return super.commitCorrection(correctionInfo);
 				}
 
 				@Override
 				public boolean commitText(CharSequence text, int newCursorPosition) {
 					// TODO Auto-generated method stub
-					System.out.println("MainNativeActivity.SoftKeyboardView.onCreateInputConnection(...).new BaseInputConnection() {...}.commitText()");
+					System.out.println(
+							"MainNativeActivity.SoftKeyboardView.onCreateInputConnection(...).new BaseInputConnection() {...}.commitText()");
 					return super.commitText(text, newCursorPosition);
 				}
 			};
@@ -127,7 +131,8 @@ public class MainNativeActivity extends NativeActivity {
 	private static class DrawHandler extends Handler {
 		private MainNativeActivity activity;
 
-		public DrawHandler(MainNativeActivity activity) {
+		public DrawHandler(Looper looper, MainNativeActivity activity) {
+			super(looper);
 			this.activity = activity;
 		}
 
@@ -147,7 +152,7 @@ public class MainNativeActivity extends NativeActivity {
 
 	private ByteBuffer unicodeKeyBuffer = null;
 
-	private DrawHandler handler = new DrawHandler(this);
+	private DrawHandler handler;
 
 	private float xdpi;
 	private float ydpi;
@@ -164,7 +169,9 @@ public class MainNativeActivity extends NativeActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		Log.i("MainNativeActivity", "onCreate(): enter");
-		
+
+		handler = new DrawHandler(Looper.myLooper(), this);
+
 		applicationInstance = getApplication();
 		defaultDisplay = getWindowManager().getDefaultDisplay();
 		DisplayMetrics dm = getResources().getDisplayMetrics();
@@ -178,7 +185,8 @@ public class MainNativeActivity extends NativeActivity {
 
 		keyboardView = new SoftKeyboardView(this);
 
-		addContentView(keyboardView, new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+		addContentView(keyboardView,
+				new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 
 		Log.i("MainNativeActivity", "onCreate(): exit");
 	}
@@ -304,7 +312,7 @@ public class MainNativeActivity extends NativeActivity {
 	public void dismissKeyboard() {
 		imeVisible = false;
 		boolean res = imm.hideSoftInputFromWindow(keyboardView.getWindowToken(), 0);
-		
+
 		Log.i("MainNativeActivity", "dismissKeyboard().hideSoftInputFromWindow: " + res);
 	}
 
@@ -433,7 +441,7 @@ public class MainNativeActivity extends NativeActivity {
 					oldRotation = nrot;
 					deviceRotationChanged(nrot);
 				}
-				android.util.Log.i("MainNativeActivity", "Display #" + displayId + " changed. " + getDisplayRotationDegrees());
+				Log.i("MainNativeActivity", "Display #" + displayId + " changed. " + getDisplayRotationDegrees());
 			}
 
 			@Override
@@ -480,7 +488,8 @@ public class MainNativeActivity extends NativeActivity {
 		try {
 			startActivity(intent);
 		} catch (ActivityNotFoundException e) {
-			startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=" + packagename)));
+			startActivity(new Intent(Intent.ACTION_VIEW,
+					Uri.parse("http://play.google.com/store/apps/details?id=" + packagename)));
 		}
 	}
 
