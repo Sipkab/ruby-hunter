@@ -135,13 +135,13 @@ void StartConfiguration::save(FileDescriptor& fd) {
 		}
 		{
 			char buf[256];
-			int len = sprintf(buf, "msaa=%u\n", msaaFactor);
+			int len = snprintf(buf, sizeof(buf), "msaa=%u\n", msaaFactor);
 			out->write(buf, len);
 		}
 
 		if (serverAddress.getPort() != 0) {
 			char buf[256];
-			int len = sprintf(buf, "server=%u.%u.%u.%u:%u\n", serverAddress.getAddressBytes()[0], serverAddress.getAddressBytes()[1],
+			int len = snprintf(buf, sizeof(buf), "server=%u.%u.%u.%u:%u\n", serverAddress.getAddressBytes()[0], serverAddress.getAddressBytes()[1],
 					serverAddress.getAddressBytes()[2], serverAddress.getAddressBytes()[3], serverAddress.getPort());
 			out->write(buf, len);
 		}

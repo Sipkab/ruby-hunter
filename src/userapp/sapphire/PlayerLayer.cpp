@@ -251,7 +251,7 @@ void PlayerLayer::drawImpl(float displayPercent) {
 	drawSapphireTexture(mvp, menuTexture, menuTouch != nullptr ? difselcol : difcol, menuRect, Rectangle { 0, 0, 1, 1 });
 	if (speedIndex != 0) {
 		char buffer[256];
-		sprintf(buffer, "Speed: %s", SPEED_LABELS[speedIndex]);
+		snprintf(buffer, sizeof(buffer), "Speed: %s", SPEED_LABELS[speedIndex]);
 		drawString(mvp, buffer, font, difcol,
 				Vector2F { menuRect.height() * 0.25f, drawer.getSize().pixelSize.height() - menuRect.height() * 0.25f },
 				menuRect.height() * 0.5f, Gravity::LEFT | Gravity::BOTTOM);

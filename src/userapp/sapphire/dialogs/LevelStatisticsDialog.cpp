@@ -153,7 +153,7 @@ static int PutNonZeroFloatStatItem(DialogLayer* dialog, const char* name, unsign
 		return 0;
 	}
 	char buffer[64];
-	sprintf(buffer, "%.1f", (float) value / playcount);
+	snprintf(buffer, sizeof(buffer), "%.1f", (float) value / playcount);
 	dialog->addDialogItem(new ValueTextDialogItem(name, buffer));
 	return 1;
 }

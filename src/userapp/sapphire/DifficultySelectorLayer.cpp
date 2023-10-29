@@ -293,7 +293,7 @@ void DifficultySelectorLayer::drawImpl(float displayPercent) {
 					Color { (selected ? (diffplayable ? selectedColors[i] : Color { 1, 1, 1, 1 }) : colors[i] * dimcolor).rgb(), alpha },
 					Vector2F { rects[i].middle().x(), rect.top }, labelsize, Gravity::CENTER);
 			char buffer[256];
-			sprintf(buffer, "%u/%u/%u", finishedlevelcount, seenlevelcount, totallevelcount);
+			snprintf(buffer, sizeof(buffer), "%u/%u/%u", finishedlevelcount, seenlevelcount, totallevelcount);
 			drawString(mvp, buffer, font,
 					Color { (selected ? (diffplayable ? selectedColors[i] : Color { 1, 1, 1, 1 }) : colors[i] * dimcolor).rgb(), alpha * 0.7f },
 					Vector2F { rects[i].middle().x(), rect.top + labelsize }, labelsize * 0.8f, Gravity::CENTER);
@@ -342,7 +342,7 @@ void DifficultySelectorLayer::drawImpl(float displayPercent) {
 					Color { (selected ? (diffplayable ? selectedColors[i] : Color { 1, 1, 1, 1 }) : colors[i] * dimcolor).rgb(), alpha },
 					Vector2F { rects[i].middle().x(), rect.top }, labelsize, Gravity::CENTER);
 			char buffer[256];
-			sprintf(buffer, "%u/%u/%u", finishedlevelcount, seenlevelcount, totallevelcount);
+			snprintf(buffer, sizeof(buffer), "%u/%u/%u", finishedlevelcount, seenlevelcount, totallevelcount);
 			drawString(mvp, buffer, font,
 					Color { (selected ? (diffplayable ? selectedColors[i] : Color { 1, 1, 1, 1 }) : colors[i] * dimcolor).rgb(), alpha
 							* 0.7f }, Vector2F { rects[i].middle().x(), rect.top + labelsize }, labelsize * 0.8f, Gravity::CENTER);

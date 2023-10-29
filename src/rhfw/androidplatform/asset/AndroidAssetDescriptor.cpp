@@ -40,9 +40,9 @@ AndroidFd AndroidAssetDescriptor::openAndroidFd() {
 	AAssetManager* am = androidplatform::getAssetManager();
 	ASSERT(am != nullptr) << "assetmanager is nullptr";
 
-	char path[32];
+	char path[64];
 	//TODO solve uncompressed data
-	sprintf(path, "res/%x", (unsigned int) assetFileId);
+	snprintf(path, sizeof(path), "res/%x", (unsigned int) assetFileId);
 
 	AAsset * file = AAssetManager_open(am, path, AASSET_MODE_UNKNOWN);
 	ASSERT(file != nullptr) << "Failed to open file: " << path;

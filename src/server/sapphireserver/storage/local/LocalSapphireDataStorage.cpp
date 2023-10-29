@@ -202,7 +202,7 @@ LocalSapphireDataStorage::LocalSapphireDataStorage() {
 			initLevelData(l);
 		} else {
 			char buf[256];
-			sprintf(buf, "Failed to load level: %u", a->asset);
+			snprintf(buf, sizeof(buf), "Failed to load level: %u", a->asset);
 			postLogEvent(buf);
 		}
 	}
@@ -223,7 +223,7 @@ LocalSapphireDataStorage::LocalSapphireDataStorage() {
 	int foundmessagesfiles = 0;
 	while (true) {
 		char buf[64];
-		sprintf(buf, MESSAGES_FILE_FORMAT_FILENAME, messagesFileIndex);
+		snprintf(buf, sizeof(buf), MESSAGES_FILE_FORMAT_FILENAME, messagesFileIndex);
 		StorageFileDescriptor fd { messagesDirectory.getPath() + buf };
 		if (fd.exists()) {
 			messagesindexes[0] = messagesindexes[1];
@@ -239,7 +239,7 @@ LocalSapphireDataStorage::LocalSapphireDataStorage() {
 	postLogEvent("Loading messages 2...");
 	while (true) {
 		char buf[64];
-		sprintf(buf, MESSAGES_FILE_FORMAT_2_FILENAME, messagesFileIndex);
+		snprintf(buf, sizeof(buf), MESSAGES_FILE_FORMAT_2_FILENAME, messagesFileIndex);
 		StorageFileDescriptor fd { messagesDirectory.getPath() + buf };
 		if (fd.exists()) {
 			messagesindexes[0] = messagesindexes[1];
@@ -413,7 +413,7 @@ unsigned int LocalSapphireDataStorage::readMessagesFile(unsigned int index, bool
 unsigned int LocalSapphireDataStorage::readMessagesFile1(unsigned int index, bool* validfile) {
 	*validfile = true;
 	char buf[64];
-	sprintf(buf, MESSAGES_FILE_FORMAT_FILENAME, index);
+	snprintf(buf, sizeof(buf), MESSAGES_FILE_FORMAT_FILENAME, index);
 	StorageFileDescriptor fd { messagesDirectory.getPath() + buf };
 	LOGI()<< "Read messages file: " << fd.getPath().getURI();
 	auto istream = EndianInputStream<Endianness::Big>::wrap(BufferedInputStream::wrap(fd.openInputStream()));
@@ -456,7 +456,7 @@ unsigned int LocalSapphireDataStorage::readMessagesFile1(unsigned int index, boo
 unsigned int LocalSapphireDataStorage::readMessagesFile2(unsigned int index, bool* validfile) {
 	*validfile = true;
 	char buf[64];
-	sprintf(buf, MESSAGES_FILE_FORMAT_2_FILENAME, index);
+	snprintf(buf, sizeof(buf), MESSAGES_FILE_FORMAT_2_FILENAME, index);
 	StorageFileDescriptor fd { messagesDirectory.getPath() + buf };
 	LOGI()<< "Read messages file: " << fd.getPath().getURI();
 	auto istream = EndianInputStream<Endianness::Big>::wrap(BufferedInputStream::wrap(fd.openInputStream()));
@@ -557,7 +557,7 @@ SapphireStorageError LocalSapphireDataStorage::appendMessage(const SapphireUUID&
 			++currentMessagesFileMessageCount;
 		}
 		char buf[64];
-		sprintf(buf, MESSAGES_FILE_FORMAT_2_FILENAME, messagesFileIndex);
+		snprintf(buf, sizeof(buf), MESSAGES_FILE_FORMAT_2_FILENAME, messagesFileIndex);
 		StorageFileDescriptor fd {messagesDirectory.getPath() + buf};
 
 		auto ostream = EndianOutputStream<Endianness::Big>::wrap(fd.openAppendStream());

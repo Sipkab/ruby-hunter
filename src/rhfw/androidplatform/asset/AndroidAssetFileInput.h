@@ -54,8 +54,8 @@ private:
 		AAssetManager* am = androidplatform::getAssetManager();
 		ASSERT(am != nullptr) << "assetmanager is nullptr";
 
-		char path[32];
-		sprintf(path, "res/%x", (unsigned int) assetFileId);
+		char path[64];
+		snprintf(path, sizeof(path), "res/%x", (unsigned int) assetFileId);
 
 		file = AAssetManager_open(am, path, AASSET_MODE_UNKNOWN);
 		ASSERT(file != nullptr) << "Failed to open file: " << assetFileId;

@@ -124,7 +124,7 @@ static void writeLogEvent(const FixedString& log) {
 	time(&rawtime);
 	struct tm * timeinfo;
 	timeinfo = gmtime(&rawtime);
-	int dlen = sprintf(buffer, "%d.%02d.%02d %02d:%02d:%02d\t", 1900 + timeinfo->tm_year, timeinfo->tm_mon + 1, timeinfo->tm_mday,
+	int dlen = snprintf(buffer, sizeof(buffer), "%d.%02d.%02d %02d:%02d:%02d\t", 1900 + timeinfo->tm_year, timeinfo->tm_mon + 1, timeinfo->tm_mday,
 			timeinfo->tm_hour, timeinfo->tm_min, timeinfo->tm_sec);
 
 	printf("Log event: %s\t%s\n", buffer, (const char*) log);
@@ -155,7 +155,7 @@ static void archiveLog() {
 
 	time(&rawtime);
 	timeinfo = gmtime(&rawtime);
-	int dlen = sprintf(buffer, "serverlog.archive.%d.%02d.%02d_%02dh%02dm%02ds.log", 1900 + timeinfo->tm_year, timeinfo->tm_mon + 1,
+	int dlen = snprintf(buffer, sizeof(buffer), "serverlog.archive.%d.%02d.%02d_%02dh%02dm%02ds.log", 1900 + timeinfo->tm_year, timeinfo->tm_mon + 1,
 			timeinfo->tm_mday, timeinfo->tm_hour, timeinfo->tm_min, timeinfo->tm_sec);
 
 	StorageFileDescriptor logfilefd { StorageDirectoryDescriptor::Root() + buffer };
@@ -514,15 +514,15 @@ static bool handleControlConnection(TCPConnection& socket, Semaphore& sem) {
 					auto error = DataStorage->getLeaderboard(leveluuid, userid, lb.type,
 							50, &outentries, &outuserindex, &outuserscore, &outuserposition, &outuserdemoid, &outtotalcount);
 					if (error == SapphireStorageError::SUCCESS) {
-						len = sprintf(buffer, "Leaderboard %s (%u)\r\n", lb.name, outtotalcount);
+						len = snprintf(buffer, sizeof(buffer), "Leaderboard %s (%u)\r\n", lb.name, outtotalcount);
 						socket.write(buffer, len);
 						unsigned int i = 1;
 						for (auto&& e : outentries) {
-							len = sprintf(buffer, "%u %s: %d\r\n", i++, (const char*)e->userName, e->score);
+							len = snprintf(buffer, sizeof(buffer), "%u %s: %d\r\n", i++, (const char*)e->userName, e->score);
 							socket.write(buffer, len);
 						}
 					} else {
-						len = sprintf(buffer, "Leaderboard %s not found\r\n", lb.name);
+						len = snprintf(buffer, sizeof(buffer), "Leaderboard %s not found\r\n", lb.name);
 						socket.write(buffer, len);
 					}
 				}
@@ -543,7 +543,7 @@ static bool handleControlConnection(TCPConnection& socket, Semaphore& sem) {
 						}
 						default: {
 							char buffer[256];
-							sprintf(buffer, "Administrator\tRemoveLevel\tFailed\t%s\tError\t%u",
+							snprintf(buffer, sizeof(buffer), "Administrator\tRemoveLevel\tFailed\t%s\tError\t%u",
 									(const char*)leveluuid.asString(), (unsigned int) error);
 							postServerLogEvent(buffer);
 							break;
@@ -562,11 +562,11 @@ static bool handleControlConnection(TCPConnection& socket, Semaphore& sem) {
 				char bufferresponse[256];
 				unsigned int len;
 				if (version > SAPPHIRE_RELEASE_VERSION_NUMBER) {
-					len = sprintf(bufferresponse, "> Suggested version greater than sever version: %u > %u.\r\n", version,
+					len = snprintf(bufferresponse, sizeof(bufferresponse), "> Suggested version greater than sever version: %u > %u.\r\n", version,
 					SAPPHIRE_RELEASE_VERSION_NUMBER);
 				} else {
 					SetSuggestedUpgradeVersion(version);
-					len = sprintf(bufferresponse, "> Suggested version updated: %u.\r\n", version);
+					len = snprintf(bufferresponse, sizeof(bufferresponse), "> Suggested version updated: %u.\r\n", version);
 				}
 				socket.write(bufferresponse, len);
 			}
@@ -633,13 +633,13 @@ static void startControlThread() {
 
 			char buffer[256];
 			auto addr = static_cast<const IPv4Address&>(res->getAddress());
-			sprintf(buffer, "Admin connected\t%u.%u.%u.%u", addr.getAddressBytes()[0], addr.getAddressBytes()[1],
+			snprintf(buffer, sizeof(buffer), "Admin connected\t%u.%u.%u.%u", addr.getAddressBytes()[0], addr.getAddressBytes()[1],
 					addr.getAddressBytes()[2], addr.getAddressBytes()[3]);
 			postServerLogEvent(buffer);
 
 			bool cont = handleControlConnection(*res, sem);
 
-			sprintf(buffer, "Admin disconnected\t%u.%u.%u.%u", addr.getAddressBytes()[0], addr.getAddressBytes()[1],
+			snprintf(buffer, sizeof(buffer), "Admin disconnected\t%u.%u.%u.%u", addr.getAddressBytes()[0], addr.getAddressBytes()[1],
 					addr.getAddressBytes()[2], addr.getAddressBytes()[3]);
 			postServerLogEvent(buffer);
 
@@ -807,7 +807,7 @@ int main(int argc, char* argv[]) {
 
 			char buffer[256];
 			auto&& addr = static_cast<const IPv4Address&>(res->getAddress());
-			sprintf(buffer, "Accepted connection\t%u.%u.%u.%u", addr.getAddressBytes()[0], addr.getAddressBytes()[1],
+			snprintf(buffer, sizeof(buffer), "Accepted connection\t%u.%u.%u.%u", addr.getAddressBytes()[0], addr.getAddressBytes()[1],
 					addr.getAddressBytes()[2], addr.getAddressBytes()[3]);
 			postServerLogEvent(buffer);
 

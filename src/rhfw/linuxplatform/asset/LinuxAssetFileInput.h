@@ -57,7 +57,7 @@ private:
 		ASSERT(assetFileId != RAssetFile::INVALID_ASSET_IDENTIFIER) << "Invalid file to open";
 //		LOGV()<< "Open file at input path: " << assetFileId;
 		char pathbuf[11 + 8 + 1];
-		sprintf(pathbuf, "assets/res/%x", (unsigned int) assetFileId);
+		snprintf(pathbuf, sizeof(pathbuf), "assets/res/%x", (unsigned int) assetFileId);
 
 		FilePath path = linuxplatform::getAssetsPath() + pathbuf;
 

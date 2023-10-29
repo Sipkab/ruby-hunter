@@ -847,7 +847,7 @@ void ClientConnection::readThreadFunction(TCPConnection* conn) {
 
 		LOGI() << "Client version number: " << version << " hardware id: " << clientuuid.asString();
 		char buffer[256];
-		sprintf(buffer, "Connected\tVersion\t%u\tIP\t%u.%u.%u.%u\tHardware\t%s\t%s\t%s", version, addr.getAddressBytes()[0],
+		snprintf(buffer, sizeof(buffer), "Connected\tVersion\t%u\tIP\t%u.%u.%u.%u\tHardware\t%s\t%s\t%s", version, addr.getAddressBytes()[0],
 				addr.getAddressBytes()[1], addr.getAddressBytes()[2], addr.getAddressBytes()[3], (const char*) clientuuid.asString(),
 				"", "");
 
@@ -905,7 +905,7 @@ void ClientConnection::readThreadFunction(TCPConnection* conn) {
 		}
 	} else {
 		char buffer[256];
-		sprintf(buffer, "Handshake error\t%u.%u.%u.%u", addr.getAddressBytes()[0], addr.getAddressBytes()[1], addr.getAddressBytes()[2],
+		snprintf(buffer, sizeof(buffer), "Handshake error\t%u.%u.%u.%u", addr.getAddressBytes()[0], addr.getAddressBytes()[1], addr.getAddressBytes()[2],
 				addr.getAddressBytes()[3]);
 		postConnectionLogEvent(connectionIdentifier, buffer);
 

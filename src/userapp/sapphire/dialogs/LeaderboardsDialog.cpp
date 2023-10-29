@@ -302,7 +302,7 @@ void LeaderboardsDialog::putDialogItems(SapphireScene* scene, bool autodownloade
 		if (addedcount < info->totalCount) {
 			addDialogItem(new EmptyDialogItem(0.25f));
 			char buffer[256];
-			sprintf(buffer, "And %u more...", info->totalCount - addedcount);
+			snprintf(buffer, sizeof(buffer), "And %u more...", info->totalCount - addedcount);
 			addDialogItem(new TextDialogItem(buffer));
 		}
 		addDialogItem(new EmptyDialogItem(0.5f));

@@ -530,7 +530,7 @@ public:
 						Vector2F { rect.left + (authorColumn.weight + authorColumn.textAlign) * rect.width(), texty }, rowtextsize,
 						authorColumn.textGravity);
 
-				sprintf(buffer, "%04u.%02u.%02u", detail.dateYear, detail.dateMonth, detail.dateDay);
+				snprintf(buffer, sizeof(buffer), "%04u.%02u.%02u", detail.dateYear, detail.dateMonth, detail.dateDay);
 
 				fontdrawer.add(buffer, textcolor, Vector2F { rect.left + (dateColumn.weight + dateColumn.textAlign) * rect.width(), texty },
 						rowtextsize,
@@ -540,7 +540,7 @@ public:
 				if (detail.ratingCount == 0) {
 					ratingtext = "-";
 				} else {
-					sprintf(buffer, "%.1f(%u)", (float) detail.ratingSum / detail.ratingCount, detail.ratingCount);
+					snprintf(buffer, sizeof(buffer), "%.1f(%u)", (float) detail.ratingSum / detail.ratingCount, detail.ratingCount);
 					ratingtext = buffer;
 				}
 				Vector2F ratingpos { rect.left + rowHeight + (ratingsColumn.weight + ratingsColumn.textAlign) * rect.width(), texty };
@@ -1681,7 +1681,7 @@ void CommunityLayer::drawImpl(float displaypercent) {
 #if RHFW_DEBUG
 	{
 		char buf[64];
-		sprintf(buf, "UserScore: %u", ss->getUserProgressScore());
+		snprintf(buf, sizeof(buf), "UserScore: %u", ss->getUserProgressScore());
 		fontDrawer.add(buf, Color { getUiColor().rgb(), alpha }, Vector2F { 0, 0 }, titleTextSize / 2.5f, Gravity::LEFT | Gravity::TOP);
 	}
 #endif /* RHFW_DEBUG */
@@ -1972,7 +1972,7 @@ void CommunityLayer::fillHelloStringBuffer() {
 #define NAME_NULLPTR_PLACEHOLDER "Hello " SAPPHIRE_PLAYER_PLACEHOLDER_NAME "!"
 		memcpy(helloStringBuffer, NAME_NULLPTR_PLACEHOLDER, sizeof(NAME_NULLPTR_PLACEHOLDER));
 	} else {
-		sprintf(helloStringBuffer, "Hello %s!", name);
+		snprintf(helloStringBuffer, sizeof(helloStringBuffer), "Hello %s!", name);
 	}
 
 }

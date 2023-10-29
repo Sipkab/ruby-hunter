@@ -191,7 +191,7 @@ SettingsLayer::SettingsLayer(SapphireUILayer* parent, const SapphireSettings& se
 		antiAliasLabelMap[0] = "Off";
 		for (unsigned int i = 0, pow = 2; i < labelcount; ++i, pow *= 2) {
 			antiAliasLabelMap[i + 1] = labels + i * MAX_LABEL_LENGTH;
-			sprintf(labels + i * MAX_LABEL_LENGTH, "MSAAx%u", pow);
+			snprintf(labels + i * MAX_LABEL_LENGTH, MAX_LABEL_LENGTH, "MSAAx%u", pow);
 		}
 		unsigned int selected = 0;
 		if (currentmsaafactor != 0) {
