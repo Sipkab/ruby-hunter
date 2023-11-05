@@ -100,7 +100,7 @@ LocalSapphireDataStorage::BuiltinLevelAssets::BuiltinLevelAssets() {
 	for (auto&& asset : RAssets::gameres::game_sapphire::levels::custom::enumerate()) {
 		fill(asset);
 	}
-	LOGI() << "Loading builtin dual classi levels...";
+	LOGI() << "Loading builtin dual classic levels...";
 	for (auto&& asset : RAssets::gameres::game_sapphire::levels::twoplayer::enumerate()) {
 		fill(asset);
 	}
@@ -146,7 +146,10 @@ LocalSapphireDataStorage::LocalSapphireDataStorage() {
 	hardwareDirectory.create();
 	demosDirectory.create();
 
+	unsigned int count = 0;
+
 	postLogEvent("Loading community levels...");
+	count = 0;
 	auto&& levelspath = levelsDirectory.getPath();
 	for (auto&& file : levelsDirectory.enumerate()) {
 		if (file.isDirectory()) {
@@ -163,7 +166,11 @@ LocalSapphireDataStorage::LocalSapphireDataStorage() {
 		} else {
 			postLogEvent(FixedString {"Failed to make community level descriptor of file: "} + (const char*)file);
 		}
+
+		++count;
 	}
+	postLogEvent(FixedString { "Total community levels: " } + FixedString::toString(count));
+
 	postLogEvent("Loading users...");
 	auto&& userspath = usersDirectory.getPath();
 	for (auto&& dir : usersDirectory.enumerate()) {
@@ -178,8 +185,14 @@ LocalSapphireDataStorage::LocalSapphireDataStorage() {
 		} else {
 			users.setSorted(user, StorageSapphireUser::compare);
 		}
+		if ((++count % 1000) == 0) {
+			postLogEvent(FixedString { "Loaded users: " } + FixedString::toString(count));
+		}
 	}
+	postLogEvent(FixedString { "Total loaded users: " } + FixedString::toString(count));
+
 	postLogEvent("Loading hardwares...");
+	count = 0;
 	auto&& hardwarepath = hardwareDirectory.getPath();
 	for (auto&& dir : hardwareDirectory.enumerate()) {
 		if (!dir.isDirectory()) {
@@ -193,9 +206,15 @@ LocalSapphireDataStorage::LocalSapphireDataStorage() {
 		hardware->loadProgress(hardwarepath + dir);
 
 		hardwares.setSorted(hardware, StorageUserHardware::compare);
+
+		if ((++count % 1000) == 0) {
+			postLogEvent(FixedString { "Loaded hardwares: " } + FixedString::toString(count));
+		}
 	}
+	postLogEvent(FixedString { "Total loaded hardwares: " } + FixedString::toString(count));
 
 	postLogEvent("Loading builtin level demos to statistics and leaderboards...");
+	count = 0;
 	for (auto&& a : builtinAssets) {
 		AssetFileDescriptor fd { a->asset };
 		Level l;
@@ -206,8 +225,15 @@ LocalSapphireDataStorage::LocalSapphireDataStorage() {
 			snprintf(buf, sizeof(buf), "Failed to load level: %u", a->asset);
 			postLogEvent(buf);
 		}
+
+		if ((++count % 10) == 0) {
+			postLogEvent(FixedString { "Loaded builtin levels: " } + FixedString::toString(count));
+		}
 	}
+	postLogEvent(FixedString { "Total loaded builtin levels: " } + FixedString::toString(count));
+
 	postLogEvent("Loading user level demos to statistics and leaderboards...");
+	count = 0;
 	for (auto&& l : descriptors) {
 		Level level;
 		if (level.loadLevel(l->getFileDescriptor())) {
@@ -215,7 +241,12 @@ LocalSapphireDataStorage::LocalSapphireDataStorage() {
 		} else {
 			postLogEvent(FixedString { "Failed to load level: " } + l->uuid);
 		}
+
+		if ((++count % 10) == 0) {
+			postLogEvent(FixedString { "Loaded user levels: " } + FixedString::toString(count));
+		}
 	}
+	postLogEvent(FixedString { "Total loaded user levels: " } + FixedString::toString(count));
 
 	postLogEvent("Loading messages...");
 	const unsigned int MAX_MESSAGES_FILE_READ_COUNT = 2;
@@ -282,6 +313,8 @@ LocalSapphireDataStorage::LocalSapphireDataStorage() {
 		messagesFileIndex = 0;
 		currentMessagesFileMessageCount = 0;
 	}
+
+	postLogEvent("Loading done.");
 
 	messageWriterThread.start();
 }
