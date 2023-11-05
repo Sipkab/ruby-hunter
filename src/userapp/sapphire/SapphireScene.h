@@ -457,16 +457,12 @@ private:
 	ArrayList<SapphireSteamAchievement> steamAchievements;
 	bool appBorrowed = false;
 
-	class SteamCallbacksContainer {
-	private:
-		STEAM_CALLBACK(SteamCallbacksContainer, onGameRichPresenceJoinRequested, GameRichPresenceJoinRequested_t);
-		STEAM_CALLBACK(SteamCallbacksContainer, onUserStatsReceived, UserStatsReceived_t);
+	//steam callbacks
+	CCallback<SapphireScene, GameRichPresenceJoinRequested_t> richPresenceCallback;
+	void onGameRichPresenceJoinRequested( GameRichPresenceJoinRequested_t *pParam );
+	CCallback<SapphireScene, UserStatsReceived_t> userStatsCallback;
+	void onUserStatsReceived( UserStatsReceived_t *pParam );
 
-		SapphireScene* scene;
-	public:
-		SteamCallbacksContainer(SapphireScene* _scene) : scene{ _scene } {
-		}
-	} callbackContainer { this };
 	void prepareSteamAchievements();
 
 	template<typename FunctionType, typename... Args>

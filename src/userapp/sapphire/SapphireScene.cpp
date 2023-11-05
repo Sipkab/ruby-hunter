@@ -668,7 +668,10 @@ void SapphireScene::performLoadingFinish(unsigned int version) {
 }
 
 SapphireScene::SapphireScene()
-		: communityConnection(this), gamepadKeyMap(SapphireKeyMap::gamepad_init { }) {
+		: communityConnection(this),
+		  gamepadKeyMap(SapphireKeyMap::gamepad_init { }),
+		  richPresenceCallback(this, &SapphireScene::onGameRichPresenceJoinRequested),
+		  userStatsCallback(this, &SapphireScene::onUserStatsReceived) {
 	dataDirectory.create();
 
 	randomer.setSeed((unsigned int) core::MonotonicTime::getCurrent());
@@ -2653,12 +2656,12 @@ void SapphireScene::startPlayingLevelRequested(const char* uuid) {
 	}
 	dialog->showDialog(this);
 }
-void SapphireScene::SteamCallbacksContainer::onGameRichPresenceJoinRequested(GameRichPresenceJoinRequested_t* param) {
+void SapphireScene::onGameRichPresenceJoinRequested(GameRichPresenceJoinRequested_t* param) {
 	LOGTRACE() << "Steam game rich presence join requested";
-	scene->startPlayingLevelRequested(param->m_rgchConnect);
+	this->startPlayingLevelRequested(param->m_rgchConnect);
 }
 
-void SapphireScene::SteamCallbacksContainer::onUserStatsReceived(UserStatsReceived_t* param) {
+void SapphireScene::onUserStatsReceived(UserStatsReceived_t* param) {
 	LOGTRACE() << "Steam user stats received";
 	if (param->m_nGameID != SAPPHIRE_STEAM_APP_ID) {
 		LOGTRACE() << "Not sapphire app id for stats received " << (unsigned long long) param->m_nGameID;
@@ -2683,7 +2686,7 @@ void SapphireScene::SteamCallbacksContainer::onUserStatsReceived(UserStatsReceiv
 		THROW() << "SteamApps() is nullptr";
 		return;
 	}
-	scene->setAppBorrowed(apps->GetAppOwner() != userid);
+	this->setAppBorrowed(apps->GetAppOwner() != userid);
 	class PrepareAchievementsMessage: public Message {
 	protected:
 		SapphireScene* scene;
@@ -2696,7 +2699,7 @@ void SapphireScene::SteamCallbacksContainer::onUserStatsReceived(UserStatsReceiv
 				: Message(), scene(scene) {
 		}
 	};
-	(new PrepareAchievementsMessage(scene))->post();
+	(new PrepareAchievementsMessage(this))->post();
 }
 static const unsigned int SKILL_ACHIEVEMENTS_COUNT = 9;
 static const char* ACHIEVEMENTS_SKILL[SKILL_ACHIEVEMENTS_COUNT] { //
