@@ -24,6 +24,7 @@
 #include <sapphire/level/SapphireLevelDescriptor.h>
 #include <sapphire/server/SapphireLevelDetails.h>
 #include <sapphire/community/SapphireDiscussionMessage.h>
+#include <sapphire/common/FantasyNames.h>
 
 #include <framework/io/stream/OutputStream.h>
 #include <framework/io/stream/InputStream.h>
@@ -836,6 +837,12 @@ bool LocalSapphireDataStorage::loadUser(StorageDirectoryDescriptor& dir, Storage
 			}
 		}
 	}
+	if (user->name.length() == 0) {
+		//generate fantasy names for users that don't have a name set so they don't all appear as "Player" on the leaderboards
+		//don't save this to the user files yet, save that when the user uploads
+		//until them, this dynamically retrieved fantasy name should be fine
+		user->name = generateFantasyName(user->uuid);
+	}
 	{
 		StorageFileDescriptor fd {dir.getPath() + USER_RATINGS_FILENAME};
 		auto stream = EndianInputStream<Endianness::Big>::wrap(BufferedInputStream::wrap(fd.openInputStream()));
@@ -1088,6 +1095,10 @@ SapphireStorageError LocalSapphireDataStorage::registerUser(const SapphireUUID& 
 
 	StorageSapphireUser* u = new StorageSapphireUser(uuid);
 	u->registrationToken = token;
+	//generate fantasy name as default name
+	//it will be overridden if the user chooses a different one
+	u->name = generateFantasyName(u->uuid);
+
 	StorageDirectoryDescriptor userdir { usersDirectory.getPath() + (const char*) u->getUUID().asString() };
 	userdir.create();
 	saveUser(userdir, *u);
