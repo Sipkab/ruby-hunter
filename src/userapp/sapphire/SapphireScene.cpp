@@ -47,6 +47,7 @@
 #include <sapphire/steam_opt.h>
 #include <sapphire/dialogs/LevelDetailsLayer.h>
 #include <sapphire/SapphireSteamAchievement.h>
+#include <sapphire/common/FantasyNames.h>
 
 #include <gen/xmldecl.h>
 #include <gen/log.h>
@@ -68,7 +69,7 @@ public:
 	RAssetFile assetId;
 };
 static const MusicAssetMapping MUSIC_MAPPING[] { //
-{ "A view to a Kill", rhfw::RAssets::gameres::game_sapphire::music::_000_A_view_to_a_kill_ogg }, //
+		{ "A view to a Kill", rhfw::RAssets::gameres::game_sapphire::music::_000_A_view_to_a_kill_ogg }, //
 		{ "Action", rhfw::RAssets::gameres::game_sapphire::music::_001_Action_ogg }, //
 		{ "Axel F", rhfw::RAssets::gameres::game_sapphire::music::_002_Axel_f_ogg }, //
 		{ "Calm", rhfw::RAssets::gameres::game_sapphire::music::_003_Calm_ogg }, //
@@ -657,6 +658,11 @@ void SapphireScene::performLoadingFinish(unsigned int version) {
 		}
 	}
 #endif /* defined(SAPPHIRE_STEAM_API_AVAILABLE) */
+	if (currentUser.getUserName().length() == 0) {
+		// generate fantasy name
+		currentUser.getUserName() = generateFantasyName(currentUser.getUUID());
+		writeSettings();
+	}
 
 	getConnection().connect(this);
 }
@@ -1250,6 +1256,7 @@ void SapphireScene::updateLevelDemosWithUUID() {
 	}
 }
 void SapphireScene::updateLevelStatesWithUUID() {
+	LOGTRACE() << "update level states with UUID";
 	StorageFileDescriptor newfile { StorageDirectoryDescriptor::Root() + "temporary" };
 	{
 		auto stream = EndianOutputStream<Endianness::Host>::wrap(newfile.openOutputStream());
@@ -1258,6 +1265,7 @@ void SapphireScene::updateLevelStatesWithUUID() {
 			for (unsigned int diff = 0; diff < (unsigned int) SapphireDifficulty::_count_of_entries; ++diff) {
 				for (auto&& desc : levels[pc][diff]) {
 					if (desc->state != LevelState::UNSEEN) {
+						LOGI() << "Update level state: " << desc->getTitle() << " - " << (uint32) desc->state;
 						stream.serialize<SapphireUUID>(desc->uuid);
 						stream.serialize<uint32>((uint32) desc->state);
 					}
@@ -2110,7 +2118,7 @@ unsigned int SapphireScene::getUserProgressScore() {
 }
 const char* difficultyColorToSkillLevelName(SapphireDifficulty diff) {
 	static const char* MAP[] {		//
-	"Newbie",		//
+			"Newbie",		//
 			"Novice",		//
 			"Beginner",		//
 			"Advanced",		//
@@ -2424,6 +2432,7 @@ ProgressSynchId SapphireScene::countProgressSynchId() {
 	return result;
 }
 void SapphireScene::upgradeVersionCollectProgress() {
+	LOGTRACE() << "Updating progress versions";
 	auto&& ostream = EndianOutputStream<Endianness::Big>::wrap(progressFile.openOutputStream());
 
 	ProgressSynchId localid = 0;
@@ -2433,6 +2442,7 @@ void SapphireScene::upgradeVersionCollectProgress() {
 		for (unsigned int diff = 0; diff < (unsigned int) SapphireDifficulty::_count_of_entries; ++diff) {
 			for (auto&& desc : levels[pc][diff]) {
 				if (desc->state != LevelState::UNSEEN) {
+					LOGI() << "Update level progress: " << localid << " : " << desc->getTitle() << " - " << (uint32) desc->state;
 					++localid;
 					if (desc->state == LevelState::COMPLETED) {
 						int loadeddemos = loadCustomDemosHandler(desc, [&](Demo* d) {
@@ -2688,7 +2698,7 @@ void SapphireScene::onUserStatsReceived(UserStatsReceived_t* param) {
 }
 static const unsigned int SKILL_ACHIEVEMENTS_COUNT = 9;
 static const char* ACHIEVEMENTS_SKILL[SKILL_ACHIEVEMENTS_COUNT] { //
-"SKILL_NOVICE", //
+		"SKILL_NOVICE", //
 		"SKILL_BEGINNER", //
 		"SKILL_ADVANCED", //
 		"SKILL_APPRENTICE", //
@@ -2699,7 +2709,7 @@ static const char* ACHIEVEMENTS_SKILL[SKILL_ACHIEVEMENTS_COUNT] { //
 		"SKILL_GRANDMASTER", //
 };
 static const unsigned int ACHIEVEMENTS_SKILL_THRESHOLDS[SKILL_ACHIEVEMENTS_COUNT] { //
-SAPPHIRE_DIFFICULTY_SCORE_TUTORIAL, //
+		SAPPHIRE_DIFFICULTY_SCORE_TUTORIAL, //
 		SAPPHIRE_DIFFICULTY_SCORE_SIMPLE, //
 		SAPPHIRE_DIFFICULTY_SCORE_EASY, //
 		SAPPHIRE_DIFFICULTY_SCORE_MODERATE, //
@@ -2728,7 +2738,7 @@ public:
 	unsigned int targetCount;
 };
 static const DifficultyCompletionHolder ACHIEVEMENTS_DIFFICULTY_COMPLETIONS[] { //
-DifficultyCompletionHolder { "L_TUT1", SapphireDifficulty::Tutorial, 1, 21 }, //
+		DifficultyCompletionHolder { "L_TUT1", SapphireDifficulty::Tutorial, 1, 21 }, //
 		DifficultyCompletionHolder { "L_SIM1", SapphireDifficulty::Simple, 1, 9 }, //
 		DifficultyCompletionHolder { "L_EAS1", SapphireDifficulty::Easy, 1, 26 }, //
 		DifficultyCompletionHolder { "L_MOD1", SapphireDifficulty::Moderate, 1, 52 }, //
@@ -2756,7 +2766,7 @@ public:
 	unsigned int (LevelStatistics::*statMemberPointer)() const;
 };
 static const StatisticHolder ACHIEVEMENTS_STATISTICS[] { //
-StatisticHolder { "C_EMERALD", &LevelStatistics::getEmeraldCollected }, //
+		StatisticHolder { "C_EMERALD", &LevelStatistics::getEmeraldCollected }, //
 		StatisticHolder { "C_CITRINE", &LevelStatistics::getCitrineCollected }, //
 		StatisticHolder { "C_SAPPHIRE", &LevelStatistics::getSapphireCollected }, //
 		StatisticHolder { "C_RUBY", &LevelStatistics::getRubyCollected }, //
