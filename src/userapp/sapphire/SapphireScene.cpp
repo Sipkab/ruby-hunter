@@ -668,10 +668,13 @@ void SapphireScene::performLoadingFinish(unsigned int version) {
 }
 
 SapphireScene::SapphireScene()
-		: communityConnection(this),
-		  gamepadKeyMap(SapphireKeyMap::gamepad_init { }),
+		:
+#if defined(SAPPHIRE_STEAM_API_AVAILABLE)
 		  richPresenceCallback(this, &SapphireScene::onGameRichPresenceJoinRequested),
-		  userStatsCallback(this, &SapphireScene::onUserStatsReceived) {
+		  userStatsCallback(this, &SapphireScene::onUserStatsReceived),
+#endif /* defined(SAPPHIRE_STEAM_API_AVAILABLE) */
+		  communityConnection(this),
+		  gamepadKeyMap(SapphireKeyMap::gamepad_init { }) {
 	dataDirectory.create();
 
 	randomer.setSeed((unsigned int) core::MonotonicTime::getCurrent());
