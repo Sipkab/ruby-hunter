@@ -258,6 +258,7 @@ LocalSapphireDataStorage::LocalSapphireDataStorage() {
 		snprintf(buf, sizeof(buf), MESSAGES_FILE_FORMAT_FILENAME, messagesFileIndex);
 		StorageFileDescriptor fd { messagesDirectory.getPath() + buf };
 		if (fd.exists()) {
+			postLogEvent(FixedString { "Present messages file: " } + buf);
 			messagesindexes[0] = messagesindexes[1];
 			messagesindexes[1] = messagesFileIndex;
 
@@ -274,6 +275,7 @@ LocalSapphireDataStorage::LocalSapphireDataStorage() {
 		snprintf(buf, sizeof(buf), MESSAGES_FILE_FORMAT_2_FILENAME, messagesFileIndex);
 		StorageFileDescriptor fd { messagesDirectory.getPath() + buf };
 		if (fd.exists()) {
+			postLogEvent(FixedString { "Present messages file: " } + buf);
 			messagesindexes[0] = messagesindexes[1];
 			messagesindexes[1] = messagesFileIndex;
 
@@ -294,16 +296,18 @@ LocalSapphireDataStorage::LocalSapphireDataStorage() {
 		}
 		//messagesFileIndex is the last non-existing file
 		//read the last and before that
-		bool validfile;
+		bool validfile = true;
 		unsigned int padding = MAX_MESSAGES_FILE_READ_COUNT - foundmessagesfiles;
 		for (unsigned int i = 0; i < foundmessagesfiles; ++i) {
+			postLogEvent(FixedString { "Read messages file idx: " } + FixedString::toString(messagesindexes[padding + i]) + " format: " + FixedString::toString(messagesformat[padding + i]));
 			currentMessagesFileMessageCount = readMessagesFile(messagesindexes[padding + i], &validfile, messagesformat[padding + i]);
+			postLogEvent(FixedString { "Read messages count: " } + FixedString::toString(currentMessagesFileMessageCount) + (validfile ? " valid: TRUE" : " valid: FALSE"));
 		}
 		if (messagesformat[foundmessagesfiles - 1] == 1) {
 			//last file is format 1, the new one should be format 2, reset file index
 			messagesFileIndex = 0;
 		} else {
-			messagesFileIndex = messagesformat[foundmessagesfiles - 1];
+			messagesFileIndex = messagesindexes[foundmessagesfiles - 1];
 		}
 		if (!validfile) {
 			++messagesFileIndex;
@@ -313,6 +317,7 @@ LocalSapphireDataStorage::LocalSapphireDataStorage() {
 		messagesFileIndex = 0;
 		currentMessagesFileMessageCount = 0;
 	}
+	postLogEvent(FixedString { "Current messages file index: " } + FixedString::toString(messagesFileIndex) + " count: " + FixedString::toString(currentMessagesFileMessageCount));
 
 	postLogEvent("Loading done.");
 
@@ -473,8 +478,8 @@ unsigned int LocalSapphireDataStorage::readMessagesFile1(unsigned int index, boo
 		if (founduser == nullptr) {
 			//user not found anymore, file is corrupted
 			*validfile = false;
-			LOGI()<< "User not found in messages file: " << fd.getPath().getURI() << " " << userid.asString();
-			break;
+			LOGI()<< "User not found in messages file: " << fd.getPath().getURI() << " " << userid.asString() << " For message: " << message;
+			continue;
 		}
 
 		auto* msg = new StorageDiscussionMessage { founduser, util::move(message) };
@@ -498,7 +503,6 @@ unsigned int LocalSapphireDataStorage::readMessagesFile2(unsigned int index, boo
 	while (true) {
 		SapphireUUID userid;
 		FixedString message;
-		FixedString username;
 		SapphireDifficulty diffcolor;
 		if (istream.deserialize<SapphireUUID>(userid)) {
 			if (!istream.deserialize<SafeFixedString<SAPPHIRE_DISCUSSION_MESSAGE_MAX_LEN>>(message)) {
@@ -513,9 +517,8 @@ unsigned int LocalSapphireDataStorage::readMessagesFile2(unsigned int index, boo
 		auto* founduser = findUserLocked(userid);
 		if (founduser == nullptr) {
 			//user not found anymore, file is corrupted
-			*validfile = false;
-			LOGI()<< "User not found in messages file: " << fd.getPath().getURI() << " " << userid.asString();
-			break;
+			LOGI()<< "User not found in messages file: " << fd.getPath().getURI() << " " << userid.asString() << " For message: " << message;
+			continue;
 		}
 
 		auto* msg = new StorageDiscussionMessage { founduser, util::move(message) };
@@ -584,6 +587,7 @@ SapphireStorageError LocalSapphireDataStorage::appendMessage(const SapphireUUID&
 		}
 	}
 	messageWriterThread.post([=] {
+		LOGTRACE() << "Serialize message: " << msgstr << " current msg file message count: " << currentMessagesFileMessageCount;
 		if(currentMessagesFileMessageCount >= MAX_MESSAGES_PER_FILE) {
 			++messagesFileIndex;
 			currentMessagesFileMessageCount = 0;
@@ -592,6 +596,8 @@ SapphireStorageError LocalSapphireDataStorage::appendMessage(const SapphireUUID&
 		}
 		char buf[64];
 		snprintf(buf, sizeof(buf), MESSAGES_FILE_FORMAT_2_FILENAME, messagesFileIndex);
+		LOGTRACE() << "Message file name: " << buf;
+
 		StorageFileDescriptor fd {messagesDirectory.getPath() + buf};
 
 		auto ostream = EndianOutputStream<Endianness::Big>::wrap(fd.openAppendStream());
@@ -1319,11 +1325,15 @@ SapphireStorageError LocalSapphireDataStorage::getLevelStatistics(const Sapphire
 
 void LocalSapphireDataStorage::applyLeaderboardData(StorageSapphireUser* user, StorageLevelStatistics* foundstats,
 		const LevelStatistics& stats, PlayerDemoId demoid, unsigned int demotime) {
+	applyLeaderboardData(user, foundstats, demoid, stats.getCollectedGemWorth(), stats.moveCount, demotime);
+}
+void LocalSapphireDataStorage::applyLeaderboardData(StorageSapphireUser* user, StorageLevelStatistics* foundstats,
+		PlayerDemoId demoid, unsigned int gemWorth, unsigned int moveCount, unsigned int demotime) {
 	foundstats->getLeaderboard(SapphireLeaderboards::MostGems).addEntry(
-			new StorageLeaderboardEntry(user, stats.getCollectedGemWorth(), demoid),
+			new StorageLeaderboardEntry(user, gemWorth, demoid),
 			StorageLeaderboardEntry::comparatorMostGems);
 	foundstats->getLeaderboard(SapphireLeaderboards::LeastSteps).addEntry(
-			new StorageLeaderboardEntry(user, stats.moveCount, demoid),
+			new StorageLeaderboardEntry(user, moveCount, demoid),
 			StorageLeaderboardEntry::comparatorLeastSteps);
 	foundstats->getLeaderboard(SapphireLeaderboards::LeastTime).addEntry(
 			new StorageLeaderboardEntry(user, demotime, demoid),

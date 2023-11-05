@@ -464,6 +464,8 @@ class LocalSapphireDataStorage: public SapphireDataStorage {
 
 	void applyLeaderboardData(StorageSapphireUser* user, StorageLevelStatistics* foundstats, const LevelStatistics& stats,
 			PlayerDemoId demoid, unsigned int demotime);
+	void applyLeaderboardData(StorageSapphireUser* user, StorageLevelStatistics* foundstats,
+				PlayerDemoId demoid, unsigned int gemWorth, unsigned int moveCount, unsigned int demotime);
 public:
 	LocalSapphireDataStorage();
 	~LocalSapphireDataStorage();
