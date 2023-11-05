@@ -2653,11 +2653,13 @@ void SapphireScene::startPlayingLevelRequested(const char* uuid) {
 	}
 	dialog->showDialog(this);
 }
-void SapphireScene::onGameRichPresenceJoinRequested(GameRichPresenceJoinRequested_t* param) {
-	startPlayingLevelRequested(param->m_rgchConnect);
+void SapphireScene::SteamCallbacksContainer::onGameRichPresenceJoinRequested(GameRichPresenceJoinRequested_t* param) {
+	LOGTRACE() << "Steam game rich presence join requested";
+	scene->startPlayingLevelRequested(param->m_rgchConnect);
 }
 
-void SapphireScene::onUserStatsReceived(UserStatsReceived_t* param) {
+void SapphireScene::SteamCallbacksContainer::onUserStatsReceived(UserStatsReceived_t* param) {
+	LOGTRACE() << "Steam user stats received";
 	if (param->m_nGameID != SAPPHIRE_STEAM_APP_ID) {
 		LOGTRACE() << "Not sapphire app id for stats received " << (unsigned long long) param->m_nGameID;
 		return;
@@ -2681,7 +2683,7 @@ void SapphireScene::onUserStatsReceived(UserStatsReceived_t* param) {
 		THROW() << "SteamApps() is nullptr";
 		return;
 	}
-	appBorrowed = apps->GetAppOwner() != userid;
+	scene->setAppBorrowed(apps->GetAppOwner() != userid);
 	class PrepareAchievementsMessage: public Message {
 	protected:
 		SapphireScene* scene;
@@ -2694,7 +2696,7 @@ void SapphireScene::onUserStatsReceived(UserStatsReceived_t* param) {
 				: Message(), scene(scene) {
 		}
 	};
-	(new PrepareAchievementsMessage(this))->post();
+	(new PrepareAchievementsMessage(scene))->post();
 }
 static const unsigned int SKILL_ACHIEVEMENTS_COUNT = 9;
 static const char* ACHIEVEMENTS_SKILL[SKILL_ACHIEVEMENTS_COUNT] { //

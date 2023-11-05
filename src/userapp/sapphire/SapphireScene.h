@@ -457,8 +457,16 @@ private:
 	ArrayList<SapphireSteamAchievement> steamAchievements;
 	bool appBorrowed = false;
 
-	STEAM_CALLBACK(SapphireScene, onGameRichPresenceJoinRequested, GameRichPresenceJoinRequested_t);
-	STEAM_CALLBACK(SapphireScene, onUserStatsReceived, UserStatsReceived_t);
+	class SteamCallbacksContainer {
+	private:
+		STEAM_CALLBACK(SteamCallbacksContainer, onGameRichPresenceJoinRequested, GameRichPresenceJoinRequested_t);
+		STEAM_CALLBACK(SteamCallbacksContainer, onUserStatsReceived, UserStatsReceived_t);
+
+		SapphireScene* scene;
+	public:
+		SteamCallbacksContainer(SapphireScene* _scene) : scene{ _scene } {
+		}
+	} callbackContainer { this };
 	void prepareSteamAchievements();
 
 	template<typename FunctionType, typename... Args>
@@ -857,6 +865,9 @@ public:
 #if defined(SAPPHIRE_STEAM_API_AVAILABLE)
 	bool isAppBorrowed() const {
 		return appBorrowed;
+	}
+	void setAppBorrowed(bool borrowed) {
+		this->appBorrowed = borrowed;
 	}
 #endif /* defined(SAPPHIRE_STEAM_API_AVAILABLE) */
 };

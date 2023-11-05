@@ -285,7 +285,7 @@ export_win32(
 	)
 }
 compile_win32_steam() {
-	compilewin32(steamavailable: true)
+	compile_win32(steamavailable: true)
 }
 export_win32_steam() {
 	export_win32_steam_x64()
