@@ -10,7 +10,8 @@ static(RH.RELEASE) = std.param.exec(rh.release, Default: false)
 resources(
 	in platformname,
 	in debug = !static(RH.RELEASE),
-	in appname = static(NAME),
+	in appbasename = static(NAME),
+	in appname = "{ $appbasename }{ $debug ? " Debug" : ""}",
 	
 	out projectconfig,
 	out types,
@@ -333,7 +334,7 @@ compile_android(
 		$aapt2compile, 
 		Manifest: android/AndroidManifest.xml,
 		MinSDKVersion: 9,
-		TargetSDKVersion: 29,
+		TargetSDKVersion: 34,
 	)
 	
 	$includedirs = [
@@ -831,7 +832,7 @@ export_ios(
 }
 
 compile_server_linux(
-	in resources = resources(platformname: linux, appname: "{ static(NAME) } Server")
+	in resources = resources(platformname: linux, appbasename: "{ static(NAME) } Server")
 	
 	out resources,
 	out exepath,
