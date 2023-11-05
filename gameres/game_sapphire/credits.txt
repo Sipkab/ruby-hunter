@@ -13,23 +13,23 @@ Version 5.0.0
 
 !Original game logic by
 Reinhard Grafl
-Jï¿½rgen Wallner
+Jürgen Wallner
 
 
 !Game levels
 Ronald Grafl
 Reinhard Grafl
-Jï¿½rgen Wallner
+Jürgen Wallner
 Michi Wallner
 Leo de Bruin
 Erik Eckstein
 Alexander Hill
-Jï¿½rgen Bonhagen
+Jürgen Bonhagen
 Anica Grafl
 Bence Sipka
 
 !Original game music by
-Jï¿½rgen Wallner
+Jürgen Wallner
 
 !Level editor
 Bence Sipka
