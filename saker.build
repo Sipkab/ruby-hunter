@@ -28,6 +28,7 @@ resources(
 	out debug,
 	
 	out appname,
+	out appbasename,
 	
 	out sourcedirs = [
 		$types[SourceDirectory],
@@ -247,7 +248,7 @@ compile_win32(
 		Architecture: $architecture,
 		Identifier: "main-win32{ $steamavailable ? "-steam" : "" }",
 		LinkerOptions: $linkeroptions,
-		BinaryName: $resources[appname],
+		BinaryName: $resources[appbasename],
 	)
 }
 export_win32(
@@ -497,8 +498,9 @@ compile_winstore(
 			$thirdpartycompile,
 		],
 		Architecture: $architecture,
+		Identifier: "main-winstore-{ $architecture }"
 		LinkerOptions: $linkeroptions,
-		BinaryName: $resources[appname]
+		BinaryName: $resources[appbasename]
 	)
 }
 export_winstore(
@@ -658,7 +660,7 @@ compile_macosx(
 		],
 		Identifier: "main-macosx{ $steamavailable ? "-steam" : "" }",
 		LinkerOptions: $linkeroptions,
-		BinaryName: $resources[appname],
+		BinaryName: $resources[appbasename],
 	)
 	
 	$plist = saker.plist.insert(
@@ -794,7 +796,7 @@ compile_ios(
 		],
 		Identifier: "main-ios",
 		LinkerOptions: $linkeroptions,
-		BinaryName: $resources[appname],
+		BinaryName: $resources[appbasename],
 	)
 	
 	$plist = saker.plist.insert(
