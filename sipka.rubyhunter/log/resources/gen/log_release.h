@@ -36,11 +36,11 @@ public:
 
 } // namespace rhfw
 
-#define WARN(condition) LOGW()
+#define WARN(condition) LOGW() << "Conditional warning: (" STRINGIZE((condition)) "): "
 #define LOGTRACE() LOGD()
 #define THROW() LOGWTF()
-#define THROWIF(condition) LOGWTF()
-#define ASSERT(condition) LOGWTF()
+#define THROWIF(condition) LOGWTF() << "Conditional exception (" STRINGIZE((condition)) "): "
+#define ASSERT(condition) LOGWTF() << "Assertion failed (" STRINGIZE((condition)) "): "
 
 #define LOGV() if(false) ::rhfw::Logger<::rhfw::__LoggingLevel::LEVEL_VERBOSE>{ }
 #define LOGD() if(false) ::rhfw::Logger<::rhfw::__LoggingLevel::LEVEL_DEBUG>{ }
