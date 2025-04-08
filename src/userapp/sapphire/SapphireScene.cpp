@@ -1403,6 +1403,7 @@ void SapphireScene::upgradeVersionPostLoad<SAPPHIRE_RELEASE_VERSION_NUMBER>() {
 #define SETTINGS_LENGTH_V1 (SETTINGS_LENGTH_V0 + 4)
 
 unsigned int SapphireScene::loadSettings() {
+	LOGTRACE() << "Loading settings, settings file size: " << settingsFile.size();
 	auto* in = settingsFile.createInput();
 	unsigned int version = 0;
 
