@@ -1397,7 +1397,7 @@ void platform_bridge::application_main(void* arg) {
 
 		const bool waitInfinite = !core::GlobalMonotonicTimeListener::hasListeners() && !didDraw;
 
-		int pollres = ALooper_pollAll(waitInfinite ? -1 : 0, nullptr, nullptr, nullptr);
+		int pollres = ALooper_pollOnce(waitInfinite ? -1 : 0, nullptr, nullptr, nullptr);
 		WARN(pollres != ALOOPER_POLL_WAKE && pollres != ALOOPER_POLL_CALLBACK && pollres != ALOOPER_POLL_TIMEOUT) << "Unknown looper return id: " << pollres;
 		ASSERT(pollres != ALOOPER_POLL_ERROR) << "pollOnce returned ALOOPER_POLL_ERROR, " << strerror(errno);
 	}
