@@ -46,6 +46,7 @@ import saker.build.task.TaskFactory;
 import saker.build.task.utils.dependencies.EqualityTaskOutputChangeDetector;
 import saker.build.thirdparty.saker.util.ImmutableUtils;
 import saker.build.thirdparty.saker.util.io.ByteArrayRegion;
+import saker.build.thirdparty.saker.util.io.ByteSink;
 import saker.build.thirdparty.saker.util.io.SerialUtils;
 import saker.build.thirdparty.saker.util.io.UnsyncByteArrayOutputStream;
 import saker.build.trace.BuildTrace;
@@ -76,8 +77,7 @@ public class XmlCompilerWorkerTaskFactory
 	public XmlCompilerWorkerTaskFactory() {
 	}
 
-	public XmlCompilerWorkerTaskFactory(bence.sipka.compiler.xml.XmlParseTaskFactory.Output output,
-			bence.sipka.compiler.types.TypesTaskFactory.Output typesOption) {
+	public XmlCompilerWorkerTaskFactory(XmlParseTaskFactory.Output output, TypesTaskFactory.Output typesOption) {
 		this.output = output;
 		this.typesOption = typesOption;
 	}
@@ -124,11 +124,12 @@ public class XmlCompilerWorkerTaskFactory
 		Collections.sort(xmlCompileHeaderData.serializers);
 
 		for (Entry<Document, SakerFile> docentry : xmldocuments) {
-			ByteArrayRegion compiledbytes = compile(docentry.getKey(), xmlCompileHeaderData);
-			ByteArraySakerFile nfile = new ByteArraySakerFile(docentry.getValue().getName(), compiledbytes);
+			String filename = docentry.getValue().getName();
+			ByteArrayRegion compiledbytes = compile(docentry.getKey(), xmlCompileHeaderData, filename);
+			ByteArraySakerFile nfile = new ByteArraySakerFile(filename, compiledbytes);
 			SakerFile prev = buildDirectory.add(nfile);
 			if (prev != null) {
-				throw new IllegalArgumentException("Duplicate xmls: " + docentry.getValue().getName());
+				throw new IllegalArgumentException("Duplicate xmls: " + filename);
 			}
 		}
 
@@ -167,21 +168,21 @@ public class XmlCompilerWorkerTaskFactory
 		return result;
 	}
 
-	private ByteArrayRegion compile(Document doc, XmlCompileHeaderData xmlCompileHeaderData) {
+	private ByteArrayRegion compile(Document doc, XmlCompileHeaderData xmlCompileHeaderData, String filename) {
 		try (UnsyncByteArrayOutputStream os = new UnsyncByteArrayOutputStream()) {
 			// version
 			IntegerType.INSTANCE.serialize(1, os);
 
 			TranslateMetaData meta = new TranslateMetaData();
-			try (ByteArrayOutputStream rootos = new ByteArrayOutputStream()) {
-				compile(doc.getFirstChild(), rootos, meta, xmlCompileHeaderData);
+			try (UnsyncByteArrayOutputStream rootos = new UnsyncByteArrayOutputStream()) {
+				compile(doc.getFirstChild(), rootos, meta, xmlCompileHeaderData, filename);
 
 				// max attribute count for element
 				IntegerType.INSTANCE.serialize(meta.maxAttributeCount, os);
 				// size of the largest attribute block
 				IntegerType.INSTANCE.serialize(meta.maxAttributeBlockLength, os);
 
-				rootos.writeTo(os);
+				rootos.writeTo((OutputStream) os);
 				return os.toByteArrayRegion();
 			}
 		} catch (IOException e) {
@@ -189,8 +190,8 @@ public class XmlCompilerWorkerTaskFactory
 		}
 	}
 
-	private void compile(Node n, OutputStream os, TranslateMetaData meta, XmlCompileHeaderData xmlCompileHeaderData)
-			throws IOException {
+	private void compile(Node n, OutputStream os, TranslateMetaData meta, XmlCompileHeaderData xmlCompileHeaderData,
+			String filename) throws IOException {
 		if (n.getNodeType() != Element.ELEMENT_NODE)
 			return;
 
@@ -201,8 +202,8 @@ public class XmlCompilerWorkerTaskFactory
 		String searchname = isEmbedded(nodename) ? nodename.substring(nodename.indexOf('.') + 1) : nodename;
 		ElementDeclaration dynamictype = output.xmlelements.get(searchname);
 		if (dynamictype == null)
-			throw new RuntimeException(
-					"Failed to find declared element with name: " + searchname + " in " + output.xmlelements.keySet());
+			throw new RuntimeException(filename + " : Failed to find declared element with name: " + searchname + " in "
+					+ output.xmlelements.keySet());
 		ElementDeclaration statictype = getStaticTypeFor(n, dynamictype);
 
 		final int childcount = countValidChildren(children);
@@ -224,13 +225,13 @@ public class XmlCompilerWorkerTaskFactory
 					continue;
 				AttributeDeclaration attrdecl = dynamictype.findAttribute(attr.getLocalName(), output.xmlelements);
 				if (attrdecl == null)
-					throw new RuntimeException(
-							"Attribute declaration: " + attr.getLocalName() + " not found for element: " + searchname);
+					throw new RuntimeException(filename + " : Attribute declaration: " + attr.getLocalName()
+							+ " not found for element: " + searchname);
 
 				TypeDeclaration type = parseType(attrdecl.getType());
 				if (type == null) {
-					throw new RuntimeException(
-							"Type not found for name: " + attrdecl.getType() + " for node: " + n.getNodeName());
+					throw new RuntimeException(filename + " : Type not found for name: " + attrdecl.getType()
+							+ " for node: " + n.getNodeName());
 				}
 				short id = (short) xmlCompileHeaderData.serializers.indexOf(type);
 
@@ -255,7 +256,7 @@ public class XmlCompilerWorkerTaskFactory
 			meta.maxAttributeBlockLength = Math.max(meta.maxAttributeBlockLength, attributeblock.size());
 		}
 		for (int i = 0; i < children.getLength(); i++) {
-			compile(children.item(i), os, meta, xmlCompileHeaderData);
+			compile(children.item(i), os, meta, xmlCompileHeaderData, filename);
 		}
 	}
 
@@ -333,7 +334,6 @@ public class XmlCompilerWorkerTaskFactory
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ((ATTRIBUTE_TESTER == null) ? 0 : ATTRIBUTE_TESTER.hashCode());
 		result = prime * result + ((output == null) ? 0 : output.hashCode());
 		result = prime * result + ((typesOption == null) ? 0 : typesOption.hashCode());
 		return result;
@@ -348,11 +348,6 @@ public class XmlCompilerWorkerTaskFactory
 		if (getClass() != obj.getClass())
 			return false;
 		XmlCompilerWorkerTaskFactory other = (XmlCompilerWorkerTaskFactory) obj;
-		if (ATTRIBUTE_TESTER == null) {
-			if (other.ATTRIBUTE_TESTER != null)
-				return false;
-		} else if (!ATTRIBUTE_TESTER.equals(other.ATTRIBUTE_TESTER))
-			return false;
 		if (output == null) {
 			if (other.output != null)
 				return false;

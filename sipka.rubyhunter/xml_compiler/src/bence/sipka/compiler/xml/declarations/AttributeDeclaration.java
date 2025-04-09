@@ -25,7 +25,7 @@ import org.w3c.dom.Node;
 
 import saker.build.thirdparty.saker.util.io.SerialUtils;
 
-public class AttributeDeclaration implements Externalizable {
+public final class AttributeDeclaration implements Externalizable {
 	private static final long serialVersionUID = 1L;
 
 	private static final String ATTR_NAME = "name";
@@ -110,8 +110,19 @@ public class AttributeDeclaration implements Externalizable {
 
 	@Override
 	public String toString() {
-		return "AttributeDeclaration[" + (name != null ? "name=" + name + ", " : "")
-				+ (type != null ? "type=" + type : "") + "]";
+		StringBuilder builder = new StringBuilder(getClass().getSimpleName());
+		builder.append("[");
+		if (name != null) {
+			builder.append("name=");
+			builder.append(name);
+			builder.append(", ");
+		}
+		if (type != null) {
+			builder.append("type=");
+			builder.append(type);
+		}
+		builder.append("]");
+		return builder.toString();
 	}
 
 }

@@ -33,7 +33,7 @@ import org.w3c.dom.NodeList;
 
 import saker.build.thirdparty.saker.util.io.SerialUtils;
 
-public class ElementDeclaration implements Externalizable {
+public final class ElementDeclaration implements Externalizable {
 	private static final long serialVersionUID = 1L;
 
 	private static final String ATTR_NAME = "name";
@@ -147,6 +147,23 @@ public class ElementDeclaration implements Externalizable {
 		if (getClass() != obj.getClass())
 			return false;
 		ElementDeclaration other = (ElementDeclaration) obj;
+		if (attributes == null) {
+			if (other.attributes != null)
+				return false;
+		} else if (!attributes.equals(other.attributes))
+			return false;
+		if (defStatic == null) {
+			if (other.defStatic != null)
+				return false;
+		} else if (!defStatic.equals(other.defStatic))
+			return false;
+		if (elementAbstract != other.elementAbstract)
+			return false;
+		if (inherit == null) {
+			if (other.inherit != null)
+				return false;
+		} else if (!inherit.equals(other.inherit))
+			return false;
 		if (name == null) {
 			if (other.name != null)
 				return false;

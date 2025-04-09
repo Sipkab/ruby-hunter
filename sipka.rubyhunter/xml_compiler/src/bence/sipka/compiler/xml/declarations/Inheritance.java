@@ -24,7 +24,7 @@ import org.w3c.dom.Node;
 
 import saker.build.thirdparty.saker.util.io.SerialUtils;
 
-public class Inheritance implements Externalizable {
+public final class Inheritance implements Externalizable {
 	private static final long serialVersionUID = 1L;
 
 	private static final String ATTR_BASE = "base";
@@ -86,7 +86,14 @@ public class Inheritance implements Externalizable {
 
 	@Override
 	public String toString() {
-		return "Inheritance[" + (base != null ? "base=" + base : "") + "]";
+		StringBuilder builder = new StringBuilder(getClass().getSimpleName());
+		builder.append("[");
+		if (base != null) {
+			builder.append("base=");
+			builder.append(base);
+		}
+		builder.append("]");
+		return builder.toString();
 	}
 
 }

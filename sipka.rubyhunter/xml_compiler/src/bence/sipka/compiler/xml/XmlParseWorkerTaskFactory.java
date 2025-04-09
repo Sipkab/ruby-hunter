@@ -25,6 +25,7 @@ import saker.build.task.Task;
 import saker.build.task.TaskContext;
 import saker.build.task.TaskFactory;
 import saker.build.task.dependencies.FileCollectionStrategy;
+import saker.build.task.utils.dependencies.EqualityTaskOutputChangeDetector;
 import saker.build.thirdparty.saker.util.ImmutableUtils;
 import saker.build.thirdparty.saker.util.io.SerialUtils;
 import saker.build.trace.BuildTrace;
@@ -123,6 +124,7 @@ public class XmlParseWorkerTaskFactory
 					gendirectorypath.resolve(docentry.getValue().getName()));
 		}
 
+		taskcontext.reportSelfTaskOutputChangeDetector(new EqualityTaskOutputChangeDetector(output));
 		return output;
 	}
 
@@ -186,8 +188,8 @@ public class XmlParseWorkerTaskFactory
 
 	@Override
 	public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
-		input = SerialUtils.readExternalImmutableLinkedHashSet(in);
 		configs = SerialUtils.readExternalImmutableLinkedHashSet(in);
+		input = SerialUtils.readExternalImmutableLinkedHashSet(in);
 	}
 
 	@Override

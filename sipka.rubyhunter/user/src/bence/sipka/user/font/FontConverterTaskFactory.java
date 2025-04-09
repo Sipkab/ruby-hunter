@@ -112,6 +112,23 @@ public class FontConverterTaskFactory extends FrontendTaskFactory<Object> {
 				return false;
 			return true;
 		}
+
+		@Override
+		public String toString() {
+			StringBuilder builder = new StringBuilder(getClass().getName());
+			builder.append("[");
+			if (assets != null) {
+				builder.append("assets=");
+				builder.append(assets);
+				builder.append(", ");
+			}
+			if (xmls != null) {
+				builder.append("xmls=");
+				builder.append(xmls);
+			}
+			builder.append("]");
+			return builder.toString();
+		}
 	}
 
 	@Override
