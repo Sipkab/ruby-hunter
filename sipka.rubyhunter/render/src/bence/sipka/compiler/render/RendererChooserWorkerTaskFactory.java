@@ -11,7 +11,6 @@ import java.util.NavigableSet;
 import java.util.TreeMap;
 import java.util.stream.Collectors;
 
-import bence.sipka.compiler.render.RendererChooserTaskFactory.Output;
 import bence.sipka.compiler.source.SourceSakerFile;
 import bence.sipka.compiler.source.TemplatedSource;
 import bence.sipka.compiler.source.TemplatedSourceSakerFile;
@@ -63,7 +62,7 @@ public class RendererChooserWorkerTaskFactory implements TaskFactory<RendererCho
 	}
 
 	@Override
-	public Output run(TaskContext taskcontext) throws Exception {
+	public RendererChooserTaskFactory.Output run(TaskContext taskcontext) throws Exception {
 		if (saker.build.meta.Versions.VERSION_FULL_COMPOUND >= 8_006) {
 			BuildTrace.classifyTask(BuildTrace.CLASSIFICATION_WORKER);
 			LinkedHashMap<Object, Object> vals = new LinkedHashMap<>();
@@ -128,7 +127,8 @@ public class RendererChooserWorkerTaskFactory implements TaskFactory<RendererCho
 				sourcedir.getFilesRecursiveByPath(sourcedir.getSakerPath(), DirectoryVisitPredicate.everything())));
 		sourcedir.synchronize();
 
-		Output result = new Output(typeDeclarations, sourcedir.getSakerPath());
+		RendererChooserTaskFactory.Output result = new RendererChooserTaskFactory.Output(typeDeclarations,
+				sourcedir.getSakerPath());
 		taskcontext.reportSelfTaskOutputChangeDetector(new EqualityTaskOutputChangeDetector(result));
 		return result;
 	}

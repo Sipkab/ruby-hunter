@@ -7,7 +7,6 @@ import java.io.ObjectOutput;
 
 import bence.sipka.compiler.source.TemplatedSource;
 import bence.sipka.compiler.source.TemplatedSourceSakerFile;
-import bence.sipka.rhfw.RhProjectTaskFactory.Output;
 import bence.sipka.utils.BundleContentAccess;
 import bence.sipka.utils.BundleContentAccess.BundleResourceSupplier;
 import saker.build.file.DirectoryVisitPredicate;
@@ -45,7 +44,7 @@ public class RhProjectWorkerTaskFactory
 	}
 
 	@Override
-	public Task<? extends Output> createTask(ExecutionContext executioncontext) {
+	public Task<? extends RhProjectTaskFactory.Output> createTask(ExecutionContext executioncontext) {
 		return this;
 	}
 
@@ -56,7 +55,7 @@ public class RhProjectWorkerTaskFactory
 	}
 
 	@Override
-	public Output run(TaskContext taskcontext) throws Exception {
+	public RhProjectTaskFactory.Output run(TaskContext taskcontext) throws Exception {
 		if (saker.build.meta.Versions.VERSION_FULL_COMPOUND >= 8_006) {
 			BuildTrace.classifyTask(BuildTrace.CLASSIFICATION_WORKER);
 		}
@@ -79,7 +78,7 @@ public class RhProjectWorkerTaskFactory
 				.getFilesRecursiveByPath(includedirectory.getSakerPath(), DirectoryVisitPredicate.everything())));
 		includedirectory.synchronize();
 
-		Output result = new Output(includedirectory.getSakerPath());
+		RhProjectTaskFactory.Output result = new RhProjectTaskFactory.Output(includedirectory.getSakerPath());
 		taskcontext.reportSelfTaskOutputChangeDetector(new EqualityTaskOutputChangeDetector(result));
 		return result;
 	}

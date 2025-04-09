@@ -15,7 +15,6 @@ import java.util.TreeMap;
 import java.util.regex.Pattern;
 
 import bence.sipka.user.obj3d.ObjectCollection.DuplicateObjectData;
-import bence.sipka.user.obj3d.ObjectTranslatorTaskFactory.Output;
 import saker.build.file.SakerFile;
 import saker.build.file.path.SakerPath;
 import saker.build.runtime.execution.ExecutionContext;
@@ -52,7 +51,7 @@ public class ObjectTranslatorWorkerTaskFactory implements TaskFactory<ObjectTran
 	}
 
 	@Override
-	public Task<? extends Output> createTask(ExecutionContext executioncontext) {
+	public Task<? extends ObjectTranslatorTaskFactory.Output> createTask(ExecutionContext executioncontext) {
 		return this;
 	}
 
@@ -63,7 +62,7 @@ public class ObjectTranslatorWorkerTaskFactory implements TaskFactory<ObjectTran
 	}
 
 	@Override
-	public Output run(TaskContext taskcontext) throws Exception {
+	public ObjectTranslatorTaskFactory.Output run(TaskContext taskcontext) throws Exception {
 		if (saker.build.meta.Versions.VERSION_FULL_COMPOUND >= 8_006) {
 			BuildTrace.classifyTask(BuildTrace.CLASSIFICATION_WORKER);
 		}
@@ -241,7 +240,7 @@ public class ObjectTranslatorWorkerTaskFactory implements TaskFactory<ObjectTran
 		assets.put("sapphire_yours/" + FILE_NAME_OBJECTS_3D_COLLECTION,
 				gendirectorypath.resolve(FILE_NAME_OBJECTS_3D_COLLECTION));
 
-		return new Output(objcoll, assets);
+		return new ObjectTranslatorTaskFactory.Output(objcoll, assets);
 	}
 
 	@Override

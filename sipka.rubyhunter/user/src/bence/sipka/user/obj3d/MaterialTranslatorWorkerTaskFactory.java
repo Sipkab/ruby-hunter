@@ -15,7 +15,6 @@ import java.util.Set;
 import java.util.TreeMap;
 import java.util.regex.Pattern;
 
-import bence.sipka.user.obj3d.MaterialTranslatorTaskFactory.Output;
 import saker.build.file.SakerDirectory;
 import saker.build.file.SakerFile;
 import saker.build.file.path.SakerPath;
@@ -52,7 +51,7 @@ public class MaterialTranslatorWorkerTaskFactory implements TaskFactory<Material
 	}
 
 	@Override
-	public Task<? extends Output> createTask(ExecutionContext executioncontext) {
+	public Task<? extends MaterialTranslatorTaskFactory.Output> createTask(ExecutionContext executioncontext) {
 		return this;
 	}
 
@@ -63,7 +62,7 @@ public class MaterialTranslatorWorkerTaskFactory implements TaskFactory<Material
 	}
 
 	@Override
-	public Output run(TaskContext taskcontext) throws Exception {
+	public MaterialTranslatorTaskFactory.Output run(TaskContext taskcontext) throws Exception {
 		if (saker.build.meta.Versions.VERSION_FULL_COMPOUND >= 8_006) {
 			BuildTrace.classifyTask(BuildTrace.CLASSIFICATION_WORKER);
 		}
@@ -168,7 +167,7 @@ public class MaterialTranslatorWorkerTaskFactory implements TaskFactory<Material
 			}
 		}
 
-		Output result = new Output(materials);
+		MaterialTranslatorTaskFactory.Output result = new MaterialTranslatorTaskFactory.Output(materials);
 		taskcontext.reportSelfTaskOutputChangeDetector(new EqualityTaskOutputChangeDetector(result));
 		return result;
 	}

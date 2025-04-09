@@ -11,7 +11,6 @@ import java.util.NavigableMap;
 import java.util.Objects;
 import java.util.TreeMap;
 
-import bence.sipka.compiler.audio.AudioChooserTaskFactory.Output;
 import bence.sipka.compiler.source.TemplatedSource;
 import bence.sipka.compiler.source.TemplatedSourceSakerFile;
 import bence.sipka.compiler.types.TypeDeclaration;
@@ -55,7 +54,7 @@ public class AudioChooserWorkerTaskFactory
 	}
 
 	@Override
-	public Task<? extends Output> createTask(ExecutionContext executioncontext) {
+	public Task<? extends AudioChooserTaskFactory.Output> createTask(ExecutionContext executioncontext) {
 		return this;
 	}
 
@@ -66,7 +65,7 @@ public class AudioChooserWorkerTaskFactory
 	}
 
 	@Override
-	public Output run(TaskContext taskcontext) throws Exception {
+	public AudioChooserTaskFactory.Output run(TaskContext taskcontext) throws Exception {
 		if (saker.build.meta.Versions.VERSION_FULL_COMPOUND >= 8_006) {
 			BuildTrace.classifyTask(BuildTrace.CLASSIFICATION_WORKER);
 			LinkedHashMap<Object, Object> vals = new LinkedHashMap<>();
@@ -139,7 +138,8 @@ public class AudioChooserWorkerTaskFactory
 				.getFilesRecursiveByPath(buildDirectory.getSakerPath(), DirectoryVisitPredicate.everything())));
 		buildDirectory.synchronize();
 
-		Output result = new Output(typeDeclarations, buildDirectory.getSakerPath());
+		AudioChooserTaskFactory.Output result = new AudioChooserTaskFactory.Output(typeDeclarations,
+				buildDirectory.getSakerPath());
 		taskcontext.reportSelfTaskOutputChangeDetector(new EqualityTaskOutputChangeDetector(result));
 		return result;
 	}

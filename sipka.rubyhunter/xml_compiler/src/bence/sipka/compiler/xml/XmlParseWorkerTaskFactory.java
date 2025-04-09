@@ -16,7 +16,6 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 import bence.sipka.compiler.resource.ResourceCompilerTaskFactory;
-import bence.sipka.compiler.xml.XmlParseTaskFactory.Output;
 import bence.sipka.compiler.xml.declarations.AttributeDeclaration;
 import bence.sipka.compiler.xml.declarations.ElementDeclaration;
 import saker.build.file.SakerFile;
@@ -54,7 +53,7 @@ public class XmlParseWorkerTaskFactory
 	}
 
 	@Override
-	public Task<? extends Output> createTask(ExecutionContext executioncontext) {
+	public Task<? extends XmlParseTaskFactory.Output> createTask(ExecutionContext executioncontext) {
 		return this;
 	}
 
@@ -65,13 +64,13 @@ public class XmlParseWorkerTaskFactory
 	}
 
 	@Override
-	public Output run(TaskContext taskcontext) throws Exception {
+	public XmlParseTaskFactory.Output run(TaskContext taskcontext) throws Exception {
 		if (saker.build.meta.Versions.VERSION_FULL_COMPOUND >= 8_006) {
 			BuildTrace.classifyTask(BuildTrace.CLASSIFICATION_WORKER);
 		}
 		taskcontext.setStandardOutDisplayIdentifier(XmlParseTaskFactory.TASK_NAME);
 
-		Output output = new Output();
+		XmlParseTaskFactory.Output output = new XmlParseTaskFactory.Output();
 
 		NavigableMap<SakerPath, SakerFile> inputfiles = taskcontext.getTaskUtilities()
 				.collectFilesReportInputFileAndAdditionDependency(null, input);
@@ -135,7 +134,7 @@ public class XmlParseWorkerTaskFactory
 		return decl;
 	}
 
-	private static void parseConfigFile(Document doc, Output output) {
+	private static void parseConfigFile(Document doc, XmlParseTaskFactory.Output output) {
 		Node root = doc.getFirstChild();
 		NodeList children = root.getChildNodes();
 		for (int i = 0; i < children.getLength(); i++) {
@@ -149,11 +148,11 @@ public class XmlParseWorkerTaskFactory
 		doc.removeChild(root);
 	}
 
-	private static void parse(Document doc, Output output) {
+	private static void parse(Document doc, XmlParseTaskFactory.Output output) {
 		collectIdentifiers(doc.getFirstChild(), output);
 	}
 
-	public static void collectIdentifiers(Node n, Output output) {
+	public static void collectIdentifiers(Node n, XmlParseTaskFactory.Output output) {
 		if (n == null || n.getNodeType() != Element.ELEMENT_NODE)
 			return;
 		getUserIdFor(n, output);
@@ -163,7 +162,7 @@ public class XmlParseWorkerTaskFactory
 		}
 	}
 
-	public static int getUserIdFor(Node n, Output output) {
+	public static int getUserIdFor(Node n, XmlParseTaskFactory.Output output) {
 		Node idattr = n.getAttributes().getNamedItemNS(XmlCompilerWorkerTaskFactory.CONFIG_NAMESPACE_URI, ATTR_USER_ID);
 		if (idattr == null)
 			return NO_USER_ID;

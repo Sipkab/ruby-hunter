@@ -29,7 +29,6 @@ import bence.sipka.compiler.types.TypeDeclaration;
 import bence.sipka.compiler.types.TypesTaskFactory;
 import bence.sipka.compiler.types.builtin.IntegerType;
 import bence.sipka.compiler.types.builtin.ShortType;
-import bence.sipka.compiler.xml.XmlCompilerTaskFactory.Output;
 import bence.sipka.compiler.xml.declarations.AttributeDeclaration;
 import bence.sipka.compiler.xml.declarations.ElementDeclaration;
 import bence.sipka.utils.BundleContentAccess;
@@ -84,7 +83,7 @@ public class XmlCompilerWorkerTaskFactory
 	}
 
 	@Override
-	public Task<? extends Output> createTask(ExecutionContext executioncontext) {
+	public Task<? extends XmlCompilerTaskFactory.Output> createTask(ExecutionContext executioncontext) {
 		return this;
 	}
 
@@ -95,7 +94,7 @@ public class XmlCompilerWorkerTaskFactory
 	}
 
 	@Override
-	public Output run(TaskContext taskcontext) throws Exception {
+	public XmlCompilerTaskFactory.Output run(TaskContext taskcontext) throws Exception {
 		if (saker.build.meta.Versions.VERSION_FULL_COMPOUND >= 8_006) {
 			BuildTrace.classifyTask(BuildTrace.CLASSIFICATION_WORKER);
 		}
@@ -163,7 +162,7 @@ public class XmlCompilerWorkerTaskFactory
 				.getFilesRecursiveByPath(buildDirectory.getSakerPath(), DirectoryVisitPredicate.everything())));
 		buildDirectory.synchronize();
 
-		Output result = new Output(buildDirectory.getSakerPath());
+		XmlCompilerTaskFactory.Output result = new XmlCompilerTaskFactory.Output(buildDirectory.getSakerPath());
 		taskcontext.reportSelfTaskOutputChangeDetector(new EqualityTaskOutputChangeDetector(result));
 		return result;
 	}
@@ -221,7 +220,7 @@ public class XmlCompilerWorkerTaskFactory
 			final int attributelength = attrs.getLength();
 			for (int i = 0; i < attributelength; i++) {
 				Node attr = attrs.item(i);
-				if (!attributeTester.test(attr))
+				if (!ATTRIBUTE_TESTER.test(attr))
 					continue;
 				AttributeDeclaration attrdecl = dynamictype.findAttribute(attr.getLocalName(), output.xmlelements);
 				if (attrdecl == null)
@@ -272,14 +271,14 @@ public class XmlCompilerWorkerTaskFactory
 		return elememtname.indexOf('.') >= 0;
 	}
 
-	private Predicate<Node> attributeTester = attr -> {
+	private static final Predicate<Node> ATTRIBUTE_TESTER = attr -> {
 		return !"xmlns".equals(attr.getPrefix()) && !CONFIG_NAMESPACE_URI.equals(attr.getNamespaceURI());
 	};
 
-	private int countValidAttributes(NamedNodeMap attrs) {
+	private static int countValidAttributes(NamedNodeMap attrs) {
 		int result = 0;
 		for (int i = 0; i < attrs.getLength(); i++) {
-			if (attributeTester.test(attrs.item(i)))
+			if (ATTRIBUTE_TESTER.test(attrs.item(i)))
 				++result;
 		}
 		return result;
@@ -334,7 +333,7 @@ public class XmlCompilerWorkerTaskFactory
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ((attributeTester == null) ? 0 : attributeTester.hashCode());
+		result = prime * result + ((ATTRIBUTE_TESTER == null) ? 0 : ATTRIBUTE_TESTER.hashCode());
 		result = prime * result + ((output == null) ? 0 : output.hashCode());
 		result = prime * result + ((typesOption == null) ? 0 : typesOption.hashCode());
 		return result;
@@ -349,10 +348,10 @@ public class XmlCompilerWorkerTaskFactory
 		if (getClass() != obj.getClass())
 			return false;
 		XmlCompilerWorkerTaskFactory other = (XmlCompilerWorkerTaskFactory) obj;
-		if (attributeTester == null) {
-			if (other.attributeTester != null)
+		if (ATTRIBUTE_TESTER == null) {
+			if (other.ATTRIBUTE_TESTER != null)
 				return false;
-		} else if (!attributeTester.equals(other.attributeTester))
+		} else if (!ATTRIBUTE_TESTER.equals(other.ATTRIBUTE_TESTER))
 			return false;
 		if (output == null) {
 			if (other.output != null)

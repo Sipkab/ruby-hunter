@@ -18,7 +18,6 @@ import bence.sipka.compiler.resource.ResourceCompilerTaskFactory;
 import bence.sipka.compiler.source.SourceSakerFile;
 import bence.sipka.compiler.source.TemplatedSource;
 import bence.sipka.compiler.source.TemplatedSourceSakerFile;
-import bence.sipka.compiler.types.TypesTaskFactory.Output;
 import bence.sipka.compiler.types.TypesTaskFactory.TypesSourcesData;
 import bence.sipka.compiler.types.builtin.BooleanType;
 import bence.sipka.compiler.types.builtin.ByteType;
@@ -73,7 +72,7 @@ public class TypesWorkerTaskFactory
 	}
 
 	@Override
-	public Task<? extends Output> createTask(ExecutionContext executioncontext) {
+	public Task<? extends TypesTaskFactory.Output> createTask(ExecutionContext executioncontext) {
 		return this;
 	}
 
@@ -84,7 +83,7 @@ public class TypesWorkerTaskFactory
 	}
 
 	@Override
-	public Output run(TaskContext taskcontext) throws Exception {
+	public TypesTaskFactory.Output run(TaskContext taskcontext) throws Exception {
 		if (saker.build.meta.Versions.VERSION_FULL_COMPOUND >= 8_006) {
 			BuildTrace.classifyTask(BuildTrace.CLASSIFICATION_WORKER);
 		}
@@ -173,7 +172,7 @@ public class TypesWorkerTaskFactory
 				.getFilesRecursiveByPath(outputDirectory.getSakerPath(), DirectoryVisitPredicate.everything())));
 		outputDirectory.synchronize();
 
-		Output result = new Output(typeDeclarations, sourcesdir.getSakerPath());
+		TypesTaskFactory.Output result = new TypesTaskFactory.Output(typeDeclarations, sourcesdir.getSakerPath());
 		taskcontext.reportSelfTaskOutputChangeDetector(new EqualityTaskOutputChangeDetector(result));
 		return result;
 	}

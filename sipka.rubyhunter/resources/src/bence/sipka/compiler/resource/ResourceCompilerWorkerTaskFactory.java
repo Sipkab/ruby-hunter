@@ -16,7 +16,6 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 import bence.sipka.compiler.asset.AssetsCompilerTaskFactory;
-import bence.sipka.compiler.resource.ResourceCompilerTaskFactory.Output;
 import bence.sipka.compiler.source.TemplatedSource;
 import bence.sipka.compiler.source.TemplatedSourceSakerFile;
 import bence.sipka.compiler.types.TypeDeclaration;
@@ -63,7 +62,7 @@ public class ResourceCompilerWorkerTaskFactory implements TaskFactory<ResourceCo
 	}
 
 	@Override
-	public Task<? extends Output> createTask(ExecutionContext executioncontext) {
+	public Task<? extends ResourceCompilerTaskFactory.Output> createTask(ExecutionContext executioncontext) {
 		return this;
 	}
 
@@ -74,7 +73,7 @@ public class ResourceCompilerWorkerTaskFactory implements TaskFactory<ResourceCo
 	}
 
 	@Override
-	public Output run(TaskContext taskcontext) throws Exception {
+	public ResourceCompilerTaskFactory.Output run(TaskContext taskcontext) throws Exception {
 		if (saker.build.meta.Versions.VERSION_FULL_COMPOUND >= 8_006) {
 			BuildTrace.classifyTask(BuildTrace.CLASSIFICATION_WORKER);
 		}
@@ -124,7 +123,7 @@ public class ResourceCompilerWorkerTaskFactory implements TaskFactory<ResourceCo
 				.getFilesRecursiveByPath(outputDirectory.getSakerPath(), DirectoryVisitPredicate.everything())));
 		outputDirectory.synchronize();
 
-		return new Output(typeDeclarations, outputDirectory.getSakerPath());
+		return new ResourceCompilerTaskFactory.Output(typeDeclarations, outputDirectory.getSakerPath());
 	}
 
 	private static void parseConfigFile(Document doc, Map<String, Qualifier> qualifiers,

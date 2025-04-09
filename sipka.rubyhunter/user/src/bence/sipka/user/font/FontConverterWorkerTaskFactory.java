@@ -17,7 +17,6 @@ import java.util.Set;
 import java.util.TreeMap;
 import java.util.TreeSet;
 
-import bence.sipka.user.font.FontConverterTaskFactory.Output;
 import bence.sipka.user.sapphire.ImageSakerFile;
 import saker.build.file.ByteArraySakerFile;
 import saker.build.file.DirectoryVisitPredicate;
@@ -61,7 +60,7 @@ public class FontConverterWorkerTaskFactory
 	}
 
 	@Override
-	public Task<? extends Output> createTask(ExecutionContext executioncontext) {
+	public Task<? extends FontConverterTaskFactory.Output> createTask(ExecutionContext executioncontext) {
 		return this;
 	}
 
@@ -72,7 +71,7 @@ public class FontConverterWorkerTaskFactory
 	}
 
 	@Override
-	public Output run(TaskContext taskcontext) throws Exception {
+	public FontConverterTaskFactory.Output run(TaskContext taskcontext) throws Exception {
 		if (saker.build.meta.Versions.VERSION_FULL_COMPOUND >= 8_006) {
 			BuildTrace.classifyTask(BuildTrace.CLASSIFICATION_WORKER);
 		}
@@ -102,7 +101,7 @@ public class FontConverterWorkerTaskFactory
 				.getFilesRecursiveByPath(buildDirectory.getSakerPath(), DirectoryVisitPredicate.everything())));
 		buildDirectory.synchronize();
 
-		Output result = new Output(assets, xmls);
+		FontConverterTaskFactory.Output result = new FontConverterTaskFactory.Output(assets, xmls);
 		taskcontext.reportSelfTaskOutputChangeDetector(new EqualityTaskOutputChangeDetector(result));
 		return result;
 	}

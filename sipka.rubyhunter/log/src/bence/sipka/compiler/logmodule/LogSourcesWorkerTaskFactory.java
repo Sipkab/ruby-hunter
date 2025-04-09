@@ -7,7 +7,6 @@ import java.io.ObjectOutput;
 import java.util.LinkedHashMap;
 import java.util.Objects;
 
-import bence.sipka.compiler.logmodule.LogSourcesTaskFactory.Output;
 import bence.sipka.compiler.source.TemplatedSource;
 import bence.sipka.compiler.source.TemplatedSourceSakerFile;
 import bence.sipka.utils.BundleContentAccess;
@@ -43,7 +42,7 @@ public class LogSourcesWorkerTaskFactory
 	}
 
 	@Override
-	public Task<? extends Output> createTask(ExecutionContext executioncontext) {
+	public Task<? extends LogSourcesTaskFactory.Output> createTask(ExecutionContext executioncontext) {
 		return this;
 	}
 
@@ -54,7 +53,7 @@ public class LogSourcesWorkerTaskFactory
 	}
 
 	@Override
-	public Output run(TaskContext taskcontext) throws Exception {
+	public LogSourcesTaskFactory.Output run(TaskContext taskcontext) throws Exception {
 		if (saker.build.meta.Versions.VERSION_FULL_COMPOUND >= 8_006) {
 			BuildTrace.classifyTask(BuildTrace.CLASSIFICATION_WORKER);
 			LinkedHashMap<Object, Object> vals = new LinkedHashMap<>();
@@ -85,7 +84,7 @@ public class LogSourcesWorkerTaskFactory
 				.getFilesRecursiveByPath(outputDirectory.getSakerPath(), DirectoryVisitPredicate.everything())));
 		outputDirectory.synchronize();
 
-		Output result = new Output(outputDirectory.getSakerPath());
+		LogSourcesTaskFactory.Output result = new LogSourcesTaskFactory.Output(outputDirectory.getSakerPath());
 		taskcontext.reportSelfTaskOutputChangeDetector(new EqualityTaskOutputChangeDetector(result));
 		return result;
 	}

@@ -8,7 +8,6 @@ import java.util.Map.Entry;
 import java.util.NavigableMap;
 import java.util.TreeMap;
 
-import bence.sipka.compiler.asset.AssetsCompilerTaskFactory.Output;
 import bence.sipka.compiler.source.TemplatedSource;
 import bence.sipka.compiler.source.TemplatedSourceSakerFile;
 import bence.sipka.compiler.types.TypeDeclaration;
@@ -46,7 +45,7 @@ public class AssetsCompilerWorkerTaskFactory implements TaskFactory<AssetsCompil
 	}
 
 	@Override
-	public Output run(TaskContext taskcontext) throws Exception {
+	public AssetsCompilerTaskFactory.Output run(TaskContext taskcontext) throws Exception {
 		if (saker.build.meta.Versions.VERSION_FULL_COMPOUND >= 8_006) {
 			BuildTrace.classifyTask(BuildTrace.CLASSIFICATION_WORKER);
 		}
@@ -86,7 +85,8 @@ public class AssetsCompilerWorkerTaskFactory implements TaskFactory<AssetsCompil
 		AssetTypeDeclaration assettype = new AssetTypeDeclaration(assetIdentifiersMap);
 		typeDeclarations.put(assettype.getName(), assettype);
 
-		return new Output(assetIdentifiersMap, typeDeclarations, allmappings, sourcesdir.getSakerPath());
+		return new AssetsCompilerTaskFactory.Output(assetIdentifiersMap, typeDeclarations, allmappings,
+				sourcesdir.getSakerPath());
 	}
 
 	public AssetsCompilerWorkerTaskFactory(bence.sipka.compiler.asset.AssetsAllocatorTaskFactory.Output inputOption) {
@@ -94,7 +94,7 @@ public class AssetsCompilerWorkerTaskFactory implements TaskFactory<AssetsCompil
 	}
 
 	@Override
-	public Task<? extends Output> createTask(ExecutionContext executioncontext) {
+	public Task<? extends AssetsCompilerTaskFactory.Output> createTask(ExecutionContext executioncontext) {
 		return this;
 	}
 

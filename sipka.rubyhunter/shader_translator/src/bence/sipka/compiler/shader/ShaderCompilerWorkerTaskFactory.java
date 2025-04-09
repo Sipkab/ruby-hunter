@@ -20,7 +20,6 @@ import java.util.TreeMap;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
-import bence.sipka.compiler.shader.ShaderCompilerTaskFactory.Output;
 import bence.sipka.compiler.shader.elements.VariableDeclaration;
 import bence.sipka.compiler.shader.translator.DirectX11ShaderTranslator;
 import bence.sipka.compiler.shader.translator.OpenGl30ShaderTranslator;
@@ -103,7 +102,7 @@ public class ShaderCompilerWorkerTaskFactory implements TaskFactory<ShaderCompil
 	}
 
 	@Override
-	public Task<? extends Output> createTask(ExecutionContext executioncontext) {
+	public Task<? extends ShaderCompilerTaskFactory.Output> createTask(ExecutionContext executioncontext) {
 		return this;
 	}
 
@@ -114,7 +113,7 @@ public class ShaderCompilerWorkerTaskFactory implements TaskFactory<ShaderCompil
 	}
 
 	@Override
-	public Output run(TaskContext taskcontext) throws Exception {
+	public ShaderCompilerTaskFactory.Output run(TaskContext taskcontext) throws Exception {
 		if (saker.build.meta.Versions.VERSION_FULL_COMPOUND >= 8_006) {
 			BuildTrace.classifyTask(BuildTrace.CLASSIFICATION_WORKER);
 			LinkedHashMap<Object, Object> vals = new LinkedHashMap<>();
@@ -214,7 +213,7 @@ public class ShaderCompilerWorkerTaskFactory implements TaskFactory<ShaderCompil
 
 		//TODO outputs as assets
 
-		return new Output(cppoutdir.getSakerPath(), typeDeclarations, applicationAssets);
+		return new ShaderCompilerTaskFactory.Output(cppoutdir.getSakerPath(), typeDeclarations, applicationAssets);
 	}
 
 	private static void writeShaderResourceHeader(ShaderResource res, SakerDirectory shaderGenSourcesDir) {

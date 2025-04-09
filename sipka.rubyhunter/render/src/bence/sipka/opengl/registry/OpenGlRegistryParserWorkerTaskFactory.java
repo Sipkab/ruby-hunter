@@ -28,9 +28,7 @@ import org.xml.sax.SAXException;
 import bence.sipka.compiler.source.SourceTemplateTranslator;
 import bence.sipka.compiler.source.SourceTemplateTranslator.TranslationHandler;
 import bence.sipka.compiler.source.TemplatedSource;
-import bence.sipka.compiler.source.TemplatedSourceSakerFile;
 import bence.sipka.opengl.registry.Command.Param;
-import bence.sipka.opengl.registry.OpenGlRegistryParserTaskFactory.Output;
 import bence.sipka.utils.BundleContentAccess;
 import bence.sipka.utils.BundleContentAccess.BundleResourceSupplier;
 import saker.build.file.ByteArraySakerFile;
@@ -81,7 +79,7 @@ public class OpenGlRegistryParserWorkerTaskFactory implements TaskFactory<OpenGl
 	}
 
 	@Override
-	public Task<? extends Output> createTask(ExecutionContext executioncontext) {
+	public Task<? extends OpenGlRegistryParserTaskFactory.Output> createTask(ExecutionContext executioncontext) {
 		return this;
 	}
 
@@ -92,7 +90,7 @@ public class OpenGlRegistryParserWorkerTaskFactory implements TaskFactory<OpenGl
 	}
 
 	@Override
-	public Output run(TaskContext taskcontext) throws Exception {
+	public OpenGlRegistryParserTaskFactory.Output run(TaskContext taskcontext) throws Exception {
 		if (saker.build.meta.Versions.VERSION_FULL_COMPOUND >= 8_006) {
 			BuildTrace.classifyTask(BuildTrace.CLASSIFICATION_WORKER);
 			LinkedHashMap<Object, Object> vals = new LinkedHashMap<>();
@@ -148,7 +146,8 @@ public class OpenGlRegistryParserWorkerTaskFactory implements TaskFactory<OpenGl
 				srcdir.getFilesRecursiveByPath(srcdir.getSakerPath(), DirectoryVisitPredicate.everything())));
 		srcdir.synchronize();
 
-		Output result = new Output(buildDirectory.getSakerPath());
+		OpenGlRegistryParserTaskFactory.Output result = new OpenGlRegistryParserTaskFactory.Output(
+				buildDirectory.getSakerPath());
 		taskcontext.reportSelfTaskOutputChangeDetector(new EqualityTaskOutputChangeDetector(result));
 		return result;
 	}

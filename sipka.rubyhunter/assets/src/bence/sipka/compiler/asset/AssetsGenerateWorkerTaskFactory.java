@@ -9,7 +9,6 @@ import java.util.Map.Entry;
 import java.util.NavigableMap;
 import java.util.TreeMap;
 
-import bence.sipka.compiler.asset.AssetsGenerateTaskFactory.Output;
 import saker.build.file.DelegateSakerFile;
 import saker.build.file.DirectoryVisitPredicate;
 import saker.build.file.SakerDirectory;
@@ -41,7 +40,7 @@ public class AssetsGenerateWorkerTaskFactory implements TaskFactory<AssetsGenera
 	}
 
 	@Override
-	public Task<? extends Output> createTask(ExecutionContext executioncontext) {
+	public Task<? extends AssetsGenerateTaskFactory.Output> createTask(ExecutionContext executioncontext) {
 		return this;
 	}
 
@@ -52,7 +51,7 @@ public class AssetsGenerateWorkerTaskFactory implements TaskFactory<AssetsGenera
 	}
 
 	@Override
-	public Output run(TaskContext taskcontext) throws Exception {
+	public AssetsGenerateTaskFactory.Output run(TaskContext taskcontext) throws Exception {
 		if (saker.build.meta.Versions.VERSION_FULL_COMPOUND >= 8_006) {
 			BuildTrace.classifyTask(BuildTrace.CLASSIFICATION_WORKER);
 		}
@@ -73,7 +72,7 @@ public class AssetsGenerateWorkerTaskFactory implements TaskFactory<AssetsGenera
 			if (f == null) {
 				throw new FileNotFoundException(entry.getValue().toString());
 			}
-			
+
 			taskcontext.reportInputFileDependency(null, entry.getValue(), f.getContentDescriptor());
 
 			String assetname = entry.getKey();
@@ -85,7 +84,7 @@ public class AssetsGenerateWorkerTaskFactory implements TaskFactory<AssetsGenera
 				.getFilesRecursiveByPath(outputDirectory.getSakerPath(), DirectoryVisitPredicate.everything())));
 		outputDirectory.synchronize();
 
-		Output result = new Output(assetsdir.getSakerPath());
+		AssetsGenerateTaskFactory.Output result = new AssetsGenerateTaskFactory.Output(assetsdir.getSakerPath());
 		taskcontext.reportSelfTaskOutputChangeDetector(new EqualityTaskOutputChangeDetector(result));
 		return result;
 	}

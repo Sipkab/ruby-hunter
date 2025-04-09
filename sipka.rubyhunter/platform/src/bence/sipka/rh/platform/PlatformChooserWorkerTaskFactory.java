@@ -6,7 +6,6 @@ import java.io.ObjectInput;
 import java.io.ObjectOutput;
 import java.util.LinkedHashMap;
 
-import bence.sipka.rh.platform.PlatformChooserTaskFactory.Output;
 import bence.sipka.utils.BundleContentAccess;
 import bence.sipka.utils.BundleContentAccess.BundleResourceSupplier;
 import saker.build.file.ByteArraySakerFile;
@@ -41,7 +40,7 @@ public class PlatformChooserWorkerTaskFactory implements TaskFactory<PlatformCho
 	}
 
 	@Override
-	public Task<? extends Output> createTask(ExecutionContext executioncontext) {
+	public Task<? extends PlatformChooserTaskFactory.Output> createTask(ExecutionContext executioncontext) {
 		return this;
 	}
 
@@ -52,7 +51,7 @@ public class PlatformChooserWorkerTaskFactory implements TaskFactory<PlatformCho
 	}
 
 	@Override
-	public Output run(TaskContext taskcontext) throws Exception {
+	public PlatformChooserTaskFactory.Output run(TaskContext taskcontext) throws Exception {
 		if (saker.build.meta.Versions.VERSION_FULL_COMPOUND >= 8_006) {
 			BuildTrace.classifyTask(BuildTrace.CLASSIFICATION_WORKER);
 			LinkedHashMap<Object, Object> vals = new LinkedHashMap<>();
@@ -120,7 +119,7 @@ public class PlatformChooserWorkerTaskFactory implements TaskFactory<PlatformCho
 				sourcedir.getFilesRecursiveByPath(sourcedir.getSakerPath(), DirectoryVisitPredicate.everything())));
 		sourcedir.synchronize();
 
-		Output result = new Output(sourcedir.getSakerPath());
+		PlatformChooserTaskFactory.Output result = new PlatformChooserTaskFactory.Output(sourcedir.getSakerPath());
 		taskcontext.reportSelfTaskOutputChangeDetector(new EqualityTaskOutputChangeDetector(result));
 		return result;
 	}

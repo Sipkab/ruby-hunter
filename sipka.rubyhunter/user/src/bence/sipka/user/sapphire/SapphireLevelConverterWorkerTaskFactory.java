@@ -19,7 +19,6 @@ import java.util.Set;
 import java.util.TreeMap;
 
 import bence.sipka.compiler.types.builtin.IntegerType;
-import bence.sipka.user.sapphire.SapphireLevelConverterTaskFactory.Output;
 import saker.build.file.ByteArraySakerFile;
 import saker.build.file.DirectoryVisitPredicate;
 import saker.build.file.SakerDirectory;
@@ -80,7 +79,7 @@ public class SapphireLevelConverterWorkerTaskFactory implements TaskFactory<Sapp
 	}
 
 	@Override
-	public Task<? extends Output> createTask(ExecutionContext executioncontext) {
+	public Task<? extends SapphireLevelConverterTaskFactory.Output> createTask(ExecutionContext executioncontext) {
 		return this;
 	}
 
@@ -91,7 +90,7 @@ public class SapphireLevelConverterWorkerTaskFactory implements TaskFactory<Sapp
 	}
 
 	@Override
-	public Output run(TaskContext taskcontext) throws Exception {
+	public SapphireLevelConverterTaskFactory.Output run(TaskContext taskcontext) throws Exception {
 		if (saker.build.meta.Versions.VERSION_FULL_COMPOUND >= 8_006) {
 			BuildTrace.classifyTask(BuildTrace.CLASSIFICATION_WORKER);
 		}
@@ -129,7 +128,7 @@ public class SapphireLevelConverterWorkerTaskFactory implements TaskFactory<Sapp
 				.getFilesRecursiveByPath(genDirectory.getSakerPath(), DirectoryVisitPredicate.everything())));
 		genDirectory.synchronize();
 
-		Output result = new Output(assets);
+		SapphireLevelConverterTaskFactory.Output result = new SapphireLevelConverterTaskFactory.Output(assets);
 		taskcontext.reportSelfTaskOutputChangeDetector(new EqualityTaskOutputChangeDetector(result));
 		return result;
 	}

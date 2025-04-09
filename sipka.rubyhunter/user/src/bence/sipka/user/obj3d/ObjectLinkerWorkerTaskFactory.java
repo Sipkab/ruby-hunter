@@ -10,7 +10,6 @@ import java.util.TreeMap;
 
 import bence.sipka.compiler.asset.AssetsAllocatorTaskFactory;
 import bence.sipka.user.obj3d.ObjectCollection.DuplicateObjectData;
-import bence.sipka.user.obj3d.ObjectTranslatorTaskFactory.Output;
 import saker.build.file.ByteArraySakerFile;
 import saker.build.file.DirectoryVisitPredicate;
 import saker.build.file.SakerDirectory;
@@ -38,7 +37,7 @@ public class ObjectLinkerWorkerTaskFactory implements TaskFactory<Object>, Task<
 	public ObjectLinkerWorkerTaskFactory() {
 	}
 
-	public ObjectLinkerWorkerTaskFactory(Output translaterOutputOption,
+	public ObjectLinkerWorkerTaskFactory(ObjectTranslatorTaskFactory.Output translaterOutputOption,
 			bence.sipka.compiler.asset.AssetsAllocatorTaskFactory.Output assetsOption) {
 		this.translaterOutputOption = translaterOutputOption;
 		this.assetsOption = assetsOption;

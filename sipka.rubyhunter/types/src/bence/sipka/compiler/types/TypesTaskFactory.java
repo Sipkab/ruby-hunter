@@ -118,6 +118,19 @@ public class TypesTaskFactory extends FrontendTaskFactory<Object> {
 				return false;
 			return true;
 		}
+
+		@Override
+		public String toString() {
+			StringBuilder builder = new StringBuilder(getClass().getName());
+			builder.append("[sourceDirectory=");
+			builder.append(sourceDirectory);
+			if (typeDeclarations != null) {
+				builder.append(", typeDeclarations=");
+				builder.append(typeDeclarations.keySet());
+			}
+			builder.append("]");
+			return builder.toString();
+		}
 	}
 
 	@Override

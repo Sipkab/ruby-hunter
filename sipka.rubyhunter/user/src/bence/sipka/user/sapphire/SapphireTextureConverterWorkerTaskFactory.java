@@ -20,7 +20,6 @@ import java.util.TreeSet;
 
 import javax.imageio.ImageIO;
 
-import bence.sipka.user.sapphire.SapphireTextureConverterTaskFactory.Output;
 import saker.build.file.DirectoryVisitPredicate;
 import saker.build.file.SakerDirectory;
 import saker.build.file.SakerFile;
@@ -58,7 +57,7 @@ public class SapphireTextureConverterWorkerTaskFactory
 	}
 
 	@Override
-	public Task<? extends Output> createTask(ExecutionContext executioncontext) {
+	public Task<? extends SapphireTextureConverterTaskFactory.Output> createTask(ExecutionContext executioncontext) {
 		return this;
 	}
 
@@ -69,7 +68,7 @@ public class SapphireTextureConverterWorkerTaskFactory
 	}
 
 	@Override
-	public Output run(TaskContext taskcontext) throws Exception {
+	public SapphireTextureConverterTaskFactory.Output run(TaskContext taskcontext) throws Exception {
 		if (saker.build.meta.Versions.VERSION_FULL_COMPOUND >= 8_006) {
 			BuildTrace.classifyTask(BuildTrace.CLASSIFICATION_WORKER);
 		}
@@ -150,20 +149,22 @@ public class SapphireTextureConverterWorkerTaskFactory
 				.getFilesRecursiveByPath(genDirectory.getSakerPath(), DirectoryVisitPredicate.everything())));
 		genDirectory.synchronize();
 
-		Output result = new Output(assets, xmls);
+		SapphireTextureConverterTaskFactory.Output result = new SapphireTextureConverterTaskFactory.Output(assets,
+				xmls);
 		taskcontext.reportSelfTaskOutputChangeDetector(new EqualityTaskOutputChangeDetector(result));
 		return result;
 	}
 
-	private static TextureSakerFile createNewTexture(Collection<Element> elements, Collection<TextureSakerFile> textures) {
+	private static TextureSakerFile createNewTexture(Collection<Element> elements,
+			Collection<TextureSakerFile> textures) {
 		int rem = elements.size();
 		int dim = calcDim(rem);
 		TextureSakerFile result = new TextureSakerFile("_sapphire_anim_texture_" + textures.size() + ".png", dim);
 		return result;
 	}
 
-	private static void parseTexturesFile(SakerFile file, Collection<Animation> animations, Collection<Element> elements)
-			throws IOException {
+	private static void parseTexturesFile(SakerFile file, Collection<Animation> animations,
+			Collection<Element> elements) throws IOException {
 		BufferedImage img;
 		try (InputStream is = file.openInputStream()) {
 			img = ImageIO.read(is);

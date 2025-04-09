@@ -12,7 +12,6 @@ import java.util.NavigableMap;
 import java.util.Set;
 import java.util.TreeMap;
 
-import bence.sipka.compiler.asset.AssetsAllocatorTaskFactory.Output;
 import bence.sipka.utils.BundleContentAccess;
 import bence.sipka.utils.BundleContentAccess.BundleResourceSupplier;
 import saker.build.file.SakerDirectory;
@@ -53,7 +52,7 @@ public class AssetsAllocatorWorkerTaskFactory implements TaskFactory<AssetsAlloc
 	}
 
 	@Override
-	public Task<? extends Output> createTask(ExecutionContext executioncontext) {
+	public Task<? extends AssetsAllocatorTaskFactory.Output> createTask(ExecutionContext executioncontext) {
 		return this;
 	}
 
@@ -64,7 +63,7 @@ public class AssetsAllocatorWorkerTaskFactory implements TaskFactory<AssetsAlloc
 	}
 
 	@Override
-	public Output run(TaskContext taskcontext) throws Exception {
+	public AssetsAllocatorTaskFactory.Output run(TaskContext taskcontext) throws Exception {
 		if (saker.build.meta.Versions.VERSION_FULL_COMPOUND >= 8_006) {
 			BuildTrace.classifyTask(BuildTrace.CLASSIFICATION_WORKER);
 		}
@@ -125,7 +124,7 @@ public class AssetsAllocatorWorkerTaskFactory implements TaskFactory<AssetsAlloc
 			identifierpaths.put(assetid, assetpath);
 			assetentrymap.put(assetname, ImmutableUtils.makeImmutableMapEntry(assetpath, assetid));
 		}
-		return new Output(assetentrymap);
+		return new AssetsAllocatorTaskFactory.Output(assetentrymap);
 	}
 
 	@Override
