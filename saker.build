@@ -581,7 +581,7 @@ compile_macosx(
 ) {
 	$preset = saker.apple.preset(
 		macosx,
-		PlatformVersionMin: "10.9",
+		PlatformVersionMin: "11.0",
 		Frameworks: [
 			OpenAL,
 			Cocoa,
@@ -719,7 +719,7 @@ compile_ios(
 ) {
 	$preset = saker.apple.preset(
 		iphoneos,
-		Architecture: armv7,
+		Architecture: armv64,
 		PlatformVersionMin: "11.0",
 		Frameworks: [
 			OpenAL,
