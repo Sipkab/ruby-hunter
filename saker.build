@@ -545,7 +545,7 @@ run_winstore(
 	saker.appx.launch($register)
 }
 bundle_winstore(
-	in architectures = [x64, x86, arm, arm64]
+	in architectures = [x64, x86, arm64]
 	out bundle
 ) {
 	$mappings = foreach $arch in $architectures 
@@ -581,7 +581,7 @@ compile_macosx(
 ) {
 	$preset = saker.apple.preset(
 		macosx,
-		PlatformVersionMin: "10.9",
+		PlatformVersionMin: "11.0",
 		Frameworks: [
 			OpenAL,
 			Cocoa,
@@ -719,8 +719,8 @@ compile_ios(
 ) {
 	$preset = saker.apple.preset(
 		iphoneos,
-		Architecture: armv7,
-		PlatformVersionMin: "7.0",
+		Architecture: arm64,
+		PlatformVersionMin: "11.0",
 		Frameworks: [
 			OpenAL,
 			# for EGL functions
