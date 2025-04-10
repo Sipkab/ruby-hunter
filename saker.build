@@ -545,7 +545,7 @@ run_winstore(
 	saker.appx.launch($register)
 }
 bundle_winstore(
-	in architectures = [x64, x86, arm, arm64]
+	in architectures = [x64, x86, arm64]
 	out bundle
 ) {
 	$mappings = foreach $arch in $architectures 
