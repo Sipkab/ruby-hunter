@@ -719,7 +719,7 @@ compile_ios(
 ) {
 	$preset = saker.apple.preset(
 		iphoneos,
-		Architecture: armv64,
+		Architecture: arm64,
 		PlatformVersionMin: "11.0",
 		Frameworks: [
 			OpenAL,
