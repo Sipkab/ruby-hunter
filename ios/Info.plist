@@ -54,7 +54,7 @@
 	<array>
 		<dict>
 			<key>UILaunchImageMinimumOSVersion</key>
-			<string>7.0</string>
+			<string>11.0</string>
 			<key>UILaunchImageName</key>
 			<string>LaunchImage-1024-Landscape</string>
 			<key>UILaunchImageOrientation</key>
@@ -64,7 +64,7 @@
 		</dict>
 		<dict>
 			<key>UILaunchImageMinimumOSVersion</key>
-			<string>7.0</string>
+			<string>11.0</string>
 			<key>UILaunchImageName</key>
 			<string>LaunchImage-1024-Portrait</string>
 			<key>UILaunchImageOrientation</key>
@@ -74,7 +74,7 @@
 		</dict>
 		<dict>
 			<key>UILaunchImageMinimumOSVersion</key>
-			<string>7.0</string>
+			<string>11.0</string>
 			<key>UILaunchImageName</key>
 			<string>LaunchImage-480-Portrait</string>
 			<key>UILaunchImageOrientation</key>
@@ -84,7 +84,7 @@
 		</dict>
 		<dict>
 			<key>UILaunchImageMinimumOSVersion</key>
-			<string>7.0</string>
+			<string>11.0</string>
 			<key>UILaunchImageName</key>
 			<string>LaunchImage-568-Portrait</string>
 			<key>UILaunchImageOrientation</key>
@@ -94,7 +94,7 @@
 		</dict>
 		<dict>
 			<key>UILaunchImageMinimumOSVersion</key>
-			<string>7.0</string>
+			<string>11.0</string>
 			<key>UILaunchImageName</key>
 			<string>LaunchImage-667-Portrait</string>
 			<key>UILaunchImageOrientation</key>
@@ -104,7 +104,7 @@
 		</dict>
 		<dict>
 			<key>UILaunchImageMinimumOSVersion</key>
-			<string>7.0</string>
+			<string>11.0</string>
 			<key>UILaunchImageName</key>
 			<string>LaunchImage-736-Portrait</string>
 			<key>UILaunchImageOrientation</key>
@@ -115,7 +115,7 @@
 	</array>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
-		<string>armv7</string>
+		<string>arm64</string>
 	</array>
 	<key>UIRequiresFullScreen</key>
 	<true/>
