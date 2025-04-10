@@ -720,7 +720,7 @@ compile_ios(
 	$preset = saker.apple.preset(
 		iphoneos,
 		Architecture: armv7,
-		PlatformVersionMin: "7.0",
+		PlatformVersionMin: "11.0",
 		Frameworks: [
 			OpenAL,
 			# for EGL functions
